@@ -156,6 +156,14 @@ def rod_end(row: dict) -> list[Part]:
     ]
 
 
+# The ball a spacer of each bore is shaped around: (ball diameter, ball width, the FK part it comes from).
+# A misalignment spacer's seat is a band of the same sphere as the ball, so as the ball tilts the seat
+# slides under the rod end or race face with it, and the angled cone above is what finally touches.
+SEAT_BALL = {
+    0.5: (0.937, 0.625, "JMX8"), 0.625: (1.125, 0.750, "JMX10"), 0.75: (1.312, 0.875, "JMX12"),
+    0.875: (1.312, 0.875, "JMX14"), 1.0: (1.875, 1.375, "WSSX16T / JMX16"), 1.5: (2.750, 1.962, "WSSX24T"),
+}
+
 SPACER_LABELS = {  # style tag -> words used in the name, most specific first
     "flat_top": "Flat Top", "stepped": "Stepped", "hourglass": "Hourglass", "radius_cone": "Radius",
     "thin_edge": "Thin Edge", "thick_edge": "Thick Edge", "trophy_truck": "Trophy Truck",
@@ -184,12 +192,18 @@ def spacer(row: dict) -> list[Part]:
         head = [(rh, 0), (rh, A)]
         vol = PI * (rp * rp * F + rh * rh * A) - PI * rb * rb * (F + A)
     elif base == "misalignment":
-        # Seat flange at the ball, a waist, then a cone out to the head (Kartek's measuring diagram).
-        rn = max(0.89 * rp, rb + 0.06)
-        rf = max(rh, rp + 0.05)
+        # A seat band on the ball's own sphere, narrowing to a waist, then a straight cone out to the
+        # head (Kartek's measuring diagram). The seat starts at the edge of the ball's flat face.
+        bd, bw, ref = SEAT_BALL[E]
+        # 0.008in under the ball's radius: the band rides just clear of the socket's spherical bore, as
+        # a real spacer does, rather than sitting on the same surface (which a collision check counts as touching)
+        R, c = bd / 2 - 0.008, -bw / 2             # sphere radius, and its centre below the seat face
+        r0 = math.sqrt(R * R - c * c)              # edge of the ball's flat face
+        rn = min(max(0.89 * rp, rb + 0.06), 0.85 * r0)
+        zn = math.sqrt(R * R - rn * rn) + c        # where the sphere comes in to the waist
         tall = "flat_top" in tags or "stepped" in tags
-        hk = min(A, 0.75) if tall else A          # height over which the waist and cone happen
-        head = [(rf, 0), (rf, 0.04 * hk), (rn, 0.20 * hk), (rn, 0.30 * hk), (rh, hk - 0.05)]
+        hk = min(A, 0.75) if tall else A           # height over which the seat and cone happen
+        head = [(r0, 0), ("arc", (rn, zn), (0, c), False), (rh, hk - 0.05)]
         if "stepped" in tags:                      # the top steps down to register in a recess
             rs = max(rb + 0.1, rh - 0.2)
             head += [(rh, A - 0.25), (rs, A - 0.25), (rs, A)]
@@ -197,8 +211,9 @@ def spacer(row: dict) -> list[Part]:
             est.append("step_dia and step height")
         else:
             head.append((rh, A))
-        dims.update({"waist_dia": round(2 * rn, 4), "flange_dia": round(2 * rf, 4)})
-        est += ["waist_dia", "flange_dia", "flange and cone heights"]
+        dims.update({"seat_dia": round(2 * r0, 4), "seat_sphere_dia": bd, "waist_dia": round(2 * rn, 4),
+                     "seat_matched_to": ref})
+        est += [f"seat sphere matched to the FK {ref} ball", "waist_dia", "cone start height"]
     elif "hourglass" in tags:
         # A full-width base on the ball, a waist, and a full-width head.
         rn = max(0.89 * rp, rb + 0.06)

@@ -64,7 +64,7 @@
       0.0
      ],
      [
-      13.081,
+      12.141565,
       0.0
      ]
     ],
@@ -72,35 +72,21 @@
    }
   },
   {
-   "command": "sketch.line",
+   "command": "sketch.arc.center_point",
    "params": {
-    "points": [
-     [
-      13.081,
-      0.0
-     ],
-     [
-      13.081,
-      0.635
-     ]
+    "center": [
+     0.0,
+     -11.1125
     ],
-    "infer": false
-   }
-  },
-  {
-   "command": "sketch.line",
-   "params": {
-    "points": [
-     [
-      13.081,
-      0.635
-     ],
-     [
-      9.890125,
-      3.175
-     ]
+    "start": [
+     12.141565,
+     0.0
     ],
-    "infer": false
+    "end": [
+     9.890125,
+     2.043894
+    ],
+    "clockwise": false
    }
   },
   {
@@ -109,23 +95,7 @@
     "points": [
      [
       9.890125,
-      3.175
-     ],
-     [
-      9.890125,
-      4.7625
-     ]
-    ],
-    "infer": false
-   }
-  },
-  {
-   "command": "sketch.line",
-   "params": {
-    "points": [
-     [
-      9.890125,
-      4.7625
+      2.043894
      ],
      [
       13.081,
@@ -224,13 +194,15 @@
        "half_stack": 1.06,
        "pin_depth": 0.43500000000000005,
        "style": "misalignment",
+       "seat_dia": 0.956,
+       "seat_sphere_dia": 1.312,
        "waist_dia": 0.7788,
-       "flange_dia": 1.03
+       "seat_matched_to": "JMX14"
       },
       "estimated": [
+       "seat sphere matched to the FK JMX14 ball",
        "waist_dia",
-       "flange_dia",
-       "flange and cone heights"
+       "cone start height"
       ],
       "also_available_as": [],
       "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-78-heim-or-uniball-for-12-bolt-2-18-stack-height.html"

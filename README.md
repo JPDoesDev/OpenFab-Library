@@ -126,8 +126,10 @@ not part of this repository. Where a
 vendor does not publish a dimension it is estimated, and the part's `estimated` list in
 `catalog.json` says which. The main ones:
 
-- misalignment spacers: only six dimensions are published; the waist and seat flange are
-  scaled from photos, and these set the pivot limit
+- misalignment spacers: only six dimensions are published. The seat is modelled as a band of
+  the same sphere as the ball (0.008in under its radius, matched to a standard FK ball for each
+  bore), so it slides under the rod end or race face as the ball tilts and the angled cone is
+  what stops it. The waist and cone start are scaled from photos, and the cone sets the limit.
 - uniball cup: lip and snap ring groove
 - rod end: plain cylindrical shank with no neck
 - AutoFab kit sleeves: inferred from the kit size and its bushings

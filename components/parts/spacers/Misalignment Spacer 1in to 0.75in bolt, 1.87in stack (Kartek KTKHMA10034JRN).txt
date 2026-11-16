@@ -14,12 +14,14 @@ Dimensions (inches):
   half_stack: 0.935
   pin_depth: 0.685
   style: misalignment
+  seat_dia: 1.2511
+  seat_sphere_dia: 1.875
   waist_dia: 0.89
-  flange_dia: 1.24
+  seat_matched_to: WSSX16T / JMX16
 
 Estimated (not published by the vendor):
+  seat sphere matched to the FK WSSX16T / JMX16 ball
   waist_dia
-  flange_dia
-  flange and cone heights
+  cone start height
 
 Volume check: not checked

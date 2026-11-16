@@ -64,7 +64,7 @@
       0.0
      ],
      [
-      20.32,
+      24.18112,
       0.0
      ]
     ],
@@ -72,35 +72,21 @@
    }
   },
   {
-   "command": "sketch.line",
+   "command": "sketch.arc.center_point",
    "params": {
-    "points": [
-     [
-      20.32,
-      0.0
-     ],
-     [
-      20.32,
-      0.570992
-     ]
+    "center": [
+     0.0,
+     -24.9174
     ],
-    "infer": false
-   }
-  },
-  {
-   "command": "sketch.line",
-   "params": {
-    "points": [
-     [
-      20.32,
-      0.570992
-     ],
-     [
-      16.9545,
-      2.85496
-     ]
+    "start": [
+     24.18112,
+     0.0
     ],
-    "infer": false
+    "end": [
+     16.9545,
+     5.383562
+    ],
+    "clockwise": false
    }
   },
   {
@@ -109,23 +95,7 @@
     "points": [
      [
       16.9545,
-      2.85496
-     ],
-     [
-      16.9545,
-      4.28244
-     ]
-    ],
-    "infer": false
-   }
-  },
-  {
-   "command": "sketch.line",
-   "params": {
-    "points": [
-     [
-      16.9545,
-      4.28244
+      5.383562
      ],
      [
       14.2875,
@@ -224,13 +194,15 @@
        "half_stack": 1.25,
        "pin_depth": 0.6875,
        "style": "misalignment",
+       "seat_dia": 1.904,
+       "seat_sphere_dia": 2.75,
        "waist_dia": 1.335,
-       "flange_dia": 1.6
+       "seat_matched_to": "WSSX24T"
       },
       "estimated": [
+       "seat sphere matched to the FK WSSX24T ball",
        "waist_dia",
-       "flange_dia",
-       "flange and cone heights"
+       "cone start height"
       ],
       "also_available_as": [],
       "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-12-uniball-for-34-bolt-2-12-stack-height.html"

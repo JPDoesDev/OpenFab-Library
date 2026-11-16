@@ -5,8 +5,8 @@
    "params": {
     "joint": "Pivot",
     "index": 1,
-    "min": -10.05,
-    "max": 10.05
+    "min": -23.5,
+    "max": 23.5
    }
   },
   {

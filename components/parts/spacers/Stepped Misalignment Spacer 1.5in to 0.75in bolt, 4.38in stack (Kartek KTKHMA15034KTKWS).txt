@@ -15,13 +15,15 @@ Dimensions (inches):
   pin_depth: 0.6875
   style: stepped misalignment
   step_dia: 1.225
+  seat_dia: 1.904
+  seat_sphere_dia: 2.75
   waist_dia: 1.335
-  flange_dia: 1.625
+  seat_matched_to: WSSX24T
 
 Estimated (not published by the vendor):
   step_dia and step height
+  seat sphere matched to the FK WSSX24T ball
   waist_dia
-  flange_dia
-  flange and cone heights
+  cone start height
 
 Volume check: not checked

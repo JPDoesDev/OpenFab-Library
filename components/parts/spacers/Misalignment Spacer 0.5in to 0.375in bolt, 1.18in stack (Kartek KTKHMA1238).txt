@@ -14,12 +14,14 @@ Dimensions (inches):
   half_stack: 0.59
   pin_depth: 0.31
   style: misalignment
+  seat_dia: 0.6765
+  seat_sphere_dia: 0.937
   waist_dia: 0.495
-  flange_dia: 0.69
+  seat_matched_to: JMX8
 
 Estimated (not published by the vendor):
+  seat sphere matched to the FK JMX8 ball
   waist_dia
-  flange_dia
-  flange and cone heights
+  cone start height
 
 Volume check: not checked

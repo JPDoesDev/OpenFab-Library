@@ -14,12 +14,14 @@ Dimensions (inches):
   half_stack: 1.465
   pin_depth: 0.68
   style: misalignment
+  seat_dia: 1.904
+  seat_sphere_dia: 2.75
   waist_dia: 1.335
-  flange_dia: 1.6
+  seat_matched_to: WSSX24T
 
 Estimated (not published by the vendor):
+  seat sphere matched to the FK WSSX24T ball
   waist_dia
-  flange_dia
-  flange and cone heights
+  cone start height
 
 Volume check: not checked
