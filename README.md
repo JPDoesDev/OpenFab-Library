@@ -109,6 +109,21 @@ vendor does not publish a dimension it is estimated, and the part's `estimated` 
 
 Threads are not modelled. Urethane bushings overlap their sleeves by the press fit.
 
+## Contact and contributing
+
+CAD-Works is maintained by JPDoesDev.
+
+- Website: [jpdoes.dev](https://jpdoes.dev)
+- Email: [jpdoesdev@gmail.com](mailto:jpdoesdev@gmail.com)
+
+Contributions are welcome: corrected dimensions, measurements taken from a real part,
+new sizes, new part families and vendor cross-references all make the library more
+useful. Open an issue or pull request, or get in touch directly.
+
+**Manufacturers:** if you make builder-focused parts and would like them represented
+accurately here, please get in touch. Supplying dimensions or models for your products
+helps your customers design around them and order the right part number first time.
+
 ## Licence
 
 Copyright 2026 JPDoesDev.

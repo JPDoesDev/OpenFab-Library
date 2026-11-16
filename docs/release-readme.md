@@ -34,5 +34,11 @@ part's `.txt` sheet, in `catalog.json`, and in each assembly's `.bom.csv`.
 - Sheets list which dimensions are estimated. Check them against the real part before
   you cut or weld.
 
+## Contact
+
+Maintained by JPDoesDev: [jpdoes.dev](https://jpdoes.dev), jpdoesdev@gmail.com.
+Corrections, new parts and cross-references are welcome, and manufacturers who would
+like their builder-focused products represented here are invited to get in touch.
+
 Licensed under CERN-OHL-W v2; see `LICENSE`. Your own designs that use these parts are
 not affected. Changes to the parts themselves must be shared under the same licence.
