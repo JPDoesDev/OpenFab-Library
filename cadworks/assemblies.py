@@ -4,14 +4,13 @@ pivot limit is found.
 SolidCraft links part files into an assembly as rigid components, and a linked
 sub-assembly does not articulate, so every assembly here places its parts
 directly. The fixed side (cup, rod end body, outer sleeve) is grounded and the
-pin side (ball, spacers, bolt, tabs) moves on one joint named "Pivot".
+pin side (ball and spacers, or the inner sleeve) moves on one joint named "Pivot".
+Bolts, nuts, washers and mount tabs are the builder's own and are not included.
 
 Components keep their part file's name, so the design tree reads the same as
 the parts folder. A part used twice is one component with two occurrences.
 """
 from __future__ import annotations
-
-import math
 
 from . import parts as P
 from .parts import inch
@@ -37,16 +36,14 @@ class Assembly:
         self.seated: set[str] = set()        # occurrences held by their own seating joint
         self.exclude: list[list[str]] = []
         self.pivot: dict | None = None
-        self.needed: list[P.Part] = []       # generic parts to build first
         self.count: dict[str, int] = {}
-        self.bolt = ""
         self.stated_stack: float | None = None
 
     def add(self, role: str, part_key: str, z: float = 0.0, side: str = "fixed") -> str:
         part = self.catalog[part_key]
         n = self.count[part_key] = self.count.get(part_key, 0) + 1
         # paths are relative to the script's folder (scripts/assemblies), so the release can be moved
-        path = "../../" + self.files.get(part_key, "parts/not-built-yet.sc")
+        path = "../../" + self.files[part_key]
         self.s.cmd("component.insert_design", path=path, translate=[0, 0, mm(z)], reuse=n > 1)
         if n == 1:
             props = {"vendor": part.vendor, "also_available_as": also_available_as(part)}
@@ -65,18 +62,14 @@ class Assembly:
                    a={"occurrence": anchor, "point": [mm(c) for c in point], "z": list(axis)},
                    b={"occurrence": occ, "point": [0, 0, 0], "z": Z})
 
-    def pin_stack(self, stack: float, bolt: float) -> None:
-        """Reference tabs either side of a stack `stack` wide, with a bolt and nut through them."""
-        t = P.TAB_THICKNESS
-        length = math.ceil((stack + 2 * t + 0.875 * bolt + 0.125) / 0.25) * 0.25
-        for part in (P.tab(bolt), P.hex_bolt(bolt, length), P.hex_nut(bolt)):
-            if part.key not in self.catalog:
-                self.catalog[part.key] = part
-                self.needed.append(part)
-        self.add("Tab top", P.tab_key(bolt), stack / 2, "moving")
-        self.add("Tab bottom", P.tab_key(bolt), -stack / 2 - t, "moving")
-        self.bolt = self.add("Bolt", P.bolt_key(bolt, length), -stack / 2 - t, "moving")
-        self.add("Nut", P.nut_key(bolt), stack / 2 + t, "moving")
+    def hold_all(self) -> None:
+        """An assembly with no moving member: ground it and hold the rest in place."""
+        self.s.cmd("occurrence.ground", occurrence=self.fixed[0], grounded=True)
+        held = [o for o in self.fixed if o not in self.seated]
+        if len(held) > 1:
+            self.s.cmd("joint.rigid_group", occurrences=held)
+        self.s.cmd("joint.list")
+        self.pivot = {"joint": None, "note": "no inner sleeve: the bolt runs directly in the bushings"}
 
     def finish(self, pivot_type: str, a: str, b: str, find_limits: bool) -> None:
         self.s.cmd("occurrence.ground", occurrence=self.fixed[0], grounded=True)
@@ -118,7 +111,6 @@ def uniball(recipe: dict, files, catalog) -> Assembly:
     asm.add("Snap ring", c["snap_ring"], b["race_width"] / 2 + catalog[c["snap_ring"]].dims["thickness"] / 2)
     ball = asm.add("Ball", f"{bearing}.ball", side="moving")
     stack, bolt, wording = _spacers(asm, spacer_key, ball, b["ball_width"], b["bore"])
-    asm.pin_stack(stack, bolt)
     asm.name = f"Uniball Stack {inch(b['bore'])}, {wording}, {inch(bolt)} bolt, {inch(asm.stated_stack or stack)} stack"
     asm.exclude = [[race, ball]]
     asm.finish("ball", race, ball, find_limits=True)
@@ -136,7 +128,6 @@ def rod_end(recipe: dict, files, catalog) -> Assembly:
         asm.flip_onto(nut, body, (x, 0, 0), (1, 0, 0))
     ball = asm.add("Ball", f"{re_key}.ball", side="moving")
     stack, bolt, wording = _spacers(asm, spacer_key, ball, d["ball_width"], d["bore"])
-    asm.pin_stack(stack, bolt)
     asm.name = f"Rod End Link {inch(d['bore'])} {d['hand']}, {wording}, {inch(bolt)} bolt, {inch(asm.stated_stack or stack)} stack"
     asm.exclude = [[body, ball]]
     asm.finish("ball", body, ball, find_limits=True)
@@ -159,10 +150,12 @@ def bushing_pivot(recipe: dict, files, catalog) -> Assembly:
     else:
         pin = None
         stack, bolt = o["length"] + 2 * bu["flange_length"], bu["id"]
-    asm.pin_stack(stack, bolt)
     asm.name = (f"Bushing Pivot {bush.material.capitalize()} {inch(o['od'])} OD, {inch(stack)} wide, "
                 f"{inch(bolt)} bolt")
-    asm.finish("revolute", outer, pin or asm.bolt, find_limits=False)
+    if pin:
+        asm.finish("revolute", outer, pin, find_limits=False)
+    else:
+        asm.hold_all()   # the bolt runs straight in the bushings, so nothing here turns
     return asm
 
 

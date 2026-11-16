@@ -12,8 +12,8 @@ Origin conventions (all axes on world Z unless noted):
   bushing               the flange face that sits on the sleeve end at z = 0,
                         flange towards +Z, body (inside the sleeve) towards -Z
   sleeve, jam nut       its own centre
-  bolt                  under the head at z = 0, shank towards +Z
-  nut, tab              bottom face at z = 0
+
+Bolts, nuts, washers and mount tabs are left to the builder and are not modelled.
 """
 from __future__ import annotations
 
@@ -71,7 +71,7 @@ def _finish(row: dict, key: str, family: str, body: str, material: str, script: 
     props = {k: row[k] for k in ("thread", "source") if row.get(k)}
     xrefs = XREFS.get(pn, []) if pn else []
     if pn:
-        name = f"{title} ({vendor} {pn})" if vendor and vendor != "generic" else f"{title} (generic)"
+        name = f"{title} ({vendor} {pn})"
     else:
         name = title
     script.material(body, material)
@@ -259,60 +259,3 @@ def sleeve(row: dict) -> list[Part]:
                     {"od": od, "id": i, "length": L, "kind": row["kind"]}, est,
                     title=f"{row['kind'].capitalize()} Sleeve {inch(od)} OD x {inch(i)} ID x {inch(L)} long",
                     folder=f"{row['kind'].capitalize()} Sleeves")]
-
-
-# ---- generic hardware and reference geometry (not vendor catalogue items) ----
-
-def bolt_key(dia: float, length: float) -> str:
-    return f"HEX-BOLT-{num(dia)}x{num(length)}"
-
-
-def nut_key(dia: float) -> str:
-    return f"HEX-NUT-{num(dia)}"
-
-
-def tab_key(bolt: float) -> str:
-    return f"REF-TAB-{num(bolt)}"
-
-
-def hex_bolt(dia: float, length: float) -> Part:
-    af, k = 1.5 * dia, 0.65 * dia
-    s = Script()
-    s.hex_prism("Bolt", af, k, z0=-k)
-    s.cylinder("Shank", dia, length, base=(0, 0, 0))
-    vol = math.sqrt(3) / 2 * af * af * k + PI * dia * dia / 4 * length
-    key = bolt_key(dia, length)
-    row = {"part_number": key, "vendor": "generic",
-           "description": f"Hex bolt {inch(dia)} x {inch(length)} (generic; pick grade and thread to suit)"}
-    return _finish(row, key, "hex_bolt", "Bolt", "steel", s, vol,
-                   {"dia": dia, "length": length, "hex": af, "head_height": k},
-                   ["generic proportions: hex 1.5 d, head 0.65 d"],
-                   title=f"Hex Bolt {inch(dia)} x {inch(length)}", folder="Hardware")
-
-
-def hex_nut(dia: float) -> Part:
-    af, h = 1.5 * dia, 0.875 * dia
-    s = Script()
-    s.hex_prism("Nut", af, h, z0=0, hole=dia)
-    vol = (math.sqrt(3) / 2 * af * af - PI * dia * dia / 4) * h
-    key = nut_key(dia)
-    row = {"part_number": key, "vendor": "generic", "description": f"Hex nut {inch(dia)} (generic)"}
-    return _finish(row, key, "hex_nut", "Nut", "steel", s, vol, {"dia": dia, "hex": af, "height": h},
-                   ["generic proportions: hex 1.5 d, height 0.875 d"],
-                   title=f"Hex Nut {inch(dia)}", folder="Hardware")
-
-
-TAB_THICKNESS = 0.25
-
-
-def tab(bolt: float) -> Part:
-    od = 2 * bolt + 1.0
-    s = Script()
-    s.revolve("Tab", [(bolt / 2, 0), (od / 2, 0), (od / 2, TAB_THICKNESS), (bolt / 2, TAB_THICKNESS)])
-    vol = PI * ((od / 2) ** 2 - (bolt / 2) ** 2) * TAB_THICKNESS
-    key = tab_key(bolt)
-    row = {"part_number": "", "vendor": "",
-           "description": f"Reference mount tab for a {inch(bolt)} bolt (stand-in for the chassis tab; not a part)"}
-    return _finish(row, key, "reference_tab", "Tab", "steel", s, vol,
-                   {"bolt": bolt, "od": od, "thickness": TAB_THICKNESS}, bom_type="reference",
-                   title=f"Reference Tab {inch(bolt)} bolt", folder=INTERNAL)

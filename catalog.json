@@ -3035,732 +3035,6 @@
    "volume_in3": 0.57984,
    "source": "kartek.com AFBBA200 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)",
    "volume_check": "ok"
-  },
-  "REF-TAB-0.75": {
-   "name": "Reference Tab 0.75in bolt",
-   "part_number": "",
-   "vendor": "",
-   "family": "reference_tab",
-   "description": "Reference mount tab for a 0.75in bolt (stand-in for the chassis tab; not a part)",
-   "material": "steel",
-   "bom_type": "reference",
-   "also_available_as": [],
-   "file": "parts/_internal/Reference Tab 0.75in bolt.sc",
-   "step": "parts/_internal/Reference Tab 0.75in bolt.step",
-   "sheet": "parts/_internal/Reference Tab 0.75in bolt.txt",
-   "image": "parts/_internal/Reference Tab 0.75in bolt.png",
-   "dims_in": {
-    "bolt": 0.75,
-    "od": 2.5,
-    "thickness": 0.25
-   },
-   "estimated": [],
-   "volume_in3": 1.11674,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.75x4.25": {
-   "name": "Hex Bolt 0.75in x 4.25in (generic)",
-   "part_number": "HEX-BOLT-0.75x4.25",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.75in x 4.25in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).png",
-   "dims_in": {
-    "dia": 0.75,
-    "length": 4.25,
-    "hex": 1.125,
-    "head_height": 0.48750000000000004
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 2.41192,
-   "volume_check": "ok"
-  },
-  "HEX-NUT-0.75": {
-   "name": "Hex Nut 0.75in (generic)",
-   "part_number": "HEX-NUT-0.75",
-   "vendor": "generic",
-   "family": "hex_nut",
-   "description": "Hex nut 0.75in (generic)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Nut 0.75in (generic).sc",
-   "step": "parts/Hardware/Hex Nut 0.75in (generic).step",
-   "sheet": "parts/Hardware/Hex Nut 0.75in (generic).txt",
-   "image": "parts/Hardware/Hex Nut 0.75in (generic).png",
-   "dims_in": {
-    "dia": 0.75,
-    "hex": 1.125,
-    "height": 0.65625
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, height 0.875 d"
-   ],
-   "volume_in3": 0.42937,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.75x4.5": {
-   "name": "Hex Bolt 0.75in x 4.5in (generic)",
-   "part_number": "HEX-BOLT-0.75x4.5",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.75in x 4.5in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.75in x 4.5in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.75in x 4.5in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.75in x 4.5in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.75in x 4.5in (generic).png",
-   "dims_in": {
-    "dia": 0.75,
-    "length": 4.5,
-    "hex": 1.125,
-    "head_height": 0.48750000000000004
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 2.52237,
-   "volume_check": "ok"
-  },
-  "REF-TAB-0.625": {
-   "name": "Reference Tab 0.625in bolt",
-   "part_number": "",
-   "vendor": "",
-   "family": "reference_tab",
-   "description": "Reference mount tab for a 0.625in bolt (stand-in for the chassis tab; not a part)",
-   "material": "steel",
-   "bom_type": "reference",
-   "also_available_as": [],
-   "file": "parts/_internal/Reference Tab 0.625in bolt.sc",
-   "step": "parts/_internal/Reference Tab 0.625in bolt.step",
-   "sheet": "parts/_internal/Reference Tab 0.625in bolt.txt",
-   "image": "parts/_internal/Reference Tab 0.625in bolt.png",
-   "dims_in": {
-    "bolt": 0.625,
-    "od": 2.25,
-    "thickness": 0.25
-   },
-   "estimated": [],
-   "volume_in3": 0.91732,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.625x4": {
-   "name": "Hex Bolt 0.625in x 4in (generic)",
-   "part_number": "HEX-BOLT-0.625x4",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.625in x 4in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.625in x 4in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.625in x 4in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.625in x 4in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.625in x 4in (generic).png",
-   "dims_in": {
-    "dia": 0.625,
-    "length": 4.0,
-    "hex": 0.9375,
-    "head_height": 0.40625
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 1.5364,
-   "volume_check": "ok"
-  },
-  "HEX-NUT-0.625": {
-   "name": "Hex Nut 0.625in (generic)",
-   "part_number": "HEX-NUT-0.625",
-   "vendor": "generic",
-   "family": "hex_nut",
-   "description": "Hex nut 0.625in (generic)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Nut 0.625in (generic).sc",
-   "step": "parts/Hardware/Hex Nut 0.625in (generic).step",
-   "sheet": "parts/Hardware/Hex Nut 0.625in (generic).txt",
-   "image": "parts/Hardware/Hex Nut 0.625in (generic).png",
-   "dims_in": {
-    "dia": 0.625,
-    "hex": 0.9375,
-    "height": 0.546875
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, height 0.875 d"
-   ],
-   "volume_in3": 0.24848,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.75x3.75": {
-   "name": "Hex Bolt 0.75in x 3.75in (generic)",
-   "part_number": "HEX-BOLT-0.75x3.75",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.75in x 3.75in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).png",
-   "dims_in": {
-    "dia": 0.75,
-    "length": 3.75,
-    "hex": 1.125,
-    "head_height": 0.48750000000000004
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 2.19103,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.75x2.25": {
-   "name": "Hex Bolt 0.75in x 2.25in (generic)",
-   "part_number": "HEX-BOLT-0.75x2.25",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.75in x 2.25in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.75in x 2.25in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.75in x 2.25in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.75in x 2.25in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.75in x 2.25in (generic).png",
-   "dims_in": {
-    "dia": 0.75,
-    "length": 2.25,
-    "hex": 1.125,
-    "head_height": 0.48750000000000004
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 1.52835,
-   "volume_check": "ok"
-  },
-  "REF-TAB-0.5": {
-   "name": "Reference Tab 0.5in bolt",
-   "part_number": "",
-   "vendor": "",
-   "family": "reference_tab",
-   "description": "Reference mount tab for a 0.5in bolt (stand-in for the chassis tab; not a part)",
-   "material": "steel",
-   "bom_type": "reference",
-   "also_available_as": [],
-   "file": "parts/_internal/Reference Tab 0.5in bolt.sc",
-   "step": "parts/_internal/Reference Tab 0.5in bolt.step",
-   "sheet": "parts/_internal/Reference Tab 0.5in bolt.txt",
-   "image": "parts/_internal/Reference Tab 0.5in bolt.png",
-   "dims_in": {
-    "bolt": 0.5,
-    "od": 2.0,
-    "thickness": 0.25
-   },
-   "estimated": [],
-   "volume_in3": 0.73631,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.5x3": {
-   "name": "Hex Bolt 0.5in x 3in (generic)",
-   "part_number": "HEX-BOLT-0.5x3",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.5in x 3in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.5in x 3in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.5in x 3in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.5in x 3in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.5in x 3in (generic).png",
-   "dims_in": {
-    "dia": 0.5,
-    "length": 3.0,
-    "hex": 0.75,
-    "head_height": 0.325
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 0.74737,
-   "volume_check": "ok"
-  },
-  "HEX-NUT-0.5": {
-   "name": "Hex Nut 0.5in (generic)",
-   "part_number": "HEX-NUT-0.5",
-   "vendor": "generic",
-   "family": "hex_nut",
-   "description": "Hex nut 0.5in (generic)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Nut 0.5in (generic).sc",
-   "step": "parts/Hardware/Hex Nut 0.5in (generic).step",
-   "sheet": "parts/Hardware/Hex Nut 0.5in (generic).txt",
-   "image": "parts/Hardware/Hex Nut 0.5in (generic).png",
-   "dims_in": {
-    "dia": 0.5,
-    "hex": 0.75,
-    "height": 0.4375
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, height 0.875 d"
-   ],
-   "volume_in3": 0.12722,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.625x3": {
-   "name": "Hex Bolt 0.625in x 3in (generic)",
-   "part_number": "HEX-BOLT-0.625x3",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.625in x 3in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.625in x 3in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.625in x 3in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.625in x 3in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.625in x 3in (generic).png",
-   "dims_in": {
-    "dia": 0.625,
-    "length": 3.0,
-    "hex": 0.9375,
-    "head_height": 0.40625
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 1.22961,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.625x3.75": {
-   "name": "Hex Bolt 0.625in x 3.75in (generic)",
-   "part_number": "HEX-BOLT-0.625x3.75",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.625in x 3.75in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).png",
-   "dims_in": {
-    "dia": 0.625,
-    "length": 3.75,
-    "hex": 0.9375,
-    "head_height": 0.40625
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 1.4597,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.625x4.25": {
-   "name": "Hex Bolt 0.625in x 4.25in (generic)",
-   "part_number": "HEX-BOLT-0.625x4.25",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.625in x 4.25in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.625in x 4.25in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.625in x 4.25in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.625in x 4.25in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.625in x 4.25in (generic).png",
-   "dims_in": {
-    "dia": 0.625,
-    "length": 4.25,
-    "hex": 0.9375,
-    "head_height": 0.40625
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 1.6131,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.625x5.25": {
-   "name": "Hex Bolt 0.625in x 5.25in (generic)",
-   "part_number": "HEX-BOLT-0.625x5.25",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.625in x 5.25in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.625in x 5.25in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.625in x 5.25in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.625in x 5.25in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.625in x 5.25in (generic).png",
-   "dims_in": {
-    "dia": 0.625,
-    "length": 5.25,
-    "hex": 0.9375,
-    "head_height": 0.40625
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 1.9199,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.75x5.25": {
-   "name": "Hex Bolt 0.75in x 5.25in (generic)",
-   "part_number": "HEX-BOLT-0.75x5.25",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.75in x 5.25in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.75in x 5.25in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.75in x 5.25in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.75in x 5.25in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.75in x 5.25in (generic).png",
-   "dims_in": {
-    "dia": 0.75,
-    "length": 5.25,
-    "hex": 1.125,
-    "head_height": 0.48750000000000004
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 2.85371,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.625x5.5": {
-   "name": "Hex Bolt 0.625in x 5.5in (generic)",
-   "part_number": "HEX-BOLT-0.625x5.5",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.625in x 5.5in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.625in x 5.5in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.625in x 5.5in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.625in x 5.5in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.625in x 5.5in (generic).png",
-   "dims_in": {
-    "dia": 0.625,
-    "length": 5.5,
-    "hex": 0.9375,
-    "head_height": 0.40625
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 1.9966,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.75x5.5": {
-   "name": "Hex Bolt 0.75in x 5.5in (generic)",
-   "part_number": "HEX-BOLT-0.75x5.5",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.75in x 5.5in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.75in x 5.5in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.75in x 5.5in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.75in x 5.5in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.75in x 5.5in (generic).png",
-   "dims_in": {
-    "dia": 0.75,
-    "length": 5.5,
-    "hex": 1.125,
-    "head_height": 0.48750000000000004
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 2.96416,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.5x3.5": {
-   "name": "Hex Bolt 0.5in x 3.5in (generic)",
-   "part_number": "HEX-BOLT-0.5x3.5",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.5in x 3.5in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).png",
-   "dims_in": {
-    "dia": 0.5,
-    "length": 3.5,
-    "hex": 0.75,
-    "head_height": 0.325
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 0.84554,
-   "volume_check": "ok"
-  },
-  "REF-TAB-0.375": {
-   "name": "Reference Tab 0.375in bolt",
-   "part_number": "",
-   "vendor": "",
-   "family": "reference_tab",
-   "description": "Reference mount tab for a 0.375in bolt (stand-in for the chassis tab; not a part)",
-   "material": "steel",
-   "bom_type": "reference",
-   "also_available_as": [],
-   "file": "parts/_internal/Reference Tab 0.375in bolt.sc",
-   "step": "parts/_internal/Reference Tab 0.375in bolt.step",
-   "sheet": "parts/_internal/Reference Tab 0.375in bolt.txt",
-   "image": "parts/_internal/Reference Tab 0.375in bolt.png",
-   "dims_in": {
-    "bolt": 0.375,
-    "od": 1.75,
-    "thickness": 0.25
-   },
-   "estimated": [],
-   "volume_in3": 0.57371,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.375x2.5": {
-   "name": "Hex Bolt 0.375in x 2.5in (generic)",
-   "part_number": "HEX-BOLT-0.375x2.5",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.375in x 2.5in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.375in x 2.5in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.375in x 2.5in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.375in x 2.5in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.375in x 2.5in (generic).png",
-   "dims_in": {
-    "dia": 0.375,
-    "length": 2.5,
-    "hex": 0.5625,
-    "head_height": 0.24375000000000002
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 0.34291,
-   "volume_check": "ok"
-  },
-  "HEX-NUT-0.375": {
-   "name": "Hex Nut 0.375in (generic)",
-   "part_number": "HEX-NUT-0.375",
-   "vendor": "generic",
-   "family": "hex_nut",
-   "description": "Hex nut 0.375in (generic)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Nut 0.375in (generic).sc",
-   "step": "parts/Hardware/Hex Nut 0.375in (generic).step",
-   "sheet": "parts/Hardware/Hex Nut 0.375in (generic).txt",
-   "image": "parts/Hardware/Hex Nut 0.375in (generic).png",
-   "dims_in": {
-    "dia": 0.375,
-    "hex": 0.5625,
-    "height": 0.328125
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, height 0.875 d"
-   ],
-   "volume_in3": 0.05367,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.375x3": {
-   "name": "Hex Bolt 0.375in x 3in (generic)",
-   "part_number": "HEX-BOLT-0.375x3",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.375in x 3in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.375in x 3in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.375in x 3in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.375in x 3in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.375in x 3in (generic).png",
-   "dims_in": {
-    "dia": 0.375,
-    "length": 3.0,
-    "hex": 0.5625,
-    "head_height": 0.24375000000000002
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 0.39813,
-   "volume_check": "ok"
-  },
-  "REF-TAB-0.4375": {
-   "name": "Reference Tab 0.4375in bolt",
-   "part_number": "",
-   "vendor": "",
-   "family": "reference_tab",
-   "description": "Reference mount tab for a 0.4375in bolt (stand-in for the chassis tab; not a part)",
-   "material": "steel",
-   "bom_type": "reference",
-   "also_available_as": [],
-   "file": "parts/_internal/Reference Tab 0.4375in bolt.sc",
-   "step": "parts/_internal/Reference Tab 0.4375in bolt.step",
-   "sheet": "parts/_internal/Reference Tab 0.4375in bolt.txt",
-   "image": "parts/_internal/Reference Tab 0.4375in bolt.png",
-   "dims_in": {
-    "bolt": 0.4375,
-    "od": 1.875,
-    "thickness": 0.25
-   },
-   "estimated": [],
-   "volume_in3": 0.65271,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.4375x3.5": {
-   "name": "Hex Bolt 0.4375in x 3.5in (generic)",
-   "part_number": "HEX-BOLT-0.4375x3.5",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.4375in x 3.5in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.4375in x 3.5in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.4375in x 3.5in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.4375in x 3.5in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.4375in x 3.5in (generic).png",
-   "dims_in": {
-    "dia": 0.4375,
-    "length": 3.5,
-    "hex": 0.65625,
-    "head_height": 0.284375
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 0.63222,
-   "volume_check": "ok"
-  },
-  "HEX-NUT-0.4375": {
-   "name": "Hex Nut 0.4375in (generic)",
-   "part_number": "HEX-NUT-0.4375",
-   "vendor": "generic",
-   "family": "hex_nut",
-   "description": "Hex nut 0.4375in (generic)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Nut 0.4375in (generic).sc",
-   "step": "parts/Hardware/Hex Nut 0.4375in (generic).step",
-   "sheet": "parts/Hardware/Hex Nut 0.4375in (generic).txt",
-   "image": "parts/Hardware/Hex Nut 0.4375in (generic).png",
-   "dims_in": {
-    "dia": 0.4375,
-    "hex": 0.65625,
-    "height": 0.3828125
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, height 0.875 d"
-   ],
-   "volume_in3": 0.08523,
-   "volume_check": "ok"
-  },
-  "REF-TAB-0.5625": {
-   "name": "Reference Tab 0.5625in bolt",
-   "part_number": "",
-   "vendor": "",
-   "family": "reference_tab",
-   "description": "Reference mount tab for a 0.5625in bolt (stand-in for the chassis tab; not a part)",
-   "material": "steel",
-   "bom_type": "reference",
-   "also_available_as": [],
-   "file": "parts/_internal/Reference Tab 0.5625in bolt.sc",
-   "step": "parts/_internal/Reference Tab 0.5625in bolt.step",
-   "sheet": "parts/_internal/Reference Tab 0.5625in bolt.txt",
-   "image": "parts/_internal/Reference Tab 0.5625in bolt.png",
-   "dims_in": {
-    "bolt": 0.5625,
-    "od": 2.125,
-    "thickness": 0.25
-   },
-   "estimated": [],
-   "volume_in3": 0.82451,
-   "volume_check": "ok"
-  },
-  "HEX-BOLT-0.5625x4.25": {
-   "name": "Hex Bolt 0.5625in x 4.25in (generic)",
-   "part_number": "HEX-BOLT-0.5625x4.25",
-   "vendor": "generic",
-   "family": "hex_bolt",
-   "description": "Hex bolt 0.5625in x 4.25in (generic; pick grade and thread to suit)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Bolt 0.5625in x 4.25in (generic).sc",
-   "step": "parts/Hardware/Hex Bolt 0.5625in x 4.25in (generic).step",
-   "sheet": "parts/Hardware/Hex Bolt 0.5625in x 4.25in (generic).txt",
-   "image": "parts/Hardware/Hex Bolt 0.5625in x 4.25in (generic).png",
-   "dims_in": {
-    "dia": 0.5625,
-    "length": 4.25,
-    "hex": 0.84375,
-    "head_height": 0.36562500000000003
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, head 0.65 d"
-   ],
-   "volume_in3": 1.28157,
-   "volume_check": "ok"
-  },
-  "HEX-NUT-0.5625": {
-   "name": "Hex Nut 0.5625in (generic)",
-   "part_number": "HEX-NUT-0.5625",
-   "vendor": "generic",
-   "family": "hex_nut",
-   "description": "Hex nut 0.5625in (generic)",
-   "material": "steel",
-   "bom_type": "purchased",
-   "also_available_as": [],
-   "file": "parts/Hardware/Hex Nut 0.5625in (generic).sc",
-   "step": "parts/Hardware/Hex Nut 0.5625in (generic).step",
-   "sheet": "parts/Hardware/Hex Nut 0.5625in (generic).txt",
-   "image": "parts/Hardware/Hex Nut 0.5625in (generic).png",
-   "dims_in": {
-    "dia": 0.5625,
-    "hex": 0.84375,
-    "height": 0.4921875
-   },
-   "estimated": [
-    "generic proportions: hex 1.5 d, height 0.875 d"
-   ],
-   "volume_in3": 0.18114,
-   "volume_check": "ok"
   }
  },
  "assemblies": {
@@ -3814,34 +3088,6 @@
      "part": "KTKHMA10034RN",
      "part_number": "KTKHMA10034RN",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.75in bolt:1",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.75in bolt:2",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.75in x 4.25in (generic):1",
-     "part": "HEX-BOLT-0.75x4.25",
-     "part_number": "HEX-BOLT-0.75x4.25",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.75in (generic):1",
-     "part": "HEX-NUT-0.75",
-     "part_number": "HEX-NUT-0.75",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -3857,34 +3103,15 @@
    },
    "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.png",
    "links": [
-    "../../parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
     "../../parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).sc",
     "../../parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN).sc",
     "../../parts/Uniball Cups/Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall (Kartek KTK9044HD).sc",
     "../../parts/Uniballs/Uniball 1in bore x 2.125in OD (FK WSSX16T).sc",
-    "../../parts/_internal/Reference Tab 0.75in bolt.sc",
     "../../parts/_internal/Uniball Ball 1in bore (for WSSX16T).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.75x4.25",
-     "description": "Hex bolt 0.75in x 4.25in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.75",
-     "description": "Hex nut 0.75in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTK9044HD",
@@ -3892,7 +3119,7 @@
      "also_available_as": "FK CPW16 (equivalent); Kartek FKBCPW16 (equivalent)"
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTK9044SR",
@@ -3900,7 +3127,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTKHMA10034RN",
@@ -3908,7 +3135,7 @@
      "also_available_as": ""
     },
     {
-     "item": 6,
+     "item": 4,
      "qty": 1,
      "vendor": "FK",
      "part_number": "WSSX16T",
@@ -3967,34 +3194,6 @@
      "part": "KTKHMA10034TRN",
      "part_number": "KTKHMA10034TRN",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.75in bolt:1",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.75in bolt:2",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.75in x 4.5in (generic):1",
-     "part": "HEX-BOLT-0.75x4.5",
-     "part_number": "HEX-BOLT-0.75x4.5",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.75in (generic):1",
-     "part": "HEX-NUT-0.75",
-     "part_number": "HEX-NUT-0.75",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -4010,34 +3209,15 @@
    },
    "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 3.04in stack.png",
    "links": [
-    "../../parts/Hardware/Hex Bolt 0.75in x 4.5in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
     "../../parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).sc",
     "../../parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTKHMA10034TRN).sc",
     "../../parts/Uniball Cups/Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall (Kartek KTK9044HD).sc",
     "../../parts/Uniballs/Uniball 1in bore x 2.125in OD (FK WSSX16T).sc",
-    "../../parts/_internal/Reference Tab 0.75in bolt.sc",
     "../../parts/_internal/Uniball Ball 1in bore (for WSSX16T).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.75x4.5",
-     "description": "Hex bolt 0.75in x 4.5in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.75",
-     "description": "Hex nut 0.75in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTK9044HD",
@@ -4045,7 +3225,7 @@
      "also_available_as": "FK CPW16 (equivalent); Kartek FKBCPW16 (equivalent)"
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTK9044SR",
@@ -4053,7 +3233,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTKHMA10034TRN",
@@ -4061,7 +3241,7 @@
      "also_available_as": ""
     },
     {
-     "item": 6,
+     "item": 4,
      "qty": 1,
      "vendor": "FK",
      "part_number": "WSSX16T",
@@ -4120,34 +3300,6 @@
      "part": "KTKHMA10058RN",
      "part_number": "KTKHMA10058RN",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.625in bolt:1",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.625in bolt:2",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.625in x 4in (generic):1",
-     "part": "HEX-BOLT-0.625x4",
-     "part_number": "HEX-BOLT-0.625x4",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.625in (generic):1",
-     "part": "HEX-NUT-0.625",
-     "part_number": "HEX-NUT-0.625",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -4163,34 +3315,15 @@
    },
    "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.625in bolt, 2.76in stack.png",
    "links": [
-    "../../parts/Hardware/Hex Bolt 0.625in x 4in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.625in (generic).sc",
     "../../parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).sc",
     "../../parts/Spacers/Misalignment Spacer 1in to 0.625in bolt, 2.76in stack (Kartek KTKHMA10058RN).sc",
     "../../parts/Uniball Cups/Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall (Kartek KTK9044HD).sc",
     "../../parts/Uniballs/Uniball 1in bore x 2.125in OD (FK WSSX16T).sc",
-    "../../parts/_internal/Reference Tab 0.625in bolt.sc",
     "../../parts/_internal/Uniball Ball 1in bore (for WSSX16T).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.625x4",
-     "description": "Hex bolt 0.625in x 4in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.625",
-     "description": "Hex nut 0.625in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTK9044HD",
@@ -4198,7 +3331,7 @@
      "also_available_as": "FK CPW16 (equivalent); Kartek FKBCPW16 (equivalent)"
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTK9044SR",
@@ -4206,7 +3339,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTKHMA10058RN",
@@ -4214,7 +3347,7 @@
      "also_available_as": ""
     },
     {
-     "item": 6,
+     "item": 4,
      "qty": 1,
      "vendor": "FK",
      "part_number": "WSSX16T",
@@ -4273,34 +3406,6 @@
      "part": "KTK10034SRTN",
      "part_number": "KTK10034SRTN",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.75in bolt:1",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.75in bolt:2",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.75in x 3.75in (generic):1",
-     "part": "HEX-BOLT-0.75x3.75",
-     "part_number": "HEX-BOLT-0.75x3.75",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.75in (generic):1",
-     "part": "HEX-NUT-0.75",
-     "part_number": "HEX-NUT-0.75",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -4316,34 +3421,15 @@
    },
    "image": "assemblies/Uniball Stacks/Uniball Stack 1in, straight spacers, 0.75in bolt, 2.25in stack.png",
    "links": [
-    "../../parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
     "../../parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).sc",
     "../../parts/Spacers/Straight Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRTN).sc",
     "../../parts/Uniball Cups/Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall (Kartek KTK9044HD).sc",
     "../../parts/Uniballs/Uniball 1in bore x 2.125in OD (FK WSSX16T).sc",
-    "../../parts/_internal/Reference Tab 0.75in bolt.sc",
     "../../parts/_internal/Uniball Ball 1in bore (for WSSX16T).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.75x3.75",
-     "description": "Hex bolt 0.75in x 3.75in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.75",
-     "description": "Hex nut 0.75in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK10034SRTN",
@@ -4351,7 +3437,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTK9044HD",
@@ -4359,7 +3445,7 @@
      "also_available_as": "FK CPW16 (equivalent); Kartek FKBCPW16 (equivalent)"
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTK9044SR",
@@ -4367,7 +3453,7 @@
      "also_available_as": ""
     },
     {
-     "item": 6,
+     "item": 4,
      "qty": 1,
      "vendor": "FK",
      "part_number": "WSSX16T",
@@ -4405,34 +3491,6 @@
      "part": "JMX12T.ball",
      "part_number": "",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.75in bolt:1",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.75in bolt:2",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.75in x 2.25in (generic):1",
-     "part": "HEX-BOLT-0.75x2.25",
-     "part_number": "HEX-BOLT-0.75x2.25",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.75in (generic):1",
-     "part": "HEX-NUT-0.75",
-     "part_number": "HEX-NUT-0.75",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -4440,40 +3498,18 @@
     "type": "ball",
     "fixed": "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1",
     "moving": "Rod End Ball 0.75in bore (for JMX12T):1",
-    "max_misalignment_deg": 6.32,
-    "limited_by": [
-     "Reference Tab 0.75in bolt:1",
-     "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1"
-    ]
+    "max_misalignment_deg": null,
+    "limited_by": "nothing in this assembly; your mount tabs set the limit"
    },
    "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, no spacers, 0.75in bolt, 0.875in stack.png",
    "links": [
-    "../../parts/Hardware/Hex Bolt 0.75in x 2.25in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
     "../../parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).sc",
     "../../parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc",
-    "../../parts/_internal/Reference Tab 0.75in bolt.sc",
     "../../parts/_internal/Rod End Ball 0.75in bore (for JMX12T).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.75x2.25",
-     "description": "Hex bolt 0.75in x 2.25in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.75",
-     "description": "Hex nut 0.75in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 1,
      "vendor": "FK",
      "part_number": "JMX12T",
@@ -4481,7 +3517,7 @@
      "also_available_as": "Kartek FKBJMX12T (same part); Aurora RAM-12T (equivalent); Aurora PRM-12T (equivalent)"
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "FK",
      "part_number": "SJNR12",
@@ -4533,34 +3569,6 @@
      "part": "KTKHMA3412",
      "part_number": "KTKHMA3412",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.5in bolt:1",
-     "part": "REF-TAB-0.5",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.5in bolt:2",
-     "part": "REF-TAB-0.5",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.5in x 3in (generic):1",
-     "part": "HEX-BOLT-0.5x3",
-     "part_number": "HEX-BOLT-0.5x3",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.5in (generic):1",
-     "part": "HEX-NUT-0.5",
-     "part_number": "HEX-NUT-0.5",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -4576,33 +3584,14 @@
    },
    "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt, 1.82in stack.png",
    "links": [
-    "../../parts/Hardware/Hex Bolt 0.5in x 3in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.5in (generic).sc",
     "../../parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).sc",
     "../../parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc",
     "../../parts/Spacers/Misalignment Spacer 0.75in to 0.5in bolt, 1.82in stack (Kartek KTKHMA3412).sc",
-    "../../parts/_internal/Reference Tab 0.5in bolt.sc",
     "../../parts/_internal/Rod End Ball 0.75in bore (for JMX12T).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.5x3",
-     "description": "Hex bolt 0.5in x 3in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.5",
-     "description": "Hex nut 0.5in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 1,
      "vendor": "FK",
      "part_number": "JMX12T",
@@ -4610,7 +3599,7 @@
      "also_available_as": "Kartek FKBJMX12T (same part); Aurora RAM-12T (equivalent); Aurora PRM-12T (equivalent)"
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTKHMA3412",
@@ -4618,7 +3607,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "FK",
      "part_number": "SJNR12",
@@ -4670,34 +3659,6 @@
      "part": "KTKHMA3458",
      "part_number": "KTKHMA3458",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.625in bolt:1",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.625in bolt:2",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.625in x 3in (generic):1",
-     "part": "HEX-BOLT-0.625x3",
-     "part_number": "HEX-BOLT-0.625x3",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.625in (generic):1",
-     "part": "HEX-NUT-0.625",
-     "part_number": "HEX-NUT-0.625",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -4713,33 +3674,14 @@
    },
    "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt, 1.82in stack.png",
    "links": [
-    "../../parts/Hardware/Hex Bolt 0.625in x 3in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.625in (generic).sc",
     "../../parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).sc",
     "../../parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc",
     "../../parts/Spacers/Misalignment Spacer 0.75in to 0.625in bolt, 1.82in stack (Kartek KTKHMA3458).sc",
-    "../../parts/_internal/Reference Tab 0.625in bolt.sc",
     "../../parts/_internal/Rod End Ball 0.75in bore (for JMX12T).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.625x3",
-     "description": "Hex bolt 0.625in x 3in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.625",
-     "description": "Hex nut 0.625in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 1,
      "vendor": "FK",
      "part_number": "JMX12T",
@@ -4747,7 +3689,7 @@
      "also_available_as": "Kartek FKBJMX12T (same part); Aurora RAM-12T (equivalent); Aurora PRM-12T (equivalent)"
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTKHMA3458",
@@ -4755,7 +3697,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "FK",
      "part_number": "SJNR12",
@@ -4807,34 +3749,6 @@
      "part": "KTK3412SRT945",
      "part_number": "KTK3412SRT945",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.5in bolt:1",
-     "part": "REF-TAB-0.5",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.5in bolt:2",
-     "part": "REF-TAB-0.5",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.5in x 3in (generic):1",
-     "part": "HEX-BOLT-0.5x3",
-     "part_number": "HEX-BOLT-0.5x3",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.5in (generic):1",
-     "part": "HEX-NUT-0.5",
-     "part_number": "HEX-NUT-0.5",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -4842,7 +3756,7 @@
     "type": "ball",
     "fixed": "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1",
     "moving": "Rod End Ball 0.75in bore (for JMX12T):1",
-    "max_misalignment_deg": 10.23,
+    "max_misalignment_deg": 10.22,
     "limited_by": [
      "Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945):1",
      "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1"
@@ -4850,33 +3764,14 @@
    },
    "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, straight spacers, 0.5in bolt, 1.895in stack.png",
    "links": [
-    "../../parts/Hardware/Hex Bolt 0.5in x 3in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.5in (generic).sc",
     "../../parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).sc",
     "../../parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc",
     "../../parts/Spacers/Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945).sc",
-    "../../parts/_internal/Reference Tab 0.5in bolt.sc",
     "../../parts/_internal/Rod End Ball 0.75in bore (for JMX12T).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.5x3",
-     "description": "Hex bolt 0.5in x 3in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.5",
-     "description": "Hex nut 0.5in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 1,
      "vendor": "FK",
      "part_number": "JMX12T",
@@ -4884,7 +3779,7 @@
      "also_available_as": "Kartek FKBJMX12T (same part); Aurora RAM-12T (equivalent); Aurora PRM-12T (equivalent)"
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK3412SRT945",
@@ -4892,7 +3787,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "FK",
      "part_number": "SJNR12",
@@ -4944,34 +3839,6 @@
      "part": "KTKHMA3412",
      "part_number": "KTKHMA3412",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.5in bolt:1",
-     "part": "REF-TAB-0.5",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.5in bolt:2",
-     "part": "REF-TAB-0.5",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.5in x 3in (generic):1",
-     "part": "HEX-BOLT-0.5x3",
-     "part_number": "HEX-BOLT-0.5x3",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.5in (generic):1",
-     "part": "HEX-NUT-0.5",
-     "part_number": "HEX-NUT-0.5",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -4987,33 +3854,14 @@
    },
    "image": "assemblies/Rod End Links/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt, 1.82in stack.png",
    "links": [
-    "../../parts/Hardware/Hex Bolt 0.5in x 3in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.5in (generic).sc",
     "../../parts/Jam Nuts/Jam Nut 0.75-16 LH (FK SJNL12).sc",
     "../../parts/Rod Ends/Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T).sc",
     "../../parts/Spacers/Misalignment Spacer 0.75in to 0.5in bolt, 1.82in stack (Kartek KTKHMA3412).sc",
-    "../../parts/_internal/Reference Tab 0.5in bolt.sc",
     "../../parts/_internal/Rod End Ball 0.75in bore (for JMXL12T).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.5x3",
-     "description": "Hex bolt 0.5in x 3in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.5",
-     "description": "Hex nut 0.5in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 1,
      "vendor": "FK",
      "part_number": "JMXL12T",
@@ -5021,7 +3869,7 @@
      "also_available_as": "Kartek FKBJMXL12T (same part); Aurora RAB-12T (equivalent)"
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTKHMA3412",
@@ -5029,7 +3877,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "FK",
      "part_number": "SJNL12",
@@ -5074,34 +3922,6 @@
      "part": "KTKISL100188S",
      "part_number": "KTKISL100188S",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.625in bolt:1",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.625in bolt:2",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.625in x 3.75in (generic):1",
-     "part": "HEX-BOLT-0.625x3.75",
-     "part_number": "HEX-BOLT-0.625x3.75",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.625in (generic):1",
-     "part": "HEX-NUT-0.625",
-     "part_number": "HEX-NUT-0.625",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -5113,31 +3933,12 @@
    "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.202in long (Kartek KTK600).sc",
-    "../../parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.625in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).sc",
-    "../../parts/_internal/Reference Tab 0.625in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.625x3.75",
-     "description": "Hex bolt 0.625in x 3.75in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.625",
-     "description": "Hex nut 0.625in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK600",
@@ -5145,7 +3946,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKISL100188S",
@@ -5153,7 +3954,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKOSL175120",
@@ -5198,34 +3999,6 @@
      "part": "KTKISL100120S",
      "part_number": "KTKISL100120S",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.75in bolt:1",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.75in bolt:2",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.75in x 3.75in (generic):1",
-     "part": "HEX-BOLT-0.75x3.75",
-     "part_number": "HEX-BOLT-0.75x3.75",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.75in (generic):1",
-     "part": "HEX-NUT-0.75",
-     "part_number": "HEX-NUT-0.75",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -5237,31 +4010,12 @@
    "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.202in long (Kartek KTK600).sc",
-    "../../parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.44in long (Kartek KTKISL100120S).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).sc",
-    "../../parts/_internal/Reference Tab 0.75in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.75x3.75",
-     "description": "Hex bolt 0.75in x 3.75in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.75",
-     "description": "Hex nut 0.75in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK600",
@@ -5269,7 +4023,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKISL100120S",
@@ -5277,7 +4031,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKOSL175120",
@@ -5322,34 +4076,6 @@
      "part": "KTKISL100188",
      "part_number": "KTKISL100188",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.625in bolt:1",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.625in bolt:2",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.625in x 4.25in (generic):1",
-     "part": "HEX-BOLT-0.625x4.25",
-     "part_number": "HEX-BOLT-0.625x4.25",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.625in (generic):1",
-     "part": "HEX-NUT-0.625",
-     "part_number": "HEX-NUT-0.625",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -5361,31 +4087,12 @@
    "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.405in long (Kartek KTK600W).sc",
-    "../../parts/Hardware/Hex Bolt 0.625in x 4.25in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.625in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.84in long (Kartek KTKISL100188).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).sc",
-    "../../parts/_internal/Reference Tab 0.625in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.625x4.25",
-     "description": "Hex bolt 0.625in x 4.25in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.625",
-     "description": "Hex nut 0.625in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK600W",
@@ -5393,7 +4100,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKISL100188",
@@ -5401,7 +4108,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKOSL175120",
@@ -5446,34 +4153,6 @@
      "part": "KTKISL100120",
      "part_number": "KTKISL100120",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.75in bolt:1",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.75in bolt:2",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.75in x 4.25in (generic):1",
-     "part": "HEX-BOLT-0.75x4.25",
-     "part_number": "HEX-BOLT-0.75x4.25",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.75in (generic):1",
-     "part": "HEX-NUT-0.75",
-     "part_number": "HEX-NUT-0.75",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -5485,31 +4164,12 @@
    "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.405in long (Kartek KTK600W).sc",
-    "../../parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.84in long (Kartek KTKISL100120).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).sc",
-    "../../parts/_internal/Reference Tab 0.75in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.75x4.25",
-     "description": "Hex bolt 0.75in x 4.25in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.75",
-     "description": "Hex nut 0.75in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK600W",
@@ -5517,7 +4177,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKISL100120",
@@ -5525,7 +4185,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKOSL175120",
@@ -5570,34 +4230,6 @@
      "part": "KTKISL100188M",
      "part_number": "KTKISL100188M",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.625in bolt:1",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.625in bolt:2",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.625in x 5.25in (generic):1",
-     "part": "HEX-BOLT-0.625x5.25",
-     "part_number": "HEX-BOLT-0.625x5.25",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.625in (generic):1",
-     "part": "HEX-NUT-0.625",
-     "part_number": "HEX-NUT-0.625",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -5609,31 +4241,12 @@
    "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).sc",
-    "../../parts/Hardware/Hex Bolt 0.625in x 5.25in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.625in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 3.875in long (Kartek KTKISL100188M).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M).sc",
-    "../../parts/_internal/Reference Tab 0.625in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.625x5.25",
-     "description": "Hex bolt 0.625in x 5.25in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.625",
-     "description": "Hex nut 0.625in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK60414S",
@@ -5641,7 +4254,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKISL100188M",
@@ -5649,7 +4262,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKOSL175120M",
@@ -5694,34 +4307,6 @@
      "part": "KTKISL100120M",
      "part_number": "KTKISL100120M",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.75in bolt:1",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.75in bolt:2",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.75in x 5.25in (generic):1",
-     "part": "HEX-BOLT-0.75x5.25",
-     "part_number": "HEX-BOLT-0.75x5.25",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.75in (generic):1",
-     "part": "HEX-NUT-0.75",
-     "part_number": "HEX-NUT-0.75",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -5733,31 +4318,12 @@
    "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).sc",
-    "../../parts/Hardware/Hex Bolt 0.75in x 5.25in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 3.875in long (Kartek KTKISL100120M).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M).sc",
-    "../../parts/_internal/Reference Tab 0.75in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.75x5.25",
-     "description": "Hex bolt 0.75in x 5.25in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.75",
-     "description": "Hex nut 0.75in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK60414S",
@@ -5765,7 +4331,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKISL100120M",
@@ -5773,7 +4339,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKOSL175120M",
@@ -5818,34 +4384,6 @@
      "part": "KTKISL100188L",
      "part_number": "KTKISL100188L",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.625in bolt:1",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.625in bolt:2",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.625in x 5.5in (generic):1",
-     "part": "HEX-BOLT-0.625x5.5",
-     "part_number": "HEX-BOLT-0.625x5.5",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.625in (generic):1",
-     "part": "HEX-NUT-0.625",
-     "part_number": "HEX-NUT-0.625",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -5857,31 +4395,12 @@
    "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 2.06in long (Kartek KTK60414).sc",
-    "../../parts/Hardware/Hex Bolt 0.625in x 5.5in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.625in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 4.12in long (Kartek KTKISL100188L).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L).sc",
-    "../../parts/_internal/Reference Tab 0.625in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.625x5.5",
-     "description": "Hex bolt 0.625in x 5.5in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.625",
-     "description": "Hex nut 0.625in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK60414",
@@ -5889,7 +4408,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKISL100188L",
@@ -5897,7 +4416,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKOSL175120L",
@@ -5942,34 +4461,6 @@
      "part": "KTKISL100120L",
      "part_number": "KTKISL100120L",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.75in bolt:1",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.75in bolt:2",
-     "part": "REF-TAB-0.75",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.75in x 5.5in (generic):1",
-     "part": "HEX-BOLT-0.75x5.5",
-     "part_number": "HEX-BOLT-0.75x5.5",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.75in (generic):1",
-     "part": "HEX-NUT-0.75",
-     "part_number": "HEX-NUT-0.75",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -5981,31 +4472,12 @@
    "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 2.06in long (Kartek KTK60414).sc",
-    "../../parts/Hardware/Hex Bolt 0.75in x 5.5in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 4.12in long (Kartek KTKISL100120L).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L).sc",
-    "../../parts/_internal/Reference Tab 0.75in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.75x5.5",
-     "description": "Hex bolt 0.75in x 5.5in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.75",
-     "description": "Hex nut 0.75in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK60414",
@@ -6013,7 +4485,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKISL100120L",
@@ -6021,7 +4493,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKOSL175120L",
@@ -6066,34 +4538,6 @@
      "part": "KTKISL750120",
      "part_number": "KTKISL750120",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.5in bolt:1",
-     "part": "REF-TAB-0.5",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.5in bolt:2",
-     "part": "REF-TAB-0.5",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.5in x 3.5in (generic):1",
-     "part": "HEX-BOLT-0.5x3.5",
-     "part_number": "HEX-BOLT-0.5x3.5",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.5in (generic):1",
-     "part": "HEX-NUT-0.5",
-     "part_number": "HEX-NUT-0.5",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -6105,31 +4549,12 @@
    "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 0.75in ID x 1.0625in OD x 0.775in long (Kartek KTK250).sc",
-    "../../parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.5in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.0625in ID x 1.61in long (Kartek KTKOSL125095).sc",
-    "../../parts/_internal/Reference Tab 0.5in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.0625in ID x 1.61in long (Kartek KTKOSL125095).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.5x3.5",
-     "description": "Hex bolt 0.5in x 3.5in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.5",
-     "description": "Hex nut 0.5in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK250",
@@ -6137,7 +4562,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKISL750120",
@@ -6145,7 +4570,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKOSL125095",
@@ -6190,34 +4615,6 @@
      "part": "KTKISL750120",
      "part_number": "KTKISL750120",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.5in bolt:1",
-     "part": "REF-TAB-0.5",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.5in bolt:2",
-     "part": "REF-TAB-0.5",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.5in x 3.5in (generic):1",
-     "part": "HEX-BOLT-0.5x3.5",
-     "part_number": "HEX-BOLT-0.5x3.5",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.5in (generic):1",
-     "part": "HEX-NUT-0.5",
-     "part_number": "HEX-NUT-0.5",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -6229,31 +4626,12 @@
    "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 0.75in ID x 1.25in OD x 1.13in long (Kartek KTK500F).sc",
-    "../../parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.5in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120).sc",
-    "../../parts/_internal/Reference Tab 0.5in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.5x3.5",
-     "description": "Hex bolt 0.5in x 3.5in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.5",
-     "description": "Hex nut 0.5in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK500F",
@@ -6261,7 +4639,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKISL750120",
@@ -6269,7 +4647,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKOSL150120",
@@ -6314,34 +4692,6 @@
      "part": "KTKISL100188S",
      "part_number": "KTKISL100188S",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.625in bolt:1",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.625in bolt:2",
-     "part": "REF-TAB-0.625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.625in x 3.75in (generic):1",
-     "part": "HEX-BOLT-0.625x3.75",
-     "part_number": "HEX-BOLT-0.625x3.75",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.625in (generic):1",
-     "part": "HEX-NUT-0.625",
-     "part_number": "HEX-NUT-0.625",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -6353,31 +4703,12 @@
    "image": "assemblies/Bushing Pivots/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt.png",
    "links": [
     "../../parts/Bushings/Nylatron Bushing 1.01in ID x 1.25in OD x 0.884in long (Kartek KTK505).sc",
-    "../../parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.625in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120).sc",
-    "../../parts/_internal/Reference Tab 0.625in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120).sc"
    ],
    "bom_rows": [
     {
      "item": 1,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.625x3.75",
-     "description": "Hex bolt 0.625in x 3.75in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 2,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.625",
-     "description": "Hex nut 0.625in (generic)",
-     "also_available_as": ""
-    },
-    {
-     "item": 3,
      "qty": 2,
      "vendor": "Kartek",
      "part_number": "KTK505",
@@ -6385,7 +4716,7 @@
      "also_available_as": ""
     },
     {
-     "item": 4,
+     "item": 2,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKISL100188S",
@@ -6393,7 +4724,7 @@
      "also_available_as": ""
     },
     {
-     "item": 5,
+     "item": 3,
      "qty": 1,
      "vendor": "Kartek",
      "part_number": "KTKOSL150120",
@@ -6431,50 +4762,17 @@
      "part": "B100",
      "part_number": "B100",
      "side": "fixed"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.375in bolt:1",
-     "part": "REF-TAB-0.375",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.375in bolt:2",
-     "part": "REF-TAB-0.375",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.375in x 2.5in (generic):1",
-     "part": "HEX-BOLT-0.375x2.5",
-     "part_number": "HEX-BOLT-0.375x2.5",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.375in (generic):1",
-     "part": "HEX-NUT-0.375",
-     "part_number": "HEX-NUT-0.375",
-     "side": "moving"
     }
    ],
    "pivot": {
-    "joint": "Pivot",
-    "type": "revolute",
-    "fixed": "Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER):1",
-    "moving": "Hex Bolt 0.375in x 2.5in (generic):1"
+    "joint": null,
+    "note": "no inner sleeve: the bolt runs directly in the bushings"
    },
    "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt.png",
    "press_fit_overlap_mm3": 157.8,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100).sc",
-    "../../parts/Hardware/Hex Bolt 0.375in x 2.5in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.375in (generic).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER).sc",
-    "../../parts/_internal/Reference Tab 0.375in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER).sc"
    ],
    "bom_rows": [
     {
@@ -6492,22 +4790,6 @@
      "part_number": "BA100-OUTER",
      "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA100",
      "also_available_as": "AutoFab BA100 (sold in kit); Kartek AFBBA100 (sold in kit)"
-    },
-    {
-     "item": 3,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.375x2.5",
-     "description": "Hex bolt 0.375in x 2.5in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 4,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.375",
-     "description": "Hex nut 0.375in (generic)",
-     "also_available_as": ""
     }
    ]
   },
@@ -6547,34 +4829,6 @@
      "part": "BA125-INNER",
      "part_number": "BA125-INNER",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.375in bolt:1",
-     "part": "REF-TAB-0.375",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.375in bolt:2",
-     "part": "REF-TAB-0.375",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.375in x 3in (generic):1",
-     "part": "HEX-BOLT-0.375x3",
-     "part_number": "HEX-BOLT-0.375x3",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.375in (generic):1",
-     "part": "HEX-NUT-0.375",
-     "part_number": "HEX-NUT-0.375",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -6587,11 +4841,8 @@
    "press_fit_overlap_mm3": 205.6,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (AutoFab B125).sc",
-    "../../parts/Hardware/Hex Bolt 0.375in x 3in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.375in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 0.5in OD x 0.375in ID x 2in long (AutoFab BA125-INNER).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.06in ID x 1.5in long (AutoFab BA125-OUTER).sc",
-    "../../parts/_internal/Reference Tab 0.375in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.06in ID x 1.5in long (AutoFab BA125-OUTER).sc"
    ],
    "bom_rows": [
     {
@@ -6617,22 +4868,6 @@
      "part_number": "BA125-OUTER",
      "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA125",
      "also_available_as": "AutoFab BA125 (sold in kit); Kartek AFBBA125 (sold in kit)"
-    },
-    {
-     "item": 4,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.375x3",
-     "description": "Hex bolt 0.375in x 3in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 5,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.375",
-     "description": "Hex nut 0.375in (generic)",
-     "also_available_as": ""
     }
    ]
   },
@@ -6672,34 +4907,6 @@
      "part": "BA150-INNER",
      "part_number": "BA150-INNER",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.4375in bolt:1",
-     "part": "REF-TAB-0.4375",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.4375in bolt:2",
-     "part": "REF-TAB-0.4375",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.4375in x 3.5in (generic):1",
-     "part": "HEX-BOLT-0.4375x3.5",
-     "part_number": "HEX-BOLT-0.4375x3.5",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.4375in (generic):1",
-     "part": "HEX-NUT-0.4375",
-     "part_number": "HEX-NUT-0.4375",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -6712,11 +4919,8 @@
    "press_fit_overlap_mm3": 142.2,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150).sc",
-    "../../parts/Hardware/Hex Bolt 0.4375in x 3.5in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.4375in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 0.625in OD x 0.4375in ID x 2.25in long (AutoFab BA150-INNER).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER).sc",
-    "../../parts/_internal/Reference Tab 0.4375in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER).sc"
    ],
    "bom_rows": [
     {
@@ -6742,22 +4946,6 @@
      "part_number": "BA150-OUTER",
      "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA150",
      "also_available_as": "AutoFab BA150 (sold in kit); Kartek AFBBA150 (sold in kit)"
-    },
-    {
-     "item": 4,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.4375x3.5",
-     "description": "Hex bolt 0.4375in x 3.5in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 5,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.4375",
-     "description": "Hex nut 0.4375in (generic)",
-     "also_available_as": ""
     }
    ]
   },
@@ -6797,34 +4985,6 @@
      "part": "BA175-INNER",
      "part_number": "BA175-INNER",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.5625in bolt:1",
-     "part": "REF-TAB-0.5625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.5625in bolt:2",
-     "part": "REF-TAB-0.5625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.5625in x 4.25in (generic):1",
-     "part": "HEX-BOLT-0.5625x4.25",
-     "part_number": "HEX-BOLT-0.5625x4.25",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.5625in (generic):1",
-     "part": "HEX-NUT-0.5625",
-     "part_number": "HEX-NUT-0.5625",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -6837,11 +4997,8 @@
    "press_fit_overlap_mm3": 711.9,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.75in ID x 1.525in OD x 1.465in long (AutoFab B175).sc",
-    "../../parts/Hardware/Hex Bolt 0.5625in x 4.25in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.5625in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA175-INNER).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.51in ID x 2.5in long (AutoFab BA175-OUTER).sc",
-    "../../parts/_internal/Reference Tab 0.5625in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.51in ID x 2.5in long (AutoFab BA175-OUTER).sc"
    ],
    "bom_rows": [
     {
@@ -6867,22 +5024,6 @@
      "part_number": "BA175-OUTER",
      "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA175",
      "also_available_as": "AutoFab BA175 (sold in kit); Kartek AFBBA175 (sold in kit)"
-    },
-    {
-     "item": 4,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.5625x4.25",
-     "description": "Hex bolt 0.5625in x 4.25in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 5,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.5625",
-     "description": "Hex nut 0.5625in (generic)",
-     "also_available_as": ""
     }
    ]
   },
@@ -6922,34 +5063,6 @@
      "part": "BA200-INNER",
      "part_number": "BA200-INNER",
      "side": "moving"
-    },
-    {
-     "role": "Tab top",
-     "occurrence": "Reference Tab 0.5625in bolt:1",
-     "part": "REF-TAB-0.5625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Tab bottom",
-     "occurrence": "Reference Tab 0.5625in bolt:2",
-     "part": "REF-TAB-0.5625",
-     "part_number": "",
-     "side": "moving"
-    },
-    {
-     "role": "Bolt",
-     "occurrence": "Hex Bolt 0.5625in x 4.25in (generic):1",
-     "part": "HEX-BOLT-0.5625x4.25",
-     "part_number": "HEX-BOLT-0.5625x4.25",
-     "side": "moving"
-    },
-    {
-     "role": "Nut",
-     "occurrence": "Hex Nut 0.5625in (generic):1",
-     "part": "HEX-NUT-0.5625",
-     "part_number": "HEX-NUT-0.5625",
-     "side": "moving"
     }
    ],
    "pivot": {
@@ -6962,11 +5075,8 @@
    "press_fit_overlap_mm3": 1107.1,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.75in ID x 1.78in OD x 1.465in long (AutoFab B200).sc",
-    "../../parts/Hardware/Hex Bolt 0.5625in x 4.25in (generic).sc",
-    "../../parts/Hardware/Hex Nut 0.5625in (generic).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA200-INNER).sc",
-    "../../parts/Outer Sleeves/Outer Sleeve 2in OD x 1.76in ID x 2.5in long (AutoFab BA200-OUTER).sc",
-    "../../parts/_internal/Reference Tab 0.5625in bolt.sc"
+    "../../parts/Outer Sleeves/Outer Sleeve 2in OD x 1.76in ID x 2.5in long (AutoFab BA200-OUTER).sc"
    ],
    "bom_rows": [
     {
@@ -6992,22 +5102,6 @@
      "part_number": "BA200-OUTER",
      "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA200",
      "also_available_as": "AutoFab BA200 (sold in kit); Kartek AFBBA200 (sold in kit)"
-    },
-    {
-     "item": 4,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-BOLT-0.5625x4.25",
-     "description": "Hex bolt 0.5625in x 4.25in (generic; pick grade and thread to suit)",
-     "also_available_as": ""
-    },
-    {
-     "item": 5,
-     "qty": 1,
-     "vendor": "generic",
-     "part_number": "HEX-NUT-0.5625",
-     "description": "Hex nut 0.5625in (generic)",
-     "also_available_as": ""
     }
    ]
   }

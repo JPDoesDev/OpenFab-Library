@@ -112,11 +112,6 @@ def write_bom(path: Path, bom_rows: list[dict]) -> list[dict]:
 
 def build_assembly(recipe: dict, files: dict, catalog: dict, report: dict, names: set) -> None:
     asm = A.BUILDERS[recipe["kind"]](recipe, files, catalog)
-    for part in asm.needed:
-        if part.key not in files:
-            build_part(part, files, report)
-    # generic parts were added to the catalog while the recipe ran; rebuild now that their files exist
-    asm = A.BUILDERS[recipe["kind"]](recipe, files, catalog)
     if asm.name in names:
         raise RuntimeError(f"two assemblies would both be called {asm.name!r}")
     names.add(asm.name)
@@ -141,6 +136,10 @@ def build_assembly(recipe: dict, files: dict, catalog: dict, report: dict, names
         if isinstance(by, dict):
             entry["pivot"].update({"max_misalignment_deg": round(lim, 2), "limited_by": [by["a"], by["b"]]})
             post.cmd("joint.limits", joint="Pivot", index=1, min=-round(lim, 2), max=round(lim, 2))
+        elif by == "turn":
+            # nothing in the assembly stops the swing (no spacers): the builder's mount sets the limit
+            entry["pivot"].update({"max_misalignment_deg": None,
+                                   "limited_by": "nothing in this assembly; your mount tabs set the limit"})
         else:
             entry["pivot"].update({"max_misalignment_deg": None, "limited_by": by})
             problems.append(f"limit search ended with {by!r}")
@@ -219,7 +218,7 @@ def main(argv: list[str]) -> int:
         try:
             build_assembly(recipe, files, catalog, report, names)
             entry = report["assemblies"][recipe["key"]]
-            print("assembly", entry["name"], "-", entry["pivot"].get("max_misalignment_deg", "free"), flush=True)
+            print("assembly", entry["name"], "-", entry["pivot"].get("max_misalignment_deg", "no limit"), flush=True)
         except Exception as e:
             report["problems"].append(f"{recipe['key']}: {e}")
             print("assembly", recipe["key"], "FAILED", flush=True)

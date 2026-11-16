@@ -54,8 +54,8 @@ for interference at rest and for broken or absolute links, and fails loudly on a
         Uniballs/          Uniball 1in bore x 2.125in OD (FK WSSX16T).sc  .step  .png  .txt
         Rod Ends/          Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc ...
         Spacers/  Uniball Cups/  Snap Rings/  Jam Nuts/  Bushings/
-        Inner Sleeves/  Outer Sleeves/  Hardware/
-        _internal/         bearing balls and reference mount tabs: helpers, not things you buy
+        Inner Sleeves/  Outer Sleeves/
+        _internal/         bearing balls: helpers the assemblies need, not things you buy
       assemblies/
         Uniball Stacks/    Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.sc  .step  .png  .bom.csv
         Rod End Links/  Bushing Pivots/
@@ -82,14 +82,16 @@ for interference at rest and for broken or absolute links, and fails loudly on a
 
 ## How the assemblies work
 
-- The fixed side (cup, rod end body, outer sleeve) is grounded. The pin side (ball,
-  spacers, bolt, reference tabs) moves on one joint named `Pivot`.
+- The fixed side (cup, rod end body, outer sleeve) is grounded. The pin side (ball and
+  spacers, or the inner sleeve) moves on one joint named `Pivot`.
 - Uniballs and rod ends use a ball joint. Its tilt limit (`pitch`) is found by sweeping
   the joint until parts collide, then stored on the joint. `catalog.json` records the
   angle and which two parts touch first.
 - Bushing pivots use a revolute joint with no limit.
+- Bolts, nuts, washers and mount tabs are not included; that hardware is the builder's choice.
+  A rod end or uniball with no spacers therefore has no stored limit: your mount sets it.
 - A bearing is two files, race and ball, so the ball can move. The race (or rod end
-  body) carries the part number; the ball and the reference tabs are left out of the BOM.
+  body) carries the part number; the ball is left out of the BOM.
 - SolidCraft links a sub-assembly in as one rigid block, so to keep a pivot moving in
   your own design, insert the part files directly and recreate the joint rather than
   linking a finished assembly. Each assembly's script in `build/scripts/` shows how.
