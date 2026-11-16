@@ -107,11 +107,15 @@ vendor does not publish a dimension it is estimated, and the part's `estimated` 
 - misalignment spacers: only six dimensions are published; the waist and seat flange are
   scaled from photos, and these set the pivot limit
 - uniball cup: lip and snap ring groove
-- rod end: plain cylindrical shank, no thread or neck
+- rod end: plain cylindrical shank with no neck
 - AutoFab kit sleeves: inferred from the kit size and its bushings
 - cone, hourglass, stepped and flat-top spacers are in the data but not modelled yet
 
-Threads are not modelled. Urethane bushings overlap their sleeves by the press fit.
+Rod end shanks carry a cosmetic thread over the threaded length, with the right pitch and
+hand. SolidCraft has no Unified form for shaft threads, so it is stored as the same profile
+in millimetres (3/4-16 shows as M19.05x1.5875) and the feature is named with the real
+callout. Jam nut threads are not modelled. Urethane bushings overlap their sleeves by the
+press fit.
 
 ## Contact and contributing
 

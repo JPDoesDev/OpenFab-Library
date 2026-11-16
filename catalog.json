@@ -115,10 +115,11 @@
     "thread_dia": 0.75,
     "thread_length": 1.75,
     "hand": "RH",
-    "catalog_misalignment_deg": 14.0
+    "catalog_misalignment_deg": 14.0,
+    "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
    },
    "estimated": [
-    "shank is a plain cylinder at thread major diameter; no neck, thread or grease fitting modelled"
+    "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
    ],
    "volume_in3": 1.70231,
    "thread": "3/4-16 UNF-3A",
@@ -149,7 +150,8 @@
     "thread_dia": 0.75,
     "thread_length": 1.75,
     "hand": "RH",
-    "catalog_misalignment_deg": 14.0
+    "catalog_misalignment_deg": 14.0,
+    "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
    },
    "estimated": [],
    "volume_in3": 0.621,
@@ -194,10 +196,11 @@
     "thread_dia": 0.75,
     "thread_length": 1.75,
     "hand": "LH",
-    "catalog_misalignment_deg": 14.0
+    "catalog_misalignment_deg": 14.0,
+    "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
    },
    "estimated": [
-    "shank is a plain cylinder at thread major diameter; no neck, thread or grease fitting modelled"
+    "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
    ],
    "volume_in3": 1.70231,
    "thread": "3/4-16 UNF-3A LH",
@@ -228,7 +231,8 @@
     "thread_dia": 0.75,
     "thread_length": 1.75,
     "hand": "LH",
-    "catalog_misalignment_deg": 14.0
+    "catalog_misalignment_deg": 14.0,
+    "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
    },
    "estimated": [],
    "volume_in3": 0.621,

@@ -20,7 +20,7 @@ from __future__ import annotations
 import math
 from dataclasses import dataclass, field
 
-from .sc import Script, sphere_slice_volume
+from .sc import Script, mm, sphere_slice_volume
 
 PI = math.pi
 
@@ -134,10 +134,19 @@ def rod_end(row: dict) -> list[Part]:
     # Shank: starts inside the head ring, clear of the socket, and runs to A from the ball centre.
     x0 = math.sqrt((D / 2) ** 2 - (T / 2) ** 2) - 0.02
     body.cylinder("Shank", td, A - x0, base=(x0, 0, 0), axis="X")
+    # Cosmetic thread over the threaded length, from the free end. SolidCraft's shaft threads have no
+    # Unified form, so it is given as the same 60-degree profile in millimetres (3/4-16 is M19.05x1.5875);
+    # the feature name carries the real callout.
+    tpi = float(row["thread"].split("-")[1].split()[0])
+    body.cmd("solid.thread", face=[mm((x0 + A) / 2), 0, mm(td / 2)],
+             designation=f"M{num(td * 25.4)}x{num(25.4 / tpi)}",
+             hand="left" if row["hand"] == "LH" else "right", length=mm(C), name=f"Thread {row['thread']}")
     ball = Script()
     ball.revolve("Ball", _ball(B, W, bd))
     v_ball = sphere_slice_volume(bd, W) - PI * (B / 2) ** 2 * W
-    est = ["shank is a plain cylinder at thread major diameter; no neck, thread or grease fitting modelled"]
+    dims["thread_feature"] = f"cosmetic, M{num(td * 25.4)}x{num(25.4 / tpi)} (the Unified size in millimetres)"
+    est = ["shank is a plain cylinder at thread major diameter with a cosmetic thread; "
+           "no neck or grease fitting modelled"]
     return [
         _finish(row, pn, "rod_end", "Body", row["material"], body, None, dims, est,
                 title=f"Rod End {inch(B)} bore, {thread_name(row)}", folder="Rod Ends"),
