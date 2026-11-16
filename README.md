@@ -51,13 +51,13 @@ for interference at rest and for broken or absolute links, and fails loudly on a
 
     release/
       parts/
-        Uniballs/          Uniball 1in bore x 2.125in OD (FK WSSX16T).sc  .step  .txt
+        Uniballs/          Uniball 1in bore x 2.125in OD (FK WSSX16T).sc  .step  .png  .txt
         Rod Ends/          Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc ...
         Spacers/  Uniball Cups/  Snap Rings/  Jam Nuts/  Bushings/
         Inner Sleeves/  Outer Sleeves/  Hardware/
         _internal/         bearing balls and reference mount tabs: helpers, not things you buy
       assemblies/
-        Uniball Stacks/    Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.sc  .step  .bom.csv
+        Uniball Stacks/    Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.sc  .step  .png  .bom.csv
         Rod End Links/  Bushing Pivots/
       scripts/             the SolidCraft command scripts that built every file
       catalog.json  README.md  LICENSE
@@ -77,6 +77,8 @@ for interference at rest and for broken or absolute links, and fails loudly on a
   that one vendor's part matches another's, add a row there.
 - **Each part has a `.txt` sheet** beside it with part number, vendor, cross-references,
   dimensions and which dimensions are estimated.
+- **Each part and assembly has a `.png`** beside it: one orthographic three-quarter view for
+  quick reference.
 
 ## How the assemblies work
 

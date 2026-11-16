@@ -16,7 +16,7 @@ from pathlib import Path
 
 from . import assemblies as A
 from . import parts as P
-from .sc import IN, Script, measure, run
+from .sc import IN, Script, measure, run, snapshot
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA, OUT = ROOT / "data", ROOT / "release"
@@ -67,11 +67,13 @@ def build_part(part: P.Part, files: dict, report: dict) -> None:
     run(part.script, save=design, out=[step], keep=OUT / "scripts" / "parts" / f"{part.name}.json")
     m = measure(design)
     bodies = m["bodies"]
+    snapshot(design, design.with_suffix(".png"), bodies)
     vol = sum(b["volume_mm3"] for b in bodies) / IN ** 3
     entry = {"name": part.name, "part_number": part.part_number, "vendor": part.vendor,
              "family": part.family, "description": part.description, "material": part.material,
              "bom_type": part.bom_type, "also_available_as": part.xrefs,
              "file": rel(design), "step": rel(step), "sheet": rel(design.with_suffix(".txt")),
+             "image": rel(design.with_suffix(".png")),
              "dims_in": part.dims, "estimated": part.estimated, "volume_in3": round(vol, 5),
              **part.properties}
     problems = []
@@ -148,6 +150,8 @@ def build_assembly(recipe: dict, files: dict, catalog: dict, report: dict, names
     post.cmd("assembly.bom")
     post.cmd("component.links")
     res = run(post, start=design, save=design, out=[step], keep=scripts / f"{asm.name}.limits.json")
+    snapshot(design, design.with_suffix(".png"), measure(design)["bodies"])
+    entry["image"] = rel(design.with_suffix(".png"))
     clash = next((r for r in res if isinstance(r, dict) and "interferences" in r), {})
     hits = [h for h in clash.get("interferences", []) if h.get("volume_mm3", 0) > 0.5]
     if asm.kind == "bushing_pivot":

@@ -7,9 +7,9 @@ Source, data and the generator: see the CAD-Works repository.
 
 | Folder | Contents |
 |---|---|
-| `parts/<family>/` | One part per vendor part number: `.sc` (SolidCraft), `.step`, and a `.txt` sheet |
+| `parts/<family>/` | One part per vendor part number: `.sc` (SolidCraft), `.step`, a `.png` picture and a `.txt` sheet |
 | `parts/_internal/` | Helper pieces the assemblies need (bearing balls, reference mount tabs). Not things you buy |
-| `assemblies/<kind>/` | Mated assemblies: `.sc`, `.step` and a `.bom.csv` |
+| `assemblies/<kind>/` | Mated assemblies: `.sc`, `.step`, a `.png` picture and a `.bom.csv` |
 | `scripts/` | The SolidCraft command scripts that built every file |
 | `catalog.json` | Index of everything: dimensions, files, cross-references, BOMs and pivot limits |
 

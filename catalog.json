@@ -32,6 +32,7 @@
    "file": "parts/Uniballs/Uniball 1in bore x 2.125in OD (FK WSSX16T).sc",
    "step": "parts/Uniballs/Uniball 1in bore x 2.125in OD (FK WSSX16T).step",
    "sheet": "parts/Uniballs/Uniball 1in bore x 2.125in OD (FK WSSX16T).txt",
+   "image": "parts/Uniballs/Uniball 1in bore x 2.125in OD (FK WSSX16T).png",
    "dims_in": {
     "bore": 1.0,
     "od": 2.125,
@@ -57,6 +58,7 @@
    "file": "parts/_internal/Uniball Ball 1in bore (for WSSX16T).sc",
    "step": "parts/_internal/Uniball Ball 1in bore (for WSSX16T).step",
    "sheet": "parts/_internal/Uniball Ball 1in bore (for WSSX16T).txt",
+   "image": "parts/_internal/Uniball Ball 1in bore (for WSSX16T).png",
    "dims_in": {
     "bore": 1.0,
     "od": 2.125,
@@ -101,6 +103,7 @@
    "file": "parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc",
    "step": "parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).step",
    "sheet": "parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).txt",
+   "image": "parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).png",
    "dims_in": {
     "bore": 0.75,
     "head_dia": 1.75,
@@ -134,6 +137,7 @@
    "file": "parts/_internal/Rod End Ball 0.75in bore (for JMX12T).sc",
    "step": "parts/_internal/Rod End Ball 0.75in bore (for JMX12T).step",
    "sheet": "parts/_internal/Rod End Ball 0.75in bore (for JMX12T).txt",
+   "image": "parts/_internal/Rod End Ball 0.75in bore (for JMX12T).png",
    "dims_in": {
     "bore": 0.75,
     "head_dia": 1.75,
@@ -178,6 +182,7 @@
    "file": "parts/Rod Ends/Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T).sc",
    "step": "parts/Rod Ends/Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T).step",
    "sheet": "parts/Rod Ends/Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T).txt",
+   "image": "parts/Rod Ends/Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T).png",
    "dims_in": {
     "bore": 0.75,
     "head_dia": 1.75,
@@ -211,6 +216,7 @@
    "file": "parts/_internal/Rod End Ball 0.75in bore (for JMXL12T).sc",
    "step": "parts/_internal/Rod End Ball 0.75in bore (for JMXL12T).step",
    "sheet": "parts/_internal/Rod End Ball 0.75in bore (for JMXL12T).txt",
+   "image": "parts/_internal/Rod End Ball 0.75in bore (for JMXL12T).png",
    "dims_in": {
     "bore": 0.75,
     "head_dia": 1.75,
@@ -242,6 +248,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 2.5in stack (Kartek KTKHMA15034BH).sc",
    "step": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 2.5in stack (Kartek KTKHMA15034BH).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 2.5in stack (Kartek KTKHMA15034BH).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 2.5in stack (Kartek KTKHMA15034BH).png",
    "dims_in": {
     "ball_bore": 1.5,
     "bolt": 0.75,
@@ -274,6 +281,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 2.93in stack (Kartek KTKHMA15034JPS).sc",
    "step": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 2.93in stack (Kartek KTKHMA15034JPS).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 2.93in stack (Kartek KTKHMA15034JPS).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 2.93in stack (Kartek KTKHMA15034JPS).png",
    "dims_in": {
     "ball_bore": 1.5,
     "bolt": 0.75,
@@ -306,6 +314,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034PRM).sc",
    "step": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034PRM).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034PRM).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034PRM).png",
    "dims_in": {
     "ball_bore": 1.5,
     "bolt": 0.75,
@@ -338,6 +347,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 4in stack (Kartek KTKHMA15034TR).sc",
    "step": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 4in stack (Kartek KTKHMA15034TR).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 4in stack (Kartek KTKHMA15034TR).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1.5in to 0.75in bolt, 4in stack (Kartek KTKHMA15034TR).png",
    "dims_in": {
     "ball_bore": 1.5,
     "bolt": 0.75,
@@ -370,6 +380,7 @@
    "file": "parts/Spacers/Straight Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRTN).sc",
    "step": "parts/Spacers/Straight Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRTN).step",
    "sheet": "parts/Spacers/Straight Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRTN).txt",
+   "image": "parts/Spacers/Straight Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRTN).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.75,
@@ -396,6 +407,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1in to 0.5625in bolt, 2.76in stack (Kartek KTKHMA100916S).sc",
    "step": "parts/Spacers/Misalignment Spacer 1in to 0.5625in bolt, 2.76in stack (Kartek KTKHMA100916S).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1in to 0.5625in bolt, 2.76in stack (Kartek KTKHMA100916S).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1in to 0.5625in bolt, 2.76in stack (Kartek KTKHMA100916S).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.5625,
@@ -428,6 +440,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1in to 0.5625in bolt, 3.04in stack (Kartek KTKHMA100916).sc",
    "step": "parts/Spacers/Misalignment Spacer 1in to 0.5625in bolt, 3.04in stack (Kartek KTKHMA100916).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1in to 0.5625in bolt, 3.04in stack (Kartek KTKHMA100916).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1in to 0.5625in bolt, 3.04in stack (Kartek KTKHMA100916).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.5625,
@@ -460,6 +473,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 1.87in stack (Kartek KTKHMA10034JRN).sc",
    "step": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 1.87in stack (Kartek KTKHMA10034JRN).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 1.87in stack (Kartek KTKHMA10034JRN).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 1.87in stack (Kartek KTKHMA10034JRN).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.75,
@@ -492,6 +506,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 1.995in stack (Kartek KTKHMA10034JR).sc",
    "step": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 1.995in stack (Kartek KTKHMA10034JR).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 1.995in stack (Kartek KTKHMA10034JR).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 1.995in stack (Kartek KTKHMA10034JR).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.75,
@@ -524,6 +539,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034N).sc",
    "step": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034N).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034N).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034N).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.75,
@@ -556,6 +572,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN).sc",
    "step": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.75,
@@ -588,6 +605,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034TPRM).sc",
    "step": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034TPRM).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034TPRM).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034TPRM).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.75,
@@ -620,6 +638,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 3.02in stack (Kartek KTKHMA10034ES).sc",
    "step": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 3.02in stack (Kartek KTKHMA10034ES).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 3.02in stack (Kartek KTKHMA10034ES).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 3.02in stack (Kartek KTKHMA10034ES).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.75,
@@ -652,6 +671,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTKHMA10034TRN).sc",
    "step": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTKHMA10034TRN).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTKHMA10034TRN).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTKHMA10034TRN).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.75,
@@ -684,6 +704,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1in to 0.625in bolt, 2.76in stack (Kartek KTKHMA10058RN).sc",
    "step": "parts/Spacers/Misalignment Spacer 1in to 0.625in bolt, 2.76in stack (Kartek KTKHMA10058RN).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1in to 0.625in bolt, 2.76in stack (Kartek KTKHMA10058RN).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1in to 0.625in bolt, 2.76in stack (Kartek KTKHMA10058RN).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.625,
@@ -716,6 +737,7 @@
    "file": "parts/Spacers/Misalignment Spacer 1in to 0.625in bolt, 3.04in stack (Kartek KTKHMA10058TR).sc",
    "step": "parts/Spacers/Misalignment Spacer 1in to 0.625in bolt, 3.04in stack (Kartek KTKHMA10058TR).step",
    "sheet": "parts/Spacers/Misalignment Spacer 1in to 0.625in bolt, 3.04in stack (Kartek KTKHMA10058TR).txt",
+   "image": "parts/Spacers/Misalignment Spacer 1in to 0.625in bolt, 3.04in stack (Kartek KTKHMA10058TR).png",
    "dims_in": {
     "ball_bore": 1.0,
     "bolt": 0.625,
@@ -748,6 +770,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.5in to 0.375in bolt, 1.18in stack (Kartek KTKHMA1238).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.5in to 0.375in bolt, 1.18in stack (Kartek KTKHMA1238).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.5in to 0.375in bolt, 1.18in stack (Kartek KTKHMA1238).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.5in to 0.375in bolt, 1.18in stack (Kartek KTKHMA1238).png",
    "dims_in": {
     "ball_bore": 0.5,
     "bolt": 0.375,
@@ -780,6 +803,7 @@
    "file": "parts/Spacers/Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945).sc",
    "step": "parts/Spacers/Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945).step",
    "sheet": "parts/Spacers/Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945).txt",
+   "image": "parts/Spacers/Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945).png",
    "dims_in": {
     "ball_bore": 0.75,
     "bolt": 0.5,
@@ -806,6 +830,7 @@
    "file": "parts/Spacers/Straight Spacer 0.75in to 0.5625in bolt, 1.895in stack (Kartek KTK34916SRT).sc",
    "step": "parts/Spacers/Straight Spacer 0.75in to 0.5625in bolt, 1.895in stack (Kartek KTK34916SRT).step",
    "sheet": "parts/Spacers/Straight Spacer 0.75in to 0.5625in bolt, 1.895in stack (Kartek KTK34916SRT).txt",
+   "image": "parts/Spacers/Straight Spacer 0.75in to 0.5625in bolt, 1.895in stack (Kartek KTK34916SRT).png",
    "dims_in": {
     "ball_bore": 0.75,
     "bolt": 0.5625,
@@ -832,6 +857,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.75in to 0.4375in bolt, 1.5in stack (Kartek KTKHMA34716).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.75in to 0.4375in bolt, 1.5in stack (Kartek KTKHMA34716).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.75in to 0.4375in bolt, 1.5in stack (Kartek KTKHMA34716).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.75in to 0.4375in bolt, 1.5in stack (Kartek KTKHMA34716).png",
    "dims_in": {
     "ball_bore": 0.75,
     "bolt": 0.4375,
@@ -864,6 +890,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.75in to 0.5in bolt, 1.82in stack (Kartek KTKHMA3412).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.75in to 0.5in bolt, 1.82in stack (Kartek KTKHMA3412).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.75in to 0.5in bolt, 1.82in stack (Kartek KTKHMA3412).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.75in to 0.5in bolt, 1.82in stack (Kartek KTKHMA3412).png",
    "dims_in": {
     "ball_bore": 0.75,
     "bolt": 0.5,
@@ -896,6 +923,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.75in to 0.625in bolt, 1.82in stack (Kartek KTKHMA3458).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.75in to 0.625in bolt, 1.82in stack (Kartek KTKHMA3458).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.75in to 0.625in bolt, 1.82in stack (Kartek KTKHMA3458).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.75in to 0.625in bolt, 1.82in stack (Kartek KTKHMA3458).png",
    "dims_in": {
     "ball_bore": 0.75,
     "bolt": 0.625,
@@ -928,6 +956,7 @@
    "file": "parts/Spacers/Straight Spacer 0.625in to 0.5in bolt, 1.75in stack (Kartek KTK5812SRT875).sc",
    "step": "parts/Spacers/Straight Spacer 0.625in to 0.5in bolt, 1.75in stack (Kartek KTK5812SRT875).step",
    "sheet": "parts/Spacers/Straight Spacer 0.625in to 0.5in bolt, 1.75in stack (Kartek KTK5812SRT875).txt",
+   "image": "parts/Spacers/Straight Spacer 0.625in to 0.5in bolt, 1.75in stack (Kartek KTK5812SRT875).png",
    "dims_in": {
     "ball_bore": 0.625,
     "bolt": 0.5,
@@ -954,6 +983,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.25in stack (Kartek KTKHMA5812SS).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.25in stack (Kartek KTKHMA5812SS).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.25in stack (Kartek KTKHMA5812SS).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.25in stack (Kartek KTKHMA5812SS).png",
    "dims_in": {
     "ball_bore": 0.625,
     "bolt": 0.5,
@@ -986,6 +1016,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.5in stack (Kartek KTKHMA5812S).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.5in stack (Kartek KTKHMA5812S).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.5in stack (Kartek KTKHMA5812S).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.5in stack (Kartek KTKHMA5812S).png",
    "dims_in": {
     "ball_bore": 0.625,
     "bolt": 0.5,
@@ -1018,6 +1049,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.82in stack (Kartek KTKHMA5812T).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.82in stack (Kartek KTKHMA5812T).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.82in stack (Kartek KTKHMA5812T).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.625in to 0.5in bolt, 1.82in stack (Kartek KTKHMA5812T).png",
    "dims_in": {
     "ball_bore": 0.625,
     "bolt": 0.5,
@@ -1050,6 +1082,7 @@
    "file": "parts/Spacers/Straight Spacer 0.875in to 0.75in bolt, 1.52in stack (Kartek KTK7834SRTR).sc",
    "step": "parts/Spacers/Straight Spacer 0.875in to 0.75in bolt, 1.52in stack (Kartek KTK7834SRTR).step",
    "sheet": "parts/Spacers/Straight Spacer 0.875in to 0.75in bolt, 1.52in stack (Kartek KTK7834SRTR).txt",
+   "image": "parts/Spacers/Straight Spacer 0.875in to 0.75in bolt, 1.52in stack (Kartek KTK7834SRTR).png",
    "dims_in": {
     "ball_bore": 0.875,
     "bolt": 0.75,
@@ -1076,6 +1109,7 @@
    "file": "parts/Spacers/Straight Spacer 0.875in to 0.625in bolt, 1.624in stack (Kartek KTK7858SRT).sc",
    "step": "parts/Spacers/Straight Spacer 0.875in to 0.625in bolt, 1.624in stack (Kartek KTK7858SRT).step",
    "sheet": "parts/Spacers/Straight Spacer 0.875in to 0.625in bolt, 1.624in stack (Kartek KTK7858SRT).txt",
+   "image": "parts/Spacers/Straight Spacer 0.875in to 0.625in bolt, 1.624in stack (Kartek KTK7858SRT).png",
    "dims_in": {
     "ball_bore": 0.875,
     "bolt": 0.625,
@@ -1102,6 +1136,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 1.5in stack (Kartek KTKHMA7812S).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 1.5in stack (Kartek KTKHMA7812S).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 1.5in stack (Kartek KTKHMA7812S).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 1.5in stack (Kartek KTKHMA7812S).png",
    "dims_in": {
     "ball_bore": 0.875,
     "bolt": 0.5,
@@ -1134,6 +1169,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 1.85in stack (Kartek KTKHMA7812M).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 1.85in stack (Kartek KTKHMA7812M).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 1.85in stack (Kartek KTKHMA7812M).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 1.85in stack (Kartek KTKHMA7812M).png",
    "dims_in": {
     "ball_bore": 0.875,
     "bolt": 0.5,
@@ -1166,6 +1202,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 2.12in stack (Kartek KTKHMA7812).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 2.12in stack (Kartek KTKHMA7812).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 2.12in stack (Kartek KTKHMA7812).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 2.12in stack (Kartek KTKHMA7812).png",
    "dims_in": {
     "ball_bore": 0.875,
     "bolt": 0.5,
@@ -1198,6 +1235,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 2.7in stack (Kartek KTKHMA7812PRC).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 2.7in stack (Kartek KTKHMA7812PRC).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 2.7in stack (Kartek KTKHMA7812PRC).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.875in to 0.5in bolt, 2.7in stack (Kartek KTKHMA7812PRC).png",
    "dims_in": {
     "ball_bore": 0.875,
     "bolt": 0.5,
@@ -1230,6 +1268,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 1.5in stack (Kartek KTKHMA78916SS).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 1.5in stack (Kartek KTKHMA78916SS).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 1.5in stack (Kartek KTKHMA78916SS).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 1.5in stack (Kartek KTKHMA78916SS).png",
    "dims_in": {
     "ball_bore": 0.875,
     "bolt": 0.5625,
@@ -1262,6 +1301,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 1.85in stack (Kartek KTKHMA78916S).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 1.85in stack (Kartek KTKHMA78916S).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 1.85in stack (Kartek KTKHMA78916S).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 1.85in stack (Kartek KTKHMA78916S).png",
    "dims_in": {
     "ball_bore": 0.875,
     "bolt": 0.5625,
@@ -1294,6 +1334,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 2.12in stack (Kartek KTKHMA78916).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 2.12in stack (Kartek KTKHMA78916).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 2.12in stack (Kartek KTKHMA78916).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.875in to 0.5625in bolt, 2.12in stack (Kartek KTKHMA78916).png",
    "dims_in": {
     "ball_bore": 0.875,
     "bolt": 0.5625,
@@ -1326,6 +1367,7 @@
    "file": "parts/Spacers/Misalignment Spacer 0.875in to 0.625in bolt, 2.12in stack (Kartek KTKHMA7858).sc",
    "step": "parts/Spacers/Misalignment Spacer 0.875in to 0.625in bolt, 2.12in stack (Kartek KTKHMA7858).step",
    "sheet": "parts/Spacers/Misalignment Spacer 0.875in to 0.625in bolt, 2.12in stack (Kartek KTKHMA7858).txt",
+   "image": "parts/Spacers/Misalignment Spacer 0.875in to 0.625in bolt, 2.12in stack (Kartek KTKHMA7858).png",
    "dims_in": {
     "ball_bore": 0.875,
     "bolt": 0.625,
@@ -1371,6 +1413,7 @@
    "file": "parts/Uniball Cups/Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall (Kartek KTK9044HD).sc",
    "step": "parts/Uniball Cups/Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall (Kartek KTK9044HD).step",
    "sheet": "parts/Uniball Cups/Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall (Kartek KTK9044HD).txt",
+   "image": "parts/Uniball Cups/Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall (Kartek KTK9044HD).png",
    "dims_in": {
     "bearing_od": 2.125,
     "height": 1.5,
@@ -1406,6 +1449,7 @@
    "file": "parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).sc",
    "step": "parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).step",
    "sheet": "parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).txt",
+   "image": "parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).png",
    "dims_in": {
     "od": 2.24,
     "id": 1.945,
@@ -1440,6 +1484,7 @@
    "file": "parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).sc",
    "step": "parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).step",
    "sheet": "parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).txt",
+   "image": "parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).png",
    "dims_in": {
     "hex": 1.09375,
     "width": 0.425,
@@ -1474,6 +1519,7 @@
    "file": "parts/Jam Nuts/Jam Nut 0.75-16 LH (FK SJNL12).sc",
    "step": "parts/Jam Nuts/Jam Nut 0.75-16 LH (FK SJNL12).step",
    "sheet": "parts/Jam Nuts/Jam Nut 0.75-16 LH (FK SJNL12).txt",
+   "image": "parts/Jam Nuts/Jam Nut 0.75-16 LH (FK SJNL12).png",
    "dims_in": {
     "hex": 1.09375,
     "width": 0.425,
@@ -1501,6 +1547,7 @@
    "file": "parts/Bushings/Urethane Bushing 1in ID x 1.52in OD x 1.915in long (Kartek KTK604141).sc",
    "step": "parts/Bushings/Urethane Bushing 1in ID x 1.52in OD x 1.915in long (Kartek KTK604141).step",
    "sheet": "parts/Bushings/Urethane Bushing 1in ID x 1.52in OD x 1.915in long (Kartek KTK604141).txt",
+   "image": "parts/Bushings/Urethane Bushing 1in ID x 1.52in OD x 1.915in long (Kartek KTK604141).png",
    "dims_in": {
     "id": 1.0,
     "od": 1.52,
@@ -1525,6 +1572,7 @@
    "file": "parts/Bushings/Urethane Bushing 1in ID x 1.51in OD x 2.255in long (Kartek KTK60069).sc",
    "step": "parts/Bushings/Urethane Bushing 1in ID x 1.51in OD x 2.255in long (Kartek KTK60069).step",
    "sheet": "parts/Bushings/Urethane Bushing 1in ID x 1.51in OD x 2.255in long (Kartek KTK60069).txt",
+   "image": "parts/Bushings/Urethane Bushing 1in ID x 1.51in OD x 2.255in long (Kartek KTK60069).png",
    "dims_in": {
     "id": 1.0,
     "od": 1.51,
@@ -1556,6 +1604,7 @@
    "file": "parts/Bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100).sc",
    "step": "parts/Bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100).step",
    "sheet": "parts/Bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100).txt",
+   "image": "parts/Bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100).png",
    "dims_in": {
     "id": 0.375,
     "od": 0.825,
@@ -1587,6 +1636,7 @@
    "file": "parts/Bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (AutoFab B125).sc",
    "step": "parts/Bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (AutoFab B125).step",
    "sheet": "parts/Bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (AutoFab B125).txt",
+   "image": "parts/Bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (AutoFab B125).png",
    "dims_in": {
     "id": 0.5,
     "od": 1.07,
@@ -1618,6 +1668,7 @@
    "file": "parts/Bushings/Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150).sc",
    "step": "parts/Bushings/Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150).step",
    "sheet": "parts/Bushings/Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150).txt",
+   "image": "parts/Bushings/Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150).png",
    "dims_in": {
     "id": 0.625,
     "od": 1.265,
@@ -1649,6 +1700,7 @@
    "file": "parts/Bushings/Urethane Bushing 0.75in ID x 1.525in OD x 1.465in long (AutoFab B175).sc",
    "step": "parts/Bushings/Urethane Bushing 0.75in ID x 1.525in OD x 1.465in long (AutoFab B175).step",
    "sheet": "parts/Bushings/Urethane Bushing 0.75in ID x 1.525in OD x 1.465in long (AutoFab B175).txt",
+   "image": "parts/Bushings/Urethane Bushing 0.75in ID x 1.525in OD x 1.465in long (AutoFab B175).png",
    "dims_in": {
     "id": 0.75,
     "od": 1.525,
@@ -1680,6 +1732,7 @@
    "file": "parts/Bushings/Urethane Bushing 0.75in ID x 1.78in OD x 1.465in long (AutoFab B200).sc",
    "step": "parts/Bushings/Urethane Bushing 0.75in ID x 1.78in OD x 1.465in long (AutoFab B200).step",
    "sheet": "parts/Bushings/Urethane Bushing 0.75in ID x 1.78in OD x 1.465in long (AutoFab B200).txt",
+   "image": "parts/Bushings/Urethane Bushing 0.75in ID x 1.78in OD x 1.465in long (AutoFab B200).png",
    "dims_in": {
     "id": 0.75,
     "od": 1.78,
@@ -1704,6 +1757,7 @@
    "file": "parts/Bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.688in long (Kartek KTKB100).sc",
    "step": "parts/Bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.688in long (Kartek KTKB100).step",
    "sheet": "parts/Bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.688in long (Kartek KTKB100).txt",
+   "image": "parts/Bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.688in long (Kartek KTKB100).png",
    "dims_in": {
     "id": 0.375,
     "od": 0.825,
@@ -1728,6 +1782,7 @@
    "file": "parts/Bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (Kartek KTKB125).sc",
    "step": "parts/Bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (Kartek KTKB125).step",
    "sheet": "parts/Bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (Kartek KTKB125).txt",
+   "image": "parts/Bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (Kartek KTKB125).png",
    "dims_in": {
     "id": 0.5,
     "od": 1.07,
@@ -1752,6 +1807,7 @@
    "file": "parts/Bushings/Urethane Bushing 0.625in ID x 1.275in OD x 1.125in long (Kartek KTKB150).sc",
    "step": "parts/Bushings/Urethane Bushing 0.625in ID x 1.275in OD x 1.125in long (Kartek KTKB150).step",
    "sheet": "parts/Bushings/Urethane Bushing 0.625in ID x 1.275in OD x 1.125in long (Kartek KTKB150).txt",
+   "image": "parts/Bushings/Urethane Bushing 0.625in ID x 1.275in OD x 1.125in long (Kartek KTKB150).png",
    "dims_in": {
     "id": 0.625,
     "od": 1.275,
@@ -1776,6 +1832,7 @@
    "file": "parts/Bushings/Urethane Bushing 0.75in ID x 1.518in OD x 1.437in long (Kartek KTKB175).sc",
    "step": "parts/Bushings/Urethane Bushing 0.75in ID x 1.518in OD x 1.437in long (Kartek KTKB175).step",
    "sheet": "parts/Bushings/Urethane Bushing 0.75in ID x 1.518in OD x 1.437in long (Kartek KTKB175).txt",
+   "image": "parts/Bushings/Urethane Bushing 0.75in ID x 1.518in OD x 1.437in long (Kartek KTKB175).png",
    "dims_in": {
     "id": 0.75,
     "od": 1.518,
@@ -1800,6 +1857,7 @@
    "file": "parts/Bushings/Urethane Bushing 0.75in ID x 1.765in OD x 1.438in long (Kartek KTKB200).sc",
    "step": "parts/Bushings/Urethane Bushing 0.75in ID x 1.765in OD x 1.438in long (Kartek KTKB200).step",
    "sheet": "parts/Bushings/Urethane Bushing 0.75in ID x 1.765in OD x 1.438in long (Kartek KTKB200).txt",
+   "image": "parts/Bushings/Urethane Bushing 0.75in ID x 1.765in OD x 1.438in long (Kartek KTKB200).png",
    "dims_in": {
     "id": 0.75,
     "od": 1.765,
@@ -1824,6 +1882,7 @@
    "file": "parts/Bushings/Delrin Bushing 0.627in ID x 0.75in OD x 0.621in long (Kartek KTKLADB).sc",
    "step": "parts/Bushings/Delrin Bushing 0.627in ID x 0.75in OD x 0.621in long (Kartek KTKLADB).step",
    "sheet": "parts/Bushings/Delrin Bushing 0.627in ID x 0.75in OD x 0.621in long (Kartek KTKLADB).txt",
+   "image": "parts/Bushings/Delrin Bushing 0.627in ID x 0.75in OD x 0.621in long (Kartek KTKLADB).png",
    "dims_in": {
     "id": 0.627,
     "od": 0.75,
@@ -1848,6 +1907,7 @@
    "file": "parts/Bushings/Delrin Bushing 0.75in ID x 1.0625in OD x 0.775in long (Kartek KTK250).sc",
    "step": "parts/Bushings/Delrin Bushing 0.75in ID x 1.0625in OD x 0.775in long (Kartek KTK250).step",
    "sheet": "parts/Bushings/Delrin Bushing 0.75in ID x 1.0625in OD x 0.775in long (Kartek KTK250).txt",
+   "image": "parts/Bushings/Delrin Bushing 0.75in ID x 1.0625in OD x 0.775in long (Kartek KTK250).png",
    "dims_in": {
     "id": 0.75,
     "od": 1.0625,
@@ -1872,6 +1932,7 @@
    "file": "parts/Bushings/Nylatron Bushing 1.01in ID x 1.25in OD x 0.884in long (Kartek KTK505).sc",
    "step": "parts/Bushings/Nylatron Bushing 1.01in ID x 1.25in OD x 0.884in long (Kartek KTK505).step",
    "sheet": "parts/Bushings/Nylatron Bushing 1.01in ID x 1.25in OD x 0.884in long (Kartek KTK505).txt",
+   "image": "parts/Bushings/Nylatron Bushing 1.01in ID x 1.25in OD x 0.884in long (Kartek KTK505).png",
    "dims_in": {
     "id": 1.01,
     "od": 1.25,
@@ -1896,6 +1957,7 @@
    "file": "parts/Bushings/Delrin Bushing 0.75in ID x 1.25in OD x 1.13in long (Kartek KTK500F).sc",
    "step": "parts/Bushings/Delrin Bushing 0.75in ID x 1.25in OD x 1.13in long (Kartek KTK500F).step",
    "sheet": "parts/Bushings/Delrin Bushing 0.75in ID x 1.25in OD x 1.13in long (Kartek KTK500F).txt",
+   "image": "parts/Bushings/Delrin Bushing 0.75in ID x 1.25in OD x 1.13in long (Kartek KTK500F).png",
    "dims_in": {
     "id": 0.75,
     "od": 1.25,
@@ -1920,6 +1982,7 @@
    "file": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.202in long (Kartek KTK600).sc",
    "step": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.202in long (Kartek KTK600).step",
    "sheet": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.202in long (Kartek KTK600).txt",
+   "image": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.202in long (Kartek KTK600).png",
    "dims_in": {
     "id": 1.005,
     "od": 1.5,
@@ -1944,6 +2007,7 @@
    "file": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.405in long (Kartek KTK600W).sc",
    "step": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.405in long (Kartek KTK600W).step",
    "sheet": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.405in long (Kartek KTK600W).txt",
+   "image": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.405in long (Kartek KTK600W).png",
    "dims_in": {
     "id": 1.005,
     "od": 1.5,
@@ -1968,6 +2032,7 @@
    "file": "parts/Bushings/Delrin Bushing 1.135in ID x 1.5in OD x 1.202in long (Kartek KTK601).sc",
    "step": "parts/Bushings/Delrin Bushing 1.135in ID x 1.5in OD x 1.202in long (Kartek KTK601).step",
    "sheet": "parts/Bushings/Delrin Bushing 1.135in ID x 1.5in OD x 1.202in long (Kartek KTK601).txt",
+   "image": "parts/Bushings/Delrin Bushing 1.135in ID x 1.5in OD x 1.202in long (Kartek KTK601).png",
    "dims_in": {
     "id": 1.135,
     "od": 1.5,
@@ -1992,6 +2057,7 @@
    "file": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 2.06in long (Kartek KTK60414).sc",
    "step": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 2.06in long (Kartek KTK60414).step",
    "sheet": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 2.06in long (Kartek KTK60414).txt",
+   "image": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 2.06in long (Kartek KTK60414).png",
    "dims_in": {
     "id": 1.005,
     "od": 1.5,
@@ -2016,6 +2082,7 @@
    "file": "parts/Bushings/Delrin Bushing 1.254in ID x 1.5in OD x 2.05in long (Kartek KTK60414JPS).sc",
    "step": "parts/Bushings/Delrin Bushing 1.254in ID x 1.5in OD x 2.05in long (Kartek KTK60414JPS).step",
    "sheet": "parts/Bushings/Delrin Bushing 1.254in ID x 1.5in OD x 2.05in long (Kartek KTK60414JPS).txt",
+   "image": "parts/Bushings/Delrin Bushing 1.254in ID x 1.5in OD x 2.05in long (Kartek KTK60414JPS).png",
    "dims_in": {
     "id": 1.254,
     "od": 1.5,
@@ -2040,6 +2107,7 @@
    "file": "parts/Bushings/Delrin Bushing 1.253in ID x 1.5in OD x 1.515in long (Kartek KTK60414PRC).sc",
    "step": "parts/Bushings/Delrin Bushing 1.253in ID x 1.5in OD x 1.515in long (Kartek KTK60414PRC).step",
    "sheet": "parts/Bushings/Delrin Bushing 1.253in ID x 1.5in OD x 1.515in long (Kartek KTK60414PRC).txt",
+   "image": "parts/Bushings/Delrin Bushing 1.253in ID x 1.5in OD x 1.515in long (Kartek KTK60414PRC).png",
    "dims_in": {
     "id": 1.253,
     "od": 1.5,
@@ -2064,6 +2132,7 @@
    "file": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).sc",
    "step": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).step",
    "sheet": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).txt",
+   "image": "parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).png",
    "dims_in": {
     "id": 1.005,
     "od": 1.5,
@@ -2088,6 +2157,7 @@
    "file": "parts/Bushings/Delrin Bushing 0.882in ID x 1.75in OD x 0.99in long (Kartek KTK60414CST).sc",
    "step": "parts/Bushings/Delrin Bushing 0.882in ID x 1.75in OD x 0.99in long (Kartek KTK60414CST).step",
    "sheet": "parts/Bushings/Delrin Bushing 0.882in ID x 1.75in OD x 0.99in long (Kartek KTK60414CST).txt",
+   "image": "parts/Bushings/Delrin Bushing 0.882in ID x 1.75in OD x 0.99in long (Kartek KTK60414CST).png",
    "dims_in": {
     "id": 0.882,
     "od": 1.75,
@@ -2112,6 +2182,7 @@
    "file": "parts/Bushings/Delrin Bushing 1.25in ID x 1.875in OD x 1.49in long (Kartek KTK60870).sc",
    "step": "parts/Bushings/Delrin Bushing 1.25in ID x 1.875in OD x 1.49in long (Kartek KTK60870).step",
    "sheet": "parts/Bushings/Delrin Bushing 1.25in ID x 1.875in OD x 1.49in long (Kartek KTK60870).txt",
+   "image": "parts/Bushings/Delrin Bushing 1.25in ID x 1.875in OD x 1.49in long (Kartek KTK60870).png",
    "dims_in": {
     "id": 1.25,
     "od": 1.875,
@@ -2136,6 +2207,7 @@
    "file": "parts/Bushings/Delrin Bushing 1.005in ID x 1.75in OD x 1.25in long (Kartek KTK60414200).sc",
    "step": "parts/Bushings/Delrin Bushing 1.005in ID x 1.75in OD x 1.25in long (Kartek KTK60414200).step",
    "sheet": "parts/Bushings/Delrin Bushing 1.005in ID x 1.75in OD x 1.25in long (Kartek KTK60414200).txt",
+   "image": "parts/Bushings/Delrin Bushing 1.005in ID x 1.75in OD x 1.25in long (Kartek KTK60414200).png",
    "dims_in": {
     "id": 1.005,
     "od": 1.75,
@@ -2160,6 +2232,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.3937in ID x 1.965in long (Kartek KTKISL750173).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.3937in ID x 1.965in long (Kartek KTKISL750173).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.3937in ID x 1.965in long (Kartek KTKISL750173).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.3937in ID x 1.965in long (Kartek KTKISL750173).png",
    "dims_in": {
     "od": 0.75,
     "id": 0.3937,
@@ -2183,6 +2256,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120).png",
    "dims_in": {
     "od": 0.75,
     "id": 0.5,
@@ -2206,6 +2280,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S).png",
    "dims_in": {
     "od": 1.0,
     "id": 0.625,
@@ -2229,6 +2304,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.84in long (Kartek KTKISL100188).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.84in long (Kartek KTKISL100188).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.84in long (Kartek KTKISL100188).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.84in long (Kartek KTKISL100188).png",
    "dims_in": {
     "od": 1.0,
     "id": 0.625,
@@ -2252,6 +2328,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 3.875in long (Kartek KTKISL100188M).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 3.875in long (Kartek KTKISL100188M).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 3.875in long (Kartek KTKISL100188M).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 3.875in long (Kartek KTKISL100188M).png",
    "dims_in": {
     "od": 1.0,
     "id": 0.625,
@@ -2275,6 +2352,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 4.12in long (Kartek KTKISL100188L).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 4.12in long (Kartek KTKISL100188L).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 4.12in long (Kartek KTKISL100188L).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 4.12in long (Kartek KTKISL100188L).png",
    "dims_in": {
     "od": 1.0,
     "id": 0.625,
@@ -2298,6 +2376,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.44in long (Kartek KTKISL100120S).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.44in long (Kartek KTKISL100120S).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.44in long (Kartek KTKISL100120S).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.44in long (Kartek KTKISL100120S).png",
    "dims_in": {
     "od": 1.0,
     "id": 0.75,
@@ -2321,6 +2400,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.84in long (Kartek KTKISL100120).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.84in long (Kartek KTKISL100120).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.84in long (Kartek KTKISL100120).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.84in long (Kartek KTKISL100120).png",
    "dims_in": {
     "od": 1.0,
     "id": 0.75,
@@ -2344,6 +2424,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 3.875in long (Kartek KTKISL100120M).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 3.875in long (Kartek KTKISL100120M).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 3.875in long (Kartek KTKISL100120M).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 3.875in long (Kartek KTKISL100120M).png",
    "dims_in": {
     "od": 1.0,
     "id": 0.75,
@@ -2367,6 +2448,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 4.12in long (Kartek KTKISL100120L).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 4.12in long (Kartek KTKISL100120L).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 4.12in long (Kartek KTKISL100120L).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 4.12in long (Kartek KTKISL100120L).png",
    "dims_in": {
     "od": 1.0,
     "id": 0.75,
@@ -2390,6 +2472,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.0625in ID x 1.61in long (Kartek KTKOSL125095).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.0625in ID x 1.61in long (Kartek KTKOSL125095).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.0625in ID x 1.61in long (Kartek KTKOSL125095).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.0625in ID x 1.61in long (Kartek KTKOSL125095).png",
    "dims_in": {
     "od": 1.25,
     "id": 1.0625,
@@ -2413,6 +2496,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120).png",
    "dims_in": {
     "od": 1.5,
     "id": 1.25,
@@ -2436,6 +2520,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120).png",
    "dims_in": {
     "od": 1.75,
     "id": 1.5,
@@ -2459,6 +2544,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M).png",
    "dims_in": {
     "od": 1.75,
     "id": 1.5,
@@ -2482,6 +2568,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L).png",
    "dims_in": {
     "od": 1.75,
     "id": 1.5,
@@ -2505,6 +2592,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 2.5in long (Kartek KTKOSL200250).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 2.5in long (Kartek KTKOSL200250).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 2.5in long (Kartek KTKOSL200250).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 2.5in long (Kartek KTKOSL200250).png",
    "dims_in": {
     "od": 2.0,
     "id": 1.5,
@@ -2528,6 +2616,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 3in long (Kartek KTKOSL200250M).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 3in long (Kartek KTKOSL200250M).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 3in long (Kartek KTKOSL200250M).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 3in long (Kartek KTKOSL200250M).png",
    "dims_in": {
     "od": 2.0,
     "id": 1.5,
@@ -2551,6 +2640,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 3.25in long (Kartek KTKOSL200250L).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 3.25in long (Kartek KTKOSL200250L).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 3.25in long (Kartek KTKOSL200250L).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.5in ID x 3.25in long (Kartek KTKOSL200250L).png",
    "dims_in": {
     "od": 2.0,
     "id": 1.5,
@@ -2574,6 +2664,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.75in ID x 3.5in long (Kartek KTKOSL200120).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.75in ID x 3.5in long (Kartek KTKOSL200120).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.75in ID x 3.5in long (Kartek KTKOSL200120).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.75in ID x 3.5in long (Kartek KTKOSL200120).png",
    "dims_in": {
     "od": 2.0,
     "id": 1.75,
@@ -2610,6 +2701,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER).png",
    "dims_in": {
     "od": 1.0,
     "id": 0.81,
@@ -2649,6 +2741,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.06in ID x 1.5in long (AutoFab BA125-OUTER).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.06in ID x 1.5in long (AutoFab BA125-OUTER).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.06in ID x 1.5in long (AutoFab BA125-OUTER).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 1.25in OD x 1.06in ID x 1.5in long (AutoFab BA125-OUTER).png",
    "dims_in": {
     "od": 1.25,
     "id": 1.06,
@@ -2688,6 +2781,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 0.5in OD x 0.375in ID x 2in long (AutoFab BA125-INNER).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 0.5in OD x 0.375in ID x 2in long (AutoFab BA125-INNER).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 0.5in OD x 0.375in ID x 2in long (AutoFab BA125-INNER).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 0.5in OD x 0.375in ID x 2in long (AutoFab BA125-INNER).png",
    "dims_in": {
     "od": 0.5,
     "id": 0.375,
@@ -2727,6 +2821,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER).png",
    "dims_in": {
     "od": 1.5,
     "id": 1.26,
@@ -2766,6 +2861,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 0.625in OD x 0.4375in ID x 2.25in long (AutoFab BA150-INNER).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 0.625in OD x 0.4375in ID x 2.25in long (AutoFab BA150-INNER).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 0.625in OD x 0.4375in ID x 2.25in long (AutoFab BA150-INNER).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 0.625in OD x 0.4375in ID x 2.25in long (AutoFab BA150-INNER).png",
    "dims_in": {
     "od": 0.625,
     "id": 0.4375,
@@ -2805,6 +2901,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.51in ID x 2.5in long (AutoFab BA175-OUTER).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.51in ID x 2.5in long (AutoFab BA175-OUTER).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.51in ID x 2.5in long (AutoFab BA175-OUTER).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 1.75in OD x 1.51in ID x 2.5in long (AutoFab BA175-OUTER).png",
    "dims_in": {
     "od": 1.75,
     "id": 1.51,
@@ -2844,6 +2941,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA175-INNER).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA175-INNER).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA175-INNER).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA175-INNER).png",
    "dims_in": {
     "od": 0.75,
     "id": 0.5625,
@@ -2883,6 +2981,7 @@
    "file": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.76in ID x 2.5in long (AutoFab BA200-OUTER).sc",
    "step": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.76in ID x 2.5in long (AutoFab BA200-OUTER).step",
    "sheet": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.76in ID x 2.5in long (AutoFab BA200-OUTER).txt",
+   "image": "parts/Outer Sleeves/Outer Sleeve 2in OD x 1.76in ID x 2.5in long (AutoFab BA200-OUTER).png",
    "dims_in": {
     "od": 2.0,
     "id": 1.76,
@@ -2922,6 +3021,7 @@
    "file": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA200-INNER).sc",
    "step": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA200-INNER).step",
    "sheet": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA200-INNER).txt",
+   "image": "parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA200-INNER).png",
    "dims_in": {
     "od": 0.75,
     "id": 0.5625,
@@ -2948,6 +3048,7 @@
    "file": "parts/_internal/Reference Tab 0.75in bolt.sc",
    "step": "parts/_internal/Reference Tab 0.75in bolt.step",
    "sheet": "parts/_internal/Reference Tab 0.75in bolt.txt",
+   "image": "parts/_internal/Reference Tab 0.75in bolt.png",
    "dims_in": {
     "bolt": 0.75,
     "od": 2.5,
@@ -2969,6 +3070,7 @@
    "file": "parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).png",
    "dims_in": {
     "dia": 0.75,
     "length": 4.25,
@@ -2993,6 +3095,7 @@
    "file": "parts/Hardware/Hex Nut 0.75in (generic).sc",
    "step": "parts/Hardware/Hex Nut 0.75in (generic).step",
    "sheet": "parts/Hardware/Hex Nut 0.75in (generic).txt",
+   "image": "parts/Hardware/Hex Nut 0.75in (generic).png",
    "dims_in": {
     "dia": 0.75,
     "hex": 1.125,
@@ -3016,6 +3119,7 @@
    "file": "parts/Hardware/Hex Bolt 0.75in x 4.5in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.75in x 4.5in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.75in x 4.5in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.75in x 4.5in (generic).png",
    "dims_in": {
     "dia": 0.75,
     "length": 4.5,
@@ -3040,6 +3144,7 @@
    "file": "parts/_internal/Reference Tab 0.625in bolt.sc",
    "step": "parts/_internal/Reference Tab 0.625in bolt.step",
    "sheet": "parts/_internal/Reference Tab 0.625in bolt.txt",
+   "image": "parts/_internal/Reference Tab 0.625in bolt.png",
    "dims_in": {
     "bolt": 0.625,
     "od": 2.25,
@@ -3061,6 +3166,7 @@
    "file": "parts/Hardware/Hex Bolt 0.625in x 4in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.625in x 4in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.625in x 4in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.625in x 4in (generic).png",
    "dims_in": {
     "dia": 0.625,
     "length": 4.0,
@@ -3085,6 +3191,7 @@
    "file": "parts/Hardware/Hex Nut 0.625in (generic).sc",
    "step": "parts/Hardware/Hex Nut 0.625in (generic).step",
    "sheet": "parts/Hardware/Hex Nut 0.625in (generic).txt",
+   "image": "parts/Hardware/Hex Nut 0.625in (generic).png",
    "dims_in": {
     "dia": 0.625,
     "hex": 0.9375,
@@ -3108,6 +3215,7 @@
    "file": "parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).png",
    "dims_in": {
     "dia": 0.75,
     "length": 3.75,
@@ -3132,6 +3240,7 @@
    "file": "parts/Hardware/Hex Bolt 0.75in x 2.25in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.75in x 2.25in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.75in x 2.25in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.75in x 2.25in (generic).png",
    "dims_in": {
     "dia": 0.75,
     "length": 2.25,
@@ -3156,6 +3265,7 @@
    "file": "parts/_internal/Reference Tab 0.5in bolt.sc",
    "step": "parts/_internal/Reference Tab 0.5in bolt.step",
    "sheet": "parts/_internal/Reference Tab 0.5in bolt.txt",
+   "image": "parts/_internal/Reference Tab 0.5in bolt.png",
    "dims_in": {
     "bolt": 0.5,
     "od": 2.0,
@@ -3177,6 +3287,7 @@
    "file": "parts/Hardware/Hex Bolt 0.5in x 3in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.5in x 3in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.5in x 3in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.5in x 3in (generic).png",
    "dims_in": {
     "dia": 0.5,
     "length": 3.0,
@@ -3201,6 +3312,7 @@
    "file": "parts/Hardware/Hex Nut 0.5in (generic).sc",
    "step": "parts/Hardware/Hex Nut 0.5in (generic).step",
    "sheet": "parts/Hardware/Hex Nut 0.5in (generic).txt",
+   "image": "parts/Hardware/Hex Nut 0.5in (generic).png",
    "dims_in": {
     "dia": 0.5,
     "hex": 0.75,
@@ -3224,6 +3336,7 @@
    "file": "parts/Hardware/Hex Bolt 0.625in x 3in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.625in x 3in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.625in x 3in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.625in x 3in (generic).png",
    "dims_in": {
     "dia": 0.625,
     "length": 3.0,
@@ -3248,6 +3361,7 @@
    "file": "parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).png",
    "dims_in": {
     "dia": 0.625,
     "length": 3.75,
@@ -3272,6 +3386,7 @@
    "file": "parts/Hardware/Hex Bolt 0.625in x 4.25in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.625in x 4.25in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.625in x 4.25in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.625in x 4.25in (generic).png",
    "dims_in": {
     "dia": 0.625,
     "length": 4.25,
@@ -3296,6 +3411,7 @@
    "file": "parts/Hardware/Hex Bolt 0.625in x 5.25in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.625in x 5.25in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.625in x 5.25in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.625in x 5.25in (generic).png",
    "dims_in": {
     "dia": 0.625,
     "length": 5.25,
@@ -3320,6 +3436,7 @@
    "file": "parts/Hardware/Hex Bolt 0.75in x 5.25in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.75in x 5.25in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.75in x 5.25in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.75in x 5.25in (generic).png",
    "dims_in": {
     "dia": 0.75,
     "length": 5.25,
@@ -3344,6 +3461,7 @@
    "file": "parts/Hardware/Hex Bolt 0.625in x 5.5in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.625in x 5.5in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.625in x 5.5in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.625in x 5.5in (generic).png",
    "dims_in": {
     "dia": 0.625,
     "length": 5.5,
@@ -3368,6 +3486,7 @@
    "file": "parts/Hardware/Hex Bolt 0.75in x 5.5in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.75in x 5.5in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.75in x 5.5in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.75in x 5.5in (generic).png",
    "dims_in": {
     "dia": 0.75,
     "length": 5.5,
@@ -3392,6 +3511,7 @@
    "file": "parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).png",
    "dims_in": {
     "dia": 0.5,
     "length": 3.5,
@@ -3416,6 +3536,7 @@
    "file": "parts/_internal/Reference Tab 0.375in bolt.sc",
    "step": "parts/_internal/Reference Tab 0.375in bolt.step",
    "sheet": "parts/_internal/Reference Tab 0.375in bolt.txt",
+   "image": "parts/_internal/Reference Tab 0.375in bolt.png",
    "dims_in": {
     "bolt": 0.375,
     "od": 1.75,
@@ -3437,6 +3558,7 @@
    "file": "parts/Hardware/Hex Bolt 0.375in x 2.5in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.375in x 2.5in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.375in x 2.5in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.375in x 2.5in (generic).png",
    "dims_in": {
     "dia": 0.375,
     "length": 2.5,
@@ -3461,6 +3583,7 @@
    "file": "parts/Hardware/Hex Nut 0.375in (generic).sc",
    "step": "parts/Hardware/Hex Nut 0.375in (generic).step",
    "sheet": "parts/Hardware/Hex Nut 0.375in (generic).txt",
+   "image": "parts/Hardware/Hex Nut 0.375in (generic).png",
    "dims_in": {
     "dia": 0.375,
     "hex": 0.5625,
@@ -3484,6 +3607,7 @@
    "file": "parts/Hardware/Hex Bolt 0.375in x 3in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.375in x 3in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.375in x 3in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.375in x 3in (generic).png",
    "dims_in": {
     "dia": 0.375,
     "length": 3.0,
@@ -3508,6 +3632,7 @@
    "file": "parts/_internal/Reference Tab 0.4375in bolt.sc",
    "step": "parts/_internal/Reference Tab 0.4375in bolt.step",
    "sheet": "parts/_internal/Reference Tab 0.4375in bolt.txt",
+   "image": "parts/_internal/Reference Tab 0.4375in bolt.png",
    "dims_in": {
     "bolt": 0.4375,
     "od": 1.875,
@@ -3529,6 +3654,7 @@
    "file": "parts/Hardware/Hex Bolt 0.4375in x 3.5in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.4375in x 3.5in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.4375in x 3.5in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.4375in x 3.5in (generic).png",
    "dims_in": {
     "dia": 0.4375,
     "length": 3.5,
@@ -3553,6 +3679,7 @@
    "file": "parts/Hardware/Hex Nut 0.4375in (generic).sc",
    "step": "parts/Hardware/Hex Nut 0.4375in (generic).step",
    "sheet": "parts/Hardware/Hex Nut 0.4375in (generic).txt",
+   "image": "parts/Hardware/Hex Nut 0.4375in (generic).png",
    "dims_in": {
     "dia": 0.4375,
     "hex": 0.65625,
@@ -3576,6 +3703,7 @@
    "file": "parts/_internal/Reference Tab 0.5625in bolt.sc",
    "step": "parts/_internal/Reference Tab 0.5625in bolt.step",
    "sheet": "parts/_internal/Reference Tab 0.5625in bolt.txt",
+   "image": "parts/_internal/Reference Tab 0.5625in bolt.png",
    "dims_in": {
     "bolt": 0.5625,
     "od": 2.125,
@@ -3597,6 +3725,7 @@
    "file": "parts/Hardware/Hex Bolt 0.5625in x 4.25in (generic).sc",
    "step": "parts/Hardware/Hex Bolt 0.5625in x 4.25in (generic).step",
    "sheet": "parts/Hardware/Hex Bolt 0.5625in x 4.25in (generic).txt",
+   "image": "parts/Hardware/Hex Bolt 0.5625in x 4.25in (generic).png",
    "dims_in": {
     "dia": 0.5625,
     "length": 4.25,
@@ -3621,6 +3750,7 @@
    "file": "parts/Hardware/Hex Nut 0.5625in (generic).sc",
    "step": "parts/Hardware/Hex Nut 0.5625in (generic).step",
    "sheet": "parts/Hardware/Hex Nut 0.5625in (generic).txt",
+   "image": "parts/Hardware/Hex Nut 0.5625in (generic).png",
    "dims_in": {
     "dia": 0.5625,
     "hex": 0.84375,
@@ -3725,6 +3855,7 @@
      "Uniball 1in bore x 2.125in OD (FK WSSX16T):1"
     ]
    },
+   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.png",
    "links": [
     "../../parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).sc",
     "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
@@ -3877,6 +4008,7 @@
      "Uniball 1in bore x 2.125in OD (FK WSSX16T):1"
     ]
    },
+   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 3.04in stack.png",
    "links": [
     "../../parts/Hardware/Hex Bolt 0.75in x 4.5in (generic).sc",
     "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
@@ -4029,6 +4161,7 @@
      "Uniball 1in bore x 2.125in OD (FK WSSX16T):1"
     ]
    },
+   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.625in bolt, 2.76in stack.png",
    "links": [
     "../../parts/Hardware/Hex Bolt 0.625in x 4in (generic).sc",
     "../../parts/Hardware/Hex Nut 0.625in (generic).sc",
@@ -4181,6 +4314,7 @@
      "Uniball 1in bore x 2.125in OD (FK WSSX16T):1"
     ]
    },
+   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, straight spacers, 0.75in bolt, 2.25in stack.png",
    "links": [
     "../../parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).sc",
     "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
@@ -4312,6 +4446,7 @@
      "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1"
     ]
    },
+   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, no spacers, 0.75in bolt, 0.875in stack.png",
    "links": [
     "../../parts/Hardware/Hex Bolt 0.75in x 2.25in (generic).sc",
     "../../parts/Hardware/Hex Nut 0.75in (generic).sc",
@@ -4439,6 +4574,7 @@
      "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1"
     ]
    },
+   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt, 1.82in stack.png",
    "links": [
     "../../parts/Hardware/Hex Bolt 0.5in x 3in (generic).sc",
     "../../parts/Hardware/Hex Nut 0.5in (generic).sc",
@@ -4575,6 +4711,7 @@
      "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1"
     ]
    },
+   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt, 1.82in stack.png",
    "links": [
     "../../parts/Hardware/Hex Bolt 0.625in x 3in (generic).sc",
     "../../parts/Hardware/Hex Nut 0.625in (generic).sc",
@@ -4711,6 +4848,7 @@
      "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1"
     ]
    },
+   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, straight spacers, 0.5in bolt, 1.895in stack.png",
    "links": [
     "../../parts/Hardware/Hex Bolt 0.5in x 3in (generic).sc",
     "../../parts/Hardware/Hex Nut 0.5in (generic).sc",
@@ -4847,6 +4985,7 @@
      "Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T):1"
     ]
    },
+   "image": "assemblies/Rod End Links/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt, 1.82in stack.png",
    "links": [
     "../../parts/Hardware/Hex Bolt 0.5in x 3in (generic).sc",
     "../../parts/Hardware/Hex Nut 0.5in (generic).sc",
@@ -4971,6 +5110,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120):1",
     "moving": "Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.202in long (Kartek KTK600).sc",
     "../../parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).sc",
@@ -5094,6 +5234,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120):1",
     "moving": "Inner Sleeve 1in OD x 0.75in ID x 2.44in long (Kartek KTKISL100120S):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.202in long (Kartek KTK600).sc",
     "../../parts/Hardware/Hex Bolt 0.75in x 3.75in (generic).sc",
@@ -5217,6 +5358,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120):1",
     "moving": "Inner Sleeve 1in OD x 0.625in ID x 2.84in long (Kartek KTKISL100188):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.405in long (Kartek KTK600W).sc",
     "../../parts/Hardware/Hex Bolt 0.625in x 4.25in (generic).sc",
@@ -5340,6 +5482,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120):1",
     "moving": "Inner Sleeve 1in OD x 0.75in ID x 2.84in long (Kartek KTKISL100120):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.405in long (Kartek KTK600W).sc",
     "../../parts/Hardware/Hex Bolt 0.75in x 4.25in (generic).sc",
@@ -5463,6 +5606,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M):1",
     "moving": "Inner Sleeve 1in OD x 0.625in ID x 3.875in long (Kartek KTKISL100188M):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).sc",
     "../../parts/Hardware/Hex Bolt 0.625in x 5.25in (generic).sc",
@@ -5586,6 +5730,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M):1",
     "moving": "Inner Sleeve 1in OD x 0.75in ID x 3.875in long (Kartek KTKISL100120M):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).sc",
     "../../parts/Hardware/Hex Bolt 0.75in x 5.25in (generic).sc",
@@ -5709,6 +5854,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L):1",
     "moving": "Inner Sleeve 1in OD x 0.625in ID x 4.12in long (Kartek KTKISL100188L):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 2.06in long (Kartek KTK60414).sc",
     "../../parts/Hardware/Hex Bolt 0.625in x 5.5in (generic).sc",
@@ -5832,6 +5978,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L):1",
     "moving": "Inner Sleeve 1in OD x 0.75in ID x 4.12in long (Kartek KTKISL100120L):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 2.06in long (Kartek KTK60414).sc",
     "../../parts/Hardware/Hex Bolt 0.75in x 5.5in (generic).sc",
@@ -5955,6 +6102,7 @@
     "fixed": "Outer Sleeve 1.25in OD x 1.0625in ID x 1.61in long (Kartek KTKOSL125095):1",
     "moving": "Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 0.75in ID x 1.0625in OD x 0.775in long (Kartek KTK250).sc",
     "../../parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).sc",
@@ -6078,6 +6226,7 @@
     "fixed": "Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120):1",
     "moving": "Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 0.75in ID x 1.25in OD x 1.13in long (Kartek KTK500F).sc",
     "../../parts/Hardware/Hex Bolt 0.5in x 3.5in (generic).sc",
@@ -6201,6 +6350,7 @@
     "fixed": "Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120):1",
     "moving": "Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt.png",
    "links": [
     "../../parts/Bushings/Nylatron Bushing 1.01in ID x 1.25in OD x 0.884in long (Kartek KTK505).sc",
     "../../parts/Hardware/Hex Bolt 0.625in x 3.75in (generic).sc",
@@ -6317,6 +6467,7 @@
     "fixed": "Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER):1",
     "moving": "Hex Bolt 0.375in x 2.5in (generic):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt.png",
    "press_fit_overlap_mm3": 157.8,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100).sc",
@@ -6432,6 +6583,7 @@
     "fixed": "Outer Sleeve 1.25in OD x 1.06in ID x 1.5in long (AutoFab BA125-OUTER):1",
     "moving": "Inner Sleeve 0.5in OD x 0.375in ID x 2in long (AutoFab BA125-INNER):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt.png",
    "press_fit_overlap_mm3": 205.6,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (AutoFab B125).sc",
@@ -6556,6 +6708,7 @@
     "fixed": "Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER):1",
     "moving": "Inner Sleeve 0.625in OD x 0.4375in ID x 2.25in long (AutoFab BA150-INNER):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt.png",
    "press_fit_overlap_mm3": 142.2,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150).sc",
@@ -6680,6 +6833,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.51in ID x 2.5in long (AutoFab BA175-OUTER):1",
     "moving": "Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA175-INNER):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt.png",
    "press_fit_overlap_mm3": 711.9,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.75in ID x 1.525in OD x 1.465in long (AutoFab B175).sc",
@@ -6804,6 +6958,7 @@
     "fixed": "Outer Sleeve 2in OD x 1.76in ID x 2.5in long (AutoFab BA200-OUTER):1",
     "moving": "Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA200-INNER):1"
    },
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt.png",
    "press_fit_overlap_mm3": 1107.1,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.75in ID x 1.78in OD x 1.465in long (AutoFab B200).sc",

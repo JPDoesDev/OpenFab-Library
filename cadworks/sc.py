@@ -129,3 +129,18 @@ def sphere_slice_volume(ball_dia: float, width: float) -> float:
     """Volume of a sphere between two parallel planes width apart, centred."""
     R, h = ball_dia / 2, width / 2
     return math.pi * (2 * R * R * h - 2 * h ** 3 / 3)
+
+
+def snapshot(design: Path, png: Path, bodies: list[dict]) -> None:
+    """One orthographic three-quarter picture of a design, framed on its bodies."""
+    lo = [min(b["bbox"]["min"][i] for b in bodies) for i in range(3)]
+    hi = [max(b["bbox"]["max"][i] for b in bodies) for i in range(3)]
+    radius = math.dist(lo, hi) / 2
+    # no fov means orthographic; the picture is 0.8 x distance high
+    camera = {"target": [(a + b) / 2 for a, b in zip(lo, hi)], "yaw": -math.pi / 4,
+              "pitch": math.pi / 6, "distance": 2.5 * radius}
+    r = subprocess.run([CLI, "snapshot", "--in", str(design), "--out", str(png), "--width", "800",
+                        "--height", "600", "--camera", json.dumps(camera), "--no-grid", "--no-axes",
+                        "--quality", "fine"], capture_output=True, text=True)
+    if r.returncode != 0 or not png.exists():
+        raise RuntimeError(f"{design}: snapshot failed: {r.stderr.strip()[-400:]}")
