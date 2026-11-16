@@ -1,0 +1,266 @@
+"""Part families. Each function takes one data row (inches) and returns a list
+of Part objects: the script that builds it, its expected volume, and the
+numbers an assembly needs to place it.
+
+Origin conventions (all axes on world Z unless noted):
+  bearing race / ball   centre of the ball
+  rod end body / ball   centre of the ball, bolt axis Z, shank along +X
+  uniball cup           centre of the installed bearing, lip towards -Z
+  snap ring             its own mid-plane
+  spacer                the face that sits on the ball at z = 0, head towards +Z,
+                        pin (inside the ball) towards -Z
+  bushing               the flange face that sits on the sleeve end at z = 0,
+                        flange towards +Z, body (inside the sleeve) towards -Z
+  sleeve, jam nut       its own centre
+  bolt                  under the head at z = 0, shank towards +Z
+  nut, tab              bottom face at z = 0
+"""
+from __future__ import annotations
+
+import math
+from dataclasses import dataclass, field
+
+from .sc import Script, sphere_slice_volume
+
+PI = math.pi
+
+
+@dataclass
+class Part:
+    key: str                 # file stem, unique
+    family: str
+    part_number: str         # "" for reference geometry
+    description: str
+    vendor: str
+    script: Script
+    volume_in3: float | None  # analytic, None when not worked out
+    dims: dict = field(default_factory=dict)
+    estimated: list = field(default_factory=list)
+    bom_type: str = "purchased"
+    properties: dict = field(default_factory=dict)
+
+
+def f(row: dict, key: str) -> float:
+    return float(row[key])
+
+
+def _finish(row: dict, key: str, family: str, body: str, material: str, script: Script,
+            volume, dims: dict, estimated=(), part_number=None, description=None,
+            bom_type="purchased") -> Part:
+    pn = row.get("part_number", "") if part_number is None else part_number
+    desc = description or row.get("description", "")
+    vendor = row.get("vendor", "")
+    props = {k: row[k] for k in ("kartek_sku", "cross_reference", "thread", "source") if row.get(k)}
+    script.material(body, material)
+    script.metadata(pn, desc, vendor, {
+        "family": family, "units": "in", "dims": dims,
+        "estimated": list(estimated), **props,
+    })
+    return Part(key, family, pn, desc, vendor, script, volume, dims, list(estimated), bom_type, props)
+
+
+def _socket_ring(od: float, width: float, ball_dia: float) -> list:
+    """Profile of a ring with a spherical bore (a race, or a rod end head)."""
+    R, h = ball_dia / 2, width / 2
+    ri = math.sqrt(R * R - h * h)
+    return [(ri, -h), (od / 2, -h), (od / 2, h), (ri, h), ("arc", (ri, -h), (0, 0), True)]
+
+
+def _ball(bore: float, width: float, ball_dia: float) -> list:
+    R, h = ball_dia / 2, width / 2
+    rf = math.sqrt(R * R - h * h)
+    return [(bore / 2, -h), (rf, -h), ("arc", (rf, h), (0, 0), False), (bore / 2, h)]
+
+
+def spherical_bearing(row: dict) -> list[Part]:
+    pn = row["part_number"]
+    B, D, W, T, bd = (f(row, k) for k in ("bore", "od", "ball_width", "race_width", "ball_dia"))
+    dims = {"bore": B, "od": D, "ball_width": W, "race_width": T, "ball_dia": bd,
+            "catalog_misalignment_deg": f(row, "catalog_misalignment_deg")}
+    race = Script()
+    race.revolve("Race", _socket_ring(D, T, bd))
+    v_race = PI * (D / 2) ** 2 * T - sphere_slice_volume(bd, T)
+    ball = Script()
+    ball.revolve("Ball", _ball(B, W, bd))
+    v_ball = sphere_slice_volume(bd, W) - PI * (B / 2) ** 2 * W
+    return [
+        _finish(row, pn, "spherical_bearing", "Race", row["material"], race, v_race, dims),
+        _finish(row, f"{pn}.ball", "spherical_bearing_ball", "Ball", row["material"], ball, v_ball, dims,
+                part_number="", description=f"Ball of {pn} (moves in the race; counted in the BOM with the race)",
+                bom_type="reference"),
+    ]
+
+
+def rod_end(row: dict) -> list[Part]:
+    pn = row["part_number"]
+    B, D, W, T, bd, A, td, C = (f(row, k) for k in (
+        "bore", "head_dia", "ball_width", "head_width", "ball_dia", "length", "thread_dia", "thread_length"))
+    dims = {"bore": B, "head_dia": D, "ball_width": W, "head_width": T, "ball_dia": bd,
+            "length": A, "thread": row["thread"], "thread_dia": td, "thread_length": C, "hand": row["hand"],
+            "catalog_misalignment_deg": f(row, "catalog_misalignment_deg")}
+    body = Script()
+    body.revolve("Body", _socket_ring(D, T, bd))
+    # Shank: starts inside the head ring, clear of the socket, and runs to A from the ball centre.
+    x0 = math.sqrt((D / 2) ** 2 - (T / 2) ** 2) - 0.02
+    body.cylinder("Shank", td, A - x0, base=(x0, 0, 0), axis="X")
+    ball = Script()
+    ball.revolve("Ball", _ball(B, W, bd))
+    v_ball = sphere_slice_volume(bd, W) - PI * (B / 2) ** 2 * W
+    est = ["shank is a plain cylinder at thread major diameter; no neck, thread or grease fitting modelled"]
+    return [
+        _finish(row, pn, "rod_end", "Body", row["material"], body, None, dims, est),
+        _finish(row, f"{pn}.ball", "rod_end_ball", "Ball", row["material"], ball, v_ball, dims,
+                part_number="", description=f"Ball of {pn} (moves in the body; counted in the BOM with the body)",
+                bom_type="reference"),
+    ]
+
+
+def spacer(row: dict) -> list[Part]:
+    style = row["style"]
+    if style not in ("misalignment", "straight"):
+        return []  # cone, hourglass, stepped and flat-top heads are not modelled yet
+    pn = row["part_number"]
+    E, Db, A, Bh, C, F = (f(row, k) for k in (
+        "ball_bore", "bolt", "shoulder_height", "head_dia", "half_stack", "pin_depth"))
+    F = min(F, C - A) if C - A > 0 else F  # two pins must not meet inside the ball
+    rb, rp, rh = Db / 2, E / 2, Bh / 2
+    dims = {"ball_bore": E, "bolt": Db, "shoulder_height": A, "head_dia": Bh, "half_stack": C,
+            "pin_depth": F, "style": style}
+    s = Script()
+    if style == "straight":
+        prof = [(rb, -F), (rp, -F), (rp, 0), (rh, 0), (rh, A), (rb, A)]
+        vol = PI * (rp * rp * F + rh * rh * A) - PI * rb * rb * (F + A)
+        est = []
+    else:
+        # Seat flange at the ball, a waist, then a cone out to the head (Kartek's measuring diagram).
+        # Only A-F are published; the waist and flange proportions are scaled from the product photo.
+        rn = max(0.89 * rp, rb + 0.06)
+        z1, z2, z3, z4 = 0.04 * A, 0.20 * A, 0.30 * A, A - 0.05
+        rf = max(rh, rp + 0.05)
+        prof = [(rb, -F), (rp, -F), (rp, 0), (rf, 0), (rf, z1), (rn, z2), (rn, z3), (rh, z4), (rh, A), (rb, A)]
+        vol = None
+        dims.update({"waist_dia": round(2 * rn, 4), "flange_dia": round(2 * rf, 4)})
+        est = ["waist_dia", "flange_dia", "flange and cone heights"]
+    s.revolve("Spacer", prof)
+    return [_finish(row, pn, "spacer", "Spacer", "stainless", s, vol, dims, est)]
+
+
+def cup(row: dict) -> list[Part]:
+    pn = row["part_number"]
+    bo, H, D, lid, lt, gd, gw = (f(row, k) for k in (
+        "bearing_od", "height", "od", "lip_id", "lip_thickness", "groove_dia", "groove_width"))
+    T = _race_width_for(row)  # seat depth equals the race width
+    zb = -T / 2 - lt          # bottom (lip) face
+    zs = -T / 2               # bearing seat
+    zg0, zg1 = T / 2, T / 2 + gw
+    zt = zb + H
+    prof = [(lid / 2, zb), (D / 2, zb), (D / 2, zt), (bo / 2, zt), (bo / 2, zg1), (gd / 2, zg1),
+            (gd / 2, zg0), (bo / 2, zg0), (bo / 2, zs), (lid / 2, zs)]
+    vol = PI * ((D / 2) ** 2 * H - (lid / 2) ** 2 * lt - (bo / 2) ** 2 * (zt - zs)
+                - ((gd / 2) ** 2 - (bo / 2) ** 2) * gw)
+    dims = {"bearing_od": bo, "height": H, "od": D, "lip_id": lid, "lip_thickness": lt,
+            "groove_dia": gd, "groove_width": gw, "seat_depth": T,
+            "bottom_z": round(zb, 4), "top_z": round(zt, 4), "snap_ring": row["snap_ring"]}
+    s = Script()
+    s.revolve("Cup", prof)
+    est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()]
+    return [_finish(row, pn, "uniball_cup", "Cup", row["material"], s, vol, dims, est)]
+
+
+_RACE_WIDTHS: dict[str, float] = {}
+
+
+def _race_width_for(cup_row: dict) -> float:
+    for name in cup_row["fits"].split(";"):
+        if name.strip() in _RACE_WIDTHS:
+            return _RACE_WIDTHS[name.strip()]
+    raise KeyError(f"no bearing in data for cup {cup_row['part_number']}")
+
+
+def register_bearing(row: dict) -> None:
+    _RACE_WIDTHS[row["part_number"]] = f(row, "race_width")
+
+
+def snap_ring(row: dict) -> list[Part]:
+    od, i, t = f(row, "od"), f(row, "id"), f(row, "thickness")
+    s = Script()
+    s.revolve("Ring", [(i / 2, -t / 2), (od / 2, -t / 2), (od / 2, t / 2), (i / 2, t / 2)])
+    vol = PI * ((od / 2) ** 2 - (i / 2) ** 2) * t
+    est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()] + ["modelled as a closed ring"]
+    return [_finish(row, row["part_number"], "snap_ring", "Ring", row["material"], s, vol,
+                    {"od": od, "id": i, "thickness": t}, est)]
+
+
+def jam_nut(row: dict) -> list[Part]:
+    af, w, d = f(row, "hex"), f(row, "width"), f(row, "thread_dia")
+    s = Script()
+    s.hex_prism("Nut", af, w, z0=-w / 2, hole=d)
+    vol = (math.sqrt(3) / 2 * af * af - PI * d * d / 4) * w
+    return [_finish(row, row["part_number"], "jam_nut", "Nut", row["material"], s, vol,
+                    {"hex": af, "width": w, "thread": row["thread"], "thread_dia": d, "hand": row["hand"]},
+                    ["bore is at thread major diameter; thread not modelled"])]
+
+
+def bushing(row: dict) -> list[Part]:
+    i, od, L, fl, fd = (f(row, k) for k in ("id", "od", "body_length", "flange_length", "flange_dia"))
+    s = Script()
+    s.revolve("Bushing", [(i / 2, -L), (od / 2, -L), (od / 2, 0), (fd / 2, 0), (fd / 2, fl), (i / 2, fl)])
+    vol = PI * ((od / 2) ** 2 * L + (fd / 2) ** 2 * fl - (i / 2) ** 2 * (L + fl))
+    return [_finish(row, row["part_number"], "bushing", "Bushing", row["material"], s, vol,
+                    {"id": i, "od": od, "body_length": L, "flange_length": fl, "flange_dia": fd})]
+
+
+def sleeve(row: dict) -> list[Part]:
+    od, i, L = f(row, "od"), f(row, "id"), f(row, "length")
+    s = Script()
+    s.revolve("Sleeve", [(i / 2, -L / 2), (od / 2, -L / 2), (od / 2, L / 2), (i / 2, L / 2)])
+    vol = PI * ((od / 2) ** 2 - (i / 2) ** 2) * L
+    est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()]
+    return [_finish(row, row["part_number"], f"{row['kind']}_sleeve", "Sleeve", row["material"], s, vol,
+                    {"od": od, "id": i, "length": L, "kind": row["kind"]}, est)]
+
+
+# ---- generic hardware and reference geometry (not vendor catalogue items) ----
+
+def bolt_key(dia: float, length: float) -> str:
+    return f"HEX-BOLT-{dia:.4f}x{length:.2f}"
+
+
+def hex_bolt(dia: float, length: float) -> Part:
+    af, k = 1.5 * dia, 0.65 * dia
+    s = Script()
+    s.hex_prism("Bolt", af, k, z0=-k)
+    s.cylinder("Shank", dia, length, base=(0, 0, 0))
+    vol = math.sqrt(3) / 2 * af * af * k + PI * dia * dia / 4 * length
+    key = bolt_key(dia, length)
+    row = {"part_number": key, "vendor": "generic",
+           "description": f'Hex bolt {dia:g}" x {length:g}" (generic; pick grade and thread to suit)'}
+    return _finish(row, key, "hex_bolt", "Bolt", "steel", s, vol,
+                   {"dia": dia, "length": length, "hex": af, "head_height": k},
+                   ["generic proportions: hex 1.5 d, head 0.65 d"])
+
+
+def hex_nut(dia: float) -> Part:
+    af, h = 1.5 * dia, 0.875 * dia
+    s = Script()
+    s.hex_prism("Nut", af, h, z0=0, hole=dia)
+    vol = (math.sqrt(3) / 2 * af * af - PI * dia * dia / 4) * h
+    key = f"HEX-NUT-{dia:.4f}"
+    row = {"part_number": key, "vendor": "generic", "description": f'Hex nut {dia:g}" (generic)'}
+    return _finish(row, key, "hex_nut", "Nut", "steel", s, vol, {"dia": dia, "hex": af, "height": h},
+                   ["generic proportions: hex 1.5 d, height 0.875 d"])
+
+
+TAB_THICKNESS = 0.25
+
+
+def tab(bolt: float) -> Part:
+    od = 2 * bolt + 1.0
+    s = Script()
+    s.revolve("Tab", [(bolt / 2, 0), (od / 2, 0), (od / 2, TAB_THICKNESS), (bolt / 2, TAB_THICKNESS)])
+    vol = PI * ((od / 2) ** 2 - (bolt / 2) ** 2) * TAB_THICKNESS
+    key = f"REF-TAB-{bolt:.4f}"
+    row = {"part_number": "", "vendor": "",
+           "description": f'Reference mount tab for a {bolt:g}" bolt (stand-in for the chassis tab; not a part)'}
+    return _finish(row, key, "reference_tab", "Tab", "steel", s, vol,
+                   {"bolt": bolt, "od": od, "thickness": TAB_THICKNESS}, bom_type="reference")

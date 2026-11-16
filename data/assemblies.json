@@ -1,0 +1,202 @@
+[
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 3/4\" bolt, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10034TRN",
+  "kind": "uniball",
+  "title": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 3/4\" bolt, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10034TRN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10058RN",
+  "kind": "uniball",
+  "title": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 5/8\" bolt, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10058RN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTK10034SRTN",
+  "kind": "uniball",
+  "title": "1\" uniball in a 2-5/8\" cup, straight spacers to a 3/4\" bolt, 2-1/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTK10034SRTN"
+ },
+ {
+  "key": "rod-end_JMX12T_no-spacers",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, no spacers, 3/4\" bolt",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX12T_KTKHMA3412",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, misalignment spacers to a 1/2\" bolt, 1-13/16\" stack",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": "KTKHMA3412"
+ },
+ {
+  "key": "rod-end_JMX12T_KTKHMA3458",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, misalignment spacers to a 5/8\" bolt, 1-13/16\" stack",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": "KTKHMA3458"
+ },
+ {
+  "key": "rod-end_JMX12T_KTK3412SRT945",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, straight spacers to a 1/2\" bolt, 1-7/8\" stack",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": "KTK3412SRT945"
+ },
+ {
+  "key": "rod-end_JMXL12T_KTKHMA3412",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, LH, misalignment spacers to a 1/2\" bolt, 1-13/16\" stack",
+  "rod_end": "JMXL12T",
+  "jam_nut": "SJNL12",
+  "spacer": "KTKHMA3412"
+ },
+ {
+  "key": "bushing-pivot_KTK600_KTKOSL175120_KTKISL100188S",
+  "kind": "bushing_pivot",
+  "title": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+  "bushing": "KTK600",
+  "outer": "KTKOSL175120",
+  "inner": "KTKISL100188S"
+ },
+ {
+  "key": "bushing-pivot_KTK600_KTKOSL175120_KTKISL100120S",
+  "kind": "bushing_pivot",
+  "title": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, 1\" inner sleeve, 3/4\" bolt",
+  "bushing": "KTK600",
+  "outer": "KTKOSL175120",
+  "inner": "KTKISL100120S"
+ },
+ {
+  "key": "bushing-pivot_KTK600W_KTKOSL175120_KTKISL100188",
+  "kind": "bushing_pivot",
+  "title": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, wide flange, 1\" inner sleeve, 5/8\" bolt",
+  "bushing": "KTK600W",
+  "outer": "KTKOSL175120",
+  "inner": "KTKISL100188"
+ },
+ {
+  "key": "bushing-pivot_KTK600W_KTKOSL175120_KTKISL100120",
+  "kind": "bushing_pivot",
+  "title": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, wide flange, 1\" inner sleeve, 3/4\" bolt",
+  "bushing": "KTK600W",
+  "outer": "KTKOSL175120",
+  "inner": "KTKISL100120"
+ },
+ {
+  "key": "bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100188M",
+  "kind": "bushing_pivot",
+  "title": "Delrin pivot, 1-3/4\" x 3.000\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+  "bushing": "KTK60414S",
+  "outer": "KTKOSL175120M",
+  "inner": "KTKISL100188M"
+ },
+ {
+  "key": "bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100120M",
+  "kind": "bushing_pivot",
+  "title": "Delrin pivot, 1-3/4\" x 3.000\" sleeve, 1\" inner sleeve, 3/4\" bolt",
+  "bushing": "KTK60414S",
+  "outer": "KTKOSL175120M",
+  "inner": "KTKISL100120M"
+ },
+ {
+  "key": "bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100188L",
+  "kind": "bushing_pivot",
+  "title": "Delrin pivot, 1-3/4\" x 3.250\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+  "bushing": "KTK60414",
+  "outer": "KTKOSL175120L",
+  "inner": "KTKISL100188L"
+ },
+ {
+  "key": "bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100120L",
+  "kind": "bushing_pivot",
+  "title": "Delrin pivot, 1-3/4\" x 3.250\" sleeve, 1\" inner sleeve, 3/4\" bolt",
+  "bushing": "KTK60414",
+  "outer": "KTKOSL175120L",
+  "inner": "KTKISL100120L"
+ },
+ {
+  "key": "bushing-pivot_KTK250_KTKOSL125095_KTKISL750120",
+  "kind": "bushing_pivot",
+  "title": "Delrin pivot, 1-1/4\" x 1.610\" sleeve, 3/4\" inner sleeve, 1/2\" bolt",
+  "bushing": "KTK250",
+  "outer": "KTKOSL125095",
+  "inner": "KTKISL750120"
+ },
+ {
+  "key": "bushing-pivot_KTK500F_KTKOSL150120_KTKISL750120",
+  "kind": "bushing_pivot",
+  "title": "Delrin pivot, 1-1/2\" x 1.810\" sleeve, 3/4\" inner sleeve, 1/2\" bolt",
+  "bushing": "KTK500F",
+  "outer": "KTKOSL150120",
+  "inner": "KTKISL750120"
+ },
+ {
+  "key": "bushing-pivot_KTK505_KTKOSL150120_KTKISL100188S",
+  "kind": "bushing_pivot",
+  "title": "Nylatron pivot, 1-1/2\" x 1.810\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+  "bushing": "KTK505",
+  "outer": "KTKOSL150120",
+  "inner": "KTKISL100188S"
+ },
+ {
+  "key": "bushing-pivot_AFBB100_AFBBA100-OUTER_no-inner",
+  "kind": "bushing_pivot",
+  "title": "AutoFab urethane bushing assembly AFBBA100, 1\" sleeve, 3/8\" bolt",
+  "bushing": "AFBB100",
+  "outer": "AFBBA100-OUTER",
+  "inner": null
+ },
+ {
+  "key": "bushing-pivot_AFBB125_AFBBA125-OUTER_AFBBA125-INNER",
+  "kind": "bushing_pivot",
+  "title": "AutoFab urethane bushing assembly AFBBA125, 1-1/4\" sleeve, 3/8\" bolt",
+  "bushing": "AFBB125",
+  "outer": "AFBBA125-OUTER",
+  "inner": "AFBBA125-INNER"
+ },
+ {
+  "key": "bushing-pivot_AFBB150_AFBBA150-OUTER_AFBBA150-INNER",
+  "kind": "bushing_pivot",
+  "title": "AutoFab urethane bushing assembly AFBBA150, 1-1/2\" sleeve, 7/16\" bolt",
+  "bushing": "AFBB150",
+  "outer": "AFBBA150-OUTER",
+  "inner": "AFBBA150-INNER"
+ },
+ {
+  "key": "bushing-pivot_AFBB175_AFBBA175-OUTER_AFBBA175-INNER",
+  "kind": "bushing_pivot",
+  "title": "AutoFab urethane bushing assembly AFBBA175, 1-3/4\" sleeve, 9/16\" bolt",
+  "bushing": "AFBB175",
+  "outer": "AFBBA175-OUTER",
+  "inner": "AFBBA175-INNER"
+ },
+ {
+  "key": "bushing-pivot_AFBB200_AFBBA200-OUTER_AFBBA200-INNER",
+  "kind": "bushing_pivot",
+  "title": "AutoFab urethane bushing assembly AFBBA200, 2\" sleeve, 9/16\" bolt",
+  "bushing": "AFBB200",
+  "outer": "AFBBA200-OUTER",
+  "inner": "AFBBA200-INNER"
+ }
+]

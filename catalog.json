@@ -1,0 +1,5484 @@
+{
+ "units": "inches (dims_in); files are SolidCraft designs with STEP copies",
+ "parts": {
+  "WSSX16T": {
+   "part_number": "WSSX16T",
+   "family": "spherical_bearing",
+   "vendor": "FK Rod Ends",
+   "description": "FK WSSX16T 1\" bore wide series PTFE lined stainless spherical bearing",
+   "bom_type": "purchased",
+   "file": "build/parts/spherical_bearing/WSSX16T.sc",
+   "step": "build/parts/spherical_bearing/WSSX16T.step",
+   "dims_in": {
+    "bore": 1.0,
+    "od": 2.125,
+    "ball_width": 1.375,
+    "race_width": 1.005,
+    "ball_dia": 1.875,
+    "catalog_misalignment_deg": 12.0
+   },
+   "estimated": [],
+   "volume_in3": 1.05507,
+   "kartek_sku": "FKBWSSX16T",
+   "cross_reference": "Aurora AIB-16T-3; NHBB ADWL16V",
+   "source": "FK 2017 Industrial Catalog p.33",
+   "volume_check": "ok"
+  },
+  "WSSX16T.ball": {
+   "part_number": "",
+   "family": "spherical_bearing_ball",
+   "vendor": "FK Rod Ends",
+   "description": "Ball of WSSX16T (moves in the race; counted in the BOM with the race)",
+   "bom_type": "reference",
+   "file": "build/parts/spherical_bearing_ball/WSSX16T.ball.sc",
+   "step": "build/parts/spherical_bearing_ball/WSSX16T.ball.step",
+   "dims_in": {
+    "bore": 1.0,
+    "od": 2.125,
+    "ball_width": 1.375,
+    "race_width": 1.005,
+    "ball_dia": 1.875,
+    "catalog_misalignment_deg": 12.0
+   },
+   "estimated": [],
+   "volume_in3": 2.0361,
+   "kartek_sku": "FKBWSSX16T",
+   "cross_reference": "Aurora AIB-16T-3; NHBB ADWL16V",
+   "source": "FK 2017 Industrial Catalog p.33",
+   "volume_check": "ok"
+  },
+  "JMX12T": {
+   "part_number": "JMX12T",
+   "family": "rod_end",
+   "vendor": "FK Rod Ends",
+   "description": "FK JMX12T 3/4\" bore 3/4-16 RH male chromoly PTFE lined rod end",
+   "bom_type": "purchased",
+   "file": "build/parts/rod_end/JMX12T.sc",
+   "step": "build/parts/rod_end/JMX12T.step",
+   "dims_in": {
+    "bore": 0.75,
+    "head_dia": 1.75,
+    "ball_width": 0.875,
+    "head_width": 0.687,
+    "ball_dia": 1.312,
+    "length": 2.875,
+    "thread": "3/4-16 UNF-3A",
+    "thread_dia": 0.75,
+    "thread_length": 1.75,
+    "hand": "RH",
+    "catalog_misalignment_deg": 14.0
+   },
+   "estimated": [
+    "shank is a plain cylinder at thread major diameter; no neck, thread or grease fitting modelled"
+   ],
+   "volume_in3": 1.70231,
+   "kartek_sku": "FKBJMX12T",
+   "cross_reference": "Aurora RAM-12T; Aurora PRM-12T",
+   "thread": "3/4-16 UNF-3A",
+   "source": "FK 2017 Industrial Catalog p.11",
+   "volume_check": "not checked"
+  },
+  "JMX12T.ball": {
+   "part_number": "",
+   "family": "rod_end_ball",
+   "vendor": "FK Rod Ends",
+   "description": "Ball of JMX12T (moves in the body; counted in the BOM with the body)",
+   "bom_type": "reference",
+   "file": "build/parts/rod_end_ball/JMX12T.ball.sc",
+   "step": "build/parts/rod_end_ball/JMX12T.ball.step",
+   "dims_in": {
+    "bore": 0.75,
+    "head_dia": 1.75,
+    "ball_width": 0.875,
+    "head_width": 0.687,
+    "ball_dia": 1.312,
+    "length": 2.875,
+    "thread": "3/4-16 UNF-3A",
+    "thread_dia": 0.75,
+    "thread_length": 1.75,
+    "hand": "RH",
+    "catalog_misalignment_deg": 14.0
+   },
+   "estimated": [],
+   "volume_in3": 0.621,
+   "kartek_sku": "FKBJMX12T",
+   "cross_reference": "Aurora RAM-12T; Aurora PRM-12T",
+   "thread": "3/4-16 UNF-3A",
+   "source": "FK 2017 Industrial Catalog p.11",
+   "volume_check": "ok"
+  },
+  "JMXL12T": {
+   "part_number": "JMXL12T",
+   "family": "rod_end",
+   "vendor": "FK Rod Ends",
+   "description": "FK JMXL12T 3/4\" bore 3/4-16 LH male chromoly PTFE lined rod end",
+   "bom_type": "purchased",
+   "file": "build/parts/rod_end/JMXL12T.sc",
+   "step": "build/parts/rod_end/JMXL12T.step",
+   "dims_in": {
+    "bore": 0.75,
+    "head_dia": 1.75,
+    "ball_width": 0.875,
+    "head_width": 0.687,
+    "ball_dia": 1.312,
+    "length": 2.875,
+    "thread": "3/4-16 UNF-3A LH",
+    "thread_dia": 0.75,
+    "thread_length": 1.75,
+    "hand": "LH",
+    "catalog_misalignment_deg": 14.0
+   },
+   "estimated": [
+    "shank is a plain cylinder at thread major diameter; no neck, thread or grease fitting modelled"
+   ],
+   "volume_in3": 1.70231,
+   "kartek_sku": "FKBJMXL12T",
+   "cross_reference": "Aurora RAB-12T; Aurora PRB-12T",
+   "thread": "3/4-16 UNF-3A LH",
+   "source": "FK 2017 Industrial Catalog p.11",
+   "volume_check": "not checked"
+  },
+  "JMXL12T.ball": {
+   "part_number": "",
+   "family": "rod_end_ball",
+   "vendor": "FK Rod Ends",
+   "description": "Ball of JMXL12T (moves in the body; counted in the BOM with the body)",
+   "bom_type": "reference",
+   "file": "build/parts/rod_end_ball/JMXL12T.ball.sc",
+   "step": "build/parts/rod_end_ball/JMXL12T.ball.step",
+   "dims_in": {
+    "bore": 0.75,
+    "head_dia": 1.75,
+    "ball_width": 0.875,
+    "head_width": 0.687,
+    "ball_dia": 1.312,
+    "length": 2.875,
+    "thread": "3/4-16 UNF-3A LH",
+    "thread_dia": 0.75,
+    "thread_length": 1.75,
+    "hand": "LH",
+    "catalog_misalignment_deg": 14.0
+   },
+   "estimated": [],
+   "volume_in3": 0.621,
+   "kartek_sku": "FKBJMXL12T",
+   "cross_reference": "Aurora RAB-12T; Aurora PRB-12T",
+   "thread": "3/4-16 UNF-3A LH",
+   "source": "FK 2017 Industrial Catalog p.11",
+   "volume_check": "ok"
+  },
+  "KTKHMA15034BH": {
+   "part_number": "KTKHMA15034BH",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1-1/2\" Uniball For 3/4\" Bolt 2-1/2\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA15034BH.sc",
+   "step": "build/parts/spacer/KTKHMA15034BH.step",
+   "dims_in": {
+    "ball_bore": 1.5,
+    "bolt": 0.75,
+    "shoulder_height": 0.562,
+    "head_dia": 1.125,
+    "half_stack": 1.25,
+    "pin_depth": 0.6875,
+    "style": "misalignment",
+    "waist_dia": 1.335,
+    "flange_dia": 1.6
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 1.398,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-12-uniball-for-34-bolt-2-12-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA15034JPS": {
+   "part_number": "KTKHMA15034JPS",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1-1/2\" Uniball For 3/4\" Bolt 2-15/16\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA15034JPS.sc",
+   "step": "build/parts/spacer/KTKHMA15034JPS.step",
+   "dims_in": {
+    "ball_bore": 1.5,
+    "bolt": 0.75,
+    "shoulder_height": 0.785,
+    "head_dia": 1.24,
+    "half_stack": 1.465,
+    "pin_depth": 0.68,
+    "style": "misalignment",
+    "waist_dia": 1.335,
+    "flange_dia": 1.6
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 1.65146,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-12-uniball-for-34-bolt-2-1516-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA15034PRM": {
+   "part_number": "KTKHMA15034PRM",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1-1/2\" Uniball For 3/4\" Bolt 3-1/2\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA15034PRM.sc",
+   "step": "build/parts/spacer/KTKHMA15034PRM.step",
+   "dims_in": {
+    "ball_bore": 1.5,
+    "bolt": 0.75,
+    "shoulder_height": 1.065,
+    "head_dia": 1.24,
+    "half_stack": 1.75,
+    "pin_depth": 0.685,
+    "style": "misalignment",
+    "waist_dia": 1.335,
+    "flange_dia": 1.6
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 1.92737,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-12-uniball-for-34-bolt-3-12-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA15034TR": {
+   "part_number": "KTKHMA15034TR",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1-1/2\" Uniball For 3/4\" Bolt 4\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA15034TR.sc",
+   "step": "build/parts/spacer/KTKHMA15034TR.step",
+   "dims_in": {
+    "ball_bore": 1.5,
+    "bolt": 0.75,
+    "shoulder_height": 1.315,
+    "head_dia": 1.75,
+    "half_stack": 2.0,
+    "pin_depth": 0.685,
+    "style": "misalignment",
+    "waist_dia": 1.335,
+    "flange_dia": 1.75
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 2.78984,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-12-uniball-for-34-bolt-4-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTK10034SRTN": {
+   "part_number": "KTK10034SRTN",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Straight Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-1/4\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTK10034SRTN.sc",
+   "step": "build/parts/spacer/KTK10034SRTN.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.44,
+    "head_dia": 1.24,
+    "half_stack": 1.125,
+    "pin_depth": 0.685,
+    "style": "straight"
+   },
+   "estimated": [],
+   "volume_in3": 0.57234,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-straight-spacer-for-1-heim-or-uniball-for-34-bolt-2-14-stack-height.html",
+   "volume_check": "ok"
+  },
+  "KTKHMA100916S": {
+   "part_number": "KTKHMA100916S",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 9/16\" Bolt 2-3/4\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA100916S.sc",
+   "step": "build/parts/spacer/KTKHMA100916S.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.5625,
+    "shoulder_height": 0.695,
+    "head_dia": 1.05,
+    "half_stack": 1.38,
+    "pin_depth": 0.6849999999999999,
+    "style": "misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.1
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.71809,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-916-bolt-2-34-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA100916": {
+   "part_number": "KTKHMA100916",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 9/16\" Bolt 3-1/16\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA100916.sc",
+   "step": "build/parts/spacer/KTKHMA100916.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.5625,
+    "shoulder_height": 0.835,
+    "head_dia": 1.24,
+    "half_stack": 1.52,
+    "pin_depth": 0.685,
+    "style": "misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.24
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.91345,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-916-bolt-3-116-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA10034JRN": {
+   "part_number": "KTKHMA10034JRN",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 1-7/8\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA10034JRN.sc",
+   "step": "build/parts/spacer/KTKHMA10034JRN.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.25,
+    "head_dia": 1.24,
+    "half_stack": 0.935,
+    "pin_depth": 0.685,
+    "style": "misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.24
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.36125,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-34-bolt-1-78-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA10034JR": {
+   "part_number": "KTKHMA10034JR",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA10034JR.sc",
+   "step": "build/parts/spacer/KTKHMA10034JR.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.31,
+    "head_dia": 1.178,
+    "half_stack": 0.9975,
+    "pin_depth": 0.6875,
+    "style": "misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.178
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.36963,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-34-bolt-2-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA10034N": {
+   "part_number": "KTKHMA10034N",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-3/4\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA10034N.sc",
+   "step": "build/parts/spacer/KTKHMA10034N.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.695,
+    "head_dia": 1.115,
+    "half_stack": 1.38,
+    "pin_depth": 0.6849999999999999,
+    "style": "misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.115
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.48167,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-34-bolt-2-34-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA10034RN": {
+   "part_number": "KTKHMA10034RN",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-3/4\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA10034RN.sc",
+   "step": "build/parts/spacer/KTKHMA10034RN.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.695,
+    "head_dia": 1.24,
+    "half_stack": 1.38,
+    "pin_depth": 0.6849999999999999,
+    "style": "misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.24
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.55782,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-34-bolt-2-34-stack-height-42650.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA10034TPRM": {
+   "part_number": "KTKHMA10034TPRM",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-3/4\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA10034TPRM.sc",
+   "step": "build/parts/spacer/KTKHMA10034TPRM.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.695,
+    "head_dia": 1.24,
+    "half_stack": 1.38,
+    "pin_depth": 0.6849999999999999,
+    "style": "misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.24
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.55782,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-34-bolt-2-34-stack-height-42658.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA10034ES": {
+   "part_number": "KTKHMA10034ES",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 3\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA10034ES.sc",
+   "step": "build/parts/spacer/KTKHMA10034ES.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.825,
+    "head_dia": 1.49,
+    "half_stack": 1.51,
+    "pin_depth": 0.685,
+    "style": "misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.49
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.81599,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-34-bolt-3-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA10034TRN": {
+   "part_number": "KTKHMA10034TRN",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 3-1/16\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA10034TRN.sc",
+   "step": "build/parts/spacer/KTKHMA10034TRN.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.835,
+    "head_dia": 1.24,
+    "half_stack": 1.52,
+    "pin_depth": 0.685,
+    "style": "misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.24
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.61966,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-34-bolt-3-116-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA10058RN": {
+   "part_number": "KTKHMA10058RN",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 5/8\" Bolt 2-3/4\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA10058RN.sc",
+   "step": "build/parts/spacer/KTKHMA10058RN.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.625,
+    "shoulder_height": 0.695,
+    "head_dia": 1.24,
+    "half_stack": 1.38,
+    "pin_depth": 0.6849999999999999,
+    "style": "misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.24
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.7441,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-58-bolt-2-34-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA10058TR": {
+   "part_number": "KTKHMA10058TR",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 5/8\" Bolt 3-1/16\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA10058TR.sc",
+   "step": "build/parts/spacer/KTKHMA10058TR.step",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.625,
+    "shoulder_height": 0.835,
+    "head_dia": 1.24,
+    "half_stack": 1.52,
+    "pin_depth": 0.685,
+    "style": "misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.24
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.82484,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-58-bolt-3-116-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA1238": {
+   "part_number": "KTKHMA1238",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 1/2\" Heim Or Uniball For 3/8\" Bolt 1-3/16\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA1238.sc",
+   "step": "build/parts/spacer/KTKHMA1238.step",
+   "dims_in": {
+    "ball_bore": 0.5,
+    "bolt": 0.375,
+    "shoulder_height": 0.28,
+    "head_dia": 0.69,
+    "half_stack": 0.59,
+    "pin_depth": 0.30999999999999994,
+    "style": "misalignment",
+    "waist_dia": 0.495,
+    "flange_dia": 0.69
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.07706,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-12-heim-or-uniball-for-38-bolt-1-316-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTK3412SRT945": {
+   "part_number": "KTK3412SRT945",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Straight Spacer For 3/4\" Heim Or Uniball For 1/2\" Bolt 1-7/8\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTK3412SRT945.sc",
+   "step": "build/parts/spacer/KTK3412SRT945.step",
+   "dims_in": {
+    "ball_bore": 0.75,
+    "bolt": 0.5,
+    "shoulder_height": 0.51,
+    "head_dia": 0.98,
+    "half_stack": 0.9475,
+    "pin_depth": 0.437,
+    "style": "straight"
+   },
+   "estimated": [],
+   "volume_in3": 0.39181,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-straight-spacer-for-34-heim-or-uniball-for-12-bolt-1-78-stack-height.html",
+   "volume_check": "ok"
+  },
+  "KTK34916SRT": {
+   "part_number": "KTK34916SRT",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Straight Spacer For 3/4\" Heim Or Uniball For 9/16\" Bolt 1-7/8\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTK34916SRT.sc",
+   "step": "build/parts/spacer/KTK34916SRT.step",
+   "dims_in": {
+    "ball_bore": 0.75,
+    "bolt": 0.5625,
+    "shoulder_height": 0.51,
+    "head_dia": 0.98,
+    "half_stack": 0.9475,
+    "pin_depth": 0.437,
+    "style": "straight"
+   },
+   "estimated": [],
+   "volume_in3": 0.34242,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-straight-spacer-for-34-heim-or-uniball-for-916-bolt-1-78-stack-height.html",
+   "volume_check": "ok"
+  },
+  "KTKHMA34716": {
+   "part_number": "KTKHMA34716",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 3/4\" Heim Or Uniball For 7/16\" Bolt 1-1/2\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA34716.sc",
+   "step": "build/parts/spacer/KTKHMA34716.step",
+   "dims_in": {
+    "ball_bore": 0.75,
+    "bolt": 0.4375,
+    "shoulder_height": 0.315,
+    "head_dia": 0.86,
+    "half_stack": 0.75,
+    "pin_depth": 0.435,
+    "style": "misalignment",
+    "waist_dia": 0.6675,
+    "flange_dia": 0.86
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.22855,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-34-heim-or-uniball-for-716-bolt-1-12-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA3412": {
+   "part_number": "KTKHMA3412",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 3/4\" Heim Or Uniball For 1/2\" Bolt 1-13/16\" Stack Ht",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA3412.sc",
+   "step": "build/parts/spacer/KTKHMA3412.step",
+   "dims_in": {
+    "ball_bore": 0.75,
+    "bolt": 0.5,
+    "shoulder_height": 0.475,
+    "head_dia": 1.0,
+    "half_stack": 0.91,
+    "pin_depth": 0.43500000000000005,
+    "style": "misalignment",
+    "waist_dia": 0.6675,
+    "flange_dia": 1.0
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.28263,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-34-heim-or-uniball-for-12-bolt-1-1316-stack-ht.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA3458": {
+   "part_number": "KTKHMA3458",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 3/4\" Heim Or Uniball For 5/8\" Bolt 1-13/16\" Stack Ht",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA3458.sc",
+   "step": "build/parts/spacer/KTKHMA3458.step",
+   "dims_in": {
+    "ball_bore": 0.75,
+    "bolt": 0.625,
+    "shoulder_height": 0.475,
+    "head_dia": 1.0,
+    "half_stack": 0.91,
+    "pin_depth": 0.43500000000000005,
+    "style": "misalignment",
+    "waist_dia": 0.745,
+    "flange_dia": 1.0
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.20376,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-34-heim-or-uniball-for-58-bolt-1-1316-stack-ht.html",
+   "volume_check": "not checked"
+  },
+  "KTK5812SRT875": {
+   "part_number": "KTK5812SRT875",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Straight Spacer For 5/8\" Heim Or Uniball For 1/2\" Bolt 1-3/4\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTK5812SRT875.sc",
+   "step": "build/parts/spacer/KTK5812SRT875.step",
+   "dims_in": {
+    "ball_bore": 0.625,
+    "bolt": 0.5,
+    "shoulder_height": 0.5,
+    "head_dia": 0.86,
+    "half_stack": 0.875,
+    "pin_depth": 0.375,
+    "style": "straight"
+   },
+   "estimated": [],
+   "volume_in3": 0.23368,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-straight-spacer-for-58-heim-or-uniball-for-12-bolt-1-34-stack-height.html",
+   "volume_check": "ok"
+  },
+  "KTKHMA5812SS": {
+   "part_number": "KTKHMA5812SS",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 5/8\" Heim Or Uniball For 1/2\" Bolt 1-1/4\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA5812SS.sc",
+   "step": "build/parts/spacer/KTKHMA5812SS.step",
+   "dims_in": {
+    "ball_bore": 0.625,
+    "bolt": 0.5,
+    "shoulder_height": 0.25,
+    "head_dia": 0.75,
+    "half_stack": 0.625,
+    "pin_depth": 0.375,
+    "style": "misalignment",
+    "waist_dia": 0.62,
+    "flange_dia": 0.75
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.08737,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-58-heim-or-uniball-for-12-bolt-1-14-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA5812S": {
+   "part_number": "KTKHMA5812S",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 5/8\" Heim Or Uniball For 1/2\" Bolt 1-1/2\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA5812S.sc",
+   "step": "build/parts/spacer/KTKHMA5812S.step",
+   "dims_in": {
+    "ball_bore": 0.625,
+    "bolt": 0.5,
+    "shoulder_height": 0.375,
+    "head_dia": 0.75,
+    "half_stack": 0.75,
+    "pin_depth": 0.375,
+    "style": "misalignment",
+    "waist_dia": 0.62,
+    "flange_dia": 0.75
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.10855,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-58-heim-or-uniball-for-12-bolt-1-12-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA5812T": {
+   "part_number": "KTKHMA5812T",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 5/8\" Heim Or Uniball For 1/2\" Bolt 1-7/8\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA5812T.sc",
+   "step": "build/parts/spacer/KTKHMA5812T.step",
+   "dims_in": {
+    "ball_bore": 0.625,
+    "bolt": 0.5,
+    "shoulder_height": 0.536,
+    "head_dia": 0.8,
+    "half_stack": 0.91,
+    "pin_depth": 0.374,
+    "style": "misalignment",
+    "waist_dia": 0.62,
+    "flange_dia": 0.8
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.15173,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-58-heim-or-uniball-for-12-bolt-1-78-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTK7834SRTR": {
+   "part_number": "KTK7834SRTR",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Straight Spacer For 7/8\" Heim Or Uniball For 3/4\" Bolt 1-1/2\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTK7834SRTR.sc",
+   "step": "build/parts/spacer/KTK7834SRTR.step",
+   "dims_in": {
+    "ball_bore": 0.875,
+    "bolt": 0.75,
+    "shoulder_height": 0.325,
+    "head_dia": 1.1,
+    "half_stack": 0.76,
+    "pin_depth": 0.435,
+    "style": "straight"
+   },
+   "estimated": [],
+   "volume_in3": 0.23467,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-straight-spacer-for-78-heim-or-uniball-for-34-bolt-1-12-stack-height.html",
+   "volume_check": "ok"
+  },
+  "KTK7858SRT": {
+   "part_number": "KTK7858SRT",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Straight Spacer For 7/8\" Heim Or Uniball For 5/8\" Bolt 1-5/8\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTK7858SRT.sc",
+   "step": "build/parts/spacer/KTK7858SRT.step",
+   "dims_in": {
+    "ball_bore": 0.875,
+    "bolt": 0.625,
+    "shoulder_height": 0.375,
+    "head_dia": 1.1,
+    "half_stack": 0.812,
+    "pin_depth": 0.437,
+    "style": "straight"
+   },
+   "estimated": [],
+   "volume_in3": 0.37003,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-straight-spacer-for-78-heim-or-uniball-for-58-bolt-1-58-stack-height.html",
+   "volume_check": "ok"
+  },
+  "KTKHMA7812S": {
+   "part_number": "KTKHMA7812S",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 7/8\" Heim Or Uniball For 1/2\" Bolt 1-1/2\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA7812S.sc",
+   "step": "build/parts/spacer/KTKHMA7812S.step",
+   "dims_in": {
+    "ball_bore": 0.875,
+    "bolt": 0.5,
+    "shoulder_height": 0.318,
+    "head_dia": 1.0,
+    "half_stack": 0.75,
+    "pin_depth": 0.432,
+    "style": "misalignment",
+    "waist_dia": 0.7788,
+    "flange_dia": 1.0
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.31647,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-78-heim-or-uniball-for-12-bolt-1-12-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA7812M": {
+   "part_number": "KTKHMA7812M",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 7/8\" Heim Or Uniball For 1/2\" Bolt 1-13/16\" Stack Ht",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA7812M.sc",
+   "step": "build/parts/spacer/KTKHMA7812M.step",
+   "dims_in": {
+    "ball_bore": 0.875,
+    "bolt": 0.5,
+    "shoulder_height": 0.49,
+    "head_dia": 1.03,
+    "half_stack": 0.925,
+    "pin_depth": 0.43500000000000005,
+    "style": "misalignment",
+    "waist_dia": 0.7788,
+    "flange_dia": 1.03
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.40139,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-78-heim-or-uniball-for-12-bolt-1-1316-stack-ht.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA7812": {
+   "part_number": "KTKHMA7812",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 7/8\" Heim Or Uniball For 1/2\" Bolt 2-1/8\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA7812.sc",
+   "step": "build/parts/spacer/KTKHMA7812.step",
+   "dims_in": {
+    "ball_bore": 0.875,
+    "bolt": 0.5,
+    "shoulder_height": 0.625,
+    "head_dia": 1.03,
+    "half_stack": 1.06,
+    "pin_depth": 0.43500000000000005,
+    "style": "misalignment",
+    "waist_dia": 0.7788,
+    "flange_dia": 1.03
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.46088,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-78-heim-or-uniball-for-12-bolt-2-18-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA7812PRC": {
+   "part_number": "KTKHMA7812PRC",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 7/8\" Heim Or Uniball For 1/2\" Bolt 2-11/16\" Stack Ht",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA7812PRC.sc",
+   "step": "build/parts/spacer/KTKHMA7812PRC.step",
+   "dims_in": {
+    "ball_bore": 0.875,
+    "bolt": 0.5,
+    "shoulder_height": 0.915,
+    "head_dia": 1.245,
+    "half_stack": 1.35,
+    "pin_depth": 0.43500000000000005,
+    "style": "misalignment",
+    "waist_dia": 0.7788,
+    "flange_dia": 1.245
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.74858,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-78-heim-or-uniball-for-12-bolt-2-1116-stack-ht.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA78916SS": {
+   "part_number": "KTKHMA78916SS",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 7/8\" Heim Or Uniball For 9/16\" Bolt 1-1/2\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA78916SS.sc",
+   "step": "build/parts/spacer/KTKHMA78916SS.step",
+   "dims_in": {
+    "ball_bore": 0.875,
+    "bolt": 0.5625,
+    "shoulder_height": 0.315,
+    "head_dia": 1.0,
+    "half_stack": 0.75,
+    "pin_depth": 0.435,
+    "style": "misalignment",
+    "waist_dia": 0.7788,
+    "flange_dia": 1.0
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.27731,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-78-heim-or-uniball-for-916-bolt-1-12-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA78916S": {
+   "part_number": "KTKHMA78916S",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 7/8\" Heim Or Uniball For 9/16\" Bolt 1-7/8\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA78916S.sc",
+   "step": "build/parts/spacer/KTKHMA78916S.step",
+   "dims_in": {
+    "ball_bore": 0.875,
+    "bolt": 0.5625,
+    "shoulder_height": 0.49,
+    "head_dia": 1.03,
+    "half_stack": 0.925,
+    "pin_depth": 0.43500000000000005,
+    "style": "misalignment",
+    "waist_dia": 0.7788,
+    "flange_dia": 1.03
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.35315,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-78-heim-or-uniball-for-916-bolt-1-78-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA78916": {
+   "part_number": "KTKHMA78916",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 7/8\" Heim Or Uniball For 9/16\" Bolt 2-1/8\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA78916.sc",
+   "step": "build/parts/spacer/KTKHMA78916.step",
+   "dims_in": {
+    "ball_bore": 0.875,
+    "bolt": 0.5625,
+    "shoulder_height": 0.625,
+    "head_dia": 1.03,
+    "half_stack": 1.06,
+    "pin_depth": 0.43500000000000005,
+    "style": "misalignment",
+    "waist_dia": 0.7788,
+    "flange_dia": 1.03
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.40559,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-78-heim-or-uniball-for-916-bolt-2-18-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA7858": {
+   "part_number": "KTKHMA7858",
+   "family": "spacer",
+   "vendor": "Kartek",
+   "description": "17-4 Stainless Steel Misalignment Spacer For 7/8\" Heim Or Uniball For 5/8\" Bolt 2-1/8\" Stack Height",
+   "bom_type": "purchased",
+   "file": "build/parts/spacer/KTKHMA7858.sc",
+   "step": "build/parts/spacer/KTKHMA7858.step",
+   "dims_in": {
+    "ball_bore": 0.875,
+    "bolt": 0.625,
+    "shoulder_height": 0.625,
+    "head_dia": 1.03,
+    "half_stack": 1.06,
+    "pin_depth": 0.43500000000000005,
+    "style": "misalignment",
+    "waist_dia": 0.7788,
+    "flange_dia": 1.03
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.3438,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-78-heim-or-uniball-for-58-bolt-2-18-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTK9044HD": {
+   "part_number": "KTK9044HD",
+   "family": "uniball_cup",
+   "vendor": "Kartek",
+   "description": "Kartek 4130 uniball cup for 1\" bore uniballs 1-1/2\" tall 2-5/8\" OD",
+   "bom_type": "purchased",
+   "file": "build/parts/uniball_cup/KTK9044HD.sc",
+   "step": "build/parts/uniball_cup/KTK9044HD.step",
+   "dims_in": {
+    "bearing_od": 2.125,
+    "height": 1.5,
+    "od": 2.625,
+    "lip_id": 1.9,
+    "lip_thickness": 0.259,
+    "groove_dia": 2.245,
+    "groove_width": 0.086,
+    "seat_depth": 1.005,
+    "bottom_z": -0.7615,
+    "top_z": 0.7385,
+    "snap_ring": "KTK9044SR"
+   },
+   "estimated": [
+    "lip_id",
+    "lip_thickness",
+    "groove_dia",
+    "groove_width"
+   ],
+   "volume_in3": 2.94678,
+   "cross_reference": "FK CPW16",
+   "source": "kartek.com KTK9044HD; FK 2017 catalog p.37 (CPW16)",
+   "volume_check": "ok"
+  },
+  "KTK9044SR": {
+   "part_number": "KTK9044SR",
+   "family": "snap_ring",
+   "vendor": "Kartek",
+   "description": "Snap ring for Kartek 9044 series 1\" uniball cups",
+   "bom_type": "purchased",
+   "file": "build/parts/snap_ring/KTK9044SR.sc",
+   "step": "build/parts/snap_ring/KTK9044SR.step",
+   "dims_in": {
+    "od": 2.24,
+    "id": 1.945,
+    "thickness": 0.078
+   },
+   "estimated": [
+    "od",
+    "id",
+    "thickness",
+    "modelled as a closed ring"
+   ],
+   "volume_in3": 0.07563,
+   "source": "kartek.com KTK9044SR",
+   "volume_check": "ok"
+  },
+  "SJNR12": {
+   "part_number": "SJNR12",
+   "family": "jam_nut",
+   "vendor": "FK Rod Ends",
+   "description": "FK SJNR12 3/4-16 RH steel jam nut",
+   "bom_type": "purchased",
+   "file": "build/parts/jam_nut/SJNR12.sc",
+   "step": "build/parts/jam_nut/SJNR12.step",
+   "dims_in": {
+    "hex": 1.09375,
+    "width": 0.425,
+    "thread": "3/4-16 UNF-2B",
+    "thread_dia": 0.75,
+    "hand": "RH"
+   },
+   "estimated": [
+    "bore is at thread major diameter; thread not modelled"
+   ],
+   "volume_in3": 0.25255,
+   "kartek_sku": "FKBSJNR12",
+   "thread": "3/4-16 UNF-2B",
+   "source": "FK 2017 Industrial Catalog p.41",
+   "volume_check": "ok"
+  },
+  "SJNL12": {
+   "part_number": "SJNL12",
+   "family": "jam_nut",
+   "vendor": "FK Rod Ends",
+   "description": "FK SJNL12 3/4-16 LH steel jam nut",
+   "bom_type": "purchased",
+   "file": "build/parts/jam_nut/SJNL12.sc",
+   "step": "build/parts/jam_nut/SJNL12.step",
+   "dims_in": {
+    "hex": 1.09375,
+    "width": 0.425,
+    "thread": "3/4-16 UNF-2B LH",
+    "thread_dia": 0.75,
+    "hand": "LH"
+   },
+   "estimated": [
+    "bore is at thread major diameter; thread not modelled"
+   ],
+   "volume_in3": 0.25255,
+   "kartek_sku": "FKBSJNL12",
+   "thread": "3/4-16 UNF-2B LH",
+   "source": "FK 2017 Industrial Catalog p.41",
+   "volume_check": "ok"
+  },
+  "KTK604141": {
+   "part_number": "KTK604141",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Red Hard Urethane Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 1-15/16\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK604141.sc",
+   "step": "build/parts/bushing/KTK604141.step",
+   "dims_in": {
+    "id": 1.0,
+    "od": 1.52,
+    "body_length": 1.495,
+    "flange_length": 0.42,
+    "flange_dia": 2.015
+   },
+   "estimated": [],
+   "volume_in3": 2.5481,
+   "source": "https://www.kartek.com/parts/red-hard-urethane-pivot-bushing-1-inside-diameter-1-12-outside-diameter-1-1516-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK60069": {
+   "part_number": "KTK60069",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "AutoFab Hard Red Urethane Bushing 1\" Inside Diameter 1.5\" Outside Diameter 2-1/4\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK60069.sc",
+   "step": "build/parts/bushing/KTK60069.step",
+   "dims_in": {
+    "id": 1.0,
+    "od": 1.51,
+    "body_length": 1.75,
+    "flange_length": 0.505,
+    "flange_dia": 2.015
+   },
+   "estimated": [],
+   "volume_in3": 2.97319,
+   "source": "https://www.kartek.com/parts/autofab-hard-red-urethane-bushing-1-inside-diameter-15-outside-diameter-2-14-total-length.html",
+   "volume_check": "ok"
+  },
+  "AFBB100": {
+   "part_number": "AFBB100",
+   "family": "bushing",
+   "vendor": "AutoFab",
+   "description": "AutoFab Black Urethane Bushing 3/8\" Inside Diameter .825\" Outside Diameter 3/4\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/AFBB100.sc",
+   "step": "build/parts/bushing/AFBB100.step",
+   "dims_in": {
+    "id": 0.375,
+    "od": 0.825,
+    "body_length": 0.5,
+    "flange_length": 0.25,
+    "flange_dia": 1.0
+   },
+   "estimated": [],
+   "volume_in3": 0.3808,
+   "source": "https://www.kartek.com/parts/autofab-black-urethane-bushing-38-inside-diameter-825-outside-diameter-34-total-length.html",
+   "volume_check": "ok"
+  },
+  "AFBB125": {
+   "part_number": "AFBB125",
+   "family": "bushing",
+   "vendor": "AutoFab",
+   "description": "AutoFab Black Urethane Bushing 1/2\" Inside Diameter 1.070\" Outside Diameter 1\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/AFBB125.sc",
+   "step": "build/parts/bushing/AFBB125.step",
+   "dims_in": {
+    "id": 0.5,
+    "od": 1.07,
+    "body_length": 0.75,
+    "flange_length": 0.25,
+    "flange_dia": 1.25
+   },
+   "estimated": [],
+   "volume_in3": 0.78485,
+   "source": "https://www.kartek.com/parts/autofab-black-urethane-bushing-12-inside-diameter-1070-outside-diameter-1-total-length.html",
+   "volume_check": "ok"
+  },
+  "AFBB150": {
+   "part_number": "AFBB150",
+   "family": "bushing",
+   "vendor": "AutoFab",
+   "description": "AutoFab Black Urethane Bushing 5/8\" Inside Diameter 1.265\" Outside Diameter 1-1/8\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/AFBB150.sc",
+   "step": "build/parts/bushing/AFBB150.step",
+   "dims_in": {
+    "id": 0.625,
+    "od": 1.265,
+    "body_length": 0.875,
+    "flange_length": 0.25,
+    "flange_dia": 1.6
+   },
+   "estimated": [],
+   "volume_in3": 1.25722,
+   "source": "https://www.kartek.com/parts/autofab-black-urethane-bushing-58-inside-diameter-1265-outside-diameter-1-18-total-length.html",
+   "volume_check": "ok"
+  },
+  "AFBB175": {
+   "part_number": "AFBB175",
+   "family": "bushing",
+   "vendor": "AutoFab",
+   "description": "AutoFab Black Urethane Bushing 3/4\" Inside Diameter 1.525\" Outside Diameter 1-7/16\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/AFBB175.sc",
+   "step": "build/parts/bushing/AFBB175.step",
+   "dims_in": {
+    "id": 0.75,
+    "od": 1.525,
+    "body_length": 1.215,
+    "flange_length": 0.25,
+    "flange_dia": 1.755
+   },
+   "estimated": [],
+   "volume_in3": 2.17679,
+   "source": "https://www.kartek.com/parts/autofab-black-urethane-bushing-34-inside-diameter-1525-outside-diameter-1-716-total-length.html",
+   "volume_check": "ok"
+  },
+  "AFBB200": {
+   "part_number": "AFBB200",
+   "family": "bushing",
+   "vendor": "AutoFab",
+   "description": "AutoFab Black Urethane Bushing 3/4\" Inside Diameter 1.780\" Outside Diameter 1-7/16\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/AFBB200.sc",
+   "step": "build/parts/bushing/AFBB200.step",
+   "dims_in": {
+    "id": 0.75,
+    "od": 1.78,
+    "body_length": 1.215,
+    "flange_length": 0.25,
+    "flange_dia": 2.0
+   },
+   "estimated": [],
+   "volume_in3": 3.16165,
+   "source": "https://www.kartek.com/parts/autofab-black-urethane-bushing-34-inside-diameter-1780-outside-diameter-1-716-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKB100": {
+   "part_number": "KTKB100",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Kartek Off-Road Urethane Bushing 3/8\" Inside Diameter .825\" Outside Diameter 11/16\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTKB100.sc",
+   "step": "build/parts/bushing/KTKB100.step",
+   "dims_in": {
+    "id": 0.375,
+    "od": 0.825,
+    "body_length": 0.5,
+    "flange_length": 0.188,
+    "flange_dia": 1.0
+   },
+   "estimated": [],
+   "volume_in3": 0.33895,
+   "source": "https://www.kartek.com/parts/kartek-off-road-urethane-bushing-38-inside-diameter-825-outside-diameter-1116-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKB125": {
+   "part_number": "KTKB125",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Kartek Off-Road Urethane Bushing 1/2\" Inside Diameter 1.070\" Outside Diameter 1\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTKB125.sc",
+   "step": "build/parts/bushing/KTKB125.step",
+   "dims_in": {
+    "id": 0.5,
+    "od": 1.07,
+    "body_length": 0.75,
+    "flange_length": 0.25,
+    "flange_dia": 1.34
+   },
+   "estimated": [],
+   "volume_in3": 0.83062,
+   "source": "https://www.kartek.com/parts/kartek-off-road-urethane-bushing-12-inside-diameter-1070-outside-diameter-1-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKB150": {
+   "part_number": "KTKB150",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Kartek Off-Road Urethane Bushing 5/8\" Inside Diameter 1.275\" Outside Diameter 1-1/8\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTKB150.sc",
+   "step": "build/parts/bushing/KTKB150.step",
+   "dims_in": {
+    "id": 0.625,
+    "od": 1.275,
+    "body_length": 0.875,
+    "flange_length": 0.25,
+    "flange_dia": 1.615
+   },
+   "estimated": [],
+   "volume_in3": 1.28415,
+   "source": "https://www.kartek.com/parts/kartek-off-road-urethane-bushing-58-inside-diameter-1275-outside-diameter-1-18-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKB175": {
+   "part_number": "KTKB175",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Kartek Off-Road Urethane Bushing 3/4\" Inside Diameter 1.525\" Outside Diameter 1-7/16\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTKB175.sc",
+   "step": "build/parts/bushing/KTKB175.step",
+   "dims_in": {
+    "id": 0.75,
+    "od": 1.518,
+    "body_length": 1.187,
+    "flange_length": 0.25,
+    "flange_dia": 1.945
+   },
+   "estimated": [],
+   "volume_in3": 2.25619,
+   "source": "https://www.kartek.com/parts/kartek-off-road-urethane-bushing-34-inside-diameter-1525-outside-diameter-1-716-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKB200": {
+   "part_number": "KTKB200",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Kartek Off-Road Urethane Bushing 3/4\" Inside Diameter 1.765\" Outside Diameter 1-7/16\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTKB200.sc",
+   "step": "build/parts/bushing/KTKB200.step",
+   "dims_in": {
+    "id": 0.75,
+    "od": 1.765,
+    "body_length": 1.2,
+    "flange_length": 0.238,
+    "flange_dia": 2.175
+   },
+   "estimated": [],
+   "volume_in3": 3.18501,
+   "source": "https://www.kartek.com/parts/kartek-off-road-urethane-bushing-34-inside-diameter-1765-outside-diameter-1-716-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKLADB": {
+   "part_number": "KTKLADB",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 5/8\" Inside Diameter 3/4\" Outside Diameter 5/8\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTKLADB.sc",
+   "step": "build/parts/bushing/KTKLADB.step",
+   "dims_in": {
+    "id": 0.627,
+    "od": 0.75,
+    "body_length": 0.5,
+    "flange_length": 0.121,
+    "flange_dia": 0.992
+   },
+   "estimated": [],
+   "volume_in3": 0.12267,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-58-inside-diameter-34-outside-diameter-58-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK250": {
+   "part_number": "KTK250",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 3/4\" Inside Diameter 1-1/16\" Outside Diameter 3/4\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK250.sc",
+   "step": "build/parts/bushing/KTK250.step",
+   "dims_in": {
+    "id": 0.75,
+    "od": 1.0625,
+    "body_length": 0.59,
+    "flange_length": 0.185,
+    "flange_dia": 1.25
+   },
+   "estimated": [],
+   "volume_in3": 0.40776,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-34-inside-diameter-1-116-outside-diameter-34-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK505": {
+   "part_number": "KTK505",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Gray Nylatron Pivot Bushing 1\" Inside Diameter 1-1/4\" Outside Diameter 7/8\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK505.sc",
+   "step": "build/parts/bushing/KTK505.step",
+   "dims_in": {
+    "id": 1.01,
+    "od": 1.25,
+    "body_length": 0.694,
+    "flange_length": 0.19,
+    "flange_dia": 1.502
+   },
+   "estimated": [],
+   "volume_in3": 0.48007,
+   "source": "https://www.kartek.com/parts/gray-nylatron-pivot-bushing-1-inside-diameter-1-14-outside-diameter-78-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK500F": {
+   "part_number": "KTK500F",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 3/4\" Inside Diameter 1-1/4\" Outside Diameter 1-1/8\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK500F.sc",
+   "step": "build/parts/bushing/KTK500F.step",
+   "dims_in": {
+    "id": 0.75,
+    "od": 1.25,
+    "body_length": 0.898,
+    "flange_length": 0.232,
+    "flange_dia": 1.49
+   },
+   "estimated": [],
+   "volume_in3": 1.00732,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-34-inside-diameter-1-14-outside-diameter-1-18-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK600": {
+   "part_number": "KTK600",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 1-3/16\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK600.sc",
+   "step": "build/parts/bushing/KTK600.step",
+   "dims_in": {
+    "id": 1.005,
+    "od": 1.5,
+    "body_length": 0.97,
+    "flange_length": 0.232,
+    "flange_dia": 1.875
+   },
+   "estimated": [],
+   "volume_in3": 1.40121,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-1-inside-diameter-1-12-outside-diameter-1-316-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK600W": {
+   "part_number": "KTK600W",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 1-3/8\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK600W.sc",
+   "step": "build/parts/bushing/KTK600W.step",
+   "dims_in": {
+    "id": 1.005,
+    "od": 1.5,
+    "body_length": 0.97,
+    "flange_length": 0.435,
+    "flange_dia": 1.875
+   },
+   "estimated": [],
+   "volume_in3": 1.80069,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-1-inside-diameter-1-12-outside-diameter-1-38-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK601": {
+   "part_number": "KTK601",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "VW IRS Black Delrin Pivot Bushing 1-1/8\" Inside Diameter 1-1/2\" Outside Diameter 1-3/16\" Total Lgth",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK601.sc",
+   "step": "build/parts/bushing/KTK601.step",
+   "dims_in": {
+    "id": 1.135,
+    "od": 1.5,
+    "body_length": 0.97,
+    "flange_length": 0.232,
+    "flange_dia": 1.875
+   },
+   "estimated": [],
+   "volume_in3": 1.13857,
+   "source": "https://www.kartek.com/parts/vw-irs-black-delrin-pivot-bushing-1-18-inside-diameter-1-12-outside-diameter-1-316-total-lgth.html",
+   "volume_check": "ok"
+  },
+  "KTK60414": {
+   "part_number": "KTK60414",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 2-1/16\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK60414.sc",
+   "step": "build/parts/bushing/KTK60414.step",
+   "dims_in": {
+    "id": 1.005,
+    "od": 1.5,
+    "body_length": 1.625,
+    "flange_length": 0.435,
+    "flange_dia": 1.982
+   },
+   "estimated": [],
+   "volume_in3": 2.57958,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-1-inside-diameter-1-12-outside-diameter-2-116-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK60414JPS": {
+   "part_number": "KTK60414JPS",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 1-1/4\" Inside Diameter 1-1/2\" Outside Diameter 2-1/16\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK60414JPS.sc",
+   "step": "build/parts/bushing/KTK60414JPS.step",
+   "dims_in": {
+    "id": 1.254,
+    "od": 1.5,
+    "body_length": 1.615,
+    "flange_length": 0.435,
+    "flange_dia": 1.982
+   },
+   "estimated": [],
+   "volume_in3": 1.66419,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-1-14-inside-diameter-1-12-outside-diameter-2-116-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK60414PRC": {
+   "part_number": "KTK60414PRC",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 1-1/4\" Inside Diameter 1-1/2\" Outside Diameter 1-1/2\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK60414PRC.sc",
+   "step": "build/parts/bushing/KTK60414PRC.step",
+   "dims_in": {
+    "id": 1.253,
+    "od": 1.5,
+    "body_length": 1.245,
+    "flange_length": 0.27,
+    "flange_dia": 1.952
+   },
+   "estimated": [],
+   "volume_in3": 1.13998,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-1-14-inside-diameter-1-12-outside-diameter-1-12-total-length-42078.html",
+   "volume_check": "ok"
+  },
+  "KTK60414S": {
+   "part_number": "KTK60414S",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 1-15/16\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK60414S.sc",
+   "step": "build/parts/bushing/KTK60414S.step",
+   "dims_in": {
+    "id": 1.005,
+    "od": 1.5,
+    "body_length": 1.49,
+    "flange_length": 0.435,
+    "flange_dia": 1.98
+   },
+   "estimated": [],
+   "volume_in3": 2.4454,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-1-inside-diameter-1-12-outside-diameter-1-1516-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK60414CST": {
+   "part_number": "KTK60414CST",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 7/8\" Inside Diameter 1-3/4\" Outside Diameter 1\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK60414CST.sc",
+   "step": "build/parts/bushing/KTK60414CST.step",
+   "dims_in": {
+    "id": 0.882,
+    "od": 1.75,
+    "body_length": 0.79,
+    "flange_length": 0.2,
+    "flange_dia": 2.142
+   },
+   "estimated": [],
+   "volume_in3": 2.01601,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-78-inside-diameter-1-34-outside-diameter-1-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK60870": {
+   "part_number": "KTK60870",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 1-1/4\" Inside Diameter 1-7/8\" Outside Diameter 1-1/2\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK60870.sc",
+   "step": "build/parts/bushing/KTK60870.step",
+   "dims_in": {
+    "id": 1.25,
+    "od": 1.875,
+    "body_length": 1.24,
+    "flange_length": 0.25,
+    "flange_dia": 2.237
+   },
+   "estimated": [],
+   "volume_in3": 2.57791,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-1-14-inside-diameter-1-78-outside-diameter-1-12-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTK60414200": {
+   "part_number": "KTK60414200",
+   "family": "bushing",
+   "vendor": "Kartek",
+   "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-3/4\" Outside Diameter 1-1/4\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/bushing/KTK60414200.sc",
+   "step": "build/parts/bushing/KTK60414200.step",
+   "dims_in": {
+    "id": 1.005,
+    "od": 1.75,
+    "body_length": 1.005,
+    "flange_length": 0.245,
+    "flange_dia": 1.992
+   },
+   "estimated": [],
+   "volume_in3": 2.18926,
+   "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-1-inside-diameter-1-34-outside-diameter-1-14-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKISL750173": {
+   "part_number": "KTKISL750173",
+   "family": "inner_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 10mm Metric Bolt 3/4\" Outside Diameter 1.965\" Length",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/KTKISL750173.sc",
+   "step": "build/parts/inner_sleeve/KTKISL750173.step",
+   "dims_in": {
+    "od": 0.75,
+    "id": 0.3937,
+    "length": 1.965,
+    "kind": "inner"
+   },
+   "estimated": [],
+   "volume_in3": 0.6289,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-10mm-metric-bolt-34-outside-diameter-1965-length.html",
+   "volume_check": "ok"
+  },
+  "KTKISL750120": {
+   "part_number": "KTKISL750120",
+   "family": "inner_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 1/2\" Bolt 3/4\" Outside Diameter 2.308\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/KTKISL750120.sc",
+   "step": "build/parts/inner_sleeve/KTKISL750120.step",
+   "dims_in": {
+    "od": 0.75,
+    "id": 0.5,
+    "length": 2.308,
+    "kind": "inner"
+   },
+   "estimated": [],
+   "volume_in3": 0.56647,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-12-bolt-34-outside-diameter-2308-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKISL100188S": {
+   "part_number": "KTKISL100188S",
+   "family": "inner_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 5/8\" Bolt 1\" Outside Diameter 2.440\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/KTKISL100188S.sc",
+   "step": "build/parts/inner_sleeve/KTKISL100188S.step",
+   "dims_in": {
+    "od": 1.0,
+    "id": 0.625,
+    "length": 2.44,
+    "kind": "inner"
+   },
+   "estimated": [],
+   "volume_in3": 1.16779,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-58-bolt-1-outside-diameter-2440-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKISL100188": {
+   "part_number": "KTKISL100188",
+   "family": "inner_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 5/8\" Bolt 1\" Outside Diameter 2.840\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/KTKISL100188.sc",
+   "step": "build/parts/inner_sleeve/KTKISL100188.step",
+   "dims_in": {
+    "od": 1.0,
+    "id": 0.625,
+    "length": 2.84,
+    "kind": "inner"
+   },
+   "estimated": [],
+   "volume_in3": 1.35923,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-58-bolt-1-outside-diameter-2840-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKISL100188M": {
+   "part_number": "KTKISL100188M",
+   "family": "inner_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 5/8\" Bolt 1\" Outside Diameter 3.875\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/KTKISL100188M.sc",
+   "step": "build/parts/inner_sleeve/KTKISL100188M.step",
+   "dims_in": {
+    "od": 1.0,
+    "id": 0.625,
+    "length": 3.875,
+    "kind": "inner"
+   },
+   "estimated": [],
+   "volume_in3": 1.85458,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-58-bolt-1-outside-diameter-3875-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKISL100188L": {
+   "part_number": "KTKISL100188L",
+   "family": "inner_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 5/8\" Bolt 1\" Outside Diameter 4.120\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/KTKISL100188L.sc",
+   "step": "build/parts/inner_sleeve/KTKISL100188L.step",
+   "dims_in": {
+    "od": 1.0,
+    "id": 0.625,
+    "length": 4.12,
+    "kind": "inner"
+   },
+   "estimated": [],
+   "volume_in3": 1.97184,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-58-bolt-1-outside-diameter-4120-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKISL100120S": {
+   "part_number": "KTKISL100120S",
+   "family": "inner_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 3/4\" Bolt 1\" Outside Diameter 2.440\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/KTKISL100120S.sc",
+   "step": "build/parts/inner_sleeve/KTKISL100120S.step",
+   "dims_in": {
+    "od": 1.0,
+    "id": 0.75,
+    "length": 2.44,
+    "kind": "inner"
+   },
+   "estimated": [],
+   "volume_in3": 0.83841,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-34-bolt-1-outside-diameter-2440-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKISL100120": {
+   "part_number": "KTKISL100120",
+   "family": "inner_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 3/4\" Bolt 1\" Outside Diameter 2.840\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/KTKISL100120.sc",
+   "step": "build/parts/inner_sleeve/KTKISL100120.step",
+   "dims_in": {
+    "od": 1.0,
+    "id": 0.75,
+    "length": 2.84,
+    "kind": "inner"
+   },
+   "estimated": [],
+   "volume_in3": 0.97586,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-34-bolt-1-outside-diameter-2840-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKISL100120M": {
+   "part_number": "KTKISL100120M",
+   "family": "inner_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 3/4\" Bolt 1\" Outside Diameter 3.875\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/KTKISL100120M.sc",
+   "step": "build/parts/inner_sleeve/KTKISL100120M.step",
+   "dims_in": {
+    "od": 1.0,
+    "id": 0.75,
+    "length": 3.875,
+    "kind": "inner"
+   },
+   "estimated": [],
+   "volume_in3": 1.3315,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-34-bolt-1-outside-diameter-3875-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKISL100120L": {
+   "part_number": "KTKISL100120L",
+   "family": "inner_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 3/4\" Bolt 1\" Outside Diameter 4.120\" Total Length",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/KTKISL100120L.sc",
+   "step": "build/parts/inner_sleeve/KTKISL100120L.step",
+   "dims_in": {
+    "od": 1.0,
+    "id": 0.75,
+    "length": 4.12,
+    "kind": "inner"
+   },
+   "estimated": [],
+   "volume_in3": 1.41568,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-34-bolt-1-outside-diameter-4120-total-length.html",
+   "volume_check": "ok"
+  },
+  "KTKOSL125095": {
+   "part_number": "KTKOSL125095",
+   "family": "outer_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/16\" Bushings 1-1/4\" Outside Diameter 1.610\" Length",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/KTKOSL125095.sc",
+   "step": "build/parts/outer_sleeve/KTKOSL125095.step",
+   "dims_in": {
+    "od": 1.25,
+    "id": 1.0625,
+    "length": 1.61,
+    "kind": "outer"
+   },
+   "estimated": [],
+   "volume_in3": 0.54828,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-outer-sleeve-for-1-116-bushings-1-14-outside-diameter-1610-length.html",
+   "volume_check": "ok"
+  },
+  "KTKOSL150120": {
+   "part_number": "KTKOSL150120",
+   "family": "outer_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/4\" Bushings 1-1/2\" Outside Diameter 1.810\" Length",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/KTKOSL150120.sc",
+   "step": "build/parts/outer_sleeve/KTKOSL150120.step",
+   "dims_in": {
+    "od": 1.5,
+    "id": 1.25,
+    "length": 1.81,
+    "kind": "outer"
+   },
+   "estimated": [],
+   "volume_in3": 0.97733,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-outer-sleeve-for-1-14-bushings-1-12-outside-diameter-1810-length.html",
+   "volume_check": "ok"
+  },
+  "KTKOSL175120": {
+   "part_number": "KTKOSL175120",
+   "family": "outer_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 1-3/4\" Outside Diameter 1.970\" Length",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/KTKOSL175120.sc",
+   "step": "build/parts/outer_sleeve/KTKOSL175120.step",
+   "dims_in": {
+    "od": 1.75,
+    "id": 1.5,
+    "length": 1.97,
+    "kind": "outer"
+   },
+   "estimated": [],
+   "volume_in3": 1.25713,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-outer-sleeve-for-1-12-bushings-1-34-outside-diameter-1970-length.html",
+   "volume_check": "ok"
+  },
+  "KTKOSL175120M": {
+   "part_number": "KTKOSL175120M",
+   "family": "outer_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 1-3/4\" Outside Diameter 3.000\" Length",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/KTKOSL175120M.sc",
+   "step": "build/parts/outer_sleeve/KTKOSL175120M.step",
+   "dims_in": {
+    "od": 1.75,
+    "id": 1.5,
+    "length": 3.0,
+    "kind": "outer"
+   },
+   "estimated": [],
+   "volume_in3": 1.91441,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-outer-sleeve-for-1-12-bushings-1-34-outside-diameter-3000-length.html",
+   "volume_check": "ok"
+  },
+  "KTKOSL175120L": {
+   "part_number": "KTKOSL175120L",
+   "family": "outer_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 1-3/4\" Outside Diameter 3.250\" Length",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/KTKOSL175120L.sc",
+   "step": "build/parts/outer_sleeve/KTKOSL175120L.step",
+   "dims_in": {
+    "od": 1.75,
+    "id": 1.5,
+    "length": 3.25,
+    "kind": "outer"
+   },
+   "estimated": [],
+   "volume_in3": 2.07394,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-outer-sleeve-for-1-12-bushings-1-34-outside-diameter-3250-length.html",
+   "volume_check": "ok"
+  },
+  "KTKOSL200250": {
+   "part_number": "KTKOSL200250",
+   "family": "outer_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 2\" Outside Diameter 2.500\" Length",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/KTKOSL200250.sc",
+   "step": "build/parts/outer_sleeve/KTKOSL200250.step",
+   "dims_in": {
+    "od": 2.0,
+    "id": 1.5,
+    "length": 2.5,
+    "kind": "outer"
+   },
+   "estimated": [],
+   "volume_in3": 3.43612,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-outer-sleeve-for-1-12-bushings-2-outside-diameter-2500-length.html",
+   "volume_check": "ok"
+  },
+  "KTKOSL200250M": {
+   "part_number": "KTKOSL200250M",
+   "family": "outer_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 2\" Outside Diameter 3.000\" Length",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/KTKOSL200250M.sc",
+   "step": "build/parts/outer_sleeve/KTKOSL200250M.step",
+   "dims_in": {
+    "od": 2.0,
+    "id": 1.5,
+    "length": 3.0,
+    "kind": "outer"
+   },
+   "estimated": [],
+   "volume_in3": 4.12334,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-outer-sleeve-for-1-12-bushings-2-outside-diameter-3000-length.html",
+   "volume_check": "ok"
+  },
+  "KTKOSL200250L": {
+   "part_number": "KTKOSL200250L",
+   "family": "outer_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 2\" Outside Diameter 3.250\" Length",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/KTKOSL200250L.sc",
+   "step": "build/parts/outer_sleeve/KTKOSL200250L.step",
+   "dims_in": {
+    "od": 2.0,
+    "id": 1.5,
+    "length": 3.25,
+    "kind": "outer"
+   },
+   "estimated": [],
+   "volume_in3": 4.46695,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-outer-sleeve-for-1-12-bushings-2-outside-diameter-3250-length.html",
+   "volume_check": "ok"
+  },
+  "KTKOSL200120": {
+   "part_number": "KTKOSL200120",
+   "family": "outer_sleeve",
+   "vendor": "Kartek",
+   "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-3/4\" Bushings 2\" Outside Diameter 3.500\" Length",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/KTKOSL200120.sc",
+   "step": "build/parts/outer_sleeve/KTKOSL200120.step",
+   "dims_in": {
+    "od": 2.0,
+    "id": 1.75,
+    "length": 3.5,
+    "kind": "outer"
+   },
+   "estimated": [],
+   "volume_in3": 2.57709,
+   "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-outer-sleeve-for-1-34-bushings-2-outside-diameter-3500-length.html",
+   "volume_check": "ok"
+  },
+  "AFBBA100-OUTER": {
+   "part_number": "AFBBA100-OUTER",
+   "family": "outer_sleeve",
+   "vendor": "AutoFab",
+   "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA100",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/AFBBA100-OUTER.sc",
+   "step": "build/parts/outer_sleeve/AFBBA100-OUTER.step",
+   "dims_in": {
+    "od": 1.0,
+    "id": 0.81,
+    "length": 1.0,
+    "kind": "outer"
+   },
+   "estimated": [
+    "id",
+    "length"
+   ],
+   "volume_in3": 0.2701,
+   "source": "kartek.com AFBBA100 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)",
+   "volume_check": "ok"
+  },
+  "AFBBA125-OUTER": {
+   "part_number": "AFBBA125-OUTER",
+   "family": "outer_sleeve",
+   "vendor": "AutoFab",
+   "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA125",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/AFBBA125-OUTER.sc",
+   "step": "build/parts/outer_sleeve/AFBBA125-OUTER.step",
+   "dims_in": {
+    "od": 1.25,
+    "id": 1.06,
+    "length": 1.5,
+    "kind": "outer"
+   },
+   "estimated": [
+    "id",
+    "length"
+   ],
+   "volume_in3": 0.51707,
+   "source": "kartek.com AFBBA125 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)",
+   "volume_check": "ok"
+  },
+  "AFBBA125-INNER": {
+   "part_number": "AFBBA125-INNER",
+   "family": "inner_sleeve",
+   "vendor": "AutoFab",
+   "description": "Inner sleeve from AutoFab urethane bushing assembly AFBBA125",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/AFBBA125-INNER.sc",
+   "step": "build/parts/inner_sleeve/AFBBA125-INNER.step",
+   "dims_in": {
+    "od": 0.5,
+    "id": 0.375,
+    "length": 2.0,
+    "kind": "inner"
+   },
+   "estimated": [
+    "od",
+    "length"
+   ],
+   "volume_in3": 0.17181,
+   "source": "kartek.com AFBBA125 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)",
+   "volume_check": "ok"
+  },
+  "AFBBA150-OUTER": {
+   "part_number": "AFBBA150-OUTER",
+   "family": "outer_sleeve",
+   "vendor": "AutoFab",
+   "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA150",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/AFBBA150-OUTER.sc",
+   "step": "build/parts/outer_sleeve/AFBBA150-OUTER.step",
+   "dims_in": {
+    "od": 1.5,
+    "id": 1.26,
+    "length": 1.75,
+    "kind": "outer"
+   },
+   "estimated": [
+    "id",
+    "length"
+   ],
+   "volume_in3": 0.91043,
+   "source": "kartek.com AFBBA150 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)",
+   "volume_check": "ok"
+  },
+  "AFBBA150-INNER": {
+   "part_number": "AFBBA150-INNER",
+   "family": "inner_sleeve",
+   "vendor": "AutoFab",
+   "description": "Inner sleeve from AutoFab urethane bushing assembly AFBBA150",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/AFBBA150-INNER.sc",
+   "step": "build/parts/inner_sleeve/AFBBA150-INNER.step",
+   "dims_in": {
+    "od": 0.625,
+    "id": 0.4375,
+    "length": 2.25,
+    "kind": "inner"
+   },
+   "estimated": [
+    "od",
+    "length"
+   ],
+   "volume_in3": 0.35205,
+   "source": "kartek.com AFBBA150 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)",
+   "volume_check": "ok"
+  },
+  "AFBBA175-OUTER": {
+   "part_number": "AFBBA175-OUTER",
+   "family": "outer_sleeve",
+   "vendor": "AutoFab",
+   "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA175",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/AFBBA175-OUTER.sc",
+   "step": "build/parts/outer_sleeve/AFBBA175-OUTER.step",
+   "dims_in": {
+    "od": 1.75,
+    "id": 1.51,
+    "length": 2.5,
+    "kind": "outer"
+   },
+   "estimated": [
+    "id",
+    "length"
+   ],
+   "volume_in3": 1.53624,
+   "source": "kartek.com AFBBA175 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)",
+   "volume_check": "ok"
+  },
+  "AFBBA175-INNER": {
+   "part_number": "AFBBA175-INNER",
+   "family": "inner_sleeve",
+   "vendor": "AutoFab",
+   "description": "Inner sleeve from AutoFab urethane bushing assembly AFBBA175",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/AFBBA175-INNER.sc",
+   "step": "build/parts/inner_sleeve/AFBBA175-INNER.step",
+   "dims_in": {
+    "od": 0.75,
+    "id": 0.5625,
+    "length": 3.0,
+    "kind": "inner"
+   },
+   "estimated": [
+    "od",
+    "length"
+   ],
+   "volume_in3": 0.57984,
+   "source": "kartek.com AFBBA175 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)",
+   "volume_check": "ok"
+  },
+  "AFBBA200-OUTER": {
+   "part_number": "AFBBA200-OUTER",
+   "family": "outer_sleeve",
+   "vendor": "AutoFab",
+   "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA200",
+   "bom_type": "purchased",
+   "file": "build/parts/outer_sleeve/AFBBA200-OUTER.sc",
+   "step": "build/parts/outer_sleeve/AFBBA200-OUTER.step",
+   "dims_in": {
+    "od": 2.0,
+    "id": 1.76,
+    "length": 2.5,
+    "kind": "outer"
+   },
+   "estimated": [
+    "id",
+    "length"
+   ],
+   "volume_in3": 1.77186,
+   "source": "kartek.com AFBBA200 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)",
+   "volume_check": "ok"
+  },
+  "AFBBA200-INNER": {
+   "part_number": "AFBBA200-INNER",
+   "family": "inner_sleeve",
+   "vendor": "AutoFab",
+   "description": "Inner sleeve from AutoFab urethane bushing assembly AFBBA200",
+   "bom_type": "purchased",
+   "file": "build/parts/inner_sleeve/AFBBA200-INNER.sc",
+   "step": "build/parts/inner_sleeve/AFBBA200-INNER.step",
+   "dims_in": {
+    "od": 0.75,
+    "id": 0.5625,
+    "length": 3.0,
+    "kind": "inner"
+   },
+   "estimated": [
+    "od",
+    "length"
+   ],
+   "volume_in3": 0.57984,
+   "source": "kartek.com AFBBA200 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)",
+   "volume_check": "ok"
+  },
+  "REF-TAB-0.7500": {
+   "part_number": "",
+   "family": "reference_tab",
+   "vendor": "",
+   "description": "Reference mount tab for a 0.75\" bolt (stand-in for the chassis tab; not a part)",
+   "bom_type": "reference",
+   "file": "build/parts/reference_tab/REF-TAB-0.7500.sc",
+   "step": "build/parts/reference_tab/REF-TAB-0.7500.step",
+   "dims_in": {
+    "bolt": 0.75,
+    "od": 2.5,
+    "thickness": 0.25
+   },
+   "estimated": [],
+   "volume_in3": 1.11674,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.7500x4.25": {
+   "part_number": "HEX-BOLT-0.7500x4.25",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.75\" x 4.25\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.7500x4.25.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.7500x4.25.step",
+   "dims_in": {
+    "dia": 0.75,
+    "length": 4.25,
+    "hex": 1.125,
+    "head_height": 0.48750000000000004
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 2.41192,
+   "volume_check": "ok"
+  },
+  "HEX-NUT-0.7500": {
+   "part_number": "HEX-NUT-0.7500",
+   "family": "hex_nut",
+   "vendor": "generic",
+   "description": "Hex nut 0.75\" (generic)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_nut/HEX-NUT-0.7500.sc",
+   "step": "build/parts/hex_nut/HEX-NUT-0.7500.step",
+   "dims_in": {
+    "dia": 0.75,
+    "hex": 1.125,
+    "height": 0.65625
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, height 0.875 d"
+   ],
+   "volume_in3": 0.42937,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.7500x4.50": {
+   "part_number": "HEX-BOLT-0.7500x4.50",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.75\" x 4.5\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.7500x4.50.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.7500x4.50.step",
+   "dims_in": {
+    "dia": 0.75,
+    "length": 4.5,
+    "hex": 1.125,
+    "head_height": 0.48750000000000004
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 2.52237,
+   "volume_check": "ok"
+  },
+  "REF-TAB-0.6250": {
+   "part_number": "",
+   "family": "reference_tab",
+   "vendor": "",
+   "description": "Reference mount tab for a 0.625\" bolt (stand-in for the chassis tab; not a part)",
+   "bom_type": "reference",
+   "file": "build/parts/reference_tab/REF-TAB-0.6250.sc",
+   "step": "build/parts/reference_tab/REF-TAB-0.6250.step",
+   "dims_in": {
+    "bolt": 0.625,
+    "od": 2.25,
+    "thickness": 0.25
+   },
+   "estimated": [],
+   "volume_in3": 0.91732,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.6250x4.00": {
+   "part_number": "HEX-BOLT-0.6250x4.00",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.625\" x 4\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.6250x4.00.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.6250x4.00.step",
+   "dims_in": {
+    "dia": 0.625,
+    "length": 4.0,
+    "hex": 0.9375,
+    "head_height": 0.40625
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 1.5364,
+   "volume_check": "ok"
+  },
+  "HEX-NUT-0.6250": {
+   "part_number": "HEX-NUT-0.6250",
+   "family": "hex_nut",
+   "vendor": "generic",
+   "description": "Hex nut 0.625\" (generic)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_nut/HEX-NUT-0.6250.sc",
+   "step": "build/parts/hex_nut/HEX-NUT-0.6250.step",
+   "dims_in": {
+    "dia": 0.625,
+    "hex": 0.9375,
+    "height": 0.546875
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, height 0.875 d"
+   ],
+   "volume_in3": 0.24848,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.7500x3.75": {
+   "part_number": "HEX-BOLT-0.7500x3.75",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.75\" x 3.75\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.7500x3.75.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.7500x3.75.step",
+   "dims_in": {
+    "dia": 0.75,
+    "length": 3.75,
+    "hex": 1.125,
+    "head_height": 0.48750000000000004
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 2.19103,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.7500x2.25": {
+   "part_number": "HEX-BOLT-0.7500x2.25",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.75\" x 2.25\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.7500x2.25.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.7500x2.25.step",
+   "dims_in": {
+    "dia": 0.75,
+    "length": 2.25,
+    "hex": 1.125,
+    "head_height": 0.48750000000000004
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 1.52835,
+   "volume_check": "ok"
+  },
+  "REF-TAB-0.5000": {
+   "part_number": "",
+   "family": "reference_tab",
+   "vendor": "",
+   "description": "Reference mount tab for a 0.5\" bolt (stand-in for the chassis tab; not a part)",
+   "bom_type": "reference",
+   "file": "build/parts/reference_tab/REF-TAB-0.5000.sc",
+   "step": "build/parts/reference_tab/REF-TAB-0.5000.step",
+   "dims_in": {
+    "bolt": 0.5,
+    "od": 2.0,
+    "thickness": 0.25
+   },
+   "estimated": [],
+   "volume_in3": 0.73631,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.5000x3.00": {
+   "part_number": "HEX-BOLT-0.5000x3.00",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.5\" x 3\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.5000x3.00.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.5000x3.00.step",
+   "dims_in": {
+    "dia": 0.5,
+    "length": 3.0,
+    "hex": 0.75,
+    "head_height": 0.325
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 0.74737,
+   "volume_check": "ok"
+  },
+  "HEX-NUT-0.5000": {
+   "part_number": "HEX-NUT-0.5000",
+   "family": "hex_nut",
+   "vendor": "generic",
+   "description": "Hex nut 0.5\" (generic)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_nut/HEX-NUT-0.5000.sc",
+   "step": "build/parts/hex_nut/HEX-NUT-0.5000.step",
+   "dims_in": {
+    "dia": 0.5,
+    "hex": 0.75,
+    "height": 0.4375
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, height 0.875 d"
+   ],
+   "volume_in3": 0.12722,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.6250x3.00": {
+   "part_number": "HEX-BOLT-0.6250x3.00",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.625\" x 3\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.6250x3.00.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.6250x3.00.step",
+   "dims_in": {
+    "dia": 0.625,
+    "length": 3.0,
+    "hex": 0.9375,
+    "head_height": 0.40625
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 1.22961,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.6250x3.75": {
+   "part_number": "HEX-BOLT-0.6250x3.75",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.625\" x 3.75\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.6250x3.75.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.6250x3.75.step",
+   "dims_in": {
+    "dia": 0.625,
+    "length": 3.75,
+    "hex": 0.9375,
+    "head_height": 0.40625
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 1.4597,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.6250x4.25": {
+   "part_number": "HEX-BOLT-0.6250x4.25",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.625\" x 4.25\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.6250x4.25.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.6250x4.25.step",
+   "dims_in": {
+    "dia": 0.625,
+    "length": 4.25,
+    "hex": 0.9375,
+    "head_height": 0.40625
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 1.6131,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.6250x5.25": {
+   "part_number": "HEX-BOLT-0.6250x5.25",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.625\" x 5.25\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.6250x5.25.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.6250x5.25.step",
+   "dims_in": {
+    "dia": 0.625,
+    "length": 5.25,
+    "hex": 0.9375,
+    "head_height": 0.40625
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 1.9199,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.7500x5.25": {
+   "part_number": "HEX-BOLT-0.7500x5.25",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.75\" x 5.25\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.7500x5.25.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.7500x5.25.step",
+   "dims_in": {
+    "dia": 0.75,
+    "length": 5.25,
+    "hex": 1.125,
+    "head_height": 0.48750000000000004
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 2.85371,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.6250x5.50": {
+   "part_number": "HEX-BOLT-0.6250x5.50",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.625\" x 5.5\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.6250x5.50.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.6250x5.50.step",
+   "dims_in": {
+    "dia": 0.625,
+    "length": 5.5,
+    "hex": 0.9375,
+    "head_height": 0.40625
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 1.9966,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.7500x5.50": {
+   "part_number": "HEX-BOLT-0.7500x5.50",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.75\" x 5.5\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.7500x5.50.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.7500x5.50.step",
+   "dims_in": {
+    "dia": 0.75,
+    "length": 5.5,
+    "hex": 1.125,
+    "head_height": 0.48750000000000004
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 2.96416,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.5000x3.50": {
+   "part_number": "HEX-BOLT-0.5000x3.50",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.5\" x 3.5\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.5000x3.50.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.5000x3.50.step",
+   "dims_in": {
+    "dia": 0.5,
+    "length": 3.5,
+    "hex": 0.75,
+    "head_height": 0.325
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 0.84554,
+   "volume_check": "ok"
+  },
+  "REF-TAB-0.3750": {
+   "part_number": "",
+   "family": "reference_tab",
+   "vendor": "",
+   "description": "Reference mount tab for a 0.375\" bolt (stand-in for the chassis tab; not a part)",
+   "bom_type": "reference",
+   "file": "build/parts/reference_tab/REF-TAB-0.3750.sc",
+   "step": "build/parts/reference_tab/REF-TAB-0.3750.step",
+   "dims_in": {
+    "bolt": 0.375,
+    "od": 1.75,
+    "thickness": 0.25
+   },
+   "estimated": [],
+   "volume_in3": 0.57371,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.3750x2.50": {
+   "part_number": "HEX-BOLT-0.3750x2.50",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.375\" x 2.5\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.3750x2.50.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.3750x2.50.step",
+   "dims_in": {
+    "dia": 0.375,
+    "length": 2.5,
+    "hex": 0.5625,
+    "head_height": 0.24375000000000002
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 0.34291,
+   "volume_check": "ok"
+  },
+  "HEX-NUT-0.3750": {
+   "part_number": "HEX-NUT-0.3750",
+   "family": "hex_nut",
+   "vendor": "generic",
+   "description": "Hex nut 0.375\" (generic)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_nut/HEX-NUT-0.3750.sc",
+   "step": "build/parts/hex_nut/HEX-NUT-0.3750.step",
+   "dims_in": {
+    "dia": 0.375,
+    "hex": 0.5625,
+    "height": 0.328125
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, height 0.875 d"
+   ],
+   "volume_in3": 0.05367,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.3750x3.00": {
+   "part_number": "HEX-BOLT-0.3750x3.00",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.375\" x 3\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.3750x3.00.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.3750x3.00.step",
+   "dims_in": {
+    "dia": 0.375,
+    "length": 3.0,
+    "hex": 0.5625,
+    "head_height": 0.24375000000000002
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 0.39813,
+   "volume_check": "ok"
+  },
+  "REF-TAB-0.4375": {
+   "part_number": "",
+   "family": "reference_tab",
+   "vendor": "",
+   "description": "Reference mount tab for a 0.4375\" bolt (stand-in for the chassis tab; not a part)",
+   "bom_type": "reference",
+   "file": "build/parts/reference_tab/REF-TAB-0.4375.sc",
+   "step": "build/parts/reference_tab/REF-TAB-0.4375.step",
+   "dims_in": {
+    "bolt": 0.4375,
+    "od": 1.875,
+    "thickness": 0.25
+   },
+   "estimated": [],
+   "volume_in3": 0.65271,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.4375x3.50": {
+   "part_number": "HEX-BOLT-0.4375x3.50",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.4375\" x 3.5\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.4375x3.50.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.4375x3.50.step",
+   "dims_in": {
+    "dia": 0.4375,
+    "length": 3.5,
+    "hex": 0.65625,
+    "head_height": 0.284375
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 0.63222,
+   "volume_check": "ok"
+  },
+  "HEX-NUT-0.4375": {
+   "part_number": "HEX-NUT-0.4375",
+   "family": "hex_nut",
+   "vendor": "generic",
+   "description": "Hex nut 0.4375\" (generic)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_nut/HEX-NUT-0.4375.sc",
+   "step": "build/parts/hex_nut/HEX-NUT-0.4375.step",
+   "dims_in": {
+    "dia": 0.4375,
+    "hex": 0.65625,
+    "height": 0.3828125
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, height 0.875 d"
+   ],
+   "volume_in3": 0.08523,
+   "volume_check": "ok"
+  },
+  "REF-TAB-0.5625": {
+   "part_number": "",
+   "family": "reference_tab",
+   "vendor": "",
+   "description": "Reference mount tab for a 0.5625\" bolt (stand-in for the chassis tab; not a part)",
+   "bom_type": "reference",
+   "file": "build/parts/reference_tab/REF-TAB-0.5625.sc",
+   "step": "build/parts/reference_tab/REF-TAB-0.5625.step",
+   "dims_in": {
+    "bolt": 0.5625,
+    "od": 2.125,
+    "thickness": 0.25
+   },
+   "estimated": [],
+   "volume_in3": 0.82451,
+   "volume_check": "ok"
+  },
+  "HEX-BOLT-0.5625x4.25": {
+   "part_number": "HEX-BOLT-0.5625x4.25",
+   "family": "hex_bolt",
+   "vendor": "generic",
+   "description": "Hex bolt 0.5625\" x 4.25\" (generic; pick grade and thread to suit)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_bolt/HEX-BOLT-0.5625x4.25.sc",
+   "step": "build/parts/hex_bolt/HEX-BOLT-0.5625x4.25.step",
+   "dims_in": {
+    "dia": 0.5625,
+    "length": 4.25,
+    "hex": 0.84375,
+    "head_height": 0.36562500000000003
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, head 0.65 d"
+   ],
+   "volume_in3": 1.28157,
+   "volume_check": "ok"
+  },
+  "HEX-NUT-0.5625": {
+   "part_number": "HEX-NUT-0.5625",
+   "family": "hex_nut",
+   "vendor": "generic",
+   "description": "Hex nut 0.5625\" (generic)",
+   "bom_type": "purchased",
+   "file": "build/parts/hex_nut/HEX-NUT-0.5625.sc",
+   "step": "build/parts/hex_nut/HEX-NUT-0.5625.step",
+   "dims_in": {
+    "dia": 0.5625,
+    "hex": 0.84375,
+    "height": 0.4921875
+   },
+   "estimated": [
+    "generic proportions: hex 1.5 d, height 0.875 d"
+   ],
+   "volume_in3": 0.18114,
+   "volume_check": "ok"
+  }
+ },
+ "assemblies": {
+  "uniball_WSSX16T_KTK9044HD_KTKHMA10034RN": {
+   "title": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 3/4\" bolt, 2-3/4\" stack",
+   "kind": "uniball",
+   "file": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTKHMA10034RN.sc",
+   "step": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTKHMA10034RN.step",
+   "bom": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTKHMA10034RN.bom.csv",
+   "members": [
+    {
+     "name": "Cup",
+     "occurrence": "Cup:1",
+     "part": "KTK9044HD",
+     "part_number": "KTK9044HD",
+     "side": "fixed"
+    },
+    {
+     "name": "Race",
+     "occurrence": "Race:1",
+     "part": "WSSX16T",
+     "part_number": "WSSX16T",
+     "side": "fixed"
+    },
+    {
+     "name": "Snap ring",
+     "occurrence": "Snap ring:1",
+     "part": "KTK9044SR",
+     "part_number": "KTK9044SR",
+     "side": "fixed"
+    },
+    {
+     "name": "Ball",
+     "occurrence": "Ball:1",
+     "part": "WSSX16T.ball",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer top",
+     "occurrence": "Spacer top:1",
+     "part": "KTKHMA10034RN",
+     "part_number": "KTKHMA10034RN",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer bottom",
+     "occurrence": "Spacer bottom:1",
+     "part": "KTKHMA10034RN",
+     "part_number": "KTKHMA10034RN",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.7500x4.25",
+     "part_number": "HEX-BOLT-0.7500x4.25",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.7500",
+     "part_number": "HEX-NUT-0.7500",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "ball",
+    "fixed": "Race:1",
+    "moving": "Ball:1",
+    "max_misalignment_deg": 16.18,
+    "limited_by": [
+     "Spacer top:1",
+     "Race:1"
+    ]
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.7500x4.25",
+     "count": 1,
+     "description": "Hex bolt 0.75\" x 4.25\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.7500",
+     "count": 1,
+     "description": "Hex nut 0.75\" (generic)"
+    },
+    {
+     "part_number": "KTK9044HD",
+     "count": 1,
+     "description": "Kartek 4130 uniball cup for 1\" bore uniballs 1-1/2\" tall 2-5/8\" OD"
+    },
+    {
+     "part_number": "KTK9044SR",
+     "count": 1,
+     "description": "Snap ring for Kartek 9044 series 1\" uniball cups"
+    },
+    {
+     "part_number": "KTKHMA10034RN",
+     "count": 2,
+     "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-3/4\" Stack Height"
+    },
+    {
+     "part_number": "WSSX16T",
+     "count": 1,
+     "description": "FK WSSX16T 1\" bore wide series PTFE lined stainless spherical bearing"
+    }
+   ]
+  },
+  "uniball_WSSX16T_KTK9044HD_KTKHMA10034TRN": {
+   "title": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 3/4\" bolt, 3-1/16\" stack",
+   "kind": "uniball",
+   "file": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTKHMA10034TRN.sc",
+   "step": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTKHMA10034TRN.step",
+   "bom": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTKHMA10034TRN.bom.csv",
+   "members": [
+    {
+     "name": "Cup",
+     "occurrence": "Cup:1",
+     "part": "KTK9044HD",
+     "part_number": "KTK9044HD",
+     "side": "fixed"
+    },
+    {
+     "name": "Race",
+     "occurrence": "Race:1",
+     "part": "WSSX16T",
+     "part_number": "WSSX16T",
+     "side": "fixed"
+    },
+    {
+     "name": "Snap ring",
+     "occurrence": "Snap ring:1",
+     "part": "KTK9044SR",
+     "part_number": "KTK9044SR",
+     "side": "fixed"
+    },
+    {
+     "name": "Ball",
+     "occurrence": "Ball:1",
+     "part": "WSSX16T.ball",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer top",
+     "occurrence": "Spacer top:1",
+     "part": "KTKHMA10034TRN",
+     "part_number": "KTKHMA10034TRN",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer bottom",
+     "occurrence": "Spacer bottom:1",
+     "part": "KTKHMA10034TRN",
+     "part_number": "KTKHMA10034TRN",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.7500x4.50",
+     "part_number": "HEX-BOLT-0.7500x4.50",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.7500",
+     "part_number": "HEX-NUT-0.7500",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "ball",
+    "fixed": "Race:1",
+    "moving": "Ball:1",
+    "max_misalignment_deg": 16.18,
+    "limited_by": [
+     "Spacer top:1",
+     "Race:1"
+    ]
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.7500x4.50",
+     "count": 1,
+     "description": "Hex bolt 0.75\" x 4.5\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.7500",
+     "count": 1,
+     "description": "Hex nut 0.75\" (generic)"
+    },
+    {
+     "part_number": "KTK9044HD",
+     "count": 1,
+     "description": "Kartek 4130 uniball cup for 1\" bore uniballs 1-1/2\" tall 2-5/8\" OD"
+    },
+    {
+     "part_number": "KTK9044SR",
+     "count": 1,
+     "description": "Snap ring for Kartek 9044 series 1\" uniball cups"
+    },
+    {
+     "part_number": "KTKHMA10034TRN",
+     "count": 2,
+     "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 3-1/16\" Stack Height"
+    },
+    {
+     "part_number": "WSSX16T",
+     "count": 1,
+     "description": "FK WSSX16T 1\" bore wide series PTFE lined stainless spherical bearing"
+    }
+   ]
+  },
+  "uniball_WSSX16T_KTK9044HD_KTKHMA10058RN": {
+   "title": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 5/8\" bolt, 2-3/4\" stack",
+   "kind": "uniball",
+   "file": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTKHMA10058RN.sc",
+   "step": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTKHMA10058RN.step",
+   "bom": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTKHMA10058RN.bom.csv",
+   "members": [
+    {
+     "name": "Cup",
+     "occurrence": "Cup:1",
+     "part": "KTK9044HD",
+     "part_number": "KTK9044HD",
+     "side": "fixed"
+    },
+    {
+     "name": "Race",
+     "occurrence": "Race:1",
+     "part": "WSSX16T",
+     "part_number": "WSSX16T",
+     "side": "fixed"
+    },
+    {
+     "name": "Snap ring",
+     "occurrence": "Snap ring:1",
+     "part": "KTK9044SR",
+     "part_number": "KTK9044SR",
+     "side": "fixed"
+    },
+    {
+     "name": "Ball",
+     "occurrence": "Ball:1",
+     "part": "WSSX16T.ball",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer top",
+     "occurrence": "Spacer top:1",
+     "part": "KTKHMA10058RN",
+     "part_number": "KTKHMA10058RN",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer bottom",
+     "occurrence": "Spacer bottom:1",
+     "part": "KTKHMA10058RN",
+     "part_number": "KTKHMA10058RN",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.6250x4.00",
+     "part_number": "HEX-BOLT-0.6250x4.00",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.6250",
+     "part_number": "HEX-NUT-0.6250",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "ball",
+    "fixed": "Race:1",
+    "moving": "Ball:1",
+    "max_misalignment_deg": 16.18,
+    "limited_by": [
+     "Spacer top:1",
+     "Race:1"
+    ]
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.6250x4.00",
+     "count": 1,
+     "description": "Hex bolt 0.625\" x 4\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.6250",
+     "count": 1,
+     "description": "Hex nut 0.625\" (generic)"
+    },
+    {
+     "part_number": "KTK9044HD",
+     "count": 1,
+     "description": "Kartek 4130 uniball cup for 1\" bore uniballs 1-1/2\" tall 2-5/8\" OD"
+    },
+    {
+     "part_number": "KTK9044SR",
+     "count": 1,
+     "description": "Snap ring for Kartek 9044 series 1\" uniball cups"
+    },
+    {
+     "part_number": "KTKHMA10058RN",
+     "count": 2,
+     "description": "17-4 Stainless Steel Misalignment Spacer For 1\" Heim Or Uniball For 5/8\" Bolt 2-3/4\" Stack Height"
+    },
+    {
+     "part_number": "WSSX16T",
+     "count": 1,
+     "description": "FK WSSX16T 1\" bore wide series PTFE lined stainless spherical bearing"
+    }
+   ]
+  },
+  "uniball_WSSX16T_KTK9044HD_KTK10034SRTN": {
+   "title": "1\" uniball in a 2-5/8\" cup, straight spacers to a 3/4\" bolt, 2-1/4\" stack",
+   "kind": "uniball",
+   "file": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTK10034SRTN.sc",
+   "step": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTK10034SRTN.step",
+   "bom": "build/assemblies/uniball/uniball_WSSX16T_KTK9044HD_KTK10034SRTN.bom.csv",
+   "members": [
+    {
+     "name": "Cup",
+     "occurrence": "Cup:1",
+     "part": "KTK9044HD",
+     "part_number": "KTK9044HD",
+     "side": "fixed"
+    },
+    {
+     "name": "Race",
+     "occurrence": "Race:1",
+     "part": "WSSX16T",
+     "part_number": "WSSX16T",
+     "side": "fixed"
+    },
+    {
+     "name": "Snap ring",
+     "occurrence": "Snap ring:1",
+     "part": "KTK9044SR",
+     "part_number": "KTK9044SR",
+     "side": "fixed"
+    },
+    {
+     "name": "Ball",
+     "occurrence": "Ball:1",
+     "part": "WSSX16T.ball",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer top",
+     "occurrence": "Spacer top:1",
+     "part": "KTK10034SRTN",
+     "part_number": "KTK10034SRTN",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer bottom",
+     "occurrence": "Spacer bottom:1",
+     "part": "KTK10034SRTN",
+     "part_number": "KTK10034SRTN",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.7500x3.75",
+     "part_number": "HEX-BOLT-0.7500x3.75",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.7500",
+     "part_number": "HEX-NUT-0.7500",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "ball",
+    "fixed": "Race:1",
+    "moving": "Ball:1",
+    "max_misalignment_deg": 16.18,
+    "limited_by": [
+     "Spacer top:1",
+     "Race:1"
+    ]
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.7500x3.75",
+     "count": 1,
+     "description": "Hex bolt 0.75\" x 3.75\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.7500",
+     "count": 1,
+     "description": "Hex nut 0.75\" (generic)"
+    },
+    {
+     "part_number": "KTK10034SRTN",
+     "count": 2,
+     "description": "17-4 Stainless Steel Straight Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-1/4\" Stack Height"
+    },
+    {
+     "part_number": "KTK9044HD",
+     "count": 1,
+     "description": "Kartek 4130 uniball cup for 1\" bore uniballs 1-1/2\" tall 2-5/8\" OD"
+    },
+    {
+     "part_number": "KTK9044SR",
+     "count": 1,
+     "description": "Snap ring for Kartek 9044 series 1\" uniball cups"
+    },
+    {
+     "part_number": "WSSX16T",
+     "count": 1,
+     "description": "FK WSSX16T 1\" bore wide series PTFE lined stainless spherical bearing"
+    }
+   ]
+  },
+  "rod-end_JMX12T_no-spacers": {
+   "title": "3/4\" rod end, RH, no spacers, 3/4\" bolt",
+   "kind": "rod_end",
+   "file": "build/assemblies/rod_end/rod-end_JMX12T_no-spacers.sc",
+   "step": "build/assemblies/rod_end/rod-end_JMX12T_no-spacers.step",
+   "bom": "build/assemblies/rod_end/rod-end_JMX12T_no-spacers.bom.csv",
+   "members": [
+    {
+     "name": "Rod end",
+     "occurrence": "Rod end:1",
+     "part": "JMX12T",
+     "part_number": "JMX12T",
+     "side": "fixed"
+    },
+    {
+     "name": "Jam nut",
+     "occurrence": "Jam nut:1",
+     "part": "SJNR12",
+     "part_number": "SJNR12",
+     "side": "fixed"
+    },
+    {
+     "name": "Ball",
+     "occurrence": "Ball:1",
+     "part": "JMX12T.ball",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.7500x2.25",
+     "part_number": "HEX-BOLT-0.7500x2.25",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.7500",
+     "part_number": "HEX-NUT-0.7500",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "ball",
+    "fixed": "Rod end:1",
+    "moving": "Ball:1",
+    "max_misalignment_deg": 6.32,
+    "limited_by": [
+     "Tab top:1",
+     "Rod end:1"
+    ]
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.7500x2.25",
+     "count": 1,
+     "description": "Hex bolt 0.75\" x 2.25\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.7500",
+     "count": 1,
+     "description": "Hex nut 0.75\" (generic)"
+    },
+    {
+     "part_number": "JMX12T",
+     "count": 1,
+     "description": "FK JMX12T 3/4\" bore 3/4-16 RH male chromoly PTFE lined rod end"
+    },
+    {
+     "part_number": "SJNR12",
+     "count": 1,
+     "description": "FK SJNR12 3/4-16 RH steel jam nut"
+    }
+   ]
+  },
+  "rod-end_JMX12T_KTKHMA3412": {
+   "title": "3/4\" rod end, RH, misalignment spacers to a 1/2\" bolt, 1-13/16\" stack",
+   "kind": "rod_end",
+   "file": "build/assemblies/rod_end/rod-end_JMX12T_KTKHMA3412.sc",
+   "step": "build/assemblies/rod_end/rod-end_JMX12T_KTKHMA3412.step",
+   "bom": "build/assemblies/rod_end/rod-end_JMX12T_KTKHMA3412.bom.csv",
+   "members": [
+    {
+     "name": "Rod end",
+     "occurrence": "Rod end:1",
+     "part": "JMX12T",
+     "part_number": "JMX12T",
+     "side": "fixed"
+    },
+    {
+     "name": "Jam nut",
+     "occurrence": "Jam nut:1",
+     "part": "SJNR12",
+     "part_number": "SJNR12",
+     "side": "fixed"
+    },
+    {
+     "name": "Ball",
+     "occurrence": "Ball:1",
+     "part": "JMX12T.ball",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer top",
+     "occurrence": "Spacer top:1",
+     "part": "KTKHMA3412",
+     "part_number": "KTKHMA3412",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer bottom",
+     "occurrence": "Spacer bottom:1",
+     "part": "KTKHMA3412",
+     "part_number": "KTKHMA3412",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.5000",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.5000",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.5000x3.00",
+     "part_number": "HEX-BOLT-0.5000x3.00",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.5000",
+     "part_number": "HEX-NUT-0.5000",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "ball",
+    "fixed": "Rod end:1",
+    "moving": "Ball:1",
+    "max_misalignment_deg": 10.05,
+    "limited_by": [
+     "Spacer top:1",
+     "Rod end:1"
+    ]
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.5000x3.00",
+     "count": 1,
+     "description": "Hex bolt 0.5\" x 3\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.5000",
+     "count": 1,
+     "description": "Hex nut 0.5\" (generic)"
+    },
+    {
+     "part_number": "JMX12T",
+     "count": 1,
+     "description": "FK JMX12T 3/4\" bore 3/4-16 RH male chromoly PTFE lined rod end"
+    },
+    {
+     "part_number": "KTKHMA3412",
+     "count": 2,
+     "description": "17-4 Stainless Steel Misalignment Spacer For 3/4\" Heim Or Uniball For 1/2\" Bolt 1-13/16\" Stack Ht"
+    },
+    {
+     "part_number": "SJNR12",
+     "count": 1,
+     "description": "FK SJNR12 3/4-16 RH steel jam nut"
+    }
+   ]
+  },
+  "rod-end_JMX12T_KTKHMA3458": {
+   "title": "3/4\" rod end, RH, misalignment spacers to a 5/8\" bolt, 1-13/16\" stack",
+   "kind": "rod_end",
+   "file": "build/assemblies/rod_end/rod-end_JMX12T_KTKHMA3458.sc",
+   "step": "build/assemblies/rod_end/rod-end_JMX12T_KTKHMA3458.step",
+   "bom": "build/assemblies/rod_end/rod-end_JMX12T_KTKHMA3458.bom.csv",
+   "members": [
+    {
+     "name": "Rod end",
+     "occurrence": "Rod end:1",
+     "part": "JMX12T",
+     "part_number": "JMX12T",
+     "side": "fixed"
+    },
+    {
+     "name": "Jam nut",
+     "occurrence": "Jam nut:1",
+     "part": "SJNR12",
+     "part_number": "SJNR12",
+     "side": "fixed"
+    },
+    {
+     "name": "Ball",
+     "occurrence": "Ball:1",
+     "part": "JMX12T.ball",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer top",
+     "occurrence": "Spacer top:1",
+     "part": "KTKHMA3458",
+     "part_number": "KTKHMA3458",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer bottom",
+     "occurrence": "Spacer bottom:1",
+     "part": "KTKHMA3458",
+     "part_number": "KTKHMA3458",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.6250x3.00",
+     "part_number": "HEX-BOLT-0.6250x3.00",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.6250",
+     "part_number": "HEX-NUT-0.6250",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "ball",
+    "fixed": "Rod end:1",
+    "moving": "Ball:1",
+    "max_misalignment_deg": 10.05,
+    "limited_by": [
+     "Spacer top:1",
+     "Rod end:1"
+    ]
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.6250x3.00",
+     "count": 1,
+     "description": "Hex bolt 0.625\" x 3\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.6250",
+     "count": 1,
+     "description": "Hex nut 0.625\" (generic)"
+    },
+    {
+     "part_number": "JMX12T",
+     "count": 1,
+     "description": "FK JMX12T 3/4\" bore 3/4-16 RH male chromoly PTFE lined rod end"
+    },
+    {
+     "part_number": "KTKHMA3458",
+     "count": 2,
+     "description": "17-4 Stainless Steel Misalignment Spacer For 3/4\" Heim Or Uniball For 5/8\" Bolt 1-13/16\" Stack Ht"
+    },
+    {
+     "part_number": "SJNR12",
+     "count": 1,
+     "description": "FK SJNR12 3/4-16 RH steel jam nut"
+    }
+   ]
+  },
+  "rod-end_JMX12T_KTK3412SRT945": {
+   "title": "3/4\" rod end, RH, straight spacers to a 1/2\" bolt, 1-7/8\" stack",
+   "kind": "rod_end",
+   "file": "build/assemblies/rod_end/rod-end_JMX12T_KTK3412SRT945.sc",
+   "step": "build/assemblies/rod_end/rod-end_JMX12T_KTK3412SRT945.step",
+   "bom": "build/assemblies/rod_end/rod-end_JMX12T_KTK3412SRT945.bom.csv",
+   "members": [
+    {
+     "name": "Rod end",
+     "occurrence": "Rod end:1",
+     "part": "JMX12T",
+     "part_number": "JMX12T",
+     "side": "fixed"
+    },
+    {
+     "name": "Jam nut",
+     "occurrence": "Jam nut:1",
+     "part": "SJNR12",
+     "part_number": "SJNR12",
+     "side": "fixed"
+    },
+    {
+     "name": "Ball",
+     "occurrence": "Ball:1",
+     "part": "JMX12T.ball",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer top",
+     "occurrence": "Spacer top:1",
+     "part": "KTK3412SRT945",
+     "part_number": "KTK3412SRT945",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer bottom",
+     "occurrence": "Spacer bottom:1",
+     "part": "KTK3412SRT945",
+     "part_number": "KTK3412SRT945",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.5000",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.5000",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.5000x3.00",
+     "part_number": "HEX-BOLT-0.5000x3.00",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.5000",
+     "part_number": "HEX-NUT-0.5000",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "ball",
+    "fixed": "Rod end:1",
+    "moving": "Ball:1",
+    "max_misalignment_deg": 10.23,
+    "limited_by": [
+     "Spacer top:1",
+     "Rod end:1"
+    ]
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.5000x3.00",
+     "count": 1,
+     "description": "Hex bolt 0.5\" x 3\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.5000",
+     "count": 1,
+     "description": "Hex nut 0.5\" (generic)"
+    },
+    {
+     "part_number": "JMX12T",
+     "count": 1,
+     "description": "FK JMX12T 3/4\" bore 3/4-16 RH male chromoly PTFE lined rod end"
+    },
+    {
+     "part_number": "KTK3412SRT945",
+     "count": 2,
+     "description": "17-4 Stainless Steel Straight Spacer For 3/4\" Heim Or Uniball For 1/2\" Bolt 1-7/8\" Stack Height"
+    },
+    {
+     "part_number": "SJNR12",
+     "count": 1,
+     "description": "FK SJNR12 3/4-16 RH steel jam nut"
+    }
+   ]
+  },
+  "rod-end_JMXL12T_KTKHMA3412": {
+   "title": "3/4\" rod end, LH, misalignment spacers to a 1/2\" bolt, 1-13/16\" stack",
+   "kind": "rod_end",
+   "file": "build/assemblies/rod_end/rod-end_JMXL12T_KTKHMA3412.sc",
+   "step": "build/assemblies/rod_end/rod-end_JMXL12T_KTKHMA3412.step",
+   "bom": "build/assemblies/rod_end/rod-end_JMXL12T_KTKHMA3412.bom.csv",
+   "members": [
+    {
+     "name": "Rod end",
+     "occurrence": "Rod end:1",
+     "part": "JMXL12T",
+     "part_number": "JMXL12T",
+     "side": "fixed"
+    },
+    {
+     "name": "Jam nut",
+     "occurrence": "Jam nut:1",
+     "part": "SJNL12",
+     "part_number": "SJNL12",
+     "side": "fixed"
+    },
+    {
+     "name": "Ball",
+     "occurrence": "Ball:1",
+     "part": "JMXL12T.ball",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer top",
+     "occurrence": "Spacer top:1",
+     "part": "KTKHMA3412",
+     "part_number": "KTKHMA3412",
+     "side": "moving"
+    },
+    {
+     "name": "Spacer bottom",
+     "occurrence": "Spacer bottom:1",
+     "part": "KTKHMA3412",
+     "part_number": "KTKHMA3412",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.5000",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.5000",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.5000x3.00",
+     "part_number": "HEX-BOLT-0.5000x3.00",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.5000",
+     "part_number": "HEX-NUT-0.5000",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "ball",
+    "fixed": "Rod end:1",
+    "moving": "Ball:1",
+    "max_misalignment_deg": 10.05,
+    "limited_by": [
+     "Spacer top:1",
+     "Rod end:1"
+    ]
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.5000x3.00",
+     "count": 1,
+     "description": "Hex bolt 0.5\" x 3\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.5000",
+     "count": 1,
+     "description": "Hex nut 0.5\" (generic)"
+    },
+    {
+     "part_number": "JMXL12T",
+     "count": 1,
+     "description": "FK JMXL12T 3/4\" bore 3/4-16 LH male chromoly PTFE lined rod end"
+    },
+    {
+     "part_number": "KTKHMA3412",
+     "count": 2,
+     "description": "17-4 Stainless Steel Misalignment Spacer For 3/4\" Heim Or Uniball For 1/2\" Bolt 1-13/16\" Stack Ht"
+    },
+    {
+     "part_number": "SJNL12",
+     "count": 1,
+     "description": "FK SJNL12 3/4-16 LH steel jam nut"
+    }
+   ]
+  },
+  "bushing-pivot_KTK600_KTKOSL175120_KTKISL100188S": {
+   "title": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_KTK600_KTKOSL175120_KTKISL100188S.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_KTK600_KTKOSL175120_KTKISL100188S.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_KTK600_KTKOSL175120_KTKISL100188S.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "KTKOSL175120",
+     "part_number": "KTKOSL175120",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "KTK600",
+     "part_number": "KTK600",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "KTK600",
+     "part_number": "KTK600",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "KTKISL100188S",
+     "part_number": "KTKISL100188S",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.6250x3.75",
+     "part_number": "HEX-BOLT-0.6250x3.75",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.6250",
+     "part_number": "HEX-NUT-0.6250",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.6250x3.75",
+     "count": 1,
+     "description": "Hex bolt 0.625\" x 3.75\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.6250",
+     "count": 1,
+     "description": "Hex nut 0.625\" (generic)"
+    },
+    {
+     "part_number": "KTK600",
+     "count": 2,
+     "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 1-3/16\" Total Length"
+    },
+    {
+     "part_number": "KTKISL100188S",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 5/8\" Bolt 1\" Outside Diameter 2.440\" Total Length"
+    },
+    {
+     "part_number": "KTKOSL175120",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 1-3/4\" Outside Diameter 1.970\" Length"
+    }
+   ]
+  },
+  "bushing-pivot_KTK600_KTKOSL175120_KTKISL100120S": {
+   "title": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, 1\" inner sleeve, 3/4\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_KTK600_KTKOSL175120_KTKISL100120S.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_KTK600_KTKOSL175120_KTKISL100120S.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_KTK600_KTKOSL175120_KTKISL100120S.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "KTKOSL175120",
+     "part_number": "KTKOSL175120",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "KTK600",
+     "part_number": "KTK600",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "KTK600",
+     "part_number": "KTK600",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "KTKISL100120S",
+     "part_number": "KTKISL100120S",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.7500x3.75",
+     "part_number": "HEX-BOLT-0.7500x3.75",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.7500",
+     "part_number": "HEX-NUT-0.7500",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.7500x3.75",
+     "count": 1,
+     "description": "Hex bolt 0.75\" x 3.75\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.7500",
+     "count": 1,
+     "description": "Hex nut 0.75\" (generic)"
+    },
+    {
+     "part_number": "KTK600",
+     "count": 2,
+     "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 1-3/16\" Total Length"
+    },
+    {
+     "part_number": "KTKISL100120S",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 3/4\" Bolt 1\" Outside Diameter 2.440\" Total Length"
+    },
+    {
+     "part_number": "KTKOSL175120",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 1-3/4\" Outside Diameter 1.970\" Length"
+    }
+   ]
+  },
+  "bushing-pivot_KTK600W_KTKOSL175120_KTKISL100188": {
+   "title": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, wide flange, 1\" inner sleeve, 5/8\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_KTK600W_KTKOSL175120_KTKISL100188.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_KTK600W_KTKOSL175120_KTKISL100188.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_KTK600W_KTKOSL175120_KTKISL100188.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "KTKOSL175120",
+     "part_number": "KTKOSL175120",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "KTK600W",
+     "part_number": "KTK600W",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "KTK600W",
+     "part_number": "KTK600W",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "KTKISL100188",
+     "part_number": "KTKISL100188",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.6250x4.25",
+     "part_number": "HEX-BOLT-0.6250x4.25",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.6250",
+     "part_number": "HEX-NUT-0.6250",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.6250x4.25",
+     "count": 1,
+     "description": "Hex bolt 0.625\" x 4.25\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.6250",
+     "count": 1,
+     "description": "Hex nut 0.625\" (generic)"
+    },
+    {
+     "part_number": "KTK600W",
+     "count": 2,
+     "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 1-3/8\" Total Length"
+    },
+    {
+     "part_number": "KTKISL100188",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 5/8\" Bolt 1\" Outside Diameter 2.840\" Total Length"
+    },
+    {
+     "part_number": "KTKOSL175120",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 1-3/4\" Outside Diameter 1.970\" Length"
+    }
+   ]
+  },
+  "bushing-pivot_KTK600W_KTKOSL175120_KTKISL100120": {
+   "title": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, wide flange, 1\" inner sleeve, 3/4\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_KTK600W_KTKOSL175120_KTKISL100120.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_KTK600W_KTKOSL175120_KTKISL100120.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_KTK600W_KTKOSL175120_KTKISL100120.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "KTKOSL175120",
+     "part_number": "KTKOSL175120",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "KTK600W",
+     "part_number": "KTK600W",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "KTK600W",
+     "part_number": "KTK600W",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "KTKISL100120",
+     "part_number": "KTKISL100120",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.7500x4.25",
+     "part_number": "HEX-BOLT-0.7500x4.25",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.7500",
+     "part_number": "HEX-NUT-0.7500",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.7500x4.25",
+     "count": 1,
+     "description": "Hex bolt 0.75\" x 4.25\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.7500",
+     "count": 1,
+     "description": "Hex nut 0.75\" (generic)"
+    },
+    {
+     "part_number": "KTK600W",
+     "count": 2,
+     "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 1-3/8\" Total Length"
+    },
+    {
+     "part_number": "KTKISL100120",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 3/4\" Bolt 1\" Outside Diameter 2.840\" Total Length"
+    },
+    {
+     "part_number": "KTKOSL175120",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 1-3/4\" Outside Diameter 1.970\" Length"
+    }
+   ]
+  },
+  "bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100188M": {
+   "title": "Delrin pivot, 1-3/4\" x 3.000\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100188M.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100188M.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100188M.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "KTKOSL175120M",
+     "part_number": "KTKOSL175120M",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "KTK60414S",
+     "part_number": "KTK60414S",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "KTK60414S",
+     "part_number": "KTK60414S",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "KTKISL100188M",
+     "part_number": "KTKISL100188M",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.6250x5.25",
+     "part_number": "HEX-BOLT-0.6250x5.25",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.6250",
+     "part_number": "HEX-NUT-0.6250",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.6250x5.25",
+     "count": 1,
+     "description": "Hex bolt 0.625\" x 5.25\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.6250",
+     "count": 1,
+     "description": "Hex nut 0.625\" (generic)"
+    },
+    {
+     "part_number": "KTK60414S",
+     "count": 2,
+     "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 1-15/16\" Total Length"
+    },
+    {
+     "part_number": "KTKISL100188M",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 5/8\" Bolt 1\" Outside Diameter 3.875\" Total Length"
+    },
+    {
+     "part_number": "KTKOSL175120M",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 1-3/4\" Outside Diameter 3.000\" Length"
+    }
+   ]
+  },
+  "bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100120M": {
+   "title": "Delrin pivot, 1-3/4\" x 3.000\" sleeve, 1\" inner sleeve, 3/4\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100120M.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100120M.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100120M.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "KTKOSL175120M",
+     "part_number": "KTKOSL175120M",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "KTK60414S",
+     "part_number": "KTK60414S",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "KTK60414S",
+     "part_number": "KTK60414S",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "KTKISL100120M",
+     "part_number": "KTKISL100120M",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.7500x5.25",
+     "part_number": "HEX-BOLT-0.7500x5.25",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.7500",
+     "part_number": "HEX-NUT-0.7500",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.7500x5.25",
+     "count": 1,
+     "description": "Hex bolt 0.75\" x 5.25\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.7500",
+     "count": 1,
+     "description": "Hex nut 0.75\" (generic)"
+    },
+    {
+     "part_number": "KTK60414S",
+     "count": 2,
+     "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 1-15/16\" Total Length"
+    },
+    {
+     "part_number": "KTKISL100120M",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 3/4\" Bolt 1\" Outside Diameter 3.875\" Total Length"
+    },
+    {
+     "part_number": "KTKOSL175120M",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 1-3/4\" Outside Diameter 3.000\" Length"
+    }
+   ]
+  },
+  "bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100188L": {
+   "title": "Delrin pivot, 1-3/4\" x 3.250\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100188L.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100188L.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100188L.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "KTKOSL175120L",
+     "part_number": "KTKOSL175120L",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "KTK60414",
+     "part_number": "KTK60414",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "KTK60414",
+     "part_number": "KTK60414",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "KTKISL100188L",
+     "part_number": "KTKISL100188L",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.6250x5.50",
+     "part_number": "HEX-BOLT-0.6250x5.50",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.6250",
+     "part_number": "HEX-NUT-0.6250",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.6250x5.50",
+     "count": 1,
+     "description": "Hex bolt 0.625\" x 5.5\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.6250",
+     "count": 1,
+     "description": "Hex nut 0.625\" (generic)"
+    },
+    {
+     "part_number": "KTK60414",
+     "count": 2,
+     "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 2-1/16\" Total Length"
+    },
+    {
+     "part_number": "KTKISL100188L",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 5/8\" Bolt 1\" Outside Diameter 4.120\" Total Length"
+    },
+    {
+     "part_number": "KTKOSL175120L",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 1-3/4\" Outside Diameter 3.250\" Length"
+    }
+   ]
+  },
+  "bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100120L": {
+   "title": "Delrin pivot, 1-3/4\" x 3.250\" sleeve, 1\" inner sleeve, 3/4\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100120L.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100120L.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100120L.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "KTKOSL175120L",
+     "part_number": "KTKOSL175120L",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "KTK60414",
+     "part_number": "KTK60414",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "KTK60414",
+     "part_number": "KTK60414",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "KTKISL100120L",
+     "part_number": "KTKISL100120L",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.7500",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.7500x5.50",
+     "part_number": "HEX-BOLT-0.7500x5.50",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.7500",
+     "part_number": "HEX-NUT-0.7500",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.7500x5.50",
+     "count": 1,
+     "description": "Hex bolt 0.75\" x 5.5\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.7500",
+     "count": 1,
+     "description": "Hex nut 0.75\" (generic)"
+    },
+    {
+     "part_number": "KTK60414",
+     "count": 2,
+     "description": "Black Delrin Pivot Bushing 1\" Inside Diameter 1-1/2\" Outside Diameter 2-1/16\" Total Length"
+    },
+    {
+     "part_number": "KTKISL100120L",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 3/4\" Bolt 1\" Outside Diameter 4.120\" Total Length"
+    },
+    {
+     "part_number": "KTKOSL175120L",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2\" Bushings 1-3/4\" Outside Diameter 3.250\" Length"
+    }
+   ]
+  },
+  "bushing-pivot_KTK250_KTKOSL125095_KTKISL750120": {
+   "title": "Delrin pivot, 1-1/4\" x 1.610\" sleeve, 3/4\" inner sleeve, 1/2\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_KTK250_KTKOSL125095_KTKISL750120.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_KTK250_KTKOSL125095_KTKISL750120.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_KTK250_KTKOSL125095_KTKISL750120.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "KTKOSL125095",
+     "part_number": "KTKOSL125095",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "KTK250",
+     "part_number": "KTK250",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "KTK250",
+     "part_number": "KTK250",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "KTKISL750120",
+     "part_number": "KTKISL750120",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.5000",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.5000",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.5000x3.50",
+     "part_number": "HEX-BOLT-0.5000x3.50",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.5000",
+     "part_number": "HEX-NUT-0.5000",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.5000x3.50",
+     "count": 1,
+     "description": "Hex bolt 0.5\" x 3.5\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.5000",
+     "count": 1,
+     "description": "Hex nut 0.5\" (generic)"
+    },
+    {
+     "part_number": "KTK250",
+     "count": 2,
+     "description": "Black Delrin Pivot Bushing 3/4\" Inside Diameter 1-1/16\" Outside Diameter 3/4\" Total Length"
+    },
+    {
+     "part_number": "KTKISL750120",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 1/2\" Bolt 3/4\" Outside Diameter 2.308\" Total Length"
+    },
+    {
+     "part_number": "KTKOSL125095",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/16\" Bushings 1-1/4\" Outside Diameter 1.610\" Length"
+    }
+   ]
+  },
+  "bushing-pivot_KTK500F_KTKOSL150120_KTKISL750120": {
+   "title": "Delrin pivot, 1-1/2\" x 1.810\" sleeve, 3/4\" inner sleeve, 1/2\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_KTK500F_KTKOSL150120_KTKISL750120.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_KTK500F_KTKOSL150120_KTKISL750120.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_KTK500F_KTKOSL150120_KTKISL750120.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "KTKOSL150120",
+     "part_number": "KTKOSL150120",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "KTK500F",
+     "part_number": "KTK500F",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "KTK500F",
+     "part_number": "KTK500F",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "KTKISL750120",
+     "part_number": "KTKISL750120",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.5000",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.5000",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.5000x3.50",
+     "part_number": "HEX-BOLT-0.5000x3.50",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.5000",
+     "part_number": "HEX-NUT-0.5000",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.5000x3.50",
+     "count": 1,
+     "description": "Hex bolt 0.5\" x 3.5\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.5000",
+     "count": 1,
+     "description": "Hex nut 0.5\" (generic)"
+    },
+    {
+     "part_number": "KTK500F",
+     "count": 2,
+     "description": "Black Delrin Pivot Bushing 3/4\" Inside Diameter 1-1/4\" Outside Diameter 1-1/8\" Total Length"
+    },
+    {
+     "part_number": "KTKISL750120",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 1/2\" Bolt 3/4\" Outside Diameter 2.308\" Total Length"
+    },
+    {
+     "part_number": "KTKOSL150120",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/4\" Bushings 1-1/2\" Outside Diameter 1.810\" Length"
+    }
+   ]
+  },
+  "bushing-pivot_KTK505_KTKOSL150120_KTKISL100188S": {
+   "title": "Nylatron pivot, 1-1/2\" x 1.810\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_KTK505_KTKOSL150120_KTKISL100188S.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_KTK505_KTKOSL150120_KTKISL100188S.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_KTK505_KTKOSL150120_KTKISL100188S.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "KTKOSL150120",
+     "part_number": "KTKOSL150120",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "KTK505",
+     "part_number": "KTK505",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "KTK505",
+     "part_number": "KTK505",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "KTKISL100188S",
+     "part_number": "KTKISL100188S",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.6250",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.6250x3.75",
+     "part_number": "HEX-BOLT-0.6250x3.75",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.6250",
+     "part_number": "HEX-NUT-0.6250",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "bom_rows": [
+    {
+     "part_number": "HEX-BOLT-0.6250x3.75",
+     "count": 1,
+     "description": "Hex bolt 0.625\" x 3.75\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.6250",
+     "count": 1,
+     "description": "Hex nut 0.625\" (generic)"
+    },
+    {
+     "part_number": "KTK505",
+     "count": 2,
+     "description": "Gray Nylatron Pivot Bushing 1\" Inside Diameter 1-1/4\" Outside Diameter 7/8\" Total Length"
+    },
+    {
+     "part_number": "KTKISL100188S",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 5/8\" Bolt 1\" Outside Diameter 2.440\" Total Length"
+    },
+    {
+     "part_number": "KTKOSL150120",
+     "count": 1,
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/4\" Bushings 1-1/2\" Outside Diameter 1.810\" Length"
+    }
+   ]
+  },
+  "bushing-pivot_AFBB100_AFBBA100-OUTER_no-inner": {
+   "title": "AutoFab urethane bushing assembly AFBBA100, 1\" sleeve, 3/8\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_AFBB100_AFBBA100-OUTER_no-inner.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_AFBB100_AFBBA100-OUTER_no-inner.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_AFBB100_AFBBA100-OUTER_no-inner.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "AFBBA100-OUTER",
+     "part_number": "AFBBA100-OUTER",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "AFBB100",
+     "part_number": "AFBB100",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "AFBB100",
+     "part_number": "AFBB100",
+     "side": "fixed"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.3750",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.3750",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.3750x2.50",
+     "part_number": "HEX-BOLT-0.3750x2.50",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.3750",
+     "part_number": "HEX-NUT-0.3750",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Bolt:1"
+   },
+   "press_fit_overlap_mm3": 157.8,
+   "bom_rows": [
+    {
+     "part_number": "AFBB100",
+     "count": 2,
+     "description": "AutoFab Black Urethane Bushing 3/8\" Inside Diameter .825\" Outside Diameter 3/4\" Total Length"
+    },
+    {
+     "part_number": "AFBBA100-OUTER",
+     "count": 1,
+     "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA100"
+    },
+    {
+     "part_number": "HEX-BOLT-0.3750x2.50",
+     "count": 1,
+     "description": "Hex bolt 0.375\" x 2.5\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.3750",
+     "count": 1,
+     "description": "Hex nut 0.375\" (generic)"
+    }
+   ]
+  },
+  "bushing-pivot_AFBB125_AFBBA125-OUTER_AFBBA125-INNER": {
+   "title": "AutoFab urethane bushing assembly AFBBA125, 1-1/4\" sleeve, 3/8\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_AFBB125_AFBBA125-OUTER_AFBBA125-INNER.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_AFBB125_AFBBA125-OUTER_AFBBA125-INNER.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_AFBB125_AFBBA125-OUTER_AFBBA125-INNER.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "AFBBA125-OUTER",
+     "part_number": "AFBBA125-OUTER",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "AFBB125",
+     "part_number": "AFBB125",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "AFBB125",
+     "part_number": "AFBB125",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "AFBBA125-INNER",
+     "part_number": "AFBBA125-INNER",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.3750",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.3750",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.3750x3.00",
+     "part_number": "HEX-BOLT-0.3750x3.00",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.3750",
+     "part_number": "HEX-NUT-0.3750",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "press_fit_overlap_mm3": 205.6,
+   "bom_rows": [
+    {
+     "part_number": "AFBB125",
+     "count": 2,
+     "description": "AutoFab Black Urethane Bushing 1/2\" Inside Diameter 1.070\" Outside Diameter 1\" Total Length"
+    },
+    {
+     "part_number": "AFBBA125-INNER",
+     "count": 1,
+     "description": "Inner sleeve from AutoFab urethane bushing assembly AFBBA125"
+    },
+    {
+     "part_number": "AFBBA125-OUTER",
+     "count": 1,
+     "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA125"
+    },
+    {
+     "part_number": "HEX-BOLT-0.3750x3.00",
+     "count": 1,
+     "description": "Hex bolt 0.375\" x 3\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.3750",
+     "count": 1,
+     "description": "Hex nut 0.375\" (generic)"
+    }
+   ]
+  },
+  "bushing-pivot_AFBB150_AFBBA150-OUTER_AFBBA150-INNER": {
+   "title": "AutoFab urethane bushing assembly AFBBA150, 1-1/2\" sleeve, 7/16\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_AFBB150_AFBBA150-OUTER_AFBBA150-INNER.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_AFBB150_AFBBA150-OUTER_AFBBA150-INNER.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_AFBB150_AFBBA150-OUTER_AFBBA150-INNER.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "AFBBA150-OUTER",
+     "part_number": "AFBBA150-OUTER",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "AFBB150",
+     "part_number": "AFBB150",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "AFBB150",
+     "part_number": "AFBB150",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "AFBBA150-INNER",
+     "part_number": "AFBBA150-INNER",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.4375",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.4375",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.4375x3.50",
+     "part_number": "HEX-BOLT-0.4375x3.50",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.4375",
+     "part_number": "HEX-NUT-0.4375",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "press_fit_overlap_mm3": 142.2,
+   "bom_rows": [
+    {
+     "part_number": "AFBB150",
+     "count": 2,
+     "description": "AutoFab Black Urethane Bushing 5/8\" Inside Diameter 1.265\" Outside Diameter 1-1/8\" Total Length"
+    },
+    {
+     "part_number": "AFBBA150-INNER",
+     "count": 1,
+     "description": "Inner sleeve from AutoFab urethane bushing assembly AFBBA150"
+    },
+    {
+     "part_number": "AFBBA150-OUTER",
+     "count": 1,
+     "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA150"
+    },
+    {
+     "part_number": "HEX-BOLT-0.4375x3.50",
+     "count": 1,
+     "description": "Hex bolt 0.4375\" x 3.5\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.4375",
+     "count": 1,
+     "description": "Hex nut 0.4375\" (generic)"
+    }
+   ]
+  },
+  "bushing-pivot_AFBB175_AFBBA175-OUTER_AFBBA175-INNER": {
+   "title": "AutoFab urethane bushing assembly AFBBA175, 1-3/4\" sleeve, 9/16\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_AFBB175_AFBBA175-OUTER_AFBBA175-INNER.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_AFBB175_AFBBA175-OUTER_AFBBA175-INNER.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_AFBB175_AFBBA175-OUTER_AFBBA175-INNER.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "AFBBA175-OUTER",
+     "part_number": "AFBBA175-OUTER",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "AFBB175",
+     "part_number": "AFBB175",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "AFBB175",
+     "part_number": "AFBB175",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "AFBBA175-INNER",
+     "part_number": "AFBBA175-INNER",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.5625",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.5625",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.5625x4.25",
+     "part_number": "HEX-BOLT-0.5625x4.25",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.5625",
+     "part_number": "HEX-NUT-0.5625",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "press_fit_overlap_mm3": 711.9,
+   "bom_rows": [
+    {
+     "part_number": "AFBB175",
+     "count": 2,
+     "description": "AutoFab Black Urethane Bushing 3/4\" Inside Diameter 1.525\" Outside Diameter 1-7/16\" Total Length"
+    },
+    {
+     "part_number": "AFBBA175-INNER",
+     "count": 1,
+     "description": "Inner sleeve from AutoFab urethane bushing assembly AFBBA175"
+    },
+    {
+     "part_number": "AFBBA175-OUTER",
+     "count": 1,
+     "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA175"
+    },
+    {
+     "part_number": "HEX-BOLT-0.5625x4.25",
+     "count": 1,
+     "description": "Hex bolt 0.5625\" x 4.25\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.5625",
+     "count": 1,
+     "description": "Hex nut 0.5625\" (generic)"
+    }
+   ]
+  },
+  "bushing-pivot_AFBB200_AFBBA200-OUTER_AFBBA200-INNER": {
+   "title": "AutoFab urethane bushing assembly AFBBA200, 2\" sleeve, 9/16\" bolt",
+   "kind": "bushing_pivot",
+   "file": "build/assemblies/bushing_pivot/bushing-pivot_AFBB200_AFBBA200-OUTER_AFBBA200-INNER.sc",
+   "step": "build/assemblies/bushing_pivot/bushing-pivot_AFBB200_AFBBA200-OUTER_AFBBA200-INNER.step",
+   "bom": "build/assemblies/bushing_pivot/bushing-pivot_AFBB200_AFBBA200-OUTER_AFBBA200-INNER.bom.csv",
+   "members": [
+    {
+     "name": "Outer sleeve",
+     "occurrence": "Outer sleeve:1",
+     "part": "AFBBA200-OUTER",
+     "part_number": "AFBBA200-OUTER",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing top",
+     "occurrence": "Bushing top:1",
+     "part": "AFBB200",
+     "part_number": "AFBB200",
+     "side": "fixed"
+    },
+    {
+     "name": "Bushing bottom",
+     "occurrence": "Bushing bottom:1",
+     "part": "AFBB200",
+     "part_number": "AFBB200",
+     "side": "fixed"
+    },
+    {
+     "name": "Inner sleeve",
+     "occurrence": "Inner sleeve:1",
+     "part": "AFBBA200-INNER",
+     "part_number": "AFBBA200-INNER",
+     "side": "moving"
+    },
+    {
+     "name": "Tab top",
+     "occurrence": "Tab top:1",
+     "part": "REF-TAB-0.5625",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Tab bottom",
+     "occurrence": "Tab bottom:1",
+     "part": "REF-TAB-0.5625",
+     "part_number": "",
+     "side": "moving"
+    },
+    {
+     "name": "Bolt",
+     "occurrence": "Bolt:1",
+     "part": "HEX-BOLT-0.5625x4.25",
+     "part_number": "HEX-BOLT-0.5625x4.25",
+     "side": "moving"
+    },
+    {
+     "name": "Nut",
+     "occurrence": "Nut:1",
+     "part": "HEX-NUT-0.5625",
+     "part_number": "HEX-NUT-0.5625",
+     "side": "moving"
+    }
+   ],
+   "pivot": {
+    "joint": "Pivot",
+    "type": "revolute",
+    "fixed": "Outer sleeve:1",
+    "moving": "Inner sleeve:1"
+   },
+   "press_fit_overlap_mm3": 1107.1,
+   "bom_rows": [
+    {
+     "part_number": "AFBB200",
+     "count": 2,
+     "description": "AutoFab Black Urethane Bushing 3/4\" Inside Diameter 1.780\" Outside Diameter 1-7/16\" Total Length"
+    },
+    {
+     "part_number": "AFBBA200-INNER",
+     "count": 1,
+     "description": "Inner sleeve from AutoFab urethane bushing assembly AFBBA200"
+    },
+    {
+     "part_number": "AFBBA200-OUTER",
+     "count": 1,
+     "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA200"
+    },
+    {
+     "part_number": "HEX-BOLT-0.5625x4.25",
+     "count": 1,
+     "description": "Hex bolt 0.5625\" x 4.25\" (generic; pick grade and thread to suit)"
+    },
+    {
+     "part_number": "HEX-NUT-0.5625",
+     "count": 1,
+     "description": "Hex nut 0.5625\" (generic)"
+    }
+   ]
+  }
+ },
+ "problems": []
+}

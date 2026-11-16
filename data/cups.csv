@@ -1,0 +1,2 @@
+part_number,vendor,bearing_od,height,od,lip_id,lip_thickness,groove_dia,groove_width,snap_ring,fits,material,cross_reference,description,source,estimated
+KTK9044HD,Kartek,2.1250,1.500,2.625,1.900,0.259,2.245,0.086,KTK9044SR,WSSX16T; AIN16T; HIN16TA; AIB-16T-3,4130,FK CPW16,"Kartek 4130 uniball cup for 1"" bore uniballs 1-1/2"" tall 2-5/8"" OD",kartek.com KTK9044HD; FK 2017 catalog p.37 (CPW16),lip_id; lip_thickness; groove_dia; groove_width
