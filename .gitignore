@@ -2,3 +2,25 @@ release/
 __pycache__/
 *.bak
 ref/
+
+# assistant and editor files
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+.claude.json
+.mcp.json
+AGENTS.md
+.cursor/
+.vscode/
+.idea/
+
+# personal and machine-specific files
+.env
+.env.*
+*.local
+notes/
+TODO.md
+.DS_Store
+Thumbs.db
+*.swp
+*~

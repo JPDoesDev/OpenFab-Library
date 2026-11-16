@@ -16,7 +16,7 @@ from pathlib import Path
 
 from . import assemblies as A
 from . import parts as P
-from .sc import IN, Script, measure, run, snapshot
+from .sc import IN, Script, measure, run, snapshot, version
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA, OUT = ROOT / "data", ROOT / "release"
@@ -183,7 +183,10 @@ def load_catalog() -> dict[str, P.Part]:
         for row in rows(name):
             if name == "spherical_bearings":
                 P.register_bearing(row)
-            for part in gen(row):
+            made = gen(row)
+            if not made:   # never drop a data row quietly
+                raise SystemExit(f"{name}.csv: no model for {row['part_number']} ({row.get('style', '')})")
+            for part in made:
                 catalog[part.key] = part
     names = [p.name for p in catalog.values()]
     twice = {n for n in names if names.count(n) > 1}
@@ -195,6 +198,7 @@ def load_catalog() -> dict[str, P.Part]:
 def main(argv: list[str]) -> int:
     only = [a.lower() for a in argv]
     report = {"units": "inches (dims_in); paths are relative to the release folder",
+              "built_with": f"SolidCraft {version()}",
               "parts": {}, "assemblies": {}, "problems": []}
     files: dict[str, str] = {}
     catalog = load_catalog()
@@ -229,7 +233,8 @@ def main(argv: list[str]) -> int:
         (ROOT / "catalog.json").write_text(text)
         (OUT / "catalog.json").write_text(text)
         shutil.copy(ROOT / "LICENSE", OUT / "LICENSE")
-        shutil.copy(ROOT / "docs" / "release-readme.md", OUT / "README.md")
+        readme = (ROOT / "docs" / "release-readme.md").read_text()
+        (OUT / "README.md").write_text(readme.replace("{built_with}", report["built_with"]))
     print(f"\n{len(report['parts'])} parts, {len(report['assemblies'])} assemblies, "
           f"{len(report['problems'])} problems")
     for p in report["problems"]:

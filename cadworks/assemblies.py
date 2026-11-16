@@ -111,7 +111,7 @@ def uniball(recipe: dict, files, catalog) -> Assembly:
     asm.add("Snap ring", c["snap_ring"], b["race_width"] / 2 + catalog[c["snap_ring"]].dims["thickness"] / 2)
     ball = asm.add("Ball", f"{bearing}.ball", side="moving")
     stack, bolt, wording = _spacers(asm, spacer_key, ball, b["ball_width"], b["bore"])
-    asm.name = f"Uniball Stack {inch(b['bore'])}, {wording}, {inch(bolt)} bolt, {inch(asm.stated_stack or stack)} stack"
+    asm.name = f"Uniball Stack {inch(b['bore'])}, {wording}, {inch(bolt)} bolt hole, {inch(asm.stated_stack or stack)} stack"
     asm.exclude = [[race, ball]]
     asm.finish("ball", race, ball, find_limits=True)
     return asm
@@ -128,7 +128,7 @@ def rod_end(recipe: dict, files, catalog) -> Assembly:
         asm.flip_onto(nut, body, (x, 0, 0), (1, 0, 0))
     ball = asm.add("Ball", f"{re_key}.ball", side="moving")
     stack, bolt, wording = _spacers(asm, spacer_key, ball, d["ball_width"], d["bore"])
-    asm.name = f"Rod End Link {inch(d['bore'])} {d['hand']}, {wording}, {inch(bolt)} bolt, {inch(asm.stated_stack or stack)} stack"
+    asm.name = f"Rod End Link {inch(d['bore'])} {d['hand']}, {wording}, {inch(bolt)} bolt hole, {inch(asm.stated_stack or stack)} stack"
     asm.exclude = [[body, ball]]
     asm.finish("ball", body, ball, find_limits=True)
     return asm
@@ -151,7 +151,7 @@ def bushing_pivot(recipe: dict, files, catalog) -> Assembly:
         pin = None
         stack, bolt = o["length"] + 2 * bu["flange_length"], bu["id"]
     asm.name = (f"Bushing Pivot {bush.material.capitalize()} {inch(o['od'])} OD, {inch(stack)} wide, "
-                f"{inch(bolt)} bolt")
+                f"{inch(bolt)} bolt hole")
     if pin:
         asm.finish("revolute", outer, pin, find_limits=False)
     else:

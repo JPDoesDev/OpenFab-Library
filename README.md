@@ -5,8 +5,8 @@ spherical bearings (uniballs), rod ends (heims), misalignment spacers, weld-in c
 snap rings, jam nuts, pivot bushings and sleeves. Every part carries its vendor part
 number, so an assembly's bill of materials comes out ready to order from.
 
-Status: first slice. 130 parts and 25 assemblies covering the 1" uniball stack, the
-3/4" rod end and the common sleeve-bushing pivots.
+Status: first slice, covering the 1" uniball stack, the 3/4" rod end and the common
+sleeve-bushing pivots. `catalog.json` lists every part and assembly.
 
 ## What the licence means for builders
 
@@ -43,6 +43,9 @@ Needs `solidcraft-cli` (SolidCraft 0.43 or later) on the path.
 
     python -m cadworks.build            # everything, about a minute; rebuilds release/ from scratch
     python -m cadworks.build JMX12T     # only assemblies whose key contains the text
+
+`catalog.json` records the SolidCraft version that built the release. SolidCraft's file
+format changes between versions, so the `.step` copies are the safe choice for older installs.
 
 The build checks each part's volume against the analytic value, checks each assembly
 for interference at rest and for broken or absolute links, and fails loudly on any of them.
@@ -109,7 +112,8 @@ vendor does not publish a dimension it is estimated, and the part's `estimated` 
 - uniball cup: lip and snap ring groove
 - rod end: plain cylindrical shank with no neck
 - AutoFab kit sleeves: inferred from the kit size and its bushings
-- cone, hourglass, stepped and flat-top spacers are in the data but not modelled yet
+- cone, radius, hourglass, stepped and flat-top spacer heads follow the same six published
+  dimensions, with their shapes scaled from photos
 
 Rod end shanks carry a cosmetic thread over the threaded length, with the right pitch and
 hand. SolidCraft has no Unified form for shaft threads, so it is stored as the same profile

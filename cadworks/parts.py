@@ -156,34 +156,76 @@ def rod_end(row: dict) -> list[Part]:
     ]
 
 
+SPACER_LABELS = {  # style tag -> words used in the name, most specific first
+    "flat_top": "Flat Top", "stepped": "Stepped", "hourglass": "Hourglass", "radius_cone": "Radius",
+    "thin_edge": "Thin Edge", "thick_edge": "Thick Edge", "trophy_truck": "Trophy Truck",
+    "total_chaos": "Total Chaos",
+}
+
+
 def spacer(row: dict) -> list[Part]:
-    style = row["style"]
-    if style not in ("misalignment", "straight"):
-        return []  # cone, hourglass, stepped and flat-top heads are not modelled yet
+    """Vendors publish six dimensions per spacer (ball bore, bolt, shoulder height, head diameter,
+    half stack, pin depth). Everything else about the head shape is scaled from product photos."""
+    base, *tags = row["style"].split("/")
     pn = row["part_number"]
     E, Db, A, Bh, C, F = (f(row, k) for k in (
         "ball_bore", "bolt", "shoulder_height", "head_dia", "half_stack", "pin_depth"))
     F = min(F, C - A) if C - A > 0 else F  # two pins must not meet inside the ball
     rb, rp, rh = Db / 2, E / 2, Bh / 2
+    words = [SPACER_LABELS[t] for t in tags if t != "radius_cone"]
+    label = " ".join(words + (["Radius"] if "radius_cone" in tags else []) + [base.capitalize()])
+    if base == "cone" and "hourglass" in tags:
+        label = "Hourglass"
     dims = {"ball_bore": E, "bolt": Db, "shoulder_height": A, "head_dia": Bh, "half_stack": C,
-            "pin_depth": F, "style": style}
-    s = Script()
-    if style == "straight":
-        prof = [(rb, -F), (rp, -F), (rp, 0), (rh, 0), (rh, A), (rb, A)]
+            "pin_depth": F, "style": label.lower()}
+    pin = [(rb, -F), (rp, -F), (rp, 0)]
+    vol, est = None, []
+    if base == "straight":
+        head = [(rh, 0), (rh, A)]
         vol = PI * (rp * rp * F + rh * rh * A) - PI * rb * rb * (F + A)
-        est = []
-    else:
+    elif base == "misalignment":
         # Seat flange at the ball, a waist, then a cone out to the head (Kartek's measuring diagram).
-        # Only A-F are published; the waist and flange proportions are scaled from the product photo.
         rn = max(0.89 * rp, rb + 0.06)
-        z1, z2, z3, z4 = 0.04 * A, 0.20 * A, 0.30 * A, A - 0.05
         rf = max(rh, rp + 0.05)
-        prof = [(rb, -F), (rp, -F), (rp, 0), (rf, 0), (rf, z1), (rn, z2), (rn, z3), (rh, z4), (rh, A), (rb, A)]
-        vol = None
+        tall = "flat_top" in tags or "stepped" in tags
+        hk = min(A, 0.75) if tall else A          # height over which the waist and cone happen
+        head = [(rf, 0), (rf, 0.04 * hk), (rn, 0.20 * hk), (rn, 0.30 * hk), (rh, hk - 0.05)]
+        if "stepped" in tags:                      # the top steps down to register in a recess
+            rs = max(rb + 0.1, rh - 0.2)
+            head += [(rh, A - 0.25), (rs, A - 0.25), (rs, A)]
+            dims["step_dia"] = round(2 * rs, 4)
+            est.append("step_dia and step height")
+        else:
+            head.append((rh, A))
         dims.update({"waist_dia": round(2 * rn, 4), "flange_dia": round(2 * rf, 4)})
-        est = ["waist_dia", "flange_dia", "flange and cone heights"]
+        est += ["waist_dia", "flange_dia", "flange and cone heights"]
+    elif "hourglass" in tags:
+        # A full-width base on the ball, a waist, and a full-width head.
+        rn = max(0.89 * rp, rb + 0.06)
+        head = [(rh, 0), (rh, 0.30 * A), (rn, 0.45 * A), (rn, 0.60 * A), (rh, 0.85 * A), (rh, A)]
+        dims["waist_dia"] = round(2 * rn, 4)
+        est += ["waist_dia", "base, waist and head heights"]
+    elif "radius_cone" in tags:
+        # The pin diameter carries on as a neck, then sweeps out to the head on a concave radius.
+        r = min(rh - rp, A - 0.05)
+        land = max(0.03, min(0.12, A - r - 0.02))
+        z0 = A - r - land
+        head = ([(rp, z0)] if z0 > 1e-6 else []) + [("arc", (rp + r, z0 + r), (rp + r, z0), True)]
+        if rp + r < rh - 1e-6:
+            head.append((rh, z0 + r))
+        head.append((rh, A))
+        dims.update({"flare_radius": round(r, 4), "edge_height": round(land, 4)})
+        est += ["flare_radius", "edge_height"]
+    else:
+        # A cone straight off the ball face out to the head, finishing in a flat edge.
+        land = 0.06 if "thin_edge" in tags else max(0.06, A - (rh - rp))
+        head = [(rh, A - land), (rh, A)]
+        dims["edge_height"] = round(land, 4)
+        est.append("edge_height (cone angle)")
+    prof = pin + head + [(rb, A)]
+    s = Script()
     s.revolve("Spacer", prof)
-    title = f"{style.capitalize()} Spacer {inch(E)} to {inch(Db)} bolt, {inch(2 * C)} stack"
+    title = f"{label} Spacer {inch(E)} to {inch(Db)} bolt, {inch(2 * C)} stack"
     return [_finish(row, pn, "spacer", "Spacer", "stainless", s, vol, dims, est, title=title, folder="Spacers")]
 
 

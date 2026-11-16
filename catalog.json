@@ -1,5 +1,6 @@
 {
  "units": "inches (dims_in); paths are relative to the release folder",
+ "built_with": "SolidCraft 0.43.0",
  "parts": {
   "WSSX16T": {
    "name": "Uniball 1in bore x 2.125in OD (FK WSSX16T)",
@@ -372,6 +373,140 @@
    "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-12-uniball-for-34-bolt-4-stack-height.html",
    "volume_check": "not checked"
   },
+  "KTKHMA15034KTK": {
+   "name": "Flat Top Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKHMA15034KTK)",
+   "part_number": "KTKHMA15034KTK",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "17-4 Stainless Steel Misalignment Flat Top Spacer For 1-1/2\" Uniball For 3/4\" Bolt 4-3/8\" Stack Ht",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Flat Top Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKHMA15034KTK).sc",
+   "step": "parts/Spacers/Flat Top Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKHMA15034KTK).step",
+   "sheet": "parts/Spacers/Flat Top Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKHMA15034KTK).txt",
+   "image": "parts/Spacers/Flat Top Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKHMA15034KTK).png",
+   "dims_in": {
+    "ball_bore": 1.5,
+    "bolt": 0.75,
+    "shoulder_height": 1.5,
+    "head_dia": 1.625,
+    "half_stack": 2.19,
+    "pin_depth": 0.6875,
+    "style": "flat top misalignment",
+    "waist_dia": 1.335,
+    "flange_dia": 1.625
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 3.10173,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-flat-top-spacer-for-1-12-uniball-for-34-bolt-4-38-stack-ht.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA15034KTKWS": {
+   "name": "Stepped Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKHMA15034KTKWS)",
+   "part_number": "KTKHMA15034KTKWS",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "17-4 Stainless Steel Misalignment Stepped Spacer For 1-1/2\" Uniball For 3/4\" Bolt 4-3/8\" Stack Ht",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Stepped Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKHMA15034KTKWS).sc",
+   "step": "parts/Spacers/Stepped Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKHMA15034KTKWS).step",
+   "sheet": "parts/Spacers/Stepped Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKHMA15034KTKWS).txt",
+   "image": "parts/Spacers/Stepped Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKHMA15034KTKWS).png",
+   "dims_in": {
+    "ball_bore": 1.5,
+    "bolt": 0.75,
+    "shoulder_height": 1.5,
+    "head_dia": 1.625,
+    "half_stack": 2.19,
+    "pin_depth": 0.6875,
+    "style": "stepped misalignment",
+    "step_dia": 1.225,
+    "waist_dia": 1.335,
+    "flange_dia": 1.625
+   },
+   "estimated": [
+    "step_dia and step height",
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 2.8779,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-stepped-spacer-for-1-12-uniball-for-34-bolt-4-38-stack-ht.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA15034TTR": {
+   "name": "Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR)",
+   "part_number": "KTKHMA15034TTR",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "Trophy Truck 17-4 Stainless Steel Misalignment Spacer 1-1/2\" Uniball 3/4\" Bolt 3-1/2\" Stack Height",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR).sc",
+   "step": "parts/Spacers/Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR).step",
+   "sheet": "parts/Spacers/Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR).txt",
+   "image": "parts/Spacers/Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR).png",
+   "dims_in": {
+    "ball_bore": 1.5,
+    "bolt": 0.75,
+    "shoulder_height": 0.768,
+    "head_dia": 1.24,
+    "half_stack": 1.75,
+    "pin_depth": 0.982,
+    "style": "trophy truck misalignment",
+    "waist_dia": 1.335,
+    "flange_dia": 1.6
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 2.03537,
+   "source": "https://www.kartek.com/parts/trophy-truck-17-4-stainless-steel-misalignment-spacer-1-12-uniball-34-bolt-3-12-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTKTTHMA15034PRMNS": {
+   "name": "Flat Top Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKTTHMA15034PRMNS)",
+   "part_number": "KTKTTHMA15034PRMNS",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "Trophy Truck 17-4 Stainless Steel Flat Top Misalignment Spacer 1-1/2\" Uniball 3/4\" Bolt 4-3/8\" Stack",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Flat Top Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKTTHMA15034PRMNS).sc",
+   "step": "parts/Spacers/Flat Top Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKTTHMA15034PRMNS).step",
+   "sheet": "parts/Spacers/Flat Top Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKTTHMA15034PRMNS).txt",
+   "image": "parts/Spacers/Flat Top Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack (Kartek KTKTTHMA15034PRMNS).png",
+   "dims_in": {
+    "ball_bore": 1.5,
+    "bolt": 0.75,
+    "shoulder_height": 1.215,
+    "head_dia": 1.625,
+    "half_stack": 2.19,
+    "pin_depth": 0.9749999999999999,
+    "style": "flat top trophy truck misalignment",
+    "waist_dia": 1.335,
+    "flange_dia": 1.625
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 3.01761,
+   "source": "https://www.kartek.com/parts/trophy-truck-17-4-stainless-steel-flat-top-misalignment-spacer-1-12-uniball-34-bolt-4-38-stack.html",
+   "volume_check": "not checked"
+  },
   "KTK10034SRTN": {
    "name": "Straight Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRTN)",
    "part_number": "KTK10034SRTN",
@@ -398,6 +533,159 @@
    "volume_in3": 0.57234,
    "source": "https://www.kartek.com/parts/17-4-stainless-steel-straight-spacer-for-1-heim-or-uniball-for-34-bolt-2-14-stack-height.html",
    "volume_check": "ok"
+  },
+  "KTK10034SRT1520": {
+   "name": "Hourglass Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034SRT1520)",
+   "part_number": "KTK10034SRT1520",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "17-4 Stainless Steel Hourglass Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 3-1/16\" Stack Height",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Hourglass Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034SRT1520).sc",
+   "step": "parts/Spacers/Hourglass Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034SRT1520).step",
+   "sheet": "parts/Spacers/Hourglass Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034SRT1520).txt",
+   "image": "parts/Spacers/Hourglass Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034SRT1520).png",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.835,
+    "head_dia": 1.24,
+    "half_stack": 1.52,
+    "pin_depth": 0.685,
+    "style": "hourglass",
+    "waist_dia": 0.89
+   },
+   "estimated": [
+    "waist_dia",
+    "base, waist and head heights"
+   ],
+   "volume_in3": 0.69838,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-hourglass-spacer-for-1-heim-or-uniball-for-34-bolt-3-116-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTK10034SRT1125": {
+   "name": "Cone Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRT1125)",
+   "part_number": "KTK10034SRT1125",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "17-4 Stainless Steel Cone Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-1/4\" Stack Height",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Cone Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRT1125).sc",
+   "step": "parts/Spacers/Cone Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRT1125).step",
+   "sheet": "parts/Spacers/Cone Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRT1125).txt",
+   "image": "parts/Spacers/Cone Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRT1125).png",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.44,
+    "head_dia": 1.74,
+    "half_stack": 1.125,
+    "pin_depth": 0.685,
+    "style": "cone",
+    "edge_height": 0.07
+   },
+   "estimated": [
+    "edge_height (cone angle)"
+   ],
+   "volume_in3": 0.76612,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-cone-spacer-for-1-heim-or-uniball-for-34-bolt-2-14-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTK10034SRT1190": {
+   "name": "Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190)",
+   "part_number": "KTK10034SRT1190",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "Thin Edge 17-4 Stainless Steel Cone Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-3/8\" Stack Height",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190).sc",
+   "step": "parts/Spacers/Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190).step",
+   "sheet": "parts/Spacers/Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190).txt",
+   "image": "parts/Spacers/Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190).png",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.505,
+    "head_dia": 1.74,
+    "half_stack": 1.19,
+    "pin_depth": 0.6849999999999999,
+    "style": "thin edge cone",
+    "edge_height": 0.06
+   },
+   "estimated": [
+    "edge_height (cone angle)"
+   ],
+   "volume_in3": 0.82687,
+   "source": "https://www.kartek.com/parts/thin-edge-17-4-stainless-steel-cone-spacer-for-1-heim-or-uniball-for-34-bolt-2-38-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTK10034SRT1250": {
+   "name": "Thick Edge Cone Spacer 1in to 0.75in bolt, 2.5in stack (Kartek KTK10034SRT1250)",
+   "part_number": "KTK10034SRT1250",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "Thick Edge 17-4 Stainless Steel Cone Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-1/2\" Stack Height",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Thick Edge Cone Spacer 1in to 0.75in bolt, 2.5in stack (Kartek KTK10034SRT1250).sc",
+   "step": "parts/Spacers/Thick Edge Cone Spacer 1in to 0.75in bolt, 2.5in stack (Kartek KTK10034SRT1250).step",
+   "sheet": "parts/Spacers/Thick Edge Cone Spacer 1in to 0.75in bolt, 2.5in stack (Kartek KTK10034SRT1250).txt",
+   "image": "parts/Spacers/Thick Edge Cone Spacer 1in to 0.75in bolt, 2.5in stack (Kartek KTK10034SRT1250).png",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.565,
+    "head_dia": 1.74,
+    "half_stack": 1.25,
+    "pin_depth": 0.685,
+    "style": "thick edge cone",
+    "edge_height": 0.195
+   },
+   "estimated": [
+    "edge_height (cone angle)"
+   ],
+   "volume_in3": 1.00813,
+   "source": "https://www.kartek.com/parts/thick-edge-17-4-stainless-steel-cone-spacer-for-1-heim-or-uniball-for-34-bolt-2-12-stack-height.html",
+   "volume_check": "not checked"
+  },
+  "KTK10034SRT1385": {
+   "name": "Radius Cone Spacer 1in to 0.75in bolt, 2.77in stack (Kartek KTK10034SRT1385)",
+   "part_number": "KTK10034SRT1385",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "17-4 Stainless Steel Radius Cone Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-3/4\" Stack Height",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Radius Cone Spacer 1in to 0.75in bolt, 2.77in stack (Kartek KTK10034SRT1385).sc",
+   "step": "parts/Spacers/Radius Cone Spacer 1in to 0.75in bolt, 2.77in stack (Kartek KTK10034SRT1385).step",
+   "sheet": "parts/Spacers/Radius Cone Spacer 1in to 0.75in bolt, 2.77in stack (Kartek KTK10034SRT1385).txt",
+   "image": "parts/Spacers/Radius Cone Spacer 1in to 0.75in bolt, 2.77in stack (Kartek KTK10034SRT1385).png",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.7,
+    "head_dia": 1.74,
+    "half_stack": 1.385,
+    "pin_depth": 0.685,
+    "style": "radius cone",
+    "flare_radius": 0.37,
+    "edge_height": 0.12
+   },
+   "estimated": [
+    "flare_radius",
+    "edge_height"
+   ],
+   "volume_in3": 0.77455,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-radius-cone-spacer-for-1-heim-or-uniball-for-34-bolt-2-34-stack-height.html",
+   "volume_check": "not checked"
   },
   "KTKHMA100916S": {
    "name": "Misalignment Spacer 1in to 0.5625in bolt, 2.76in stack (Kartek KTKHMA100916S)",
@@ -630,6 +918,72 @@
    "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-1-heim-or-uniball-for-34-bolt-2-34-stack-height-42658.html",
    "volume_check": "not checked"
   },
+  "KTKHMA10034TCF": {
+   "name": "Total Chaos Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034TCF)",
+   "part_number": "KTKHMA10034TCF",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "17-4 Stainless Steel Total Chaos Misalignment Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-3/4\" Stk",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Total Chaos Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034TCF).sc",
+   "step": "parts/Spacers/Total Chaos Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034TCF).step",
+   "sheet": "parts/Spacers/Total Chaos Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034TCF).txt",
+   "image": "parts/Spacers/Total Chaos Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034TCF).png",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.695,
+    "head_dia": 1.24,
+    "half_stack": 1.38,
+    "pin_depth": 0.6849999999999999,
+    "style": "total chaos misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.24
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.55782,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-total-chaos-misalignment-spacer-for-1-heim-or-uniball-for-34-bolt-2-34-stk.html",
+   "volume_check": "not checked"
+  },
+  "KTKHMA10034NOR": {
+   "name": "Hourglass Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034NOR)",
+   "part_number": "KTKHMA10034NOR",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "17-4 Stainless Steel Hourglass Misalignment Spacer For 1\" Heim Or Uniball For 3/4\" Bolt 2-3/4\" Stack",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Hourglass Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034NOR).sc",
+   "step": "parts/Spacers/Hourglass Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034NOR).step",
+   "sheet": "parts/Spacers/Hourglass Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034NOR).txt",
+   "image": "parts/Spacers/Hourglass Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034NOR).png",
+   "dims_in": {
+    "ball_bore": 1.0,
+    "bolt": 0.75,
+    "shoulder_height": 0.695,
+    "head_dia": 1.135,
+    "half_stack": 1.38,
+    "pin_depth": 0.6849999999999999,
+    "style": "hourglass misalignment",
+    "waist_dia": 0.89,
+    "flange_dia": 1.135
+   },
+   "estimated": [
+    "waist_dia",
+    "flange_dia",
+    "flange and cone heights"
+   ],
+   "volume_in3": 0.49342,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-hourglass-misalignment-spacer-for-1-heim-or-uniball-for-34-bolt-2-34-stack.html",
+   "volume_check": "not checked"
+  },
   "KTKHMA10034ES": {
    "name": "Misalignment Spacer 1in to 0.75in bolt, 3.02in stack (Kartek KTKHMA10034ES)",
    "part_number": "KTKHMA10034ES",
@@ -848,6 +1202,38 @@
    "volume_in3": 0.34242,
    "source": "https://www.kartek.com/parts/17-4-stainless-steel-straight-spacer-for-34-heim-or-uniball-for-916-bolt-1-78-stack-height.html",
    "volume_check": "ok"
+  },
+  "KTK3412SRTF": {
+   "name": "Radius Cone Spacer 0.75in to 0.5in bolt, 1.5in stack (Kartek KTK3412SRTF)",
+   "part_number": "KTK3412SRTF",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "17-4 Stainless Steel Radius Cone Spacer For 3/4\" Heim Or Uniball For 1/2\" Bolt 1-1/2\" Stack Height",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Radius Cone Spacer 0.75in to 0.5in bolt, 1.5in stack (Kartek KTK3412SRTF).sc",
+   "step": "parts/Spacers/Radius Cone Spacer 0.75in to 0.5in bolt, 1.5in stack (Kartek KTK3412SRTF).step",
+   "sheet": "parts/Spacers/Radius Cone Spacer 0.75in to 0.5in bolt, 1.5in stack (Kartek KTK3412SRTF).txt",
+   "image": "parts/Spacers/Radius Cone Spacer 0.75in to 0.5in bolt, 1.5in stack (Kartek KTK3412SRTF).png",
+   "dims_in": {
+    "ball_bore": 0.75,
+    "bolt": 0.5,
+    "shoulder_height": 0.315,
+    "head_dia": 1.24,
+    "half_stack": 0.75,
+    "pin_depth": 0.435,
+    "style": "radius cone",
+    "flare_radius": 0.245,
+    "edge_height": 0.05
+   },
+   "estimated": [
+    "flare_radius",
+    "edge_height"
+   ],
+   "volume_in3": 0.25715,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-radius-cone-spacer-for-34-heim-or-uniball-for-12-bolt-1-12-stack-height.html",
+   "volume_check": "not checked"
   },
   "KTKHMA34716": {
    "name": "Misalignment Spacer 0.75in to 0.4375in bolt, 1.5in stack (Kartek KTKHMA34716)",
@@ -1127,6 +1513,36 @@
    "volume_in3": 0.37003,
    "source": "https://www.kartek.com/parts/17-4-stainless-steel-straight-spacer-for-78-heim-or-uniball-for-58-bolt-1-58-stack-height.html",
    "volume_check": "ok"
+  },
+  "KTK7812SRTJPS": {
+   "name": "Cone Spacer 0.875in to 0.5in bolt, 1.5in stack (Kartek KTK7812SRTJPS)",
+   "part_number": "KTK7812SRTJPS",
+   "vendor": "Kartek",
+   "family": "spacer",
+   "description": "17-4 Stainless Steel Cone Spacer For 7/8\" Heim Or Uniball For 1/2\" Bolt 1-1/2\" Stack Height",
+   "material": "stainless",
+   "bom_type": "purchased",
+   "also_available_as": [],
+   "file": "parts/Spacers/Cone Spacer 0.875in to 0.5in bolt, 1.5in stack (Kartek KTK7812SRTJPS).sc",
+   "step": "parts/Spacers/Cone Spacer 0.875in to 0.5in bolt, 1.5in stack (Kartek KTK7812SRTJPS).step",
+   "sheet": "parts/Spacers/Cone Spacer 0.875in to 0.5in bolt, 1.5in stack (Kartek KTK7812SRTJPS).txt",
+   "image": "parts/Spacers/Cone Spacer 0.875in to 0.5in bolt, 1.5in stack (Kartek KTK7812SRTJPS).png",
+   "dims_in": {
+    "ball_bore": 0.875,
+    "bolt": 0.5,
+    "shoulder_height": 0.315,
+    "head_dia": 1.24,
+    "half_stack": 0.75,
+    "pin_depth": 0.435,
+    "style": "cone",
+    "edge_height": 0.1325
+   },
+   "estimated": [
+    "edge_height (cone angle)"
+   ],
+   "volume_in3": 0.43621,
+   "source": "https://www.kartek.com/parts/17-4-stainless-steel-cone-spacer-for-78-heim-or-uniball-for-12-bolt-1-12-stack-height.html",
+   "volume_check": "not checked"
   },
   "KTKHMA7812S": {
    "name": "Misalignment Spacer 0.875in to 0.5in bolt, 1.5in stack (Kartek KTKHMA7812S)",
@@ -3043,13 +3459,13 @@
  },
  "assemblies": {
   "uniball_WSSX16T_KTK9044HD_KTKHMA10034RN": {
-   "name": "Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack",
-   "description": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 3/4\" bolt, 2-3/4\" stack",
+   "name": "Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 2.76in stack",
+   "description": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
    "kind": "uniball",
-   "file": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.sc",
-   "step": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.step",
-   "bom": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.bom.csv",
-   "script": "scripts/assemblies/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.json",
+   "file": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 2.76in stack.sc",
+   "step": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 2.76in stack.step",
+   "bom": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 2.76in stack.bom.csv",
+   "script": "scripts/assemblies/Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 2.76in stack.json",
    "members": [
     {
      "role": "Cup",
@@ -3105,7 +3521,7 @@
      "Uniball 1in bore x 2.125in OD (FK WSSX16T):1"
     ]
    },
-   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.png",
+   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 2.76in stack.png",
    "links": [
     "../../parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).sc",
     "../../parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN).sc",
@@ -3149,13 +3565,13 @@
    ]
   },
   "uniball_WSSX16T_KTK9044HD_KTKHMA10034TRN": {
-   "name": "Uniball Stack 1in, misalignment spacers, 0.75in bolt, 3.04in stack",
-   "description": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 3/4\" bolt, 3-1/16\" stack",
+   "name": "Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 3.04in stack",
+   "description": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
    "kind": "uniball",
-   "file": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 3.04in stack.sc",
-   "step": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 3.04in stack.step",
-   "bom": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 3.04in stack.bom.csv",
-   "script": "scripts/assemblies/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 3.04in stack.json",
+   "file": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 3.04in stack.sc",
+   "step": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 3.04in stack.step",
+   "bom": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 3.04in stack.bom.csv",
+   "script": "scripts/assemblies/Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 3.04in stack.json",
    "members": [
     {
      "role": "Cup",
@@ -3211,7 +3627,7 @@
      "Uniball 1in bore x 2.125in OD (FK WSSX16T):1"
     ]
    },
-   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt, 3.04in stack.png",
+   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.75in bolt hole, 3.04in stack.png",
    "links": [
     "../../parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).sc",
     "../../parts/Spacers/Misalignment Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTKHMA10034TRN).sc",
@@ -3255,13 +3671,13 @@
    ]
   },
   "uniball_WSSX16T_KTK9044HD_KTKHMA10058RN": {
-   "name": "Uniball Stack 1in, misalignment spacers, 0.625in bolt, 2.76in stack",
-   "description": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 5/8\" bolt, 2-3/4\" stack",
+   "name": "Uniball Stack 1in, misalignment spacers, 0.625in bolt hole, 2.76in stack",
+   "description": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 5/8\" bolt hole, 2-3/4\" stack",
    "kind": "uniball",
-   "file": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.625in bolt, 2.76in stack.sc",
-   "step": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.625in bolt, 2.76in stack.step",
-   "bom": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.625in bolt, 2.76in stack.bom.csv",
-   "script": "scripts/assemblies/Uniball Stack 1in, misalignment spacers, 0.625in bolt, 2.76in stack.json",
+   "file": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.625in bolt hole, 2.76in stack.sc",
+   "step": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.625in bolt hole, 2.76in stack.step",
+   "bom": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.625in bolt hole, 2.76in stack.bom.csv",
+   "script": "scripts/assemblies/Uniball Stack 1in, misalignment spacers, 0.625in bolt hole, 2.76in stack.json",
    "members": [
     {
      "role": "Cup",
@@ -3317,7 +3733,7 @@
      "Uniball 1in bore x 2.125in OD (FK WSSX16T):1"
     ]
    },
-   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.625in bolt, 2.76in stack.png",
+   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, misalignment spacers, 0.625in bolt hole, 2.76in stack.png",
    "links": [
     "../../parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).sc",
     "../../parts/Spacers/Misalignment Spacer 1in to 0.625in bolt, 2.76in stack (Kartek KTKHMA10058RN).sc",
@@ -3361,13 +3777,13 @@
    ]
   },
   "uniball_WSSX16T_KTK9044HD_KTK10034SRTN": {
-   "name": "Uniball Stack 1in, straight spacers, 0.75in bolt, 2.25in stack",
-   "description": "1\" uniball in a 2-5/8\" cup, straight spacers to a 3/4\" bolt, 2-1/4\" stack",
+   "name": "Uniball Stack 1in, straight spacers, 0.75in bolt hole, 2.25in stack",
+   "description": "1\" uniball in a 2-5/8\" cup, straight spacers to a 3/4\" bolt hole, 2-1/4\" stack",
    "kind": "uniball",
-   "file": "assemblies/Uniball Stacks/Uniball Stack 1in, straight spacers, 0.75in bolt, 2.25in stack.sc",
-   "step": "assemblies/Uniball Stacks/Uniball Stack 1in, straight spacers, 0.75in bolt, 2.25in stack.step",
-   "bom": "assemblies/Uniball Stacks/Uniball Stack 1in, straight spacers, 0.75in bolt, 2.25in stack.bom.csv",
-   "script": "scripts/assemblies/Uniball Stack 1in, straight spacers, 0.75in bolt, 2.25in stack.json",
+   "file": "assemblies/Uniball Stacks/Uniball Stack 1in, straight spacers, 0.75in bolt hole, 2.25in stack.sc",
+   "step": "assemblies/Uniball Stacks/Uniball Stack 1in, straight spacers, 0.75in bolt hole, 2.25in stack.step",
+   "bom": "assemblies/Uniball Stacks/Uniball Stack 1in, straight spacers, 0.75in bolt hole, 2.25in stack.bom.csv",
+   "script": "scripts/assemblies/Uniball Stack 1in, straight spacers, 0.75in bolt hole, 2.25in stack.json",
    "members": [
     {
      "role": "Cup",
@@ -3423,7 +3839,7 @@
      "Uniball 1in bore x 2.125in OD (FK WSSX16T):1"
     ]
    },
-   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, straight spacers, 0.75in bolt, 2.25in stack.png",
+   "image": "assemblies/Uniball Stacks/Uniball Stack 1in, straight spacers, 0.75in bolt hole, 2.25in stack.png",
    "links": [
     "../../parts/Snap Rings/Snap Ring 2.24in OD x 0.078in thick (Kartek KTK9044SR).sc",
     "../../parts/Spacers/Straight Spacer 1in to 0.75in bolt, 2.25in stack (Kartek KTK10034SRTN).sc",
@@ -3467,13 +3883,13 @@
    ]
   },
   "rod-end_JMX12T_no-spacers": {
-   "name": "Rod End Link 0.75in RH, no spacers, 0.75in bolt, 0.875in stack",
-   "description": "3/4\" rod end, RH, no spacers, 3/4\" bolt",
+   "name": "Rod End Link 0.75in RH, no spacers, 0.75in bolt hole, 0.875in stack",
+   "description": "3/4\" rod end, RH, no spacers, 3/4\" bolt hole",
    "kind": "rod_end",
-   "file": "assemblies/Rod End Links/Rod End Link 0.75in RH, no spacers, 0.75in bolt, 0.875in stack.sc",
-   "step": "assemblies/Rod End Links/Rod End Link 0.75in RH, no spacers, 0.75in bolt, 0.875in stack.step",
-   "bom": "assemblies/Rod End Links/Rod End Link 0.75in RH, no spacers, 0.75in bolt, 0.875in stack.bom.csv",
-   "script": "scripts/assemblies/Rod End Link 0.75in RH, no spacers, 0.75in bolt, 0.875in stack.json",
+   "file": "assemblies/Rod End Links/Rod End Link 0.75in RH, no spacers, 0.75in bolt hole, 0.875in stack.sc",
+   "step": "assemblies/Rod End Links/Rod End Link 0.75in RH, no spacers, 0.75in bolt hole, 0.875in stack.step",
+   "bom": "assemblies/Rod End Links/Rod End Link 0.75in RH, no spacers, 0.75in bolt hole, 0.875in stack.bom.csv",
+   "script": "scripts/assemblies/Rod End Link 0.75in RH, no spacers, 0.75in bolt hole, 0.875in stack.json",
    "members": [
     {
      "role": "Rod end",
@@ -3505,7 +3921,7 @@
     "max_misalignment_deg": null,
     "limited_by": "nothing in this assembly; your mount tabs set the limit"
    },
-   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, no spacers, 0.75in bolt, 0.875in stack.png",
+   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, no spacers, 0.75in bolt hole, 0.875in stack.png",
    "links": [
     "../../parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).sc",
     "../../parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc",
@@ -3531,13 +3947,13 @@
    ]
   },
   "rod-end_JMX12T_KTKHMA3412": {
-   "name": "Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt, 1.82in stack",
-   "description": "3/4\" rod end, RH, misalignment spacers to a 1/2\" bolt, 1-13/16\" stack",
+   "name": "Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt hole, 1.82in stack",
+   "description": "3/4\" rod end, RH, misalignment spacers to a 1/2\" bolt hole, 1-13/16\" stack",
    "kind": "rod_end",
-   "file": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt, 1.82in stack.sc",
-   "step": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt, 1.82in stack.step",
-   "bom": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt, 1.82in stack.bom.csv",
-   "script": "scripts/assemblies/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt, 1.82in stack.json",
+   "file": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt hole, 1.82in stack.sc",
+   "step": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt hole, 1.82in stack.step",
+   "bom": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt hole, 1.82in stack.bom.csv",
+   "script": "scripts/assemblies/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt hole, 1.82in stack.json",
    "members": [
     {
      "role": "Rod end",
@@ -3586,7 +4002,7 @@
      "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1"
     ]
    },
-   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt, 1.82in stack.png",
+   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.5in bolt hole, 1.82in stack.png",
    "links": [
     "../../parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).sc",
     "../../parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc",
@@ -3621,13 +4037,13 @@
    ]
   },
   "rod-end_JMX12T_KTKHMA3458": {
-   "name": "Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt, 1.82in stack",
-   "description": "3/4\" rod end, RH, misalignment spacers to a 5/8\" bolt, 1-13/16\" stack",
+   "name": "Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt hole, 1.82in stack",
+   "description": "3/4\" rod end, RH, misalignment spacers to a 5/8\" bolt hole, 1-13/16\" stack",
    "kind": "rod_end",
-   "file": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt, 1.82in stack.sc",
-   "step": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt, 1.82in stack.step",
-   "bom": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt, 1.82in stack.bom.csv",
-   "script": "scripts/assemblies/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt, 1.82in stack.json",
+   "file": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt hole, 1.82in stack.sc",
+   "step": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt hole, 1.82in stack.step",
+   "bom": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt hole, 1.82in stack.bom.csv",
+   "script": "scripts/assemblies/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt hole, 1.82in stack.json",
    "members": [
     {
      "role": "Rod end",
@@ -3676,7 +4092,7 @@
      "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1"
     ]
    },
-   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt, 1.82in stack.png",
+   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, misalignment spacers, 0.625in bolt hole, 1.82in stack.png",
    "links": [
     "../../parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).sc",
     "../../parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc",
@@ -3711,13 +4127,13 @@
    ]
   },
   "rod-end_JMX12T_KTK3412SRT945": {
-   "name": "Rod End Link 0.75in RH, straight spacers, 0.5in bolt, 1.895in stack",
-   "description": "3/4\" rod end, RH, straight spacers to a 1/2\" bolt, 1-7/8\" stack",
+   "name": "Rod End Link 0.75in RH, straight spacers, 0.5in bolt hole, 1.895in stack",
+   "description": "3/4\" rod end, RH, straight spacers to a 1/2\" bolt hole, 1-7/8\" stack",
    "kind": "rod_end",
-   "file": "assemblies/Rod End Links/Rod End Link 0.75in RH, straight spacers, 0.5in bolt, 1.895in stack.sc",
-   "step": "assemblies/Rod End Links/Rod End Link 0.75in RH, straight spacers, 0.5in bolt, 1.895in stack.step",
-   "bom": "assemblies/Rod End Links/Rod End Link 0.75in RH, straight spacers, 0.5in bolt, 1.895in stack.bom.csv",
-   "script": "scripts/assemblies/Rod End Link 0.75in RH, straight spacers, 0.5in bolt, 1.895in stack.json",
+   "file": "assemblies/Rod End Links/Rod End Link 0.75in RH, straight spacers, 0.5in bolt hole, 1.895in stack.sc",
+   "step": "assemblies/Rod End Links/Rod End Link 0.75in RH, straight spacers, 0.5in bolt hole, 1.895in stack.step",
+   "bom": "assemblies/Rod End Links/Rod End Link 0.75in RH, straight spacers, 0.5in bolt hole, 1.895in stack.bom.csv",
+   "script": "scripts/assemblies/Rod End Link 0.75in RH, straight spacers, 0.5in bolt hole, 1.895in stack.json",
    "members": [
     {
      "role": "Rod end",
@@ -3766,7 +4182,7 @@
      "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1"
     ]
    },
-   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, straight spacers, 0.5in bolt, 1.895in stack.png",
+   "image": "assemblies/Rod End Links/Rod End Link 0.75in RH, straight spacers, 0.5in bolt hole, 1.895in stack.png",
    "links": [
     "../../parts/Jam Nuts/Jam Nut 0.75-16 RH (FK SJNR12).sc",
     "../../parts/Rod Ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc",
@@ -3801,13 +4217,13 @@
    ]
   },
   "rod-end_JMXL12T_KTKHMA3412": {
-   "name": "Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt, 1.82in stack",
-   "description": "3/4\" rod end, LH, misalignment spacers to a 1/2\" bolt, 1-13/16\" stack",
+   "name": "Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt hole, 1.82in stack",
+   "description": "3/4\" rod end, LH, misalignment spacers to a 1/2\" bolt hole, 1-13/16\" stack",
    "kind": "rod_end",
-   "file": "assemblies/Rod End Links/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt, 1.82in stack.sc",
-   "step": "assemblies/Rod End Links/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt, 1.82in stack.step",
-   "bom": "assemblies/Rod End Links/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt, 1.82in stack.bom.csv",
-   "script": "scripts/assemblies/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt, 1.82in stack.json",
+   "file": "assemblies/Rod End Links/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt hole, 1.82in stack.sc",
+   "step": "assemblies/Rod End Links/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt hole, 1.82in stack.step",
+   "bom": "assemblies/Rod End Links/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt hole, 1.82in stack.bom.csv",
+   "script": "scripts/assemblies/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt hole, 1.82in stack.json",
    "members": [
     {
      "role": "Rod end",
@@ -3856,7 +4272,7 @@
      "Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T):1"
     ]
    },
-   "image": "assemblies/Rod End Links/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt, 1.82in stack.png",
+   "image": "assemblies/Rod End Links/Rod End Link 0.75in LH, misalignment spacers, 0.5in bolt hole, 1.82in stack.png",
    "links": [
     "../../parts/Jam Nuts/Jam Nut 0.75-16 LH (FK SJNL12).sc",
     "../../parts/Rod Ends/Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T).sc",
@@ -3891,13 +4307,13 @@
    ]
   },
   "bushing-pivot_KTK600_KTKOSL175120_KTKISL100188S": {
-   "name": "Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt",
-   "description": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+   "name": "Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt hole",
+   "description": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, 1\" inner sleeve, 5/8\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -3934,7 +4350,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120):1",
     "moving": "Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.625in bolt hole.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.202in long (Kartek KTK600).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S).sc",
@@ -3968,13 +4384,13 @@
    ]
   },
   "bushing-pivot_KTK600_KTKOSL175120_KTKISL100120S": {
-   "name": "Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt",
-   "description": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, 1\" inner sleeve, 3/4\" bolt",
+   "name": "Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt hole",
+   "description": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, 1\" inner sleeve, 3/4\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4011,7 +4427,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120):1",
     "moving": "Inner Sleeve 1in OD x 0.75in ID x 2.44in long (Kartek KTKISL100120S):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.44in wide, 0.75in bolt hole.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.202in long (Kartek KTK600).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.44in long (Kartek KTKISL100120S).sc",
@@ -4045,13 +4461,13 @@
    ]
   },
   "bushing-pivot_KTK600W_KTKOSL175120_KTKISL100188": {
-   "name": "Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt",
-   "description": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, wide flange, 1\" inner sleeve, 5/8\" bolt",
+   "name": "Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt hole",
+   "description": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, wide flange, 1\" inner sleeve, 5/8\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4088,7 +4504,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120):1",
     "moving": "Inner Sleeve 1in OD x 0.625in ID x 2.84in long (Kartek KTKISL100188):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.625in bolt hole.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.405in long (Kartek KTK600W).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.84in long (Kartek KTKISL100188).sc",
@@ -4122,13 +4538,13 @@
    ]
   },
   "bushing-pivot_KTK600W_KTKOSL175120_KTKISL100120": {
-   "name": "Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt",
-   "description": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, wide flange, 1\" inner sleeve, 3/4\" bolt",
+   "name": "Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt hole",
+   "description": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, wide flange, 1\" inner sleeve, 3/4\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4165,7 +4581,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long (Kartek KTKOSL175120):1",
     "moving": "Inner Sleeve 1in OD x 0.75in ID x 2.84in long (Kartek KTKISL100120):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 2.84in wide, 0.75in bolt hole.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.405in long (Kartek KTK600W).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 2.84in long (Kartek KTKISL100120).sc",
@@ -4199,13 +4615,13 @@
    ]
   },
   "bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100188M": {
-   "name": "Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt",
-   "description": "Delrin pivot, 1-3/4\" x 3.000\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+   "name": "Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt hole",
+   "description": "Delrin pivot, 1-3/4\" x 3.000\" sleeve, 1\" inner sleeve, 5/8\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4242,7 +4658,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M):1",
     "moving": "Inner Sleeve 1in OD x 0.625in ID x 3.875in long (Kartek KTKISL100188M):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.625in bolt hole.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 3.875in long (Kartek KTKISL100188M).sc",
@@ -4276,13 +4692,13 @@
    ]
   },
   "bushing-pivot_KTK60414S_KTKOSL175120M_KTKISL100120M": {
-   "name": "Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt",
-   "description": "Delrin pivot, 1-3/4\" x 3.000\" sleeve, 1\" inner sleeve, 3/4\" bolt",
+   "name": "Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt hole",
+   "description": "Delrin pivot, 1-3/4\" x 3.000\" sleeve, 1\" inner sleeve, 3/4\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4319,7 +4735,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M):1",
     "moving": "Inner Sleeve 1in OD x 0.75in ID x 3.875in long (Kartek KTKISL100120M):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 3.875in wide, 0.75in bolt hole.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 3.875in long (Kartek KTKISL100120M).sc",
@@ -4353,13 +4769,13 @@
    ]
   },
   "bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100188L": {
-   "name": "Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt",
-   "description": "Delrin pivot, 1-3/4\" x 3.250\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+   "name": "Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt hole",
+   "description": "Delrin pivot, 1-3/4\" x 3.250\" sleeve, 1\" inner sleeve, 5/8\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4396,7 +4812,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L):1",
     "moving": "Inner Sleeve 1in OD x 0.625in ID x 4.12in long (Kartek KTKISL100188L):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.625in bolt hole.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 2.06in long (Kartek KTK60414).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 4.12in long (Kartek KTKISL100188L).sc",
@@ -4430,13 +4846,13 @@
    ]
   },
   "bushing-pivot_KTK60414_KTKOSL175120L_KTKISL100120L": {
-   "name": "Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt",
-   "description": "Delrin pivot, 1-3/4\" x 3.250\" sleeve, 1\" inner sleeve, 3/4\" bolt",
+   "name": "Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt hole",
+   "description": "Delrin pivot, 1-3/4\" x 3.250\" sleeve, 1\" inner sleeve, 3/4\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4473,7 +4889,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.5in ID x 3.25in long (Kartek KTKOSL175120L):1",
     "moving": "Inner Sleeve 1in OD x 0.75in ID x 4.12in long (Kartek KTKISL100120L):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.75in OD, 4.12in wide, 0.75in bolt hole.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 1.005in ID x 1.5in OD x 2.06in long (Kartek KTK60414).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.75in ID x 4.12in long (Kartek KTKISL100120L).sc",
@@ -4507,13 +4923,13 @@
    ]
   },
   "bushing-pivot_KTK250_KTKOSL125095_KTKISL750120": {
-   "name": "Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt",
-   "description": "Delrin pivot, 1-1/4\" x 1.610\" sleeve, 3/4\" inner sleeve, 1/2\" bolt",
+   "name": "Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt hole",
+   "description": "Delrin pivot, 1-1/4\" x 1.610\" sleeve, 3/4\" inner sleeve, 1/2\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4550,7 +4966,7 @@
     "fixed": "Outer Sleeve 1.25in OD x 1.0625in ID x 1.61in long (Kartek KTKOSL125095):1",
     "moving": "Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.25in OD, 2.308in wide, 0.5in bolt hole.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 0.75in ID x 1.0625in OD x 0.775in long (Kartek KTK250).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120).sc",
@@ -4584,13 +5000,13 @@
    ]
   },
   "bushing-pivot_KTK500F_KTKOSL150120_KTKISL750120": {
-   "name": "Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt",
-   "description": "Delrin pivot, 1-1/2\" x 1.810\" sleeve, 3/4\" inner sleeve, 1/2\" bolt",
+   "name": "Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt hole",
+   "description": "Delrin pivot, 1-1/2\" x 1.810\" sleeve, 3/4\" inner sleeve, 1/2\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4627,7 +5043,7 @@
     "fixed": "Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120):1",
     "moving": "Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Delrin 1.5in OD, 2.308in wide, 0.5in bolt hole.png",
    "links": [
     "../../parts/Bushings/Delrin Bushing 0.75in ID x 1.25in OD x 1.13in long (Kartek KTK500F).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120).sc",
@@ -4661,13 +5077,13 @@
    ]
   },
   "bushing-pivot_KTK505_KTKOSL150120_KTKISL100188S": {
-   "name": "Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt",
-   "description": "Nylatron pivot, 1-1/2\" x 1.810\" sleeve, 1\" inner sleeve, 5/8\" bolt",
+   "name": "Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt hole",
+   "description": "Nylatron pivot, 1-1/2\" x 1.810\" sleeve, 1\" inner sleeve, 5/8\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4704,7 +5120,7 @@
     "fixed": "Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120):1",
     "moving": "Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Nylatron 1.5in OD, 2.44in wide, 0.625in bolt hole.png",
    "links": [
     "../../parts/Bushings/Nylatron Bushing 1.01in ID x 1.25in OD x 0.884in long (Kartek KTK505).sc",
     "../../parts/Inner Sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S).sc",
@@ -4738,13 +5154,13 @@
    ]
   },
   "bushing-pivot_B100_BA100-OUTER_no-inner": {
-   "name": "Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt",
-   "description": "AutoFab urethane bushing assembly AFBBA100, 1\" sleeve, 3/8\" bolt",
+   "name": "Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt hole",
+   "description": "AutoFab urethane bushing assembly AFBBA100, 1\" sleeve, 3/8\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4772,7 +5188,7 @@
     "joint": null,
     "note": "no inner sleeve: the bolt runs directly in the bushings"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1in OD, 1.5in wide, 0.375in bolt hole.png",
    "press_fit_overlap_mm3": 157.8,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100).sc",
@@ -4798,13 +5214,13 @@
    ]
   },
   "bushing-pivot_B125_BA125-OUTER_BA125-INNER": {
-   "name": "Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt",
-   "description": "AutoFab urethane bushing assembly AFBBA125, 1-1/4\" sleeve, 3/8\" bolt",
+   "name": "Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt hole",
+   "description": "AutoFab urethane bushing assembly AFBBA125, 1-1/4\" sleeve, 3/8\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4841,7 +5257,7 @@
     "fixed": "Outer Sleeve 1.25in OD x 1.06in ID x 1.5in long (AutoFab BA125-OUTER):1",
     "moving": "Inner Sleeve 0.5in OD x 0.375in ID x 2in long (AutoFab BA125-INNER):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.25in OD, 2in wide, 0.375in bolt hole.png",
    "press_fit_overlap_mm3": 205.6,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (AutoFab B125).sc",
@@ -4876,13 +5292,13 @@
    ]
   },
   "bushing-pivot_B150_BA150-OUTER_BA150-INNER": {
-   "name": "Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt",
-   "description": "AutoFab urethane bushing assembly AFBBA150, 1-1/2\" sleeve, 7/16\" bolt",
+   "name": "Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt hole",
+   "description": "AutoFab urethane bushing assembly AFBBA150, 1-1/2\" sleeve, 7/16\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4919,7 +5335,7 @@
     "fixed": "Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER):1",
     "moving": "Inner Sleeve 0.625in OD x 0.4375in ID x 2.25in long (AutoFab BA150-INNER):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.5in OD, 2.25in wide, 0.4375in bolt hole.png",
    "press_fit_overlap_mm3": 142.2,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150).sc",
@@ -4954,13 +5370,13 @@
    ]
   },
   "bushing-pivot_B175_BA175-OUTER_BA175-INNER": {
-   "name": "Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt",
-   "description": "AutoFab urethane bushing assembly AFBBA175, 1-3/4\" sleeve, 9/16\" bolt",
+   "name": "Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt hole",
+   "description": "AutoFab urethane bushing assembly AFBBA175, 1-3/4\" sleeve, 9/16\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -4997,7 +5413,7 @@
     "fixed": "Outer Sleeve 1.75in OD x 1.51in ID x 2.5in long (AutoFab BA175-OUTER):1",
     "moving": "Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA175-INNER):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 1.75in OD, 3in wide, 0.5625in bolt hole.png",
    "press_fit_overlap_mm3": 711.9,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.75in ID x 1.525in OD x 1.465in long (AutoFab B175).sc",
@@ -5032,13 +5448,13 @@
    ]
   },
   "bushing-pivot_B200_BA200-OUTER_BA200-INNER": {
-   "name": "Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt",
-   "description": "AutoFab urethane bushing assembly AFBBA200, 2\" sleeve, 9/16\" bolt",
+   "name": "Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt hole",
+   "description": "AutoFab urethane bushing assembly AFBBA200, 2\" sleeve, 9/16\" bolt hole",
    "kind": "bushing_pivot",
-   "file": "assemblies/Bushing Pivots/Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt.sc",
-   "step": "assemblies/Bushing Pivots/Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt.step",
-   "bom": "assemblies/Bushing Pivots/Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt.bom.csv",
-   "script": "scripts/assemblies/Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt.json",
+   "file": "assemblies/Bushing Pivots/Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt hole.sc",
+   "step": "assemblies/Bushing Pivots/Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt hole.step",
+   "bom": "assemblies/Bushing Pivots/Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt hole.bom.csv",
+   "script": "scripts/assemblies/Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt hole.json",
    "members": [
     {
      "role": "Outer sleeve",
@@ -5075,7 +5491,7 @@
     "fixed": "Outer Sleeve 2in OD x 1.76in ID x 2.5in long (AutoFab BA200-OUTER):1",
     "moving": "Inner Sleeve 0.75in OD x 0.5625in ID x 3in long (AutoFab BA200-INNER):1"
    },
-   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt.png",
+   "image": "assemblies/Bushing Pivots/Bushing Pivot Urethane 2in OD, 3in wide, 0.5625in bolt hole.png",
    "press_fit_overlap_mm3": 1107.1,
    "links": [
     "../../parts/Bushings/Urethane Bushing 0.75in ID x 1.78in OD x 1.465in long (AutoFab B200).sc",

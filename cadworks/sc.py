@@ -144,3 +144,9 @@ def snapshot(design: Path, png: Path, bodies: list[dict]) -> None:
                         "--quality", "fine"], capture_output=True, text=True)
     if r.returncode != 0 or not png.exists():
         raise RuntimeError(f"{design}: snapshot failed: {r.stderr.strip()[-400:]}")
+
+
+def version() -> str:
+    """'0.43.0' from 'solidcraft-cli 0.43.0'."""
+    r = subprocess.run([CLI, "--version"], capture_output=True, text=True)
+    return r.stdout.strip().split()[-1] if r.returncode == 0 and r.stdout.strip() else "unknown"
