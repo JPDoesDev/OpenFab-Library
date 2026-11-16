@@ -6,7 +6,25 @@ snap rings, jam nuts, pivot bushings and sleeves. Every part carries its vendor 
 number, so an assembly's bill of materials comes out ready to order from.
 
 Status: first slice. 130 parts and 25 assemblies covering the 1" uniball stack, the
-3/4" rod end and the common sleeve-bushing pivots. No licence has been chosen yet.
+3/4" rod end and the common sleeve-bushing pivots.
+
+## What the licence means for builders
+
+CAD-Works is open hardware under the CERN Open Hardware Licence v2, Weakly Reciprocal
+(CERN-OHL-W). In practice:
+
+- **Use the parts in anything.** Personal or commercial, no fee and no permission needed.
+- **Your own designs stay yours.** A chassis, arm, link or any other assembly you build
+  that uses these parts is not affected by this licence. You can keep it private, sell
+  it, or release it under whatever terms you like.
+- **Share fixes and improvements to the parts themselves.** If you correct a dimension,
+  improve a model or add a new size, and you pass that changed part on to anyone, publish
+  the change under this same licence so every other builder gets it too. Opening an issue
+  or pull request here is the easiest way.
+
+The whole point is that when one person finds an error or measures a real part, the
+library gets better for everyone. The short version above is a summary, not the legal
+text; the full terms are at the end of this file and in [LICENSE](LICENSE).
 
 ## Layout
 
@@ -57,3 +75,20 @@ vendor does not publish a dimension it is estimated, and the part's `estimated` 
 - cone, hourglass, stepped and flat-top spacers are in the data but not modelled yet
 
 Threads are not modelled. Urethane bushings overlap their sleeves by the press fit.
+
+## Licence
+
+Copyright 2026 JPDoesDev.
+
+This source describes Open Hardware and is licensed under the CERN-OHL-W v2. You may
+redistribute and modify this source and make products using it under the terms of the
+CERN-OHL-W v2 (https://ohwr.org/cern_ohl_w_v2.txt).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF
+MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see
+the CERN-OHL-W v2 for applicable conditions. The models are reference geometry, not
+engineering data: check every dimension against the real part before you cut or weld.
+
+Vendor names and part numbers are used only to identify the parts being modelled.
+CAD-Works is not affiliated with or endorsed by those vendors, and the vendor material
+under `ref/` remains the property of its owners and is not covered by this licence.
