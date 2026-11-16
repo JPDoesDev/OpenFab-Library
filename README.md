@@ -35,7 +35,6 @@ text; the full terms are at the end of this file and in [LICENSE](LICENSE).
 | `cadworks/` | Python (standard library only) that turns the data into SolidCraft scripts and runs them |
 | `catalog.json` | Generated index: every part and assembly, its dimensions, files, BOM and pivot limit |
 | `build/` | Generated designs (`.sc`), STEP copies, BOM CSVs and the scripts that made them (not in git) |
-| `ref/` | Vendor source material the data was taken from |
 
 ## Build
 
@@ -63,7 +62,9 @@ for interference at rest, and fails loudly on any mismatch.
 
 ## Accuracy
 
-Dimensions come from the FK Rod Ends 2017 catalog and Kartek's product pages. Where a
+Dimensions come from the [FK Rod Ends 2017 Industrial Catalog](https://www.fkrodends.com/catalogs/)
+and Kartek's product pages; each data row names its source. The vendor material itself is
+not part of this repository. Where a
 vendor does not publish a dimension it is estimated, and the part's `estimated` list in
 `catalog.json` says which. The main ones:
 
@@ -90,5 +91,4 @@ the CERN-OHL-W v2 for applicable conditions. The models are reference geometry, 
 engineering data: check every dimension against the real part before you cut or weld.
 
 Vendor names and part numbers are used only to identify the parts being modelled.
-CAD-Works is not affiliated with or endorsed by those vendors, and the vendor material
-under `ref/` remains the property of its owners and is not covered by this licence.
+CAD-Works is not affiliated with or endorsed by those vendors.
