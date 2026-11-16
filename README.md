@@ -6,7 +6,7 @@ snap rings, jam nuts, pivot bushings and sleeves. Every part carries its vendor 
 number, so an assembly's bill of materials comes out ready to order from.
 
 Status: first slice, covering the 1" uniball stack, the 3/4" rod end and the common
-sleeve-bushing pivots. `catalog.json` lists every part and assembly.
+sleeve-bushing pivots.
 
 ## What the licence means for builders
 
@@ -26,44 +26,62 @@ The whole point is that when one person finds an error or measures a real part, 
 library gets better for everyone. The short version above is a summary, not the legal
 text; the full terms are at the end of this file and in [LICENSE](LICENSE).
 
+## Find a part
+
+Browse the components with pictures and part numbers:
+
+- **[All components](components/index.md)**
+- Parts: [uniballs](components/parts/uniballs/index.md) ·
+  [rod ends](components/parts/rod-ends/index.md) ·
+  [spacers](components/parts/spacers/index.md) ·
+  [uniball cups](components/parts/uniball-cups/index.md) ·
+  [snap rings](components/parts/snap-rings/index.md) ·
+  [jam nuts](components/parts/jam-nuts/index.md) ·
+  [bushings](components/parts/bushings/index.md) ·
+  [inner sleeves](components/parts/inner-sleeves/index.md) ·
+  [outer sleeves](components/parts/outer-sleeves/index.md)
+- Assemblies: [uniball stacks](components/assemblies/uniball-stacks/index.md) ·
+  [rod end links](components/assemblies/rod-end-links/index.md) ·
+  [bushing pivots](components/assemblies/bushing-pivots/index.md)
+
+To use the files, download or clone the repository and keep the `components/` folder
+together, because assemblies link to the part files by relative path.
+
 ## Layout
 
-| Path | What it holds |
-|---|---|
-| `data/*.csv` | One table per part family, in inches: dimensions, part numbers, sources |
-| `data/cross_reference.csv` | Other vendors' numbers for the same or an equivalent part |
-| `data/assemblies.json` | Assembly recipes: which parts go together |
-| `openfab/` | Python (standard library only) that turns the data into SolidCraft scripts and runs them |
-| `catalog.json` | Generated index: every part and assembly, its dimensions, files, BOM and pivot limit |
-| `release/` | Generated output, ready to zip and publish (not in git); see below |
+    components/                 everything that has been made
+      index.md                  start here
+      catalog.json              the same information for scripts and AI tools
+      parts/
+        uniballs/               index.md, then for each part: .sc  .step  .png  .txt
+        rod-ends/  spacers/  uniball-cups/  snap-rings/  jam-nuts/
+        bushings/  inner-sleeves/  outer-sleeves/
+        _internal/              bearing balls: helpers the assemblies need, not things you buy
+      assemblies/
+        uniball-stacks/         index.md, then one folder per assembly: .sc  .step  .png  .bom.csv
+        rod-end-links/  bushing-pivots/
+    scripts/                    everything that makes them
+      data/                     one CSV per part family (inches), cross_reference.csv, assemblies.json
+      openfab/                  Python (standard library only) that writes and runs SolidCraft scripts
+      generated/                the SolidCraft command script behind every part and assembly
+
+Each family folder's `index.md` lists its items with a small picture, vendor, part number,
+other vendors' numbers and links to the files.
 
 ## Build
 
 Needs `solidcraft-cli` (SolidCraft 0.43 or later) on the path.
 
-    python -m openfab.build            # everything, about a minute; rebuilds release/ from scratch
+    cd scripts
+    python -m openfab.build            # everything, about a minute; rebuilds components/ from scratch
     python -m openfab.build JMX12T     # only assemblies whose key contains the text
 
-`catalog.json` records the SolidCraft version that built the release. SolidCraft's file
-format changes between versions, so the `.step` copies are the safe choice for older installs.
+The build checks each part's volume against the analytic value where one is worked out,
+checks each assembly for interference at rest and for broken or absolute links, and fails
+loudly on any of them. It then rewrites the index pages and `catalog.json`.
 
-The build checks each part's volume against the analytic value, checks each assembly
-for interference at rest and for broken or absolute links, and fails loudly on any of them.
-
-## The release folder
-
-    release/
-      parts/
-        Uniballs/          Uniball 1in bore x 2.125in OD (FK WSSX16T).sc  .step  .png  .txt
-        Rod Ends/          Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc ...
-        Spacers/  Uniball Cups/  Snap Rings/  Jam Nuts/  Bushings/
-        Inner Sleeves/  Outer Sleeves/
-        _internal/         bearing balls: helpers the assemblies need, not things you buy
-      assemblies/
-        Uniball Stacks/    Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.sc  .step  .png  .bom.csv
-        Rod End Links/  Bushing Pivots/
-      scripts/             the SolidCraft command scripts that built every file
-      catalog.json  README.md  LICENSE
+`catalog.json` records the SolidCraft version that built the files. SolidCraft's file format
+changes between versions, so the `.step` copies are the safe choice for older installs.
 
 ## Names and part numbers
 
@@ -74,9 +92,9 @@ for interference at rest and for broken or absolute links, and fails loudly on a
   SolidCraft lists it for anything you build from these parts, whatever the files are called.
 - **The maker's own number comes first.** A part is filed under the original maker's number
   (FK's `WSSX16T`, not a reseller's stock number for it). Kartek's own parts use Kartek's number.
-- **Cross-references** go in `data/cross_reference.csv`: one row per other vendor's number,
+- **Cross-references** go in `scripts/data/cross_reference.csv`: one row per other vendor's number,
   marked `same part`, `equivalent` or `sold in kit`. They show up in each part's `.txt` sheet,
-  in `catalog.json` and in the `also_available_as` column of every assembly BOM. When you find
+  on the index pages, in `catalog.json` and in the `also_available_as` column of every assembly BOM. When you find
   that one vendor's part matches another's, add a row there.
 - **Each part has a `.txt` sheet** beside it with part number, vendor, cross-references,
   dimensions and which dimensions are estimated.
@@ -97,7 +115,8 @@ for interference at rest and for broken or absolute links, and fails loudly on a
   body) carries the part number; the ball is left out of the BOM.
 - SolidCraft links a sub-assembly in as one rigid block, so to keep a pivot moving in
   your own design, insert the part files directly and recreate the joint rather than
-  linking a finished assembly. Each assembly's script in `build/scripts/` shows how.
+  linking a finished assembly. Each assembly's script in `scripts/generated/assemblies/`
+  shows how.
 
 ## Accuracy
 

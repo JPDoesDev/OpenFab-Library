@@ -1,0 +1,153 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Sleeve profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      4.7625,
+      -25.4
+     ],
+     [
+      6.35,
+      -25.4
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      -25.4
+     ],
+     [
+      6.35,
+      25.4
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      25.4
+     ],
+     [
+      4.7625,
+      25.4
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      4.7625,
+      25.4
+     ],
+     [
+      4.7625,
+      -25.4
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Sleeve",
+    "body_name": "Sleeve"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Sleeve"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "BA125-INNER",
+     "description": "Inner sleeve from AutoFab urethane bushing assembly AFBBA125",
+     "organization": "AutoFab",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "inner_sleeve",
+      "units": "in",
+      "dims": {
+       "od": 0.5,
+       "id": 0.375,
+       "length": 2.0,
+       "kind": "inner"
+      },
+      "estimated": [
+       "od",
+       "length"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "AutoFab",
+        "other_part_number": "BA125",
+        "relation": "sold in kit",
+        "note": "not sold separately; part of the bushing assembly kit"
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AFBBA125",
+        "relation": "sold in kit",
+        "note": "Kartek stock number for the kit"
+       }
+      ],
+      "source": "kartek.com AFBBA125 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)"
+     }
+    }
+   }
+  }
+ ]
+}

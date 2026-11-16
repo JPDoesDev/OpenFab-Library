@@ -1,0 +1,22 @@
+Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack
+
+Part number:  KTK10034SRT1190
+Vendor:       Kartek
+Description:  Thin Edge 17-4 Stainless Steel Cone Spacer For 1" Heim Or Uniball For 3/4" Bolt 2-3/8" Stack Height
+Material:     stainless
+Source:       https://www.kartek.com/parts/thin-edge-17-4-stainless-steel-cone-spacer-for-1-heim-or-uniball-for-34-bolt-2-38-stack-height.html
+
+Dimensions (inches):
+  ball_bore: 1
+  bolt: 0.75
+  shoulder_height: 0.505
+  head_dia: 1.74
+  half_stack: 1.19
+  pin_depth: 0.685
+  style: thin edge cone
+  edge_height: 0.06
+
+Estimated (not published by the vendor):
+  edge_height (cone angle)
+
+Volume check: not checked

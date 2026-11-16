@@ -1,0 +1,242 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Spacer profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.14375,
+      -11.049
+     ],
+     [
+      11.1125,
+      -11.049
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.1125,
+      -11.049
+     ],
+     [
+      11.1125,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.1125,
+      0.0
+     ],
+     [
+      12.7,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      0.0
+     ],
+     [
+      12.7,
+      0.32004
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      0.32004
+     ],
+     [
+      9.890125,
+      1.6002
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.890125,
+      1.6002
+     ],
+     [
+      9.890125,
+      2.4003
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.890125,
+      2.4003
+     ],
+     [
+      12.7,
+      6.731
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      6.731
+     ],
+     [
+      12.7,
+      8.001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      8.001
+     ],
+     [
+      7.14375,
+      8.001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.14375,
+      8.001
+     ],
+     [
+      7.14375,
+      -11.049
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Spacer",
+    "body_name": "Spacer"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Spacer"
+    ],
+    "material": "Stainless Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTKHMA78916SS",
+     "description": "17-4 Stainless Steel Misalignment Spacer For 7/8\" Heim Or Uniball For 9/16\" Bolt 1-1/2\" Stack Height",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spacer",
+      "units": "in",
+      "dims": {
+       "ball_bore": 0.875,
+       "bolt": 0.5625,
+       "shoulder_height": 0.315,
+       "head_dia": 1.0,
+       "half_stack": 0.75,
+       "pin_depth": 0.435,
+       "style": "misalignment",
+       "waist_dia": 0.7788,
+       "flange_dia": 1.0
+      },
+      "estimated": [
+       "waist_dia",
+       "flange_dia",
+       "flange and cone heights"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-78-heim-or-uniball-for-916-bolt-1-12-stack-height.html"
+     }
+    }
+   }
+  }
+ ]
+}

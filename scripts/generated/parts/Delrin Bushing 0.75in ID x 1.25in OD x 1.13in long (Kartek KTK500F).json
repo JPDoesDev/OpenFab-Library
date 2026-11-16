@@ -1,0 +1,178 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Bushing profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      -22.8092
+     ],
+     [
+      15.875,
+      -22.8092
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.875,
+      -22.8092
+     ],
+     [
+      15.875,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.875,
+      0.0
+     ],
+     [
+      18.923,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      18.923,
+      0.0
+     ],
+     [
+      18.923,
+      5.8928
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      18.923,
+      5.8928
+     ],
+     [
+      9.525,
+      5.8928
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      5.8928
+     ],
+     [
+      9.525,
+      -22.8092
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Bushing",
+    "body_name": "Bushing"
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "Acetal (Delrin)",
+    "density_g_cm3": 1.41,
+    "color": "#1c1c1c"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Bushing"
+    ],
+    "material": "Acetal (Delrin)"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK500F",
+     "description": "Black Delrin Pivot Bushing 3/4\" Inside Diameter 1-1/4\" Outside Diameter 1-1/8\" Total Length",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "bushing",
+      "units": "in",
+      "dims": {
+       "id": 0.75,
+       "od": 1.25,
+       "body_length": 0.898,
+       "flange_length": 0.232,
+       "flange_dia": 1.49
+      },
+      "estimated": [],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/black-delrin-pivot-bushing-34-inside-diameter-1-14-outside-diameter-1-18-total-length.html"
+     }
+    }
+   }
+  }
+ ]
+}

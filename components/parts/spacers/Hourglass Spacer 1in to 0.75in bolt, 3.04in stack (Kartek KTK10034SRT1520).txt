@@ -1,0 +1,23 @@
+Hourglass Spacer 1in to 0.75in bolt, 3.04in stack
+
+Part number:  KTK10034SRT1520
+Vendor:       Kartek
+Description:  17-4 Stainless Steel Hourglass Spacer For 1" Heim Or Uniball For 3/4" Bolt 3-1/16" Stack Height
+Material:     stainless
+Source:       https://www.kartek.com/parts/17-4-stainless-steel-hourglass-spacer-for-1-heim-or-uniball-for-34-bolt-3-116-stack-height.html
+
+Dimensions (inches):
+  ball_bore: 1
+  bolt: 0.75
+  shoulder_height: 0.835
+  head_dia: 1.24
+  half_stack: 1.52
+  pin_depth: 0.685
+  style: hourglass
+  waist_dia: 0.89
+
+Estimated (not published by the vendor):
+  waist_dia
+  base, waist and head heights
+
+Volume check: not checked

@@ -1,0 +1,32 @@
+Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall
+
+Part number:  KTK9044HD
+Vendor:       Kartek
+Description:  Kartek 4130 uniball cup for 1" bore uniballs 1-1/2" tall 2-5/8" OD
+Material:     4130
+Source:       kartek.com KTK9044HD; FK 2017 catalog p.37 (CPW16)
+
+Also available as:
+  FK CPW16         equivalent - Kartek states the same dimensions as the FK cup
+  Kartek FKBCPW16  equivalent - Kartek stock number for the FK CPW16 cup
+
+Dimensions (inches):
+  bearing_od: 2.125
+  height: 1.5
+  od: 2.625
+  lip_id: 1.9
+  lip_thickness: 0.259
+  groove_dia: 2.245
+  groove_width: 0.086
+  seat_depth: 1.005
+  bottom_z: -0.7615
+  top_z: 0.7385
+  snap_ring: KTK9044SR
+
+Estimated (not published by the vendor):
+  lip_id
+  lip_thickness
+  groove_dia
+  groove_width
+
+Volume check: ok

@@ -1,0 +1,137 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Sleeve profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.9375,
+      -36.068
+     ],
+     [
+      12.7,
+      -36.068
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      -36.068
+     ],
+     [
+      12.7,
+      36.068
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      36.068
+     ],
+     [
+      7.9375,
+      36.068
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.9375,
+      36.068
+     ],
+     [
+      7.9375,
+      -36.068
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Sleeve",
+    "body_name": "Sleeve"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Sleeve"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTKISL100188",
+     "description": "4130 Chromoly Pivot Bushing Inner Sleeve For 5/8\" Bolt 1\" Outside Diameter 2.840\" Total Length",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "inner_sleeve",
+      "units": "in",
+      "dims": {
+       "od": 1.0,
+       "id": 0.625,
+       "length": 2.84,
+       "kind": "inner"
+      },
+      "estimated": [],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-58-bolt-1-outside-diameter-2840-total-length.html"
+     }
+    }
+   }
+  }
+ ]
+}

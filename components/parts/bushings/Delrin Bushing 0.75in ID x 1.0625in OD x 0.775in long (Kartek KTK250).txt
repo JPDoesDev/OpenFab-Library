@@ -1,0 +1,16 @@
+Delrin Bushing 0.75in ID x 1.0625in OD x 0.775in long
+
+Part number:  KTK250
+Vendor:       Kartek
+Description:  Black Delrin Pivot Bushing 3/4" Inside Diameter 1-1/16" Outside Diameter 3/4" Total Length
+Material:     delrin
+Source:       https://www.kartek.com/parts/black-delrin-pivot-bushing-34-inside-diameter-1-116-outside-diameter-34-total-length.html
+
+Dimensions (inches):
+  id: 0.75
+  od: 1.0625
+  body_length: 0.59
+  flange_length: 0.185
+  flange_dia: 1.25
+
+Volume check: ok

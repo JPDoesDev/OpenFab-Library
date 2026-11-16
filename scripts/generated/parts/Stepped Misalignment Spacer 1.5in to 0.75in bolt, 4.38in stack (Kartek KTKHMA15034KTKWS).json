@@ -1,0 +1,276 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Spacer profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      -17.4625
+     ],
+     [
+      19.05,
+      -17.4625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      -17.4625
+     ],
+     [
+      19.05,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      0.0
+     ],
+     [
+      20.6375,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.6375,
+      0.0
+     ],
+     [
+      20.6375,
+      0.762
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.6375,
+      0.762
+     ],
+     [
+      16.9545,
+      3.81
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.9545,
+      3.81
+     ],
+     [
+      16.9545,
+      5.715
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.9545,
+      5.715
+     ],
+     [
+      20.6375,
+      17.78
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.6375,
+      17.78
+     ],
+     [
+      20.6375,
+      31.75
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.6375,
+      31.75
+     ],
+     [
+      15.5575,
+      31.75
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.5575,
+      31.75
+     ],
+     [
+      15.5575,
+      38.1
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.5575,
+      38.1
+     ],
+     [
+      9.525,
+      38.1
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      38.1
+     ],
+     [
+      9.525,
+      -17.4625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Spacer",
+    "body_name": "Spacer"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Spacer"
+    ],
+    "material": "Stainless Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTKHMA15034KTKWS",
+     "description": "17-4 Stainless Steel Misalignment Stepped Spacer For 1-1/2\" Uniball For 3/4\" Bolt 4-3/8\" Stack Ht",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spacer",
+      "units": "in",
+      "dims": {
+       "ball_bore": 1.5,
+       "bolt": 0.75,
+       "shoulder_height": 1.5,
+       "head_dia": 1.625,
+       "half_stack": 2.19,
+       "pin_depth": 0.6875,
+       "style": "stepped misalignment",
+       "step_dia": 1.225,
+       "waist_dia": 1.335,
+       "flange_dia": 1.625
+      },
+      "estimated": [
+       "step_dia and step height",
+       "waist_dia",
+       "flange_dia",
+       "flange and cone heights"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/17-4-stainless-steel-misalignment-stepped-spacer-for-1-12-uniball-for-34-bolt-4-38-stack-ht.html"
+     }
+    }
+   }
+  }
+ ]
+}

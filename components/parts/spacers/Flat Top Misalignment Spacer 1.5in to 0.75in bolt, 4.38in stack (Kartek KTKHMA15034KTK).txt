@@ -1,0 +1,25 @@
+Flat Top Misalignment Spacer 1.5in to 0.75in bolt, 4.38in stack
+
+Part number:  KTKHMA15034KTK
+Vendor:       Kartek
+Description:  17-4 Stainless Steel Misalignment Flat Top Spacer For 1-1/2" Uniball For 3/4" Bolt 4-3/8" Stack Ht
+Material:     stainless
+Source:       https://www.kartek.com/parts/17-4-stainless-steel-misalignment-flat-top-spacer-for-1-12-uniball-for-34-bolt-4-38-stack-ht.html
+
+Dimensions (inches):
+  ball_bore: 1.5
+  bolt: 0.75
+  shoulder_height: 1.5
+  head_dia: 1.625
+  half_stack: 2.19
+  pin_depth: 0.6875
+  style: flat top misalignment
+  waist_dia: 1.335
+  flange_dia: 1.625
+
+Estimated (not published by the vendor):
+  waist_dia
+  flange_dia
+  flange and cone heights
+
+Volume check: not checked

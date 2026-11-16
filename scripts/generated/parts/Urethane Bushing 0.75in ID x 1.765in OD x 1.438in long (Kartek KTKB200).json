@@ -1,0 +1,178 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Bushing profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      -30.48
+     ],
+     [
+      22.4155,
+      -30.48
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.4155,
+      -30.48
+     ],
+     [
+      22.4155,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.4155,
+      0.0
+     ],
+     [
+      27.6225,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      27.6225,
+      0.0
+     ],
+     [
+      27.6225,
+      6.0452
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      27.6225,
+      6.0452
+     ],
+     [
+      9.525,
+      6.0452
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      6.0452
+     ],
+     [
+      9.525,
+      -30.48
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Bushing",
+    "body_name": "Bushing"
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "Polyurethane",
+    "density_g_cm3": 1.2,
+    "color": "#a01818"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Bushing"
+    ],
+    "material": "Polyurethane"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTKB200",
+     "description": "Kartek Off-Road Urethane Bushing 3/4\" Inside Diameter 1.765\" Outside Diameter 1-7/16\" Total Length",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "bushing",
+      "units": "in",
+      "dims": {
+       "id": 0.75,
+       "od": 1.765,
+       "body_length": 1.2,
+       "flange_length": 0.238,
+       "flange_dia": 2.175
+      },
+      "estimated": [],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/kartek-off-road-urethane-bushing-34-inside-diameter-1765-outside-diameter-1-716-total-length.html"
+     }
+    }
+   }
+  }
+ ]
+}

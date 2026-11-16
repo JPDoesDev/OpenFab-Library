@@ -1,0 +1,185 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Bushing profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      -30.861
+     ],
+     [
+      22.606,
+      -30.861
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.606,
+      -30.861
+     ],
+     [
+      22.606,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.606,
+      0.0
+     ],
+     [
+      25.4,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      25.4,
+      0.0
+     ],
+     [
+      25.4,
+      6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      25.4,
+      6.35
+     ],
+     [
+      9.525,
+      6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      6.35
+     ],
+     [
+      9.525,
+      -30.861
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Bushing",
+    "body_name": "Bushing"
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "Polyurethane",
+    "density_g_cm3": 1.2,
+    "color": "#a01818"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Bushing"
+    ],
+    "material": "Polyurethane"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "B200",
+     "description": "AutoFab Black Urethane Bushing 3/4\" Inside Diameter 1.780\" Outside Diameter 1-7/16\" Total Length",
+     "organization": "AutoFab",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "bushing",
+      "units": "in",
+      "dims": {
+       "id": 0.75,
+       "od": 1.78,
+       "body_length": 1.215,
+       "flange_length": 0.25,
+       "flange_dia": 2.0
+      },
+      "estimated": [],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AFBB200",
+        "relation": "same part",
+        "note": "Kartek stock number for the AutoFab part"
+       }
+      ],
+      "source": "https://www.kartek.com/parts/autofab-black-urethane-bushing-34-inside-diameter-1780-outside-diameter-1-716-total-length.html"
+     }
+    }
+   }
+  }
+ ]
+}

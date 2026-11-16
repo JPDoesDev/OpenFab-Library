@@ -1,0 +1,4 @@
+item,qty,vendor,part_number,description,also_available_as
+1,2,AutoFab,B125,"AutoFab Black Urethane Bushing 1/2"" Inside Diameter 1.070"" Outside Diameter 1"" Total Length",Kartek AFBB125 (same part)
+2,1,AutoFab,BA125-INNER,Inner sleeve from AutoFab urethane bushing assembly AFBBA125,AutoFab BA125 (sold in kit); Kartek AFBBA125 (sold in kit)
+3,1,AutoFab,BA125-OUTER,Outer sleeve from AutoFab urethane bushing assembly AFBBA125,AutoFab BA125 (sold in kit); Kartek AFBBA125 (sold in kit)

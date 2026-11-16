@@ -1,0 +1,16 @@
+Urethane Bushing 1in ID x 1.51in OD x 2.255in long
+
+Part number:  KTK60069
+Vendor:       Kartek
+Description:  AutoFab Hard Red Urethane Bushing 1" Inside Diameter 1.5" Outside Diameter 2-1/4" Total Length
+Material:     urethane
+Source:       https://www.kartek.com/parts/autofab-hard-red-urethane-bushing-1-inside-diameter-15-outside-diameter-2-14-total-length.html
+
+Dimensions (inches):
+  id: 1
+  od: 1.51
+  body_length: 1.75
+  flange_length: 0.505
+  flange_dia: 2.015
+
+Volume check: ok

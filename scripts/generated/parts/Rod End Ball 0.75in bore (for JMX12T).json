@@ -1,0 +1,148 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      -11.1125
+     ],
+     [
+      12.415632,
+      -11.1125
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     12.415632,
+     -11.1125
+    ],
+    "end": [
+     12.415632,
+     11.1125
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.415632,
+      11.1125
+     ],
+     [
+      9.525,
+      11.1125
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      11.1125
+     ],
+     [
+      9.525,
+      -11.1125
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of JMX12T (moves in the body; counted in the BOM with the body)",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "bore": 0.75,
+       "head_dia": 1.75,
+       "ball_width": 0.875,
+       "head_width": 0.687,
+       "ball_dia": 1.312,
+       "length": 2.875,
+       "thread": "3/4-16 UNF-3A",
+       "thread_dia": 0.75,
+       "thread_length": 1.75,
+       "hand": "RH",
+       "catalog_misalignment_deg": 14.0,
+       "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
+      },
+      "estimated": [],
+      "also_available_as": [],
+      "thread": "3/4-16 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.11"
+     }
+    }
+   }
+  }
+ ]
+}

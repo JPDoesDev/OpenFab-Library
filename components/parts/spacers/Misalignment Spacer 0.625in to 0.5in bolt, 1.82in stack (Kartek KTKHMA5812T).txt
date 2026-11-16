@@ -1,0 +1,25 @@
+Misalignment Spacer 0.625in to 0.5in bolt, 1.82in stack
+
+Part number:  KTKHMA5812T
+Vendor:       Kartek
+Description:  17-4 Stainless Steel Misalignment Spacer For 5/8" Heim Or Uniball For 1/2" Bolt 1-7/8" Stack Height
+Material:     stainless
+Source:       https://www.kartek.com/parts/17-4-stainless-steel-misalignment-spacer-for-58-heim-or-uniball-for-12-bolt-1-78-stack-height.html
+
+Dimensions (inches):
+  ball_bore: 0.625
+  bolt: 0.5
+  shoulder_height: 0.536
+  head_dia: 0.8
+  half_stack: 0.91
+  pin_depth: 0.374
+  style: misalignment
+  waist_dia: 0.62
+  flange_dia: 0.8
+
+Estimated (not published by the vendor):
+  waist_dia
+  flange_dia
+  flange and cone heights
+
+Volume check: not checked

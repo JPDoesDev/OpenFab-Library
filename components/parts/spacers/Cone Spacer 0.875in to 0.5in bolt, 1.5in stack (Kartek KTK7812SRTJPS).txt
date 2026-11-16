@@ -1,0 +1,22 @@
+Cone Spacer 0.875in to 0.5in bolt, 1.5in stack
+
+Part number:  KTK7812SRTJPS
+Vendor:       Kartek
+Description:  17-4 Stainless Steel Cone Spacer For 7/8" Heim Or Uniball For 1/2" Bolt 1-1/2" Stack Height
+Material:     stainless
+Source:       https://www.kartek.com/parts/17-4-stainless-steel-cone-spacer-for-78-heim-or-uniball-for-12-bolt-1-12-stack-height.html
+
+Dimensions (inches):
+  ball_bore: 0.875
+  bolt: 0.5
+  shoulder_height: 0.315
+  head_dia: 1.24
+  half_stack: 0.75
+  pin_depth: 0.435
+  style: cone
+  edge_height: 0.1325
+
+Estimated (not published by the vendor):
+  edge_height (cone angle)
+
+Volume check: not checked

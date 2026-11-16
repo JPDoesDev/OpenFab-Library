@@ -1,0 +1,195 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Spacer profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      -11.049
+     ],
+     [
+      9.525,
+      -11.049
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      -11.049
+     ],
+     [
+      9.525,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      0.0
+     ],
+     [
+      9.525,
+      0.508
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     15.748,
+     0.508
+    ],
+    "start": [
+     9.525,
+     0.508
+    ],
+    "end": [
+     15.748,
+     6.731
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.748,
+      6.731
+     ],
+     [
+      15.748,
+      8.001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.748,
+      8.001
+     ],
+     [
+      6.35,
+      8.001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      8.001
+     ],
+     [
+      6.35,
+      -11.049
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Spacer",
+    "body_name": "Spacer"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Spacer"
+    ],
+    "material": "Stainless Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK3412SRTF",
+     "description": "17-4 Stainless Steel Radius Cone Spacer For 3/4\" Heim Or Uniball For 1/2\" Bolt 1-1/2\" Stack Height",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spacer",
+      "units": "in",
+      "dims": {
+       "ball_bore": 0.75,
+       "bolt": 0.5,
+       "shoulder_height": 0.315,
+       "head_dia": 1.24,
+       "half_stack": 0.75,
+       "pin_depth": 0.435,
+       "style": "radius cone",
+       "flare_radius": 0.245,
+       "edge_height": 0.05
+      },
+      "estimated": [
+       "flare_radius",
+       "edge_height"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/17-4-stainless-steel-radius-cone-spacer-for-34-heim-or-uniball-for-12-bolt-1-12-stack-height.html"
+     }
+    }
+   }
+  }
+ ]
+}

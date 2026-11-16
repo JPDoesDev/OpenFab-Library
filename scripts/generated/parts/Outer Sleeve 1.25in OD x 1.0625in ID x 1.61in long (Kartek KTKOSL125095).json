@@ -1,0 +1,137 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Sleeve profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      13.49375,
+      -20.447
+     ],
+     [
+      15.875,
+      -20.447
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.875,
+      -20.447
+     ],
+     [
+      15.875,
+      20.447
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.875,
+      20.447
+     ],
+     [
+      13.49375,
+      20.447
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      13.49375,
+      20.447
+     ],
+     [
+      13.49375,
+      -20.447
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Sleeve",
+    "body_name": "Sleeve"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Sleeve"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTKOSL125095",
+     "description": "4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/16\" Bushings 1-1/4\" Outside Diameter 1.610\" Length",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "outer_sleeve",
+      "units": "in",
+      "dims": {
+       "od": 1.25,
+       "id": 1.0625,
+       "length": 1.61,
+       "kind": "outer"
+      },
+      "estimated": [],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/4130-chromoly-pivot-bushing-outer-sleeve-for-1-116-bushings-1-14-outside-diameter-1610-length.html"
+     }
+    }
+   }
+  }
+ ]
+}

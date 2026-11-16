@@ -1,0 +1,30 @@
+Rod End 0.75in bore, 0.75-16 LH
+
+Part number:  JMXL12T
+Vendor:       FK
+Description:  FK JMXL12T 3/4" bore 3/4-16 LH male chromoly PTFE lined rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.11
+
+Also available as:
+  Kartek FKBJMXL12T  same part - Kartek stock number for the FK part
+  Aurora RAB-12T     equivalent - left-hand counterpart of RAM-12T; not confirmed against an Aurora catalog
+
+Dimensions (inches):
+  bore: 0.75
+  head_dia: 1.75
+  ball_width: 0.875
+  head_width: 0.687
+  ball_dia: 1.312
+  length: 2.875
+  thread: 3/4-16 UNF-3A LH
+  thread_dia: 0.75
+  thread_length: 1.75
+  hand: LH
+  catalog_misalignment_deg: 14
+  thread_feature: cosmetic, M19.05x1.5875 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

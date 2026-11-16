@@ -1,0 +1,16 @@
+Urethane Bushing 0.375in ID x 0.825in OD x 0.688in long
+
+Part number:  KTKB100
+Vendor:       Kartek
+Description:  Kartek Off-Road Urethane Bushing 3/8" Inside Diameter .825" Outside Diameter 11/16" Total Length
+Material:     urethane
+Source:       https://www.kartek.com/parts/kartek-off-road-urethane-bushing-38-inside-diameter-825-outside-diameter-1116-total-length.html
+
+Dimensions (inches):
+  id: 0.375
+  od: 0.825
+  body_length: 0.5
+  flange_length: 0.188
+  flange_dia: 1
+
+Volume check: ok

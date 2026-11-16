@@ -1,0 +1,24 @@
+Radius Cone Spacer 0.75in to 0.5in bolt, 1.5in stack
+
+Part number:  KTK3412SRTF
+Vendor:       Kartek
+Description:  17-4 Stainless Steel Radius Cone Spacer For 3/4" Heim Or Uniball For 1/2" Bolt 1-1/2" Stack Height
+Material:     stainless
+Source:       https://www.kartek.com/parts/17-4-stainless-steel-radius-cone-spacer-for-34-heim-or-uniball-for-12-bolt-1-12-stack-height.html
+
+Dimensions (inches):
+  ball_bore: 0.75
+  bolt: 0.5
+  shoulder_height: 0.315
+  head_dia: 1.24
+  half_stack: 0.75
+  pin_depth: 0.435
+  style: radius cone
+  flare_radius: 0.245
+  edge_height: 0.05
+
+Estimated (not published by the vendor):
+  flare_radius
+  edge_height
+
+Volume check: not checked

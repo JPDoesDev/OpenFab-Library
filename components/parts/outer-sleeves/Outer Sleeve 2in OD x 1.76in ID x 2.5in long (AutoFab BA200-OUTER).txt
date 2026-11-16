@@ -1,0 +1,23 @@
+Outer Sleeve 2in OD x 1.76in ID x 2.5in long
+
+Part number:  BA200-OUTER
+Vendor:       AutoFab
+Description:  Outer sleeve from AutoFab urethane bushing assembly AFBBA200
+Material:     steel
+Source:       kartek.com AFBBA200 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)
+
+Also available as:
+  AutoFab BA200    sold in kit - not sold separately; part of the bushing assembly kit
+  Kartek AFBBA200  sold in kit - Kartek stock number for the kit
+
+Dimensions (inches):
+  od: 2
+  id: 1.76
+  length: 2.5
+  kind: outer
+
+Estimated (not published by the vendor):
+  id
+  length
+
+Volume check: ok

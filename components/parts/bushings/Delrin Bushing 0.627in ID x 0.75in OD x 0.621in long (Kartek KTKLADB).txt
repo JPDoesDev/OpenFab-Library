@@ -1,0 +1,16 @@
+Delrin Bushing 0.627in ID x 0.75in OD x 0.621in long
+
+Part number:  KTKLADB
+Vendor:       Kartek
+Description:  Black Delrin Pivot Bushing 5/8" Inside Diameter 3/4" Outside Diameter 5/8" Total Length
+Material:     delrin
+Source:       https://www.kartek.com/parts/black-delrin-pivot-bushing-58-inside-diameter-34-outside-diameter-58-total-length.html
+
+Dimensions (inches):
+  id: 0.627
+  od: 0.75
+  body_length: 0.5
+  flange_length: 0.121
+  flange_dia: 0.992
+
+Volume check: ok

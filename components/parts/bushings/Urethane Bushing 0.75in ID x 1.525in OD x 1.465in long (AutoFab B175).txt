@@ -1,0 +1,19 @@
+Urethane Bushing 0.75in ID x 1.525in OD x 1.465in long
+
+Part number:  B175
+Vendor:       AutoFab
+Description:  AutoFab Black Urethane Bushing 3/4" Inside Diameter 1.525" Outside Diameter 1-7/16" Total Length
+Material:     urethane
+Source:       https://www.kartek.com/parts/autofab-black-urethane-bushing-34-inside-diameter-1525-outside-diameter-1-716-total-length.html
+
+Also available as:
+  Kartek AFBB175  same part - Kartek stock number for the AutoFab part
+
+Dimensions (inches):
+  id: 0.75
+  od: 1.525
+  body_length: 1.215
+  flange_length: 0.25
+  flange_dia: 1.755
+
+Volume check: ok

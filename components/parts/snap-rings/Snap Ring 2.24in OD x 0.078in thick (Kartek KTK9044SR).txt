@@ -1,0 +1,20 @@
+Snap Ring 2.24in OD x 0.078in thick
+
+Part number:  KTK9044SR
+Vendor:       Kartek
+Description:  Snap ring for Kartek 9044 series 1" uniball cups
+Material:     steel
+Source:       kartek.com KTK9044SR
+
+Dimensions (inches):
+  od: 2.24
+  id: 1.945
+  thickness: 0.078
+
+Estimated (not published by the vendor):
+  od
+  id
+  thickness
+  modelled as a closed ring
+
+Volume check: ok

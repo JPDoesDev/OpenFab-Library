@@ -1,0 +1,16 @@
+Urethane Bushing 1in ID x 1.52in OD x 1.915in long
+
+Part number:  KTK604141
+Vendor:       Kartek
+Description:  Red Hard Urethane Pivot Bushing 1" Inside Diameter 1-1/2" Outside Diameter 1-15/16" Total Length
+Material:     urethane
+Source:       https://www.kartek.com/parts/red-hard-urethane-pivot-bushing-1-inside-diameter-1-12-outside-diameter-1-1516-total-length.html
+
+Dimensions (inches):
+  id: 1
+  od: 1.52
+  body_length: 1.495
+  flange_length: 0.42
+  flange_dia: 2.015
+
+Volume check: ok

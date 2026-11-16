@@ -1,0 +1,23 @@
+Outer Sleeve 1.25in OD x 1.06in ID x 1.5in long
+
+Part number:  BA125-OUTER
+Vendor:       AutoFab
+Description:  Outer sleeve from AutoFab urethane bushing assembly AFBBA125
+Material:     steel
+Source:       kartek.com AFBBA125 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)
+
+Also available as:
+  AutoFab BA125    sold in kit - not sold separately; part of the bushing assembly kit
+  Kartek AFBBA125  sold in kit - Kartek stock number for the kit
+
+Dimensions (inches):
+  od: 1.25
+  id: 1.06
+  length: 1.5
+  kind: outer
+
+Estimated (not published by the vendor):
+  id
+  length
+
+Volume check: ok

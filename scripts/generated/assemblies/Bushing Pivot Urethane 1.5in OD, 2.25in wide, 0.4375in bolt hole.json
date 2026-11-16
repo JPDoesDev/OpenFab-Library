@@ -1,0 +1,173 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/outer-sleeves/Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER).sc",
+    "translate": [
+     0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "AutoFab",
+     "also_available_as": "AutoFab BA150 (sold in kit); Kartek AFBBA150 (sold in kit)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/bushings/Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150).sc",
+    "translate": [
+     0,
+     0,
+     22.225
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "AutoFab",
+     "also_available_as": "Kartek AFBB150 (same part)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/bushings/Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150).sc",
+    "translate": [
+     0,
+     0,
+     0.0
+    ],
+    "reuse": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER):1",
+     "point": [
+      0.0,
+      0.0,
+      -22.225
+     ],
+     "z": [
+      0,
+      0,
+      -1
+     ]
+    },
+    "b": {
+     "occurrence": "Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150):2",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/inner-sleeves/Inner Sleeve 0.625in OD x 0.4375in ID x 2.25in long (AutoFab BA150-INNER).sc",
+    "translate": [
+     0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Inner Sleeve 0.625in OD x 0.4375in ID x 2.25in long (AutoFab BA150-INNER)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "AutoFab",
+     "also_available_as": "AutoFab BA150 (sold in kit); Kartek AFBBA150 (sold in kit)"
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER):1",
+     "Urethane Bushing 0.625in ID x 1.265in OD x 1.125in long (AutoFab B150):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "revolute",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Outer Sleeve 1.5in OD x 1.26in ID x 1.75in long (AutoFab BA150-OUTER):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Inner Sleeve 0.625in OD x 0.4375in ID x 2.25in long (AutoFab BA150-INNER):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  }
+ ]
+}

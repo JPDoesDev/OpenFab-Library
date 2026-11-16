@@ -1,0 +1,170 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/outer-sleeves/Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M).sc",
+    "translate": [
+     0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).sc",
+    "translate": [
+     0,
+     0,
+     38.1
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/bushings/Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S).sc",
+    "translate": [
+     0,
+     0,
+     0.0
+    ],
+    "reuse": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M):1",
+     "point": [
+      0.0,
+      0.0,
+      -38.1
+     ],
+     "z": [
+      0,
+      0,
+      -1
+     ]
+    },
+    "b": {
+     "occurrence": "Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S):2",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/inner-sleeves/Inner Sleeve 1in OD x 0.625in ID x 3.875in long (Kartek KTKISL100188M).sc",
+    "translate": [
+     0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Inner Sleeve 1in OD x 0.625in ID x 3.875in long (Kartek KTKISL100188M)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M):1",
+     "Delrin Bushing 1.005in ID x 1.5in OD x 1.925in long (Kartek KTK60414S):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "revolute",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Outer Sleeve 1.75in OD x 1.5in ID x 3in long (Kartek KTKOSL175120M):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Inner Sleeve 1in OD x 0.625in ID x 3.875in long (Kartek KTKISL100188M):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  }
+ ]
+}

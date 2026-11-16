@@ -1,0 +1,16 @@
+Delrin Bushing 1.254in ID x 1.5in OD x 2.05in long
+
+Part number:  KTK60414JPS
+Vendor:       Kartek
+Description:  Black Delrin Pivot Bushing 1-1/4" Inside Diameter 1-1/2" Outside Diameter 2-1/16" Total Length
+Material:     delrin
+Source:       https://www.kartek.com/parts/black-delrin-pivot-bushing-1-14-inside-diameter-1-12-outside-diameter-2-116-total-length.html
+
+Dimensions (inches):
+  id: 1.254
+  od: 1.5
+  body_length: 1.615
+  flange_length: 0.435
+  flange_dia: 1.982
+
+Volume check: ok

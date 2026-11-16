@@ -1,0 +1,15 @@
+Outer Sleeve 1.75in OD x 1.5in ID x 1.97in long
+
+Part number:  KTKOSL175120
+Vendor:       Kartek
+Description:  4130 Chromoly Pivot Bushing Outer Sleeve For 1-1/2" Bushings 1-3/4" Outside Diameter 1.970" Length
+Material:     4130
+Source:       https://www.kartek.com/parts/4130-chromoly-pivot-bushing-outer-sleeve-for-1-12-bushings-1-34-outside-diameter-1970-length.html
+
+Dimensions (inches):
+  od: 1.75
+  id: 1.5
+  length: 1.97
+  kind: outer
+
+Volume check: ok

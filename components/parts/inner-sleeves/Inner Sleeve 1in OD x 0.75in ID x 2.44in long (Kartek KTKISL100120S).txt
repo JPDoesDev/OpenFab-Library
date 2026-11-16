@@ -1,0 +1,15 @@
+Inner Sleeve 1in OD x 0.75in ID x 2.44in long
+
+Part number:  KTKISL100120S
+Vendor:       Kartek
+Description:  4130 Chromoly Pivot Bushing Inner Sleeve For 3/4" Bolt 1" Outside Diameter 2.440" Total Length
+Material:     4130
+Source:       https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-34-bolt-1-outside-diameter-2440-total-length.html
+
+Dimensions (inches):
+  od: 1
+  id: 0.75
+  length: 2.44
+  kind: inner
+
+Volume check: ok

@@ -1,0 +1,23 @@
+Inner Sleeve 0.625in OD x 0.4375in ID x 2.25in long
+
+Part number:  BA150-INNER
+Vendor:       AutoFab
+Description:  Inner sleeve from AutoFab urethane bushing assembly AFBBA150
+Material:     steel
+Source:       kartek.com AFBBA150 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)
+
+Also available as:
+  AutoFab BA150    sold in kit - not sold separately; part of the bushing assembly kit
+  Kartek AFBBA150  sold in kit - Kartek stock number for the kit
+
+Dimensions (inches):
+  od: 0.625
+  id: 0.4375
+  length: 2.25
+  kind: inner
+
+Estimated (not published by the vendor):
+  od
+  length
+
+Volume check: ok

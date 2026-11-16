@@ -1,0 +1,18 @@
+Straight Spacer 0.875in to 0.75in bolt, 1.52in stack
+
+Part number:  KTK7834SRTR
+Vendor:       Kartek
+Description:  17-4 Stainless Steel Straight Spacer For 7/8" Heim Or Uniball For 3/4" Bolt 1-1/2" Stack Height
+Material:     stainless
+Source:       https://www.kartek.com/parts/17-4-stainless-steel-straight-spacer-for-78-heim-or-uniball-for-34-bolt-1-12-stack-height.html
+
+Dimensions (inches):
+  ball_bore: 0.875
+  bolt: 0.75
+  shoulder_height: 0.325
+  head_dia: 1.1
+  half_stack: 0.76
+  pin_depth: 0.435
+  style: straight
+
+Volume check: ok

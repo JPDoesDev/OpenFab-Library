@@ -1,0 +1,15 @@
+Inner Sleeve 0.75in OD x 0.3937in ID x 1.965in long
+
+Part number:  KTKISL750173
+Vendor:       Kartek
+Description:  4130 Chromoly Pivot Bushing Inner Sleeve For 10mm Metric Bolt 3/4" Outside Diameter 1.965" Length
+Material:     4130
+Source:       https://www.kartek.com/parts/4130-chromoly-pivot-bushing-inner-sleeve-for-10mm-metric-bolt-34-outside-diameter-1965-length.html
+
+Dimensions (inches):
+  od: 0.75
+  id: 0.3937
+  length: 1.965
+  kind: inner
+
+Volume check: ok

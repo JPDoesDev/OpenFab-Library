@@ -1,0 +1,116 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/outer-sleeves/Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER).sc",
+    "translate": [
+     0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "AutoFab",
+     "also_available_as": "AutoFab BA100 (sold in kit); Kartek AFBBA100 (sold in kit)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100).sc",
+    "translate": [
+     0,
+     0,
+     12.7
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "AutoFab",
+     "also_available_as": "Kartek AFBB100 (same part)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100).sc",
+    "translate": [
+     0,
+     0,
+     0.0
+    ],
+    "reuse": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER):1",
+     "point": [
+      0.0,
+      0.0,
+      -12.7
+     ],
+     "z": [
+      0,
+      0,
+      -1
+     ]
+    },
+    "b": {
+     "occurrence": "Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100):2",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER):1",
+     "Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  }
+ ]
+}

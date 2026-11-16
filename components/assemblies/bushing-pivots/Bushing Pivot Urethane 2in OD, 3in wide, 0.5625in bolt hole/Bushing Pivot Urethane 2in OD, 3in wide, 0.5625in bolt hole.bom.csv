@@ -1,0 +1,4 @@
+item,qty,vendor,part_number,description,also_available_as
+1,2,AutoFab,B200,"AutoFab Black Urethane Bushing 3/4"" Inside Diameter 1.780"" Outside Diameter 1-7/16"" Total Length",Kartek AFBB200 (same part)
+2,1,AutoFab,BA200-INNER,Inner sleeve from AutoFab urethane bushing assembly AFBBA200,AutoFab BA200 (sold in kit); Kartek AFBBA200 (sold in kit)
+3,1,AutoFab,BA200-OUTER,Outer sleeve from AutoFab urethane bushing assembly AFBBA200,AutoFab BA200 (sold in kit); Kartek AFBBA200 (sold in kit)

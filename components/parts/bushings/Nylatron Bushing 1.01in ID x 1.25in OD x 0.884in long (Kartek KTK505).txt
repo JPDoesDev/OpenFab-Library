@@ -1,0 +1,16 @@
+Nylatron Bushing 1.01in ID x 1.25in OD x 0.884in long
+
+Part number:  KTK505
+Vendor:       Kartek
+Description:  Gray Nylatron Pivot Bushing 1" Inside Diameter 1-1/4" Outside Diameter 7/8" Total Length
+Material:     nylatron
+Source:       https://www.kartek.com/parts/gray-nylatron-pivot-bushing-1-inside-diameter-1-14-outside-diameter-78-total-length.html
+
+Dimensions (inches):
+  id: 1.01
+  od: 1.25
+  body_length: 0.694
+  flange_length: 0.19
+  flange_dia: 1.502
+
+Volume check: ok

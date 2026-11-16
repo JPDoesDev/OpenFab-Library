@@ -1,0 +1,153 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Sleeve profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.352,
+      -31.75
+     ],
+     [
+      25.4,
+      -31.75
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      25.4,
+      -31.75
+     ],
+     [
+      25.4,
+      31.75
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      25.4,
+      31.75
+     ],
+     [
+      22.352,
+      31.75
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.352,
+      31.75
+     ],
+     [
+      22.352,
+      -31.75
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Sleeve",
+    "body_name": "Sleeve"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Sleeve"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "BA200-OUTER",
+     "description": "Outer sleeve from AutoFab urethane bushing assembly AFBBA200",
+     "organization": "AutoFab",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "outer_sleeve",
+      "units": "in",
+      "dims": {
+       "od": 2.0,
+       "id": 1.76,
+       "length": 2.5,
+       "kind": "outer"
+      },
+      "estimated": [
+       "id",
+       "length"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "AutoFab",
+        "other_part_number": "BA200",
+        "relation": "sold in kit",
+        "note": "not sold separately; part of the bushing assembly kit"
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AFBBA200",
+        "relation": "sold in kit",
+        "note": "Kartek stock number for the kit"
+       }
+      ],
+      "source": "kartek.com AFBBA200 (kit dimensions; sleeve sizes inferred from the kit and its AFBB bushings)"
+     }
+    }
+   }
+  }
+ ]
+}

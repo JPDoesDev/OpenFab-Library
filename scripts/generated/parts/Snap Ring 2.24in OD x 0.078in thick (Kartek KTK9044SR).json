@@ -1,0 +1,141 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ring profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      24.7015,
+      -0.9906
+     ],
+     [
+      28.448,
+      -0.9906
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      28.448,
+      -0.9906
+     ],
+     [
+      28.448,
+      0.9906
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      28.448,
+      0.9906
+     ],
+     [
+      24.7015,
+      0.9906
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      24.7015,
+      0.9906
+     ],
+     [
+      24.7015,
+      -0.9906
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ring",
+    "body_name": "Ring"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ring"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK9044SR",
+     "description": "Snap ring for Kartek 9044 series 1\" uniball cups",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "snap_ring",
+      "units": "in",
+      "dims": {
+       "od": 2.24,
+       "id": 1.945,
+       "thickness": 0.078
+      },
+      "estimated": [
+       "od",
+       "id",
+       "thickness",
+       "modelled as a closed ring"
+      ],
+      "also_available_as": [],
+      "source": "kartek.com KTK9044SR"
+     }
+    }
+   }
+  }
+ ]
+}
