@@ -38,6 +38,24 @@ class Part:
     estimated: list = field(default_factory=list)
     bom_type: str = "purchased"
     properties: dict = field(default_factory=dict)
+    title: str = ""          # readable name without the part number
+    name: str = ""           # file stem and design-tree name: title plus "(vendor part number)"
+    folder: str = ""         # folder under parts/
+    material: str = ""
+    xrefs: list = field(default_factory=list)
+
+
+XREFS: dict[str, list] = {}   # part number -> [{other_vendor, other_part_number, relation, note}]
+INTERNAL = "_internal"        # helper pieces that are not things you buy
+
+
+def num(v: float) -> str:
+    """0.75 for 3/4, 1 for 1.000: decimals, because file names cannot hold a slash."""
+    return f"{v:.4f}".rstrip("0").rstrip(".")
+
+
+def inch(v: float) -> str:
+    return num(v) + "in"
 
 
 def f(row: dict, key: str) -> float:
@@ -46,17 +64,23 @@ def f(row: dict, key: str) -> float:
 
 def _finish(row: dict, key: str, family: str, body: str, material: str, script: Script,
             volume, dims: dict, estimated=(), part_number=None, description=None,
-            bom_type="purchased") -> Part:
+            bom_type="purchased", title: str = "", folder: str = "") -> Part:
     pn = row.get("part_number", "") if part_number is None else part_number
     desc = description or row.get("description", "")
     vendor = row.get("vendor", "")
-    props = {k: row[k] for k in ("kartek_sku", "cross_reference", "thread", "source") if row.get(k)}
+    props = {k: row[k] for k in ("thread", "source") if row.get(k)}
+    xrefs = XREFS.get(pn, []) if pn else []
+    if pn:
+        name = f"{title} ({vendor} {pn})" if vendor and vendor != "generic" else f"{title} (generic)"
+    else:
+        name = title
     script.material(body, material)
     script.metadata(pn, desc, vendor, {
-        "family": family, "units": "in", "dims": dims,
-        "estimated": list(estimated), **props,
+        "family": family, "units": "in", "dims": dims, "estimated": list(estimated),
+        "also_available_as": xrefs, **props,
     })
-    return Part(key, family, pn, desc, vendor, script, volume, dims, list(estimated), bom_type, props)
+    return Part(key, family, pn, desc, vendor, script, volume, dims, list(estimated), bom_type, props,
+                title, name, folder, material, xrefs)
 
 
 def _socket_ring(od: float, width: float, ball_dia: float) -> list:
@@ -84,11 +108,18 @@ def spherical_bearing(row: dict) -> list[Part]:
     ball.revolve("Ball", _ball(B, W, bd))
     v_ball = sphere_slice_volume(bd, W) - PI * (B / 2) ** 2 * W
     return [
-        _finish(row, pn, "spherical_bearing", "Race", row["material"], race, v_race, dims),
+        _finish(row, pn, "spherical_bearing", "Race", row["material"], race, v_race, dims,
+                title=f"Uniball {inch(B)} bore x {inch(D)} OD", folder="Uniballs"),
         _finish(row, f"{pn}.ball", "spherical_bearing_ball", "Ball", row["material"], ball, v_ball, dims,
                 part_number="", description=f"Ball of {pn} (moves in the race; counted in the BOM with the race)",
-                bom_type="reference"),
+                bom_type="reference", title=f"Uniball Ball {inch(B)} bore (for {pn})", folder=INTERNAL),
     ]
+
+
+def thread_name(row: dict) -> str:
+    """'3/4-16 UNF-3A LH' -> '0.75-16 LH'."""
+    tpi = row["thread"].split("-")[1].split()[0]
+    return f"{num(f(row, 'thread_dia'))}-{tpi} {row['hand']}"
 
 
 def rod_end(row: dict) -> list[Part]:
@@ -108,10 +139,11 @@ def rod_end(row: dict) -> list[Part]:
     v_ball = sphere_slice_volume(bd, W) - PI * (B / 2) ** 2 * W
     est = ["shank is a plain cylinder at thread major diameter; no neck, thread or grease fitting modelled"]
     return [
-        _finish(row, pn, "rod_end", "Body", row["material"], body, None, dims, est),
+        _finish(row, pn, "rod_end", "Body", row["material"], body, None, dims, est,
+                title=f"Rod End {inch(B)} bore, {thread_name(row)}", folder="Rod Ends"),
         _finish(row, f"{pn}.ball", "rod_end_ball", "Ball", row["material"], ball, v_ball, dims,
                 part_number="", description=f"Ball of {pn} (moves in the body; counted in the BOM with the body)",
-                bom_type="reference"),
+                bom_type="reference", title=f"Rod End Ball {inch(B)} bore (for {pn})", folder=INTERNAL),
     ]
 
 
@@ -142,7 +174,8 @@ def spacer(row: dict) -> list[Part]:
         dims.update({"waist_dia": round(2 * rn, 4), "flange_dia": round(2 * rf, 4)})
         est = ["waist_dia", "flange_dia", "flange and cone heights"]
     s.revolve("Spacer", prof)
-    return [_finish(row, pn, "spacer", "Spacer", "stainless", s, vol, dims, est)]
+    title = f"{style.capitalize()} Spacer {inch(E)} to {inch(Db)} bolt, {inch(2 * C)} stack"
+    return [_finish(row, pn, "spacer", "Spacer", "stainless", s, vol, dims, est, title=title, folder="Spacers")]
 
 
 def cup(row: dict) -> list[Part]:
@@ -164,7 +197,9 @@ def cup(row: dict) -> list[Part]:
     s = Script()
     s.revolve("Cup", prof)
     est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()]
-    return [_finish(row, pn, "uniball_cup", "Cup", row["material"], s, vol, dims, est)]
+    title = f"Uniball Cup {inch(bo)} bore x {inch(D)} OD x {inch(H)} tall"
+    return [_finish(row, pn, "uniball_cup", "Cup", row["material"], s, vol, dims, est, title=title,
+                    folder="Uniball Cups")]
 
 
 _RACE_WIDTHS: dict[str, float] = {}
@@ -188,7 +223,8 @@ def snap_ring(row: dict) -> list[Part]:
     vol = PI * ((od / 2) ** 2 - (i / 2) ** 2) * t
     est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()] + ["modelled as a closed ring"]
     return [_finish(row, row["part_number"], "snap_ring", "Ring", row["material"], s, vol,
-                    {"od": od, "id": i, "thickness": t}, est)]
+                    {"od": od, "id": i, "thickness": t}, est,
+                    title=f"Snap Ring {inch(od)} OD x {inch(t)} thick", folder="Snap Rings")]
 
 
 def jam_nut(row: dict) -> list[Part]:
@@ -198,7 +234,8 @@ def jam_nut(row: dict) -> list[Part]:
     vol = (math.sqrt(3) / 2 * af * af - PI * d * d / 4) * w
     return [_finish(row, row["part_number"], "jam_nut", "Nut", row["material"], s, vol,
                     {"hex": af, "width": w, "thread": row["thread"], "thread_dia": d, "hand": row["hand"]},
-                    ["bore is at thread major diameter; thread not modelled"])]
+                    ["bore is at thread major diameter; thread not modelled"],
+                    title=f"Jam Nut {thread_name(row)}", folder="Jam Nuts")]
 
 
 def bushing(row: dict) -> list[Part]:
@@ -207,7 +244,9 @@ def bushing(row: dict) -> list[Part]:
     s.revolve("Bushing", [(i / 2, -L), (od / 2, -L), (od / 2, 0), (fd / 2, 0), (fd / 2, fl), (i / 2, fl)])
     vol = PI * ((od / 2) ** 2 * L + (fd / 2) ** 2 * fl - (i / 2) ** 2 * (L + fl))
     return [_finish(row, row["part_number"], "bushing", "Bushing", row["material"], s, vol,
-                    {"id": i, "od": od, "body_length": L, "flange_length": fl, "flange_dia": fd})]
+                    {"id": i, "od": od, "body_length": L, "flange_length": fl, "flange_dia": fd},
+                    title=f"{row['material'].capitalize()} Bushing {inch(i)} ID x {inch(od)} OD x {inch(L + fl)} long",
+                    folder="Bushings")]
 
 
 def sleeve(row: dict) -> list[Part]:
@@ -217,13 +256,23 @@ def sleeve(row: dict) -> list[Part]:
     vol = PI * ((od / 2) ** 2 - (i / 2) ** 2) * L
     est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()]
     return [_finish(row, row["part_number"], f"{row['kind']}_sleeve", "Sleeve", row["material"], s, vol,
-                    {"od": od, "id": i, "length": L, "kind": row["kind"]}, est)]
+                    {"od": od, "id": i, "length": L, "kind": row["kind"]}, est,
+                    title=f"{row['kind'].capitalize()} Sleeve {inch(od)} OD x {inch(i)} ID x {inch(L)} long",
+                    folder=f"{row['kind'].capitalize()} Sleeves")]
 
 
 # ---- generic hardware and reference geometry (not vendor catalogue items) ----
 
 def bolt_key(dia: float, length: float) -> str:
-    return f"HEX-BOLT-{dia:.4f}x{length:.2f}"
+    return f"HEX-BOLT-{num(dia)}x{num(length)}"
+
+
+def nut_key(dia: float) -> str:
+    return f"HEX-NUT-{num(dia)}"
+
+
+def tab_key(bolt: float) -> str:
+    return f"REF-TAB-{num(bolt)}"
 
 
 def hex_bolt(dia: float, length: float) -> Part:
@@ -234,10 +283,11 @@ def hex_bolt(dia: float, length: float) -> Part:
     vol = math.sqrt(3) / 2 * af * af * k + PI * dia * dia / 4 * length
     key = bolt_key(dia, length)
     row = {"part_number": key, "vendor": "generic",
-           "description": f'Hex bolt {dia:g}" x {length:g}" (generic; pick grade and thread to suit)'}
+           "description": f"Hex bolt {inch(dia)} x {inch(length)} (generic; pick grade and thread to suit)"}
     return _finish(row, key, "hex_bolt", "Bolt", "steel", s, vol,
                    {"dia": dia, "length": length, "hex": af, "head_height": k},
-                   ["generic proportions: hex 1.5 d, head 0.65 d"])
+                   ["generic proportions: hex 1.5 d, head 0.65 d"],
+                   title=f"Hex Bolt {inch(dia)} x {inch(length)}", folder="Hardware")
 
 
 def hex_nut(dia: float) -> Part:
@@ -245,10 +295,11 @@ def hex_nut(dia: float) -> Part:
     s = Script()
     s.hex_prism("Nut", af, h, z0=0, hole=dia)
     vol = (math.sqrt(3) / 2 * af * af - PI * dia * dia / 4) * h
-    key = f"HEX-NUT-{dia:.4f}"
-    row = {"part_number": key, "vendor": "generic", "description": f'Hex nut {dia:g}" (generic)'}
+    key = nut_key(dia)
+    row = {"part_number": key, "vendor": "generic", "description": f"Hex nut {inch(dia)} (generic)"}
     return _finish(row, key, "hex_nut", "Nut", "steel", s, vol, {"dia": dia, "hex": af, "height": h},
-                   ["generic proportions: hex 1.5 d, height 0.875 d"])
+                   ["generic proportions: hex 1.5 d, height 0.875 d"],
+                   title=f"Hex Nut {inch(dia)}", folder="Hardware")
 
 
 TAB_THICKNESS = 0.25
@@ -259,8 +310,9 @@ def tab(bolt: float) -> Part:
     s = Script()
     s.revolve("Tab", [(bolt / 2, 0), (od / 2, 0), (od / 2, TAB_THICKNESS), (bolt / 2, TAB_THICKNESS)])
     vol = PI * ((od / 2) ** 2 - (bolt / 2) ** 2) * TAB_THICKNESS
-    key = f"REF-TAB-{bolt:.4f}"
+    key = tab_key(bolt)
     row = {"part_number": "", "vendor": "",
-           "description": f'Reference mount tab for a {bolt:g}" bolt (stand-in for the chassis tab; not a part)'}
+           "description": f"Reference mount tab for a {inch(bolt)} bolt (stand-in for the chassis tab; not a part)"}
     return _finish(row, key, "reference_tab", "Tab", "steel", s, vol,
-                   {"bolt": bolt, "od": od, "thickness": TAB_THICKNESS}, bom_type="reference")
+                   {"bolt": bolt, "od": od, "thickness": TAB_THICKNESS}, bom_type="reference",
+                   title=f"Reference Tab {inch(bolt)} bolt", folder=INTERNAL)

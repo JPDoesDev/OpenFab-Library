@@ -1,4 +1,4 @@
-build/
+release/
 __pycache__/
 *.bak
 ref/

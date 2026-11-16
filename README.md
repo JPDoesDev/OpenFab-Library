@@ -30,21 +30,53 @@ text; the full terms are at the end of this file and in [LICENSE](LICENSE).
 
 | Path | What it holds |
 |---|---|
-| `data/*.csv` | One table per part family, in inches: dimensions, part numbers, cross-references, sources |
+| `data/*.csv` | One table per part family, in inches: dimensions, part numbers, sources |
+| `data/cross_reference.csv` | Other vendors' numbers for the same or an equivalent part |
 | `data/assemblies.json` | Assembly recipes: which parts go together |
 | `cadworks/` | Python (standard library only) that turns the data into SolidCraft scripts and runs them |
 | `catalog.json` | Generated index: every part and assembly, its dimensions, files, BOM and pivot limit |
-| `build/` | Generated designs (`.sc`), STEP copies, BOM CSVs and the scripts that made them (not in git) |
+| `release/` | Generated output, ready to zip and publish (not in git); see below |
 
 ## Build
 
 Needs `solidcraft-cli` (SolidCraft 0.43 or later) on the path.
 
-    python -m cadworks.build            # everything, about a minute
-    python -m cadworks.build JMX12T     # only assemblies whose name contains the text
+    python -m cadworks.build            # everything, about a minute; rebuilds release/ from scratch
+    python -m cadworks.build JMX12T     # only assemblies whose key contains the text
 
 The build checks each part's volume against the analytic value, checks each assembly
-for interference at rest, and fails loudly on any mismatch.
+for interference at rest and for broken or absolute links, and fails loudly on any of them.
+
+## The release folder
+
+    release/
+      parts/
+        Uniballs/          Uniball 1in bore x 2.125in OD (FK WSSX16T).sc  .step  .txt
+        Rod Ends/          Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc ...
+        Spacers/  Uniball Cups/  Snap Rings/  Jam Nuts/  Bushings/
+        Inner Sleeves/  Outer Sleeves/  Hardware/
+        _internal/         bearing balls and reference mount tabs: helpers, not things you buy
+      assemblies/
+        Uniball Stacks/    Uniball Stack 1in, misalignment spacers, 0.75in bolt, 2.76in stack.sc  .step  .bom.csv
+        Rod End Links/  Bushing Pivots/
+      scripts/             the SolidCraft command scripts that built every file
+      catalog.json  README.md  LICENSE
+
+## Names and part numbers
+
+- **File names are readable** and use decimal inches (0.75in is 3/4"), because a file name
+  cannot hold a slash. A part's name ends with its maker and part number in brackets.
+  SolidCraft shows the same name in the design tree when the part is inserted.
+- **The part number lives inside the file** as a design property, so `assembly.bom` in
+  SolidCraft lists it for anything you build from these parts, whatever the files are called.
+- **The maker's own number comes first.** A part is filed under the original maker's number
+  (FK's `WSSX16T`, not a reseller's stock number for it). Kartek's own parts use Kartek's number.
+- **Cross-references** go in `data/cross_reference.csv`: one row per other vendor's number,
+  marked `same part`, `equivalent` or `sold in kit`. They show up in each part's `.txt` sheet,
+  in `catalog.json` and in the `also_available_as` column of every assembly BOM. When you find
+  that one vendor's part matches another's, add a row there.
+- **Each part has a `.txt` sheet** beside it with part number, vendor, cross-references,
+  dimensions and which dimensions are estimated.
 
 ## How the assemblies work
 

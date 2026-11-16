@@ -97,12 +97,14 @@ class Script:
 
 
 def run(script: Script, save: Path | None = None, out: list[Path] | None = None,
-        start: Path | None = None, keep: Path | None = None) -> list:
+        start: Path | None = None, keep: Path | None = None, script_relative: bool = False) -> list:
     """Run a script headless and return the per-command results."""
     target = keep or (save.with_suffix(".script.json") if save else Path("script.json"))
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps({"commands": script.commands}, indent=1))
     args = [CLI, "run", str(target), "--results"]
+    if script_relative:   # file paths inside the script are relative to the script's own folder
+        args.append("--script-relative")
     if start:
         args += ["--in", str(start)]
     if save:

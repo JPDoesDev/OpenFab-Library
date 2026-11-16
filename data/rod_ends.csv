@@ -1,3 +1,3 @@
-part_number,vendor,series,hand,bore,head_dia,ball_width,head_width,ball_dia,length,thread,thread_dia,thread_length,catalog_misalignment_deg,material,kartek_sku,cross_reference,description,source
-JMX12T,FK Rod Ends,JMX,RH,0.7500,1.750,0.875,0.687,1.312,2.875,3/4-16 UNF-3A,0.750,1.750,14,steel,FKBJMX12T,Aurora RAM-12T; Aurora PRM-12T,"FK JMX12T 3/4"" bore 3/4-16 RH male chromoly PTFE lined rod end",FK 2017 Industrial Catalog p.11
-JMXL12T,FK Rod Ends,JMX,LH,0.7500,1.750,0.875,0.687,1.312,2.875,3/4-16 UNF-3A LH,0.750,1.750,14,steel,FKBJMXL12T,Aurora RAB-12T; Aurora PRB-12T,"FK JMXL12T 3/4"" bore 3/4-16 LH male chromoly PTFE lined rod end",FK 2017 Industrial Catalog p.11
+part_number,vendor,series,hand,bore,head_dia,ball_width,head_width,ball_dia,length,thread,thread_dia,thread_length,catalog_misalignment_deg,material,description,source
+JMX12T,FK,JMX,RH,0.7500,1.750,0.875,0.687,1.312,2.875,3/4-16 UNF-3A,0.750,1.750,14,steel,"FK JMX12T 3/4"" bore 3/4-16 RH male chromoly PTFE lined rod end",FK 2017 Industrial Catalog p.11
+JMXL12T,FK,JMX,LH,0.7500,1.750,0.875,0.687,1.312,2.875,3/4-16 UNF-3A LH,0.750,1.750,14,steel,"FK JMXL12T 3/4"" bore 3/4-16 LH male chromoly PTFE lined rod end",FK 2017 Industrial Catalog p.11

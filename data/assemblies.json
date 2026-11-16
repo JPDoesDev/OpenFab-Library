@@ -160,43 +160,43 @@
   "inner": "KTKISL100188S"
  },
  {
-  "key": "bushing-pivot_AFBB100_AFBBA100-OUTER_no-inner",
+  "key": "bushing-pivot_B100_BA100-OUTER_no-inner",
   "kind": "bushing_pivot",
   "title": "AutoFab urethane bushing assembly AFBBA100, 1\" sleeve, 3/8\" bolt",
-  "bushing": "AFBB100",
-  "outer": "AFBBA100-OUTER",
+  "bushing": "B100",
+  "outer": "BA100-OUTER",
   "inner": null
  },
  {
-  "key": "bushing-pivot_AFBB125_AFBBA125-OUTER_AFBBA125-INNER",
+  "key": "bushing-pivot_B125_BA125-OUTER_BA125-INNER",
   "kind": "bushing_pivot",
   "title": "AutoFab urethane bushing assembly AFBBA125, 1-1/4\" sleeve, 3/8\" bolt",
-  "bushing": "AFBB125",
-  "outer": "AFBBA125-OUTER",
-  "inner": "AFBBA125-INNER"
+  "bushing": "B125",
+  "outer": "BA125-OUTER",
+  "inner": "BA125-INNER"
  },
  {
-  "key": "bushing-pivot_AFBB150_AFBBA150-OUTER_AFBBA150-INNER",
+  "key": "bushing-pivot_B150_BA150-OUTER_BA150-INNER",
   "kind": "bushing_pivot",
   "title": "AutoFab urethane bushing assembly AFBBA150, 1-1/2\" sleeve, 7/16\" bolt",
-  "bushing": "AFBB150",
-  "outer": "AFBBA150-OUTER",
-  "inner": "AFBBA150-INNER"
+  "bushing": "B150",
+  "outer": "BA150-OUTER",
+  "inner": "BA150-INNER"
  },
  {
-  "key": "bushing-pivot_AFBB175_AFBBA175-OUTER_AFBBA175-INNER",
+  "key": "bushing-pivot_B175_BA175-OUTER_BA175-INNER",
   "kind": "bushing_pivot",
   "title": "AutoFab urethane bushing assembly AFBBA175, 1-3/4\" sleeve, 9/16\" bolt",
-  "bushing": "AFBB175",
-  "outer": "AFBBA175-OUTER",
-  "inner": "AFBBA175-INNER"
+  "bushing": "B175",
+  "outer": "BA175-OUTER",
+  "inner": "BA175-INNER"
  },
  {
-  "key": "bushing-pivot_AFBB200_AFBBA200-OUTER_AFBBA200-INNER",
+  "key": "bushing-pivot_B200_BA200-OUTER_BA200-INNER",
   "kind": "bushing_pivot",
   "title": "AutoFab urethane bushing assembly AFBBA200, 2\" sleeve, 9/16\" bolt",
-  "bushing": "AFBB200",
-  "outer": "AFBBA200-OUTER",
-  "inner": "AFBBA200-INNER"
+  "bushing": "B200",
+  "outer": "BA200-OUTER",
+  "inner": "BA200-INNER"
  }
 ]

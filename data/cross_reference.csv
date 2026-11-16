@@ -1,0 +1,36 @@
+part_number,vendor,other_vendor,other_part_number,relation,note
+WSSX16T,FK,Kartek,FKBWSSX16T,same part,Kartek stock number for the FK part
+JMX12T,FK,Kartek,FKBJMX12T,same part,Kartek stock number for the FK part
+JMXL12T,FK,Kartek,FKBJMXL12T,same part,Kartek stock number for the FK part
+SJNR12,FK,Kartek,FKBSJNR12,same part,Kartek stock number for the FK part
+SJNL12,FK,Kartek,FKBSJNL12,same part,Kartek stock number for the FK part
+WSSX16T,FK,Aurora,AIB-16T-3,equivalent,listed by Kartek as a cross reference
+WSSX16T,FK,NHBB,ADWL16V,equivalent,listed by Kartek as fitting the same cup
+JMX12T,FK,Aurora,RAM-12T,equivalent,listed by Kartek as a cross reference
+JMX12T,FK,Aurora,PRM-12T,equivalent,listed by Kartek as a cross reference
+KTK9044HD,Kartek,FK,CPW16,equivalent,Kartek states the same dimensions as the FK cup
+KTK9044HD,Kartek,Kartek,FKBCPW16,equivalent,Kartek stock number for the FK CPW16 cup
+B100,AutoFab,Kartek,AFBB100,same part,Kartek stock number for the AutoFab part
+B125,AutoFab,Kartek,AFBB125,same part,Kartek stock number for the AutoFab part
+B150,AutoFab,Kartek,AFBB150,same part,Kartek stock number for the AutoFab part
+B175,AutoFab,Kartek,AFBB175,same part,Kartek stock number for the AutoFab part
+B200,AutoFab,Kartek,AFBB200,same part,Kartek stock number for the AutoFab part
+BA100-OUTER,AutoFab,AutoFab,BA100,sold in kit,not sold separately; part of the bushing assembly kit
+BA100-OUTER,AutoFab,Kartek,AFBBA100,sold in kit,Kartek stock number for the kit
+BA125-OUTER,AutoFab,AutoFab,BA125,sold in kit,not sold separately; part of the bushing assembly kit
+BA125-OUTER,AutoFab,Kartek,AFBBA125,sold in kit,Kartek stock number for the kit
+BA125-INNER,AutoFab,AutoFab,BA125,sold in kit,not sold separately; part of the bushing assembly kit
+BA125-INNER,AutoFab,Kartek,AFBBA125,sold in kit,Kartek stock number for the kit
+BA150-OUTER,AutoFab,AutoFab,BA150,sold in kit,not sold separately; part of the bushing assembly kit
+BA150-OUTER,AutoFab,Kartek,AFBBA150,sold in kit,Kartek stock number for the kit
+BA150-INNER,AutoFab,AutoFab,BA150,sold in kit,not sold separately; part of the bushing assembly kit
+BA150-INNER,AutoFab,Kartek,AFBBA150,sold in kit,Kartek stock number for the kit
+BA175-OUTER,AutoFab,AutoFab,BA175,sold in kit,not sold separately; part of the bushing assembly kit
+BA175-OUTER,AutoFab,Kartek,AFBBA175,sold in kit,Kartek stock number for the kit
+BA175-INNER,AutoFab,AutoFab,BA175,sold in kit,not sold separately; part of the bushing assembly kit
+BA175-INNER,AutoFab,Kartek,AFBBA175,sold in kit,Kartek stock number for the kit
+BA200-OUTER,AutoFab,AutoFab,BA200,sold in kit,not sold separately; part of the bushing assembly kit
+BA200-OUTER,AutoFab,Kartek,AFBBA200,sold in kit,Kartek stock number for the kit
+BA200-INNER,AutoFab,AutoFab,BA200,sold in kit,not sold separately; part of the bushing assembly kit
+BA200-INNER,AutoFab,Kartek,AFBBA200,sold in kit,Kartek stock number for the kit
+JMXL12T,FK,Aurora,RAB-12T,equivalent,left-hand counterpart of RAM-12T; not confirmed against an Aurora catalog

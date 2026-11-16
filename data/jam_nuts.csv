@@ -1,3 +1,3 @@
-part_number,vendor,hand,thread,thread_dia,hex,width,material,kartek_sku,description,source
-SJNR12,FK Rod Ends,RH,3/4-16 UNF-2B,0.750,1.09375,0.425,steel,FKBSJNR12,FK SJNR12 3/4-16 RH steel jam nut,FK 2017 Industrial Catalog p.41
-SJNL12,FK Rod Ends,LH,3/4-16 UNF-2B LH,0.750,1.09375,0.425,steel,FKBSJNL12,FK SJNL12 3/4-16 LH steel jam nut,FK 2017 Industrial Catalog p.41
+part_number,vendor,hand,thread,thread_dia,hex,width,material,description,source
+SJNR12,FK,RH,3/4-16 UNF-2B,0.750,1.09375,0.425,steel,FK SJNR12 3/4-16 RH steel jam nut,FK 2017 Industrial Catalog p.41
+SJNL12,FK,LH,3/4-16 UNF-2B LH,0.750,1.09375,0.425,steel,FK SJNL12 3/4-16 LH steel jam nut,FK 2017 Industrial Catalog p.41
