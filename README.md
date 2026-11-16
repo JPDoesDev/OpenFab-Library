@@ -1,4 +1,4 @@
-# CAD-Works
+# OpenFab Library
 
 Common off-road fabrication hardware as SolidCraft parts and ready-mated assemblies:
 spherical bearings (uniballs), rod ends (heims), misalignment spacers, weld-in cups,
@@ -10,7 +10,7 @@ sleeve-bushing pivots. `catalog.json` lists every part and assembly.
 
 ## What the licence means for builders
 
-CAD-Works is open hardware under the CERN Open Hardware Licence v2, Weakly Reciprocal
+OpenFab Library is open hardware under the CERN Open Hardware Licence v2, Weakly Reciprocal
 (CERN-OHL-W). In practice:
 
 - **Use the parts in anything.** Personal or commercial, no fee and no permission needed.
@@ -33,7 +33,7 @@ text; the full terms are at the end of this file and in [LICENSE](LICENSE).
 | `data/*.csv` | One table per part family, in inches: dimensions, part numbers, sources |
 | `data/cross_reference.csv` | Other vendors' numbers for the same or an equivalent part |
 | `data/assemblies.json` | Assembly recipes: which parts go together |
-| `cadworks/` | Python (standard library only) that turns the data into SolidCraft scripts and runs them |
+| `openfab/` | Python (standard library only) that turns the data into SolidCraft scripts and runs them |
 | `catalog.json` | Generated index: every part and assembly, its dimensions, files, BOM and pivot limit |
 | `release/` | Generated output, ready to zip and publish (not in git); see below |
 
@@ -41,8 +41,8 @@ text; the full terms are at the end of this file and in [LICENSE](LICENSE).
 
 Needs `solidcraft-cli` (SolidCraft 0.43 or later) on the path.
 
-    python -m cadworks.build            # everything, about a minute; rebuilds release/ from scratch
-    python -m cadworks.build JMX12T     # only assemblies whose key contains the text
+    python -m openfab.build            # everything, about a minute; rebuilds release/ from scratch
+    python -m openfab.build JMX12T     # only assemblies whose key contains the text
 
 `catalog.json` records the SolidCraft version that built the release. SolidCraft's file
 format changes between versions, so the `.step` copies are the safe choice for older installs.
@@ -123,7 +123,7 @@ press fit.
 
 ## Contact and contributing
 
-CAD-Works is maintained by JPDoesDev.
+OpenFab Library is maintained by JPDoesDev.
 
 - Website: [jpdoes.dev](https://jpdoes.dev)
 - Email: [jpdoesdev@gmail.com](mailto:jpdoesdev@gmail.com)
@@ -150,4 +150,4 @@ the CERN-OHL-W v2 for applicable conditions. The models are reference geometry, 
 engineering data: check every dimension against the real part before you cut or weld.
 
 Vendor names and part numbers are used only to identify the parts being modelled.
-CAD-Works is not affiliated with or endorsed by those vendors.
+OpenFab Library is not affiliated with or endorsed by those vendors.

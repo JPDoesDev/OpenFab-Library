@@ -1,4 +1,4 @@
-"""Build every part and assembly into release/: python -m cadworks.build [filter ...]
+"""Build every part and assembly into release/: python -m openfab.build [filter ...]
 
 Reads data/*.csv and data/assemblies.json, runs the generated scripts through
 solidcraft-cli, checks each part's volume against the analytic value, finds
@@ -45,7 +45,7 @@ def sidecar(part: P.Part, entry: dict) -> str:
     else:
         lines += ["Part number:  none (helper geometry, not something you buy)"]
     lines += [f"Description:  {part.description}", f"Material:     {part.material}",
-              f"Source:       {part.properties.get('source', 'CAD-Works')}"]
+              f"Source:       {part.properties.get('source', 'OpenFab Library')}"]
     if part.xrefs:
         lines += ["", "Also available as:"]
         width = max(len(f"{x['other_vendor']} {x['other_part_number']}") for x in part.xrefs)

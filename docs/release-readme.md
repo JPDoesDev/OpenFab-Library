@@ -1,7 +1,7 @@
-# CAD-Works release
+# OpenFab Library release
 
 Off-road fabrication hardware as SolidCraft parts and ready-mated assemblies.
-Source, data and the generator: see the CAD-Works repository.
+Source, data and the generator: https://github.com/JPDoesDev/OpenFab-Library
 
 Built with {built_with}. SolidCraft's file format changes between versions: open the `.sc`
 files with that version or newer, or use the `.step` copies, which open anywhere.

@@ -12,7 +12,7 @@ from pathlib import Path
 
 IN = 25.4
 CLI = "solidcraft-cli"
-META_KEY = "works.cad.library"
+META_KEY = "dev.jpdoes.openfab"
 
 # name -> (SolidCraft material name, density g/cm3 if it has to be created, colour)
 MATERIALS = {
@@ -91,7 +91,7 @@ class Script:
             "part_number": part_number,
             "description": description,
             "organization": vendor,
-            "project": "CAD-Works",
+            "project": "OpenFab Library",
             META_KEY: extra,
         })
 
