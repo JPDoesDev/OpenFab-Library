@@ -110,7 +110,12 @@ changes between versions, so the `.step` copies are the safe choice for older in
   angle and which two parts touch first.
 - Bushing pivots use a revolute joint with no limit.
 - Bolts, nuts, washers and mount tabs are not included; that hardware is the builder's choice.
-  A rod end or uniball with no spacers therefore has no stored limit: your mount sets it.
+- How each type stops, as stored on the joint:
+  - misalignment spacers: the seat is a band of the ball's sphere and slides under the joint's flat
+    face, so the angled cone above it meets the rod end or cup (found by collision sweep)
+  - straight spacers: the collar meets the joint's flat face (found by collision sweep)
+  - no spacers: the edge of the ball's bore reaches the edge of the joint's flat face, where the bolt
+    would meet it (worked out from the catalog dimensions, since the bolt is not modelled)
 - A bearing is two files, race and ball, so the ball can move. The race (or rod end
   body) carries the part number; the ball is left out of the BOM.
 - SolidCraft links a sub-assembly in as one rigid block, so to keep a pivot moving in

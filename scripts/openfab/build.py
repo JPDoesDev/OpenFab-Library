@@ -156,6 +156,11 @@ def build_assembly(recipe: dict, files: dict, catalog: dict, report: dict, names
             problems.append(f"limit search ended with {by!r}")
         if limits["overlapping_at_start"]:
             problems.append(f"overlapping at start: {limits['overlapping_at_start']}")
+    if asm.bare_limit is not None:
+        entry["pivot"].update({"max_misalignment_deg": asm.bare_limit,
+                               "limited_by": "edge of the ball's bore reaching the edge of the joint's flat face "
+                                             "(worked out from the catalog dimensions; no spacers)"})
+        post.cmd("joint.limits", joint="Pivot", index=1, min=-asm.bare_limit, max=asm.bare_limit)
     post.cmd("inspect.interference")
     post.cmd("assembly.bom")
     post.cmd("component.links")

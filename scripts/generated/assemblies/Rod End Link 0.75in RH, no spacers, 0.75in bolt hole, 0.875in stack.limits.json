@@ -1,6 +1,15 @@
 {
  "commands": [
   {
+   "command": "joint.limits",
+   "params": {
+    "joint": "Pivot",
+    "index": 1,
+    "min": -23.56,
+    "max": 23.56
+   }
+  },
+  {
    "command": "inspect.interference",
    "params": {}
   },

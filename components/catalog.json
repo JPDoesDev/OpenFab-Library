@@ -3990,8 +3990,8 @@
     "type": "ball",
     "fixed": "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1",
     "moving": "Rod End Ball 0.75in bore (for JMX12T):1",
-    "max_misalignment_deg": null,
-    "limited_by": "nothing in this assembly; your mount tabs set the limit"
+    "max_misalignment_deg": 23.56,
+    "limited_by": "edge of the ball's bore reaching the edge of the joint's flat face (worked out from the catalog dimensions; no spacers)"
    },
    "image": "assemblies/rod-end-links/Rod End Link 0.75in RH, no spacers, 0.75in bolt hole, 0.875in stack/Rod End Link 0.75in RH, no spacers, 0.75in bolt hole, 0.875in stack.png",
    "links": [

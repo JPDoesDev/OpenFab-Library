@@ -146,26 +146,6 @@
   {
    "command": "joint.list",
    "params": {}
-  },
-  {
-   "command": "joint.find_limits",
-   "params": {
-    "joint": "Pivot",
-    "index": 1,
-    "occurrences": [
-     "Rod End Ball 0.75in bore (for JMX12T):1"
-    ],
-    "against": [
-     "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1",
-     "Jam Nut 0.75-16 RH (FK SJNR12):1"
-    ],
-    "exclude_pairs": [
-     [
-      "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1",
-      "Rod End Ball 0.75in bore (for JMX12T):1"
-     ]
-    ]
-   }
   }
  ]
 }

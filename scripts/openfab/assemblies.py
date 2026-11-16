@@ -12,6 +12,8 @@ the parts folder. A part used twice is one component with two occurrences.
 """
 from __future__ import annotations
 
+import math
+
 from . import parts as P
 from .parts import inch
 from .sc import Script, mm
@@ -39,6 +41,7 @@ class Assembly:
         self.pivot: dict | None = None
         self.count: dict[str, int] = {}
         self.stated_stack: float | None = None
+        self.bare_limit: float | None = None  # worked out by hand when nothing in the assembly stops the ball
 
     def add(self, role: str, part_key: str, z: float = 0.0, side: str = "fixed") -> str:
         part = self.catalog[part_key]
@@ -90,6 +93,17 @@ class Assembly:
                        against=self.fixed, exclude_pairs=self.exclude)
 
 
+def bare_limit(bore: float, ball_dia: float, face_width: float) -> float:
+    """Tilt, in degrees, at which the edge of the ball's bore reaches the edge of the joint's flat face.
+
+    With no spacers the bolt through the bore is what meets the rod end or race, and it does so where
+    the bore's wall lines up with the rim of the socket opening. The rim lies on the ball's sphere at
+    half the face width from the centre; the bore wall is its radius off the tilted axis.
+    """
+    R = ball_dia / 2
+    return round(math.degrees(math.acos(bore / 2 / R) - math.asin(face_width / 2 / R)), 2)
+
+
 def _spacers(asm: Assembly, spacer_key: str | None, ball_occ: str, ball_width: float, bore: float):
     """Add a spacer pair (or none) on the ball faces. Returns (stack, bolt diameter, wording)."""
     if not spacer_key:
@@ -114,7 +128,9 @@ def uniball(recipe: dict, files, catalog) -> Assembly:
     stack, bolt, wording = _spacers(asm, spacer_key, ball, b["ball_width"], b["bore"])
     asm.name = f"Uniball Stack {inch(b['bore'])}, {wording}, {inch(bolt)} bolt hole, {inch(asm.stated_stack or stack)} stack"
     asm.exclude = [[race, ball]]
-    asm.finish("ball", race, ball, find_limits=True)
+    if not spacer_key:
+        asm.bare_limit = bare_limit(b["bore"], b["ball_dia"], b["race_width"])
+    asm.finish("ball", race, ball, find_limits=asm.bare_limit is None)
     return asm
 
 
@@ -131,7 +147,9 @@ def rod_end(recipe: dict, files, catalog) -> Assembly:
     stack, bolt, wording = _spacers(asm, spacer_key, ball, d["ball_width"], d["bore"])
     asm.name = f"Rod End Link {inch(d['bore'])} {d['hand']}, {wording}, {inch(bolt)} bolt hole, {inch(asm.stated_stack or stack)} stack"
     asm.exclude = [[body, ball]]
-    asm.finish("ball", body, ball, find_limits=True)
+    if not spacer_key:
+        asm.bare_limit = bare_limit(d["bore"], d["ball_dia"], d["head_width"])
+    asm.finish("ball", body, ball, find_limits=asm.bare_limit is None)
     return asm
 
 
