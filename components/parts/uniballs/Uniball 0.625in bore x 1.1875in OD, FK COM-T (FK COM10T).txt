@@ -7,11 +7,15 @@ Material:     steel
 Source:       FK 2017 Industrial Catalog p.29
 
 Also available as:
-  Kartek FKBCOM10T  same part - Kartek stock number for the FK part
-  Aurora COM-10T    equivalent - listed by Kartek as a cross reference
-  Aurora COM-10TKH  equivalent - listed by Kartek as a cross reference
-  Fox 001-00-006-A  equivalent - listed by Kartek as a cross reference
-  King B1058        equivalent - listed by Kartek as a cross reference
+  Kartek FKBCOM10T     same part - Kartek stock number for the FK part
+  Aurora COM-10T       equivalent - listed by Kartek as a cross reference
+  Aurora COM-10TKH     equivalent - listed by Kartek as a cross reference
+  Fox 001-00-006-A     equivalent - listed by Kartek as a cross reference
+  King B1058           equivalent - listed by Kartek as a cross reference
+  Kartek FOX00100006A  equivalent - Kartek stock number for Fox 001-00-006-A; Kartek: "Fox Shocks Replacement Shock 5/8" BORE Uniballs Same As FKBCOM10T"
+  Kartek KNGB1058      equivalent - Kartek stock number for King B-1058; Kartek: "King Shocks B1058 Replacement Shock 5/8" BORE Uniballs Same As FKBCOM10T"
+  Icon 255110          equivalent - Kartek names it "COM10T F1 BEARING" (FK COM10T in Kartek's F1 fit)
+  Kartek EDG255110     equivalent - Kartek stock number for Icon 255110; Kartek: "COM10T F1 BEARING" (FK COM10T in Kartek's F1 fit)
 
 Dimensions (inches):
   bore: 0.625

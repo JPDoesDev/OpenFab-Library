@@ -1,0 +1,151 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/rod-ends/High Misalignment Rod End 0.4375in bore, 0.5-20 RH, HXAM 4340 steel PTFE lined (Aurora HXAM-7T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "High Misalignment Rod End 0.4375in bore, 0.5-20 RH, HXAM 4340 steel PTFE lined (Aurora HXAM-7T)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Aurora",
+     "also_available_as": "Kartek AURHXAM7T (same part); FK HRSMX7T (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/jam-nuts/Jam Nut 0.5-20 RH (FK SJNR08).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Jam Nut 0.5-20 RH (FK SJNR08)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBSJNR08 (same part)"
+    }
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "High Misalignment Rod End 0.4375in bore, 0.5-20 RH, HXAM 4340 steel PTFE lined (Aurora HXAM-7T):1",
+     "point": [
+      34.9504,
+      0.0,
+      0.0
+     ],
+     "z": [
+      1,
+      0,
+      0
+     ]
+    },
+    "b": {
+     "occurrence": "Jam Nut 0.5-20 RH (FK SJNR08):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Rod End Shouldered Ball 0.4375in bore (for HXAM-7T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Rod End Shouldered Ball 0.4375in bore (for HXAM-7T)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "Aurora"
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "High Misalignment Rod End 0.4375in bore, 0.5-20 RH, HXAM 4340 steel PTFE lined (Aurora HXAM-7T):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "High Misalignment Rod End 0.4375in bore, 0.5-20 RH, HXAM 4340 steel PTFE lined (Aurora HXAM-7T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Rod End Shouldered Ball 0.4375in bore (for HXAM-7T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  }
+ ]
+}

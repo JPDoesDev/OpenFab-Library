@@ -1,0 +1,151 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      2.999994,
+      -4.500004
+     ],
+     [
+      4.480231,
+      -4.500004
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     4.480231,
+     -4.500004
+    ],
+    "end": [
+     4.480231,
+     4.500004
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      4.480231,
+      4.500004
+     ],
+     [
+      2.999994,
+      4.500004
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      2.999994,
+      4.500004
+     ],
+     [
+      2.999994,
+      -4.500004
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of AB-M6 (moves in the body; counted in the BOM with the body)",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.23622,
+       "head_dia": 0.748031,
+       "head_width": 0.275591,
+       "length": 1.417323,
+       "thread": "M6 x 1.0 LH",
+       "thread_dia": 0.23622,
+       "thread_length": 0.866142,
+       "hand": "LH",
+       "ball_width": 0.354331,
+       "ball_dia": 0.5,
+       "catalog_misalignment_deg": 13.0,
+       "thread_feature": "cosmetic, M6x1.0"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [],
+      "thread": "M6 x 1.0 LH",
+      "source": "Aurora Bearing catalog p.60 (AM-M6 row, millimetres converted to inches; misalignment is the catalog's a1)"
+     }
+    }
+   }
+  }
+ ]
+}

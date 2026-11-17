@@ -1,0 +1,26 @@
+Rod End Ball 0.315in bore (for AM-M8T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of AM-M8T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.60 (AM-M8 row, millimetres converted to inches; misalignment is the catalog's a1)
+
+Dimensions (inches):
+  style: male
+  bore: 0.315
+  head_dia: 0.876
+  head_width: 0.3445
+  length: 1.6535
+  thread: M8 x 1.25
+  thread_dia: 0.315
+  thread_length: 0.9843
+  hand: RH
+  ball_width: 0.4724
+  ball_dia: 0.6252
+  catalog_misalignment_deg: 18
+  thread_feature: cosmetic, M8x1.25
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

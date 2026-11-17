@@ -1,0 +1,26 @@
+Uniball 0.625in bore x 1.1875in OD, Aurora PNB-TG
+
+Part number:  PNB-10TG
+Vendor:       Aurora
+Description:  Aurora PNB-10TG 5/8" bore narrow series PTFE lined spherical bearing, 17-4 PH stainless race and alloy steel ball, with staking grooves
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.52 (PNB-10TG: groove P .055, S .020 min, G 1.063, R .015, 30 degree flanks)
+
+Also available as:
+  Kartek AURPNB10TG  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.1875
+  ball_width: 0.625
+  race_width: 0.5
+  ball_dia: 0.968
+  catalog_misalignment_deg: 8
+  groove_land: 0.0218
+  groove_width: 0.0808
+  groove_depth: 0.07
+
+Estimated (not published by the vendor):
+  staking groove: Aurora gives a root depth P of 0.055 with a 0.015 root radius R and flanks at 30 degrees to the axis, centred on diameter G 1.063. Modelled as a plain V on the same flanks and centre (root radius not modelled): depth to where the flanks meet P + R = 0.070, width at the face 2 x 0.070 x tan 30 = 0.0808, land in from the OD (D - G)/2 - 0.0404 = 0.0218 (Aurora's S is 0.020 min)
+
+Volume check: ok

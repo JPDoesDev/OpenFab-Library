@@ -1,0 +1,32 @@
+Rod End 1in bore, 1.25-12 LH, JMX chromoly PTFE lined, small head
+
+Part number:  JMXL16-3T
+Vendor:       FK
+Description:  FK JMXL16-3T 1" bore 1 1/4-12 LH male chromoly PTFE lined rod end, small head
+Material:     steel
+Source:       FK website JMX/JFX table, https://www.fkrodends.com/products/rod-ends/precision-series/jmx-jfx/ (JMX16-3 row; not in the 2017 catalog)
+
+Also available as:
+  Kartek FKBJMXL163T    same part - Kartek stock number for the FK part
+  Kartek FKBJMXL163TF1  fit variant - Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+  Aurora RAB-16T-3      equivalent - listed by Kartek as a direct replacement
+
+Dimensions (inches):
+  style: male
+  bore: 1
+  head_dia: 2.775
+  head_width: 1
+  length: 4.125
+  thread: 1 1/4-12 UNF-3A LH
+  thread_dia: 1.25
+  thread_length: 2.312
+  hand: LH
+  ball_width: 1.375
+  ball_dia: 1.875
+  catalog_misalignment_deg: 17
+  thread_feature: cosmetic, M31.75x2.1167 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

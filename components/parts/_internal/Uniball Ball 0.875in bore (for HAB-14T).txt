@@ -1,0 +1,17 @@
+Uniball Ball 0.875in bore (for HAB-14T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of HAB-14T (moves in the race; counted in the BOM with the race)
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.51
+
+Dimensions (inches):
+  bore: 0.875
+  od: 1.75
+  ball_width: 1.4
+  race_width: 0.63
+  ball_dia: 1.531
+  catalog_misalignment_deg: 18
+  shoulder_dia: 1.14
+
+Volume check: ok

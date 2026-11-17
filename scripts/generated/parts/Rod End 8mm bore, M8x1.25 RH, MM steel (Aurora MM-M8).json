@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.625936,
+      -4.374998
+     ],
+     [
+      11.124997,
+      -4.374998
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.124997,
+      -4.374998
+     ],
+     [
+      11.124997,
+      4.374998
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.124997,
+      4.374998
+     ],
+     [
+      6.625936,
+      4.374998
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     6.625936,
+     4.374998
+    ],
+    "end": [
+     6.625936,
+     -4.374998
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 8.000009,
+    "height": 32.279358,
+    "base": [
+     9.720634,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     25.860313,
+     0.0,
+     4.000005
+    ],
+    "designation": "M8x1.25",
+    "hand": "right",
+    "length": 25.000001,
+    "name": "Thread M8 x 1.25"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "MM-M8",
+     "description": "Aurora MM-M8 8mm bore M8 X 1.25 RH male general purpose low carbon steel rod end",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.314961,
+       "head_dia": 0.875984,
+       "head_width": 0.344488,
+       "length": 1.653543,
+       "thread": "M8 x 1.25",
+       "thread_dia": 0.314961,
+       "thread_length": 0.984252,
+       "hand": "RH",
+       "ball_width": 0.472441,
+       "ball_dia": 0.625197,
+       "catalog_misalignment_deg": 18.0,
+       "thread_feature": "cosmetic, M8x1.25"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AURMMM8",
+        "relation": "same part",
+        "note": "Kartek stock number for the Aurora part"
+       }
+      ],
+      "thread": "M8 x 1.25",
+      "source": "Aurora Bearing catalog p.56 (MM-M8 row, millimetres converted to inches; misalignment is the catalog's a1)"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+Rod End Ball 0.4724in bore (for MB-M12T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of MB-M12T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.56 (MM-M12 row, millimetres converted to inches; misalignment is the catalog's a1)
+
+Dimensions (inches):
+  style: male
+  bore: 0.4724
+  head_dia: 1.1811
+  head_width: 0.4724
+  length: 2.126
+  thread: M12 x 1.75 LH
+  thread_dia: 0.4724
+  thread_length: 1.2992
+  hand: LH
+  ball_width: 0.6299
+  ball_dia: 0.8752
+  catalog_misalignment_deg: 17
+  thread_feature: cosmetic, M12x1.75
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

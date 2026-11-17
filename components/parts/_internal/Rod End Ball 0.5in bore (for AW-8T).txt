@@ -1,0 +1,30 @@
+Rod End Ball 0.5in bore (for AW-8T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of AW-8T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.35 (AW-8 row)
+
+Dimensions (inches):
+  style: female
+  bore: 0.5
+  head_dia: 1.312
+  head_width: 0.5
+  length: 2.125
+  thread: 1/2-20 UNF-3B
+  thread_dia: 0.5
+  thread_length: 1.187
+  hand: RH
+  ball_width: 0.625
+  ball_dia: 0.937
+  catalog_misalignment_deg: 12
+  body_dia: 0.875
+  flat: 0.75
+  thread_feature: cosmetic, M12.7x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+
+Volume check: ok

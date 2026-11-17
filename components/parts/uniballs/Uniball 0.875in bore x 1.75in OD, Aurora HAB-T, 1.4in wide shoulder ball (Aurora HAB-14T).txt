@@ -1,0 +1,21 @@
+Uniball 0.875in bore x 1.75in OD, Aurora HAB-T, 1.4in wide shoulder ball
+
+Part number:  HAB-14T
+Vendor:       Aurora
+Description:  Aurora HAB-14T 7/8" bore high misalignment PTFE lined spherical bearing with misalignment shoulders, 17-4 PH stainless race and alloy steel ball
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.51
+
+Also available as:
+  Kartek AURHAB14T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  bore: 0.875
+  od: 1.75
+  ball_width: 1.4
+  race_width: 0.63
+  ball_dia: 1.531
+  catalog_misalignment_deg: 18
+  shoulder_dia: 1.14
+
+Volume check: ok

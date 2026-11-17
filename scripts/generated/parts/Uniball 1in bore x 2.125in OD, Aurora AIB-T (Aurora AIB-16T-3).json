@@ -164,6 +164,12 @@
         "other_part_number": "AIN16T",
         "relation": "equivalent",
         "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "Aurora",
+        "other_part_number": "AIB-16T",
+        "relation": "equivalent",
+        "note": "Kartek names its AIB-16T listing \"MAY USE 16TKH-300\" (Kartek AUR16TKH300, maker number AIB-16T-3)"
        }
       ],
       "source": "Aurora Rod End & Spherical Bearing Catalog 319 p.49 (AIB-16)"

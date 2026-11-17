@@ -1,0 +1,154 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Race profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.143117,
+      -12.7
+     ],
+     [
+      26.9875,
+      -12.7
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      26.9875,
+      -12.7
+     ],
+     [
+      26.9875,
+      12.7
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      26.9875,
+      12.7
+     ],
+     [
+      20.143117,
+      12.7
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     20.143117,
+     12.7
+    ],
+    "end": [
+     20.143117,
+     -12.7
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Race",
+    "body_name": "Race"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Race"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "AIB-16T",
+     "description": "Aurora AIB-16T 1\" bore heavy duty precision series PTFE lined alloy steel spherical bearing",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing",
+      "units": "in",
+      "dims": {
+       "bore": 1.0,
+       "od": 2.125,
+       "ball_width": 1.375,
+       "race_width": 1.0,
+       "ball_dia": 1.875,
+       "catalog_misalignment_deg": 15.0
+      },
+      "estimated": [],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AURAIB16T",
+        "relation": "same part",
+        "note": "Kartek stock number for the Aurora part"
+       },
+       {
+        "other_vendor": "Aurora",
+        "other_part_number": "AIB-16T-3",
+        "relation": "equivalent",
+        "note": "Kartek names its AIB-16T listing \"MAY USE 16TKH-300\" (Kartek AUR16TKH300, maker number AIB-16T-3)"
+       }
+      ],
+      "source": "Aurora Rod End & Spherical Bearing Catalog 319 p.49 (AIB-16)"
+     }
+    }
+   }
+  }
+ ]
+}

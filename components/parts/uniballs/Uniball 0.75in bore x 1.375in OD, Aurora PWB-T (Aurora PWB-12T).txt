@@ -1,0 +1,24 @@
+Uniball 0.75in bore x 1.375in OD, Aurora PWB-T
+
+Part number:  PWB-12T
+Vendor:       Aurora
+Description:  Aurora PWB-12T 3/4" bore wide series PTFE lined spherical bearing, 17-4 PH stainless race and alloy steel ball
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.53 (PWB-12T)
+
+Also available as:
+  Kartek AURPWB12T  same part - Kartek stock number for the Aurora part
+  FK WSSX12T        equivalent - listed by Kartek as a cross reference
+  FK WSSX12TV       equivalent - listed by Kartek as a cross reference; that race has staking grooves
+  NHBB ABWT12       equivalent - listed by Kartek as a cross reference
+  RBC MS14102-12    equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 0.75
+  od: 1.375
+  ball_width: 0.875
+  race_width: 0.63
+  ball_dia: 1.25
+  catalog_misalignment_deg: 13
+
+Volume check: ok

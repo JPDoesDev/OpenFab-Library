@@ -1,0 +1,242 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.863314,
+      -7.5311
+     ],
+     [
+      22.225,
+      -7.5311
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.225,
+      -7.5311
+     ],
+     [
+      22.225,
+      7.5311
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.225,
+      7.5311
+     ],
+     [
+      14.863314,
+      7.5311
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     14.863314,
+     7.5311
+    ],
+    "end": [
+     14.863314,
+     -7.5311
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 28.575,
+    "height": 55.6006,
+    "base": [
+     17.4244,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 60.6806,
+    "width": 33.655,
+    "height": 14.2875,
+    "corner": [
+     14.8844,
+     -16.8275,
+     12.7
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat top"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 60.6806,
+    "width": 33.655,
+    "height": 14.2875,
+    "corner": [
+     14.8844,
+     -16.8275,
+     -26.9875
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat bottom"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 19.05,
+    "height": 40.9448,
+    "base": [
+     33.3502,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "name": "Tapped hole"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     53.1876,
+     0.0,
+     9.525
+    ],
+    "designation": "M19.05x1.5875",
+    "hand": "right",
+    "length": 39.6748,
+    "name": "Thread 3/4-16 UNF-2B"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Stainless Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "SCF12T",
+     "description": "FK SCF12T 3/4\" bore 3/4-16 RH female 2-piece stainless steel PTFE lined rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 0.75,
+       "head_dia": 1.75,
+       "head_width": 0.593,
+       "length": 2.875,
+       "thread": "3/4-16 UNF-2B",
+       "thread_dia": 0.75,
+       "thread_length": 1.562,
+       "hand": "RH",
+       "ball_width": 0.875,
+       "ball_dia": 1.312,
+       "catalog_misalignment_deg": 24.0,
+       "body_dia": 1.125,
+       "flat": 1.0,
+       "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBSCF12T",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "3/4-16 UNF-2B",
+      "source": "FK 2017 Industrial Catalog p.5 (SCF12T row)"
+     }
+    }
+   }
+  }
+ ]
+}

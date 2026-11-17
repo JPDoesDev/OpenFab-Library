@@ -1,0 +1,151 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.000001,
+      -7.999997
+     ],
+     [
+      7.716432,
+      -7.999997
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     7.716432,
+     -7.999997
+    ],
+    "end": [
+     7.716432,
+     7.999997
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.716432,
+      7.999997
+     ],
+     [
+      6.000001,
+      7.999997
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.000001,
+      7.999997
+     ],
+     [
+      6.000001,
+      -7.999997
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of MB-M12T (moves in the body; counted in the BOM with the body)",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.472441,
+       "head_dia": 1.181102,
+       "head_width": 0.472441,
+       "length": 2.125984,
+       "thread": "M12 x 1.75 LH",
+       "thread_dia": 0.472441,
+       "thread_length": 1.299213,
+       "hand": "LH",
+       "ball_width": 0.629921,
+       "ball_dia": 0.875197,
+       "catalog_misalignment_deg": 17.0,
+       "thread_feature": "cosmetic, M12x1.75"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [],
+      "thread": "M12 x 1.75 LH",
+      "source": "Aurora Bearing catalog p.56 (MM-M12 row, millimetres converted to inches; misalignment is the catalog's a1)"
+     }
+    }
+   }
+  }
+ ]
+}

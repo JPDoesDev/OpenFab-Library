@@ -1,0 +1,31 @@
+Rod End 0.4375in bore, 0.4375-20 RH, RAM chromoly PTFE lined
+
+Part number:  RAM-7T
+Vendor:       Aurora
+Description:  Aurora RAM-7T 7/16" bore 7/16-20 RH male heavy duty alloy PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.38 (RAM-7 row)
+
+Also available as:
+  Kartek AURRAM7T  same part - Kartek stock number for the Aurora part
+  FK JMX7T         equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  style: male
+  bore: 0.4375
+  head_dia: 1.125
+  head_width: 0.437
+  length: 2.125
+  thread: 7/16-20 UNJF-3A
+  thread_dia: 0.4375
+  thread_length: 1.312
+  hand: RH
+  ball_width: 0.562
+  ball_dia: 0.812
+  catalog_misalignment_deg: 14
+  thread_feature: cosmetic, M11.1125x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

@@ -1,0 +1,16 @@
+Uniball Ball 0.625in bore (for AIB-10T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of AIB-10T (moves in the race; counted in the BOM with the race)
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.49 (AIB-10)
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.3125
+  ball_width: 0.75
+  race_width: 0.562
+  ball_dia: 1.125
+  catalog_misalignment_deg: 12
+
+Volume check: ok

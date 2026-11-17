@@ -1,0 +1,30 @@
+Rod End 12mm bore, M12x1.75 LH, MM steel PTFE lined
+
+Part number:  MB-M12T
+Vendor:       Aurora
+Description:  Aurora MB-M12T 12mm bore M12 X 1.75 LH male general purpose low carbon steel PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.56 (MM-M12 row, millimetres converted to inches; misalignment is the catalog's a1)
+
+Also available as:
+  Kartek AURMBM12T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  style: male
+  bore: 0.4724
+  head_dia: 1.1811
+  head_width: 0.4724
+  length: 2.126
+  thread: M12 x 1.75 LH
+  thread_dia: 0.4724
+  thread_length: 1.2992
+  hand: LH
+  ball_width: 0.6299
+  ball_dia: 0.8752
+  catalog_misalignment_deg: 17
+  thread_feature: cosmetic, M12x1.75
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

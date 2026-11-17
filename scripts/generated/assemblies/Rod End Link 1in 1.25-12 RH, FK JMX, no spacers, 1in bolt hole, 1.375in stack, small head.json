@@ -1,0 +1,151 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/rod-ends/Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined, small head (FK JMX16-3T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined, small head (FK JMX16-3T)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBJMX163T (same part); Kartek FKBJMX163TF1 (fit variant); Aurora RAM-16T-3 (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/jam-nuts/Jam Nut 1.25-12 RH (FK SJNR16).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Jam Nut 1.25-12 RH (FK SJNR16)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBSJNR16 (same part)"
+    }
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined, small head (FK JMX16-3T):1",
+     "point": [
+      59.3852,
+      0.0,
+      0.0
+     ],
+     "z": [
+      1,
+      0,
+      0
+     ]
+    },
+    "b": {
+     "occurrence": "Jam Nut 1.25-12 RH (FK SJNR16):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Rod End Ball 1in bore (for JMX16-3T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Rod End Ball 1in bore (for JMX16-3T)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "FK"
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined, small head (FK JMX16-3T):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined, small head (FK JMX16-3T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Rod End Ball 1in bore (for JMX16-3T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  }
+ ]
+}

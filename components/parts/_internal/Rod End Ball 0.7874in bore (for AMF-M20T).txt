@@ -1,0 +1,26 @@
+Rod End Ball 0.7874in bore (for AMF-M20T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of AMF-M20T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.60 (AMF-M20 row, millimetres converted to inches; misalignment is the catalog's a1)
+
+Dimensions (inches):
+  style: male
+  bore: 0.7874
+  head_dia: 1.811
+  head_width: 0.7087
+  length: 3.0709
+  thread: M20 x 1.5
+  thread_dia: 0.7874
+  thread_length: 1.8504
+  hand: RH
+  ball_width: 0.9843
+  ball_dia: 1.3752
+  catalog_misalignment_deg: 20
+  thread_feature: cosmetic, M20x1.5
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

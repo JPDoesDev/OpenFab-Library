@@ -1,0 +1,30 @@
+Rod End Shouldered Ball 0.5in bore (for RSMX8T-101)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of RSMX8T-101 (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Kartek product page FKBRSMX8T101 (1/2 bore, 5/8-18, ball width 1.160; 'basically the same heim' as FK HRSMX8T and Aurora HXAM-8T but wider); other values from sibling FK HRSMX8T, FK 2017 Industrial Catalog p.17 (HRSMX8T row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.5
+  head_dia: 1.525
+  head_width: 0.411
+  length: 2.625
+  thread: 5/8-18 UNF-3A
+  thread_dia: 0.625
+  thread_length: 1.562
+  hand: RH
+  ball_width: 1.16
+  ball_dia: 1
+  shoulder_dia: 0.73
+  thread_feature: cosmetic, M15.875x1.4111 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  head diameter and width, ball diameter, length and thread length from sibling FK HRSMX8T (Kartek: the same heim but for the ball width)
+  shoulder diameter 0.730in from FK HRSMX8T (not published for the -101
+  Kartek says only the width differs, and it fits the same ball)
+  no catalog misalignment angle (FK publishes none for the wider ball)
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

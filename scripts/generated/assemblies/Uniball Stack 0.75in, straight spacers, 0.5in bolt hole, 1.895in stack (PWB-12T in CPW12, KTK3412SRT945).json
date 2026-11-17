@@ -1,0 +1,250 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniball-cups/Uniball Cup 1.375in bore x 1.75in OD x 1in tall, FK (FK CPW12).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Cup 1.375in bore x 1.75in OD x 1in tall, FK (FK CPW12)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBCPW12 (same part)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniballs/Uniball 0.75in bore x 1.375in OD, Aurora PWB-T (Aurora PWB-12T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball 0.75in bore x 1.375in OD, Aurora PWB-T (Aurora PWB-12T)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Aurora",
+     "also_available_as": "Kartek AURPWB12T (same part); FK WSSX12T (equivalent); FK WSSX12TV (equivalent); NHBB ABWT12 (equivalent); RBC MS14102-12 (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/snap-rings/Internal Snap Ring 1.454in OD x 0.05in thick, FK (FK SRW12).sc",
+    "translate": [
+     0.0,
+     0,
+     8.636
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Internal Snap Ring 1.454in OD x 0.05in thick, FK (FK SRW12)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBSRW12 (same part); Kartek KTK9041SR (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Uniball Ball 0.75in bore (for PWB-12T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Ball 0.75in bore (for PWB-12T)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "Aurora"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945).sc",
+    "translate": [
+     0.0,
+     0,
+     11.1125
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "Uniball Ball 0.75in bore (for PWB-12T):1",
+     "point": [
+      0.0,
+      0.0,
+      -11.1125
+     ],
+     "z": [
+      0,
+      0,
+      -1
+     ]
+    },
+    "b": {
+     "occurrence": "Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945):2",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Uniball Cup 1.375in bore x 1.75in OD x 1in tall, FK (FK CPW12):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Uniball Cup 1.375in bore x 1.75in OD x 1in tall, FK (FK CPW12):1",
+     "Uniball 0.75in bore x 1.375in OD, Aurora PWB-T (Aurora PWB-12T):1",
+     "Internal Snap Ring 1.454in OD x 0.05in thick, FK (FK SRW12):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Uniball 0.75in bore x 1.375in OD, Aurora PWB-T (Aurora PWB-12T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Uniball Ball 0.75in bore (for PWB-12T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Uniball Ball 0.75in bore (for PWB-12T):1",
+     "Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  },
+  {
+   "command": "joint.find_limits",
+   "params": {
+    "joint": "Pivot",
+    "index": 1,
+    "occurrences": [
+     "Uniball Ball 0.75in bore (for PWB-12T):1",
+     "Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945):1",
+     "Straight Spacer 0.75in to 0.5in bolt, 1.895in stack (Kartek KTK3412SRT945):2"
+    ],
+    "against": [
+     "Uniball Cup 1.375in bore x 1.75in OD x 1in tall, FK (FK CPW12):1",
+     "Uniball 0.75in bore x 1.375in OD, Aurora PWB-T (Aurora PWB-12T):1",
+     "Internal Snap Ring 1.454in OD x 0.05in thick, FK (FK SRW12):1"
+    ],
+    "exclude_pairs": [
+     [
+      "Uniball 0.75in bore x 1.375in OD, Aurora PWB-T (Aurora PWB-12T):1",
+      "Uniball Ball 0.75in bore (for PWB-12T):1"
+     ]
+    ]
+   }
+  }
+ ]
+}

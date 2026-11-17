@@ -1,0 +1,27 @@
+Rod End Shouldered Ball 0.75in bore (for HXAB-12T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of HXAB-12T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.42 (HXAM-12T row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.75
+  head_dia: 2.025
+  head_width: 0.63
+  length: 3.375
+  thread: 7/8-14 UNJF-3A LH
+  thread_dia: 0.875
+  thread_length: 2
+  hand: LH
+  ball_width: 1.28
+  ball_dia: 1.375
+  catalog_misalignment_deg: 18
+  shoulder_dia: 0.97
+  thread_feature: cosmetic, M22.225x1.8143 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

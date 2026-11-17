@@ -1,0 +1,26 @@
+Rod End Ball 0.4375in bore (for PRB-7T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of PRB-7T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.40 (PRM-7T row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.4375
+  head_dia: 1.15
+  head_width: 0.452
+  length: 2.125
+  thread: 7/16-20 UNJF-3A LH
+  thread_dia: 0.4375
+  thread_length: 1.281
+  hand: LH
+  ball_width: 0.562
+  ball_dia: 0.781
+  catalog_misalignment_deg: 10
+  thread_feature: cosmetic, M11.1125x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

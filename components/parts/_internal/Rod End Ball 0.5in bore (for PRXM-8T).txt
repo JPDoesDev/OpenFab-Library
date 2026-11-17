@@ -1,0 +1,26 @@
+Rod End Ball 0.5in bore (for PRXM-8T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of PRXM-8T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.41 (PRXM-8T row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.5
+  head_dia: 1.337
+  head_width: 0.515
+  length: 2.438
+  thread: 5/8-18 UNJF-3A
+  thread_dia: 0.625
+  thread_length: 1.468
+  hand: RH
+  ball_width: 0.625
+  ball_dia: 0.875
+  catalog_misalignment_deg: 9
+  thread_feature: cosmetic, M15.875x1.4111 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

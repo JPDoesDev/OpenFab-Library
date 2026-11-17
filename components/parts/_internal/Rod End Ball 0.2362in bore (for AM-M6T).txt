@@ -1,0 +1,26 @@
+Rod End Ball 0.2362in bore (for AM-M6T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of AM-M6T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.60 (AM-M6 row, millimetres converted to inches; misalignment is the catalog's a1)
+
+Dimensions (inches):
+  style: male
+  bore: 0.2362
+  head_dia: 0.748
+  head_width: 0.2756
+  length: 1.4173
+  thread: M6 x 1.0
+  thread_dia: 0.2362
+  thread_length: 0.8661
+  hand: RH
+  ball_width: 0.3543
+  ball_dia: 0.5
+  catalog_misalignment_deg: 13
+  thread_feature: cosmetic, M6x1.0
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

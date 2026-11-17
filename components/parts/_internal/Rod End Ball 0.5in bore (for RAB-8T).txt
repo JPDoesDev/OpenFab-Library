@@ -1,0 +1,26 @@
+Rod End Ball 0.5in bore (for RAB-8T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of RAB-8T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.38 (RAM-8 row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.5
+  head_dia: 1.312
+  head_width: 0.5
+  length: 2.438
+  thread: 1/2-20 UNJF-3A LH
+  thread_dia: 0.5
+  thread_length: 1.437
+  hand: LH
+  ball_width: 0.625
+  ball_dia: 0.937
+  catalog_misalignment_deg: 12
+  thread_feature: cosmetic, M12.7x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

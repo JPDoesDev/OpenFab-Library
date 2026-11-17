@@ -1,0 +1,151 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      -7.9375
+     ],
+     [
+      8.865874,
+      -7.9375
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     8.865874,
+     -7.9375
+    ],
+    "end": [
+     8.865874,
+     7.9375
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      8.865874,
+      7.9375
+     ],
+     [
+      6.35,
+      7.9375
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      7.9375
+     ],
+     [
+      6.35,
+      -7.9375
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of RXAM-8T (moves in the body; counted in the BOM with the body)",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.5,
+       "head_dia": 1.5,
+       "head_width": 0.5,
+       "length": 2.625,
+       "thread": "5/8-18 UNJF-3A",
+       "thread_dia": 0.625,
+       "thread_length": 1.562,
+       "hand": "RH",
+       "ball_width": 0.625,
+       "ball_dia": 0.937,
+       "catalog_misalignment_deg": 10.0,
+       "thread_feature": "cosmetic, M15.875x1.4111 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [],
+      "thread": "5/8-18 UNJF-3A",
+      "source": "Aurora Bearing catalog p.38 (RXAM-8 row)"
+     }
+    }
+   }
+  }
+ ]
+}

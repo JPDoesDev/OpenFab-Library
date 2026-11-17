@@ -161,6 +161,30 @@
         "other_part_number": "B1058",
         "relation": "equivalent",
         "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FOX00100006A",
+        "relation": "equivalent",
+        "note": "Kartek stock number for Fox 001-00-006-A; Kartek: \"Fox Shocks Replacement Shock 5/8\" BORE Uniballs Same As FKBCOM10T\""
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "KNGB1058",
+        "relation": "equivalent",
+        "note": "Kartek stock number for King B-1058; Kartek: \"King Shocks B1058 Replacement Shock 5/8\" BORE Uniballs Same As FKBCOM10T\""
+       },
+       {
+        "other_vendor": "Icon",
+        "other_part_number": "255110",
+        "relation": "equivalent",
+        "note": "Kartek names it \"COM10T F1 BEARING\" (FK COM10T in Kartek's F1 fit)"
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "EDG255110",
+        "relation": "equivalent",
+        "note": "Kartek stock number for Icon 255110; Kartek: \"COM10T F1 BEARING\" (FK COM10T in Kartek's F1 fit)"
        }
       ],
       "source": "FK 2017 Industrial Catalog p.29"

@@ -1,0 +1,20 @@
+Uniball 1.25in bore x 2.375in OD, Aurora HCOM-T
+
+Part number:  HCOM-20T
+Vendor:       Aurora
+Description:  Aurora HCOM-20T 1-1/4" bore heavy commercial series PTFE lined spherical bearing, low carbon steel race
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.44 (HCOM-20)
+
+Also available as:
+  Kartek AURHCOM20T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  bore: 1.25
+  od: 2.375
+  ball_width: 1.187
+  race_width: 0.937
+  ball_dia: 2
+  catalog_misalignment_deg: 8.5
+
+Volume check: ok

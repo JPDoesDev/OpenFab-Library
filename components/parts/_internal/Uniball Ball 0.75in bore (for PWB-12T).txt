@@ -1,0 +1,16 @@
+Uniball Ball 0.75in bore (for PWB-12T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of PWB-12T (moves in the race; counted in the BOM with the race)
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.53 (PWB-12T)
+
+Dimensions (inches):
+  bore: 0.75
+  od: 1.375
+  ball_width: 0.875
+  race_width: 0.63
+  ball_dia: 1.25
+  catalog_misalignment_deg: 13
+
+Volume check: ok

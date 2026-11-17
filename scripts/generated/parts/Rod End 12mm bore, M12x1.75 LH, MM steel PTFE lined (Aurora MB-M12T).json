@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.356455,
+      -6.000001
+     ],
+     [
+      14.999995,
+      -6.000001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.999995,
+      -6.000001
+     ],
+     [
+      14.999995,
+      6.000001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.999995,
+      6.000001
+     ],
+     [
+      9.356455,
+      6.000001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     9.356455,
+     6.000001
+    ],
+    "end": [
+     9.356455,
+     -6.000001
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 12.000001,
+    "height": 40.760272,
+    "base": [
+     13.239722,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     33.619858,
+     0.0,
+     6.000001
+    ],
+    "designation": "M12x1.75",
+    "hand": "left",
+    "length": 33.00001,
+    "name": "Thread M12 x 1.75 LH"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "MB-M12T",
+     "description": "Aurora MB-M12T 12mm bore M12 X 1.75 LH male general purpose low carbon steel PTFE lined rod end",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.472441,
+       "head_dia": 1.181102,
+       "head_width": 0.472441,
+       "length": 2.125984,
+       "thread": "M12 x 1.75 LH",
+       "thread_dia": 0.472441,
+       "thread_length": 1.299213,
+       "hand": "LH",
+       "ball_width": 0.629921,
+       "ball_dia": 0.875197,
+       "catalog_misalignment_deg": 17.0,
+       "thread_feature": "cosmetic, M12x1.75"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AURMBM12T",
+        "relation": "same part",
+        "note": "Kartek stock number for the Aurora part"
+       }
+      ],
+      "thread": "M12 x 1.75 LH",
+      "source": "Aurora Bearing catalog p.56 (MM-M12 row, millimetres converted to inches; misalignment is the catalog's a1)"
+     }
+    }
+   }
+  }
+ ]
+}

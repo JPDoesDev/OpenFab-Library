@@ -1,0 +1,249 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Race profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.526638,
+      -6.35
+     ],
+     [
+      12.47521,
+      -6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.47521,
+      -6.35
+     ],
+     [
+      13.50137,
+      -4.572
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      13.50137,
+      -4.572
+     ],
+     [
+      14.52753,
+      -6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.52753,
+      -6.35
+     ],
+     [
+      15.08125,
+      -6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.08125,
+      -6.35
+     ],
+     [
+      15.08125,
+      6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.08125,
+      6.35
+     ],
+     [
+      14.52753,
+      6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.52753,
+      6.35
+     ],
+     [
+      13.50137,
+      4.572
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      13.50137,
+      4.572
+     ],
+     [
+      12.47521,
+      6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.47521,
+      6.35
+     ],
+     [
+      10.526638,
+      6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     10.526638,
+     6.35
+    ],
+    "end": [
+     10.526638,
+     -6.35
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Race",
+    "body_name": "Race"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Race"
+    ],
+    "material": "Stainless Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "PNB-10TG",
+     "description": "Aurora PNB-10TG 5/8\" bore narrow series PTFE lined spherical bearing, 17-4 PH stainless race and alloy steel ball, with staking grooves",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing",
+      "units": "in",
+      "dims": {
+       "bore": 0.625,
+       "od": 1.1875,
+       "ball_width": 0.625,
+       "race_width": 0.5,
+       "ball_dia": 0.968,
+       "catalog_misalignment_deg": 8.0,
+       "groove_land": 0.0218,
+       "groove_width": 0.0808,
+       "groove_depth": 0.07
+      },
+      "estimated": [
+       "staking groove: Aurora gives a root depth P of 0.055 with a 0.015 root radius R and flanks at 30 degrees to the axis, centred on diameter G 1.063. Modelled as a plain V on the same flanks and centre (root radius not modelled): depth to where the flanks meet P + R = 0.070, width at the face 2 x 0.070 x tan 30 = 0.0808, land in from the OD (D - G)/2 - 0.0404 = 0.0218 (Aurora's S is 0.020 min)"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AURPNB10TG",
+        "relation": "same part",
+        "note": "Kartek stock number for the Aurora part"
+       }
+      ],
+      "source": "Aurora Rod End & Spherical Bearing Catalog 319 p.52 (PNB-10TG: groove P .055, S .020 min, G 1.063, R .015, 30 degree flanks)"
+     }
+    }
+   }
+  }
+ ]
+}

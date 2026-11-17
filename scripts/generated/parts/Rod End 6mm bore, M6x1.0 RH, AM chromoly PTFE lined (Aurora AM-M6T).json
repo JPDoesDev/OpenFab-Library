@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      5.298345,
+      -3.500006
+     ],
+     [
+      9.499994,
+      -3.500006
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.499994,
+      -3.500006
+     ],
+     [
+      9.499994,
+      3.500006
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.499994,
+      3.500006
+     ],
+     [
+      5.298345,
+      3.500006
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     5.298345,
+     3.500006
+    ],
+    "end": [
+     5.298345,
+     -3.500006
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 5.999988,
+    "height": 27.676252,
+    "base": [
+     8.323752,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     22.161878,
+     0.0,
+     2.999994
+    ],
+    "designation": "M6x1.0",
+    "hand": "right",
+    "length": 22.000007,
+    "name": "Thread M6 x 1.0"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "AM-M6T",
+     "description": "Aurora AM-M6T 6mm bore M6 X 1.0 RH male high strength alloy PTFE lined rod end",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.23622,
+       "head_dia": 0.748031,
+       "head_width": 0.275591,
+       "length": 1.417323,
+       "thread": "M6 x 1.0",
+       "thread_dia": 0.23622,
+       "thread_length": 0.866142,
+       "hand": "RH",
+       "ball_width": 0.354331,
+       "ball_dia": 0.5,
+       "catalog_misalignment_deg": 13.0,
+       "thread_feature": "cosmetic, M6x1.0"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AURAMM6T",
+        "relation": "same part",
+        "note": "Kartek stock number for the Aurora part"
+       }
+      ],
+      "thread": "M6 x 1.0",
+      "source": "Aurora Bearing catalog p.60 (AM-M6 row, millimetres converted to inches; misalignment is the catalog's a1)"
+     }
+    }
+   }
+  }
+ ]
+}

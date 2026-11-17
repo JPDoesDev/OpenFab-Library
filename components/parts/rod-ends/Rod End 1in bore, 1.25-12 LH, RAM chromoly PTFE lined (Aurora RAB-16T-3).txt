@@ -9,7 +9,7 @@ Source:       Aurora Bearing catalog p.39 (RAM-16T-3 row)
 Also available as:
   Kartek AURRAB16T3  same part - Kartek stock number for the Aurora part
   FK KMXL16          equivalent - listed by Kartek as a cross reference
-  FK JMXL16-3T       equivalent - listed by Kartek as a direct replacement (FK JMX16-3T is made for Kartek; no dimensions published)
+  FK JMXL16-3T       equivalent - listed by Kartek as a direct replacement (FK JMX16-3T is made for Kartek)
   FK JMXL16T         equivalent - listed by Kartek as a cross reference
 
 Dimensions (inches):

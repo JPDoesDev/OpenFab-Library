@@ -1,0 +1,32 @@
+Rod End 0.375in bore, 0.375-24 RH, RAM chromoly PTFE lined
+
+Part number:  RAM-6T
+Vendor:       Aurora
+Description:  Aurora RAM-6T 3/8" bore 3/8-24 RH male heavy duty alloy PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.38 (RAM-6 row)
+
+Also available as:
+  Kartek AURRAM6T  same part - Kartek stock number for the Aurora part
+  FK JMX6T         equivalent - listed by Kartek as a cross reference
+  FK KMX6          equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  style: male
+  bore: 0.375
+  head_dia: 1
+  head_width: 0.406
+  length: 1.938
+  thread: 3/8-24 UNJF-3A
+  thread_dia: 0.375
+  thread_length: 1.187
+  hand: RH
+  ball_width: 0.5
+  ball_dia: 0.719
+  catalog_misalignment_deg: 12
+  thread_feature: cosmetic, M9.525x1.0583 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

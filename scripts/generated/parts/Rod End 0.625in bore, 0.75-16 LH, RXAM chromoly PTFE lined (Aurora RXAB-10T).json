@@ -1,0 +1,199 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.377002,
+      -7.1374
+     ],
+     [
+      22.225,
+      -7.1374
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.225,
+      -7.1374
+     ],
+     [
+      22.225,
+      7.1374
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.225,
+      7.1374
+     ],
+     [
+      12.377002,
+      7.1374
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     12.377002,
+     7.1374
+    ],
+    "end": [
+     12.377002,
+     -7.1374
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 19.05,
+    "height": 52.485241,
+    "base": [
+     20.539759,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     46.782379,
+     0.0,
+     9.525
+    ],
+    "designation": "M19.05x1.5875",
+    "hand": "left",
+    "length": 42.8498,
+    "name": "Thread 3/4-16 UNJF-3A LH"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "RXAB-10T",
+     "description": "Aurora RXAB-10T 5/8\" bore 3/4-16 LH male extra heavy duty alloy PTFE lined rod end",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.625,
+       "head_dia": 1.75,
+       "head_width": 0.562,
+       "length": 2.875,
+       "thread": "3/4-16 UNJF-3A LH",
+       "thread_dia": 0.75,
+       "thread_length": 1.687,
+       "hand": "LH",
+       "ball_width": 0.75,
+       "ball_dia": 1.125,
+       "catalog_misalignment_deg": 13.0,
+       "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AURRXAB10T",
+        "relation": "same part",
+        "note": "Kartek stock number for the Aurora part"
+       },
+       {
+        "other_vendor": "FK",
+        "other_part_number": "KMXL12-10",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "FK",
+        "other_part_number": "RSMXL10T",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       }
+      ],
+      "thread": "3/4-16 UNJF-3A LH",
+      "source": "Aurora Bearing catalog p.38 (RXAM-10 row)"
+     }
+    }
+   }
+  }
+ ]
+}

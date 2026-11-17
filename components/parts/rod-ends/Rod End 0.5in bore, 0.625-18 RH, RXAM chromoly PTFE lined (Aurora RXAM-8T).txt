@@ -1,0 +1,32 @@
+Rod End 0.5in bore, 0.625-18 RH, RXAM chromoly PTFE lined
+
+Part number:  RXAM-8T
+Vendor:       Aurora
+Description:  Aurora RXAM-8T 1/2" bore 5/8-18 RH male extra heavy duty alloy PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.38 (RXAM-8 row)
+
+Also available as:
+  Kartek AURRXAM8T  same part - Kartek stock number for the Aurora part
+  FK KMX10-8        equivalent - listed by Kartek as a cross reference
+  FK RSMX8T         equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  style: male
+  bore: 0.5
+  head_dia: 1.5
+  head_width: 0.5
+  length: 2.625
+  thread: 5/8-18 UNJF-3A
+  thread_dia: 0.625
+  thread_length: 1.562
+  hand: RH
+  ball_width: 0.625
+  ball_dia: 0.937
+  catalog_misalignment_deg: 10
+  thread_feature: cosmetic, M15.875x1.4111 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

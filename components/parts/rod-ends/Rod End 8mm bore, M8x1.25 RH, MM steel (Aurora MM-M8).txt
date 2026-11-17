@@ -1,0 +1,30 @@
+Rod End 8mm bore, M8x1.25 RH, MM steel
+
+Part number:  MM-M8
+Vendor:       Aurora
+Description:  Aurora MM-M8 8mm bore M8 X 1.25 RH male general purpose low carbon steel rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.56 (MM-M8 row, millimetres converted to inches; misalignment is the catalog's a1)
+
+Also available as:
+  Kartek AURMMM8  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  style: male
+  bore: 0.315
+  head_dia: 0.876
+  head_width: 0.3445
+  length: 1.6535
+  thread: M8 x 1.25
+  thread_dia: 0.315
+  thread_length: 0.9843
+  hand: RH
+  ball_width: 0.4724
+  ball_dia: 0.6252
+  catalog_misalignment_deg: 18
+  thread_feature: cosmetic, M8x1.25
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

@@ -7,10 +7,12 @@ Material:     steel
 Source:       FK 2017 Industrial Catalog p.29
 
 Also available as:
-  Kartek FKBCOM8T   same part - Kartek stock number for the FK part
-  Aurora COM-8T     equivalent - listed by Kartek as a cross reference
-  Fox 001-00-004-A  equivalent - listed by Kartek as a cross reference
-  King B1012        equivalent - listed by Kartek as a cross reference
+  Kartek FKBCOM8T      same part - Kartek stock number for the FK part
+  Aurora COM-8T        equivalent - listed by Kartek as a cross reference
+  Fox 001-00-004-A     equivalent - listed by Kartek as a cross reference
+  King B1012           equivalent - listed by Kartek as a cross reference
+  Kartek FOX00100004A  equivalent - Kartek stock number for Fox 001-00-004-A; Kartek: "Fox Shocks Replacement Shock 1/2" BORE Uniballs Same As FKBCOM8T"
+  Kartek KNGB1012      equivalent - Kartek stock number for King B-1012; Kartek: "King Shocks B1012 Replacement Shock 1/2" BORE Uniballs Same As FKBCOM8T"
 
 Dimensions (inches):
   bore: 0.5

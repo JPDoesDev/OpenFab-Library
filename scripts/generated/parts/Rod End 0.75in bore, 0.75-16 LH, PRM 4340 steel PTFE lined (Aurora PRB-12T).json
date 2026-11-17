@@ -1,0 +1,193 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      13.636394,
+      -8.128
+     ],
+     [
+      22.5425,
+      -8.128
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.5425,
+      -8.128
+     ],
+     [
+      22.5425,
+      8.128
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.5425,
+      8.128
+     ],
+     [
+      13.636394,
+      8.128
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     13.636394,
+     8.128
+    ],
+    "end": [
+     13.636394,
+     -8.128
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 19.05,
+    "height": 52.506828,
+    "base": [
+     20.518172,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     46.771586,
+     0.0,
+     9.525
+    ],
+    "designation": "M19.05x1.5875",
+    "hand": "left",
+    "length": 42.8498,
+    "name": "Thread 3/4-16 UNJF-3A LH"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "PRB-12T",
+     "description": "Aurora PRB-12T 3/4\" bore 3/4-16 LH male performance racing 4340 steel PTFE lined rod end",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.75,
+       "head_dia": 1.775,
+       "head_width": 0.64,
+       "length": 2.875,
+       "thread": "3/4-16 UNJF-3A LH",
+       "thread_dia": 0.75,
+       "thread_length": 1.687,
+       "hand": "LH",
+       "ball_width": 0.875,
+       "ball_dia": 1.25,
+       "catalog_misalignment_deg": 13.0,
+       "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AURPRB12T",
+        "relation": "same part",
+        "note": "Kartek stock number for the Aurora part"
+       },
+       {
+        "other_vendor": "FK",
+        "other_part_number": "JMXL12T",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       }
+      ],
+      "thread": "3/4-16 UNJF-3A LH",
+      "source": "Aurora Bearing catalog p.40 (PRM-12T row)"
+     }
+    }
+   }
+  }
+ ]
+}

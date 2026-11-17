@@ -1,0 +1,155 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      4.000005,
+      -6.000001
+     ],
+     [
+      5.200348,
+      -6.000001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     5.200348,
+     -6.000001
+    ],
+    "end": [
+     5.200348,
+     6.000001
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      5.200348,
+      6.000001
+     ],
+     [
+      4.000005,
+      6.000001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      4.000005,
+      6.000001
+     ],
+     [
+      4.000005,
+      -6.000001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of AW-M8 (moves in the body; counted in the BOM with the body)",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 0.314961,
+       "head_dia": 0.875984,
+       "head_width": 0.344488,
+       "length": 1.417323,
+       "thread": "M8 x 1.25",
+       "thread_dia": 0.314961,
+       "thread_length": 0.669291,
+       "hand": "RH",
+       "ball_width": 0.472441,
+       "ball_dia": 0.625197,
+       "catalog_misalignment_deg": 18.0,
+       "body_dia": 0.629921,
+       "flat": 0.551181,
+       "thread_feature": "cosmetic, M8x1.25"
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body"
+      ],
+      "also_available_as": [],
+      "thread": "M8 x 1.25",
+      "source": "Aurora Bearing catalog p.61 (AW-M8 row, millimetres converted to inches; misalignment is the catalog's a1)"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -12,6 +12,8 @@ Also available as:
   Aurora AIB-14T       equivalent - listed by Kartek as a cross reference
   NHBB ABWT14          equivalent - listed by Kartek as a cross reference
   RBC MS14102-14       equivalent - listed by Kartek as a cross reference
+  Fox 001-00-010-A     equivalent - Kartek: "Fox Shocks Replacement Shock 7/8" BORE Uniballs Same As FKBWSSX14T"
+  Kartek FOX00100010A  equivalent - Kartek stock number for Fox 001-00-010-A; Kartek: "Fox Shocks Replacement Shock 7/8" BORE Uniballs Same As FKBWSSX14T"
 
 Dimensions (inches):
   bore: 0.875

@@ -1,0 +1,20 @@
+Uniball 0.625in bore x 1.1875in OD, Aurora PWB-T
+
+Part number:  PWB-10T
+Vendor:       Aurora
+Description:  Aurora PWB-10T 5/8" bore wide series PTFE lined spherical bearing, 17-4 PH stainless race and alloy steel ball
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.53 (PWB-10T)
+
+Also available as:
+  Kartek AURPWB10T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.1875
+  ball_width: 0.75
+  race_width: 0.567
+  ball_dia: 1.062
+  catalog_misalignment_deg: 12
+
+Volume check: ok

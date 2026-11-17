@@ -161,6 +161,18 @@
         "other_part_number": "MS14102-14",
         "relation": "equivalent",
         "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "Fox",
+        "other_part_number": "001-00-010-A",
+        "relation": "equivalent",
+        "note": "Kartek: \"Fox Shocks Replacement Shock 7/8\" BORE Uniballs Same As FKBWSSX14T\""
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FOX00100010A",
+        "relation": "equivalent",
+        "note": "Kartek stock number for Fox 001-00-010-A; Kartek: \"Fox Shocks Replacement Shock 7/8\" BORE Uniballs Same As FKBWSSX14T\""
        }
       ],
       "source": "FK 2017 Industrial Catalog p.33"

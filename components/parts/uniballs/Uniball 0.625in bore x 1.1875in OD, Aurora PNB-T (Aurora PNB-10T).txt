@@ -1,0 +1,20 @@
+Uniball 0.625in bore x 1.1875in OD, Aurora PNB-T
+
+Part number:  PNB-10T
+Vendor:       Aurora
+Description:  Aurora PNB-10T 5/8" bore narrow series PTFE lined spherical bearing, 17-4 PH stainless race and alloy steel ball
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.52 (PNB-10T)
+
+Also available as:
+  Kartek AURPNB10T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.1875
+  ball_width: 0.625
+  race_width: 0.5
+  ball_dia: 0.968
+  catalog_misalignment_deg: 8
+
+Volume check: ok

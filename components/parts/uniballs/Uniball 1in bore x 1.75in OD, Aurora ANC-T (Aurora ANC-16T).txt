@@ -1,0 +1,20 @@
+Uniball 1in bore x 1.75in OD, Aurora ANC-T
+
+Part number:  ANC-16T
+Vendor:       Aurora
+Description:  Aurora ANC-16T (MS14104-16) 1" bore narrow series PTFE lined spherical bearing, 17-4 PH stainless race and 440C stainless ball
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.82 (ANC-16T; misalignment angle p.83)
+
+Also available as:
+  Kartek AURANC16T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  bore: 1
+  od: 1.75
+  ball_width: 1
+  race_width: 0.797
+  ball_dia: 1.5
+  catalog_misalignment_deg: 9
+
+Volume check: ok

@@ -1,0 +1,20 @@
+Uniball 0.625in bore x 1.3125in OD, Aurora AIB-T
+
+Part number:  AIB-10T
+Vendor:       Aurora
+Description:  Aurora AIB-10T 5/8" bore heavy duty precision series PTFE lined alloy steel spherical bearing
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.49 (AIB-10)
+
+Also available as:
+  Kartek AURAIB10T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.3125
+  ball_width: 0.75
+  race_width: 0.562
+  ball_dia: 1.125
+  catalog_misalignment_deg: 12
+
+Volume check: ok

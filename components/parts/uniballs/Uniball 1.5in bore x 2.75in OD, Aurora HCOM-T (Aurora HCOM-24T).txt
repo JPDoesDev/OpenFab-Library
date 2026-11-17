@@ -1,0 +1,23 @@
+Uniball 1.5in bore x 2.75in OD, Aurora HCOM-T
+
+Part number:  HCOM-24T
+Vendor:       Aurora
+Description:  Aurora HCOM-24T 1-1/2" bore heavy commercial series PTFE lined spherical bearing, low carbon steel race
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.44 (HCOM-24)
+
+Also available as:
+  Kartek AURHCOM24T      same part - Kartek stock number for the Aurora part
+  FK COMH24T             equivalent - listed by Kartek as a cross reference
+  FK FKSH24T             equivalent - listed by Kartek as a cross reference
+  Aurora HCOM-24TKH-300  equivalent - listed by Kartek as a cross reference ("Also see Aurora Part Numbers")
+
+Dimensions (inches):
+  bore: 1.5
+  od: 2.75
+  ball_width: 1.375
+  race_width: 1.094
+  ball_dia: 2.312
+  catalog_misalignment_deg: 8.5
+
+Volume check: ok

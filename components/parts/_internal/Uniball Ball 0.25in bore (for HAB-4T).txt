@@ -1,0 +1,17 @@
+Uniball Ball 0.25in bore (for HAB-4T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of HAB-4T (moves in the race; counted in the BOM with the race)
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.51
+
+Dimensions (inches):
+  bore: 0.25
+  od: 0.74
+  ball_width: 0.593
+  race_width: 0.255
+  ball_dia: 0.593
+  catalog_misalignment_deg: 24
+  shoulder_dia: 0.39
+
+Volume check: ok

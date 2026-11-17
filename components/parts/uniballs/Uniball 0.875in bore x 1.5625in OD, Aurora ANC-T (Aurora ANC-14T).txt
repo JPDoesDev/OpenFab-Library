@@ -1,0 +1,20 @@
+Uniball 0.875in bore x 1.5625in OD, Aurora ANC-T
+
+Part number:  ANC-14T
+Vendor:       Aurora
+Description:  Aurora ANC-14T (MS14104-14) 7/8" bore narrow series PTFE lined spherical bearing, 17-4 PH stainless race and 440C stainless ball
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.82 (ANC-14T; misalignment angle p.83)
+
+Also available as:
+  Kartek AURANC14T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  bore: 0.875
+  od: 1.5625
+  ball_width: 0.875
+  race_width: 0.703
+  ball_dia: 1.312
+  catalog_misalignment_deg: 8
+
+Volume check: ok

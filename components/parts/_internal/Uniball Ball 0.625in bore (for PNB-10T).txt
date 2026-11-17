@@ -1,0 +1,16 @@
+Uniball Ball 0.625in bore (for PNB-10T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of PNB-10T (moves in the race; counted in the BOM with the race)
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.52 (PNB-10T)
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.1875
+  ball_width: 0.625
+  race_width: 0.5
+  ball_dia: 0.968
+  catalog_misalignment_deg: 8
+
+Volume check: ok

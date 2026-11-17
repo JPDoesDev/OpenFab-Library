@@ -1,0 +1,30 @@
+Rod End 20mm bore, M20x1.5 RH, AM chromoly PTFE lined
+
+Part number:  AMF-M20T
+Vendor:       Aurora
+Description:  Aurora AMF-M20T 20mm bore M20 X 1.5 RH male high strength alloy fine thread PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.60 (AMF-M20 row, millimetres converted to inches; misalignment is the catalog's a1)
+
+Also available as:
+  Kartek AURAMFM20T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  style: male
+  bore: 0.7874
+  head_dia: 1.811
+  head_width: 0.7087
+  length: 3.0709
+  thread: M20 x 1.5
+  thread_dia: 0.7874
+  thread_length: 1.8504
+  hand: RH
+  ball_width: 0.9843
+  ball_dia: 1.3752
+  catalog_misalignment_deg: 20
+  thread_feature: cosmetic, M20x1.5
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

@@ -7,7 +7,9 @@ Material:     steel
 Source:       FK 2017 Industrial Catalog p.37
 
 Also available as:
-  Kartek FKBAIN12T  same part - Kartek stock number for the FK part
+  Kartek FKBAIN12T     same part - Kartek stock number for the FK part
+  Fox 001-00-008-A     equivalent - Kartek: "Fox Shocks Replacement Shock 3/4" BORE Uniballs Same As FKBAIN12T"
+  Kartek FOX00100008A  equivalent - Kartek stock number for Fox 001-00-008-A; Kartek: "Fox Shocks Replacement Shock 3/4" BORE Uniballs Same As FKBAIN12T"
 
 Dimensions (inches):
   bore: 0.75

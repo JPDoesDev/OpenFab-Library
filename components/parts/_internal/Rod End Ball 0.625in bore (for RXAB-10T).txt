@@ -1,0 +1,26 @@
+Rod End Ball 0.625in bore (for RXAB-10T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of RXAB-10T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.38 (RXAM-10 row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.625
+  head_dia: 1.75
+  head_width: 0.562
+  length: 2.875
+  thread: 3/4-16 UNJF-3A LH
+  thread_dia: 0.75
+  thread_length: 1.687
+  hand: LH
+  ball_width: 0.75
+  ball_dia: 1.125
+  catalog_misalignment_deg: 13
+  thread_feature: cosmetic, M19.05x1.5875 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

@@ -149,6 +149,12 @@
         "other_part_number": "B1010",
         "relation": "equivalent",
         "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "KNGB1010",
+        "relation": "equivalent",
+        "note": "Kartek stock number for King B-1010; Kartek: \"King Shocks B1010 Replacement Shock 1\" BORE Uniballs Same As FKBCOM16T\""
        }
       ],
       "source": "FK 2017 Industrial Catalog p.29"

@@ -155,6 +155,18 @@
         "other_part_number": "B1012",
         "relation": "equivalent",
         "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FOX00100004A",
+        "relation": "equivalent",
+        "note": "Kartek stock number for Fox 001-00-004-A; Kartek: \"Fox Shocks Replacement Shock 1/2\" BORE Uniballs Same As FKBCOM8T\""
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "KNGB1012",
+        "relation": "equivalent",
+        "note": "Kartek stock number for King B-1012; Kartek: \"King Shocks B1012 Replacement Shock 1/2\" BORE Uniballs Same As FKBCOM8T\""
        }
       ],
       "source": "FK 2017 Industrial Catalog p.29"

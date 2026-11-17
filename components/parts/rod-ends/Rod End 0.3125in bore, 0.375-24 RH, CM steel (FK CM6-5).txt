@@ -1,0 +1,32 @@
+Rod End 0.3125in bore, 0.375-24 RH, CM steel
+
+Part number:  CM6-5
+Vendor:       FK
+Description:  FK CM6-5 5/16" bore 3/8-24 RH male economy 2-piece low carbon steel rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.38 (CM6-5 row); ball width from the FK website special size table, https://www.fkrodends.com/products/rod-ends/special-size-rod-ends/special-size-rod-ends/ (CM6-5 row); misalignment from sibling FK CM6, FK 2017 Industrial Catalog p.3 (CM6 row)
+
+Also available as:
+  Kartek FKBCM65  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: male
+  bore: 0.3125
+  head_dia: 1
+  head_width: 0.359
+  length: 1.938
+  thread: 3/8-24 UNF-3A
+  thread_dia: 0.375
+  thread_length: 1.25
+  hand: RH
+  ball_width: 0.5
+  ball_dia: 0.719
+  catalog_misalignment_deg: 22
+  thread_feature: cosmetic, M9.525x1.0583 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  catalog misalignment 22 deg from sibling FK CM6 (same head, ball and width
+  not published for CM6-5)
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked
