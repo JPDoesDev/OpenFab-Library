@@ -255,3 +255,54 @@ AJNR10,FK,Kartek,FKBAJNR10,same part,Kartek stock number for the FK part
 AJNL10,FK,Kartek,FKBAJNL10,same part,Kartek stock number for the FK part
 AJNR12,FK,Kartek,FKBAJNR12,same part,Kartek stock number for the FK part
 AJNL12,FK,Kartek,FKBAJNL12,same part,Kartek stock number for the FK part
+CP8,FK,Kartek,FKBCP8,same part,Kartek stock number for the FK part
+CP10,FK,Kartek,FKBCP10,same part,Kartek stock number for the FK part
+CP12,FK,Kartek,FKBCP12,same part,Kartek stock number for the FK part
+CPA12,FK,Kartek,FKBCPA12,same part,Kartek stock number for the FK part
+CPW12,FK,Kartek,FKBCPW12,same part,Kartek stock number for the FK part
+CPW14,FK,Kartek,FKBCPW14,same part,Kartek stock number for the FK part
+CPW16,FK,Kartek,FKBCPW16,same part,Kartek stock number for the FK part
+CPW16,FK,Kartek,KTK9044HD,equivalent,Kartek states the same dimensions as the Kartek cup
+CPW16-1,FK,Kartek,FKBCPW161,same part,Kartek stock number for the FK part
+CPW16-1,FK,Kartek,KTK9044HDXT250,equivalent,Kartek states the same dimensions as the Kartek cup
+KTK9044HDXT250,Kartek,FK,CPW16-1,equivalent,Kartek states the same dimensions as the FK cup
+KTK9044HDXT250,Kartek,Kartek,FKBCPW161,equivalent,Kartek stock number for the FK CPW16-1 cup
+CP20,FK,Kartek,FKBCP20,same part,Kartek stock number for the FK part
+CP24,FK,Kartek,FKBCP24,same part,Kartek stock number for the FK part
+CP24-1,FK,Kartek,FKBCP241,same part,Kartek stock number for the FK part
+CP24-1,FK,Kartek,KTK9046,equivalent,Kartek states the same dimensions as the Kartek cup
+KTK9046,Kartek,FK,CP24-1,equivalent,Kartek states the same dimensions as the FK cup
+KTK9046,Kartek,Kartek,FKBCP241,equivalent,Kartek stock number for the FK CP24-1 cup
+SR8,FK,Kartek,FKBSR8,same part,Kartek stock number for the FK part
+SR8,FK,Fox,038-00-015-A,equivalent,listed by Kartek as a cross reference
+SR8,FK,King,CR2201,equivalent,listed by Kartek as a cross reference
+SR10,FK,Kartek,FKBSR10,same part,Kartek stock number for the FK part
+SR10,FK,Fox,038-00-007-A,equivalent,listed by Kartek as a cross reference
+SR10,FK,Icon,255120,equivalent,listed by Kartek as a cross reference; a spiral lock ring
+SR10,FK,King,CR2251,equivalent,listed by Kartek as a cross reference
+SR12,FK,Kartek,FKBSR12,same part,Kartek stock number for the FK part
+SR12,FK,Icon,255121,equivalent,listed by Kartek as a cross reference; a spiral lock ring
+SRA12,FK,Kartek,FKBSRA12,same part,Kartek stock number for the FK part
+SRA12,FK,Fox,038-00-028-A,equivalent,listed by Kartek as a cross reference
+SRW12,FK,Kartek,FKBSRW12,same part,Kartek stock number for the FK part
+SRW12,FK,Kartek,KTK9041SR,equivalent,listed by Kartek as a cross reference
+KTK9041SR,Kartek,FK,SRW12,equivalent,listed by Kartek as a cross reference
+KTK9041SR,Kartek,Kartek,FKBSRW12,equivalent,Kartek stock number for the FK SRW12 ring
+SRW14,FK,Kartek,FKBSRW14,same part,Kartek stock number for the FK part
+SRW14,FK,Kartek,KTK9042SR,equivalent,listed by Kartek as a cross reference
+KTK9042SR,Kartek,FK,SRW14,equivalent,listed by Kartek as a cross reference
+KTK9042SR,Kartek,Kartek,FKBSRW14,equivalent,Kartek stock number for the FK SRW14 ring
+SRW16,FK,Kartek,FKBSRW16,same part,Kartek stock number for the FK part
+SRW16,FK,Kartek,KTK9044SR,equivalent,listed by Kartek as a cross reference
+SRW16,FK,Kartek,KTKWSSR,equivalent,listed by Kartek as a cross reference
+KTK9044SR,Kartek,FK,SRW16,equivalent,listed by Kartek as a cross reference
+KTK9044SR,Kartek,Kartek,FKBSRW16,equivalent,Kartek stock number for the FK SRW16 ring
+KTK9044SR,Kartek,Kartek,KTKWSSR,equivalent,listed by Kartek as a cross reference
+KTKWSSR,Kartek,FK,SRW16,equivalent,listed by Kartek as a cross reference
+KTKWSSR,Kartek,Kartek,FKBSRW16,equivalent,Kartek stock number for the FK SRW16 ring
+KTKWSSR,Kartek,Kartek,KTK9044SR,equivalent,listed by Kartek as a cross reference
+SR20,FK,Kartek,FKBSR20,same part,Kartek stock number for the FK part
+SR24,FK,Kartek,FKBSR24,same part,Kartek stock number for the FK part
+SR24,FK,Kartek,KTK9046SR,equivalent,listed by Kartek as a cross reference
+KTK9046SR,Kartek,FK,SR24,equivalent,listed by Kartek as a cross reference
+KTK9046SR,Kartek,Kartek,FKBSR24,equivalent,Kartek stock number for the FK SR24 ring

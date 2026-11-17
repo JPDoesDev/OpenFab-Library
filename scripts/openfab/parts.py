@@ -288,26 +288,66 @@ def spacer(row: dict) -> list[Part]:
     return [_finish(row, pn, "spacer", "Spacer", "stainless", s, vol, dims, est, title=title, folder="Spacers")]
 
 
+# Vendors publish a cup's outside diameter, height and the uniball it takes, nothing inside. The lip,
+# groove and the land above the groove follow one rule, scaled on the bore (the uniball OD) from the first
+# cup's estimate; the sheet says so wherever a row lists them as estimated.
+CUP_ESTIMATES = {
+    "lip_id": "lip_id: the lip overlaps the uniball race by 5.3% of the bore each side",
+    "lip_thickness": "lip_thickness: what is left of the height once the uniball, the groove and a land of "
+                     "7.06% of the bore above the groove are taken off (the groove sits near the open end, as "
+                     "the product photos show)",
+    "groove_dia": "groove_dia: a standard internal retaining ring groove (ANSI B27.7 / Truarc N5000 class) "
+                  "for that housing bore",
+    "groove_width": "groove_width: the N5000-class groove width for that housing bore",
+}
+
+
 def cup(row: dict) -> list[Part]:
+    """A weld-in uniball cup: a bore the uniball presses into, a lip on one side and a snap ring groove on
+    the other. Optional columns: bore_undersize (sold under size, honed to the uniball after welding) and,
+    for a wobble stopper housing (style wobble_stopper), end_holes / end_hole_dia / end_hole_depth /
+    end_hole_bc: tapped holes in each end face for the end plates, modelled as plain tap-drill holes."""
     pn = row["part_number"]
     bo, H, D, lid, lt, gd, gw = (f(row, k) for k in (
         "bearing_od", "height", "od", "lip_id", "lip_thickness", "groove_dia", "groove_width"))
-    T = _race_width_for(row)  # seat depth equals the race width
+    seat_for, T = _seat_bearing(row)  # seat depth equals the race width
+    under = _opt(row, "bore_undersize") or 0.0
+    bb = bo - under           # the bore as sold
     zb = -T / 2 - lt          # bottom (lip) face
     zs = -T / 2               # bearing seat
     zg0, zg1 = T / 2, T / 2 + gw
     zt = zb + H
-    prof = [(lid / 2, zb), (D / 2, zb), (D / 2, zt), (bo / 2, zt), (bo / 2, zg1), (gd / 2, zg1),
-            (gd / 2, zg0), (bo / 2, zg0), (bo / 2, zs), (lid / 2, zs)]
-    vol = PI * ((D / 2) ** 2 * H - (lid / 2) ** 2 * lt - (bo / 2) ** 2 * (zt - zs)
-                - ((gd / 2) ** 2 - (bo / 2) ** 2) * gw)
+    prof = [(lid / 2, zb), (D / 2, zb), (D / 2, zt), (bb / 2, zt), (bb / 2, zg1), (gd / 2, zg1),
+            (gd / 2, zg0), (bb / 2, zg0), (bb / 2, zs), (lid / 2, zs)]
+    vol = PI * ((D / 2) ** 2 * H - (lid / 2) ** 2 * lt - (bb / 2) ** 2 * (zt - zs)
+                - ((gd / 2) ** 2 - (bb / 2) ** 2) * gw)
     dims = {"bearing_od": bo, "height": H, "od": D, "lip_id": lid, "lip_thickness": lt,
-            "groove_dia": gd, "groove_width": gw, "seat_depth": T,
+            "groove_dia": gd, "groove_width": gw, "seat_depth": T, "seat_depth_from": seat_for,
             "bottom_z": round(zb, 4), "top_z": round(zt, 4), "snap_ring": row["snap_ring"]}
+    if under:
+        dims.update({"bore_as_sold": round(bb, 4), "bore_undersize": under})
     s = Script()
     s.revolve("Cup", prof)
-    est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()]
-    title = f"Uniball Cup {inch(bo)} bore x {inch(D)} OD x {inch(H)} tall"
+    est = [CUP_ESTIMATES.get(e.strip(), e.strip()) for e in row.get("estimated", "").split(";") if e.strip()]
+    style = row.get("style") or "weld_in"
+    if style == "wobble_stopper":
+        n, hd, hdep, bc = int(row["end_holes"]), f(row, "end_hole_dia"), f(row, "end_hole_depth"), f(row, "end_hole_bc")
+        for end, z0 in (("lip", zb), ("snap ring", zt - hdep)):
+            for k in range(n):
+                a = math.radians(45 + k * 360 / n)
+                s.cylinder(f"End plate hole {end} {k + 1}", hd, hdep,
+                           base=(bc / 2 * math.cos(a), bc / 2 * math.sin(a), z0), operation="cut")
+        vol -= 2 * n * PI * (hd / 2) ** 2 * hdep
+        dims.update({"end_holes_each_end": n, "end_hole_dia": hd, "end_hole_depth": hdep, "end_hole_bc": bc})
+        est.append(f"end plate holes: {n} each end for 10-32 screws (published), drawn as {num(hd)}in tap-drill "
+                   f"holes {num(hdep)}in deep on a {num(bc)}in circle at 45 degrees (position, size and depth "
+                   "from the photo; the threads are not modelled)")
+        title = f"Wobble Stopper Housing {inch(bo)} bore x {inch(D)} OD x {inch(H)} wide, {row['vendor']}"
+    else:
+        title = f"Uniball Cup {inch(bo)} bore x {inch(D)} OD x {inch(H)} tall, {row['vendor']}"
+        if under:
+            title += f", {num(under)}in undersize bore"
+    dims["style"] = style.replace("_", " ")
     return [_finish(row, pn, "uniball_cup", "Cup", row["material"], s, vol, dims, est, title=title,
                     folder="Uniball Cups")]
 
@@ -315,10 +355,11 @@ def cup(row: dict) -> list[Part]:
 _RACE_WIDTHS: dict[str, float] = {}
 
 
-def _race_width_for(cup_row: dict) -> float:
+def _seat_bearing(cup_row: dict) -> tuple[str, float]:
+    """The first bearing in the cup's `fits` that is in the data, and its race width."""
     for name in cup_row["fits"].split(";"):
         if name.strip() in _RACE_WIDTHS:
-            return _RACE_WIDTHS[name.strip()]
+            return name.strip(), _RACE_WIDTHS[name.strip()]
     raise KeyError(f"no bearing in data for cup {cup_row['part_number']}")
 
 
@@ -331,10 +372,20 @@ def snap_ring(row: dict) -> list[Part]:
     s = Script()
     s.revolve("Ring", [(i / 2, -t / 2), (od / 2, -t / 2), (od / 2, t / 2), (i / 2, t / 2)])
     vol = PI * ((od / 2) ** 2 - (i / 2) ** 2) * t
-    est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()] + ["modelled as a closed ring"]
-    return [_finish(row, row["part_number"], "snap_ring", "Ring", row["material"], s, vol,
-                    {"od": od, "id": i, "thickness": t}, est,
-                    title=f"Snap Ring {inch(od)} OD x {inch(t)} thick", folder="Snap Rings")]
+    est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()]
+    if est:   # no vendor publishes ring sizes: they follow the groove of the cups they fit
+        est.append("sized to sit in the estimated groove of the cups it fits: OD 0.005in under the groove "
+                   "diameter, radial section 6.94% of the cup bore, N5000-class thickness")
+    est.append("modelled as a closed ring (no gap or lugs)")
+    # Two rings with the same size are told apart by type and vendor: FK sells true internal rings with
+    # lugs, Kartek mostly an external-type ring for the same groove.
+    kind = {"internal": "Internal Snap Ring", "external": "External-Type Snap Ring"}.get(row.get("ring_type", ""),
+                                                                                       "Snap Ring")
+    dims = {"od": od, "id": i, "thickness": t}
+    if row.get("ring_type"):
+        dims["ring_type"] = row["ring_type"]
+    return [_finish(row, row["part_number"], "snap_ring", "Ring", row["material"], s, vol, dims, est,
+                    title=f"{kind} {inch(od)} OD x {inch(t)} thick, {row['vendor']}", folder="Snap Rings")]
 
 
 def jam_nut(row: dict) -> list[Part]:

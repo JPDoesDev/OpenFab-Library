@@ -1,2 +1,16 @@
-part_number,vendor,od,id,thickness,fits_cup,material,description,source,estimated
-KTK9044SR,Kartek,2.240,1.945,0.078,KTK9044HD,steel,"Snap ring for Kartek 9044 series 1"" uniball cups",kartek.com KTK9044SR,od; id; thickness
+part_number,vendor,od,id,thickness,fits_cup,material,description,source,estimated,ring_type
+KTK9044SR,Kartek,2.240,1.945,0.078,KTK9044HD; KTK9044; KTK9044HDT; KTK9044HDXT; KTK9044HDXT030; KTK9044HDXT225; KTK9044HDXT250; CPW16; CPW16-1; KTK9044HDWS1,steel,"Snap ring for Kartek 9044 series 1"" uniball cups",kartek.com KTK9044SR,od; id; thickness,external
+SR8,FK,1.061,0.922,0.042,CP8,steel,FK SR8 internal snap ring for FK CP8 uniball cups,kartek.com FKBSR8,od; id; thickness,internal
+SR10,FK,1.257,1.092,0.050,CP10,steel,FK SR10 internal snap ring for FK CP10 uniball cups,kartek.com FKBSR10,od; id; thickness,internal
+SR12,FK,1.519,1.319,0.050,CP12,steel,FK SR12 internal snap ring for FK CP12 uniball cups,kartek.com FKBSR12,od; id; thickness,internal
+SRA12,FK,1.585,1.377,0.050,CPA12,steel,FK SRA12 internal snap ring for FK CPA12 uniball cups,kartek.com FKBSRA12,od; id; thickness,internal
+SRW12,FK,1.454,1.263,0.050,CPW12; KTK9041; KTK9041T,steel,FK SRW12 internal snap ring for FK CPW12 uniball cups,kartek.com FKBSRW12,od; id; thickness,internal
+KTK9041SR,Kartek,1.454,1.263,0.050,KTK9041; KTK9041T; CPW12,steel,Kartek snap ring (Kartek supplies an external-type ring) for Kartek 9041 series uniball cups,kartek.com KTK9041SR,od; id; thickness,external
+SRW14,FK,1.716,1.490,0.062,CPW14; KTK9042,steel,FK SRW14 internal snap ring for FK CPW14 uniball cups,kartek.com FKBSRW14,od; id; thickness,internal
+KTK9042SR,Kartek,1.716,1.490,0.062,KTK9042; CPW14,steel,Kartek snap ring (Kartek supplies an external-type ring) for Kartek 9042 series uniball cups,kartek.com KTK9042SR,od; id; thickness,external
+SRW16,FK,2.240,1.945,0.078,CPW16; CPW16-1; KTK9044; KTK9044HD; KTK9044HDT; KTK9044HDXT; KTK9044HDXT030; KTK9044HDXT225; KTK9044HDXT250; KTK9044HDWS1,steel,FK SRW16 internal snap ring for FK CPW16 uniball cups,kartek.com FKBSRW16,od; id; thickness,internal
+KTKWSSR,Kartek,2.240,1.945,0.078,KTK9044HDWS1; KTK9044; KTK9044HD; KTK9044HDT; KTK9044HDXT; KTK9044HDXT030; KTK9044HDXT225; KTK9044HDXT250; CPW16; CPW16-1,steel,Kartek internal snap ring for the 9044HDWS1 wobble stopper housing; also fits 9044 series and FK CPW16 cups,kartek.com KTKWSSR,od; id; thickness,internal
+SR20,FK,2.502,2.172,0.078,CP20,steel,FK SR20 internal snap ring for FK CP20 uniball cups,kartek.com FKBSR20,od; id; thickness,internal
+SR24,FK,2.895,2.513,0.093,CP24; CP24-1; KTK9046; KTK9046030; KTK9046HD,steel,FK SR24 internal snap ring for FK CP24 uniball cups,kartek.com FKBSR24,od; id; thickness,internal
+KTK9046SR,Kartek,2.895,2.513,0.093,KTK9046; KTK9046030; KTK9046HD; CP24; CP24-1,steel,Kartek snap ring (Kartek supplies an external-type ring) for Kartek 9046 series uniball cups,kartek.com KTK9046SR,od; id; thickness,external
+KTK9048SR,Kartek,3.070,2.665,0.093,KTK9048TT,steel,Kartek snap ring (Kartek supplies an external-type ring) for Kartek 9048 series uniball cups,kartek.com KTK9048SR,od; id; thickness,external
