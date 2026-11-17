@@ -29,6 +29,7 @@ FAMILIES = [  # (csv, generator); bearings first so cups can look up the race wi
     ("spherical_bearings", P.spherical_bearing), ("rod_ends", P.rod_end), ("spacers", P.spacer),
     ("cups", P.cup), ("snap_rings", P.snap_ring), ("jam_nuts", P.jam_nut),
     ("bushings", P.bushing), ("sleeves", P.sleeve),
+    ("bungs", P.bung),
 ]
 VOLUME_TOL = 0.002
 
