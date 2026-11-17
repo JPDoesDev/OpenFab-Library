@@ -19,6 +19,8 @@ MATERIALS = {
     "steel": ("Steel", None, None),
     "4130": ("Steel", None, None),
     "stainless": ("Stainless Steel", None, None),
+    "aluminium_red": ("Aluminum 7075-T6 Red Anodized", 2.81, "#b3261e"),
+    "aluminium_black": ("Aluminum 7075-T6 Black Anodized", 2.81, "#202020"),
     "delrin": ("Acetal (Delrin)", 1.41, "#1c1c1c"),
     "nylatron": ("Nylatron", 1.16, "#6f7377"),
     "urethane": ("Polyurethane", 1.20, "#a01818"),
