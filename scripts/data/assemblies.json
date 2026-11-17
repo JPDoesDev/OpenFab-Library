@@ -776,6 +776,70 @@
   "spacer": null
  },
  {
+  "key": "uniball_PWB-12T_CPW12_KTK3412SRT945",
+  "kind": "uniball",
+  "title": "3/4\" Aurora PWB-12T uniball in a 1-3/4\" FK CPW12 cup, Kartek KTK3412SRT945 straight spacers to a 1/2\" bolt hole, 1-7/8\" stack",
+  "bearing": "PWB-12T",
+  "cup": "CPW12",
+  "spacer": "KTK3412SRT945"
+ },
+ {
+  "key": "uniball_PNB-10TG_CP10_no-spacers",
+  "kind": "uniball",
+  "title": "5/8\" Aurora PNB-10TG grooved uniball in a 1-1/2\" FK CP10 cup, no spacers, 5/8\" bolt hole",
+  "bearing": "PNB-10TG",
+  "cup": "CP10",
+  "spacer": null
+ },
+ {
+  "key": "uniball_COM-12T_CP12_no-spacers",
+  "kind": "uniball",
+  "title": "3/4\" Aurora COM-12T uniball in a 1-3/4\" FK CP12 cup, no spacers, 3/4\" bolt hole",
+  "bearing": "COM-12T",
+  "cup": "CP12",
+  "spacer": null
+ },
+ {
+  "key": "uniball_AIB-16T_KTK9044HD_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" Aurora AIB-16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "AIB-16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_AIB-16T_KTK9044HD_no-spacers",
+  "kind": "uniball",
+  "title": "1\" Aurora AIB-16T uniball in a 2-5/8\" Kartek KTK9044HD cup, no spacers, 1\" bolt hole",
+  "bearing": "AIB-16T",
+  "cup": "KTK9044HD",
+  "spacer": null
+ },
+ {
+  "key": "uniball_HCOM-20T_CP20_no-spacers",
+  "kind": "uniball",
+  "title": "1-1/4\" Aurora HCOM-20T uniball in a 2-7/8\" FK CP20 cup, no spacers, 1-1/4\" bolt hole",
+  "bearing": "HCOM-20T",
+  "cup": "CP20",
+  "spacer": null
+ },
+ {
+  "key": "uniball_HCOM-24T_CP24_no-spacers",
+  "kind": "uniball",
+  "title": "1-1/2\" Aurora HCOM-24T uniball in a 3-1/2\" FK CP24 cup, no spacers, 1-1/2\" bolt hole",
+  "bearing": "HCOM-24T",
+  "cup": "CP24",
+  "spacer": null
+ },
+ {
+  "key": "uniball_HCOM-24T_KTK9046HD_no-spacers",
+  "kind": "uniball",
+  "title": "1-1/2\" Aurora HCOM-24T uniball in a 3-1/2\" Kartek KTK9046HD cup, no spacers, 1-1/2\" bolt hole",
+  "bearing": "HCOM-24T",
+  "cup": "KTK9046HD",
+  "spacer": null
+ },
+ {
   "key": "rod-end_JMX12T_no-spacers",
   "kind": "rod_end",
   "title": "3/4\" rod end, RH, no spacers, 3/4\" bolt hole",
