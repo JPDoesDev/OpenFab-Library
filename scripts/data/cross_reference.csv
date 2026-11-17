@@ -529,13 +529,13 @@ RSMX14T,FK,Kartek,FKBRSMX14TF1,fit variant,Kartek stock number for the F1 fit (b
 RSMXL14T,FK,Kartek,FKBRSMXL14T,same part,Kartek stock number for the FK part
 RSMX14T,FK,Kartek,FKBRSMX14T,same part,Kartek stock number for the FK part
 RAM-16T-3,Aurora,FK,KMX16,equivalent,listed by Kartek as a cross reference
-RAM-16T-3,Aurora,FK,JMX16-3T,equivalent,listed by Kartek as a direct replacement (FK JMX16-3T is made for Kartek; no dimensions published)
+RAM-16T-3,Aurora,FK,JMX16-3T,equivalent,listed by Kartek as a direct replacement (FK JMX16-3T is made for Kartek)
 RAM-16T-3,Aurora,FK,JMX16T,equivalent,listed by Kartek as a cross reference
 RAM-14T-1,Aurora,FK,KMX14,equivalent,listed by Kartek as a cross reference
 RAM-14T-1,Aurora,FK,JMX14T,equivalent,listed by Kartek as a cross reference (not for misalignment spacers)
 RAM-14T-1,Aurora,FK,JMX14T-770,equivalent,listed by Kartek as a cross reference
 RAB-16T-3,Aurora,FK,KMXL16,equivalent,listed by Kartek as a cross reference
-RAB-16T-3,Aurora,FK,JMXL16-3T,equivalent,listed by Kartek as a direct replacement (FK JMX16-3T is made for Kartek; no dimensions published)
+RAB-16T-3,Aurora,FK,JMXL16-3T,equivalent,listed by Kartek as a direct replacement (FK JMX16-3T is made for Kartek)
 RAB-16T-3,Aurora,FK,JMXL16T,equivalent,listed by Kartek as a cross reference
 RAB-14T-1,Aurora,FK,KMXL14,equivalent,listed by Kartek as a cross reference
 RAB-14T-1,Aurora,FK,JMXL14T,equivalent,listed by Kartek as a cross reference (not for misalignment spacers)
@@ -675,3 +675,89 @@ SR24,FK,Kartek,FKBSR24,same part,Kartek stock number for the FK part
 SR24,FK,Kartek,KTK9046SR,equivalent,listed by Kartek as a cross reference
 KTK9046SR,Kartek,FK,SR24,equivalent,listed by Kartek as a cross reference
 KTK9046SR,Kartek,Kartek,FKBSR24,equivalent,Kartek stock number for the FK SR24 ring
+RAM-6T,Aurora,Kartek,AURRAM6T,same part,Kartek stock number for the Aurora part
+RAB-6T,Aurora,Kartek,AURRAB6T,same part,Kartek stock number for the Aurora part
+RAM-7T,Aurora,Kartek,AURRAM7T,same part,Kartek stock number for the Aurora part
+RAB-7T,Aurora,Kartek,AURRAB7T,same part,Kartek stock number for the Aurora part
+RAB-8T,Aurora,Kartek,AURRAB8T,same part,Kartek stock number for the Aurora part
+RAM-10T,Aurora,Kartek,AURRAM10T,same part,Kartek stock number for the Aurora part
+RAB-10T,Aurora,Kartek,AURRAB10T,same part,Kartek stock number for the Aurora part
+RXAM-8T,Aurora,Kartek,AURRXAM8T,same part,Kartek stock number for the Aurora part
+RXAB-8T,Aurora,Kartek,AURRXAB8T,same part,Kartek stock number for the Aurora part
+RXAM-10T,Aurora,Kartek,AURRXAM10T,same part,Kartek stock number for the Aurora part
+RXAB-10T,Aurora,Kartek,AURRXAB10T,same part,Kartek stock number for the Aurora part
+RXAB-12T-1,Aurora,Kartek,AURRXAB12T1,same part,Kartek stock number for the Aurora part
+PRB-7T,Aurora,Kartek,AURPRB7T,same part,Kartek stock number for the Aurora part
+PRM-8T,Aurora,Kartek,AURPRM8T,same part,Kartek stock number for the Aurora part
+PRB-12T,Aurora,Kartek,AURPRB12T,same part,Kartek stock number for the Aurora part
+PRXM-8T,Aurora,Kartek,AURPRXM8T,same part,Kartek stock number for the Aurora part
+HXAM-5T,Aurora,Kartek,AURHXAM5T,same part,Kartek stock number for the Aurora part
+HXAB-5T,Aurora,Kartek,AURHXAB5T,same part,Kartek stock number for the Aurora part
+HXAM-7T,Aurora,Kartek,AURHXAM7T,same part,Kartek stock number for the Aurora part
+HXAB-7T,Aurora,Kartek,AURHXAB7T,same part,Kartek stock number for the Aurora part
+HXAB-12T,Aurora,Kartek,AURHXAB12T,same part,Kartek stock number for the Aurora part
+AM-4T,Aurora,Kartek,AURAM4T,same part,Kartek stock number for the Aurora part
+AB-4T,Aurora,Kartek,AURAB4T,same part,Kartek stock number for the Aurora part
+AM-7,Aurora,Kartek,AURAM7,same part,Kartek stock number for the Aurora part
+AB-7,Aurora,Kartek,AURAB7,same part,Kartek stock number for the Aurora part
+AM-12T,Aurora,Kartek,AURAM12T,same part,Kartek stock number for the Aurora part
+AM-12T-22,Aurora,Kartek,AURAM12T22,same part,Kartek stock number for the Aurora part
+AB-12T-22,Aurora,Kartek,AURAB12T22,same part,Kartek stock number for the Aurora part
+AW-8T,Aurora,Kartek,AURAW8T,same part,Kartek stock number for the Aurora part
+AW-10T,Aurora,Kartek,AURAW10T,same part,Kartek stock number for the Aurora part
+VCW-5,Aurora,Kartek,AURVCW5,same part,Kartek stock number for the Aurora part
+CM-12,Aurora,Kartek,AURCM12,same part,Kartek stock number for the Aurora part
+AM-M6T,Aurora,Kartek,AURAMM6T,same part,Kartek stock number for the Aurora part
+AB-M6,Aurora,Kartek,AURABM6,same part,Kartek stock number for the Aurora part
+AM-M8T,Aurora,Kartek,AURAMM8T,same part,Kartek stock number for the Aurora part
+AB-M8T,Aurora,Kartek,AURABM8T,same part,Kartek stock number for the Aurora part
+AMF-M20T,Aurora,Kartek,AURAMFM20T,same part,Kartek stock number for the Aurora part
+MM-M6,Aurora,Kartek,AURMMM6,same part,Kartek stock number for the Aurora part
+MB-M6,Aurora,Kartek,AURMBM6,same part,Kartek stock number for the Aurora part
+MM-M8,Aurora,Kartek,AURMMM8,same part,Kartek stock number for the Aurora part
+MM-M12T,Aurora,Kartek,AURMMM12T,same part,Kartek stock number for the Aurora part
+MB-M12T,Aurora,Kartek,AURMBM12T,same part,Kartek stock number for the Aurora part
+AW-M8,Aurora,Kartek,AURAWM8,same part,Kartek stock number for the Aurora part
+JMX16-3T,FK,Kartek,FKBJMX163T,same part,Kartek stock number for the FK part
+JMX16-3T,FK,Kartek,FKBJMX163TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMXL16-3T,FK,Kartek,FKBJMXL163T,same part,Kartek stock number for the FK part
+JMXL16-3T,FK,Kartek,FKBJMXL163TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+SCM8T,FK,Kartek,FKBSCM8T,same part,Kartek stock number for the FK part
+SCML8T,FK,Kartek,FKBSCML8T,same part,Kartek stock number for the FK part
+SCM10T,FK,Kartek,FKBSCM10T,same part,Kartek stock number for the FK part
+SCF12T,FK,Kartek,FKBSCF12T,same part,Kartek stock number for the FK part
+CM6-5,FK,Kartek,FKBCM65,same part,Kartek stock number for the FK part
+CML6-5,FK,Kartek,FKBCML65,same part,Kartek stock number for the FK part
+RSMX8T-101,FK,Kartek,FKBRSMX8T101,same part,Kartek stock number for the FK part
+JMX16-3T,FK,Aurora,RAM-16T-3,equivalent,listed by Kartek as a direct replacement
+JMXL16-3T,FK,Aurora,RAB-16T-3,equivalent,listed by Kartek as a direct replacement
+RSMX8T-101,FK,Aurora,HXAM-8T,equivalent,listed by Kartek as a cross reference; the -101 ball is wider (1.160in against 0.937in)
+RSMX8T-101,FK,FK,HRSMX8T,equivalent,listed by Kartek as a cross reference; the -101 ball is wider (1.160in against 0.937in)
+HXAB-7T,Aurora,FK,HRSMXL7T,equivalent,listed by Kartek as a cross reference
+HXAM-7T,Aurora,FK,HRSMX7T,equivalent,listed by Kartek as a cross reference
+HXAB-12T,Aurora,FK,HRSMXL12T,equivalent,listed by Kartek as a cross reference
+RAB-6T,Aurora,FK,JMXL6T,equivalent,listed by Kartek as a cross reference
+RAM-6T,Aurora,FK,JMX6T,equivalent,listed by Kartek as a cross reference
+RAB-7T,Aurora,FK,JMXL7T,equivalent,listed by Kartek as a cross reference
+PRB-7T,Aurora,FK,JMXL7T,equivalent,listed by Kartek as a cross reference
+RAM-7T,Aurora,FK,JMX7T,equivalent,listed by Kartek as a cross reference
+RAB-8T,Aurora,FK,JMXL8T,equivalent,listed by Kartek as a cross reference
+RAB-10T,Aurora,FK,JMXL10T,equivalent,listed by Kartek as a cross reference
+RAM-10T,Aurora,FK,JMX10T,equivalent,listed by Kartek as a cross reference
+PRB-12T,Aurora,FK,JMXL12T,equivalent,listed by Kartek as a cross reference
+RAB-6T,Aurora,FK,KMXL6,equivalent,listed by Kartek as a cross reference
+RAM-6T,Aurora,FK,KMX6,equivalent,listed by Kartek as a cross reference
+RAB-8T,Aurora,FK,KMXL8,equivalent,listed by Kartek as a cross reference
+RXAB-8T,Aurora,FK,KMXL10-8,equivalent,listed by Kartek as a cross reference
+RXAM-8T,Aurora,FK,KMX10-8,equivalent,listed by Kartek as a cross reference
+RAB-10T,Aurora,FK,KMXL10,equivalent,listed by Kartek as a cross reference
+RAM-10T,Aurora,FK,KMX10,equivalent,listed by Kartek as a cross reference
+RXAB-10T,Aurora,FK,KMXL12-10,equivalent,listed by Kartek as a cross reference
+RXAM-10T,Aurora,FK,KMX12-10,equivalent,listed by Kartek as a cross reference
+RXAB-12T-1,Aurora,FK,KMXL14-12,equivalent,listed by Kartek as a cross reference
+RXAB-12T-1,Aurora,FK,EMXL12T,equivalent,listed by Kartek as a cross reference
+RXAB-8T,Aurora,FK,RSMXL8T,equivalent,listed by Kartek as a cross reference
+RXAM-8T,Aurora,FK,RSMX8T,equivalent,listed by Kartek as a cross reference
+RXAB-10T,Aurora,FK,RSMXL10T,equivalent,listed by Kartek as a cross reference
+RXAM-10T,Aurora,FK,RSMX10T,equivalent,listed by Kartek as a cross reference
+RXAB-12T-1,Aurora,FK,RSMXL12T,equivalent,listed by Kartek as a cross reference
