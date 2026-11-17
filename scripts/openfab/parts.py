@@ -298,10 +298,15 @@ def jam_nut(row: dict) -> list[Part]:
     s = Script()
     s.hex_prism("Nut", af, w, z0=-w / 2, hole=d)
     vol = (math.sqrt(3) / 2 * af * af - PI * d * d / 4) * w
+    est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()]
+    # Metric threads ('M16x2.0 6H LH') keep their callout; steel nuts keep the plain title, other
+    # materials say so, so a steel and an aluminum nut of the same thread get different file names.
+    thd = f"{row['thread'].split()[0]} {row['hand']}" if row["thread"].startswith("M") else thread_name(row)
+    mat = "" if row["material"] == "steel" else f"{row['material'].capitalize()} "
     return [_finish(row, row["part_number"], "jam_nut", "Nut", row["material"], s, vol,
                     {"hex": af, "width": w, "thread": row["thread"], "thread_dia": d, "hand": row["hand"]},
-                    ["bore is at thread major diameter; thread not modelled"],
-                    title=f"Jam Nut {thread_name(row)}", folder="Jam Nuts")]
+                    ["bore is at thread major diameter; thread not modelled"] + est,
+                    title=f"{mat}Jam Nut {thd}", folder="Jam Nuts")]
 
 
 def bushing(row: dict) -> list[Part]:
@@ -325,3 +330,16 @@ def sleeve(row: dict) -> list[Part]:
                     {"od": od, "id": i, "length": L, "kind": row["kind"]}, est,
                     title=f"{row['kind'].capitalize()} Sleeve {inch(od)} OD x {inch(i)} ID x {inch(L)} long",
                     folder=f"{row['kind'].capitalize()} Sleeves")]
+
+
+def safety_washer(row: dict) -> list[Part]:
+    od, i, t = f(row, "od"), f(row, "id"), f(row, "thickness")
+    s = Script()
+    s.revolve("Washer", [(i / 2, -t / 2), (od / 2, -t / 2), (od / 2, t / 2), (i / 2, t / 2)])
+    vol = PI * ((od / 2) ** 2 - (i / 2) ** 2) * t
+    est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()]
+    p = _finish(row, row["part_number"].replace("/", "-"), "safety_washer", "Washer", row["material"], s, vol,
+                {"od": od, "id": i, "thickness": t}, est,
+                title=f"Safety Washer {inch(i)} ID x {inch(od)} OD x {inch(t)} thick", folder="Safety Washers")
+    p.name = p.name.replace("/", "-")   # Kartek numbers such as KTK1/2SW cannot go in a file name
+    return [p]

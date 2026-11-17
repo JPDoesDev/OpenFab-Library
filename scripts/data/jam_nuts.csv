@@ -1,3 +1,43 @@
-part_number,vendor,hand,thread,thread_dia,hex,width,material,description,source
-SJNR12,FK,RH,3/4-16 UNF-2B,0.750,1.09375,0.425,steel,FK SJNR12 3/4-16 RH steel jam nut,FK 2017 Industrial Catalog p.41
-SJNL12,FK,LH,3/4-16 UNF-2B LH,0.750,1.09375,0.425,steel,FK SJNL12 3/4-16 LH steel jam nut,FK 2017 Industrial Catalog p.41
+part_number,vendor,hand,thread,thread_dia,hex,width,material,description,source,estimated
+SJNR12,FK,RH,3/4-16 UNF-2B,0.750,1.09375,0.425,steel,FK SJNR12 3/4-16 RH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNL12,FK,LH,3/4-16 UNF-2B LH,0.750,1.09375,0.425,steel,FK SJNL12 3/4-16 LH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNR03,FK,RH,10-32 UNF-2B,0.190,0.375,0.160,steel,FK SJNR03 10-32 RH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNL03,FK,LH,10-32 UNF-2B LH,0.190,0.375,0.160,steel,FK SJNL03 10-32 LH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNR04,FK,RH,1/4-28 UNF-2B,0.250,0.4375,0.160,steel,FK SJNR04 1/4-28 RH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNL04,FK,LH,1/4-28 UNF-2B LH,0.250,0.4375,0.160,steel,FK SJNL04 1/4-28 LH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNR05,FK,RH,5/16-24 UNF-2B,0.3125,0.500,0.187,steel,FK SJNR05 5/16-24 RH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNL05,FK,LH,5/16-24 UNF-2B LH,0.3125,0.500,0.187,steel,FK SJNL05 5/16-24 LH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNR06,FK,RH,3/8-24 UNF-2B,0.375,0.5625,0.225,steel,FK SJNR06 3/8-24 RH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNL06,FK,LH,3/8-24 UNF-2B LH,0.375,0.5625,0.225,steel,FK SJNL06 3/8-24 LH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNR07,FK,RH,7/16-20 UNF-2B,0.4375,0.6875,0.250,steel,FK SJNR07 7/16-20 RH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNL07,FK,LH,7/16-20 UNF-2B LH,0.4375,0.6875,0.250,steel,FK SJNL07 7/16-20 LH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNR08,FK,RH,1/2-20 UNF-2B,0.500,0.750,0.312,steel,FK SJNR08 1/2-20 RH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNL08,FK,LH,1/2-20 UNF-2B LH,0.500,0.750,0.312,steel,FK SJNL08 1/2-20 LH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNR10,FK,RH,5/8-18 UNF-2B,0.625,0.9375,0.375,steel,FK SJNR10 5/8-18 RH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNL10,FK,LH,5/8-18 UNF-2B LH,0.625,0.9375,0.375,steel,FK SJNL10 5/8-18 LH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNR14,FK,RH,7/8-14 UNF-2B,0.875,1.250,0.500,steel,FK SJNR14 7/8-14 RH steel jam nut,FK 2017 Industrial Catalog p.41,hex size may vary with material availability (FK catalog note)
+SJNL14,FK,LH,7/8-14 UNF-2B LH,0.875,1.250,0.500,steel,FK SJNL14 7/8-14 LH steel jam nut,FK 2017 Industrial Catalog p.41,hex size may vary with material availability (FK catalog note)
+SJNR16-1,FK,RH,1-14 UNS-2B,1.000,1.375,0.550,steel,FK SJNR16-1 1-14 RH steel jam nut,FK 2017 Industrial Catalog p.41,hex size may vary with material availability (FK catalog note)
+SJNL16-1,FK,LH,1-14 UNS-2B LH,1.000,1.375,0.550,steel,FK SJNL16-1 1-14 LH steel jam nut,FK 2017 Industrial Catalog p.41,hex size may vary with material availability (FK catalog note)
+SJNR16,FK,RH,1 1/4-12 UNF-2B,1.250,1.625,0.550,steel,FK SJNR16 1 1/4-12 RH steel jam nut,FK 2017 Industrial Catalog p.41,hex size may vary with material availability (FK catalog note)
+SJNL16,FK,LH,1 1/4-12 UNF-2B LH,1.250,1.625,0.550,steel,FK SJNL16 1 1/4-12 LH steel jam nut,FK 2017 Industrial Catalog p.41,hex size may vary with material availability (FK catalog note)
+SJNR6M,FK,RH,M6x1.0 6H,0.23622,0.4375,0.160,steel,FK SJNR6M M6 x 1.0 RH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNL6M,FK,LH,M6x1.0 6H LH,0.23622,0.4375,0.160,steel,FK SJNL6M M6 x 1.0 LH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNR10M,FK,RH,M10x1.5 6H,0.393701,0.5625,0.225,steel,FK SJNR10M M10 x 1.5 RH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNL10M,FK,LH,M10x1.5 6H LH,0.393701,0.5625,0.225,steel,FK SJNL10M M10 x 1.5 LH steel jam nut,FK 2017 Industrial Catalog p.41,
+SJNR16M,FK,RH,M16x2.0 6H,0.629921,0.9375,0.375,steel,FK SJNR16M M16 x 2.0 RH steel jam nut,FK 2017 Industrial Catalog p.41,thread pitch: FK catalog says M16 x 2.0 but Kartek's listing title says 16mm x 1.5; FK catalog followed
+SJNL16M,FK,LH,M16x2.0 6H LH,0.629921,0.9375,0.375,steel,FK SJNL16M M16 x 2.0 LH steel jam nut,FK 2017 Industrial Catalog p.41,thread pitch: FK catalog says M16 x 2.0 but Kartek's listing title says 16mm x 1.5; FK catalog followed
+AJNR03,FK,RH,10-32 UNF-2B,0.190,0.375,0.160,aluminum,FK AJNR03 10-32 RH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNL03,FK,LH,10-32 UNF-2B LH,0.190,0.375,0.160,aluminum,FK AJNL03 10-32 LH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNR04,FK,RH,1/4-28 UNF-2B,0.250,0.4375,0.160,aluminum,FK AJNR04 1/4-28 RH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNL04,FK,LH,1/4-28 UNF-2B LH,0.250,0.4375,0.160,aluminum,FK AJNL04 1/4-28 LH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNR05,FK,RH,5/16-24 UNF-2B,0.3125,0.500,0.187,aluminum,FK AJNR05 5/16-24 RH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNL05,FK,LH,5/16-24 UNF-2B LH,0.3125,0.500,0.187,aluminum,FK AJNL05 5/16-24 LH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNR06,FK,RH,3/8-24 UNF-2B,0.375,0.5625,0.225,aluminum,FK AJNR06 3/8-24 RH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNL06,FK,LH,3/8-24 UNF-2B LH,0.375,0.5625,0.225,aluminum,FK AJNL06 3/8-24 LH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNR08,FK,RH,1/2-20 UNF-2B,0.500,0.750,0.312,aluminum,FK AJNR08 1/2-20 RH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNL08,FK,LH,1/2-20 UNF-2B LH,0.500,0.750,0.312,aluminum,FK AJNL08 1/2-20 LH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNR10,FK,RH,5/8-18 UNF-2B,0.625,0.750,0.312,aluminum,FK AJNR10 5/8-18 RH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNL10,FK,LH,5/8-18 UNF-2B LH,0.625,0.750,0.312,aluminum,FK AJNL10 5/8-18 LH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNR12,FK,RH,3/4-16 UNF-2B,0.750,1.09375,0.425,aluminum,FK AJNR12 3/4-16 RH aluminum jam nut,FK 2017 Industrial Catalog p.41,
+AJNL12,FK,LH,3/4-16 UNF-2B LH,0.750,1.09375,0.425,aluminum,FK AJNL12 3/4-16 LH aluminum jam nut,FK 2017 Industrial Catalog p.41,

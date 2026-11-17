@@ -19,6 +19,7 @@ MATERIALS = {
     "steel": ("Steel", None, None),
     "4130": ("Steel", None, None),
     "stainless": ("Stainless Steel", None, None),
+    "aluminum": ("Aluminum", None, None),
     "delrin": ("Acetal (Delrin)", 1.41, "#1c1c1c"),
     "nylatron": ("Nylatron", 1.16, "#6f7377"),
     "urethane": ("Polyurethane", 1.20, "#a01818"),
