@@ -1,16 +1,392 @@
 [
  {
+  "key": "uniball_COM8T_CP8_no-spacers",
+  "kind": "uniball",
+  "title": "1/2\" FK COM8T uniball in a 1-1/4\" FK CP8 cup, no spacers, 1/2\" bolt hole",
+  "bearing": "COM8T",
+  "cup": "CP8",
+  "spacer": null
+ },
+ {
+  "key": "uniball_COM-8T_CP8_no-spacers",
+  "kind": "uniball",
+  "title": "1/2\" Aurora COM-8T uniball in a 1-1/4\" FK CP8 cup, no spacers, 1/2\" bolt hole",
+  "bearing": "COM-8T",
+  "cup": "CP8",
+  "spacer": null
+ },
+ {
+  "key": "uniball_COM8T-101_CP8_no-spacers",
+  "kind": "uniball",
+  "title": "1/2\" FK COM8T-101 shoulder-ball uniball (1\" wide ball) in a 1-1/4\" FK CP8 cup, no spacers, 1/2\" bolt hole",
+  "bearing": "COM8T-101",
+  "cup": "CP8",
+  "spacer": null
+ },
+ {
+  "key": "uniball_COM8T-103_CP8_no-spacers",
+  "kind": "uniball",
+  "title": "1/2\" FK COM8T-103 shoulder-ball uniball (1-1/2\" wide ball) in a 1-1/4\" FK CP8 cup, no spacers, 1/2\" bolt hole",
+  "bearing": "COM8T-103",
+  "cup": "CP8",
+  "spacer": null
+ },
+ {
+  "key": "uniball_COM10T_CP10_no-spacers",
+  "kind": "uniball",
+  "title": "5/8\" FK COM10T uniball in a 1-1/2\" FK CP10 cup, no spacers, 5/8\" bolt hole",
+  "bearing": "COM10T",
+  "cup": "CP10",
+  "spacer": null
+ },
+ {
+  "key": "uniball_COM-10T_CP10_no-spacers",
+  "kind": "uniball",
+  "title": "5/8\" Aurora COM-10T uniball in a 1-1/2\" FK CP10 cup, no spacers, 5/8\" bolt hole",
+  "bearing": "COM-10T",
+  "cup": "CP10",
+  "spacer": null
+ },
+ {
+  "key": "uniball_COM12T_CP12_no-spacers",
+  "kind": "uniball",
+  "title": "3/4\" FK COM12T uniball in a 1-3/4\" FK CP12 cup, no spacers, 3/4\" bolt hole",
+  "bearing": "COM12T",
+  "cup": "CP12",
+  "spacer": null
+ },
+ {
+  "key": "uniball_AIN12T_CPA12_KTK3412SRT945",
+  "kind": "uniball",
+  "title": "3/4\" FK AIN12T uniball in a 1-13/16\" FK CPA12 cup, Kartek KTK3412SRT945 straight spacers to a 1/2\" bolt hole, 1-7/8\" stack",
+  "bearing": "AIN12T",
+  "cup": "CPA12",
+  "spacer": "KTK3412SRT945"
+ },
+ {
+  "key": "uniball_AIN12T_CPA12_KTK34916SRT",
+  "kind": "uniball",
+  "title": "3/4\" FK AIN12T uniball in a 1-13/16\" FK CPA12 cup, Kartek KTK34916SRT straight spacers to a 9/16\" bolt hole, 1-7/8\" stack",
+  "bearing": "AIN12T",
+  "cup": "CPA12",
+  "spacer": "KTK34916SRT"
+ },
+ {
+  "key": "uniball_AIN12T_CPA12_KTK3412SRTF",
+  "kind": "uniball",
+  "title": "3/4\" FK AIN12T uniball in a 1-13/16\" FK CPA12 cup, Kartek KTK3412SRTF radius cone spacers to a 1/2\" bolt hole, 1-1/2\" stack",
+  "bearing": "AIN12T",
+  "cup": "CPA12",
+  "spacer": "KTK3412SRTF"
+ },
+ {
+  "key": "uniball_AIN12T_CPA12_KTKHMA34716",
+  "kind": "uniball",
+  "title": "3/4\" FK AIN12T uniball in a 1-13/16\" FK CPA12 cup, Kartek KTKHMA34716 misalignment spacers to a 7/16\" bolt hole, 1-1/2\" stack",
+  "bearing": "AIN12T",
+  "cup": "CPA12",
+  "spacer": "KTKHMA34716"
+ },
+ {
+  "key": "uniball_AIN12T_CPA12_KTKHMA3412",
+  "kind": "uniball",
+  "title": "3/4\" FK AIN12T uniball in a 1-13/16\" FK CPA12 cup, Kartek KTKHMA3412 misalignment spacers to a 1/2\" bolt hole, 1-13/16\" stack",
+  "bearing": "AIN12T",
+  "cup": "CPA12",
+  "spacer": "KTKHMA3412"
+ },
+ {
+  "key": "uniball_AIN12T_CPA12_KTKHMA3458",
+  "kind": "uniball",
+  "title": "3/4\" FK AIN12T uniball in a 1-13/16\" FK CPA12 cup, Kartek KTKHMA3458 misalignment spacers to a 5/8\" bolt hole, 1-13/16\" stack",
+  "bearing": "AIN12T",
+  "cup": "CPA12",
+  "spacer": "KTKHMA3458"
+ },
+ {
+  "key": "uniball_AIN12T_CPA12_no-spacers",
+  "kind": "uniball",
+  "title": "3/4\" FK AIN12T uniball in a 1-13/16\" FK CPA12 cup, no spacers, 3/4\" bolt hole",
+  "bearing": "AIN12T",
+  "cup": "CPA12",
+  "spacer": null
+ },
+ {
+  "key": "uniball_AIB-12T_CPA12_KTKHMA3412",
+  "kind": "uniball",
+  "title": "3/4\" Aurora AIB-12T uniball in a 1-13/16\" FK CPA12 cup, Kartek KTKHMA3412 misalignment spacers to a 1/2\" bolt hole, 1-13/16\" stack",
+  "bearing": "AIB-12T",
+  "cup": "CPA12",
+  "spacer": "KTKHMA3412"
+ },
+ {
+  "key": "uniball_WSSX12T_CPW12_KTK3412SRT945",
+  "kind": "uniball",
+  "title": "3/4\" FK WSSX12T uniball in a 1-3/4\" FK CPW12 cup, Kartek KTK3412SRT945 straight spacers to a 1/2\" bolt hole, 1-7/8\" stack",
+  "bearing": "WSSX12T",
+  "cup": "CPW12",
+  "spacer": "KTK3412SRT945"
+ },
+ {
+  "key": "uniball_WSSX12T_CPW12_KTK34916SRT",
+  "kind": "uniball",
+  "title": "3/4\" FK WSSX12T uniball in a 1-3/4\" FK CPW12 cup, Kartek KTK34916SRT straight spacers to a 9/16\" bolt hole, 1-7/8\" stack",
+  "bearing": "WSSX12T",
+  "cup": "CPW12",
+  "spacer": "KTK34916SRT"
+ },
+ {
+  "key": "uniball_WSSX12T_CPW12_KTK3412SRTF",
+  "kind": "uniball",
+  "title": "3/4\" FK WSSX12T uniball in a 1-3/4\" FK CPW12 cup, Kartek KTK3412SRTF radius cone spacers to a 1/2\" bolt hole, 1-1/2\" stack",
+  "bearing": "WSSX12T",
+  "cup": "CPW12",
+  "spacer": "KTK3412SRTF"
+ },
+ {
+  "key": "uniball_WSSX12T_CPW12_no-spacers",
+  "kind": "uniball",
+  "title": "3/4\" FK WSSX12T uniball in a 1-3/4\" FK CPW12 cup, no spacers, 3/4\" bolt hole",
+  "bearing": "WSSX12T",
+  "cup": "CPW12",
+  "spacer": null
+ },
+ {
+  "key": "uniball_WSSX12TV_CPW12_KTK3412SRT945",
+  "kind": "uniball",
+  "title": "3/4\" FK WSSX12TV uniball in a 1-3/4\" FK CPW12 cup, Kartek KTK3412SRT945 straight spacers to a 1/2\" bolt hole, 1-7/8\" stack",
+  "bearing": "WSSX12TV",
+  "cup": "CPW12",
+  "spacer": "KTK3412SRT945"
+ },
+ {
+  "key": "uniball_WSSX12T_KTK9041_KTK3412SRT945",
+  "kind": "uniball",
+  "title": "3/4\" FK WSSX12T uniball in a 1-5/8\" Kartek KTK9041 cup, Kartek KTK3412SRT945 straight spacers to a 1/2\" bolt hole, 1-7/8\" stack",
+  "bearing": "WSSX12T",
+  "cup": "KTK9041",
+  "spacer": "KTK3412SRT945"
+ },
+ {
+  "key": "uniball_WSSX12T_KTK9041_KTK34916SRT",
+  "kind": "uniball",
+  "title": "3/4\" FK WSSX12T uniball in a 1-5/8\" Kartek KTK9041 cup, Kartek KTK34916SRT straight spacers to a 9/16\" bolt hole, 1-7/8\" stack",
+  "bearing": "WSSX12T",
+  "cup": "KTK9041",
+  "spacer": "KTK34916SRT"
+ },
+ {
+  "key": "uniball_WSSX12T_KTK9041T_KTK3412SRT945",
+  "kind": "uniball",
+  "title": "3/4\" FK WSSX12T uniball in a 1-5/8\" Kartek KTK9041T cup, Kartek KTK3412SRT945 straight spacers to a 1/2\" bolt hole, 1-7/8\" stack",
+  "bearing": "WSSX12T",
+  "cup": "KTK9041T",
+  "spacer": "KTK3412SRT945"
+ },
+ {
+  "key": "uniball_WSSX12T_KTK9041T_KTK34916SRT",
+  "kind": "uniball",
+  "title": "3/4\" FK WSSX12T uniball in a 1-5/8\" Kartek KTK9041T cup, Kartek KTK34916SRT straight spacers to a 9/16\" bolt hole, 1-7/8\" stack",
+  "bearing": "WSSX12T",
+  "cup": "KTK9041T",
+  "spacer": "KTK34916SRT"
+ },
+ {
+  "key": "uniball_WSSX14T_CPW14_KTK7834SRTR",
+  "kind": "uniball",
+  "title": "7/8\" FK WSSX14T uniball in a 2\" FK CPW14 cup, Kartek KTK7834SRTR straight spacers to a 3/4\" bolt hole, 1-1/2\" stack",
+  "bearing": "WSSX14T",
+  "cup": "CPW14",
+  "spacer": "KTK7834SRTR"
+ },
+ {
+  "key": "uniball_WSSX14T_CPW14_KTK7858SRT",
+  "kind": "uniball",
+  "title": "7/8\" FK WSSX14T uniball in a 2\" FK CPW14 cup, Kartek KTK7858SRT straight spacers to a 5/8\" bolt hole, 1-5/8\" stack",
+  "bearing": "WSSX14T",
+  "cup": "CPW14",
+  "spacer": "KTK7858SRT"
+ },
+ {
+  "key": "uniball_WSSX14T_CPW14_KTK7812SRTJPS",
+  "kind": "uniball",
+  "title": "7/8\" FK WSSX14T uniball in a 2\" FK CPW14 cup, Kartek KTK7812SRTJPS cone spacers to a 1/2\" bolt hole, 1-1/2\" stack",
+  "bearing": "WSSX14T",
+  "cup": "CPW14",
+  "spacer": "KTK7812SRTJPS"
+ },
+ {
+  "key": "uniball_WSSX14T_CPW14_no-spacers",
+  "kind": "uniball",
+  "title": "7/8\" FK WSSX14T uniball in a 2\" FK CPW14 cup, no spacers, 7/8\" bolt hole",
+  "bearing": "WSSX14T",
+  "cup": "CPW14",
+  "spacer": null
+ },
+ {
+  "key": "uniball_AIN14T-770_CPW14_KTK7834SRTR",
+  "kind": "uniball",
+  "title": "7/8\" FK AIN14T-770 uniball in a 2\" FK CPW14 cup, Kartek KTK7834SRTR straight spacers to a 3/4\" bolt hole, 1-1/2\" stack",
+  "bearing": "AIN14T-770",
+  "cup": "CPW14",
+  "spacer": "KTK7834SRTR"
+ },
+ {
+  "key": "uniball_WSSX14T_KTK9042_KTK7834SRTR",
+  "kind": "uniball",
+  "title": "7/8\" FK WSSX14T uniball in a 2\" Kartek KTK9042 cup, Kartek KTK7834SRTR straight spacers to a 3/4\" bolt hole, 1-1/2\" stack",
+  "bearing": "WSSX14T",
+  "cup": "KTK9042",
+  "spacer": "KTK7834SRTR"
+ },
+ {
+  "key": "uniball_WSSX14T_KTK9042_KTK7858SRT",
+  "kind": "uniball",
+  "title": "7/8\" FK WSSX14T uniball in a 2\" Kartek KTK9042 cup, Kartek KTK7858SRT straight spacers to a 5/8\" bolt hole, 1-5/8\" stack",
+  "bearing": "WSSX14T",
+  "cup": "KTK9042",
+  "spacer": "KTK7858SRT"
+ },
+ {
+  "key": "uniball_WSSX14T_KTK9042_KTK7812SRTJPS",
+  "kind": "uniball",
+  "title": "7/8\" FK WSSX14T uniball in a 2\" Kartek KTK9042 cup, Kartek KTK7812SRTJPS cone spacers to a 1/2\" bolt hole, 1-1/2\" stack",
+  "bearing": "WSSX14T",
+  "cup": "KTK9042",
+  "spacer": "KTK7812SRTJPS"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTK10034SRTN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTK10034SRTN straight spacers to a 3/4\" bolt hole, 2-1/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTK10034SRTN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTK10034SRT1520",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTK10034SRT1520 hourglass spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTK10034SRT1520"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTK10034SRT1125",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTK10034SRT1125 cone spacers to a 3/4\" bolt hole, 2-1/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTK10034SRT1125"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTK10034SRT1190",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTK10034SRT1190 thin edge cone spacers to a 3/4\" bolt hole, 2-3/8\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTK10034SRT1190"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTK10034SRT1250",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTK10034SRT1250 thick edge cone spacers to a 3/4\" bolt hole, 2-1/2\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTK10034SRT1250"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTK10034SRT1385",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTK10034SRT1385 radius cone spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTK10034SRT1385"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA100916S",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA100916S misalignment spacers to a 9/16\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA100916S"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA100916",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA100916 misalignment spacers to a 9/16\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA100916"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10034JRN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10034JRN misalignment spacers to a 3/4\" bolt hole, 1-7/8\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10034JRN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10034JR",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10034JR misalignment spacers to a 3/4\" bolt hole, 2\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10034JR"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10034N",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10034N misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10034N"
+ },
+ {
   "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10034RN",
   "kind": "uniball",
-  "title": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
   "bearing": "WSSX16T",
   "cup": "KTK9044HD",
   "spacer": "KTKHMA10034RN"
  },
  {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10034TPRM",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10034TPRM misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10034TPRM"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10034TCF",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10034TCF total chaos misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10034TCF"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10034NOR",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10034NOR hourglass misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10034NOR"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10034ES",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10034ES misalignment spacers to a 3/4\" bolt hole, 3\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10034ES"
+ },
+ {
   "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10034TRN",
   "kind": "uniball",
-  "title": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10034TRN misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
   "bearing": "WSSX16T",
   "cup": "KTK9044HD",
   "spacer": "KTKHMA10034TRN"
@@ -18,18 +394,386 @@
  {
   "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10058RN",
   "kind": "uniball",
-  "title": "1\" uniball in a 2-5/8\" cup, misalignment spacers to a 5/8\" bolt hole, 2-3/4\" stack",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10058RN misalignment spacers to a 5/8\" bolt hole, 2-3/4\" stack",
   "bearing": "WSSX16T",
   "cup": "KTK9044HD",
   "spacer": "KTKHMA10058RN"
  },
  {
-  "key": "uniball_WSSX16T_KTK9044HD_KTK10034SRTN",
+  "key": "uniball_WSSX16T_KTK9044HD_KTKHMA10058TR",
   "kind": "uniball",
-  "title": "1\" uniball in a 2-5/8\" cup, straight spacers to a 3/4\" bolt hole, 2-1/4\" stack",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10058TR misalignment spacers to a 5/8\" bolt hole, 3-1/16\" stack",
   "bearing": "WSSX16T",
   "cup": "KTK9044HD",
+  "spacer": "KTKHMA10058TR"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTK10034SRTN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTK10034SRTN straight spacers to a 3/4\" bolt hole, 2-1/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
   "spacer": "KTK10034SRTN"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTK10034SRT1520",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTK10034SRT1520 hourglass spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTK10034SRT1520"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTK10034SRT1125",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTK10034SRT1125 cone spacers to a 3/4\" bolt hole, 2-1/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTK10034SRT1125"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTK10034SRT1190",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTK10034SRT1190 thin edge cone spacers to a 3/4\" bolt hole, 2-3/8\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTK10034SRT1190"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTK10034SRT1250",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTK10034SRT1250 thick edge cone spacers to a 3/4\" bolt hole, 2-1/2\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTK10034SRT1250"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTK10034SRT1385",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTK10034SRT1385 radius cone spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTK10034SRT1385"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA100916S",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA100916S misalignment spacers to a 9/16\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA100916S"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA100916",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA100916 misalignment spacers to a 9/16\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA100916"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA10034JRN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10034JRN misalignment spacers to a 3/4\" bolt hole, 1-7/8\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10034JRN"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA10034JR",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10034JR misalignment spacers to a 3/4\" bolt hole, 2\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10034JR"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA10034N",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10034N misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10034N"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA10034TPRM",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10034TPRM misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10034TPRM"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA10034TCF",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10034TCF total chaos misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10034TCF"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA10034NOR",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10034NOR hourglass misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10034NOR"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA10034ES",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10034ES misalignment spacers to a 3/4\" bolt hole, 3\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10034ES"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA10034TRN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10034TRN misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10034TRN"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA10058RN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10058RN misalignment spacers to a 5/8\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10058RN"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16_KTKHMA10058TR",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10058TR misalignment spacers to a 5/8\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10058TR"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HD_no-spacers",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HD cup, no spacers, 1\" bolt hole",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HD",
+  "spacer": null
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16-1_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16-1 cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16-1",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_WSSX16T_CPW16-1_KTKHMA10034TRN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" FK CPW16-1 cup, Kartek KTKHMA10034TRN misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "CPW16-1",
+  "spacer": "KTKHMA10034TRN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-1/2\" Kartek KTK9044 cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044_KTKHMA10034TRN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-1/2\" Kartek KTK9044 cup, Kartek KTKHMA10034TRN misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044",
+  "spacer": "KTKHMA10034TRN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HDT_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HDT cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HDT",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HDT_KTKHMA10034TRN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HDT cup, Kartek KTKHMA10034TRN misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HDT",
+  "spacer": "KTKHMA10034TRN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HDXT_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HDXT cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HDXT",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HDXT_KTKHMA10034TRN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HDXT cup, Kartek KTKHMA10034TRN misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HDXT",
+  "spacer": "KTKHMA10034TRN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HDXT225_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HDXT225 cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HDXT225",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HDXT225_KTKHMA10034TRN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HDXT225 cup, Kartek KTKHMA10034TRN misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HDXT225",
+  "spacer": "KTKHMA10034TRN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HDXT250_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HDXT250 cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HDXT250",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HDXT250_KTKHMA10034TRN",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-5/8\" Kartek KTK9044HDXT250 cup, Kartek KTKHMA10034TRN misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HDXT250",
+  "spacer": "KTKHMA10034TRN"
+ },
+ {
+  "key": "uniball_AIN16T_KTK9044HD_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" FK AIN16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "AIN16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_AIN16T_KTK9044HD_KTK10034SRTN",
+  "kind": "uniball",
+  "title": "1\" FK AIN16T uniball in a 2-5/8\" Kartek KTK9044HD cup, Kartek KTK10034SRTN straight spacers to a 3/4\" bolt hole, 2-1/4\" stack",
+  "bearing": "AIN16T",
+  "cup": "KTK9044HD",
+  "spacer": "KTK10034SRTN"
+ },
+ {
+  "key": "uniball_AIN16T_KTK9044HD_no-spacers",
+  "kind": "uniball",
+  "title": "1\" FK AIN16T uniball in a 2-5/8\" Kartek KTK9044HD cup, no spacers, 1\" bolt hole",
+  "bearing": "AIN16T",
+  "cup": "KTK9044HD",
+  "spacer": null
+ },
+ {
+  "key": "uniball_AIB-16T-3_CPW16_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" Aurora AIB-16T-3 uniball in a 2-5/8\" FK CPW16 cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "AIB-16T-3",
+  "cup": "CPW16",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_AIN16_KTK9044_KTKHMA10034RN",
+  "kind": "uniball",
+  "title": "1\" FK AIN16 uniball in a 2-1/2\" Kartek KTK9044 cup, Kartek KTKHMA10034RN misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "bearing": "AIN16",
+  "cup": "KTK9044",
+  "spacer": "KTKHMA10034RN"
+ },
+ {
+  "key": "uniball_WSSX16T_KTK9044HDWS1_KTK10034WSS",
+  "kind": "uniball",
+  "title": "1\" FK WSSX16T uniball in a 2-3/4\" Kartek KTK9044HDWS1 wobble stopper housing, Kartek KTK10034WSS straight spacers to a 3/4\" bolt hole, 3-1/16\" stack (the kit's two slotted end plates KTK16200WSC and their eight 10-32 screws are not modelled, so this swings freely like any uniball; in the real kit the end plates let the spacers rock only within their slots)",
+  "bearing": "WSSX16T",
+  "cup": "KTK9044HDWS1",
+  "spacer": "KTK10034WSS"
+ },
+ {
+  "key": "uniball_COMH20T_CP20_no-spacers",
+  "kind": "uniball",
+  "title": "1-1/4\" FK COMH20T uniball in a 2-7/8\" FK CP20 cup, no spacers, 1-1/4\" bolt hole",
+  "bearing": "COMH20T",
+  "cup": "CP20",
+  "spacer": null
+ },
+ {
+  "key": "uniball_WSSX24T_KTK9048TT_KTKHMA15034TTR",
+  "kind": "uniball",
+  "title": "1-1/2\" FK WSSX24T uniball in a 3-1/2\" Kartek KTK9048TT cup, Kartek KTKHMA15034TTR trophy truck misalignment spacers to a 3/4\" bolt hole, 3-1/2\" stack",
+  "bearing": "WSSX24T",
+  "cup": "KTK9048TT",
+  "spacer": "KTKHMA15034TTR"
+ },
+ {
+  "key": "uniball_WSSX24T_KTK9048TT_KTKTTHMA15034PRMNS",
+  "kind": "uniball",
+  "title": "1-1/2\" FK WSSX24T uniball in a 3-1/2\" Kartek KTK9048TT cup, Kartek KTKTTHMA15034PRMNS flat top trophy truck misalignment spacers to a 3/4\" bolt hole, 4-3/8\" stack",
+  "bearing": "WSSX24T",
+  "cup": "KTK9048TT",
+  "spacer": "KTKTTHMA15034PRMNS"
+ },
+ {
+  "key": "uniball_WSSX24T_KTK9048TT_no-spacers",
+  "kind": "uniball",
+  "title": "1-1/2\" FK WSSX24T uniball in a 3-1/2\" Kartek KTK9048TT cup, no spacers, 1-1/2\" bolt hole",
+  "bearing": "WSSX24T",
+  "cup": "KTK9048TT",
+  "spacer": null
+ },
+ {
+  "key": "uniball_COMH24T_CP24_no-spacers",
+  "kind": "uniball",
+  "title": "1-1/2\" FK COMH24T uniball in a 3-1/2\" FK CP24 cup, no spacers, 1-1/2\" bolt hole",
+  "bearing": "COMH24T",
+  "cup": "CP24",
+  "spacer": null
+ },
+ {
+  "key": "uniball_COMH24T_CP24-1_no-spacers",
+  "kind": "uniball",
+  "title": "1-1/2\" FK COMH24T uniball in a 3-3/8\" FK CP24-1 cup, no spacers, 1-1/2\" bolt hole",
+  "bearing": "COMH24T",
+  "cup": "CP24-1",
+  "spacer": null
+ },
+ {
+  "key": "uniball_COMH24T_KTK9046_no-spacers",
+  "kind": "uniball",
+  "title": "1-1/2\" FK COMH24T uniball in a 3-3/8\" Kartek KTK9046 cup, no spacers, 1-1/2\" bolt hole",
+  "bearing": "COMH24T",
+  "cup": "KTK9046",
+  "spacer": null
+ },
+ {
+  "key": "uniball_COMH24T_KTK9046HD_no-spacers",
+  "kind": "uniball",
+  "title": "1-1/2\" FK COMH24T uniball in a 3-1/2\" Kartek KTK9046HD cup, no spacers, 1-1/2\" bolt hole",
+  "bearing": "COMH24T",
+  "cup": "KTK9046HD",
+  "spacer": null
  },
  {
   "key": "rod-end_JMX12T_no-spacers",
