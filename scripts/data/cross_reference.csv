@@ -214,7 +214,6 @@ BA200-OUTER,AutoFab,AutoFab,BA200,sold in kit,not sold separately; part of the b
 BA200-OUTER,AutoFab,Kartek,AFBBA200,sold in kit,Kartek stock number for the kit
 BA200-INNER,AutoFab,AutoFab,BA200,sold in kit,not sold separately; part of the bushing assembly kit
 BA200-INNER,AutoFab,Kartek,AFBBA200,sold in kit,Kartek stock number for the kit
-JMXL12T,FK,Aurora,RAB-12T,equivalent,left-hand counterpart of RAM-12T; not confirmed against an Aurora catalog
 SJNR03,FK,Kartek,FKBSJNR03,same part,Kartek stock number for the FK part
 SJNL03,FK,Kartek,FKBSJNL03,same part,Kartek stock number for the FK part
 SJNR04,FK,Kartek,FKBSJNR04,same part,Kartek stock number for the FK part
@@ -255,3 +254,373 @@ AJNR10,FK,Kartek,FKBAJNR10,same part,Kartek stock number for the FK part
 AJNL10,FK,Kartek,FKBAJNL10,same part,Kartek stock number for the FK part
 AJNR12,FK,Kartek,FKBAJNR12,same part,Kartek stock number for the FK part
 AJNL12,FK,Kartek,FKBAJNL12,same part,Kartek stock number for the FK part
+JMXL12T,FK,Aurora,RAB-12T,equivalent,listed by Kartek as a cross reference; Aurora catalog p.38 gives the same envelope (thread length 1.687 vs 1.750)
+AM-10T,Aurora,Kartek,AURAM10T,same part,Kartek stock number for the Aurora part
+AM-8T,Aurora,Kartek,AURAM8T,same part,Kartek stock number for the Aurora part
+AB-10T,Aurora,Kartek,AURAB10T,same part,Kartek stock number for the Aurora part
+AB-8T,Aurora,Kartek,AURAB8T,same part,Kartek stock number for the Aurora part
+HXAM-8T,Aurora,Kartek,AURHXAM8T,same part,Kartek stock number for the Aurora part
+HXAM-12T,Aurora,Kartek,AURHXAM12T,same part,Kartek stock number for the Aurora part
+HXAM-10T,Aurora,Kartek,AURHXAM10T,same part,Kartek stock number for the Aurora part
+HXAB-8T,Aurora,Kartek,AURHXAB8T,same part,Kartek stock number for the Aurora part
+HXAB-10T,Aurora,Kartek,AURHXAB10T,same part,Kartek stock number for the Aurora part
+PRM-12T,Aurora,Kartek,AURPRM12T,same part,Kartek stock number for the Aurora part
+PRM-7T,Aurora,Kartek,AURPRM7T,same part,Kartek stock number for the Aurora part
+RAM-16T-3,Aurora,Kartek,AURRAM16T3,same part,Kartek stock number for the Aurora part
+RAM-8T,Aurora,Kartek,AURRAM8T,same part,Kartek stock number for the Aurora part
+RAM-16T-1,Aurora,Kartek,AURRAM16T1,same part,Kartek stock number for the Aurora part
+RAM-14T-1,Aurora,Kartek,AURRAM14T1,same part,Kartek stock number for the Aurora part
+RAM-12T,Aurora,Kartek,AURRAM12T,same part,Kartek stock number for the Aurora part
+RAB-16T-3,Aurora,Kartek,AURRAB16T3,same part,Kartek stock number for the Aurora part
+RAB-16T-1,Aurora,Kartek,AURRAB16T1,same part,Kartek stock number for the Aurora part
+RAB-14T-1,Aurora,Kartek,AURRAB14T1,same part,Kartek stock number for the Aurora part
+RAB-12T,Aurora,Kartek,AURRAB12T,same part,Kartek stock number for the Aurora part
+RXAM-14T-1,Aurora,Kartek,AURRXAM14T1,same part,Kartek stock number for the Aurora part
+RXAB-14T-1,Aurora,Kartek,AURRXAB14T1,same part,Kartek stock number for the Aurora part
+XAM-10T,Aurora,Kartek,AURXAM10T,same part,Kartek stock number for the Aurora part
+RXAM-12T-1,Aurora,Kartek,AURRXAM12T1,same part,Kartek stock number for the Aurora part
+XAB-10T,Aurora,Kartek,AURXAB10T,same part,Kartek stock number for the Aurora part
+ALJFL3,FK,Kartek,FKBALJFL3,same part,Kartek stock number for the FK part
+ALJF3,FK,Kartek,FKBALJF3,same part,Kartek stock number for the FK part
+ALJF6,FK,Kartek,FKBALJF6,same part,Kartek stock number for the FK part
+ALJF8,FK,Kartek,FKBALJF8,same part,Kartek stock number for the FK part
+ALJML3,FK,Kartek,FKBALJML3,same part,Kartek stock number for the FK part
+ALJM3,FK,Kartek,FKBALJM3,same part,Kartek stock number for the FK part
+ALJML4,FK,Kartek,FKBALJML4,same part,Kartek stock number for the FK part
+ALJM4,FK,Kartek,FKBALJM4,same part,Kartek stock number for the FK part
+ALJML5,FK,Kartek,FKBALJML5,same part,Kartek stock number for the FK part
+ALJM5,FK,Kartek,FKBALJM5,same part,Kartek stock number for the FK part
+ALJML6T,FK,Kartek,FKBALJML6T,same part,Kartek stock number for the FK part
+ALJM6T,FK,Kartek,FKBALJM6T,same part,Kartek stock number for the FK part
+ALJM7,FK,Kartek,FKBALJM7,same part,Kartek stock number for the FK part
+ALJM7T,FK,Kartek,FKBALJM7T,same part,Kartek stock number for the FK part
+ALJML8-B,FK,Kartek,FKBALJML8B,same part,Kartek stock number for the FK part
+ALJM8-B,FK,Kartek,FKBALJM8B,same part,Kartek stock number for the FK part
+ALJML8T,FK,Kartek,FKBALJML8T,same part,Kartek stock number for the FK part
+ALJM8T,FK,Kartek,FKBALJM8T,same part,Kartek stock number for the FK part
+ALRSML8T,FK,Kartek,FKBALRSML8T,same part,Kartek stock number for the FK part
+ALRSM8T,FK,Kartek,FKBALRSM8T,same part,Kartek stock number for the FK part
+ALJML10,FK,Kartek,FKBALJML10,same part,Kartek stock number for the FK part
+ALJM10,FK,Kartek,FKBALJM10,same part,Kartek stock number for the FK part
+ALJML12H,FK,Kartek,FKBALJML12H,same part,Kartek stock number for the FK part
+ALJM12H,FK,Kartek,FKBALJM12H,same part,Kartek stock number for the FK part
+ALJML12T,FK,Kartek,FKBALJML12T,same part,Kartek stock number for the FK part
+ALJM12T,FK,Kartek,FKBALJM12T,same part,Kartek stock number for the FK part
+ALJML12HT,FK,Kartek,FKBALJML12HT,same part,Kartek stock number for the FK part
+ALJM12HT,FK,Kartek,FKBALJM12HT,same part,Kartek stock number for the FK part
+CFL3,FK,Kartek,FKBCFL3,same part,Kartek stock number for the FK part
+CF3,FK,Kartek,FKBCF3,same part,Kartek stock number for the FK part
+CFL4,FK,Kartek,FKBCFL4,same part,Kartek stock number for the FK part
+CF4,FK,Kartek,FKBCF4,same part,Kartek stock number for the FK part
+CFL5,FK,Kartek,FKBCFL5,same part,Kartek stock number for the FK part
+CF5,FK,Kartek,FKBCF5,same part,Kartek stock number for the FK part
+CFL6,FK,Kartek,FKBCFL6,same part,Kartek stock number for the FK part
+CF6,FK,Kartek,FKBCF6,same part,Kartek stock number for the FK part
+CFL7,FK,Kartek,FKBCFL7,same part,Kartek stock number for the FK part
+CF7,FK,Kartek,FKBCF7,same part,Kartek stock number for the FK part
+CFL8,FK,Kartek,FKBCFL8,same part,Kartek stock number for the FK part
+CF8,FK,Kartek,FKBCF8,same part,Kartek stock number for the FK part
+CFL10,FK,Kartek,FKBCFL10,same part,Kartek stock number for the FK part
+CF10,FK,Kartek,FKBCF10,same part,Kartek stock number for the FK part
+CFL12,FK,Kartek,FKBCFL12,same part,Kartek stock number for the FK part
+CF12,FK,Kartek,FKBCF12,same part,Kartek stock number for the FK part
+CF12T,FK,Kartek,FKBCF12T,same part,Kartek stock number for the FK part
+CFL3Y,FK,Kartek,FKBCFL3Y,same part,Kartek stock number for the FK part
+CF3Y,FK,Kartek,FKBCF3Y,same part,Kartek stock number for the FK part
+CF4-3Y,FK,Kartek,FKBCF43Y,same part,Kartek stock number for the FK part
+CFL4Y,FK,Kartek,FKBCFL4Y,same part,Kartek stock number for the FK part
+CF4Y,FK,Kartek,FKBCF4Y,same part,Kartek stock number for the FK part
+CF7TY,FK,Kartek,FKBCF7TY,same part,Kartek stock number for the FK part
+CF8Y,FK,Kartek,FKBCF8Y,same part,Kartek stock number for the FK part
+CF8TY,FK,Kartek,FKBCF8TY,same part,Kartek stock number for the FK part
+CF12MF,FK,Kartek,FKBCF12MF,same part,Kartek stock number for the FK part
+CML3,FK,Kartek,FKBCML3,same part,Kartek stock number for the FK part
+CM3,FK,Kartek,FKBCM3,same part,Kartek stock number for the FK part
+CML4,FK,Kartek,FKBCML4,same part,Kartek stock number for the FK part
+CM4,FK,Kartek,FKBCM4,same part,Kartek stock number for the FK part
+CML5,FK,Kartek,FKBCML5,same part,Kartek stock number for the FK part
+CM5,FK,Kartek,FKBCM5,same part,Kartek stock number for the FK part
+CML6,FK,Kartek,FKBCML6,same part,Kartek stock number for the FK part
+CM6,FK,Kartek,FKBCM6,same part,Kartek stock number for the FK part
+CML7,FK,Kartek,FKBCML7,same part,Kartek stock number for the FK part
+CM7,FK,Kartek,FKBCM7,same part,Kartek stock number for the FK part
+CML8,FK,Kartek,FKBCML8,same part,Kartek stock number for the FK part
+CM8,FK,Kartek,FKBCM8,same part,Kartek stock number for the FK part
+CML10,FK,Kartek,FKBCML10,same part,Kartek stock number for the FK part
+CM10,FK,Kartek,FKBCM10,same part,Kartek stock number for the FK part
+CML12,FK,Kartek,FKBCML12,same part,Kartek stock number for the FK part
+CM12,FK,Kartek,FKBCM12,same part,Kartek stock number for the FK part
+CM12-757,FK,Kartek,FKBCM12757,same part,Kartek stock number for the FK part
+CM10T,FK,Kartek,FKBCM10T,same part,Kartek stock number for the FK part
+CML12T,FK,Kartek,FKBCML12T,same part,Kartek stock number for the FK part
+CM12T,FK,Kartek,FKBCM12T,same part,Kartek stock number for the FK part
+CM3Y,FK,Kartek,FKBCM3Y,same part,Kartek stock number for the FK part
+CML6Y,FK,Kartek,FKBCML6Y,same part,Kartek stock number for the FK part
+CM6Y,FK,Kartek,FKBCM6Y,same part,Kartek stock number for the FK part
+CML7Y,FK,Kartek,FKBCML7Y,same part,Kartek stock number for the FK part
+CM7TY,FK,Kartek,FKBCM7TY,same part,Kartek stock number for the FK part
+CML8Y,FK,Kartek,FKBCML8Y,same part,Kartek stock number for the FK part
+CM8Y,FK,Kartek,FKBCM8Y,same part,Kartek stock number for the FK part
+CML8TY,FK,Kartek,FKBCML8TY,same part,Kartek stock number for the FK part
+CM8TY,FK,Kartek,FKBCM8TY,same part,Kartek stock number for the FK part
+CM16M,FK,Kartek,FKBCM16M,same part,Kartek stock number for the FK part
+CV2,FK,Kartek,FKBCV2,same part,Kartek stock number for the FK part
+RD1,FK,Kartek,FKBRD1,same part,Kartek stock number for the FK part
+HJMXL6T,FK,Kartek,FKBHJMXL6T,same part,Kartek stock number for the FK part
+HJMX6T,FK,Kartek,FKBHJMX6T,same part,Kartek stock number for the FK part
+HJMXL7T,FK,Kartek,FKBHJMXL7T,same part,Kartek stock number for the FK part
+HJMX7T,FK,Kartek,FKBHJMX7T,same part,Kartek stock number for the FK part
+HJMXL8T,FK,Kartek,FKBHJMXL8T,same part,Kartek stock number for the FK part
+HJMX8T,FK,Kartek,FKBHJMX8T,same part,Kartek stock number for the FK part
+HJMX8T,FK,Kartek,FKBHJMX8TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+HJMXL10T,FK,Kartek,FKBHJMXL10T,same part,Kartek stock number for the FK part
+HJMX10T,FK,Kartek,FKBHJMX10T,same part,Kartek stock number for the FK part
+HJMXL12T,FK,Kartek,FKBHJMXL12T,same part,Kartek stock number for the FK part
+HJMX12T,FK,Kartek,FKBHJMX12T,same part,Kartek stock number for the FK part
+HRSMXL4T,FK,Kartek,FKBHRSMXL4T,same part,Kartek stock number for the FK part
+HRSMX4T,FK,Kartek,FKBHRSMX4T,same part,Kartek stock number for the FK part
+HRSMXL6T,FK,Kartek,FKBHRSMXL6T,same part,Kartek stock number for the FK part
+HRSMX6T,FK,Kartek,FKBHRSMX6T,same part,Kartek stock number for the FK part
+HRSMXL7T,FK,Kartek,FKBHRSMXL7T,same part,Kartek stock number for the FK part
+HRSMX7T,FK,Kartek,FKBHRSMX7T,same part,Kartek stock number for the FK part
+HRSMX7T,FK,Kartek,FKBHRSMX7TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+HRSMXL8T,FK,Kartek,FKBHRSMXL8T,same part,Kartek stock number for the FK part
+HRSMX8T,FK,Kartek,FKBHRSMX8T,same part,Kartek stock number for the FK part
+HRSMXL10T,FK,Kartek,FKBHRSMXL10T,same part,Kartek stock number for the FK part
+HRSMX10T,FK,Kartek,FKBHRSMX10T,same part,Kartek stock number for the FK part
+HRSMXL12T,FK,Kartek,FKBHRSMXL12T,same part,Kartek stock number for the FK part
+HRSMX12T,FK,Kartek,FKBHRSMX12T,same part,Kartek stock number for the FK part
+JF8T,FK,Kartek,FKBJF8T,same part,Kartek stock number for the FK part
+JFL16-1,FK,Kartek,FKBJFL161,same part,Kartek stock number for the FK part
+JF16-1,FK,Kartek,FKBJF161,same part,Kartek stock number for the FK part
+JM7,FK,Kartek,FKBJM7,same part,Kartek stock number for the FK part
+JM12T,FK,Kartek,FKBJM12T,same part,Kartek stock number for the FK part
+JM16-2,FK,Kartek,FKBJM162,same part,Kartek stock number for the FK part
+JFX4,FK,Kartek,FKBJFX4,same part,Kartek stock number for the FK part
+JFX4T,FK,Kartek,FKBJFX4T,same part,Kartek stock number for the FK part
+JFX5T,FK,Kartek,FKBJFX5T,same part,Kartek stock number for the FK part
+JFX7T,FK,Kartek,FKBJFX7T,same part,Kartek stock number for the FK part
+JFXL8,FK,Kartek,FKBJFXL8,same part,Kartek stock number for the FK part
+JFX8,FK,Kartek,FKBJFX8,same part,Kartek stock number for the FK part
+JFXL8T,FK,Kartek,FKBJFXL8T,same part,Kartek stock number for the FK part
+JFX8T,FK,Kartek,FKBJFX8T,same part,Kartek stock number for the FK part
+JFX10T,FK,Kartek,FKBJFX10T,same part,Kartek stock number for the FK part
+JFXL12T,FK,Kartek,FKBJFXL12T,same part,Kartek stock number for the FK part
+JFX12T,FK,Kartek,FKBJFX12T,same part,Kartek stock number for the FK part
+JFX16T,FK,Kartek,FKBJFX16T,same part,Kartek stock number for the FK part
+JMXL3T,FK,Kartek,FKBJMXL3T,same part,Kartek stock number for the FK part
+JMX3T,FK,Kartek,FKBJMX3T,same part,Kartek stock number for the FK part
+JMXL4,FK,Kartek,FKBJMXL4,same part,Kartek stock number for the FK part
+JMX4,FK,Kartek,FKBJMX4,same part,Kartek stock number for the FK part
+JMXL4T,FK,Kartek,FKBJMXL4T,same part,Kartek stock number for the FK part
+JMX4T,FK,Kartek,FKBJMX4T,same part,Kartek stock number for the FK part
+JMXL5T,FK,Kartek,FKBJMXL5T,same part,Kartek stock number for the FK part
+JMX5T,FK,Kartek,FKBJMX5T,same part,Kartek stock number for the FK part
+JMX6,FK,Kartek,FKBJMX6,same part,Kartek stock number for the FK part
+JMXL6T,FK,Kartek,FKBJMXL6T,same part,Kartek stock number for the FK part
+JMX6T,FK,Kartek,FKBJMX6T,same part,Kartek stock number for the FK part
+JMXL7T,FK,Kartek,FKBJMXL7T,same part,Kartek stock number for the FK part
+JMX7T,FK,Kartek,FKBJMX7T,same part,Kartek stock number for the FK part
+JMXL8,FK,Kartek,FKBJMXL8,same part,Kartek stock number for the FK part
+JMXL8T,FK,Kartek,FKBJMXL8TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMX8T,FK,Kartek,FKBJMX8TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMXL8T,FK,Kartek,FKBJMXL8T,same part,Kartek stock number for the FK part
+JMX8T,FK,Kartek,FKBJMX8T,same part,Kartek stock number for the FK part
+JMXL10,FK,Kartek,FKBJMXL10,same part,Kartek stock number for the FK part
+JMX10,FK,Kartek,FKBJMX10,same part,Kartek stock number for the FK part
+JMXL10T,FK,Kartek,FKBJMXL10TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMX10T,FK,Kartek,FKBJMX10TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMXL10T,FK,Kartek,FKBJMXL10T,same part,Kartek stock number for the FK part
+JMX10T,FK,Kartek,FKBJMX10T,same part,Kartek stock number for the FK part
+JMXL12T,FK,Kartek,FKBJMXL12TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMX12T,FK,Kartek,FKBJMX12TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMX14T,FK,Kartek,FKBJMX14TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMXL14T,FK,Kartek,FKBJMXL14T,same part,Kartek stock number for the FK part
+JMX14T,FK,Kartek,FKBJMX14T,same part,Kartek stock number for the FK part
+JMXL14T-770,FK,Kartek,FKBJMXL14T770F1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMX14T-770,FK,Kartek,FKBJMX14T770F1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMXL14T-770,FK,Kartek,FKBJMXL14T770,same part,Kartek stock number for the FK part
+JMX14T-770,FK,Kartek,FKBJMX14T770,same part,Kartek stock number for the FK part
+JMX16-1T,FK,Kartek,FKBJMX161TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMXL16-1T,FK,Kartek,FKBJMXL161T,same part,Kartek stock number for the FK part
+JMX16-1T,FK,Kartek,FKBJMX161T,same part,Kartek stock number for the FK part
+JMXL16-1T,FK,Kartek,FKBJMXL161TF3,fit variant,Kartek stock number for the F3 fit (ball preload) of the FK part; same dimensions
+JMX16-1T,FK,Kartek,FKBJMX161TF3,fit variant,Kartek stock number for the F3 fit (ball preload) of the FK part; same dimensions
+JMXL16T,FK,Kartek,FKBJMXL16TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMX16T,FK,Kartek,FKBJMX16TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+JMXL16T,FK,Kartek,FKBJMXL16T,same part,Kartek stock number for the FK part
+JMX16T,FK,Kartek,FKBJMX16T,same part,Kartek stock number for the FK part
+JMXL24T,FK,Kartek,FKBJMXL24T,same part,Kartek stock number for the FK part
+JMX24T,FK,Kartek,FKBJMX24T,same part,Kartek stock number for the FK part
+JMXL8TY,FK,Kartek,FKBJMXL8TY,same part,Kartek stock number for the FK part
+JMX8TY,FK,Kartek,FKBJMX8TY,same part,Kartek stock number for the FK part
+JMX10TY,FK,Kartek,FKBJMX10TY,same part,Kartek stock number for the FK part
+JMX10TYX,FK,Kartek,FKBJMX10TYX,same part,Kartek stock number for the FK part
+JFX10MT,FK,Kartek,FKBJFX10MT,same part,Kartek stock number for the FK part
+JFXL14MF,FK,Kartek,FKBJFXL14MF,same part,Kartek stock number for the FK part
+JFX14MF,FK,Kartek,FKBJFX14MF,same part,Kartek stock number for the FK part
+JFX16MT,FK,Kartek,FKBJFX16MT,same part,Kartek stock number for the FK part
+JMX8M,FK,Kartek,FKBJMX8M,same part,Kartek stock number for the FK part
+JMX10MF,FK,Kartek,FKBJMX10MF,same part,Kartek stock number for the FK part
+JMXL10MT,FK,Kartek,FKBJMXL10MT,same part,Kartek stock number for the FK part
+JMX10MT,FK,Kartek,FKBJMX10MT,same part,Kartek stock number for the FK part
+JMX12MF,FK,Kartek,FKBJMX12MF,same part,Kartek stock number for the FK part
+JMX14MF,FK,Kartek,FKBJMX14MF,same part,Kartek stock number for the FK part
+JMX14M,FK,Kartek,FKBJMX14M,same part,Kartek stock number for the FK part
+JMXL16MT,FK,Kartek,FKBJMXL16MT,same part,Kartek stock number for the FK part
+JMX16MT,FK,Kartek,FKBJMX16MT,same part,Kartek stock number for the FK part
+JMX20M,FK,Kartek,FKBJMX20M,same part,Kartek stock number for the FK part
+JMX22M,FK,Kartek,FKBJMX22M,same part,Kartek stock number for the FK part
+JMXL22MT,FK,Kartek,FKBJMXL22MT,same part,Kartek stock number for the FK part
+JMX22MT,FK,Kartek,FKBJMX22MT,same part,Kartek stock number for the FK part
+KMXL5,FK,Kartek,FKBKMXL5,same part,Kartek stock number for the FK part
+KMX5,FK,Kartek,FKBKMX5,same part,Kartek stock number for the FK part
+KMXL6-5,FK,Kartek,FKBKMXL65,same part,Kartek stock number for the FK part
+KMX6-5,FK,Kartek,FKBKMX65,same part,Kartek stock number for the FK part
+KMXL6,FK,Kartek,FKBKMXL6,same part,Kartek stock number for the FK part
+KMX6,FK,Kartek,FKBKMX6,same part,Kartek stock number for the FK part
+KMXL8,FK,Kartek,FKBKMXL8,same part,Kartek stock number for the FK part
+KMX8,FK,Kartek,FKBKMX8,same part,Kartek stock number for the FK part
+KMXL10-8,FK,Kartek,FKBKMXL108,same part,Kartek stock number for the FK part
+KMX10-8,FK,Kartek,FKBKMX108,same part,Kartek stock number for the FK part
+KMXL10,FK,Kartek,FKBKMXL10,same part,Kartek stock number for the FK part
+KMX10,FK,Kartek,FKBKMX10,same part,Kartek stock number for the FK part
+KMXL12-8,FK,Kartek,FKBKMXL128,same part,Kartek stock number for the FK part
+KMX12-8,FK,Kartek,FKBKMX128,same part,Kartek stock number for the FK part
+KMXL12-10,FK,Kartek,FKBKMXL1210,same part,Kartek stock number for the FK part
+KMX12-10,FK,Kartek,FKBKMX1210,same part,Kartek stock number for the FK part
+KMXL12,FK,Kartek,FKBKMXL12,same part,Kartek stock number for the FK part
+KMX12,FK,Kartek,FKBKMX12,same part,Kartek stock number for the FK part
+KMXL14-12,FK,Kartek,FKBKMXL1412,same part,Kartek stock number for the FK part
+KMX14-12,FK,Kartek,FKBKMX1412,same part,Kartek stock number for the FK part
+KMXL14,FK,Kartek,FKBKMXL14,same part,Kartek stock number for the FK part
+KMX14,FK,Kartek,FKBKMX14,same part,Kartek stock number for the FK part
+KMXL16,FK,Kartek,FKBKMXL16,same part,Kartek stock number for the FK part
+KMX16,FK,Kartek,FKBKMX16,same part,Kartek stock number for the FK part
+EMXL12T,FK,Kartek,FKBEMXL12T,same part,Kartek stock number for the FK part
+EMX12T,FK,Kartek,FKBEMX12T,same part,Kartek stock number for the FK part
+RSML3T,FK,Kartek,FKBRSML3T,same part,Kartek stock number for the FK part
+RSM3T,FK,Kartek,FKBRSM3T,same part,Kartek stock number for the FK part
+RSM5,FK,Kartek,FKBRSM5,same part,Kartek stock number for the FK part
+RSM6,FK,Kartek,FKBRSM6,same part,Kartek stock number for the FK part
+RSM8,FK,Kartek,FKBRSM8,same part,Kartek stock number for the FK part
+RSMXL4T,FK,Kartek,FKBRSMXL4T,same part,Kartek stock number for the FK part
+RSMX4T,FK,Kartek,FKBRSMX4T,same part,Kartek stock number for the FK part
+RSMXL5T,FK,Kartek,FKBRSMXL5T,same part,Kartek stock number for the FK part
+RSMX5T,FK,Kartek,FKBRSMX5T,same part,Kartek stock number for the FK part
+RSMXL6T,FK,Kartek,FKBRSMXL6T,same part,Kartek stock number for the FK part
+RSMX6T,FK,Kartek,FKBRSMX6T,same part,Kartek stock number for the FK part
+RSMXL7T,FK,Kartek,FKBRSMXL7T,same part,Kartek stock number for the FK part
+RSMX7T,FK,Kartek,FKBRSMX7T,same part,Kartek stock number for the FK part
+RSMXL8T,FK,Kartek,FKBRSMXL8T,same part,Kartek stock number for the FK part
+RSMX8T,FK,Kartek,FKBRSMX8T,same part,Kartek stock number for the FK part
+RSMXL10-8T,FK,Kartek,FKBRSMXL108T,same part,Kartek stock number for the FK part
+RSMX10-8T,FK,Kartek,FKBRSMX108T,same part,Kartek stock number for the FK part
+RSMXL10T,FK,Kartek,FKBRSMXL10TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+RSMX10T,FK,Kartek,FKBRSMX10TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+RSMXL10T,FK,Kartek,FKBRSMXL10T,same part,Kartek stock number for the FK part
+RSMX10T,FK,Kartek,FKBRSMX10T,same part,Kartek stock number for the FK part
+RSMXL12T,FK,Kartek,FKBRSMXL12TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+RSMX12T,FK,Kartek,FKBRSMX12TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+RSMXL12T,FK,Kartek,FKBRSMXL12T,same part,Kartek stock number for the FK part
+RSMX12T,FK,Kartek,FKBRSMX12T,same part,Kartek stock number for the FK part
+RSMXL14T,FK,Kartek,FKBRSMXL14TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+RSMX14T,FK,Kartek,FKBRSMX14TF1,fit variant,Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+RSMXL14T,FK,Kartek,FKBRSMXL14T,same part,Kartek stock number for the FK part
+RSMX14T,FK,Kartek,FKBRSMX14T,same part,Kartek stock number for the FK part
+RAM-16T-3,Aurora,FK,KMX16,equivalent,listed by Kartek as a cross reference
+RAM-16T-3,Aurora,FK,JMX16-3T,equivalent,listed by Kartek as a direct replacement (FK JMX16-3T is made for Kartek; no dimensions published)
+RAM-16T-3,Aurora,FK,JMX16T,equivalent,listed by Kartek as a cross reference
+RAM-14T-1,Aurora,FK,KMX14,equivalent,listed by Kartek as a cross reference
+RAM-14T-1,Aurora,FK,JMX14T,equivalent,listed by Kartek as a cross reference (not for misalignment spacers)
+RAM-14T-1,Aurora,FK,JMX14T-770,equivalent,listed by Kartek as a cross reference
+RAB-16T-3,Aurora,FK,KMXL16,equivalent,listed by Kartek as a cross reference
+RAB-16T-3,Aurora,FK,JMXL16-3T,equivalent,listed by Kartek as a direct replacement (FK JMX16-3T is made for Kartek; no dimensions published)
+RAB-16T-3,Aurora,FK,JMXL16T,equivalent,listed by Kartek as a cross reference
+RAB-14T-1,Aurora,FK,KMXL14,equivalent,listed by Kartek as a cross reference
+RAB-14T-1,Aurora,FK,JMXL14T,equivalent,listed by Kartek as a cross reference (not for misalignment spacers)
+RAB-14T-1,Aurora,FK,JMXL14T-770,equivalent,listed by Kartek as a cross reference
+HRSMXL4T,FK,Aurora,HXAB-4T,equivalent,listed by Kartek as a cross reference
+HRSMX4T,FK,Aurora,HXAM-4T,equivalent,listed by Kartek as a cross reference
+HRSMXL6T,FK,Aurora,HXAB-6T,equivalent,listed by Kartek as a cross reference
+HRSMX6T,FK,Aurora,HXAM-6T,equivalent,listed by Kartek as a cross reference
+HRSMXL7T,FK,Aurora,HXAB-7T,equivalent,listed by Kartek as a cross reference
+HRSMX7T,FK,Aurora,HXAM-7T,equivalent,listed by Kartek as a cross reference
+HRSMXL8T,FK,Aurora,HXAB-8T,equivalent,listed by Kartek as a cross reference
+HRSMX8T,FK,Aurora,HXAM-8T,equivalent,listed by Kartek as a cross reference
+HRSMXL10T,FK,Aurora,HXAB-10T,equivalent,listed by Kartek as a cross reference
+HRSMX10T,FK,Aurora,HXAM-10T,equivalent,listed by Kartek as a cross reference
+HRSMXL12T,FK,Aurora,HXAB-12T,equivalent,listed by Kartek as a cross reference
+HRSMX12T,FK,Aurora,HXAM-12T,equivalent,listed by Kartek as a cross reference
+JMXL3T,FK,Aurora,RAB-3T,equivalent,listed by Kartek as a cross reference
+JMX3T,FK,Aurora,RAM-3T,equivalent,listed by Kartek as a cross reference
+JMXL4,FK,Aurora,RAB-4,equivalent,listed by Kartek as a cross reference
+JMX4,FK,Aurora,RAM-4,equivalent,listed by Kartek as a cross reference
+JMXL4T,FK,Aurora,RAB-4T,equivalent,listed by Kartek as a cross reference
+JMX4T,FK,Aurora,RAM-4T,equivalent,listed by Kartek as a cross reference
+JMXL5T,FK,Aurora,RAB-5T,equivalent,listed by Kartek as a cross reference
+JMX5T,FK,Aurora,RAM-5T,equivalent,listed by Kartek as a cross reference
+JMX6,FK,Aurora,RAM-6,equivalent,listed by Kartek as a cross reference
+JMXL6T,FK,Aurora,RAB-6T,equivalent,listed by Kartek as a cross reference
+JMX6T,FK,Aurora,RAM-6T,equivalent,listed by Kartek as a cross reference
+JMXL7T,FK,Aurora,RAB-7T,equivalent,listed by Kartek as a cross reference
+JMXL7T,FK,Aurora,PRB-7T,equivalent,listed by Kartek as a cross reference
+JMX7T,FK,Aurora,RAM-7T,equivalent,listed by Kartek as a cross reference
+JMX7T,FK,Aurora,PRM-7T,equivalent,listed by Kartek as a cross reference
+JMXL8,FK,Aurora,AB-8,equivalent,listed by Kartek as a cross reference
+JMXL8,FK,Aurora,RAB-8,equivalent,listed by Kartek as a cross reference
+JMXL8T,FK,Aurora,AB-8T,equivalent,listed by Kartek as a cross reference
+JMXL8T,FK,Aurora,RAB-8T,equivalent,listed by Kartek as a cross reference
+JMX8T,FK,Aurora,AM-8T,equivalent,listed by Kartek as a cross reference
+JMX8T,FK,Aurora,RAM-8T,equivalent,listed by Kartek as a cross reference
+JMX10,FK,Aurora,AM-10,equivalent,listed by Kartek as a cross reference
+JMX10,FK,Aurora,RAM-10,equivalent,listed by Kartek as a cross reference
+JMXL10T,FK,Aurora,AB-10T,equivalent,listed by Kartek as a cross reference
+JMXL10T,FK,Aurora,RAB-10T,equivalent,listed by Kartek as a cross reference
+JMX10T,FK,Aurora,AM-10T,equivalent,listed by Kartek as a cross reference
+JMX10T,FK,Aurora,RAM-10T,equivalent,listed by Kartek as a cross reference
+JMXL12T,FK,Aurora,PRB-12T,equivalent,listed by Kartek as a cross reference
+JMXL14T-770,FK,Aurora,RAB-14T-1,equivalent,listed by Kartek as a cross reference
+JMX14T-770,FK,Aurora,RAM-14T-1,equivalent,listed by Kartek as a cross reference
+JMXL16-1T,FK,Aurora,RAB-16T-1,equivalent,listed by Kartek as a cross reference
+JMX16-1T,FK,Aurora,RAM-16T-1,equivalent,listed by Kartek as a cross reference
+KMXL5,FK,Aurora,RAB-5T,equivalent,listed by Kartek as a cross reference
+KMX5,FK,Aurora,RAM-5T,equivalent,listed by Kartek as a cross reference
+KMXL6,FK,Aurora,RAB-6T,equivalent,listed by Kartek as a cross reference
+KMX6,FK,Aurora,RAM-6T,equivalent,listed by Kartek as a cross reference
+KMXL8,FK,Aurora,RAB-8T,equivalent,listed by Kartek as a cross reference
+KMX8,FK,Aurora,RAM-8T,equivalent,listed by Kartek as a cross reference
+KMXL10-8,FK,Aurora,RXAB-8T,equivalent,listed by Kartek as a cross reference
+KMX10-8,FK,Aurora,RXAM-8T,equivalent,listed by Kartek as a cross reference
+KMXL10,FK,Aurora,RAB-10T,equivalent,listed by Kartek as a cross reference
+KMX10,FK,Aurora,RAM-10T,equivalent,listed by Kartek as a cross reference
+KMXL12-10,FK,Aurora,XAB-10T,equivalent,listed by Kartek as a cross reference
+KMXL12-10,FK,Aurora,RXAB-10T,equivalent,listed by Kartek as a cross reference
+KMX12-10,FK,Aurora,XAM-10T,equivalent,listed by Kartek as a cross reference
+KMX12-10,FK,Aurora,RXAM-10T,equivalent,listed by Kartek as a cross reference
+KMXL12,FK,Aurora,RAB-12T,equivalent,listed by Kartek as a cross reference
+KMX12,FK,Aurora,RAM-12T,equivalent,listed by Kartek as a cross reference
+KMXL14-12,FK,Aurora,RXAB-12T-1,equivalent,listed by Kartek as a cross reference
+KMX14-12,FK,Aurora,RXAM-12T-1,equivalent,listed by Kartek as a cross reference
+KMXL14,FK,Aurora,RAB-14T-1,equivalent,listed by Kartek as a cross reference
+KMX14,FK,Aurora,RAM-14T-1,equivalent,listed by Kartek as a cross reference
+EMXL12T,FK,Aurora,RXAB-12T-1,equivalent,listed by Kartek as a cross reference
+EMX12T,FK,Aurora,RXAM-12T-1,equivalent,listed by Kartek as a cross reference
+RSMXL4T,FK,Aurora,RXAB-4T,equivalent,listed by Kartek as a cross reference
+RSMX4T,FK,Aurora,RXAM-4T,equivalent,listed by Kartek as a cross reference
+RSMXL5T,FK,Aurora,RXAB-5T,equivalent,listed by Kartek as a cross reference
+RSMX5T,FK,Aurora,RXAM-5T,equivalent,listed by Kartek as a cross reference
+RSMXL6T,FK,Aurora,RXAB-6T,equivalent,listed by Kartek as a cross reference
+RSMX6T,FK,Aurora,RXAM-6T,equivalent,listed by Kartek as a cross reference
+RSMXL7T,FK,Aurora,RXAB-7T,equivalent,listed by Kartek as a cross reference
+RSMX7T,FK,Aurora,RXAM-7T,equivalent,listed by Kartek as a cross reference
+RSMXL8T,FK,Aurora,RXAB-8T,equivalent,listed by Kartek as a cross reference
+RSMX8T,FK,Aurora,RXAM-8T,equivalent,listed by Kartek as a cross reference
+RSMXL10T,FK,Aurora,XAB-10T,equivalent,listed by Kartek as a cross reference
+RSMXL10T,FK,Aurora,RXAB-10T,equivalent,listed by Kartek as a cross reference
+RSMX10T,FK,Aurora,XAM-10T,equivalent,listed by Kartek as a cross reference
+RSMX10T,FK,Aurora,RXAM-10T,equivalent,listed by Kartek as a cross reference
+RSMXL12T,FK,Aurora,RXAB-12T-1,equivalent,listed by Kartek as a cross reference
+RSMX12T,FK,Aurora,RXAM-12T-1,equivalent,listed by Kartek as a cross reference
+RSMXL14T,FK,Aurora,RXAB-14T-1,equivalent,listed by Kartek as a cross reference
+RSMX14T,FK,Aurora,RXAM-14T-1,equivalent,listed by Kartek as a cross reference

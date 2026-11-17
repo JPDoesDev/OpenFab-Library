@@ -166,37 +166,163 @@ def thread_name(row: dict) -> str:
     return f"{num(f(row, 'thread_dia'))}-{tpi} {row['hand']}"
 
 
+def _re_thread(thread: str, dia: float) -> tuple[str, str]:
+    """A rod end thread callout -> (short name, SolidCraft cosmetic designation).
+
+    '3/4-16 UNF-3A' -> ('0.75-16', 'M19.05x1.5875'); 'M10 x 1.5' -> ('M10x1.5', 'M10x1.5').
+    SolidCraft's shaft threads have no Unified form, so an inch thread is given as the same 60-degree
+    profile in millimetres; the feature name carries the real callout.
+    """
+    if thread.startswith("M"):
+        size, pitch = (p.strip() for p in thread.split()[0:3:2])
+        return f"{size}x{pitch}", f"{size}x{pitch}"
+    tpi = thread.split("-")[1].split()[0]
+    return f"{num(dia)}-{tpi}", f"M{num(dia * 25.4)}x{num(25.4 / float(tpi))}"
+
+
+def _re_cosmetic_thread(s: Script, thread: str, dia: float, hand: str, point, length: float) -> str:
+    """A cosmetic thread on the cylindrical face at `point` (inches), `length` from its free end."""
+    designation = _re_thread(thread, dia)[1]
+    s.cmd("solid.thread", face=[mm(c) for c in point], designation=designation,
+          hand="left" if hand == "LH" else "right", length=mm(length), name=f"Thread {thread}")
+    return designation
+
+
+RE_LINER = {"PTFE": " PTFE lined", "nylon": " nylon race", "": ""}
+RE_KIND = {"male": "Rod End", "female": "Female Rod End", "solid": "Solid Rod End", "clevis": "Clevis"}
+
+
 def rod_end(row: dict) -> list[Part]:
-    pn = row["part_number"]
-    B, D, W, T, bd, A, td, C = (f(row, k) for k in (
-        "bore", "head_dia", "ball_width", "head_width", "ball_dia", "length", "thread_dia", "thread_length"))
-    dims = {"bore": B, "head_dia": D, "ball_width": W, "head_width": T, "ball_dia": bd,
-            "length": A, "thread": row["thread"], "thread_dia": td, "thread_length": C, "hand": row["hand"],
-            "catalog_misalignment_deg": f(row, "catalog_misalignment_deg")}
+    """Male, female, solid (one-piece) rod ends and clevises; the ball plain, shouldered (high
+    misalignment) or studded. Columns a style does not use are left empty in the CSV."""
+    pn, style, ball_kind = row["part_number"], row.get("style") or "male", row.get("ball") or "plain"
+    B, D, T, A, td, C = (f(row, k) for k in ("bore", "head_dia", "head_width", "length", "thread_dia",
+                                              "thread_length"))
+    hand = row["hand"]
+    short, _ = _re_thread(row["thread"], td)
+    dims = {"style": style, "bore": B, "head_dia": D, "head_width": T, "length": A, "thread": row["thread"],
+            "thread_dia": td, "thread_length": C, "hand": hand}
+    for k in ("ball_width", "ball_dia", "catalog_misalignment_deg", "body_dia", "flat", "shoulder_dia", "slot"):
+        if row.get(k):
+            dims[k] = f(row, k)
+    est: list = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()]
     body = Script()
-    body.revolve("Body", _socket_ring(D, T, bd))
-    # Shank: starts inside the head ring, clear of the socket, and runs to A from the ball centre.
-    x0 = math.sqrt((D / 2) ** 2 - (T / 2) ** 2) - 0.02
-    body.cylinder("Shank", td, A - x0, base=(x0, 0, 0), axis="X")
-    # Cosmetic thread over the threaded length, from the free end. SolidCraft's shaft threads have no
-    # Unified form, so it is given as the same 60-degree profile in millimetres (3/4-16 is M19.05x1.5875);
-    # the feature name carries the real callout.
-    tpi = float(row["thread"].split("-")[1].split()[0])
-    body.cmd("solid.thread", face=[mm((x0 + A) / 2), 0, mm(td / 2)],
-             designation=f"M{num(td * 25.4)}x{num(25.4 / tpi)}",
-             hand="left" if row["hand"] == "LH" else "right", length=mm(C), name=f"Thread {row['thread']}")
-    ball = Script()
-    ball.revolve("Ball", _ball(B, W, bd))
-    v_ball = sphere_slice_volume(bd, W) - PI * (B / 2) ** 2 * W
-    dims["thread_feature"] = f"cosmetic, M{num(td * 25.4)}x{num(25.4 / tpi)} (the Unified size in millimetres)"
-    est = ["shank is a plain cylinder at thread major diameter with a cosmetic thread; "
-           "no neck or grease fitting modelled"]
+    if style in ("male", "female"):
+        W, bd = dims["ball_width"], dims["ball_dia"]
+        body.revolve("Body", _socket_ring(D, T, bd))
+    elif style == "solid":
+        body.revolve("Body", [(B / 2, -T / 2), (D / 2, -T / 2), (D / 2, T / 2), (B / 2, T / 2)])
+    if style in ("male", "solid"):
+        # Shank: starts inside the head ring, clear of the socket, and runs to A from the ball centre.
+        x0 = math.sqrt((D / 2) ** 2 - (T / 2) ** 2) - 0.02
+        body.cylinder("Shank", td, A - x0, base=(x0, 0, 0), axis="X")
+        des = _re_cosmetic_thread(body, row["thread"], td, hand, ((x0 + A) / 2, 0, td / 2), C)
+        est.append("shank is a plain cylinder at thread major diameter with a cosmetic thread; "
+                   "no neck or grease fitting modelled")
+    elif style == "female":
+        # Round body of diameter E with two wrench flats F apart (parallel to the head faces), and a
+        # tapped hole C deep from the free end. The body starts where its width meets the head circle,
+        # but never inside the ball's sphere.
+        E, F = dims["body_dia"], dims["flat"]
+        x0 = max(math.sqrt(max((D / 2) ** 2 - (E / 2) ** 2, 0)), bd / 2 + 0.03)
+        if not (T <= F < E and A - C > bd / 2 + 0.03):
+            raise ValueError(f"{pn}: female body dimensions do not fit together")
+        body.cylinder("Shank", E, A - x0, base=(x0, 0, 0), axis="X")
+        for side in (1, -1):
+            body.cmd("solid.box", length=mm(A - x0 + 0.2), width=mm(E + 0.2), height=mm(E / 2),
+                     corner=[mm(x0 - 0.1), mm(-E / 2 - 0.1), mm(F / 2 if side > 0 else -F / 2 - E / 2)],
+                     operation="cut", targets=["Body"], name="Wrench flat" + (" top" if side > 0 else " bottom"))
+        body.cylinder("Tapped hole", td, C + 0.05, base=(A - C, 0, 0), axis="X", operation="cut")
+        des = _re_cosmetic_thread(body, row["thread"], td, hand, (A - C / 2, 0, td / 2), C)
+        est += ["wrench flats run the whole length of the body", "tapped hole is drawn at the thread's major "
+                "diameter with a cosmetic thread and a flat bottom", "no neck between head and body"]
+    elif style == "clevis":
+        # Square-sided fork head D wide and T thick, rounded on the pin; a slot S wide; then the shank.
+        S = dims["slot"]
+        xh = A - C                       # head runs down to where the thread starts
+        xs = D                           # slot bottom
+        body.cmd("solid.cylinder", diameter=mm(D), height=mm(T), base=[0, 0, mm(-T / 2)], axis="Z",
+                 operation="new", name="Head", body_name="Body")
+        body.cmd("solid.box", length=mm(xh), width=mm(D), height=mm(T), corner=[0, mm(-D / 2), mm(-T / 2)],
+                 operation="join", name="Head sides")
+        body.cylinder("Shank", td, C + 0.05, base=(xh - 0.05, 0, 0), axis="X")
+        body.cmd("solid.box", length=mm(xs + D / 2 + 0.1), width=mm(D + 0.2), height=mm(S),
+                 corner=[mm(-D / 2 - 0.1), mm(-D / 2 - 0.1), mm(-S / 2)], operation="cut", name="Slot")
+        body.cylinder("Pin hole", B, T + 0.2, base=(0, 0, -T / 2 - 0.1), axis="Z", operation="cut")
+        des = _re_cosmetic_thread(body, row["thread"], td, hand, (A - C / 2, 0, td / 2), C)
+        est += ["head is square-sided down to the start of the thread", "slot depth (to one head width "
+                "below the pin)", "shank is a plain cylinder at thread major diameter with a cosmetic thread"]
+    else:
+        raise ValueError(f"{pn}: unknown rod end style {style!r}")
+    dims["thread_feature"] = f"cosmetic, {des}" + ("" if row["thread"].startswith("M")
+                                                    else " (the Unified size in millimetres)")
+    variant = f"{row['series']} {row['body']}{RE_LINER[row.get('liner', '')]}"
+    if row.get("title_note"):
+        variant += f", {row['title_note']}"
+    if ball_kind == "stud":
+        what = f"{_re_thread(row['stud_thread'], f(row, 'stud_thread_dia'))[0]} stud"
+    elif style == "clevis":
+        what = f"{inch(B)} pin"
+    elif row["thread"].startswith("M"):        # metric: the bore as the catalog gives it
+        what = f"{num(round(B * 25.4, 2))}mm bore"
+    else:
+        what = f"{inch(B)} bore"
+    kind = RE_KIND[style] if ball_kind != "shoulder" else "High Misalignment Rod End"
+    if ball_kind == "stud":
+        kind = "Studded " + kind
+    title = f"{kind} {what}, {short} {hand}, {variant}"
+    if style in ("solid", "clevis"):
+        return [_finish(row, pn, "rod_end", "Body", row["material"], body, None, dims, est,
+                        title=title, folder="Rod Ends")]
+    # The ball, split out so an assembly can swing it. Always steel, whatever the body is made of.
+    ball, R = Script(), bd / 2
+    if ball_kind == "plain":
+        ball.revolve("Ball", _ball(B, W, bd))
+        v_ball = sphere_slice_volume(bd, W) - PI * (B / 2) ** 2 * W
+        btitle = f"Rod End Ball {inch(B)} bore (for {pn})"
+    elif ball_kind == "shoulder":
+        # High misalignment: the sphere carries on as a shoulder of diameter O out to the full width W.
+        ro = dims["shoulder_dia"] / 2
+        zs = math.sqrt(R * R - ro * ro)
+        if not zs < W / 2:
+            raise ValueError(f"{pn}: shoulder is inside the sphere")
+        ball.revolve("Ball", [(B / 2, -W / 2), (ro, -W / 2), (ro, -zs), ("arc", (ro, zs), (0, 0), False),
+                              (ro, W / 2), (B / 2, W / 2)])
+        v_ball = sphere_slice_volume(bd, 2 * zs) + PI * ro * ro * (W - 2 * zs) - PI * (B / 2) ** 2 * W
+        btitle = f"Rod End Shouldered Ball {inch(B)} bore (for {pn})"
+    else:
+        # Studded: a solid ball with a neck, a hex and a threaded stud on +Z (FK p.45: L from the ball
+        # centre to the stud end, P from the stud end to the hex, S the threaded length).
+        L, P, Sl, sd, hx = (f(row, k) for k in ("stud_length", "stud_hex_length", "stud_thread_length",
+                                                 "stud_thread_dia", "stud_hex"))
+        rf = math.sqrt(R * R - (W / 2) ** 2)
+        z_hex_out = L - P
+        span = z_hex_out - W / 2
+        hex_t = span / 2                               # hex thickness and neck length: not published
+        z_hex_in = z_hex_out - hex_t
+        neck = min(sd, 2 * rf - 0.02)
+        ball.revolve("Ball", [(0, -W / 2), (rf, -W / 2), ("arc", (rf, W / 2), (0, 0), False), (0, W / 2)])
+        ball.cylinder("Neck", neck, z_hex_in - W / 2 + 0.01, base=(0, 0, W / 2 - 0.01))
+        ball.cmd("sketch.create", name="Hex profile", plane="XY", offset=mm(z_hex_in))
+        ball.cmd("sketch.polygon.circumscribed", center=[0, 0], radius=mm(hx / 2), sides=6)
+        ball.cmd("sketch.finish")
+        ball.cmd("solid.extrude", distance=mm(hex_t), operation="join", name="Hex")
+        ball.cylinder("Stud", sd, P + 0.01, base=(0, 0, z_hex_out - 0.01))
+        _re_cosmetic_thread(ball, row["stud_thread"], sd, "RH", (0, sd / 2, L - Sl / 2), Sl)
+        v_ball = (sphere_slice_volume(bd, W) + PI * (neck / 2) ** 2 * (z_hex_in - W / 2)
+                  + math.sqrt(3) / 2 * hx * hx * hex_t + PI * (sd / 2) ** 2 * P)
+        dims.update({"stud_length": L, "stud_hex_length": P, "stud_thread_length": Sl,
+                     "stud_thread": row["stud_thread"], "stud_thread_dia": sd, "stud_hex": hx,
+                     "stud_hex_thickness": round(hex_t, 4), "stud_neck_dia": round(neck, 4)})
+        est += ["stud hex thickness and neck (half each of the space between the ball face and the hex face)",
+                "stud neck diameter (the stud's thread diameter)", "ball is solid on the side away from the stud"]
+        btitle = f"Rod End Studded Ball {_re_thread(row['stud_thread'], sd)[0]} stud (for {pn})"
     return [
         _finish(row, pn, "rod_end", "Body", row["material"], body, None, dims, est,
-                title=f"Rod End {inch(B)} bore, {thread_name(row)}", folder="Rod Ends"),
-        _finish(row, f"{pn}.ball", "rod_end_ball", "Ball", row["material"], ball, v_ball, dims,
+                title=title, folder="Rod Ends"),
+        _finish(row, f"{pn}.ball", "rod_end_ball", "Ball", "steel", ball, v_ball, dims, est,
                 part_number="", description=f"Ball of {pn} (moves in the body; counted in the BOM with the body)",
-                bom_type="reference", title=f"Rod End Ball {inch(B)} bore (for {pn})", folder=INTERNAL),
+                bom_type="reference", title=btitle, folder=INTERNAL),
     ]
 
 
