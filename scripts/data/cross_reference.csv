@@ -624,7 +624,6 @@ RSMXL12T,FK,Aurora,RXAB-12T-1,equivalent,listed by Kartek as a cross reference
 RSMX12T,FK,Aurora,RXAM-12T-1,equivalent,listed by Kartek as a cross reference
 RSMXL14T,FK,Aurora,RXAB-14T-1,equivalent,listed by Kartek as a cross reference
 RSMX14T,FK,Aurora,RXAM-14T-1,equivalent,listed by Kartek as a cross reference
-JMXL12T,FK,Aurora,RAB-12T,equivalent,left-hand counterpart of RAM-12T; not confirmed against an Aurora catalog
 CP8,FK,Kartek,FKBCP8,same part,Kartek stock number for the FK part
 CP10,FK,Kartek,FKBCP10,same part,Kartek stock number for the FK part
 CP12,FK,Kartek,FKBCP12,same part,Kartek stock number for the FK part
