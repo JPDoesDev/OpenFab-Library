@@ -44,6 +44,7 @@ class Assembly:
         self.stated_stack: float | None = None
         self.bare_limit: float | None = None  # worked out by hand when nothing in the assembly stops the ball
         self.bare_reason = BARE_REASON          # what reaches what at that limit
+        self.bare_limit_by: str | None = None  # what sets bare_limit, when it is not the bore edge at the face
 
     def add(self, role: str, part_key: str, z: float = 0.0, side: str = "fixed", x: float = 0.0) -> str:
         part = self.catalog[part_key]
@@ -162,19 +163,114 @@ def _spacers(asm: Assembly, spacer_key: str | None, ball_occ: str, ball_width: f
     return ball_width + 2 * sp.dims["shoulder_height"], sp.dims["bolt"], f"{sp.dims['style']} spacers"
 
 
+SEAT_TOL = 0.010    # a misalignment spacer's seat sphere must match the ball's diameter and width this closely
+STACK_TOL = 0.020   # a spacer pair's stack must leave room for this ball: 2 x (half stack - shoulder) = ball width
+
+
+def uniball_spacer_problem(b: dict, sp: dict) -> str | None:
+    """Why a spacer cannot go in this uniball's ball, or None if it can.
+
+    Spacers are made for one ball width: the vendor's half stack less the shoulder is half the ball they
+    expect, and the pins meet in the middle of it. A misalignment spacer's seat is also a band of one ball's
+    sphere (parts.SEAT_BALL), so it only seats on a ball of that diameter and width.
+    """
+    if b.get("shoulder_dia"):
+        return "a shoulder ball takes no spacers"
+    if abs(sp["ball_bore"] - b["bore"]) > 1e-4:
+        return f"spacer is for a {inch(sp['ball_bore'])} bore, the ball is {inch(b['bore'])}"
+    made_for = 2 * (sp["half_stack"] - sp["shoulder_height"])
+    if abs(made_for - b["ball_width"]) > STACK_TOL:
+        return f"spacer pair is made for a {inch(round(made_for, 3))} wide ball, this one is {inch(b['ball_width'])}"
+    if "seat_sphere_dia" in sp:
+        bd, bw, ref = P.SEAT_BALL[sp["ball_bore"]]
+        if abs(bd - b["ball_dia"]) > SEAT_TOL or abs(bw - b["ball_width"]) > SEAT_TOL:
+            return (f"misalignment seat is shaped for the {ref} ball ({inch(bd)} x {inch(bw)} wide), "
+                    f"this ball is {inch(b['ball_dia'])} x {inch(b['ball_width'])} wide")
+    return None
+
+
+def uniball_bare_limit(b: dict, c: dict, ring: dict, lift: float) -> tuple[float, str]:
+    """Tilt at which a spacer-less uniball first meets something, worked out in the plane of the tilt.
+
+    No spacers means the bolt (the bore's diameter) is what swings past the race, snap ring and cup; a ball
+    with misalignment shoulders swings its shoulder (and the shoulder's end corners) as well. Ball and race
+    share a sphere, so that pair is left out, as in the collision search. The cup and ring sit `lift` above
+    their nominal place (a race narrower than the cup's seat sits on the lip). Returns (degrees, what touches).
+    """
+    R, T, W, B = b["ball_dia"] / 2, b["race_width"], b["ball_width"], b["bore"]
+    rs = (b.get("shoulder_dia") or 0) / 2
+    Tc, rt = c["seat_depth"], ring["thickness"]
+    zb, zs, zg, zt = c["bottom_z"] + lift, -Tc / 2 + lift, Tc / 2 + lift, c["top_z"] + lift
+    # fixed material as (r_min, r_max, z_min, z_max, name) in the half plane; the race's own ring
+    # is from its spherical bore out, handled below
+    regions = [(c["lip_id"] / 2, c["od"] / 2, zb, zs, "the cup lip"),
+               (ring["id"] / 2, ring["od"] / 2, zg, zg + rt, "the snap ring"),
+               (b["od"] / 2, c["od"] / 2, zs, zt, "the cup wall")]
+    rims = [(math.sqrt(R * R - (T / 2) ** 2), T / 2, "the race's face edge"),
+            (math.sqrt(R * R - (T / 2) ** 2), -T / 2, "the race's face edge")]
+    for r0, r1, z0, z1, name in regions:
+        rims += [(r0, z0, name), (r0, z1, name)]
+    corners = [(rs, W / 2), (rs, -W / 2)] if rs else []
+
+    def in_moving(x: float, z: float) -> bool:   # a point in the ball's own frame
+        if abs(x) < B / 2:
+            return True                          # the bolt, along the whole axis
+        return bool(rs) and abs(x) < rs and abs(z) <= W / 2 and x * x + z * z > R * R
+
+    def fixed_at(x: float, z: float) -> str | None:   # a point in the cup's frame
+        r = abs(x)
+        if abs(z) <= T / 2 and r * r + z * z > (R + 1e-4) ** 2 and r < b["od"] / 2:
+            return "the race"
+        return next((name for r0, r1, z0, z1, name in regions if r0 < r < r1 and z0 < z < z1), None)
+
+    for step in range(1, 9001):
+        t = math.radians(step / 100)
+        ct, st = math.cos(t), math.sin(t)
+        for r, z, name in rims:
+            for x in (r, -r):   # into the ball's frame: rotate back by the tilt
+                if in_moving(x * ct + z * st, -x * st + z * ct):
+                    return round(step / 100, 2), name
+        for x0, z0 in corners:
+            for x in (x0, -x0):
+                hit = fixed_at(x * ct - z0 * st, x * st + z0 * ct)
+                if hit:
+                    return round(step / 100, 2), f"the shoulder's end against {hit}"
+    raise ValueError("nothing stops the ball within 90 degrees")
+
+
 def uniball(recipe: dict, files, catalog) -> Assembly:
+    """A uniball pressed into a cup against its lip, held by the cup's own snap ring, with a spacer pair or
+    none. A race narrower than the bearing the cup's seat was cut for sits on the lip with the gap under the
+    ring, as it does in the real cup."""
     bearing, cup_key, spacer_key = recipe["bearing"], recipe["cup"], recipe["spacer"]
     b, c = catalog[bearing].dims, catalog[cup_key].dims
+    ring_key = c["snap_ring"]
+    ring = catalog[ring_key].dims
+    if abs(b["od"] - c["bearing_od"]) > 1e-3 or c.get("bore_undersize"):
+        raise ValueError(f"{bearing} ({inch(b['od'])} OD) does not fit the bore of {cup_key}")
+    lift = (c["seat_depth"] - b["race_width"]) / 2   # the cup (and its ring) up, so the race sits on the lip
+    if lift < -1e-4:
+        raise ValueError(f"{bearing} is wider than the seat of {cup_key}")
+    if spacer_key:
+        why = uniball_spacer_problem(b, catalog[spacer_key].dims)
+        if why:
+            raise ValueError(f"{spacer_key} in {bearing}: {why}")
     asm = Assembly(recipe, "uniball", files, catalog)
-    asm.add("Cup", cup_key)
+    asm.add("Cup", cup_key, lift)
     race = asm.add("Bearing", bearing)
-    asm.add("Snap ring", c["snap_ring"], b["race_width"] / 2 + catalog[c["snap_ring"]].dims["thickness"] / 2)
+    asm.add("Snap ring", ring_key, lift + c["seat_depth"] / 2 + ring["thickness"] / 2)
     ball = asm.add("Ball", f"{bearing}.ball", side="moving")
     stack, bolt, wording = _spacers(asm, spacer_key, ball, b["ball_width"], b["bore"])
-    asm.name = f"Uniball Stack {inch(b['bore'])}, {wording}, {inch(bolt)} bolt hole, {inch(asm.stated_stack or stack)} stack"
+    what = "Wobble Stopper Stack (no end plates)" if c.get("style") == "wobble stopper" else "Uniball Stack"
+    ids = f"{bearing} in {cup_key}" + (f", {spacer_key}" if spacer_key else "")
+    asm.name = (f"{what} {inch(b['bore'])}, {wording}, {inch(bolt)} bolt hole, "
+                f"{inch(asm.stated_stack or stack)} stack ({ids})")
     asm.exclude = [[race, ball]]
     if not spacer_key:
-        asm.bare_limit = bare_limit(b["bore"], b["ball_dia"], b["race_width"])
+        asm.bare_limit, by = uniball_bare_limit(b, c, ring, lift)
+        moving = "the ball's shoulder or bore" if b.get("shoulder_dia") else "the edge of the ball's bore"
+        asm.bare_limit_by = (f"{moving} reaching {by}" if not by.startswith("the shoulder's") else by) + \
+            " (worked out in the plane of the tilt from the catalog dimensions; no spacers)"
     asm.finish("ball", race, ball, find_limits=asm.bare_limit is None)
     return asm
 

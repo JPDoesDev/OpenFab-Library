@@ -349,6 +349,8 @@ def spacer(row: dict) -> list[Part]:
     E, Db, A, Bh, C, F = (f(row, k) for k in (
         "ball_bore", "bolt", "shoulder_height", "head_dia", "half_stack", "pin_depth"))
     F = min(F, C - A) if C - A > 0 else F  # two pins must not meet inside the ball
+    if base == "misalignment":             # nor pass the middle of the ball the seat is shaped for
+        F = min(F, SEAT_BALL[E][1] / 2)    # (KTKHMA15034TTR: 0.9825 published, WSSX24T is 1.962 wide)
     rb, rp, rh = Db / 2, E / 2, Bh / 2
     words = [SPACER_LABELS[t] for t in tags if t != "radius_cone"]
     label = " ".join(words + (["Radius"] if "radius_cone" in tags else []) + [base.capitalize()])
