@@ -12,6 +12,7 @@ Origin conventions (all axes on world Z unless noted):
   bushing               the flange face that sits on the sleeve end at z = 0,
                         flange towards +Z, body (inside the sleeve) towards -Z
   sleeve, jam nut       its own centre
+  weld-in bung          the face the jam nut seats on at x = 0, thread axis along +X (as a rod end shank), body towards +X
 
 Bolts, nuts, washers and mount tabs are left to the builder and are not modelled.
 """
@@ -343,3 +344,111 @@ def safety_washer(row: dict) -> list[Part]:
                 title=f"Safety Washer {inch(i)} ID x {inch(od)} OD x {inch(t)} thick", folder="Safety Washers")
     p.name = p.name.replace("/", "-")   # Kartek numbers such as KTK1/2SW cannot go in a file name
     return [p]
+
+
+# ---- weld-in bungs --------------------------------------------------------------------------------------
+# Threaded inserts welded into a tube end so a male rod end screws in. Kartek publishes the thread, the total
+# length, the diameter that goes into the tube (or the square size) and the tube it fits, plus head and
+# shoulder lengths for the stepped ones. Proportions it does not publish are listed in `estimated`.
+
+BUNG_LABELS = {"standard_round": "Weld-In Bung", "heavy_duty_round": "Heavy Duty Weld-In Bung",
+               "step": "Step Weld-In Bung", "square_tapered": "Square Tapered Bung"}
+BUNG_EDGE = 0.03   # the small chamfer on outside edges seen in the product photos
+
+
+def _revolve_about_x(s: Script, name: str, profile: list, operation: str = "new") -> None:
+    """Script.revolve with the profile's r along world Y and z along world X, so it turns about X."""
+    s.revolve(name, profile, operation)
+    sketch = next(c for c in reversed(s.commands) if c["command"] == "sketch.create")
+    sketch["params"]["plane"] = {"origin": [0, 0, 0], "x_dir": [0, 1, 0], "y_dir": [1, 0, 0]}
+    if operation != "new":   # a cut changes the existing body; it must not name a new one
+        s.commands[-1]["params"].pop("body_name")
+
+
+def _revolved_volume(profile: list) -> float:
+    """Pappus: the volume of a closed polygon of (r, z) points turned a full circle."""
+    s = sum((r0 + r1) * (r0 * z1 - r1 * z0)
+            for (r0, z0), (r1, z1) in zip(profile, profile[1:] + profile[:1]))
+    return abs(PI * s / 3)
+
+
+def _square_disc_area(a: float, r: float) -> float:
+    """Area where a square of side a and a disc of radius r on the same centre overlap."""
+    h = a / 2
+    if r <= h:
+        return PI * r * r
+    if r >= h * math.sqrt(2):
+        return a * a
+    return PI * r * r - 4 * (r * r * math.acos(h / r) - h * math.sqrt(r * r - h * h))
+
+
+def bung(row: dict) -> list[Part]:
+    style, pn, hand = row["style"], row["part_number"], row["hand"]
+    td, tpi, L = f(row, "thread_dia"), int(row["tpi"]), f(row, "length")
+    dm = td - 1.082532 / tpi                                 # basic minor diameter of a Unified internal thread
+    through = row["threaded_through"] != "no"
+    T = L if through else round(0.75 * L * 16) / 16         # thread depth from the jam nut face
+    c = BUNG_EDGE
+    thread = f"{num(td)}-{tpi} {hand}"
+    dims = {"style": style.replace("_", " "), "thread": row["thread"], "thread_dia": td, "tpi": tpi,
+            "hand": hand, "length": L, "thread_depth": T, "bore_dia": td}
+    if T < L:
+        dims["through_bore_dia"] = round(dm, 4)
+    est = [f"thread depth {num(T)}in: Kartek says only that it is not threaded all the way through; "
+           "taken as 3/4 of the length" if T < L else
+           "threaded all the way through: Kartek's page has no note either way",
+           "bore at thread major diameter, as the jam nuts; past the thread depth at the basic minor "
+           "diameter (tap drill assumed); the thread is cosmetic only"]
+    # the bore as (r, z) points from the far end back to the jam nut face
+    bore = ([(dm / 2, L), (dm / 2, T), (td / 2, T)] if T < L else [(td / 2, L)]) + [(td / 2, 0)]
+    s = Script()
+    if style == "square_tapered":
+        a = f(row, "square")
+        rt = max(0.35 * a, td / 2 + 0.125)                   # turned end face, then a 45 degree taper
+        rc = a / 2 * math.sqrt(2)                            # where the taper reaches the square's corners
+        s.cmd("solid.box", length=mm(L), width=mm(a), height=mm(a), corner=[0, mm(-a / 2), mm(-a / 2)],
+              operation="new", name="Bar", body_name="Bung")
+        _revolve_about_x(s, "Taper", [(rt, 0), (rc + 0.05, 0), (rc + 0.05, rc + 0.05 - rt)], "cut")
+        e = 0.05                                             # the bore cutter runs past both ends
+        _revolve_about_x(s, "Bore", [(0, L + e)] + [(r, L + e if z == L else -e if z == 0 else z)
+                                                    for r, z in bore] + [(0, -e)], "cut")
+        n, xc = 4000, rc - rt
+        step = xc / n
+        outer = sum((1 if i in (0, n) else 4 if i % 2 else 2) * _square_disc_area(a, rt + i * step)
+                    for i in range(n + 1)) * step / 3 + a * a * (L - xc)
+        vol = outer - PI / 4 * (td * td * T + dm * dm * (L - T))
+        dims.update({"square": a, "top_dia": round(2 * rt, 4), "fits_tube": "not stated by Kartek",
+                     "insertion_length": 0.0})
+        est += [f"turned end {num(round(2 * rt, 4))}in across with a 45 degree taper out to the corners "
+                "(from the product photo)",
+                "Kartek does not say what it fits: taken as welded on to a square tube or plate end, "
+                "so nothing goes inside a tube (insertion_length 0)"]
+        title = f"{BUNG_LABELS[style]} {thread}, {inch(a)} square x {inch(L)} long"
+    else:
+        to, wall, od = f(row, "tube_od"), f(row, "tube_wall"), f(row, "od")
+        B = od / 2
+        if style == "step":
+            H, h = to / 2, f(row, "head_length")
+            outside = [(H - c, 0), (H, c), (H, h - (H - B)), (B, h), (B, L - c), (B - c, L)]
+            insertion = f(row, "shoulder_length")
+            dims.update({"base_dia": od, "head_dia": to, "head_length": h, "shoulder_length": insertion})
+            est += ["head diameter taken as the tube OD (Kartek gives only the base diameter)",
+                    "45 degree weld chamfer from the head down to the base diameter, inside the head length"]
+        else:
+            outside = [(B - c, 0), (B, c), (B, L - c), (B - c, L)]
+            insertion = L
+            dims["od"] = od
+            est.append("insertion length: shoulderless, so all of it, taken as flush with the tube end")
+        est.append(f"{num(c)}in chamfers on the outside edges")
+        profile = outside + bore
+        _revolve_about_x(s, "Bung", profile)
+        vol = _revolved_volume(profile)
+        dims.update({"tube_od": to, "tube_wall": wall, "tube_id": round(to - 2 * wall, 4),
+                     "insertion_length": insertion})
+        title = f"{BUNG_LABELS[style]} {thread} for {inch(to)} x {inch(wall)} wall tube"
+    s.cmd("solid.thread", face=[mm(T / 2), mm(td / 2), 0], **{"from": [0, mm(td / 2), 0]},
+          designation=f"M{num(td * 25.4)}x{num(25.4 / tpi)}", hand="left" if hand == "LH" else "right",
+          length=mm(T), name=f"Thread {row['thread']}")
+    dims["thread_feature"] = f"cosmetic, M{num(td * 25.4)}x{num(25.4 / tpi)} (the Unified size in millimetres)"
+    return [_finish(row, pn, "bung", "Bung", row["material"], s, vol, dims, est, title=title,
+                    folder="Weld-In Bungs")]
