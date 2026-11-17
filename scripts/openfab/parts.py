@@ -97,23 +97,66 @@ def _ball(bore: float, width: float, ball_dia: float) -> list:
     return [(bore / 2, -h), (rf, -h), ("arc", (rf, h), (0, 0), False), (bore / 2, h)]
 
 
+def _shoulder_ball(bore: float, width: float, ball_dia: float, shoulder_dia: float) -> list:
+    """A ball with misalignment shoulders: the sphere runs out into a plain cylinder of
+    shoulder_dia that carries on to the full ball width (HIN, HAB, COM8T-101/103)."""
+    R, h, rs = ball_dia / 2, width / 2, shoulder_dia / 2
+    z0 = math.sqrt(R * R - rs * rs)   # where the sphere meets the shoulder
+    return [(bore / 2, -h), (rs, -h), (rs, -z0), ("arc", (rs, z0), (0, 0), False), (rs, h), (bore / 2, h)]
+
+
+def _grooved_ring(od: float, width: float, ball_dia: float, land: float, gw: float, depth: float) -> list:
+    """A race with a V staking groove in each face, `land` in from the OD (WSSX-TV, FKSSX-TV)."""
+    R, h = ball_dia / 2, width / 2
+    ri = math.sqrt(R * R - h * h)
+    ro, r1 = od / 2 - land, od / 2 - land - gw
+    rm = (ro + r1) / 2
+    return [(ri, -h), (r1, -h), (rm, -h + depth), (ro, -h), (od / 2, -h), (od / 2, h), (ro, h),
+            (rm, h - depth), (r1, h), (ri, h), ("arc", (ri, -h), (0, 0), True)]
+
+
+def _opt(row: dict, key: str) -> float | None:
+    return float(row[key]) if row.get(key, "").strip() else None
+
+
 def spherical_bearing(row: dict) -> list[Part]:
+    """A uniball: race and ball. Optional columns: shoulder_dia (a ball with misalignment
+    shoulders out to ball_width) and groove_land / groove_width / groove_depth (staking grooves)."""
     pn = row["part_number"]
     B, D, W, T, bd = (f(row, k) for k in ("bore", "od", "ball_width", "race_width", "ball_dia"))
+    S, gl, gw, gd = (_opt(row, k) for k in ("shoulder_dia", "groove_land", "groove_width", "groove_depth"))
     dims = {"bore": B, "od": D, "ball_width": W, "race_width": T, "ball_dia": bd,
             "catalog_misalignment_deg": f(row, "catalog_misalignment_deg")}
+    est = [e.strip() for e in row.get("estimated", "").split(";") if e.strip()]
     race = Script()
-    race.revolve("Race", _socket_ring(D, T, bd))
     v_race = PI * (D / 2) ** 2 * T - sphere_slice_volume(bd, T)
+    if gl is not None:
+        dims.update({"groove_land": gl, "groove_width": gw, "groove_depth": gd})
+        race.revolve("Race", _grooved_ring(D, T, bd, gl, gw, gd))
+        v_race -= 2 * (gw * gd / 2) * 2 * PI * (D / 2 - gl - gw / 2)   # two V rings, by Pappus
+    else:
+        race.revolve("Race", _socket_ring(D, T, bd))
     ball = Script()
-    ball.revolve("Ball", _ball(B, W, bd))
-    v_ball = sphere_slice_volume(bd, W) - PI * (B / 2) ** 2 * W
+    if S is not None:
+        dims["shoulder_dia"] = S
+        z0 = math.sqrt((bd / 2) ** 2 - (S / 2) ** 2)
+        ball.revolve("Ball", _shoulder_ball(B, W, bd, S))
+        v_ball = sphere_slice_volume(bd, 2 * z0) + PI * (S / 2) ** 2 * (W - 2 * z0) - PI * (B / 2) ** 2 * W
+    else:
+        ball.revolve("Ball", _ball(B, W, bd))
+        v_ball = sphere_slice_volume(bd, W) - PI * (B / 2) ** 2 * W
+    # Titles become file names: series and vendor tell lined, unlined, grooved and maker apart.
+    metric = "-M" in row["series"]
+    size = (lambda v: f"{round(v * 25.4)}mm") if metric else inch
+    title = f"Uniball {size(B)} bore x {size(D)} OD, {row['vendor']} {row['series']}"
+    if S is not None:
+        title += f", {inch(W)} wide shoulder ball"
     return [
-        _finish(row, pn, "spherical_bearing", "Race", row["material"], race, v_race, dims,
-                title=f"Uniball {inch(B)} bore x {inch(D)} OD", folder="Uniballs"),
-        _finish(row, f"{pn}.ball", "spherical_bearing_ball", "Ball", row["material"], ball, v_ball, dims,
+        _finish(row, pn, "spherical_bearing", "Race", row["material"], race, v_race, dims, est,
+                title=title, folder="Uniballs"),
+        _finish(row, f"{pn}.ball", "spherical_bearing_ball", "Ball", row["material"], ball, v_ball, dims, est,
                 part_number="", description=f"Ball of {pn} (moves in the race; counted in the BOM with the race)",
-                bom_type="reference", title=f"Uniball Ball {inch(B)} bore (for {pn})", folder=INTERNAL),
+                bom_type="reference", title=f"Uniball Ball {size(B)} bore (for {pn})", folder=INTERNAL),
     ]
 
 
