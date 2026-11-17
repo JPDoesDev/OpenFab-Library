@@ -1564,6 +1564,42 @@
   "spacer": null
  },
  {
+  "key": "rod-end_JMX16-3T_no-spacers",
+  "kind": "rod_end",
+  "title": "1\" small head rod end, 1-1/4-12 RH, no spacers, 1\" bolt hole",
+  "rod_end": "JMX16-3T",
+  "jam_nut": "SJNR16",
+  "spacer": null,
+  "name_note": "small head"
+ },
+ {
+  "key": "rod-end_JMX16-3T_KTKHMA10034TRN",
+  "kind": "rod_end",
+  "title": "1\" small head rod end, 1-1/4-12 RH, misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "rod_end": "JMX16-3T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10034TRN",
+  "name_note": "small head"
+ },
+ {
+  "key": "rod-end_JMX16-3T_no-spacers_KTK1250TBRR",
+  "kind": "rod_end",
+  "title": "1\" small head rod end, 1-1/4-12 RH, no spacers, 1\" bolt hole, in a step weld-in bung for 1-3/4\" x 0.120\" wall tube",
+  "rod_end": "JMX16-3T",
+  "jam_nut": "SJNR16",
+  "spacer": null,
+  "bung": "KTK1250TBRR",
+  "name_note": "small head"
+ },
+ {
+  "key": "rod-end_HXAM-7T_no-spacers",
+  "kind": "rod_end",
+  "title": "7/16\" Aurora high misalignment rod end, 1/2-20 RH, no spacers, 7/16\" bolt hole",
+  "rod_end": "HXAM-7T",
+  "jam_nut": "SJNR08",
+  "spacer": null
+ },
+ {
   "key": "bushing-pivot_KTK600_KTKOSL175120_KTKISL100188S",
   "kind": "bushing_pivot",
   "title": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, 1\" inner sleeve, 5/8\" bolt hole",

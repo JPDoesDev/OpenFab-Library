@@ -274,8 +274,10 @@ def rod_end(row: dict) -> list[Part]:
     if style in ("solid", "clevis"):
         return [_finish(row, pn, "rod_end", "Body", row["material"], body, None, dims, est,
                         title=title, folder="Rod Ends")]
-    # The ball, split out so an assembly can swing it. Always steel, whatever the body is made of.
+    # The ball, split out so an assembly can swing it: steel, whatever the body is made of, except in a
+    # stainless rod end (FK SCM-T / SCF-T: 400 series stainless ball).
     ball, R = Script(), bd / 2
+    ball_material = "stainless" if row["material"] == "stainless" else "steel"
     if ball_kind == "plain":
         ball.revolve("Ball", _ball(B, W, bd))
         v_ball = sphere_slice_volume(bd, W) - PI * (B / 2) ** 2 * W
@@ -320,7 +322,7 @@ def rod_end(row: dict) -> list[Part]:
     return [
         _finish(row, pn, "rod_end", "Body", row["material"], body, None, dims, est,
                 title=title, folder="Rod Ends"),
-        _finish(row, f"{pn}.ball", "rod_end_ball", "Ball", "steel", ball, v_ball, dims, est,
+        _finish(row, f"{pn}.ball", "rod_end_ball", "Ball", ball_material, ball, v_ball, dims, est,
                 part_number="", description=f"Ball of {pn} (moves in the body; counted in the BOM with the body)",
                 bom_type="reference", title=btitle, folder=INTERNAL),
     ]
