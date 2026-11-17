@@ -72,6 +72,690 @@
   "spacer": "KTKHMA3412"
  },
  {
+  "key": "rod-end_JMX3T_no-spacers",
+  "kind": "rod_end",
+  "title": "#10 rod end, RH, no spacers, #10 bolt hole",
+  "rod_end": "JMX3T",
+  "jam_nut": "SJNR03",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX4T_no-spacers",
+  "kind": "rod_end",
+  "title": "1/4\" rod end, RH, no spacers, 1/4\" bolt hole",
+  "rod_end": "JMX4T",
+  "jam_nut": "SJNR04",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX5T_no-spacers",
+  "kind": "rod_end",
+  "title": "5/16\" rod end, RH, no spacers, 5/16\" bolt hole",
+  "rod_end": "JMX5T",
+  "jam_nut": "SJNR05",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX6T_no-spacers",
+  "kind": "rod_end",
+  "title": "3/8\" rod end, RH, no spacers, 3/8\" bolt hole",
+  "rod_end": "JMX6T",
+  "jam_nut": "SJNR06",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX7T_no-spacers",
+  "kind": "rod_end",
+  "title": "7/16\" rod end, RH, no spacers, 7/16\" bolt hole",
+  "rod_end": "JMX7T",
+  "jam_nut": "SJNR07",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX8T_no-spacers",
+  "kind": "rod_end",
+  "title": "1/2\" rod end, RH, no spacers, 1/2\" bolt hole",
+  "rod_end": "JMX8T",
+  "jam_nut": "SJNR08",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX10T_no-spacers",
+  "kind": "rod_end",
+  "title": "5/8\" rod end, RH, no spacers, 5/8\" bolt hole",
+  "rod_end": "JMX10T",
+  "jam_nut": "SJNR10",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX14T_no-spacers",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, no spacers, 7/8\" bolt hole",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX16-1T_no-spacers",
+  "kind": "rod_end",
+  "title": "1\" rod end, RH, no spacers, 1\" bolt hole",
+  "rod_end": "JMX16-1T",
+  "jam_nut": "SJNR16-1",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX16T_no-spacers",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, no spacers, 1\" bolt hole",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX24T_no-spacers",
+  "kind": "rod_end",
+  "title": "1-1/2\" rod end, RH, no jam nut, no spacers, 1-1/2\" bolt hole",
+  "rod_end": "JMX24T",
+  "jam_nut": null,
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX16T_KTK10034SRTN",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, straight spacers to a 3/4\" bolt hole, 2-1/4\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTK10034SRTN"
+ },
+ {
+  "key": "rod-end_JMX16T_KTK10034SRT1520",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, hourglass spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTK10034SRT1520"
+ },
+ {
+  "key": "rod-end_JMX16T_KTK10034SRT1125",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, cone spacers to a 3/4\" bolt hole, 2-1/4\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTK10034SRT1125"
+ },
+ {
+  "key": "rod-end_JMX16T_KTK10034SRT1190",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, thin edge cone spacers to a 3/4\" bolt hole, 2-3/8\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTK10034SRT1190"
+ },
+ {
+  "key": "rod-end_JMX16T_KTK10034SRT1250",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, thick edge cone spacers to a 3/4\" bolt hole, 2-1/2\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTK10034SRT1250"
+ },
+ {
+  "key": "rod-end_JMX16T_KTK10034SRT1385",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, radius cone spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTK10034SRT1385"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA100916S",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, misalignment spacers to a 9/16\" bolt hole, 2-3/4\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA100916S"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA100916",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, misalignment spacers to a 9/16\" bolt hole, 3-1/16\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA100916"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA10034JRN",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, misalignment spacers to a 3/4\" bolt hole, 1-7/8\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10034JRN"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA10034JR",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, misalignment spacers to a 3/4\" bolt hole, 2\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10034JR"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA10034N",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack, 1-1/8\" head",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10034N",
+  "name_note": "1.115in head"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA10034RN",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack, 1-1/4\" head",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10034RN",
+  "name_note": "1.24in head"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA10034TCF",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, total chaos misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10034TCF"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA10034NOR",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, hourglass misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10034NOR"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA10034ES",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, misalignment spacers to a 3/4\" bolt hole, 3\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10034ES"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA10034TRN",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, misalignment spacers to a 3/4\" bolt hole, 3-1/16\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10034TRN"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA10058RN",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, misalignment spacers to a 5/8\" bolt hole, 2-3/4\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10058RN"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA10058TR",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, misalignment spacers to a 5/8\" bolt hole, 3-1/16\" stack",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10058TR"
+ },
+ {
+  "key": "rod-end_JMX8T_KTKHMA1238",
+  "kind": "rod_end",
+  "title": "1/2\" rod end, RH, misalignment spacers to a 3/8\" bolt hole, 1-3/16\" stack",
+  "rod_end": "JMX8T",
+  "jam_nut": "SJNR08",
+  "spacer": "KTKHMA1238"
+ },
+ {
+  "key": "rod-end_JMX12T_KTK34916SRT",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, straight spacers to a 9/16\" bolt hole, 1-7/8\" stack",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": "KTK34916SRT"
+ },
+ {
+  "key": "rod-end_JMX12T_KTK3412SRTF",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, radius cone spacers to a 1/2\" bolt hole, 1-1/2\" stack",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": "KTK3412SRTF"
+ },
+ {
+  "key": "rod-end_JMX12T_KTKHMA34716",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, misalignment spacers to a 7/16\" bolt hole, 1-1/2\" stack",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": "KTKHMA34716"
+ },
+ {
+  "key": "rod-end_JMX10T_KTK5812SRT875",
+  "kind": "rod_end",
+  "title": "5/8\" rod end, RH, straight spacers to a 1/2\" bolt hole, 1-3/4\" stack",
+  "rod_end": "JMX10T",
+  "jam_nut": "SJNR10",
+  "spacer": "KTK5812SRT875"
+ },
+ {
+  "key": "rod-end_JMX10T_KTKHMA5812SS",
+  "kind": "rod_end",
+  "title": "5/8\" rod end, RH, misalignment spacers to a 1/2\" bolt hole, 1-1/4\" stack",
+  "rod_end": "JMX10T",
+  "jam_nut": "SJNR10",
+  "spacer": "KTKHMA5812SS"
+ },
+ {
+  "key": "rod-end_JMX10T_KTKHMA5812S",
+  "kind": "rod_end",
+  "title": "5/8\" rod end, RH, misalignment spacers to a 1/2\" bolt hole, 1-1/2\" stack",
+  "rod_end": "JMX10T",
+  "jam_nut": "SJNR10",
+  "spacer": "KTKHMA5812S"
+ },
+ {
+  "key": "rod-end_JMX10T_KTKHMA5812T",
+  "kind": "rod_end",
+  "title": "5/8\" rod end, RH, misalignment spacers to a 1/2\" bolt hole, 1-13/16\" stack",
+  "rod_end": "JMX10T",
+  "jam_nut": "SJNR10",
+  "spacer": "KTKHMA5812T"
+ },
+ {
+  "key": "rod-end_JMX14T_KTK7834SRTR",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, straight spacers to a 3/4\" bolt hole, 1-1/2\" stack",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": "KTK7834SRTR"
+ },
+ {
+  "key": "rod-end_JMX14T_KTK7858SRT",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, straight spacers to a 5/8\" bolt hole, 1-5/8\" stack",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": "KTK7858SRT"
+ },
+ {
+  "key": "rod-end_JMX14T_KTK7812SRTJPS",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, cone spacers to a 1/2\" bolt hole, 1-1/2\" stack",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": "KTK7812SRTJPS"
+ },
+ {
+  "key": "rod-end_JMX14T_KTKHMA7812S",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, misalignment spacers to a 1/2\" bolt hole, 1-1/2\" stack",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": "KTKHMA7812S"
+ },
+ {
+  "key": "rod-end_JMX14T_KTKHMA7812M",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, misalignment spacers to a 1/2\" bolt hole, 1-7/8\" stack",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": "KTKHMA7812M"
+ },
+ {
+  "key": "rod-end_JMX14T_KTKHMA7812",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, misalignment spacers to a 1/2\" bolt hole, 2-1/8\" stack",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": "KTKHMA7812"
+ },
+ {
+  "key": "rod-end_JMX14T_KTKHMA7812PRC",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, misalignment spacers to a 1/2\" bolt hole, 2-11/16\" stack",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": "KTKHMA7812PRC"
+ },
+ {
+  "key": "rod-end_JMX14T_KTKHMA78916SS",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, misalignment spacers to a 9/16\" bolt hole, 1-1/2\" stack",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": "KTKHMA78916SS"
+ },
+ {
+  "key": "rod-end_JMX14T_KTKHMA78916S",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, misalignment spacers to a 9/16\" bolt hole, 1-7/8\" stack",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": "KTKHMA78916S"
+ },
+ {
+  "key": "rod-end_JMX14T_KTKHMA78916",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, misalignment spacers to a 9/16\" bolt hole, 2-1/8\" stack",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": "KTKHMA78916"
+ },
+ {
+  "key": "rod-end_JMX14T_KTKHMA7858",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, misalignment spacers to a 5/8\" bolt hole, 2-1/8\" stack",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": "KTKHMA7858"
+ },
+ {
+  "key": "rod-end_JMX14T_no-spacers_KTK875TBMHD",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, no spacers, 7/8\" bolt hole, in a heavy duty weld-in bung for 1-3/4\" x 0.120\" wall tube",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": null,
+  "bung": "KTK875TBMHD"
+ },
+ {
+  "key": "rod-end_JMX16-1T_no-spacers_KTK100TBMHD",
+  "kind": "rod_end",
+  "title": "1\" rod end, RH, no spacers, 1\" bolt hole, in a heavy duty weld-in bung for 1-3/4\" x 0.120\" wall tube",
+  "rod_end": "JMX16-1T",
+  "jam_nut": "SJNR16-1",
+  "spacer": null,
+  "bung": "KTK100TBMHD"
+ },
+ {
+  "key": "rod-end_JMX16T_no-spacers_KTK1250TBMHD",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, no spacers, 1\" bolt hole, in a heavy duty weld-in bung for 2\" x 0.120\" wall tube",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": null,
+  "bung": "KTK1250TBMHD"
+ },
+ {
+  "key": "rod-end_JMX10T_no-spacers_KTK625SBR",
+  "kind": "rod_end",
+  "title": "5/8\" rod end, RH, no spacers, 5/8\" bolt hole, in a 1-1/4\" square x 2\" square tapered bung",
+  "rod_end": "JMX10T",
+  "jam_nut": "SJNR10",
+  "spacer": null,
+  "bung": "KTK625SBR"
+ },
+ {
+  "key": "rod-end_JMX12T_no-spacers_KTK750SBR",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, no spacers, 3/4\" bolt hole, in a 1-1/4\" square x 2\" square tapered bung",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": null,
+  "bung": "KTK750SBR"
+ },
+ {
+  "key": "rod-end_JMX14T_no-spacers_KTK875SBR",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, no spacers, 7/8\" bolt hole, in a 1-1/4\" square x 2\" square tapered bung",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": null,
+  "bung": "KTK875SBR"
+ },
+ {
+  "key": "rod-end_JMX14T_no-spacers_KTK875SLR",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, no spacers, 7/8\" bolt hole, in a 1-1/2\" square x 2-5/8\" square tapered bung",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": null,
+  "bung": "KTK875SLR"
+ },
+ {
+  "key": "rod-end_JMX12T_no-spacers_KTK750TBM",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, no spacers, 3/4\" bolt hole, in a weld-in bung for 1-1/4\" x 0.120\" wall tube",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": null,
+  "bung": "KTK750TBM"
+ },
+ {
+  "key": "rod-end_JMX14T_no-spacers_KTK875TBM",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, no spacers, 7/8\" bolt hole, in a weld-in bung for 1-1/2\" x 0.120\" wall tube",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": null,
+  "bung": "KTK875TBM"
+ },
+ {
+  "key": "rod-end_JMX16T_no-spacers_KTK1250TBM",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, no spacers, 1\" bolt hole, in a weld-in bung for 1-3/4\" x 0.120\" wall tube",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": null,
+  "bung": "KTK1250TBM"
+ },
+ {
+  "key": "rod-end_JMX6T_no-spacers_KTK375TBRR750",
+  "kind": "rod_end",
+  "title": "3/8\" rod end, RH, no spacers, 3/8\" bolt hole, in a step weld-in bung for 3/4\" x 0.095\" wall tube",
+  "rod_end": "JMX6T",
+  "jam_nut": "SJNR06",
+  "spacer": null,
+  "bung": "KTK375TBRR750"
+ },
+ {
+  "key": "rod-end_JMX6T_no-spacers_KTK375TBRR095",
+  "kind": "rod_end",
+  "title": "3/8\" rod end, RH, no spacers, 3/8\" bolt hole, in a step weld-in bung for 1\" x 0.095\" wall tube",
+  "rod_end": "JMX6T",
+  "jam_nut": "SJNR06",
+  "spacer": null,
+  "bung": "KTK375TBRR095"
+ },
+ {
+  "key": "rod-end_JMX8T_no-spacers_KTK500TBRR095",
+  "kind": "rod_end",
+  "title": "1/2\" rod end, RH, no spacers, 1/2\" bolt hole, in a step weld-in bung for 1\" x 0.095\" wall tube",
+  "rod_end": "JMX8T",
+  "jam_nut": "SJNR08",
+  "spacer": null,
+  "bung": "KTK500TBRR095"
+ },
+ {
+  "key": "rod-end_JMX10T_no-spacers_KTK625TBRR095",
+  "kind": "rod_end",
+  "title": "5/8\" rod end, RH, no spacers, 5/8\" bolt hole, in a step weld-in bung for 1\" x 0.095\" wall tube",
+  "rod_end": "JMX10T",
+  "jam_nut": "SJNR10",
+  "spacer": null,
+  "bung": "KTK625TBRR095"
+ },
+ {
+  "key": "rod-end_JMX10T_no-spacers_KTK625TBRR120",
+  "kind": "rod_end",
+  "title": "5/8\" rod end, RH, no spacers, 5/8\" bolt hole, in a step weld-in bung for 1\" x 0.120\" wall tube",
+  "rod_end": "JMX10T",
+  "jam_nut": "SJNR10",
+  "spacer": null,
+  "bung": "KTK625TBRR120"
+ },
+ {
+  "key": "rod-end_JMX10T_no-spacers_KTK625TBRR100",
+  "kind": "rod_end",
+  "title": "5/8\" rod end, RH, no spacers, 5/8\" bolt hole, in a step weld-in bung for 1-1/4\" x 0.120\" wall tube",
+  "rod_end": "JMX10T",
+  "jam_nut": "SJNR10",
+  "spacer": null,
+  "bung": "KTK625TBRR100"
+ },
+ {
+  "key": "rod-end_JMX12T_no-spacers_KTK750TBRR",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, no spacers, 3/4\" bolt hole, in a step weld-in bung for 1-1/4\" x 0.120\" wall tube",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": null,
+  "bung": "KTK750TBRR"
+ },
+ {
+  "key": "rod-end_JMX12T_no-spacers_KTK750TBRR1250",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, no spacers, 3/4\" bolt hole, in a step weld-in bung for 1-1/2\" x 0.120\" wall tube",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": null,
+  "bung": "KTK750TBRR1250"
+ },
+ {
+  "key": "rod-end_JMX14T_no-spacers_KTK875TBRR",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, RH, no spacers, 7/8\" bolt hole, in a step weld-in bung for 1-1/2\" x 0.120\" wall tube",
+  "rod_end": "JMX14T",
+  "jam_nut": "SJNR14",
+  "spacer": null,
+  "bung": "KTK875TBRR"
+ },
+ {
+  "key": "rod-end_JMX16-1T_no-spacers_KTK100TBRR",
+  "kind": "rod_end",
+  "title": "1\" rod end, RH, no spacers, 1\" bolt hole, in a step weld-in bung for 1-1/2\" x 0.120\" wall tube",
+  "rod_end": "JMX16-1T",
+  "jam_nut": "SJNR16-1",
+  "spacer": null,
+  "bung": "KTK100TBRR"
+ },
+ {
+  "key": "rod-end_JMX16T_no-spacers_KTK1250TBRR",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, no spacers, 1\" bolt hole, in a step weld-in bung for 1-3/4\" x 0.120\" wall tube",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": null,
+  "bung": "KTK1250TBRR"
+ },
+ {
+  "key": "rod-end_JMXL12T_no-spacers_KTK750TBLM",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, LH, no spacers, 3/4\" bolt hole, in a weld-in bung for 1-1/4\" x 0.120\" wall tube",
+  "rod_end": "JMXL12T",
+  "jam_nut": "SJNL12",
+  "spacer": null,
+  "bung": "KTK750TBLM"
+ },
+ {
+  "key": "rod-end_JMXL14T_no-spacers_PRM875TBML",
+  "kind": "rod_end",
+  "title": "7/8\" rod end, LH, no spacers, 7/8\" bolt hole, in a weld-in bung for 1-1/2\" x 0.120\" wall tube",
+  "rod_end": "JMXL14T",
+  "jam_nut": "SJNL14",
+  "spacer": null,
+  "bung": "PRM875TBML"
+ },
+ {
+  "key": "rod-end_JMX12T_KTKHMA3412_KTK750TBRR",
+  "kind": "rod_end",
+  "title": "3/4\" rod end, RH, misalignment spacers to a 1/2\" bolt hole, 1-13/16\" stack, in a step weld-in bung for 1-1/4\" x 0.120\" wall tube",
+  "rod_end": "JMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": "KTKHMA3412",
+  "bung": "KTK750TBRR"
+ },
+ {
+  "key": "rod-end_JMX16T_KTKHMA10034RN_KTK1250TBRR",
+  "kind": "rod_end",
+  "title": "1\" rod end, 1-1/4-12 RH, misalignment spacers to a 3/4\" bolt hole, 2-3/4\" stack, 1-1/4\" head, in a step weld-in bung for 1-3/4\" x 0.120\" wall tube",
+  "rod_end": "JMX16T",
+  "jam_nut": "SJNR16",
+  "spacer": "KTKHMA10034RN",
+  "bung": "KTK1250TBRR",
+  "name_note": "1.24in head"
+ },
+ {
+  "key": "rod-end_HJMX12T_no-spacers",
+  "kind": "rod_end",
+  "title": "3/4\" high misalignment rod end, RH, no spacers, 3/4\" bolt hole",
+  "rod_end": "HJMX12T",
+  "jam_nut": "SJNR12",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_HJMX8T_no-spacers",
+  "kind": "rod_end",
+  "title": "1/2\" high misalignment rod end, RH, no spacers, 1/2\" bolt hole",
+  "rod_end": "HJMX8T",
+  "jam_nut": "SJNR08",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_ALJM12T_no-spacers",
+  "kind": "rod_end",
+  "title": "3/4\" aluminium rod end with aluminium jam nut, RH, no spacers, 3/4\" bolt hole",
+  "rod_end": "ALJM12T",
+  "jam_nut": "AJNR12",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_ALJM12T_KTKHMA3412",
+  "kind": "rod_end",
+  "title": "3/4\" aluminium rod end with aluminium jam nut, RH, misalignment spacers to a 1/2\" bolt hole, 1-13/16\" stack",
+  "rod_end": "ALJM12T",
+  "jam_nut": "AJNR12",
+  "spacer": "KTKHMA3412"
+ },
+ {
+  "key": "rod-end_ALJM8T_no-spacers",
+  "kind": "rod_end",
+  "title": "1/2\" aluminium rod end with aluminium jam nut, RH, no spacers, 1/2\" bolt hole",
+  "rod_end": "ALJM8T",
+  "jam_nut": "AJNR08",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JFX12T_no-spacers",
+  "kind": "rod_end",
+  "title": "3/4\" female rod end, RH, no spacers, 3/4\" bolt hole",
+  "rod_end": "JFX12T",
+  "jam_nut": null,
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JFX12T_KTKHMA3412",
+  "kind": "rod_end",
+  "title": "3/4\" female rod end, RH, misalignment spacers to a 1/2\" bolt hole, 1-13/16\" stack",
+  "rod_end": "JFX12T",
+  "jam_nut": null,
+  "spacer": "KTKHMA3412"
+ },
+ {
+  "key": "rod-end_JMX16MT_no-spacers",
+  "kind": "rod_end",
+  "title": "16mm metric rod end, M16x2.0 RH, no spacers, 16mm bolt hole",
+  "rod_end": "JMX16MT",
+  "jam_nut": "SJNR16M",
+  "spacer": null
+ },
+ {
+  "key": "rod-end_JMX10MT_no-spacers",
+  "kind": "rod_end",
+  "title": "10mm metric rod end, M10x1.5 RH, no spacers, 10mm bolt hole",
+  "rod_end": "JMX10MT",
+  "jam_nut": "SJNR10M",
+  "spacer": null
+ },
+ {
   "key": "bushing-pivot_KTK600_KTKOSL175120_KTKISL100188S",
   "kind": "bushing_pivot",
   "title": "Delrin pivot, 1-3/4\" x 1.970\" sleeve, 1\" inner sleeve, 5/8\" bolt hole",
