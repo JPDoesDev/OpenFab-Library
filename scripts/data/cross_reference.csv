@@ -6,6 +6,187 @@ SJNR12,FK,Kartek,FKBSJNR12,same part,Kartek stock number for the FK part
 SJNL12,FK,Kartek,FKBSJNL12,same part,Kartek stock number for the FK part
 WSSX16T,FK,Aurora,AIB-16T-3,equivalent,listed by Kartek as a cross reference
 WSSX16T,FK,NHBB,ADWL16V,equivalent,listed by Kartek as fitting the same cup
+WSSX16T,FK,Kartek,FKBWSSX16TF1,same part,Kartek stock number for the FK part; F1 fit
+WSSX16T,FK,Total Chaos,FK-REP,equivalent,listed by Kartek as a cross reference
+WSSX5T,FK,Kartek,FKBWSSX5T,same part,Kartek stock number for the FK part
+WSSX6T,FK,Kartek,FKBWSSX6T,same part,Kartek stock number for the FK part
+WSSX7T,FK,Kartek,FKBWSSX7T,same part,Kartek stock number for the FK part
+WSSX8T,FK,Kartek,FKBWSSX8T,same part,Kartek stock number for the FK part
+WSSX9T,FK,Kartek,FKBWSSX9T,same part,Kartek stock number for the FK part
+WSSX10T,FK,Kartek,FKBWSSX10T,same part,Kartek stock number for the FK part
+WSSX12T,FK,Kartek,FKBWSSX12T,same part,Kartek stock number for the FK part; F2 fit
+WSSX12T,FK,Kartek,FKBWSSX12TF1,same part,Kartek stock number for the FK part; F1 fit
+WSSX12T,FK,Aurora,PWB12T,equivalent,listed by Kartek as a cross reference
+WSSX12T,FK,NHBB,ABWT12,equivalent,listed by Kartek as a cross reference
+WSSX12T,FK,RBC,MS14102-12,equivalent,listed by Kartek as a cross reference
+WSSX12TV,FK,Kartek,FKBWSSX12TV,same part,Kartek stock number for the FK part
+WSSX12TV,FK,Aurora,PWB12T,equivalent,listed by Kartek as a cross reference
+WSSX12TV,FK,NHBB,ABWT12,equivalent,listed by Kartek as a cross reference
+WSSX12TV,FK,RBC,MS14102-12,equivalent,listed by Kartek as a cross reference
+WSSX14T,FK,Kartek,FKBWSSX14T,same part,Kartek stock number for the FK part; F2 fit
+WSSX14T,FK,Kartek,FKBWSSX14TF1,same part,Kartek stock number for the FK part; F1 fit
+WSSX14T,FK,Aurora,AIB-14T,equivalent,listed by Kartek as a cross reference
+WSSX14T,FK,NHBB,ABWT14,equivalent,listed by Kartek as a cross reference
+WSSX14T,FK,RBC,MS14102-14,equivalent,listed by Kartek as a cross reference
+WSSX24T,FK,Kartek,FKBWSSX24T,same part,Kartek stock number for the FK part
+WSSX24T,FK,Aurora,HCOM-24ET-8,equivalent,listed by Kartek as a cross reference
+WSSX24T,FK,NHBB,AKW24V-4010,equivalent,listed by Kartek as a cross reference
+COM6,FK,Kartek,FKBCOM6,same part,Kartek stock number for the FK part
+COM7,FK,Kartek,FKBCOM7,same part,Kartek stock number for the FK part
+COM7T,FK,Kartek,FKBCOM7T,same part,Kartek stock number for the FK part
+COM9T,FK,Kartek,FKBCOM9T,same part,Kartek stock number for the FK part
+COM14T,FK,Kartek,FKBCOM14T,same part,Kartek stock number for the FK part
+COMH16,FK,Kartek,FKBCOMH16,same part,Kartek stock number for the FK part
+COMH16T,FK,Kartek,FKBCOMH16T,same part,Kartek stock number for the FK part
+COMH20T,FK,Kartek,FKBCOMH20T,same part,Kartek stock number for the FK part
+COM16MT,FK,Kartek,FKBCOM16MT,same part,Kartek stock number for the FK part
+COM18MT,FK,Kartek,FKBCOM18MT,same part,Kartek stock number for the FK part
+COM20MT,FK,Kartek,FKBCOM20MT,same part,Kartek stock number for the FK part
+HIN8T,FK,Kartek,FKBHIN8T,same part,Kartek stock number for the FK part
+HIN10T,FK,Kartek,FKBHIN10T,same part,Kartek stock number for the FK part
+HIN12T,FK,Kartek,FKBHIN12T,same part,Kartek stock number for the FK part
+FKS9T,FK,Kartek,FKBFKS9T,same part,Kartek stock number for the FK part
+AIN8,FK,Kartek,FKBAIN8,same part,Kartek stock number for the FK part
+AIN8T,FK,Kartek,FKBAIN8T,same part,Kartek stock number for the FK part
+AIN12T,FK,Kartek,FKBAIN12T,same part,Kartek stock number for the FK part
+AIN14T,FK,Kartek,FKBAIN14T,same part,Kartek stock number for the FK part
+COM8,FK,Kartek,FKBCOM8,same part,Kartek stock number for the FK part
+COM8,FK,Aurora,COM-8T,equivalent,listed by Kartek as a cross reference
+COM8,FK,Fox,001-00-004-A,equivalent,listed by Kartek as a cross reference
+COM8,FK,King,B1012,equivalent,listed by Kartek as a cross reference
+COM8T,FK,Kartek,FKBCOM8T,same part,Kartek stock number for the FK part
+COM8T,FK,Aurora,COM-8T,equivalent,listed by Kartek as a cross reference
+COM8T,FK,Fox,001-00-004-A,equivalent,listed by Kartek as a cross reference
+COM8T,FK,King,B1012,equivalent,listed by Kartek as a cross reference
+COM8T-101,FK,Kartek,FKBCOM8T101,same part,Kartek stock number for the FK part; F2 fit
+COM8T-101,FK,Kartek,FKBCOM8T101F1,same part,Kartek stock number for the FK part; F1 fit
+COM8T-101,FK,Aurora,COM-8T,equivalent,listed by Kartek as a cross reference; the ball has no shoulders
+COM8T-101,FK,Fox,001-00-004-A,equivalent,listed by Kartek as a cross reference; the ball has no shoulders
+COM8T-101,FK,King,B1012,equivalent,listed by Kartek as a cross reference; the ball has no shoulders
+COM8T-103,FK,Kartek,FKBCOM8T103,same part,Kartek stock number for the FK part
+COM8T-103,FK,Aurora,COM-8T,equivalent,listed by Kartek as a cross reference; the ball has no shoulders
+COM8T-103,FK,Fox,001-00-004-A,equivalent,listed by Kartek as a cross reference; the ball has no shoulders
+COM8T-103,FK,King,B1012,equivalent,listed by Kartek as a cross reference; the ball has no shoulders
+FKS8T,FK,Kartek,FKBFKS8T,same part,Kartek stock number for the FK part; F2 fit
+FKS8T,FK,Kartek,FKBFKS8TF1,same part,Kartek stock number for the FK part; F1 fit
+FKS8T,FK,Aurora,COM-8T,equivalent,listed by Kartek as a cross reference
+FKS8T,FK,Fox,001-00-004-A,equivalent,listed by Kartek as a cross reference
+FKS8T,FK,King,B1012,equivalent,listed by Kartek as a cross reference
+FKSSX8T,FK,Kartek,FKBFKSSX8T,same part,Kartek stock number for the FK part
+FKSSX8T,FK,Aurora,COM-8T,equivalent,listed by Kartek as a cross reference
+FKSSX8T,FK,Fox,001-00-004-A,equivalent,listed by Kartek as a cross reference
+FKSSX8T,FK,King,B1012,equivalent,listed by Kartek as a cross reference
+COM10,FK,Kartek,FKBCOM10,same part,Kartek stock number for the FK part
+COM10,FK,Aurora,COM-10T,equivalent,listed by Kartek as a cross reference
+COM10,FK,Aurora,COM-10TKH,equivalent,listed by Kartek as a cross reference
+COM10,FK,Fox,001-00-006-A,equivalent,listed by Kartek as a cross reference
+COM10,FK,King,B1058,equivalent,listed by Kartek as a cross reference
+COM10T,FK,Kartek,FKBCOM10T,same part,Kartek stock number for the FK part
+COM10T,FK,Aurora,COM-10T,equivalent,listed by Kartek as a cross reference
+COM10T,FK,Aurora,COM-10TKH,equivalent,listed by Kartek as a cross reference
+COM10T,FK,Fox,001-00-006-A,equivalent,listed by Kartek as a cross reference
+COM10T,FK,King,B1058,equivalent,listed by Kartek as a cross reference
+FKS10T,FK,Kartek,FKBFKS10TF1,same part,Kartek stock number for the FK part; F1 fit
+FKS10T,FK,Aurora,COM-10T,equivalent,listed by Kartek as a cross reference
+FKS10T,FK,Aurora,COM-10TKH,equivalent,listed by Kartek as a cross reference
+FKS10T,FK,Fox,001-00-006-A,equivalent,listed by Kartek as a cross reference
+FKS10T,FK,King,B1058,equivalent,listed by Kartek as a cross reference
+FKSSX10T,FK,Kartek,FKBFKSSX10T,same part,Kartek stock number for the FK part
+FKSSX10T,FK,Aurora,COM-10T,equivalent,listed by Kartek as a cross reference
+FKSSX10T,FK,Aurora,COM-10TKH,equivalent,listed by Kartek as a cross reference
+FKSSX10T,FK,Fox,001-00-006-A,equivalent,listed by Kartek as a cross reference
+FKSSX10T,FK,King,B1058,equivalent,listed by Kartek as a cross reference
+COM12,FK,Kartek,FKBCOM12,same part,Kartek stock number for the FK part
+COM12,FK,Aurora,COM-12T,equivalent,listed by Kartek as a cross reference
+COM12,FK,Aurora,COM-12TKH,equivalent,listed by Kartek as a cross reference
+COM12,FK,Fox,001-00-023,equivalent,listed by Kartek as a cross reference
+COM12T,FK,Kartek,FKBCOM12T,same part,Kartek stock number for the FK part
+COM12T,FK,Aurora,COM-12T,equivalent,listed by Kartek as a cross reference
+COM12T,FK,Aurora,COM-12TKH,equivalent,listed by Kartek as a cross reference
+COM12T,FK,Fox,001-00-023,equivalent,listed by Kartek as a cross reference
+FKS12T,FK,Kartek,FKBFKS12TF1,same part,Kartek stock number for the FK part; F1 fit
+FKS12T,FK,Aurora,COM-12T,equivalent,listed by Kartek as a cross reference
+FKS12T,FK,Aurora,COM-12TKH,equivalent,listed by Kartek as a cross reference
+FKS12T,FK,Fox,001-00-023,equivalent,listed by Kartek as a cross reference
+FKSSX12T,FK,Kartek,FKBFKSSX12T,same part,Kartek stock number for the FK part
+FKSSX12T,FK,Aurora,COM-12T,equivalent,listed by Kartek as a cross reference
+FKSSX12T,FK,Aurora,COM-12TKH,equivalent,listed by Kartek as a cross reference
+FKSSX12T,FK,Fox,001-00-023,equivalent,listed by Kartek as a cross reference
+FKSSX14T,FK,Kartek,FKBFKSSX14T,same part,Kartek stock number for the FK part; F2 fit
+FKSSX14T,FK,Kartek,FKBFKSSX14TF1,same part,Kartek stock number for the FK part; F1 fit
+COM16T,FK,Kartek,FKBCOM16T,same part,Kartek stock number for the FK part
+COM16T,FK,Aurora,COM-16TKH,equivalent,listed by Kartek as a cross reference
+COM16T,FK,King,B1010,equivalent,listed by Kartek as a cross reference
+FKSSX16T,FK,Kartek,FKBFKSSX16T,same part,Kartek stock number for the FK part; F2 fit
+FKSSX16T,FK,Kartek,FKBFKSSX16TF1,same part,Kartek stock number for the FK part; F1 fit
+FKSSX16T,FK,Aurora,COM-16TKH,equivalent,listed by Kartek as a cross reference
+FKSSX16T,FK,King,B1010,equivalent,listed by Kartek as a cross reference
+COMH24T,FK,Kartek,FKBCOMH24T,same part,Kartek stock number for the FK part; F2 fit
+COMH24T,FK,Kartek,FKBCOMH24TF1,same part,Kartek stock number for the FK part; F1 fit
+COMH24T,FK,Aurora,HCOM-24T,equivalent,listed by Kartek as a cross reference
+COMH24T,FK,Aurora,HCOM-24TKH-300,equivalent,listed by Kartek as a cross reference
+FKSH24T,FK,Kartek,FKBFKSH24T,same part,Kartek stock number for the FK part; F2 fit
+FKSH24T,FK,Kartek,FKBFKSH24TF1,same part,Kartek stock number for the FK part; F1 fit
+FKSH24T,FK,Aurora,HCOM-24T,equivalent,listed by Kartek as a cross reference
+FKSH24T,FK,Aurora,HCOM-24TKH-300,equivalent,listed by Kartek as a cross reference
+AIN10T,FK,Kartek,FKBAIN10T,same part,Kartek stock number for the FK part; F2 fit
+AIN10T,FK,Kartek,FKBAIN10TF1,same part,Kartek stock number for the FK part; F1 fit
+AIN14-770,FK,Kartek,FKBAIN14770,same part,Kartek stock number for the FK part
+AIN14-770,FK,Aurora,AIB-14T,equivalent,listed by Kartek as a cross reference
+AIN14-770,FK,NHBB,ABWT14,equivalent,listed by Kartek as a cross reference
+AIN14-770,FK,RBC,MS14102-14,equivalent,listed by Kartek as a cross reference
+AIN14T-770,FK,Kartek,FKBAIN14T770,same part,Kartek stock number for the FK part
+AIN14T-770,FK,Aurora,AIB-14T,equivalent,listed by Kartek as a cross reference
+AIN14T-770,FK,NHBB,ABWT14,equivalent,listed by Kartek as a cross reference
+AIN14T-770,FK,RBC,MS14102-14,equivalent,listed by Kartek as a cross reference
+AIN16,FK,Kartek,FKBAIN16,same part,Kartek stock number for the FK part
+AIN16,FK,Aurora,AIB-16T-3,equivalent,listed by Kartek as a cross reference
+AIN16,FK,Total Chaos,FK-REP,equivalent,listed by Kartek as a cross reference
+AIN16T,FK,Kartek,FKBAIN16T,same part,Kartek stock number for the FK part
+AIN16T,FK,Aurora,AIB-16T-3,equivalent,listed by Kartek as a cross reference
+AIN16T,FK,Total Chaos,FK-REP,equivalent,listed by Kartek as a cross reference
+COM-6TC3,Aurora,Kartek,AURCOM6TC3,same part,Kartek stock number for the Aurora part
+COM-8T,Aurora,Kartek,AURCOM8T,same part,Kartek stock number for the Aurora part
+COM-8T,Aurora,FK,COM8,equivalent,listed by Kartek as a cross reference
+COM-8T,Aurora,FK,COM8T,equivalent,listed by Kartek as a cross reference
+COM-8T,Aurora,FK,FKS8T,equivalent,listed by Kartek as a cross reference
+COM-8T,Aurora,FK,FKSSX8T,equivalent,listed by Kartek as a cross reference
+COM-8T,Aurora,FK,COM8T-101,equivalent,listed by Kartek as a cross reference; that ball has misalignment shoulders
+COM-8T,Aurora,FK,COM8T-103,equivalent,listed by Kartek as a cross reference; that ball has misalignment shoulders
+COM-8T,Aurora,Fox,001-00-004-A,equivalent,listed by Kartek as a cross reference
+COM-8T,Aurora,King,B1012,equivalent,listed by Kartek as a cross reference
+COM-10T,Aurora,Kartek,AURCOM10T,same part,Kartek stock number for the Aurora part
+COM-10T,Aurora,FK,COM10,equivalent,listed by Kartek as a cross reference
+COM-10T,Aurora,FK,COM10T,equivalent,listed by Kartek as a cross reference
+COM-10T,Aurora,FK,FKS10T,equivalent,listed by Kartek as a cross reference
+COM-10T,Aurora,FK,FKSSX10T,equivalent,listed by Kartek as a cross reference
+COM-10T,Aurora,Fox,001-00-006-A,equivalent,listed by Kartek as a cross reference
+COM-10T,Aurora,King,B1058,equivalent,listed by Kartek as a cross reference
+COM-10TKH,Aurora,Kartek,AURCOM10TKH,same part,Kartek stock number for the Aurora part
+COM-10TKH,Aurora,FK,COM10,equivalent,listed by Kartek as a cross reference
+COM-10TKH,Aurora,FK,COM10T,equivalent,listed by Kartek as a cross reference
+COM-10TKH,Aurora,FK,FKS10T,equivalent,listed by Kartek as a cross reference
+COM-10TKH,Aurora,FK,FKSSX10T,equivalent,listed by Kartek as a cross reference
+COM-10TKH,Aurora,Fox,001-00-006-A,equivalent,listed by Kartek as a cross reference
+COM-10TKH,Aurora,King,B1058,equivalent,listed by Kartek as a cross reference
+COM-12TKH,Aurora,Kartek,AURCOM12TKH,same part,Kartek stock number for the Aurora part
+COM-16TKH,Aurora,Kartek,AURCOM16TKH,same part,Kartek stock number for the Aurora part
+HCOM-24TKH-300,Aurora,Kartek,AUR24TKH300,same part,Kartek stock number for the Aurora part
+HCOM-24TKH-300,Aurora,FK,COMH24T,equivalent,listed by Kartek as a cross reference
+HCOM-24TKH-300,Aurora,FK,FKSH24T,equivalent,listed by Kartek as a cross reference
+AIB-12T,Aurora,Kartek,AURAIB12T,same part,Kartek stock number for the Aurora part
+AIB-14T,Aurora,Kartek,AURAIB14T,same part,Kartek stock number for the Aurora part
+AIB-14T,Aurora,FK,AIN14-770,equivalent,listed by Kartek as a cross reference
+AIB-14T,Aurora,FK,AIN14T-770,equivalent,listed by Kartek as a cross reference
+AIB-14T,Aurora,FK,WSSX14T,equivalent,listed by Kartek as a cross reference
+AIB-14T,Aurora,NHBB,ABWT14,equivalent,listed by Kartek as a cross reference
+AIB-14T,Aurora,RBC,MS14102-14,equivalent,listed by Kartek as a cross reference
+AIB-16T-3,Aurora,Kartek,AUR16TKH300,same part,Kartek stock number for the Aurora part
+AIB-16T-3,Aurora,FK,HIN16TA,equivalent,listed by Kartek as a cross reference
+AIB-16T-3,Aurora,FK,WSSX16T,equivalent,listed by Kartek as a cross reference
+AIB-16T-3,Aurora,FK,AIN16,equivalent,listed by Kartek as a cross reference
+AIB-16T-3,Aurora,FK,AIN16T,equivalent,listed by Kartek as a cross reference
+HAB-12T,Aurora,Kartek,AURHAB12T,same part,Kartek stock number for the Aurora part
 JMX12T,FK,Aurora,RAM-12T,equivalent,listed by Kartek as a cross reference
 JMX12T,FK,Aurora,PRM-12T,equivalent,listed by Kartek as a cross reference
 KTK9044HD,Kartek,FK,CPW16,equivalent,Kartek states the same dimensions as the FK cup
