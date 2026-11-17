@@ -1,0 +1,21 @@
+Uniball 0.75in bore x 1.5625in OD, FK HIN-T, 1.28in wide shoulder ball
+
+Part number:  HIN12T
+Vendor:       FK
+Description:  FK HIN12T 3/4" bore high misalignment PTFE lined steel spherical bearing with misalignment shoulders
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.17
+
+Also available as:
+  Kartek FKBHIN12T  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  bore: 0.75
+  od: 1.5625
+  ball_width: 1.28
+  race_width: 0.62
+  ball_dia: 1.375
+  catalog_misalignment_deg: 18
+  shoulder_dia: 0.97
+
+Volume check: ok

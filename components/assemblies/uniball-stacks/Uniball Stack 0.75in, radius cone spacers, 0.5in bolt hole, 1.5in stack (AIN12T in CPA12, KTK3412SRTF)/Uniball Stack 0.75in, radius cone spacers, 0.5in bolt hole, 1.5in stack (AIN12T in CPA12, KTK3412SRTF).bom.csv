@@ -1,0 +1,5 @@
+item,qty,vendor,part_number,description,also_available_as
+1,1,FK,AIN12T,"FK AIN12T 3/4"" bore heavy duty precision series PTFE lined alloy steel spherical bearing",Kartek FKBAIN12T (same part)
+2,1,FK,CPA12,"FK CPA12 4130 uniball cup for 3/4"" bore uniballs 1"" tall 1-13/16"" OD",Kartek FKBCPA12 (same part)
+3,2,Kartek,KTK3412SRTF,"17-4 Stainless Steel Radius Cone Spacer For 3/4"" Heim Or Uniball For 1/2"" Bolt 1-1/2"" Stack Height",
+4,1,FK,SRA12,FK SRA12 internal snap ring for FK CPA12 uniball cups,Kartek FKBSRA12 (same part); Fox 038-00-028-A (equivalent)

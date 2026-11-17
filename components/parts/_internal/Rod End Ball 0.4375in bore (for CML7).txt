@@ -1,0 +1,26 @@
+Rod End Ball 0.4375in bore (for CML7)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of CML7 (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CM7 row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.4375
+  head_dia: 1.125
+  head_width: 0.406
+  length: 2.125
+  thread: 7/16-20 UNF-3A LH
+  thread_dia: 0.4375
+  thread_length: 1.375
+  hand: LH
+  ball_width: 0.562
+  ball_dia: 0.812
+  catalog_misalignment_deg: 21
+  thread_feature: cosmetic, M11.1125x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

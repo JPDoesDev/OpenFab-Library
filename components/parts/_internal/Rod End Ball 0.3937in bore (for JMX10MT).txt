@@ -1,0 +1,26 @@
+Rod End Ball 0.3937in bore (for JMX10MT)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of JMX10MT (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.27 (JMX10M row, millimetres converted to inches)
+
+Dimensions (inches):
+  style: male
+  bore: 0.3937
+  head_dia: 1.063
+  head_width: 0.4134
+  length: 1.8898
+  thread: M10 x 1.5
+  thread_dia: 0.3937
+  thread_length: 1.1417
+  hand: RH
+  ball_width: 0.5512
+  ball_dia: 0.75
+  catalog_misalignment_deg: 17
+  thread_feature: cosmetic, M10x1.5
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

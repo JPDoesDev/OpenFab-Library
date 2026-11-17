@@ -1,0 +1,16 @@
+Uniball Ball 0.4375in bore (for COM7T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of COM7T (moves in the race; counted in the BOM with the race)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.29
+
+Dimensions (inches):
+  bore: 0.4375
+  od: 0.9062
+  ball_width: 0.437
+  race_width: 0.343
+  ball_dia: 0.687
+  catalog_misalignment_deg: 8
+
+Volume check: ok

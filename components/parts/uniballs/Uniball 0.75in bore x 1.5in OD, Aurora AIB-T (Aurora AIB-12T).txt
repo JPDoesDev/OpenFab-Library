@@ -1,0 +1,20 @@
+Uniball 0.75in bore x 1.5in OD, Aurora AIB-T
+
+Part number:  AIB-12T
+Vendor:       Aurora
+Description:  Aurora AIB-12T 3/4" bore heavy duty precision series PTFE lined alloy steel spherical bearing
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.49 (AIB-12)
+
+Also available as:
+  Kartek AURAIB12T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  bore: 0.75
+  od: 1.5
+  ball_width: 0.875
+  race_width: 0.687
+  ball_dia: 1.312
+  catalog_misalignment_deg: 10
+
+Volume check: ok

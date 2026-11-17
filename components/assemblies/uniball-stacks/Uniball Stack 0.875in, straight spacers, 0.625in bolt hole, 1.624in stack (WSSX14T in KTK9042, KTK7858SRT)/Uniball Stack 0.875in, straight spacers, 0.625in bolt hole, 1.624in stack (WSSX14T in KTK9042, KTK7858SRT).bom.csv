@@ -1,0 +1,5 @@
+item,qty,vendor,part_number,description,also_available_as
+1,2,Kartek,KTK7858SRT,"17-4 Stainless Steel Straight Spacer For 7/8"" Heim Or Uniball For 5/8"" Bolt 1-5/8"" Stack Height",
+2,1,Kartek,KTK9042,"Kartek 4130 uniball cup for 7/8"" bore uniballs 1-1/4"" nominal (1.265"" actual) tall 2"" OD; seat depth set for WSSX14T (0.755"" race); AIN14T-770 and AIB-14T races are 0.750""",
+3,1,Kartek,KTK9042SR,Kartek snap ring (Kartek supplies an external-type ring) for Kartek 9042 series uniball cups,FK SRW14 (equivalent); Kartek FKBSRW14 (equivalent)
+4,1,FK,WSSX14T,"FK WSSX14T 7/8"" bore wide series PTFE lined stainless spherical bearing",Kartek FKBWSSX14T (same part); Kartek FKBWSSX14TF1 (same part); Aurora AIB-14T (equivalent); NHBB ABWT14 (equivalent); RBC MS14102-14 (equivalent)

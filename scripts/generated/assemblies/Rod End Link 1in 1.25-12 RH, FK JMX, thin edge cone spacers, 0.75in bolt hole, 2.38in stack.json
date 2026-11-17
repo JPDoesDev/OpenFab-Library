@@ -1,0 +1,250 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/rod-ends/Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined (FK JMX16T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined (FK JMX16T)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBJMX16TF1 (fit variant); Kartek FKBJMX16T (same part)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/jam-nuts/Jam Nut 1.25-12 RH (FK SJNR16).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Jam Nut 1.25-12 RH (FK SJNR16)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBSJNR16 (same part)"
+    }
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined (FK JMX16T):1",
+     "point": [
+      64.135,
+      0.0,
+      0.0
+     ],
+     "z": [
+      1,
+      0,
+      0
+     ]
+    },
+    "b": {
+     "occurrence": "Jam Nut 1.25-12 RH (FK SJNR16):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Rod End Ball 1in bore (for JMX16T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Rod End Ball 1in bore (for JMX16T)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "FK"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190).sc",
+    "translate": [
+     0.0,
+     0,
+     17.4625
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 2",
+    "flip": true,
+    "a": {
+     "occurrence": "Rod End Ball 1in bore (for JMX16T):1",
+     "point": [
+      0.0,
+      0.0,
+      -17.4625
+     ],
+     "z": [
+      0,
+      0,
+      -1
+     ]
+    },
+    "b": {
+     "occurrence": "Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190):2",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined (FK JMX16T):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined (FK JMX16T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Rod End Ball 1in bore (for JMX16T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Rod End Ball 1in bore (for JMX16T):1",
+     "Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  },
+  {
+   "command": "joint.find_limits",
+   "params": {
+    "joint": "Pivot",
+    "index": 1,
+    "occurrences": [
+     "Rod End Ball 1in bore (for JMX16T):1",
+     "Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190):1",
+     "Thin Edge Cone Spacer 1in to 0.75in bolt, 2.38in stack (Kartek KTK10034SRT1190):2"
+    ],
+    "against": [
+     "Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined (FK JMX16T):1",
+     "Jam Nut 1.25-12 RH (FK SJNR16):1"
+    ],
+    "exclude_pairs": [
+     [
+      "Rod End 1in bore, 1.25-12 RH, JMX chromoly PTFE lined (FK JMX16T):1",
+      "Rod End Ball 1in bore (for JMX16T):1"
+     ]
+    ]
+   }
+  }
+ ]
+}

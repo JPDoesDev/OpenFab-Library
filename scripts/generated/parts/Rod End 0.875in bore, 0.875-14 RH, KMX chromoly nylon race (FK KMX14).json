@@ -1,0 +1,193 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.467552,
+      -9.779
+     ],
+     [
+      25.4,
+      -9.779
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      25.4,
+      -9.779
+     ],
+     [
+      25.4,
+      9.779
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      25.4,
+      9.779
+     ],
+     [
+      14.467552,
+      9.779
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     14.467552,
+     9.779
+    ],
+    "end": [
+     14.467552,
+     -9.779
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 22.225,
+    "height": 62.790919,
+    "base": [
+     22.934081,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     54.32954,
+     0.0,
+     11.1125
+    ],
+    "designation": "M22.225x1.8143",
+    "hand": "right",
+    "length": 50.8,
+    "name": "Thread 7/8-14 UNF-3A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KMX14",
+     "description": "FK KMX14 7/8\" bore 7/8-14 RH male 3-piece chromoly nylon race rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.875,
+       "head_dia": 2.0,
+       "head_width": 0.77,
+       "length": 3.375,
+       "thread": "7/8-14 UNF-3A",
+       "thread_dia": 0.875,
+       "thread_length": 2.0,
+       "hand": "RH",
+       "ball_width": 0.875,
+       "ball_dia": 1.375,
+       "catalog_misalignment_deg": 12.0,
+       "thread_feature": "cosmetic, M22.225x1.8143 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBKMX14",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       },
+       {
+        "other_vendor": "Aurora",
+        "other_part_number": "RAM-14T-1",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       }
+      ],
+      "thread": "7/8-14 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.15 (KMX14 row)"
+     }
+    }
+   }
+  }
+ ]
+}

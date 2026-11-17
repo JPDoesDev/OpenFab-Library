@@ -1,0 +1,26 @@
+Rod End Ball 0.875in bore (for RXAM-14T-1)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of RXAM-14T-1 (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.39 (RXAM-14T-1 row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.875
+  head_dia: 2.325
+  head_width: 0.765
+  length: 3.5
+  thread: 1-14 UNS-3A
+  thread_dia: 1
+  thread_length: 1.875
+  hand: RH
+  ball_width: 0.875
+  ball_dia: 1.375
+  catalog_misalignment_deg: 6
+  thread_feature: cosmetic, M25.4x1.8143 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

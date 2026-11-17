@@ -10,22 +10,24 @@ Part numbers are stored inside each `.sc` file, so a SolidCraft bill of material
 |---|---|
 | [Bushings](parts/bushings/index.md) | 26 |
 | [Inner Sleeves](parts/inner-sleeves/index.md) | 14 |
-| [Jam Nuts](parts/jam-nuts/index.md) | 2 |
+| [Jam Nuts](parts/jam-nuts/index.md) | 42 |
 | [Outer Sleeves](parts/outer-sleeves/index.md) | 14 |
-| [Rod Ends](parts/rod-ends/index.md) | 2 |
-| [Snap Rings](parts/snap-rings/index.md) | 1 |
-| [Spacers](parts/spacers/index.md) | 49 |
-| [Uniball Cups](parts/uniball-cups/index.md) | 1 |
-| [Uniballs](parts/uniballs/index.md) | 1 |
-| [Internal helper pieces](parts/_internal/index.md) | 3 |
+| [Rod Ends](parts/rod-ends/index.md) | 253 |
+| [Safety Washers](parts/safety-washers/index.md) | 3 |
+| [Snap Rings](parts/snap-rings/index.md) | 15 |
+| [Spacers](parts/spacers/index.md) | 50 |
+| [Uniball Cups](parts/uniball-cups/index.md) | 26 |
+| [Uniballs](parts/uniballs/index.md) | 65 |
+| [Weld In Bungs](parts/weld-in-bungs/index.md) | 38 |
+| [Internal helper pieces](parts/_internal/index.md) | 316 |
 
 ## Assemblies
 
 | Type | Assemblies |
 |---|---|
 | [Bushing Pivots](assemblies/bushing-pivots/index.md) | 16 |
-| [Rod End Links](assemblies/rod-end-links/index.md) | 5 |
-| [Uniball Stacks](assemblies/uniball-stacks/index.md) | 4 |
+| [Rod End Links](assemblies/rod-end-links/index.md) | 87 |
+| [Uniball Stacks](assemblies/uniball-stacks/index.md) | 97 |
 
 ## Using the files
 

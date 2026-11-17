@@ -1,0 +1,41 @@
+Studded Rod End 0.4375-20 stud, 0.4375-20 RH, CM steel PTFE lined
+
+Part number:  CM7TY
+Vendor:       FK
+Description:  FK CM7TY 7/16" size 7/16-20 RH male economy 2-piece low carbon steel PTFE lined rod end with 7/16-20 stud
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CM7 row); stud: FK 2017 Industrial Catalog p.45
+
+Also available as:
+  Kartek FKBCM7TY  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: male
+  bore: 0.4375
+  head_dia: 1.125
+  head_width: 0.406
+  length: 2.125
+  thread: 7/16-20 UNF-3A
+  thread_dia: 0.4375
+  thread_length: 1.375
+  hand: RH
+  ball_width: 0.562
+  ball_dia: 0.812
+  catalog_misalignment_deg: 21
+  thread_feature: cosmetic, M11.1125x1.27 (the Unified size in millimetres)
+  stud_length: 1.75
+  stud_hex_length: 1.062
+  stud_thread_length: 0.937
+  stud_thread: 7/16-20 UNF-2A
+  stud_thread_dia: 0.4375
+  stud_hex: 0.5625
+  stud_hex_thickness: 0.2035
+  stud_neck_dia: 0.4375
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+  stud hex thickness and neck (half each of the space between the ball face and the hex face)
+  stud neck diameter (the stud's thread diameter)
+  ball is solid on the side away from the stud
+
+Volume check: not checked

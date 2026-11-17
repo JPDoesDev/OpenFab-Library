@@ -1,0 +1,24 @@
+Uniball 0.625in bore x 1.1875in OD, FK COM
+
+Part number:  COM10
+Vendor:       FK
+Description:  FK COM10 5/8" bore commercial series unlined steel spherical bearing
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.29
+
+Also available as:
+  Kartek FKBCOM10   same part - Kartek stock number for the FK part
+  Aurora COM-10T    equivalent - listed by Kartek as a cross reference
+  Aurora COM-10TKH  equivalent - listed by Kartek as a cross reference
+  Fox 001-00-006-A  equivalent - listed by Kartek as a cross reference
+  King B1058        equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.1875
+  ball_width: 0.625
+  race_width: 0.5
+  ball_dia: 0.968
+  catalog_misalignment_deg: 8.5
+
+Volume check: ok

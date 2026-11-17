@@ -1,0 +1,41 @@
+Studded Rod End 0.375-24 stud, 0.375-24 RH, CM steel
+
+Part number:  CM6Y
+Vendor:       FK
+Description:  FK CM6Y 3/8" size 3/8-24 RH male economy 2-piece low carbon steel rod end with 3/8-24 stud
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CM6 row); stud: FK 2017 Industrial Catalog p.45
+
+Also available as:
+  Kartek FKBCM6Y  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: male
+  bore: 0.375
+  head_dia: 1
+  head_width: 0.359
+  length: 1.938
+  thread: 3/8-24 UNF-3A
+  thread_dia: 0.375
+  thread_length: 1.25
+  hand: RH
+  ball_width: 0.5
+  ball_dia: 0.719
+  catalog_misalignment_deg: 22
+  thread_feature: cosmetic, M9.525x1.0583 (the Unified size in millimetres)
+  stud_length: 1.562
+  stud_hex_length: 0.906
+  stud_thread_length: 0.812
+  stud_thread: 3/8-24 UNF-2A
+  stud_thread_dia: 0.375
+  stud_hex: 0.5
+  stud_hex_thickness: 0.203
+  stud_neck_dia: 0.375
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+  stud hex thickness and neck (half each of the space between the ball face and the hex face)
+  stud neck diameter (the stud's thread diameter)
+  ball is solid on the side away from the stud
+
+Volume check: not checked

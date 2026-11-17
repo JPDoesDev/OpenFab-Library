@@ -1,0 +1,30 @@
+Uniball 0.75in bore x 1.375in OD, FK WSSX-TV
+
+Part number:  WSSX12TV
+Vendor:       FK
+Description:  FK WSSX12TV 3/4" bore wide series PTFE lined stainless spherical bearing with staking grooves
+Material:     stainless
+Source:       FK 2017 Industrial Catalog p.33 (staking groove data for bore sizes 12 thru 24)
+
+Also available as:
+  Kartek FKBWSSX12TV  same part - Kartek stock number for the FK part
+  Aurora PWB12T       equivalent - listed by Kartek as a cross reference
+  NHBB ABWT12         equivalent - listed by Kartek as a cross reference
+  RBC MS14102-12      equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 0.75
+  od: 1.375
+  ball_width: 0.875
+  race_width: 0.63
+  ball_dia: 1.25
+  catalog_misalignment_deg: 13
+  groove_land: 0.03
+  groove_width: 0.08
+  groove_depth: 0.06
+
+Estimated (not published by the vendor):
+  staking groove shape (a plain V of the catalog land, width and depth
+  root radius not modelled)
+
+Volume check: ok

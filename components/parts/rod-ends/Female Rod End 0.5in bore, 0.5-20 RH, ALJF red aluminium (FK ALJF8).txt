@@ -1,0 +1,34 @@
+Female Rod End 0.5in bore, 0.5-20 RH, ALJF red aluminium
+
+Part number:  ALJF8
+Vendor:       FK
+Description:  FK ALJF8 1/2" bore 1/2-20 RH female 7075 aluminium red anodized rod end
+Material:     aluminium_red
+Source:       FK 2017 Industrial Catalog p.19 (ALJF8 row)
+
+Also available as:
+  Kartek FKBALJF8  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: female
+  bore: 0.5
+  head_dia: 1.312
+  head_width: 0.5
+  length: 2.125
+  thread: 1/2-20 UNF-2B
+  thread_dia: 0.5
+  thread_length: 1.062
+  hand: RH
+  ball_width: 0.625
+  ball_dia: 0.937
+  catalog_misalignment_deg: 12
+  body_dia: 0.875
+  flat: 0.75
+  thread_feature: cosmetic, M12.7x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+
+Volume check: not checked

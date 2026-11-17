@@ -1,0 +1,22 @@
+Aluminum Jam Nut 0.75-16 LH
+
+Part number:  AJNL12
+Vendor:       FK
+Description:  FK AJNL12 3/4-16 LH aluminum jam nut
+Material:     aluminum
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBAJNL12  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 1.0938
+  width: 0.425
+  thread: 3/4-16 UNF-2B LH
+  thread_dia: 0.75
+  hand: LH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+
+Volume check: ok

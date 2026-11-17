@@ -5,7 +5,7 @@
    "params": {
     "path": "../../../components/parts/outer-sleeves/Outer Sleeve 1.25in OD x 1.06in ID x 1.5in long (AutoFab BA125-OUTER).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -28,7 +28,7 @@
    "params": {
     "path": "../../../components/parts/bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (AutoFab B125).sc",
     "translate": [
-     0,
+     0.0,
      0,
      19.05
     ],
@@ -51,7 +51,7 @@
    "params": {
     "path": "../../../components/parts/bushings/Urethane Bushing 0.5in ID x 1.07in OD x 1in long (AutoFab B125).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -97,7 +97,7 @@
    "params": {
     "path": "../../../components/parts/inner-sleeves/Inner Sleeve 0.5in OD x 0.375in ID x 2in long (AutoFab BA125-INNER).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],

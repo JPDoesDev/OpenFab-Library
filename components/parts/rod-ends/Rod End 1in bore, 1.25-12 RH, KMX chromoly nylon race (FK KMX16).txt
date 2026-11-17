@@ -1,0 +1,30 @@
+Rod End 1in bore, 1.25-12 RH, KMX chromoly nylon race
+
+Part number:  KMX16
+Vendor:       FK
+Description:  FK KMX16 1" bore 1 1/4-12 RH male 3-piece chromoly nylon race rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.15 (KMX16 row)
+
+Also available as:
+  Kartek FKBKMX16  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: male
+  bore: 1
+  head_dia: 2.75
+  head_width: 1
+  length: 4.125
+  thread: 1 1/4-12 UNF-3A
+  thread_dia: 1.25
+  thread_length: 2.125
+  hand: RH
+  ball_width: 1.375
+  ball_dia: 1.875
+  catalog_misalignment_deg: 17
+  thread_feature: cosmetic, M31.75x2.1167 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

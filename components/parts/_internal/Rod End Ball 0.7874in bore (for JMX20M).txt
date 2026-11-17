@@ -1,0 +1,26 @@
+Rod End Ball 0.7874in bore (for JMX20M)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of JMX20M (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.27 (JMX20M row, millimetres converted to inches)
+
+Dimensions (inches):
+  style: male
+  bore: 0.7874
+  head_dia: 1.811
+  head_width: 0.7087
+  length: 3.0709
+  thread: M20 x 1.5
+  thread_dia: 0.7874
+  thread_length: 1.8504
+  hand: RH
+  ball_width: 0.9843
+  ball_dia: 1.3752
+  catalog_misalignment_deg: 20
+  thread_feature: cosmetic, M20x1.5
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

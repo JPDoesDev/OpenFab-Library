@@ -1,0 +1,26 @@
+Uniball 0.625in bore x 1.1875in OD, Aurora COM-TKH
+
+Part number:  COM-10TKH
+Vendor:       Aurora
+Description:  Aurora COM-10TKH 5/8" bore commercial series PTFE lined spherical bearing, heat treated alloy steel race
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.45 (COM-10KH)
+
+Also available as:
+  Kartek AURCOM10TKH  same part - Kartek stock number for the Aurora part
+  FK COM10            equivalent - listed by Kartek as a cross reference
+  FK COM10T           equivalent - listed by Kartek as a cross reference
+  FK FKS10T           equivalent - listed by Kartek as a cross reference
+  FK FKSSX10T         equivalent - listed by Kartek as a cross reference
+  Fox 001-00-006-A    equivalent - listed by Kartek as a cross reference
+  King B1058          equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.1875
+  ball_width: 0.625
+  race_width: 0.5
+  ball_dia: 1
+  catalog_misalignment_deg: 8.5
+
+Volume check: ok

@@ -1,0 +1,34 @@
+Uniball Cup 2.125in bore x 2.625in OD x 2.5in tall, FK
+
+Part number:  CPW16-1
+Vendor:       FK
+Description:  FK CPW16-1 4130 uniball cup for 1" bore uniballs 2-1/2" tall 2-5/8" OD
+Material:     4130
+Source:       FK 2017 catalog p.37; kartek.com FKBCPW161
+
+Also available as:
+  Kartek FKBCPW161       same part - Kartek stock number for the FK part
+  Kartek KTK9044HDXT250  equivalent - Kartek states the same dimensions as the Kartek cup
+
+Dimensions (inches):
+  bearing_od: 2.125
+  height: 2.5
+  od: 2.625
+  lip_id: 1.9
+  lip_thickness: 1.259
+  groove_dia: 2.245
+  groove_width: 0.086
+  seat_depth: 1.005
+  seat_depth_from: WSSX16T
+  bottom_z: -1.7615
+  top_z: 0.7385
+  snap_ring: SRW16
+  style: weld in
+
+Estimated (not published by the vendor):
+  lip_id: the lip overlaps the uniball race by 5.3% of the bore each side
+  lip_thickness: what is left of the height once the uniball, the groove and a land of 7.06% of the bore above the groove are taken off (the groove sits near the open end, as the product photos show)
+  groove_dia: a standard internal retaining ring groove (ANSI B27.7 / Truarc N5000 class) for that housing bore
+  groove_width: the N5000-class groove width for that housing bore
+
+Volume check: ok

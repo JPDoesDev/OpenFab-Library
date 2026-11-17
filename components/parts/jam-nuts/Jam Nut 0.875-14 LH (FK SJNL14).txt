@@ -1,0 +1,23 @@
+Jam Nut 0.875-14 LH
+
+Part number:  SJNL14
+Vendor:       FK
+Description:  FK SJNL14 7/8-14 LH steel jam nut
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBSJNL14  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 1.25
+  width: 0.5
+  thread: 7/8-14 UNF-2B LH
+  thread_dia: 0.875
+  hand: LH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+  hex size may vary with material availability (FK catalog note)
+
+Volume check: ok

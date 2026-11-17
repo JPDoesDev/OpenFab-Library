@@ -1,0 +1,31 @@
+High Misalignment Rod End 0.5in bore, 0.5-20 LH, HJMX 4340 steel PTFE lined
+
+Part number:  HJMXL8T
+Vendor:       FK
+Description:  FK HJMXL8T 1/2" bore 1/2-20 LH male high misalignment 4340 steel PTFE lined rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.17 (HJMX8T row)
+
+Also available as:
+  Kartek FKBHJMXL8T  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: male
+  bore: 0.5
+  head_dia: 1.525
+  head_width: 0.411
+  length: 2.625
+  thread: 1/2-20 UNF-3A LH
+  thread_dia: 0.5
+  thread_length: 1.562
+  hand: LH
+  ball_width: 0.937
+  ball_dia: 1
+  catalog_misalignment_deg: 19
+  shoulder_dia: 0.73
+  thread_feature: cosmetic, M12.7x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

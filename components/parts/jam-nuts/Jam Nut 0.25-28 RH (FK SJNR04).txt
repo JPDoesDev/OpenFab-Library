@@ -1,0 +1,22 @@
+Jam Nut 0.25-28 RH
+
+Part number:  SJNR04
+Vendor:       FK
+Description:  FK SJNR04 1/4-28 RH steel jam nut
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBSJNR04  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 0.4375
+  width: 0.16
+  thread: 1/4-28 UNF-2B
+  thread_dia: 0.25
+  hand: RH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+
+Volume check: ok

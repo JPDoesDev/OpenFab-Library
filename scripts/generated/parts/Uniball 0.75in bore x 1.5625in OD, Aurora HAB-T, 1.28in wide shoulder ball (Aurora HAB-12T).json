@@ -1,0 +1,149 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Race profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.586502,
+      -7.874
+     ],
+     [
+      19.84375,
+      -7.874
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.84375,
+      -7.874
+     ],
+     [
+      19.84375,
+      7.874
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.84375,
+      7.874
+     ],
+     [
+      15.586502,
+      7.874
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     15.586502,
+     7.874
+    ],
+    "end": [
+     15.586502,
+     -7.874
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Race",
+    "body_name": "Race"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Race"
+    ],
+    "material": "Stainless Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "HAB-12T",
+     "description": "Aurora HAB-12T 3/4\" bore high misalignment PTFE lined spherical bearing with misalignment shoulders, 17-4 PH stainless race and alloy steel ball",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing",
+      "units": "in",
+      "dims": {
+       "bore": 0.75,
+       "od": 1.5625,
+       "ball_width": 1.28,
+       "race_width": 0.62,
+       "ball_dia": 1.375,
+       "catalog_misalignment_deg": 18.0,
+       "shoulder_dia": 0.97
+      },
+      "estimated": [],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AURHAB12T",
+        "relation": "same part",
+        "note": "Kartek stock number for the Aurora part"
+       }
+      ],
+      "source": "Aurora Rod End & Spherical Bearing Catalog 319 p.51"
+     }
+    }
+   }
+  }
+ ]
+}

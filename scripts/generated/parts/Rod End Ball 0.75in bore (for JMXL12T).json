@@ -123,23 +123,26 @@
       "family": "rod_end_ball",
       "units": "in",
       "dims": {
+       "style": "male",
        "bore": 0.75,
        "head_dia": 1.75,
-       "ball_width": 0.875,
        "head_width": 0.687,
-       "ball_dia": 1.312,
        "length": 2.875,
        "thread": "3/4-16 UNF-3A LH",
        "thread_dia": 0.75,
        "thread_length": 1.75,
        "hand": "LH",
+       "ball_width": 0.875,
+       "ball_dia": 1.312,
        "catalog_misalignment_deg": 14.0,
        "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
       },
-      "estimated": [],
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
       "also_available_as": [],
       "thread": "3/4-16 UNF-3A LH",
-      "source": "FK 2017 Industrial Catalog p.11"
+      "source": "FK 2017 Industrial Catalog p.11 (JMX12 row)"
      }
     }
    }

@@ -1,0 +1,141 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.9375,
+      -7.9375
+     ],
+     [
+      9.913934,
+      -7.9375
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     9.913934,
+     -7.9375
+    ],
+    "end": [
+     9.913934,
+     7.9375
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.913934,
+      7.9375
+     ],
+     [
+      7.9375,
+      7.9375
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.9375,
+      7.9375
+     ],
+     [
+      7.9375,
+      -7.9375
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of COM-10TKH (moves in the race; counted in the BOM with the race)",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing_ball",
+      "units": "in",
+      "dims": {
+       "bore": 0.625,
+       "od": 1.1875,
+       "ball_width": 0.625,
+       "race_width": 0.5,
+       "ball_dia": 1.0,
+       "catalog_misalignment_deg": 8.5
+      },
+      "estimated": [],
+      "also_available_as": [],
+      "source": "Aurora Rod End & Spherical Bearing Catalog 319 p.45 (COM-10KH)"
+     }
+    }
+   }
+  }
+ ]
+}

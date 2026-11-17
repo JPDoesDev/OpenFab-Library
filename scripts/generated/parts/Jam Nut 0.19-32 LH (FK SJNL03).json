@@ -1,0 +1,90 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Nut hex",
+    "plane": "XY",
+    "offset": -2.032
+   }
+  },
+  {
+   "command": "sketch.polygon.circumscribed",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 4.7625,
+    "sides": 6
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 2.413
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 4.064,
+    "operation": "new",
+    "name": "Nut",
+    "body_name": "Nut"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Nut"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "SJNL03",
+     "description": "FK SJNL03 10-32 LH steel jam nut",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "jam_nut",
+      "units": "in",
+      "dims": {
+       "hex": 0.375,
+       "width": 0.16,
+       "thread": "10-32 UNF-2B LH",
+       "thread_dia": 0.19,
+       "hand": "LH"
+      },
+      "estimated": [
+       "bore is at thread major diameter; thread not modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBSJNL03",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "10-32 UNF-2B LH",
+      "source": "FK 2017 Industrial Catalog p.41"
+     }
+    }
+   }
+  }
+ ]
+}

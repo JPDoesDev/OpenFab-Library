@@ -1,0 +1,30 @@
+Rod End 0.375in bore, 0.375-24 LH, CM steel
+
+Part number:  CML6
+Vendor:       FK
+Description:  FK CML6 3/8" bore 3/8-24 LH male economy 2-piece low carbon steel rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CM6 row)
+
+Also available as:
+  Kartek FKBCML6  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: male
+  bore: 0.375
+  head_dia: 1
+  head_width: 0.359
+  length: 1.938
+  thread: 3/8-24 UNF-3A LH
+  thread_dia: 0.375
+  thread_length: 1.25
+  hand: LH
+  ball_width: 0.5
+  ball_dia: 0.719
+  catalog_misalignment_deg: 22
+  thread_feature: cosmetic, M9.525x1.0583 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

@@ -1,0 +1,182 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/rod-ends/Rod End 0.625in bore, 0.625-18 RH, JMX chromoly PTFE lined (FK JMX10T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Rod End 0.625in bore, 0.625-18 RH, JMX chromoly PTFE lined (FK JMX10T)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBJMX10TF1 (fit variant); Kartek FKBJMX10T (same part); Aurora AM-10T (equivalent); Aurora RAM-10T (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/jam-nuts/Jam Nut 0.625-18 RH (FK SJNR10).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Jam Nut 0.625-18 RH (FK SJNR10)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBSJNR10 (same part)"
+    }
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "Rod End 0.625in bore, 0.625-18 RH, JMX chromoly PTFE lined (FK JMX10T):1",
+     "point": [
+      36.5125,
+      0.0,
+      0.0
+     ],
+     "z": [
+      1,
+      0,
+      0
+     ]
+    },
+    "b": {
+     "occurrence": "Jam Nut 0.625-18 RH (FK SJNR10):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/weld-in-bungs/Step Weld-In Bung 0.625-18 RH for 1.25in x 0.12in wall tube (Kartek KTK625TBRR100).sc",
+    "translate": [
+     41.275,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Step Weld-In Bung 0.625-18 RH for 1.25in x 0.12in wall tube (Kartek KTK625TBRR100)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Rod End Ball 0.625in bore (for JMX10T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Rod End Ball 0.625in bore (for JMX10T)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "FK"
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Rod End 0.625in bore, 0.625-18 RH, JMX chromoly PTFE lined (FK JMX10T):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Rod End 0.625in bore, 0.625-18 RH, JMX chromoly PTFE lined (FK JMX10T):1",
+     "Step Weld-In Bung 0.625-18 RH for 1.25in x 0.12in wall tube (Kartek KTK625TBRR100):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Rod End 0.625in bore, 0.625-18 RH, JMX chromoly PTFE lined (FK JMX10T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Rod End Ball 0.625in bore (for JMX10T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  }
+ ]
+}

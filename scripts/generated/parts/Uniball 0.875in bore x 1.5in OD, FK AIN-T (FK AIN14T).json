@@ -1,0 +1,148 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Race profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.195481,
+      -8.7249
+     ],
+     [
+      19.05,
+      -8.7249
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      -8.7249
+     ],
+     [
+      19.05,
+      8.7249
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      8.7249
+     ],
+     [
+      14.195481,
+      8.7249
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     14.195481,
+     8.7249
+    ],
+    "end": [
+     14.195481,
+     -8.7249
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Race",
+    "body_name": "Race"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Race"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "AIN14T",
+     "description": "FK AIN14T 7/8\" bore heavy duty precision series PTFE lined alloy steel spherical bearing",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing",
+      "units": "in",
+      "dims": {
+       "bore": 0.875,
+       "od": 1.5,
+       "ball_width": 0.875,
+       "race_width": 0.687,
+       "ball_dia": 1.312,
+       "catalog_misalignment_deg": 6.0
+      },
+      "estimated": [],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBAIN14T",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "source": "FK 2017 Industrial Catalog p.37"
+     }
+    }
+   }
+  }
+ ]
+}

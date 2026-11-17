@@ -1,0 +1,150 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniball-cups/Uniball Cup 1.625in bore x 2in OD x 1.25in tall, FK (FK CPW14).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Cup 1.625in bore x 2in OD x 1.25in tall, FK (FK CPW14)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBCPW14 (same part)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniballs/Uniball 0.875in bore x 1.625in OD, FK WSSX-T (FK WSSX14T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball 0.875in bore x 1.625in OD, FK WSSX-T (FK WSSX14T)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBWSSX14T (same part); Kartek FKBWSSX14TF1 (same part); Aurora AIB-14T (equivalent); NHBB ABWT14 (equivalent); RBC MS14102-14 (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/snap-rings/Internal Snap Ring 1.716in OD x 0.062in thick, FK (FK SRW14).sc",
+    "translate": [
+     0.0,
+     0,
+     10.3759
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Internal Snap Ring 1.716in OD x 0.062in thick, FK (FK SRW14)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBSRW14 (same part); Kartek KTK9042SR (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Uniball Ball 0.875in bore (for WSSX14T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Ball 0.875in bore (for WSSX14T)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "FK"
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Uniball Cup 1.625in bore x 2in OD x 1.25in tall, FK (FK CPW14):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Uniball Cup 1.625in bore x 2in OD x 1.25in tall, FK (FK CPW14):1",
+     "Uniball 0.875in bore x 1.625in OD, FK WSSX-T (FK WSSX14T):1",
+     "Internal Snap Ring 1.716in OD x 0.062in thick, FK (FK SRW14):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Uniball 0.875in bore x 1.625in OD, FK WSSX-T (FK WSSX14T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Uniball Ball 0.875in bore (for WSSX14T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  }
+ ]
+}

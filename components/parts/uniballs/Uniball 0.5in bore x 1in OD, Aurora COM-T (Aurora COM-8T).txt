@@ -1,0 +1,28 @@
+Uniball 0.5in bore x 1in OD, Aurora COM-T
+
+Part number:  COM-8T
+Vendor:       Aurora
+Description:  Aurora COM-8T 1/2" bore commercial series PTFE lined spherical bearing, low carbon steel race
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.44 (COM-8)
+
+Also available as:
+  Kartek AURCOM8T   same part - Kartek stock number for the Aurora part
+  FK COM8           equivalent - listed by Kartek as a cross reference
+  FK COM8T          equivalent - listed by Kartek as a cross reference
+  FK FKS8T          equivalent - listed by Kartek as a cross reference
+  FK FKSSX8T        equivalent - listed by Kartek as a cross reference
+  FK COM8T-101      equivalent - listed by Kartek as a cross reference; that ball has misalignment shoulders
+  FK COM8T-103      equivalent - listed by Kartek as a cross reference; that ball has misalignment shoulders
+  Fox 001-00-004-A  equivalent - listed by Kartek as a cross reference
+  King B1012        equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 0.5
+  od: 1
+  ball_width: 0.5
+  race_width: 0.39
+  ball_dia: 0.813
+  catalog_misalignment_deg: 9.5
+
+Volume check: ok

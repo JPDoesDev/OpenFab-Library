@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      4.552007,
+      -3.175
+     ],
+     [
+      9.525,
+      -3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      -3.175
+     ],
+     [
+      9.525,
+      3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      3.175
+     ],
+     [
+      4.552007,
+      3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     4.552007,
+     3.175
+    ],
+    "end": [
+     4.552007,
+     -3.175
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 6.35,
+    "height": 31.202544,
+    "base": [
+     8.472256,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     24.073528,
+     0.0,
+     3.175
+    ],
+    "designation": "M6.35x0.9071",
+    "hand": "left",
+    "length": 25.4,
+    "name": "Thread 1/4-28 UNF-3A LH"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "RSML3T",
+     "description": "FK RSML3T 3/16\" bore 1/4-28 LH male heavy shank low carbon steel PTFE lined rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.19,
+       "head_dia": 0.75,
+       "head_width": 0.25,
+       "length": 1.562,
+       "thread": "1/4-28 UNF-3A LH",
+       "thread_dia": 0.25,
+       "thread_length": 1.0,
+       "hand": "LH",
+       "ball_width": 0.312,
+       "ball_dia": 0.437,
+       "catalog_misalignment_deg": 10.0,
+       "thread_feature": "cosmetic, M6.35x0.9071 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBRSML3T",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "1/4-28 UNF-3A LH",
+      "source": "FK 2017 Industrial Catalog p.21 (RSM3 row)"
+     }
+    }
+   }
+  }
+ ]
+}

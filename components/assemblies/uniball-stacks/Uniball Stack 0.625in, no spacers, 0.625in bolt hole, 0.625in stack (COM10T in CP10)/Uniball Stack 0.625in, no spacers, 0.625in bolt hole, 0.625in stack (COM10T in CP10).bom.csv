@@ -1,0 +1,4 @@
+item,qty,vendor,part_number,description,also_available_as
+1,1,FK,COM10T,"FK COM10T 5/8"" bore commercial series PTFE lined steel spherical bearing",Kartek FKBCOM10T (same part); Aurora COM-10T (equivalent); Aurora COM-10TKH (equivalent); Fox 001-00-006-A (equivalent); King B1058 (equivalent)
+2,1,FK,CP10,"FK CP10 4130 uniball cup for 5/8"" bore uniballs 7/8"" tall 1-1/2"" OD",Kartek FKBCP10 (same part)
+3,1,FK,SR10,FK SR10 internal snap ring for FK CP10 uniball cups,Kartek FKBSR10 (same part); Fox 038-00-007-A (equivalent); Icon 255120 (equivalent); King CR2251 (equivalent)

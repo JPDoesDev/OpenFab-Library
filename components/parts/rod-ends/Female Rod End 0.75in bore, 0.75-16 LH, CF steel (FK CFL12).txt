@@ -1,0 +1,34 @@
+Female Rod End 0.75in bore, 0.75-16 LH, CF steel
+
+Part number:  CFL12
+Vendor:       FK
+Description:  FK CFL12 3/4" bore 3/4-16 LH female economy 2-piece low carbon steel rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CF12 row)
+
+Also available as:
+  Kartek FKBCFL12  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: female
+  bore: 0.75
+  head_dia: 1.75
+  head_width: 0.593
+  length: 2.875
+  thread: 3/4-16 UNF-2B LH
+  thread_dia: 0.75
+  thread_length: 1.562
+  hand: LH
+  ball_width: 0.875
+  ball_dia: 1.312
+  catalog_misalignment_deg: 24
+  body_dia: 1.125
+  flat: 1
+  thread_feature: cosmetic, M19.05x1.5875 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+
+Volume check: not checked

@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      8.088783,
+      -5.7404
+     ],
+     [
+      14.605,
+      -5.7404
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.605,
+      -5.7404
+     ],
+     [
+      14.605,
+      5.7404
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.605,
+      5.7404
+     ],
+     [
+      8.088783,
+      5.7404
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     8.088783,
+     5.7404
+    ],
+    "end": [
+     8.088783,
+     -5.7404
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 11.1125,
+    "height": 41.053412,
+    "base": [
+     12.921588,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     33.448294,
+     0.0,
+     5.55625
+    ],
+    "designation": "M11.1125x1.27",
+    "hand": "right",
+    "length": 32.5374,
+    "name": "Thread 7/16-20 UNJF-3A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "PRM-7T",
+     "description": "Aurora PRM-7T 7/16\" bore 7/16-20 RH male performance racing 4340 steel PTFE lined rod end",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.4375,
+       "head_dia": 1.15,
+       "head_width": 0.452,
+       "length": 2.125,
+       "thread": "7/16-20 UNJF-3A",
+       "thread_dia": 0.4375,
+       "thread_length": 1.281,
+       "hand": "RH",
+       "ball_width": 0.562,
+       "ball_dia": 0.781,
+       "catalog_misalignment_deg": 10.0,
+       "thread_feature": "cosmetic, M11.1125x1.27 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AURPRM7T",
+        "relation": "same part",
+        "note": "Kartek stock number for the Aurora part"
+       }
+      ],
+      "thread": "7/16-20 UNJF-3A",
+      "source": "Aurora Bearing catalog p.40 (PRM-7T row)"
+     }
+    }
+   }
+  }
+ ]
+}

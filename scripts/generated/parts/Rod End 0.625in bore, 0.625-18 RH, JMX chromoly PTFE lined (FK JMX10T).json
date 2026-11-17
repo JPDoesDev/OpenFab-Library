@@ -1,0 +1,205 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.377002,
+      -7.1374
+     ],
+     [
+      19.05,
+      -7.1374
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      -7.1374
+     ],
+     [
+      19.05,
+      7.1374
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      7.1374
+     ],
+     [
+      12.377002,
+      7.1374
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     12.377002,
+     7.1374
+    ],
+    "end": [
+     12.377002,
+     -7.1374
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 15.875,
+    "height": 49.52061,
+    "base": [
+     17.15439,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     41.914695,
+     0.0,
+     7.9375
+    ],
+    "designation": "M15.875x1.4111",
+    "hand": "right",
+    "length": 41.275,
+    "name": "Thread 5/8-18 UNF-3A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "JMX10T",
+     "description": "FK JMX10T 5/8\" bore 5/8-18 RH male chromoly PTFE lined rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.625,
+       "head_dia": 1.5,
+       "head_width": 0.562,
+       "length": 2.625,
+       "thread": "5/8-18 UNF-3A",
+       "thread_dia": 0.625,
+       "thread_length": 1.625,
+       "hand": "RH",
+       "ball_width": 0.75,
+       "ball_dia": 1.125,
+       "catalog_misalignment_deg": 16.0,
+       "thread_feature": "cosmetic, M15.875x1.4111 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBJMX10TF1",
+        "relation": "fit variant",
+        "note": "Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions"
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBJMX10T",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       },
+       {
+        "other_vendor": "Aurora",
+        "other_part_number": "AM-10T",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "Aurora",
+        "other_part_number": "RAM-10T",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       }
+      ],
+      "thread": "5/8-18 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.11 (JMX10 row)"
+     }
+    }
+   }
+  }
+ ]
+}

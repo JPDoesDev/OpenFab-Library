@@ -1,0 +1,4 @@
+item,qty,vendor,part_number,description,also_available_as
+1,1,FK,COM12T,"FK COM12T 3/4"" bore commercial series PTFE lined steel spherical bearing",Kartek FKBCOM12T (same part); Aurora COM-12T (equivalent); Aurora COM-12TKH (equivalent); Fox 001-00-023 (equivalent)
+2,1,FK,CP12,"FK CP12 4130 uniball cup for 3/4"" bore uniballs 1"" tall 1-3/4"" OD",Kartek FKBCP12 (same part)
+3,1,FK,SR12,FK SR12 internal snap ring for FK CP12 uniball cups,Kartek FKBSR12 (same part); Icon 255121 (equivalent)

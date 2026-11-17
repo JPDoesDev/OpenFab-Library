@@ -1,0 +1,26 @@
+Rod End Ball 0.6299in bore (for CM16M)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of CM16M (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.23 (CM16M row, millimetres converted to inches)
+
+Dimensions (inches):
+  style: male
+  bore: 0.6299
+  head_dia: 1.4961
+  head_width: 0.502
+  length: 2.5984
+  thread: M16 x 2.0
+  thread_dia: 0.6299
+  thread_length: 1.5748
+  hand: RH
+  ball_width: 0.8268
+  ball_dia: 1.1252
+  catalog_misalignment_deg: 33
+  thread_feature: cosmetic, M16x2.0
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

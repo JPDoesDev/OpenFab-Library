@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.911601,
+      -4.5593
+     ],
+     [
+      12.7,
+      -4.5593
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      -4.5593
+     ],
+     [
+      12.7,
+      4.5593
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      4.5593
+     ],
+     [
+      7.911601,
+      4.5593
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     7.911601,
+     4.5593
+    ],
+    "end": [
+     7.911601,
+     -4.5593
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 9.525,
+    "height": 37.879813,
+    "base": [
+     11.345387,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     30.285294,
+     0.0,
+     4.7625
+    ],
+    "designation": "M9.525x1.0583",
+    "hand": "right",
+    "length": 31.75,
+    "name": "Thread 3/8-24 UNF-3A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "CM6",
+     "description": "FK CM6 3/8\" bore 3/8-24 RH male economy 2-piece low carbon steel rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.375,
+       "head_dia": 1.0,
+       "head_width": 0.359,
+       "length": 1.938,
+       "thread": "3/8-24 UNF-3A",
+       "thread_dia": 0.375,
+       "thread_length": 1.25,
+       "hand": "RH",
+       "ball_width": 0.5,
+       "ball_dia": 0.719,
+       "catalog_misalignment_deg": 22.0,
+       "thread_feature": "cosmetic, M9.525x1.0583 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBCM6",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "3/8-24 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.3 (CM6 row)"
+     }
+    }
+   }
+  }
+ ]
+}

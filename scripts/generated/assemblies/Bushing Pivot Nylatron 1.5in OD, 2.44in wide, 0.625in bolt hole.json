@@ -5,7 +5,7 @@
    "params": {
     "path": "../../../components/parts/outer-sleeves/Outer Sleeve 1.5in OD x 1.25in ID x 1.81in long (Kartek KTKOSL150120).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -27,7 +27,7 @@
    "params": {
     "path": "../../../components/parts/bushings/Nylatron Bushing 1.01in ID x 1.25in OD x 0.884in long (Kartek KTK505).sc",
     "translate": [
-     0,
+     0.0,
      0,
      22.987
     ],
@@ -49,7 +49,7 @@
    "params": {
     "path": "../../../components/parts/bushings/Nylatron Bushing 1.01in ID x 1.25in OD x 0.884in long (Kartek KTK505).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -95,7 +95,7 @@
    "params": {
     "path": "../../../components/parts/inner-sleeves/Inner Sleeve 1in OD x 0.625in ID x 2.44in long (Kartek KTKISL100188S).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],

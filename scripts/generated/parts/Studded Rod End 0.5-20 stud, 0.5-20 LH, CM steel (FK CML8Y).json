@@ -1,0 +1,198 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.416787,
+      -5.7531
+     ],
+     [
+      16.6624,
+      -5.7531
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.6624,
+      -5.7531
+     ],
+     [
+      16.6624,
+      5.7531
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.6624,
+      5.7531
+     ],
+     [
+      10.416787,
+      5.7531
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     10.416787,
+     5.7531
+    ],
+    "end": [
+     10.416787,
+     -5.7531
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 12.7,
+    "height": 46.795508,
+    "base": [
+     15.129692,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     38.527446,
+     0.0,
+     6.35
+    ],
+    "designation": "M12.7x1.27",
+    "hand": "left",
+    "length": 38.1,
+    "name": "Thread 1/2-20 UNF-3A LH"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "CML8Y",
+     "description": "FK CML8Y 1/2\" size 1/2-20 LH male economy 2-piece low carbon steel rod end with 1/2-20 stud",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.5,
+       "head_dia": 1.312,
+       "head_width": 0.453,
+       "length": 2.438,
+       "thread": "1/2-20 UNF-3A LH",
+       "thread_dia": 0.5,
+       "thread_length": 1.5,
+       "hand": "LH",
+       "ball_width": 0.625,
+       "ball_dia": 0.937,
+       "catalog_misalignment_deg": 20.0,
+       "thread_feature": "cosmetic, M12.7x1.27 (the Unified size in millimetres)",
+       "stud_length": 2.0,
+       "stud_hex_length": 1.125,
+       "stud_thread_length": 1.0,
+       "stud_thread": "1/2-20 UNF-2A",
+       "stud_thread_dia": 0.5,
+       "stud_hex": 0.625,
+       "stud_hex_thickness": 0.2812,
+       "stud_neck_dia": 0.5
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled",
+       "stud hex thickness and neck (half each of the space between the ball face and the hex face)",
+       "stud neck diameter (the stud's thread diameter)",
+       "ball is solid on the side away from the stud"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBCML8Y",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "1/2-20 UNF-3A LH",
+      "source": "FK 2017 Industrial Catalog p.3 (CM8 row); stud: FK 2017 Industrial Catalog p.45"
+     }
+    }
+   }
+  }
+ ]
+}

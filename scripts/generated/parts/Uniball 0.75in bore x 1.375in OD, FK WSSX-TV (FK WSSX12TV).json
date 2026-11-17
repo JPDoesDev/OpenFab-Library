@@ -1,0 +1,268 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Race profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      13.711295,
+      -8.001
+     ],
+     [
+      14.6685,
+      -8.001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.6685,
+      -8.001
+     ],
+     [
+      15.6845,
+      -6.477
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.6845,
+      -6.477
+     ],
+     [
+      16.7005,
+      -8.001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.7005,
+      -8.001
+     ],
+     [
+      17.4625,
+      -8.001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      17.4625,
+      -8.001
+     ],
+     [
+      17.4625,
+      8.001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      17.4625,
+      8.001
+     ],
+     [
+      16.7005,
+      8.001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.7005,
+      8.001
+     ],
+     [
+      15.6845,
+      6.477
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.6845,
+      6.477
+     ],
+     [
+      14.6685,
+      8.001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.6685,
+      8.001
+     ],
+     [
+      13.711295,
+      8.001
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     13.711295,
+     8.001
+    ],
+    "end": [
+     13.711295,
+     -8.001
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Race",
+    "body_name": "Race"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Race"
+    ],
+    "material": "Stainless Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "WSSX12TV",
+     "description": "FK WSSX12TV 3/4\" bore wide series PTFE lined stainless spherical bearing with staking grooves",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing",
+      "units": "in",
+      "dims": {
+       "bore": 0.75,
+       "od": 1.375,
+       "ball_width": 0.875,
+       "race_width": 0.63,
+       "ball_dia": 1.25,
+       "catalog_misalignment_deg": 13.0,
+       "groove_land": 0.03,
+       "groove_width": 0.08,
+       "groove_depth": 0.06
+      },
+      "estimated": [
+       "staking groove shape (a plain V of the catalog land, width and depth",
+       "root radius not modelled)"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBWSSX12TV",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       },
+       {
+        "other_vendor": "Aurora",
+        "other_part_number": "PWB12T",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "NHBB",
+        "other_part_number": "ABWT12",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "RBC",
+        "other_part_number": "MS14102-12",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       }
+      ],
+      "source": "FK 2017 Industrial Catalog p.33 (staking groove data for bore sizes 12 thru 24)"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      -17.4625
+     ],
+     [
+      23.60533,
+      -17.4625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     23.60533,
+     -17.4625
+    ],
+    "end": [
+     23.60533,
+     17.4625
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      23.60533,
+      17.4625
+     ],
+     [
+      19.05,
+      17.4625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      17.4625
+     ],
+     [
+      19.05,
+      -17.4625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of COMH24T (moves in the race; counted in the BOM with the race)",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing_ball",
+      "units": "in",
+      "dims": {
+       "bore": 1.5,
+       "od": 2.75,
+       "ball_width": 1.375,
+       "race_width": 1.094,
+       "ball_dia": 2.312,
+       "catalog_misalignment_deg": 8.5
+      },
+      "estimated": [],
+      "also_available_as": [],
+      "source": "FK 2017 Industrial Catalog p.29"
+     }
+    }
+   }
+  }
+ ]
+}

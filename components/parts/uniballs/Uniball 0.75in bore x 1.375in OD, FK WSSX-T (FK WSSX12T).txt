@@ -1,0 +1,24 @@
+Uniball 0.75in bore x 1.375in OD, FK WSSX-T
+
+Part number:  WSSX12T
+Vendor:       FK
+Description:  FK WSSX12T 3/4" bore wide series PTFE lined stainless spherical bearing
+Material:     stainless
+Source:       FK 2017 Industrial Catalog p.33
+
+Also available as:
+  Kartek FKBWSSX12T    same part - Kartek stock number for the FK part; F2 fit
+  Kartek FKBWSSX12TF1  same part - Kartek stock number for the FK part; F1 fit
+  Aurora PWB12T        equivalent - listed by Kartek as a cross reference
+  NHBB ABWT12          equivalent - listed by Kartek as a cross reference
+  RBC MS14102-12       equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 0.75
+  od: 1.375
+  ball_width: 0.875
+  race_width: 0.63
+  ball_dia: 1.25
+  catalog_misalignment_deg: 13
+
+Volume check: ok

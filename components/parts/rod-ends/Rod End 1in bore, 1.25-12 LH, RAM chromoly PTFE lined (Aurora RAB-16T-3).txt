@@ -1,0 +1,33 @@
+Rod End 1in bore, 1.25-12 LH, RAM chromoly PTFE lined
+
+Part number:  RAB-16T-3
+Vendor:       Aurora
+Description:  Aurora RAB-16T-3 1" bore 1 1/4-12 LH male heavy duty alloy PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.39 (RAM-16T-3 row)
+
+Also available as:
+  Kartek AURRAB16T3  same part - Kartek stock number for the Aurora part
+  FK KMXL16          equivalent - listed by Kartek as a cross reference
+  FK JMXL16-3T       equivalent - listed by Kartek as a direct replacement (FK JMX16-3T is made for Kartek; no dimensions published)
+  FK JMXL16T         equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  style: male
+  bore: 1
+  head_dia: 2.775
+  head_width: 1
+  length: 4.125
+  thread: 1 1/4-12 UNJF-3A LH
+  thread_dia: 1.25
+  thread_length: 2.344
+  hand: LH
+  ball_width: 1.375
+  ball_dia: 1.875
+  catalog_misalignment_deg: 17
+  thread_feature: cosmetic, M31.75x2.1167 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

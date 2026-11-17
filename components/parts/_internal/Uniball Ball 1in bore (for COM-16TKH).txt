@@ -1,0 +1,16 @@
+Uniball Ball 1in bore (for COM-16TKH)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of COM-16TKH (moves in the race; counted in the BOM with the race)
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.45 (COM-16KH)
+
+Dimensions (inches):
+  bore: 1
+  od: 1.75
+  ball_width: 1
+  race_width: 0.797
+  ball_dia: 1.5
+  catalog_misalignment_deg: 10
+
+Volume check: ok

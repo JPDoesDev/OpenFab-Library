@@ -1,0 +1,27 @@
+Internal Snap Ring 2.24in OD x 0.078in thick, Kartek
+
+Part number:  KTKWSSR
+Vendor:       Kartek
+Description:  Kartek internal snap ring for the 9044HDWS1 wobble stopper housing; also fits 9044 series and FK CPW16 cups
+Material:     steel
+Source:       kartek.com KTKWSSR
+
+Also available as:
+  FK SRW16          equivalent - listed by Kartek as a cross reference
+  Kartek FKBSRW16   equivalent - Kartek stock number for the FK SRW16 ring
+  Kartek KTK9044SR  equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  od: 2.24
+  id: 1.945
+  thickness: 0.078
+  ring_type: internal
+
+Estimated (not published by the vendor):
+  od
+  id
+  thickness
+  sized to sit in the estimated groove of the cups it fits: OD 0.005in under the groove diameter, radial section 6.94% of the cup bore, N5000-class thickness
+  modelled as a closed ring (no gap or lugs)
+
+Volume check: ok

@@ -1,0 +1,25 @@
+{
+ "commands": [
+  {
+   "command": "joint.limits",
+   "params": {
+    "joint": "Pivot",
+    "index": 1,
+    "min": -13.98,
+    "max": 13.98
+   }
+  },
+  {
+   "command": "inspect.interference",
+   "params": {}
+  },
+  {
+   "command": "assembly.bom",
+   "params": {}
+  },
+  {
+   "command": "component.links",
+   "params": {}
+  }
+ ]
+}

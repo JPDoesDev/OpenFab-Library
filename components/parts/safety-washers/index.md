@@ -1,0 +1,9 @@
+# Safety Washers
+
+| | Part | Vendor | Part number | Also available as | Files |
+|---|---|---|---|---|---|
+| <img src="Safety%20Washer%200.5in%20ID%20x%201.25in%20OD%20x%200.2in%20thick%20%28Kartek%20KTK1-2SW%29.png" width="150"> | Safety Washer 0.5in ID x 1.25in OD x 0.2in thick | Kartek | `KTK1/2SW` |  | [SolidCraft](Safety%20Washer%200.5in%20ID%20x%201.25in%20OD%20x%200.2in%20thick%20%28Kartek%20KTK1-2SW%29.sc) · [STEP](Safety%20Washer%200.5in%20ID%20x%201.25in%20OD%20x%200.2in%20thick%20%28Kartek%20KTK1-2SW%29.step) · [sheet](Safety%20Washer%200.5in%20ID%20x%201.25in%20OD%20x%200.2in%20thick%20%28Kartek%20KTK1-2SW%29.txt) |
+| <img src="Safety%20Washer%200.625in%20ID%20x%201.375in%20OD%20x%200.25in%20thick%20%28Kartek%20KTK5-8SW%29.png" width="150"> | Safety Washer 0.625in ID x 1.375in OD x 0.25in thick | Kartek | `KTK5/8SW` |  | [SolidCraft](Safety%20Washer%200.625in%20ID%20x%201.375in%20OD%20x%200.25in%20thick%20%28Kartek%20KTK5-8SW%29.sc) · [STEP](Safety%20Washer%200.625in%20ID%20x%201.375in%20OD%20x%200.25in%20thick%20%28Kartek%20KTK5-8SW%29.step) · [sheet](Safety%20Washer%200.625in%20ID%20x%201.375in%20OD%20x%200.25in%20thick%20%28Kartek%20KTK5-8SW%29.txt) |
+| <img src="Safety%20Washer%200.75in%20ID%20x%201.625in%20OD%20x%200.315in%20thick%20%28Kartek%20KTK3-4SW%29.png" width="150"> | Safety Washer 0.75in ID x 1.625in OD x 0.315in thick | Kartek | `KTK3/4SW` |  | [SolidCraft](Safety%20Washer%200.75in%20ID%20x%201.625in%20OD%20x%200.315in%20thick%20%28Kartek%20KTK3-4SW%29.sc) · [STEP](Safety%20Washer%200.75in%20ID%20x%201.625in%20OD%20x%200.315in%20thick%20%28Kartek%20KTK3-4SW%29.step) · [sheet](Safety%20Washer%200.75in%20ID%20x%201.625in%20OD%20x%200.315in%20thick%20%28Kartek%20KTK3-4SW%29.txt) |
+
+Sizes are in inches, written as decimals (0.75in is 3/4"). Each sheet lists the dimensions and says which were estimated.

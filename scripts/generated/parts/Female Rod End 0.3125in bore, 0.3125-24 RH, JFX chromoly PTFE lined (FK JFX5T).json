@@ -1,0 +1,242 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.627027,
+      -4.3688
+     ],
+     [
+      11.1125,
+      -4.3688
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.1125,
+      -4.3688
+     ],
+     [
+      11.1125,
+      4.3688
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.1125,
+      4.3688
+     ],
+     [
+      6.627027,
+      4.3688
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     6.627027,
+     4.3688
+    ],
+    "end": [
+     6.627027,
+     -4.3688
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 12.7,
+    "height": 25.805507,
+    "base": [
+     9.119493,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 30.885507,
+    "width": 17.78,
+    "height": 6.35,
+    "corner": [
+     6.579493,
+     -8.89,
+     5.5499
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat top"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 30.885507,
+    "width": 17.78,
+    "height": 6.35,
+    "corner": [
+     6.579493,
+     -8.89,
+     -11.8999
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat bottom"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7.9375,
+    "height": 20.32,
+    "base": [
+     15.875,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "name": "Tapped hole"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     25.4,
+     0.0,
+     3.96875
+    ],
+    "designation": "M7.9375x1.0583",
+    "hand": "right",
+    "length": 19.05,
+    "name": "Thread 5/16-24 UNF-2B"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "JFX5T",
+     "description": "FK JFX5T 5/16\" bore 5/16-24 RH female chromoly PTFE lined rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 0.3125,
+       "head_dia": 0.875,
+       "head_width": 0.344,
+       "length": 1.375,
+       "thread": "5/16-24 UNF-2B",
+       "thread_dia": 0.3125,
+       "thread_length": 0.75,
+       "hand": "RH",
+       "ball_width": 0.437,
+       "ball_dia": 0.625,
+       "catalog_misalignment_deg": 14.0,
+       "body_dia": 0.5,
+       "flat": 0.437,
+       "thread_feature": "cosmetic, M7.9375x1.0583 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBJFX5T",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "5/16-24 UNF-2B",
+      "source": "FK 2017 Industrial Catalog p.12 (JFX5 row)"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+Uniball Ball 0.875in bore (for AIB-14T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of AIB-14T (moves in the race; counted in the BOM with the race)
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.49 (AIB-14)
+
+Dimensions (inches):
+  bore: 0.875
+  od: 1.625
+  ball_width: 0.875
+  race_width: 0.75
+  ball_dia: 1.375
+  catalog_misalignment_deg: 6
+
+Volume check: ok

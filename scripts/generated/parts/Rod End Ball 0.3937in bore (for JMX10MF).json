@@ -1,0 +1,151 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      5.000003,
+      -6.999999
+     ],
+     [
+      6.459539,
+      -6.999999
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     6.459539,
+     -6.999999
+    ],
+    "end": [
+     6.459539,
+     6.999999
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.459539,
+      6.999999
+     ],
+     [
+      5.000003,
+      6.999999
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      5.000003,
+      6.999999
+     ],
+     [
+      5.000003,
+      -6.999999
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of JMX10MF (moves in the body; counted in the BOM with the body)",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.393701,
+       "head_dia": 1.062992,
+       "head_width": 0.413386,
+       "length": 1.889764,
+       "thread": "M10 x 1.25",
+       "thread_dia": 0.393701,
+       "thread_length": 1.141732,
+       "hand": "RH",
+       "ball_width": 0.551181,
+       "ball_dia": 0.75,
+       "catalog_misalignment_deg": 17.0,
+       "thread_feature": "cosmetic, M10x1.25"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [],
+      "thread": "M10 x 1.25",
+      "source": "FK 2017 Industrial Catalog p.27 (JMX10MF row, millimetres converted to inches)"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -3,9 +3,9 @@
   {
    "command": "component.insert_design",
    "params": {
-    "path": "../../../components/parts/rod-ends/Rod End 0.75in bore, 0.75-16 RH (FK JMX12T).sc",
+    "path": "../../../components/parts/rod-ends/Rod End 0.75in bore, 0.75-16 RH, JMX chromoly PTFE lined (FK JMX12T).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -15,11 +15,11 @@
   {
    "command": "component.metadata.set",
    "params": {
-    "component": "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T)",
+    "component": "Rod End 0.75in bore, 0.75-16 RH, JMX chromoly PTFE lined (FK JMX12T)",
     "bom_type": "purchased",
     "properties": {
      "vendor": "FK",
-     "also_available_as": "Kartek FKBJMX12T (same part); Aurora RAM-12T (equivalent); Aurora PRM-12T (equivalent)"
+     "also_available_as": "Kartek FKBJMX12T (same part); Aurora RAM-12T (equivalent); Aurora PRM-12T (equivalent); Kartek FKBJMX12TF1 (fit variant)"
     }
    }
   },
@@ -28,7 +28,7 @@
    "params": {
     "path": "../../../components/parts/jam-nuts/Jam Nut 0.75-16 RH (FK SJNR12).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -53,7 +53,7 @@
     "name": "Seat 1",
     "flip": true,
     "a": {
-     "occurrence": "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1",
+     "occurrence": "Rod End 0.75in bore, 0.75-16 RH, JMX chromoly PTFE lined (FK JMX12T):1",
      "point": [
       40.3225,
       0.0,
@@ -85,7 +85,7 @@
    "params": {
     "path": "../../../components/parts/_internal/Rod End Ball 0.75in bore (for JMX12T).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -105,7 +105,7 @@
   {
    "command": "occurrence.ground",
    "params": {
-    "occurrence": "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1",
+    "occurrence": "Rod End 0.75in bore, 0.75-16 RH, JMX chromoly PTFE lined (FK JMX12T):1",
     "grounded": true
    }
   },
@@ -116,7 +116,7 @@
     "name": "Pivot",
     "flip": true,
     "a": {
-     "occurrence": "Rod End 0.75in bore, 0.75-16 RH (FK JMX12T):1",
+     "occurrence": "Rod End 0.75in bore, 0.75-16 RH, JMX chromoly PTFE lined (FK JMX12T):1",
      "point": [
       0,
       0,

@@ -1,0 +1,31 @@
+Rod End 0.75in bore, 0.875-14 RH, KMX chromoly nylon race
+
+Part number:  KMX14-12
+Vendor:       FK
+Description:  FK KMX14-12 3/4" bore 7/8-14 RH male 3-piece chromoly nylon race rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.15 (KMX14-12 row)
+
+Also available as:
+  Kartek FKBKMX1412  same part - Kartek stock number for the FK part
+  Aurora RXAM-12T-1  equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  style: male
+  bore: 0.75
+  head_dia: 2
+  head_width: 0.687
+  length: 3.375
+  thread: 7/8-14 UNF-3A
+  thread_dia: 0.875
+  thread_length: 1.875
+  hand: RH
+  ball_width: 0.875
+  ball_dia: 1.312
+  catalog_misalignment_deg: 12
+  thread_feature: cosmetic, M22.225x1.8143 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

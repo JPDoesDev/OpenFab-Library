@@ -1,0 +1,5 @@
+item,qty,vendor,part_number,description,also_available_as
+1,1,FK,CPW12,"FK CPW12 4130 uniball cup for 3/4"" bore uniballs 1"" tall 1-3/4"" OD",Kartek FKBCPW12 (same part)
+2,2,Kartek,KTK3412SRT945,"17-4 Stainless Steel Straight Spacer For 3/4"" Heim Or Uniball For 1/2"" Bolt 1-7/8"" Stack Height",
+3,1,FK,SRW12,FK SRW12 internal snap ring for FK CPW12 uniball cups,Kartek FKBSRW12 (same part); Kartek KTK9041SR (equivalent)
+4,1,FK,WSSX12TV,"FK WSSX12TV 3/4"" bore wide series PTFE lined stainless spherical bearing with staking grooves",Kartek FKBWSSX12TV (same part); Aurora PWB12T (equivalent); NHBB ABWT12 (equivalent); RBC MS14102-12 (equivalent)

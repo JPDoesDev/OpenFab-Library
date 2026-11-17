@@ -1,0 +1,33 @@
+Uniball Cup 1.1875in bore x 1.5in OD x 0.875in tall, FK
+
+Part number:  CP10
+Vendor:       FK
+Description:  FK CP10 4130 uniball cup for 5/8" bore uniballs 7/8" tall 1-1/2" OD
+Material:     4130
+Source:       FK 2017 catalog p.37; kartek.com FKBCP10
+
+Also available as:
+  Kartek FKBCP10  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  bearing_od: 1.1875
+  height: 0.875
+  od: 1.5
+  lip_id: 1.062
+  lip_thickness: 0.235
+  groove_dia: 1.262
+  groove_width: 0.056
+  seat_depth: 0.5
+  seat_depth_from: COM10T
+  bottom_z: -0.485
+  top_z: 0.39
+  snap_ring: SR10
+  style: weld in
+
+Estimated (not published by the vendor):
+  lip_id: the lip overlaps the uniball race by 5.3% of the bore each side
+  lip_thickness: what is left of the height once the uniball, the groove and a land of 7.06% of the bore above the groove are taken off (the groove sits near the open end, as the product photos show)
+  groove_dia: a standard internal retaining ring groove (ANSI B27.7 / Truarc N5000 class) for that housing bore
+  groove_width: the N5000-class groove width for that housing bore
+
+Volume check: ok

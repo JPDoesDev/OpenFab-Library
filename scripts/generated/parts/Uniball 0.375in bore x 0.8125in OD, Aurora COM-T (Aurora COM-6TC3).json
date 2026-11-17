@@ -1,0 +1,151 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Race profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.328593,
+      -3.9624
+     ],
+     [
+      10.31875,
+      -3.9624
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.31875,
+      -3.9624
+     ],
+     [
+      10.31875,
+      3.9624
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.31875,
+      3.9624
+     ],
+     [
+      7.328593,
+      3.9624
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     7.328593,
+     3.9624
+    ],
+    "end": [
+     7.328593,
+     -3.9624
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Race",
+    "body_name": "Race"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Race"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "COM-6TC3",
+     "description": "Aurora COM-6TC3 3/8\" bore commercial series PTFE lined spherical bearing, low carbon steel race",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing",
+      "units": "in",
+      "dims": {
+       "bore": 0.375,
+       "od": 0.8125,
+       "ball_width": 0.406,
+       "race_width": 0.312,
+       "ball_dia": 0.656,
+       "catalog_misalignment_deg": 10.0
+      },
+      "estimated": [
+       "the C3 suffix (a Fortin shifter part, per Kartek) is not in Aurora's catalog",
+       "dimensions are the COM-6 row"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AURCOM6TC3",
+        "relation": "same part",
+        "note": "Kartek stock number for the Aurora part"
+       }
+      ],
+      "source": "Aurora Rod End & Spherical Bearing Catalog 319 p.44 (COM-6)"
+     }
+    }
+   }
+  }
+ ]
+}

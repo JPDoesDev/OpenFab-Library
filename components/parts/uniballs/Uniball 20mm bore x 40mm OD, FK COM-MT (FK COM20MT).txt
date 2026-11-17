@@ -1,0 +1,20 @@
+Uniball 20mm bore x 40mm OD, FK COM-MT
+
+Part number:  COM20MT
+Vendor:       FK
+Description:  FK COM20MT 20mm bore metric commercial series PTFE lined steel spherical bearing
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.30 (COM20M; millimetres converted to inches)
+
+Also available as:
+  Kartek FKBCOM20MT  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  bore: 0.7874
+  od: 1.5748
+  ball_width: 0.9842
+  race_width: 0.7087
+  ball_dia: 1.3752
+  catalog_misalignment_deg: 14
+
+Volume check: ok

@@ -1,0 +1,273 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Bung profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      1,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      18.288,
+      0.0
+     ],
+     [
+      19.05,
+      0.762
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      0.762
+     ],
+     [
+      19.05,
+      12.7
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      12.7
+     ],
+     [
+      15.875,
+      15.875
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.875,
+      15.875
+     ],
+     [
+      15.875,
+      62.738
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.875,
+      62.738
+     ],
+     [
+      15.113,
+      63.5
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.113,
+      63.5
+     ],
+     [
+      11.717989,
+      63.5
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.717989,
+      63.5
+     ],
+     [
+      11.717989,
+      47.625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.717989,
+      47.625
+     ],
+     [
+      12.7,
+      47.625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      47.625
+     ],
+     [
+      12.7,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      0.0
+     ],
+     [
+      18.288,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Bung",
+    "body_name": "Bung"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     23.8125,
+     12.7,
+     0
+    ],
+    "from": [
+     0,
+     12.7,
+     0
+    ],
+    "designation": "M25.4x1.8143",
+    "hand": "right",
+    "length": 47.625,
+    "name": "Thread 1-14 UNS"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Bung"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK100TBRR",
+     "description": "Step Race Round Bungs Right Hand Thread For 1\" Heim Joint For 1-1/2\" Diameter 0.120\" Wall Tube",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "bung",
+      "units": "in",
+      "dims": {
+       "style": "step",
+       "thread": "1-14 UNS",
+       "thread_dia": 1.0,
+       "tpi": 14,
+       "hand": "RH",
+       "length": 2.5,
+       "thread_depth": 1.875,
+       "bore_dia": 1.0,
+       "through_bore_dia": 0.9227,
+       "base_dia": 1.25,
+       "head_dia": 1.5,
+       "head_length": 0.625,
+       "shoulder_length": 1.875,
+       "tube_od": 1.5,
+       "tube_wall": 0.12,
+       "tube_id": 1.26,
+       "insertion_length": 1.875,
+       "thread_feature": "cosmetic, M25.4x1.8143 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "thread depth 1.875in: Kartek says only that it is not threaded all the way through; taken as 3/4 of the length",
+       "bore at thread major diameter, as the jam nuts; past the thread depth at the basic minor diameter (tap drill assumed); the thread is cosmetic only",
+       "head diameter taken as the tube OD (Kartek gives only the base diameter)",
+       "45 degree weld chamfer from the head down to the base diameter, inside the head length",
+       "0.03in chamfers on the outside edges"
+      ],
+      "also_available_as": [],
+      "thread": "1-14 UNS",
+      "source": "https://www.kartek.com/parts/step-race-round-bungs-right-hand-thread-for-1-heim-joint-for-1-12-diameter-0120-wall-tube.html"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+Aluminum Jam Nut 0.375-24 LH
+
+Part number:  AJNL06
+Vendor:       FK
+Description:  FK AJNL06 3/8-24 LH aluminum jam nut
+Material:     aluminum
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBAJNL06  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 0.5625
+  width: 0.225
+  thread: 3/8-24 UNF-2B LH
+  thread_dia: 0.375
+  hand: LH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+
+Volume check: ok

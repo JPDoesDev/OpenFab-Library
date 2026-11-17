@@ -1,0 +1,41 @@
+Rod End Studded Ball 0.5-20 stud (for CF8TY)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of CF8TY (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CF8 row); stud: FK 2017 Industrial Catalog p.45
+
+Dimensions (inches):
+  style: female
+  bore: 0.5
+  head_dia: 1.312
+  head_width: 0.453
+  length: 2.125
+  thread: 1/2-20 UNF-2B
+  thread_dia: 0.5
+  thread_length: 1.062
+  hand: RH
+  ball_width: 0.625
+  ball_dia: 0.937
+  catalog_misalignment_deg: 20
+  body_dia: 0.875
+  flat: 0.75
+  thread_feature: cosmetic, M12.7x1.27 (the Unified size in millimetres)
+  stud_length: 2
+  stud_hex_length: 1.125
+  stud_thread_length: 1
+  stud_thread: 1/2-20 UNF-2A
+  stud_thread_dia: 0.5
+  stud_hex: 0.625
+  stud_hex_thickness: 0.2812
+  stud_neck_dia: 0.5
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+  stud hex thickness and neck (half each of the space between the ball face and the hex face)
+  stud neck diameter (the stud's thread diameter)
+  ball is solid on the side away from the stud
+
+Volume check: ok

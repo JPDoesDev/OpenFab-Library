@@ -1,0 +1,26 @@
+Rod End Ball 0.8661in bore (for JMXL22MT)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of JMXL22MT (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.27 (JMX22M row, millimetres converted to inches)
+
+Dimensions (inches):
+  style: male
+  bore: 0.8661
+  head_dia: 1.9685
+  head_width: 0.7677
+  length: 3.3858
+  thread: M22 x 1.5 LH
+  thread_dia: 0.8661
+  thread_length: 2.0079
+  hand: LH
+  ball_width: 1.1024
+  ball_dia: 1.5
+  catalog_misalignment_deg: 22
+  thread_feature: cosmetic, M22x1.5
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

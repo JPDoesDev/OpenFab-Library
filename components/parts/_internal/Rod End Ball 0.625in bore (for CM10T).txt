@@ -1,0 +1,26 @@
+Rod End Ball 0.625in bore (for CM10T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of CM10T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CM10 row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.625
+  head_dia: 1.5
+  head_width: 0.484
+  length: 2.625
+  thread: 5/8-18 UNF-3A
+  thread_dia: 0.625
+  thread_length: 1.625
+  hand: RH
+  ball_width: 0.75
+  ball_dia: 1.125
+  catalog_misalignment_deg: 26
+  thread_feature: cosmetic, M15.875x1.4111 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

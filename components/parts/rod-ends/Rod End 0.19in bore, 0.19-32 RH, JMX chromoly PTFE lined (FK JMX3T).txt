@@ -1,0 +1,31 @@
+Rod End 0.19in bore, 0.19-32 RH, JMX chromoly PTFE lined
+
+Part number:  JMX3T
+Vendor:       FK
+Description:  FK JMX3T 3/16" bore 10-32 RH male chromoly PTFE lined rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.11 (JMX3 row)
+
+Also available as:
+  Kartek FKBJMX3T  same part - Kartek stock number for the FK part
+  Aurora RAM-3T    equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  style: male
+  bore: 0.19
+  head_dia: 0.625
+  head_width: 0.25
+  length: 1.25
+  thread: 10-32 UNF-3A
+  thread_dia: 0.19
+  thread_length: 0.75
+  hand: RH
+  ball_width: 0.312
+  ball_dia: 0.437
+  catalog_misalignment_deg: 13
+  thread_feature: cosmetic, M4.826x0.7937 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

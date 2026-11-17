@@ -1,0 +1,30 @@
+Uniball Cup 2.917in bore x 3.5in OD x 2in tall, Kartek
+
+Part number:  KTK9048TT
+Vendor:       Kartek
+Description:  Kartek 4130 uniball cup for 1-1/2" bore uniballs 2" tall 3-1/2" OD; Trophy Truck cup for the 2.917" OD WSSX24T (same outside size as the KTK9046HD)
+Material:     4130
+Source:       kartek.com KTK9048TT
+
+Dimensions (inches):
+  bearing_od: 2.917
+  height: 2
+  od: 3.5
+  lip_id: 2.608
+  lip_thickness: 0.191
+  groove_dia: 3.075
+  groove_width: 0.103
+  seat_depth: 1.5
+  seat_depth_from: WSSX24T
+  bottom_z: -0.941
+  top_z: 1.059
+  snap_ring: KTK9048SR
+  style: weld in
+
+Estimated (not published by the vendor):
+  lip_id: the lip overlaps the uniball race by 5.3% of the bore each side
+  lip_thickness: what is left of the height once the uniball, the groove and a land of 7.06% of the bore above the groove are taken off (the groove sits near the open end, as the product photos show)
+  groove_dia: a standard internal retaining ring groove (ANSI B27.7 / Truarc N5000 class) for that housing bore
+  groove_width: the N5000-class groove width for that housing bore
+
+Volume check: ok

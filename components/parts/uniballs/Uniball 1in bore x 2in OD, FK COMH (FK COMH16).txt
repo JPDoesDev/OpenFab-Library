@@ -1,0 +1,20 @@
+Uniball 1in bore x 2in OD, FK COMH
+
+Part number:  COMH16
+Vendor:       FK
+Description:  FK COMH16 1" bore heavy commercial series unlined steel spherical bearing
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.29
+
+Also available as:
+  Kartek FKBCOMH16  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  bore: 1
+  od: 2
+  ball_width: 1
+  race_width: 0.781
+  ball_dia: 1.687
+  catalog_misalignment_deg: 9
+
+Volume check: ok

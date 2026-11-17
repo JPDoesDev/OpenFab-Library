@@ -1,0 +1,26 @@
+Uniball 1.5in bore x 2.75in OD, Aurora HCOM-TKH
+
+Part number:  HCOM-24TKH-300
+Vendor:       Aurora
+Description:  Aurora HCOM-24TKH-300 1-1/2" bore heavy commercial series PTFE lined spherical bearing, heat treated alloy steel race
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.45 (HCOM-24KH)
+
+Also available as:
+  Kartek AUR24TKH300  same part - Kartek stock number for the Aurora part
+  FK COMH24T          equivalent - listed by Kartek as a cross reference
+  FK FKSH24T          equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 1.5
+  od: 2.75
+  ball_width: 1.375
+  race_width: 1.094
+  ball_dia: 2.312
+  catalog_misalignment_deg: 8.5
+
+Estimated (not published by the vendor):
+  the -300 suffix is not in Aurora's catalog
+  dimensions are the HCOM-24KH row
+
+Volume check: ok

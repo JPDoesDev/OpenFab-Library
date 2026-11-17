@@ -1,0 +1,30 @@
+Square Tapered Bung 0.875-14 RH, 1.5in square x 2.625in long
+
+Part number:  KTK875SLR
+Vendor:       Kartek
+Description:  Square Tapered Bungs Right Hand Thread For 7/8" Heim Joint 1-1/2" x 1-1/2" Square
+Material:     4130
+Source:       https://www.kartek.com/parts/square-tapered-bungs-right-hand-thread-for-78-heim-joint-1-12-x-1-12-square.html
+
+Dimensions (inches):
+  style: square tapered
+  thread: 7/8-14 UNF
+  thread_dia: 0.875
+  tpi: 14
+  hand: RH
+  length: 2.625
+  thread_depth: 2.625
+  bore_dia: 0.875
+  square: 1.5
+  top_dia: 1.125
+  fits_tube: not stated by Kartek
+  insertion_length: 0
+  thread_feature: cosmetic, M22.225x1.8143 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  threaded all the way through: Kartek's page has no note either way
+  bore at thread major diameter, as the jam nuts; past the thread depth at the basic minor diameter (tap drill assumed); the thread is cosmetic only
+  turned end 1.125in across with a 45 degree taper out to the corners (from the product photo)
+  Kartek does not say what it fits: taken as welded on to a square tube or plate end, so nothing goes inside a tube (insertion_length 0)
+
+Volume check: ok

@@ -1,0 +1,30 @@
+Uniball Cup 1.625in bore x 2in OD x 1.265in tall, Kartek
+
+Part number:  KTK9042
+Vendor:       Kartek
+Description:  Kartek 4130 uniball cup for 7/8" bore uniballs 1-1/4" nominal (1.265" actual) tall 2" OD; seat depth set for WSSX14T (0.755" race); AIN14T-770 and AIB-14T races are 0.750"
+Material:     4130
+Source:       kartek.com KTK9042
+
+Dimensions (inches):
+  bearing_od: 1.625
+  height: 1.265
+  od: 2
+  lip_id: 1.453
+  lip_thickness: 0.327
+  groove_dia: 1.721
+  groove_width: 0.068
+  seat_depth: 0.755
+  seat_depth_from: WSSX14T
+  bottom_z: -0.7045
+  top_z: 0.5605
+  snap_ring: KTK9042SR
+  style: weld in
+
+Estimated (not published by the vendor):
+  lip_id: the lip overlaps the uniball race by 5.3% of the bore each side
+  lip_thickness: what is left of the height once the uniball, the groove and a land of 7.06% of the bore above the groove are taken off (the groove sits near the open end, as the product photos show)
+  groove_dia: a standard internal retaining ring groove (ANSI B27.7 / Truarc N5000 class) for that housing bore
+  groove_width: the N5000-class groove width for that housing bore
+
+Volume check: ok

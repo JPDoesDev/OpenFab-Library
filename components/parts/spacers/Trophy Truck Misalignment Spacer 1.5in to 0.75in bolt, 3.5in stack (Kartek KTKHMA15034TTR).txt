@@ -12,7 +12,7 @@ Dimensions (inches):
   shoulder_height: 0.768
   head_dia: 1.24
   half_stack: 1.75
-  pin_depth: 0.982
+  pin_depth: 0.981
   style: trophy truck misalignment
   seat_dia: 1.904
   seat_sphere_dia: 2.75

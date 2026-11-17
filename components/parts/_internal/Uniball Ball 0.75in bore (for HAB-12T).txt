@@ -1,0 +1,17 @@
+Uniball Ball 0.75in bore (for HAB-12T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of HAB-12T (moves in the race; counted in the BOM with the race)
+Material:     stainless
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.51
+
+Dimensions (inches):
+  bore: 0.75
+  od: 1.5625
+  ball_width: 1.28
+  race_width: 0.62
+  ball_dia: 1.375
+  catalog_misalignment_deg: 18
+  shoulder_dia: 0.97
+
+Volume check: ok

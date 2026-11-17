@@ -1,0 +1,34 @@
+Female Rod End 0.25in bore, 0.25-28 LH, CF steel
+
+Part number:  CFL4
+Vendor:       FK
+Description:  FK CFL4 1/4" bore 1/4-28 LH female economy 2-piece low carbon steel rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CF4 row)
+
+Also available as:
+  Kartek FKBCFL4  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: female
+  bore: 0.25
+  head_dia: 0.75
+  head_width: 0.25
+  length: 1.312
+  thread: 1/4-28 UNF-2B LH
+  thread_dia: 0.25
+  thread_length: 0.687
+  hand: LH
+  ball_width: 0.375
+  ball_dia: 0.5
+  catalog_misalignment_deg: 27
+  body_dia: 0.468
+  flat: 0.375
+  thread_feature: cosmetic, M6.35x0.9071 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+
+Volume check: not checked

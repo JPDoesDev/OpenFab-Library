@@ -1,0 +1,30 @@
+Rod End Ball 0.5512in bore (for JFXL14MF)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of JFXL14MF (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.28 (JFX14MF row, millimetres converted to inches)
+
+Dimensions (inches):
+  style: female
+  bore: 0.5512
+  head_dia: 1.3681
+  head_width: 0.5315
+  length: 2.2441
+  thread: M14 x 1.5 LH
+  thread_dia: 0.5512
+  thread_length: 1.063
+  hand: LH
+  ball_width: 0.748
+  ball_dia: 1
+  catalog_misalignment_deg: 21
+  body_dia: 0.9843
+  flat: 0.8661
+  thread_feature: cosmetic, M14x1.5
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+
+Volume check: ok

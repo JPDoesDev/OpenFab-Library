@@ -1,0 +1,254 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Cup profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      17.0307,
+      -12.5603
+     ],
+     [
+      23.01875,
+      -12.5603
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      23.01875,
+      -12.5603
+     ],
+     [
+      23.01875,
+      12.8397
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      23.01875,
+      12.8397
+     ],
+     [
+      19.05,
+      12.8397
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      12.8397
+     ],
+     [
+      19.05,
+      10.1473
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      10.1473
+     ],
+     [
+      20.193,
+      10.1473
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.193,
+      10.1473
+     ],
+     [
+      20.193,
+      8.7249
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.193,
+      8.7249
+     ],
+     [
+      19.05,
+      8.7249
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      8.7249
+     ],
+     [
+      19.05,
+      -8.7249
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      -8.7249
+     ],
+     [
+      17.0307,
+      -8.7249
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      17.0307,
+      -8.7249
+     ],
+     [
+      17.0307,
+      -12.5603
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Cup",
+    "body_name": "Cup"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Cup"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "CPA12",
+     "description": "FK CPA12 4130 uniball cup for 3/4\" bore uniballs 1\" tall 1-13/16\" OD",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "uniball_cup",
+      "units": "in",
+      "dims": {
+       "bearing_od": 1.5,
+       "height": 1.0,
+       "od": 1.8125,
+       "lip_id": 1.341,
+       "lip_thickness": 0.151,
+       "groove_dia": 1.59,
+       "groove_width": 0.056,
+       "seat_depth": 0.687,
+       "seat_depth_from": "AIN12T",
+       "bottom_z": -0.4945,
+       "top_z": 0.5055,
+       "snap_ring": "SRA12",
+       "style": "weld in"
+      },
+      "estimated": [
+       "lip_id: the lip overlaps the uniball race by 5.3% of the bore each side",
+       "lip_thickness: what is left of the height once the uniball, the groove and a land of 7.06% of the bore above the groove are taken off (the groove sits near the open end, as the product photos show)",
+       "groove_dia: a standard internal retaining ring groove (ANSI B27.7 / Truarc N5000 class) for that housing bore",
+       "groove_width: the N5000-class groove width for that housing bore"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBCPA12",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "source": "kartek.com FKBCPA12"
+     }
+    }
+   }
+  }
+ ]
+}

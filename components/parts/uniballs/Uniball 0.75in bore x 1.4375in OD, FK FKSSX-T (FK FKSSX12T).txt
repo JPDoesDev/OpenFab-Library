@@ -1,0 +1,23 @@
+Uniball 0.75in bore x 1.4375in OD, FK FKSSX-T
+
+Part number:  FKSSX12T
+Vendor:       FK
+Description:  FK FKSSX12T 3/4" bore precision narrow series PTFE lined stainless spherical bearing
+Material:     stainless
+Source:       FK 2017 Industrial Catalog p.32
+
+Also available as:
+  Kartek FKBFKSSX12T  same part - Kartek stock number for the FK part
+  Aurora COM-12T      equivalent - listed by Kartek as a cross reference
+  Aurora COM-12TKH    equivalent - listed by Kartek as a cross reference
+  Fox 001-00-023      equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 0.75
+  od: 1.4375
+  ball_width: 0.75
+  race_width: 0.593
+  ball_dia: 1.187
+  catalog_misalignment_deg: 9
+
+Volume check: ok

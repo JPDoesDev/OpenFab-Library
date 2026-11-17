@@ -1,0 +1,22 @@
+Jam Nut 0.625-18 RH
+
+Part number:  SJNR10
+Vendor:       FK
+Description:  FK SJNR10 5/8-18 RH steel jam nut
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBSJNR10  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 0.9375
+  width: 0.375
+  thread: 5/8-18 UNF-2B
+  thread_dia: 0.625
+  hand: RH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+
+Volume check: ok

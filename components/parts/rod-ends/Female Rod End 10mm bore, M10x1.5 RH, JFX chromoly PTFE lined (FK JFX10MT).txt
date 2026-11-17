@@ -1,0 +1,34 @@
+Female Rod End 10mm bore, M10x1.5 RH, JFX chromoly PTFE lined
+
+Part number:  JFX10MT
+Vendor:       FK
+Description:  FK JFX10MT 10mm bore M10 X 1.5 RH female chromoly PTFE lined rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.28 (JFX10M row, millimetres converted to inches)
+
+Also available as:
+  Kartek FKBJFX10MT  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: female
+  bore: 0.3937
+  head_dia: 1.063
+  head_width: 0.4134
+  length: 1.6929
+  thread: M10 x 1.5
+  thread_dia: 0.3937
+  thread_length: 0.8268
+  hand: RH
+  ball_width: 0.5512
+  ball_dia: 0.75
+  catalog_misalignment_deg: 17
+  body_dia: 0.748
+  flat: 0.6693
+  thread_feature: cosmetic, M10x1.5
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+
+Volume check: not checked

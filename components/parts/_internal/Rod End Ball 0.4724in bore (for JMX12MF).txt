@@ -1,0 +1,26 @@
+Rod End Ball 0.4724in bore (for JMX12MF)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of JMX12MF (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.27 (JMX12MF row, millimetres converted to inches)
+
+Dimensions (inches):
+  style: male
+  bore: 0.4724
+  head_dia: 1.1811
+  head_width: 0.4724
+  length: 2.126
+  thread: M12 x 1.25
+  thread_dia: 0.4724
+  thread_length: 1.2992
+  hand: RH
+  ball_width: 0.6299
+  ball_dia: 0.8752
+  catalog_misalignment_deg: 17
+  thread_feature: cosmetic, M12x1.25
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

@@ -1,0 +1,151 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      2.413,
+      -3.9624
+     ],
+     [
+      3.885972,
+      -3.9624
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     3.885972,
+     -3.9624
+    ],
+    "end": [
+     3.885972,
+     3.9624
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      3.885972,
+      3.9624
+     ],
+     [
+      2.413,
+      3.9624
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      2.413,
+      3.9624
+     ],
+     [
+      2.413,
+      -3.9624
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of ALJM3 (moves in the body; counted in the BOM with the body)",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.19,
+       "head_dia": 0.625,
+       "head_width": 0.25,
+       "length": 1.25,
+       "thread": "10-32 UNF-3A",
+       "thread_dia": 0.19,
+       "thread_length": 0.75,
+       "hand": "RH",
+       "ball_width": 0.312,
+       "ball_dia": 0.437,
+       "catalog_misalignment_deg": 13.0,
+       "thread_feature": "cosmetic, M4.826x0.7937 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [],
+      "thread": "10-32 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.19 (ALJM3 row)"
+     }
+    }
+   }
+  }
+ ]
+}

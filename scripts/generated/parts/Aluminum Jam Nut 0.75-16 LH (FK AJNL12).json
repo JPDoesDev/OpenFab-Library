@@ -1,0 +1,90 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Nut hex",
+    "plane": "XY",
+    "offset": -5.3975
+   }
+  },
+  {
+   "command": "sketch.polygon.circumscribed",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 13.890625,
+    "sides": 6
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 9.525
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 10.795,
+    "operation": "new",
+    "name": "Nut",
+    "body_name": "Nut"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Nut"
+    ],
+    "material": "Aluminum"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "AJNL12",
+     "description": "FK AJNL12 3/4-16 LH aluminum jam nut",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "jam_nut",
+      "units": "in",
+      "dims": {
+       "hex": 1.09375,
+       "width": 0.425,
+       "thread": "3/4-16 UNF-2B LH",
+       "thread_dia": 0.75,
+       "hand": "LH"
+      },
+      "estimated": [
+       "bore is at thread major diameter; thread not modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBAJNL12",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "3/4-16 UNF-2B LH",
+      "source": "FK 2017 Industrial Catalog p.41"
+     }
+    }
+   }
+  }
+ ]
+}

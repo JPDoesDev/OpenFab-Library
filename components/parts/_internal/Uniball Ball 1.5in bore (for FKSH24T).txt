@@ -1,0 +1,16 @@
+Uniball Ball 1.5in bore (for FKSH24T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of FKSH24T (moves in the race; counted in the BOM with the race)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.31 (FKS24; fkrodends.com lists it as FKSH24)
+
+Dimensions (inches):
+  bore: 1.5
+  od: 2.75
+  ball_width: 1.375
+  race_width: 1.094
+  ball_dia: 2.312
+  catalog_misalignment_deg: 8.5
+
+Volume check: ok

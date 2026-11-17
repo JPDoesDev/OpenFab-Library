@@ -1,0 +1,302 @@
+{
+ "commands": [
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 50.8,
+    "width": 31.75,
+    "height": 31.75,
+    "corner": [
+     0,
+     -15.875,
+     -15.875
+    ],
+    "operation": "new",
+    "name": "Bar",
+    "body_name": "Bung"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Taper profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      1,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      0.0
+     ],
+     [
+      23.72064,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      23.72064,
+      0.0
+     ],
+     [
+      23.72064,
+      11.02064
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      23.72064,
+      11.02064
+     ],
+     [
+      12.7,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "cut",
+    "name": "Taper"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Bore profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      1,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0.0,
+      52.07
+     ],
+     [
+      8.66574,
+      52.07
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      8.66574,
+      52.07
+     ],
+     [
+      8.66574,
+      38.1
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      8.66574,
+      38.1
+     ],
+     [
+      9.525,
+      38.1
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      38.1
+     ],
+     [
+      9.525,
+      -1.27
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      -1.27
+     ],
+     [
+      0.0,
+      -1.27
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0.0,
+      -1.27
+     ],
+     [
+      0.0,
+      52.07
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "cut",
+    "name": "Bore"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     19.05,
+     9.525,
+     0
+    ],
+    "from": [
+     0,
+     9.525,
+     0
+    ],
+    "designation": "M19.05x1.5875",
+    "hand": "right",
+    "length": 38.1,
+    "name": "Thread 3/4-16 UNF"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Bung"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK750SBR",
+     "description": "Square Tapered Bungs Right Hand Thread For 3/4\" Heim Joint 1-1/4\" x 1-1/4\" Square",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "bung",
+      "units": "in",
+      "dims": {
+       "style": "square tapered",
+       "thread": "3/4-16 UNF",
+       "thread_dia": 0.75,
+       "tpi": 16,
+       "hand": "RH",
+       "length": 2.0,
+       "thread_depth": 1.5,
+       "bore_dia": 0.75,
+       "through_bore_dia": 0.6823,
+       "square": 1.25,
+       "top_dia": 1.0,
+       "fits_tube": "not stated by Kartek",
+       "insertion_length": 0.0,
+       "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "thread depth 1.5in: Kartek says only that it is not threaded all the way through; taken as 3/4 of the length",
+       "bore at thread major diameter, as the jam nuts; past the thread depth at the basic minor diameter (tap drill assumed); the thread is cosmetic only",
+       "turned end 1in across with a 45 degree taper out to the corners (from the product photo)",
+       "Kartek does not say what it fits: taken as welded on to a square tube or plate end, so nothing goes inside a tube (insertion_length 0)"
+      ],
+      "also_available_as": [],
+      "thread": "3/4-16 UNF",
+      "source": "https://www.kartek.com/parts/square-tapered-bungs-right-hand-thread-for-34-heim-joint-1-14-x-1-14-square.html"
+     }
+    }
+   }
+  }
+ ]
+}

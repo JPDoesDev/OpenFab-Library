@@ -1,0 +1,242 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.143117,
+      -12.7
+     ],
+     [
+      34.925,
+      -12.7
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      34.925,
+      -12.7
+     ],
+     [
+      34.925,
+      12.7
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      34.925,
+      12.7
+     ],
+     [
+      20.143117,
+      12.7
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     20.143117,
+     12.7
+    ],
+    "end": [
+     20.143117,
+     -12.7
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 41.275,
+    "height": 76.59967,
+    "base": [
+     28.17533,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 81.67967,
+    "width": 46.355,
+    "height": 20.6375,
+    "corner": [
+     25.63533,
+     -23.1775,
+     19.05
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat top"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 81.67967,
+    "width": 46.355,
+    "height": 20.6375,
+    "corner": [
+     25.63533,
+     -23.1775,
+     -39.6875
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat bottom"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 25.4,
+    "height": 55.245,
+    "base": [
+     50.8,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "name": "Tapped hole"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     77.7875,
+     0.0,
+     12.7
+    ],
+    "designation": "M25.4x1.8143",
+    "hand": "right",
+    "length": 53.975,
+    "name": "Thread 1-14 UNS-2B"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "JF16-1",
+     "description": "FK JF16-1 1\" bore 1-14 RH female 3-piece low carbon steel rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 1.0,
+       "head_dia": 2.75,
+       "head_width": 1.0,
+       "length": 4.125,
+       "thread": "1-14 UNS-2B",
+       "thread_dia": 1.0,
+       "thread_length": 2.125,
+       "hand": "RH",
+       "ball_width": 1.375,
+       "ball_dia": 1.875,
+       "catalog_misalignment_deg": 17.0,
+       "body_dia": 1.625,
+       "flat": 1.5,
+       "thread_feature": "cosmetic, M25.4x1.8143 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBJF161",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "1-14 UNS-2B",
+      "source": "FK 2017 Industrial Catalog p.10 (JF16-1 row)"
+     }
+    }
+   }
+  }
+ ]
+}

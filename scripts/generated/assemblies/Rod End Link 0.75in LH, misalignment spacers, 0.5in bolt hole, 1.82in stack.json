@@ -3,9 +3,9 @@
   {
    "command": "component.insert_design",
    "params": {
-    "path": "../../../components/parts/rod-ends/Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T).sc",
+    "path": "../../../components/parts/rod-ends/Rod End 0.75in bore, 0.75-16 LH, JMX chromoly PTFE lined (FK JMXL12T).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -15,11 +15,11 @@
   {
    "command": "component.metadata.set",
    "params": {
-    "component": "Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T)",
+    "component": "Rod End 0.75in bore, 0.75-16 LH, JMX chromoly PTFE lined (FK JMXL12T)",
     "bom_type": "purchased",
     "properties": {
      "vendor": "FK",
-     "also_available_as": "Kartek FKBJMXL12T (same part); Aurora RAB-12T (equivalent)"
+     "also_available_as": "Kartek FKBJMXL12T (same part); Aurora RAB-12T (equivalent); Kartek FKBJMXL12TF1 (fit variant); Aurora PRB-12T (equivalent)"
     }
    }
   },
@@ -28,7 +28,7 @@
    "params": {
     "path": "../../../components/parts/jam-nuts/Jam Nut 0.75-16 LH (FK SJNL12).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -53,7 +53,7 @@
     "name": "Seat 1",
     "flip": true,
     "a": {
-     "occurrence": "Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T):1",
+     "occurrence": "Rod End 0.75in bore, 0.75-16 LH, JMX chromoly PTFE lined (FK JMXL12T):1",
      "point": [
       40.3225,
       0.0,
@@ -85,7 +85,7 @@
    "params": {
     "path": "../../../components/parts/_internal/Rod End Ball 0.75in bore (for JMXL12T).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -107,7 +107,7 @@
    "params": {
     "path": "../../../components/parts/spacers/Misalignment Spacer 0.75in to 0.5in bolt, 1.82in stack (Kartek KTKHMA3412).sc",
     "translate": [
-     0,
+     0.0,
      0,
      11.1125
     ],
@@ -129,7 +129,7 @@
    "params": {
     "path": "../../../components/parts/spacers/Misalignment Spacer 0.75in to 0.5in bolt, 1.82in stack (Kartek KTKHMA3412).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -173,7 +173,7 @@
   {
    "command": "occurrence.ground",
    "params": {
-    "occurrence": "Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T):1",
+    "occurrence": "Rod End 0.75in bore, 0.75-16 LH, JMX chromoly PTFE lined (FK JMXL12T):1",
     "grounded": true
    }
   },
@@ -184,7 +184,7 @@
     "name": "Pivot",
     "flip": true,
     "a": {
-     "occurrence": "Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T):1",
+     "occurrence": "Rod End 0.75in bore, 0.75-16 LH, JMX chromoly PTFE lined (FK JMXL12T):1",
      "point": [
       0,
       0,
@@ -235,12 +235,12 @@
      "Misalignment Spacer 0.75in to 0.5in bolt, 1.82in stack (Kartek KTKHMA3412):2"
     ],
     "against": [
-     "Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T):1",
+     "Rod End 0.75in bore, 0.75-16 LH, JMX chromoly PTFE lined (FK JMXL12T):1",
      "Jam Nut 0.75-16 LH (FK SJNL12):1"
     ],
     "exclude_pairs": [
      [
-      "Rod End 0.75in bore, 0.75-16 LH (FK JMXL12T):1",
+      "Rod End 0.75in bore, 0.75-16 LH, JMX chromoly PTFE lined (FK JMXL12T):1",
       "Rod End Ball 0.75in bore (for JMXL12T):1"
      ]
     ]

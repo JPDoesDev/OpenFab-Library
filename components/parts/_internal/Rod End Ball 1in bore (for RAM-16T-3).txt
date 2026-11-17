@@ -1,0 +1,26 @@
+Rod End Ball 1in bore (for RAM-16T-3)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of RAM-16T-3 (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       Aurora Bearing catalog p.39 (RAM-16T-3 row)
+
+Dimensions (inches):
+  style: male
+  bore: 1
+  head_dia: 2.775
+  head_width: 1
+  length: 4.125
+  thread: 1 1/4-12 UNJF-3A
+  thread_dia: 1.25
+  thread_length: 2.344
+  hand: RH
+  ball_width: 1.375
+  ball_dia: 1.875
+  catalog_misalignment_deg: 17
+  thread_feature: cosmetic, M31.75x2.1167 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

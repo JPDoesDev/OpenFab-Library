@@ -1,0 +1,150 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniball-cups/Uniball Cup 2.75in bore x 3.375in OD x 1.75in tall, FK (FK CP24-1).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Cup 2.75in bore x 3.375in OD x 1.75in tall, FK (FK CP24-1)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBCP241 (same part); Kartek KTK9046 (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniballs/Uniball 1.5in bore x 2.75in OD, FK COMH-T (FK COMH24T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball 1.5in bore x 2.75in OD, FK COMH-T (FK COMH24T)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBCOMH24T (same part); Kartek FKBCOMH24TF1 (same part); Aurora HCOM-24T (equivalent); Aurora HCOM-24TKH-300 (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/snap-rings/Internal Snap Ring 2.895in OD x 0.093in thick, FK (FK SR24).sc",
+    "translate": [
+     0.0,
+     0,
+     15.0749
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Internal Snap Ring 2.895in OD x 0.093in thick, FK (FK SR24)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBSR24 (same part); Kartek KTK9046SR (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Uniball Ball 1.5in bore (for COMH24T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Ball 1.5in bore (for COMH24T)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "FK"
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Uniball Cup 2.75in bore x 3.375in OD x 1.75in tall, FK (FK CP24-1):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Uniball Cup 2.75in bore x 3.375in OD x 1.75in tall, FK (FK CP24-1):1",
+     "Uniball 1.5in bore x 2.75in OD, FK COMH-T (FK COMH24T):1",
+     "Internal Snap Ring 2.895in OD x 0.093in thick, FK (FK SR24):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Uniball 1.5in bore x 2.75in OD, FK COMH-T (FK COMH24T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Uniball Ball 1.5in bore (for COMH24T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  }
+ ]
+}

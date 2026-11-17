@@ -1,0 +1,250 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniball-cups/Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall, Kartek (Kartek KTK9044HD).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall, Kartek (Kartek KTK9044HD)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek",
+     "also_available_as": "FK CPW16 (equivalent); Kartek FKBCPW16 (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniballs/Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBWSSX16T (same part); Aurora AIB-16T-3 (equivalent); NHBB ADWL16V (equivalent); Kartek FKBWSSX16TF1 (same part); Total Chaos FK-REP (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/snap-rings/External-Type Snap Ring 2.24in OD x 0.078in thick, Kartek (Kartek KTK9044SR).sc",
+    "translate": [
+     0.0,
+     0,
+     13.7541
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "External-Type Snap Ring 2.24in OD x 0.078in thick, Kartek (Kartek KTK9044SR)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek",
+     "also_available_as": "FK SRW16 (equivalent); Kartek FKBSRW16 (equivalent); Kartek KTKWSSR (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Uniball Ball 1in bore (for WSSX16T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Ball 1in bore (for WSSX16T)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "FK"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN).sc",
+    "translate": [
+     0.0,
+     0,
+     17.4625
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "Uniball Ball 1in bore (for WSSX16T):1",
+     "point": [
+      0.0,
+      0.0,
+      -17.4625
+     ],
+     "z": [
+      0,
+      0,
+      -1
+     ]
+    },
+    "b": {
+     "occurrence": "Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN):2",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall, Kartek (Kartek KTK9044HD):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall, Kartek (Kartek KTK9044HD):1",
+     "Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T):1",
+     "External-Type Snap Ring 2.24in OD x 0.078in thick, Kartek (Kartek KTK9044SR):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Uniball Ball 1in bore (for WSSX16T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Uniball Ball 1in bore (for WSSX16T):1",
+     "Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  },
+  {
+   "command": "joint.find_limits",
+   "params": {
+    "joint": "Pivot",
+    "index": 1,
+    "occurrences": [
+     "Uniball Ball 1in bore (for WSSX16T):1",
+     "Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN):1",
+     "Misalignment Spacer 1in to 0.75in bolt, 2.76in stack (Kartek KTKHMA10034RN):2"
+    ],
+    "against": [
+     "Uniball Cup 2.125in bore x 2.625in OD x 1.5in tall, Kartek (Kartek KTK9044HD):1",
+     "Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T):1",
+     "External-Type Snap Ring 2.24in OD x 0.078in thick, Kartek (Kartek KTK9044SR):1"
+    ],
+    "exclude_pairs": [
+     [
+      "Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T):1",
+      "Uniball Ball 1in bore (for WSSX16T):1"
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+Rod End 0.5in bore, 0.5-20 LH, CM steel
+
+Part number:  CML8
+Vendor:       FK
+Description:  FK CML8 1/2" bore 1/2-20 LH male economy 2-piece low carbon steel rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CM8 row)
+
+Also available as:
+  Kartek FKBCML8  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: male
+  bore: 0.5
+  head_dia: 1.312
+  head_width: 0.453
+  length: 2.438
+  thread: 1/2-20 UNF-3A LH
+  thread_dia: 0.5
+  thread_length: 1.5
+  hand: LH
+  ball_width: 0.625
+  ball_dia: 0.937
+  catalog_misalignment_deg: 20
+  thread_feature: cosmetic, M12.7x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

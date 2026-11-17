@@ -1,0 +1,253 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.416787,
+      -5.7531
+     ],
+     [
+      16.6624,
+      -5.7531
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.6624,
+      -5.7531
+     ],
+     [
+      16.6624,
+      5.7531
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.6624,
+      5.7531
+     ],
+     [
+      10.416787,
+      5.7531
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     10.416787,
+     5.7531
+    ],
+    "end": [
+     10.416787,
+     -5.7531
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 22.225,
+    "height": 41.3131,
+    "base": [
+     12.6619,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 46.3931,
+    "width": 27.305,
+    "height": 11.1125,
+    "corner": [
+     10.1219,
+     -13.6525,
+     9.525
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat top"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 46.3931,
+    "width": 27.305,
+    "height": 11.1125,
+    "corner": [
+     10.1219,
+     -13.6525,
+     -20.6375
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat bottom"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 12.7,
+    "height": 28.2448,
+    "base": [
+     27.0002,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "name": "Tapped hole"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     40.4876,
+     0.0,
+     6.35
+    ],
+    "designation": "M12.7x1.27",
+    "hand": "right",
+    "length": 26.9748,
+    "name": "Thread 1/2-20 UNF-2B"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "CF8TY",
+     "description": "FK CF8TY 1/2\" size 1/2-20 RH female economy 2-piece low carbon steel PTFE lined rod end with 1/2-20 stud",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 0.5,
+       "head_dia": 1.312,
+       "head_width": 0.453,
+       "length": 2.125,
+       "thread": "1/2-20 UNF-2B",
+       "thread_dia": 0.5,
+       "thread_length": 1.062,
+       "hand": "RH",
+       "ball_width": 0.625,
+       "ball_dia": 0.937,
+       "catalog_misalignment_deg": 20.0,
+       "body_dia": 0.875,
+       "flat": 0.75,
+       "thread_feature": "cosmetic, M12.7x1.27 (the Unified size in millimetres)",
+       "stud_length": 2.0,
+       "stud_hex_length": 1.125,
+       "stud_thread_length": 1.0,
+       "stud_thread": "1/2-20 UNF-2A",
+       "stud_thread_dia": 0.5,
+       "stud_hex": 0.625,
+       "stud_hex_thickness": 0.2812,
+       "stud_neck_dia": 0.5
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body",
+       "stud hex thickness and neck (half each of the space between the ball face and the hex face)",
+       "stud neck diameter (the stud's thread diameter)",
+       "ball is solid on the side away from the stud"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBCF8TY",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "1/2-20 UNF-2B",
+      "source": "FK 2017 Industrial Catalog p.3 (CF8 row); stud: FK 2017 Industrial Catalog p.45"
+     }
+    }
+   }
+  }
+ ]
+}

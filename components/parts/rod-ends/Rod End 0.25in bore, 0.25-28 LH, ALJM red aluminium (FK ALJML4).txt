@@ -1,0 +1,30 @@
+Rod End 0.25in bore, 0.25-28 LH, ALJM red aluminium
+
+Part number:  ALJML4
+Vendor:       FK
+Description:  FK ALJML4 1/4" bore 1/4-28 LH male 7075 aluminium red anodized rod end
+Material:     aluminium_red
+Source:       FK 2017 Industrial Catalog p.19 (ALJM4 row)
+
+Also available as:
+  Kartek FKBALJML4  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: male
+  bore: 0.25
+  head_dia: 0.75
+  head_width: 0.281
+  length: 1.562
+  thread: 1/4-28 UNF-3A LH
+  thread_dia: 0.25
+  thread_length: 1
+  hand: LH
+  ball_width: 0.375
+  ball_dia: 0.5
+  catalog_misalignment_deg: 16
+  thread_feature: cosmetic, M6.35x0.9071 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

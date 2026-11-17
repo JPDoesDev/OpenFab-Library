@@ -1,0 +1,141 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      8.999982,
+      -11.499977
+     ],
+     [
+      10.943772,
+      -11.499977
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     10.943772,
+     -11.499977
+    ],
+    "end": [
+     10.943772,
+     11.499977
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.943772,
+      11.499977
+     ],
+     [
+      8.999982,
+      11.499977
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      8.999982,
+      11.499977
+     ],
+     [
+      8.999982,
+      -11.499977
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of COM18MT (moves in the race; counted in the BOM with the race)",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing_ball",
+      "units": "in",
+      "dims": {
+       "bore": 0.70866,
+       "od": 1.37795,
+       "ball_width": 0.90551,
+       "race_width": 0.64961,
+       "ball_dia": 1.25,
+       "catalog_misalignment_deg": 15.0
+      },
+      "estimated": [],
+      "also_available_as": [],
+      "source": "FK 2017 Industrial Catalog p.30 (COM18M; millimetres converted to inches)"
+     }
+    }
+   }
+  }
+ ]
+}

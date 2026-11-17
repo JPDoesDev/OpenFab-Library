@@ -1,0 +1,242 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      4.687195,
+      -2.9718
+     ],
+     [
+      7.9375,
+      -2.9718
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.9375,
+      -2.9718
+     ],
+     [
+      7.9375,
+      2.9718
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.9375,
+      2.9718
+     ],
+     [
+      4.687195,
+      2.9718
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     4.687195,
+     2.9718
+    ],
+    "end": [
+     4.687195,
+     -2.9718
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 10.3124,
+    "height": 20.6629,
+    "base": [
+     6.3119,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 25.7429,
+    "width": 15.3924,
+    "height": 5.1562,
+    "corner": [
+     3.7719,
+     -7.6962,
+     3.9624
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat top"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 25.7429,
+    "width": 15.3924,
+    "height": 5.1562,
+    "corner": [
+     3.7719,
+     -7.6962,
+     -9.1186
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat bottom"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.826,
+    "height": 13.97,
+    "base": [
+     14.2748,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "name": "Tapped hole"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     20.6248,
+     0.0,
+     2.413
+    ],
+    "designation": "M4.826x0.7937",
+    "hand": "left",
+    "length": 12.7,
+    "name": "Thread 10-32 UNF-2B LH"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "CFL3",
+     "description": "FK CFL3 3/16\" bore 10-32 LH female economy 2-piece low carbon steel rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 0.19,
+       "head_dia": 0.625,
+       "head_width": 0.234,
+       "length": 1.062,
+       "thread": "10-32 UNF-2B LH",
+       "thread_dia": 0.19,
+       "thread_length": 0.5,
+       "hand": "LH",
+       "ball_width": 0.312,
+       "ball_dia": 0.437,
+       "catalog_misalignment_deg": 20.0,
+       "body_dia": 0.406,
+       "flat": 0.312,
+       "thread_feature": "cosmetic, M4.826x0.7937 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBCFL3",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "10-32 UNF-2B LH",
+      "source": "FK 2017 Industrial Catalog p.3 (CF3 row)"
+     }
+    }
+   }
+  }
+ ]
+}

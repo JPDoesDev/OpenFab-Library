@@ -1,0 +1,373 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Cup profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      24.13,
+      -25.4
+     ],
+     [
+      34.925,
+      -25.4
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      34.925,
+      -25.4
+     ],
+     [
+      34.925,
+      25.4
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      34.925,
+      25.4
+     ],
+     [
+      26.9875,
+      25.4
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      26.9875,
+      25.4
+     ],
+     [
+      26.9875,
+      14.9479
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      26.9875,
+      14.9479
+     ],
+     [
+      28.5115,
+      14.9479
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      28.5115,
+      14.9479
+     ],
+     [
+      28.5115,
+      12.7635
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      28.5115,
+      12.7635
+     ],
+     [
+      26.9875,
+      12.7635
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      26.9875,
+      12.7635
+     ],
+     [
+      26.9875,
+      -12.7635
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      26.9875,
+      -12.7635
+     ],
+     [
+      24.13,
+      -12.7635
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      24.13,
+      -12.7635
+     ],
+     [
+      24.13,
+      -25.4
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Cup",
+    "body_name": "Cup"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.0386,
+    "height": 9.525,
+    "base": [
+     21.889374,
+     21.889374,
+     -25.4
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "name": "End plate hole lip 1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.0386,
+    "height": 9.525,
+    "base": [
+     -21.889374,
+     21.889374,
+     -25.4
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "name": "End plate hole lip 2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.0386,
+    "height": 9.525,
+    "base": [
+     -21.889374,
+     -21.889374,
+     -25.4
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "name": "End plate hole lip 3"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.0386,
+    "height": 9.525,
+    "base": [
+     21.889374,
+     -21.889374,
+     -25.4
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "name": "End plate hole lip 4"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.0386,
+    "height": 9.525,
+    "base": [
+     21.889374,
+     21.889374,
+     15.875
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "name": "End plate hole snap ring 1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.0386,
+    "height": 9.525,
+    "base": [
+     -21.889374,
+     21.889374,
+     15.875
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "name": "End plate hole snap ring 2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.0386,
+    "height": 9.525,
+    "base": [
+     -21.889374,
+     -21.889374,
+     15.875
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "name": "End plate hole snap ring 3"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.0386,
+    "height": 9.525,
+    "base": [
+     21.889374,
+     -21.889374,
+     15.875
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "name": "End plate hole snap ring 4"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Cup"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK9044HDWS1",
+     "description": "Kartek wobble stopper housing for 1\" bore uniballs 2\" wide 2-3/4\" OD; slotted end plates bolt to each end with four 10-32 screws",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "uniball_cup",
+      "units": "in",
+      "dims": {
+       "bearing_od": 2.125,
+       "height": 2.0,
+       "od": 2.75,
+       "lip_id": 1.9,
+       "lip_thickness": 0.4975,
+       "groove_dia": 2.245,
+       "groove_width": 0.086,
+       "seat_depth": 1.005,
+       "seat_depth_from": "WSSX16T",
+       "bottom_z": -1.0,
+       "top_z": 1.0,
+       "snap_ring": "KTKWSSR",
+       "end_holes_each_end": 4,
+       "end_hole_dia": 0.159,
+       "end_hole_depth": 0.375,
+       "end_hole_bc": 2.4375,
+       "style": "wobble stopper"
+      },
+      "estimated": [
+       "lip_id: the lip overlaps the uniball race by 5.3% of the bore each side",
+       "lip_thickness: the uniball centred in the housing, so the end plates sit the same each side",
+       "groove_dia: a standard internal retaining ring groove (ANSI B27.7 / Truarc N5000 class) for that housing bore",
+       "groove_width: the N5000-class groove width for that housing bore",
+       "material: not stated by Kartek, steel assumed",
+       "end plate holes: 4 each end for 10-32 screws (published), drawn as 0.159in tap-drill holes 0.375in deep on a 2.4375in circle at 45 degrees (position, size and depth from the photo; the threads are not modelled)"
+      ],
+      "also_available_as": [],
+      "source": "kartek.com KTK9044HDWS1"
+     }
+    }
+   }
+  }
+ ]
+}

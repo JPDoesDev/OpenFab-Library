@@ -1,0 +1,32 @@
+Weld-In Bung 0.75-16 RH for 1.25in x 0.12in wall tube
+
+Part number:  KTK750TBM
+Vendor:       Kartek
+Description:  Standard Round Bungs Right Hand Thread For 3/4" Heim Joint For 1-1/4" Diameter 0.120" Wall Tube
+Material:     4130
+Source:       https://www.kartek.com/parts/standard-round-bungs-right-hand-thread-for-34-heim-joint-for-1-14-diameter-0120-wall-tube.html
+
+Dimensions (inches):
+  style: standard round
+  thread: 3/4-16 UNF
+  thread_dia: 0.75
+  tpi: 16
+  hand: RH
+  length: 2
+  thread_depth: 1.5
+  bore_dia: 0.75
+  through_bore_dia: 0.6823
+  od: 1
+  tube_od: 1.25
+  tube_wall: 0.12
+  tube_id: 1.01
+  insertion_length: 2
+  thread_feature: cosmetic, M19.05x1.5875 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  thread depth 1.5in: Kartek says only that it is not threaded all the way through; taken as 3/4 of the length
+  bore at thread major diameter, as the jam nuts; past the thread depth at the basic minor diameter (tap drill assumed); the thread is cosmetic only
+  insertion length: shoulderless, so all of it, taken as flush with the tube end
+  0.03in chamfers on the outside edges
+
+Volume check: ok

@@ -1,0 +1,23 @@
+Uniball 0.5in bore x 1in OD, FK COM-T
+
+Part number:  COM8T
+Vendor:       FK
+Description:  FK COM8T 1/2" bore commercial series PTFE lined steel spherical bearing
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.29
+
+Also available as:
+  Kartek FKBCOM8T   same part - Kartek stock number for the FK part
+  Aurora COM-8T     equivalent - listed by Kartek as a cross reference
+  Fox 001-00-004-A  equivalent - listed by Kartek as a cross reference
+  King B1012        equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 0.5
+  od: 1
+  ball_width: 0.5
+  race_width: 0.39
+  ball_dia: 0.781
+  catalog_misalignment_deg: 9.5
+
+Volume check: ok

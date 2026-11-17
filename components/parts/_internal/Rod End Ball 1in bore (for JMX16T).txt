@@ -1,0 +1,26 @@
+Rod End Ball 1in bore (for JMX16T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of JMX16T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.11 (JMX16 row)
+
+Dimensions (inches):
+  style: male
+  bore: 1
+  head_dia: 2.95
+  head_width: 1.015
+  length: 4.5
+  thread: 1 1/4-12 UNF-3A
+  thread_dia: 1.25
+  thread_length: 2.5
+  hand: RH
+  ball_width: 1.375
+  ball_dia: 1.875
+  catalog_misalignment_deg: 17
+  thread_feature: cosmetic, M31.75x2.1167 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

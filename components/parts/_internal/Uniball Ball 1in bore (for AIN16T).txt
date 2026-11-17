@@ -1,0 +1,16 @@
+Uniball Ball 1in bore (for AIN16T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of AIN16T (moves in the race; counted in the BOM with the race)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.37
+
+Dimensions (inches):
+  bore: 1
+  od: 2.125
+  ball_width: 1.375
+  race_width: 1
+  ball_dia: 1.875
+  catalog_misalignment_deg: 15
+
+Volume check: ok

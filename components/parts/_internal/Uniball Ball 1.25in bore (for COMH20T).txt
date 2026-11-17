@@ -1,0 +1,16 @@
+Uniball Ball 1.25in bore (for COMH20T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of COMH20T (moves in the race; counted in the BOM with the race)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.29
+
+Dimensions (inches):
+  bore: 1.25
+  od: 2.375
+  ball_width: 1.187
+  race_width: 0.937
+  ball_dia: 2
+  catalog_misalignment_deg: 8.5
+
+Volume check: ok

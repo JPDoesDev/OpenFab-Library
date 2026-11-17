@@ -2,11 +2,12 @@
 
 Common off-road fabrication hardware as SolidCraft parts and ready-mated assemblies:
 spherical bearings (uniballs), rod ends (heims), misalignment spacers, weld-in cups,
-snap rings, jam nuts, pivot bushings and sleeves. Every part carries its vendor part
+snap rings, jam nuts, weld-in threaded bungs, pivot bushings and sleeves. Every part carries its vendor part
 number, so an assembly's bill of materials comes out ready to order from.
 
-Status: first slice, covering the 1" uniball stack, the 3/4" rod end and the common
-sleeve-bushing pivots.
+Status: the FK and Aurora rod ends and uniballs that Kartek lists with published
+dimensions, in every size, with their jam nuts, cups, snap rings, spacers and weld-in bungs,
+plus the common sleeve-bushing pivots. Parts whose dimensions no vendor publishes are left out.
 
 ## What the licence means for builders
 
@@ -37,6 +38,8 @@ Browse the components with pictures and part numbers:
   [uniball cups](components/parts/uniball-cups/index.md) ·
   [snap rings](components/parts/snap-rings/index.md) ·
   [jam nuts](components/parts/jam-nuts/index.md) ·
+  [weld-in bungs](components/parts/weld-in-bungs/index.md) ·
+  [safety washers](components/parts/safety-washers/index.md) ·
   [bushings](components/parts/bushings/index.md) ·
   [inner sleeves](components/parts/inner-sleeves/index.md) ·
   [outer sleeves](components/parts/outer-sleeves/index.md)
@@ -55,7 +58,7 @@ together, because assemblies link to the part files by relative path.
       parts/
         uniballs/               index.md, then for each part: .sc  .step  .png  .txt
         rod-ends/  spacers/  uniball-cups/  snap-rings/  jam-nuts/
-        bushings/  inner-sleeves/  outer-sleeves/
+        weld-in-bungs/  safety-washers/  bushings/  inner-sleeves/  outer-sleeves/
         _internal/              bearing balls: helpers the assemblies need, not things you buy
       assemblies/
         uniball-stacks/         index.md, then one folder per assembly: .sc  .step  .png  .bom.csv
@@ -73,7 +76,7 @@ other vendors' numbers and links to the files.
 Needs `solidcraft-cli` (SolidCraft 0.43 or later) on the path.
 
     cd scripts
-    python -m openfab.build            # everything, about a minute; rebuilds components/ from scratch
+    python -m openfab.build            # everything, about half an hour; rebuilds components/ from scratch
     python -m openfab.build JMX12T     # only assemblies whose key contains the text
 
 The build checks each part's volume against the analytic value where one is worked out,
@@ -110,12 +113,19 @@ changes between versions, so the `.step` copies are the safe choice for older in
   angle and which two parts touch first.
 - Bushing pivots use a revolute joint with no limit.
 - Bolts, nuts, washers and mount tabs are not included; that hardware is the builder's choice.
+- A rod end link can carry its jam nut and a weld-in bung on the shank. They sit on the fixed
+  side with the body, so they do not change the pivot limit.
+- A misalignment spacer is paired only with a ball it was shaped to seat on, and a spacer pair
+  only with a ball of the width its stack was made for.
 - How each type stops, as stored on the joint:
   - misalignment spacers: the seat is a band of the ball's sphere and slides under the joint's flat
     face, so the angled cone above it meets the rod end or cup (found by collision sweep)
   - straight spacers: the collar meets the joint's flat face (found by collision sweep)
   - no spacers: the edge of the ball's bore reaches the edge of the joint's flat face, where the bolt
-    would meet it (worked out from the catalog dimensions, since the bolt is not modelled)
+    would meet it (worked out from the catalog dimensions, since the bolt is not modelled). This is
+    larger than the catalog's misalignment angle, which allows for a mounting clevis
+  - high-misalignment (shouldered) balls: the shoulder meets the rim of the head or race (worked
+    out from the catalog dimensions)
 - A bearing is two files, race and ball, so the ball can move. The race (or rod end
   body) carries the part number; the ball is left out of the BOM.
 - SolidCraft links a sub-assembly in as one rigid block, so to keep a pivot moving in
@@ -125,8 +135,8 @@ changes between versions, so the `.step` copies are the safe choice for older in
 
 ## Accuracy
 
-Dimensions come from the [FK Rod Ends 2017 Industrial Catalog](https://www.fkrodends.com/catalogs/)
-and Kartek's product pages; each data row names its source. The vendor material itself is
+Dimensions come from the [FK Rod Ends 2017 Industrial Catalog](https://www.fkrodends.com/catalogs/),
+Aurora Bearing's catalog and Kartek's product pages; each data row names its source. The vendor material itself is
 not part of this repository. Where a
 vendor does not publish a dimension it is estimated, and the part's `estimated` list in
 `catalog.json` says which. The main ones:
@@ -135,8 +145,16 @@ vendor does not publish a dimension it is estimated, and the part's `estimated` 
   the same sphere as the ball (0.008in under its radius, matched to a standard FK ball for each
   bore), so it slides under the rod end or race face as the ball tilts and the angled cone is
   what stops it. The waist and cone start are scaled from photos, and the cone sets the limit.
-- uniball cup: lip and snap ring groove
-- rod end: plain cylindrical shank with no neck
+- uniball cups and snap rings: vendors publish only the bearing bore, outside diameter and
+  height. The lip, the snap ring groove and the ring itself follow one rule scaled on the cup
+  bore (standard internal retaining ring proportions), so where a bearing sits in a tall cup is
+  an estimate, and so are pivot limits that the lip sets
+- rod end: plain cylindrical shank with no neck. Female bodies have flats along their whole
+  length and no neck taper; studded balls have an estimated neck and hex thickness
+- weld-in bungs: thread depth is taken as three quarters of the length (Kartek says only "not
+  threaded all the way through"), and the head diameter, weld chamfer and square-bung taper are
+  scaled from photos
+- wobble stopper stack: the slotted end plates are not modelled, so it swings like a plain uniball
 - AutoFab kit sleeves: inferred from the kit size and its bushings
 - cone, radius, hourglass, stepped and flat-top spacer heads follow the same six published
   dimensions, with their shapes scaled from photos
@@ -144,7 +162,7 @@ vendor does not publish a dimension it is estimated, and the part's `estimated` 
 Rod end shanks carry a cosmetic thread over the threaded length, with the right pitch and
 hand. SolidCraft has no Unified form for shaft threads, so it is stored as the same profile
 in millimetres (3/4-16 shows as M19.05x1.5875) and the feature is named with the real
-callout. Jam nut threads are not modelled. Urethane bushings overlap their sleeves by the
+callout. Bung threads are cosmetic in the same way. Jam nut threads are not modelled. Urethane bushings overlap their sleeves by the
 press fit.
 
 ## Contact and contributing

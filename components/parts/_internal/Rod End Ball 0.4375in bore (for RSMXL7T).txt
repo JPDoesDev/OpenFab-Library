@@ -1,0 +1,26 @@
+Rod End Ball 0.4375in bore (for RSMXL7T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of RSMXL7T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.21 (RSMX7 row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.4375
+  head_dia: 1.312
+  head_width: 0.437
+  length: 2.438
+  thread: 1/2-20 UNF-3A LH
+  thread_dia: 0.5
+  thread_length: 1.5
+  hand: LH
+  ball_width: 0.562
+  ball_dia: 0.812
+  catalog_misalignment_deg: 12
+  thread_feature: cosmetic, M12.7x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

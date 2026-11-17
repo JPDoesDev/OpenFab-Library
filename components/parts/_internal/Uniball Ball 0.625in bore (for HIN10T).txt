@@ -1,0 +1,17 @@
+Uniball Ball 0.625in bore (for HIN10T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of HIN10T (moves in the race; counted in the BOM with the race)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.17
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.375
+  ball_width: 1.2
+  race_width: 0.567
+  ball_dia: 1.25
+  catalog_misalignment_deg: 20
+  shoulder_dia: 0.856
+
+Volume check: ok

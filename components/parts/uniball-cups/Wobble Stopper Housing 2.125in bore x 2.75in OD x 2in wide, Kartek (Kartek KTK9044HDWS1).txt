@@ -1,0 +1,36 @@
+Wobble Stopper Housing 2.125in bore x 2.75in OD x 2in wide, Kartek
+
+Part number:  KTK9044HDWS1
+Vendor:       Kartek
+Description:  Kartek wobble stopper housing for 1" bore uniballs 2" wide 2-3/4" OD; slotted end plates bolt to each end with four 10-32 screws
+Material:     steel
+Source:       kartek.com KTK9044HDWS1
+
+Dimensions (inches):
+  bearing_od: 2.125
+  height: 2
+  od: 2.75
+  lip_id: 1.9
+  lip_thickness: 0.4975
+  groove_dia: 2.245
+  groove_width: 0.086
+  seat_depth: 1.005
+  seat_depth_from: WSSX16T
+  bottom_z: -1
+  top_z: 1
+  snap_ring: KTKWSSR
+  end_holes_each_end: 4
+  end_hole_dia: 0.159
+  end_hole_depth: 0.375
+  end_hole_bc: 2.4375
+  style: wobble stopper
+
+Estimated (not published by the vendor):
+  lip_id: the lip overlaps the uniball race by 5.3% of the bore each side
+  lip_thickness: the uniball centred in the housing, so the end plates sit the same each side
+  groove_dia: a standard internal retaining ring groove (ANSI B27.7 / Truarc N5000 class) for that housing bore
+  groove_width: the N5000-class groove width for that housing bore
+  material: not stated by Kartek, steel assumed
+  end plate holes: 4 each end for 10-32 screws (published), drawn as 0.159in tap-drill holes 0.375in deep on a 2.4375in circle at 45 degrees (position, size and depth from the photo; the threads are not modelled)
+
+Volume check: ok

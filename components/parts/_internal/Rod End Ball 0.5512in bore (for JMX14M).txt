@@ -1,0 +1,26 @@
+Rod End Ball 0.5512in bore (for JMX14M)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of JMX14M (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.27 (JMX14M row, millimetres converted to inches)
+
+Dimensions (inches):
+  style: male
+  bore: 0.5512
+  head_dia: 1.3681
+  head_width: 0.5315
+  length: 2.3622
+  thread: M14 x 2.0
+  thread_dia: 0.5512
+  thread_length: 1.4173
+  hand: RH
+  ball_width: 0.748
+  ball_dia: 1
+  catalog_misalignment_deg: 21
+  thread_feature: cosmetic, M14x2.0
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

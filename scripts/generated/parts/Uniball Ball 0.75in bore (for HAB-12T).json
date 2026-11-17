@@ -1,0 +1,174 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      -16.256
+     ],
+     [
+      12.319,
+      -16.256
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.319,
+      -16.256
+     ],
+     [
+      12.319,
+      -12.376637
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     12.319,
+     -12.376637
+    ],
+    "end": [
+     12.319,
+     12.376637
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.319,
+      12.376637
+     ],
+     [
+      12.319,
+      16.256
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.319,
+      16.256
+     ],
+     [
+      9.525,
+      16.256
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      16.256
+     ],
+     [
+      9.525,
+      -16.256
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Stainless Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of HAB-12T (moves in the race; counted in the BOM with the race)",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing_ball",
+      "units": "in",
+      "dims": {
+       "bore": 0.75,
+       "od": 1.5625,
+       "ball_width": 1.28,
+       "race_width": 0.62,
+       "ball_dia": 1.375,
+       "catalog_misalignment_deg": 18.0,
+       "shoulder_dia": 0.97
+      },
+      "estimated": [],
+      "also_available_as": [],
+      "source": "Aurora Rod End & Spherical Bearing Catalog 319 p.51"
+     }
+    }
+   }
+  }
+ ]
+}

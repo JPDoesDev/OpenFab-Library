@@ -1,0 +1,30 @@
+Rod End 0.625in bore, 0.625-18 LH, AM chromoly PTFE lined
+
+Part number:  AB-10T
+Vendor:       Aurora
+Description:  Aurora AB-10T 5/8" bore 5/8-18 LH male high strength alloy PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.34 (AM-10 row)
+
+Also available as:
+  Kartek AURAB10T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  style: male
+  bore: 0.625
+  head_dia: 1.5
+  head_width: 0.562
+  length: 2.625
+  thread: 5/8-18 UNF-3A LH
+  thread_dia: 0.625
+  thread_length: 1.625
+  hand: LH
+  ball_width: 0.75
+  ball_dia: 1.125
+  catalog_misalignment_deg: 16
+  thread_feature: cosmetic, M15.875x1.4111 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

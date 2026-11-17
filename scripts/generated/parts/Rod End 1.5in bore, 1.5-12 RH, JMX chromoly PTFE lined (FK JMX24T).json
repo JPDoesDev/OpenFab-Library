@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      25.651859,
+      -14.2875
+     ],
+     [
+      44.45,
+      -14.2875
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      44.45,
+      -14.2875
+     ],
+     [
+      44.45,
+      14.2875
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      44.45,
+      14.2875
+     ],
+     [
+      25.651859,
+      14.2875
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     25.651859,
+     14.2875
+    ],
+    "end": [
+     25.651859,
+     -14.2875
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 38.1,
+    "height": 94.941791,
+    "base": [
+     41.583209,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     89.054104,
+     0.0,
+     19.05
+    ],
+    "designation": "M38.1x2.1167",
+    "hand": "right",
+    "length": 76.2,
+    "name": "Thread 1 1/2-12 UNF-3A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "JMX24T",
+     "description": "FK JMX24T 1-1/2\" bore 1 1/2-12 RH male chromoly PTFE lined rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 1.5,
+       "head_dia": 3.5,
+       "head_width": 1.125,
+       "length": 5.375,
+       "thread": "1 1/2-12 UNF-3A",
+       "thread_dia": 1.5,
+       "thread_length": 3.0,
+       "hand": "RH",
+       "ball_width": 1.375,
+       "ball_dia": 2.312,
+       "catalog_misalignment_deg": 8.75,
+       "thread_feature": "cosmetic, M38.1x2.1167 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBJMX24T",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "1 1/2-12 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.11 (JMX24 row)"
+     }
+    }
+   }
+  }
+ ]
+}

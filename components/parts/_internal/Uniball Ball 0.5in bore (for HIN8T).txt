@@ -1,0 +1,17 @@
+Uniball Ball 0.5in bore (for HIN8T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of HIN8T (moves in the race; counted in the BOM with the race)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.17
+
+Dimensions (inches):
+  bore: 0.5
+  od: 1.125
+  ball_width: 0.937
+  race_width: 0.401
+  ball_dia: 1
+  catalog_misalignment_deg: 20
+  shoulder_dia: 0.73
+
+Volume check: ok

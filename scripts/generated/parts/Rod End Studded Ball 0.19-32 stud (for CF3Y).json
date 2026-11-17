@@ -1,0 +1,241 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0.0,
+      -3.9624
+     ],
+     [
+      3.885972,
+      -3.9624
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     3.885972,
+     -3.9624
+    ],
+    "end": [
+     3.885972,
+     3.9624
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      3.885972,
+      3.9624
+     ],
+     [
+      0.0,
+      3.9624
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0.0,
+      3.9624
+     ],
+     [
+      0.0,
+      -3.9624
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.826,
+    "height": 4.826,
+    "base": [
+     0.0,
+     0.0,
+     3.7084
+    ],
+    "axis": "Z",
+    "operation": "join",
+    "name": "Neck"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Hex profile",
+    "plane": "XY",
+    "offset": 8.5344
+   }
+  },
+  {
+   "command": "sketch.polygon.circumscribed",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 4.7625,
+    "sides": 6
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 4.572,
+    "operation": "join",
+    "name": "Hex"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.826,
+    "height": 12.954,
+    "base": [
+     0.0,
+     0.0,
+     12.8524
+    ],
+    "axis": "Z",
+    "operation": "join",
+    "name": "Stud"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     0.0,
+     2.413,
+     20.2565
+    ],
+    "designation": "M4.826x0.7937",
+    "hand": "right",
+    "length": 11.0998,
+    "name": "Thread 10-32 UNF-2A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of CF3Y (moves in the body; counted in the BOM with the body)",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 0.19,
+       "head_dia": 0.625,
+       "head_width": 0.234,
+       "length": 1.062,
+       "thread": "10-32 UNF-2B",
+       "thread_dia": 0.19,
+       "thread_length": 0.5,
+       "hand": "RH",
+       "ball_width": 0.312,
+       "ball_dia": 0.437,
+       "catalog_misalignment_deg": 20.0,
+       "body_dia": 0.406,
+       "flat": 0.312,
+       "thread_feature": "cosmetic, M4.826x0.7937 (the Unified size in millimetres)",
+       "stud_length": 1.016,
+       "stud_hex_length": 0.5,
+       "stud_thread_length": 0.437,
+       "stud_thread": "10-32 UNF-2A",
+       "stud_thread_dia": 0.19,
+       "stud_hex": 0.375,
+       "stud_hex_thickness": 0.18,
+       "stud_neck_dia": 0.19
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body",
+       "stud hex thickness and neck (half each of the space between the ball face and the hex face)",
+       "stud neck diameter (the stud's thread diameter)",
+       "ball is solid on the side away from the stud"
+      ],
+      "also_available_as": [],
+      "thread": "10-32 UNF-2B",
+      "source": "FK 2017 Industrial Catalog p.3 (CF3 row); stud: FK 2017 Industrial Catalog p.45"
+     }
+    }
+   }
+  }
+ ]
+}

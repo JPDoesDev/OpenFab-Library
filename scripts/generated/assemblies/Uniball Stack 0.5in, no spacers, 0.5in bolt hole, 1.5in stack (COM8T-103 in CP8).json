@@ -1,0 +1,150 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniball-cups/Uniball Cup 1in bore x 1.25in OD x 0.75in tall, FK (FK CP8).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Cup 1in bore x 1.25in OD x 0.75in tall, FK (FK CP8)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBCP8 (same part)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniballs/Uniball 0.5in bore x 1in OD, FK COM-T, 1.5in wide shoulder ball (FK COM8T-103).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball 0.5in bore x 1in OD, FK COM-T, 1.5in wide shoulder ball (FK COM8T-103)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBCOM8T103 (same part); Aurora COM-8T (equivalent); Fox 001-00-004-A (equivalent); King B1012 (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/snap-rings/Internal Snap Ring 1.061in OD x 0.042in thick, FK (FK SR8).sc",
+    "translate": [
+     0.0,
+     0,
+     5.4864
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Internal Snap Ring 1.061in OD x 0.042in thick, FK (FK SR8)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBSR8 (same part); Fox 038-00-015-A (equivalent); King CR2201 (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Uniball Ball 0.5in bore (for COM8T-103).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Ball 0.5in bore (for COM8T-103)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "FK"
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Uniball Cup 1in bore x 1.25in OD x 0.75in tall, FK (FK CP8):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Uniball Cup 1in bore x 1.25in OD x 0.75in tall, FK (FK CP8):1",
+     "Uniball 0.5in bore x 1in OD, FK COM-T, 1.5in wide shoulder ball (FK COM8T-103):1",
+     "Internal Snap Ring 1.061in OD x 0.042in thick, FK (FK SR8):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Uniball 0.5in bore x 1in OD, FK COM-T, 1.5in wide shoulder ball (FK COM8T-103):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Uniball Ball 0.5in bore (for COM8T-103):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  }
+ ]
+}

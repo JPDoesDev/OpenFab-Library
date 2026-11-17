@@ -1,0 +1,30 @@
+Rod End 1in bore, 1-14 RH, RAM chromoly PTFE lined
+
+Part number:  RAM-16T-1
+Vendor:       Aurora
+Description:  Aurora RAM-16T-1 1" bore 1-14 RH male heavy duty alloy PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.39 (RAM-16T-1 row)
+
+Also available as:
+  Kartek AURRAM16T1  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  style: male
+  bore: 1
+  head_dia: 2.775
+  head_width: 1
+  length: 4.125
+  thread: 1-14 UNS-3A
+  thread_dia: 1
+  thread_length: 2.125
+  hand: RH
+  ball_width: 1.375
+  ball_dia: 1.875
+  catalog_misalignment_deg: 17
+  thread_feature: cosmetic, M25.4x1.8143 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

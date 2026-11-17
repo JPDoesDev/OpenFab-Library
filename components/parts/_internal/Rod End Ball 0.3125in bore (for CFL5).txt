@@ -1,0 +1,30 @@
+Rod End Ball 0.3125in bore (for CFL5)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of CFL5 (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CF5 row)
+
+Dimensions (inches):
+  style: female
+  bore: 0.3125
+  head_dia: 0.875
+  head_width: 0.312
+  length: 1.375
+  thread: 5/16-24 UNF-2B LH
+  thread_dia: 0.3125
+  thread_length: 0.687
+  hand: LH
+  ball_width: 0.437
+  ball_dia: 0.625
+  catalog_misalignment_deg: 22
+  body_dia: 0.5
+  flat: 0.437
+  thread_feature: cosmetic, M7.9375x1.0583 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+
+Volume check: ok

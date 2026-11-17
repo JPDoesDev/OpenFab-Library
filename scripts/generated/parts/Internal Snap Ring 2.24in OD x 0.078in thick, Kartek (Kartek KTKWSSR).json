@@ -1,0 +1,162 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ring profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      24.7015,
+      -0.9906
+     ],
+     [
+      28.448,
+      -0.9906
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      28.448,
+      -0.9906
+     ],
+     [
+      28.448,
+      0.9906
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      28.448,
+      0.9906
+     ],
+     [
+      24.7015,
+      0.9906
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      24.7015,
+      0.9906
+     ],
+     [
+      24.7015,
+      -0.9906
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ring",
+    "body_name": "Ring"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ring"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTKWSSR",
+     "description": "Kartek internal snap ring for the 9044HDWS1 wobble stopper housing; also fits 9044 series and FK CPW16 cups",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "snap_ring",
+      "units": "in",
+      "dims": {
+       "od": 2.24,
+       "id": 1.945,
+       "thickness": 0.078,
+       "ring_type": "internal"
+      },
+      "estimated": [
+       "od",
+       "id",
+       "thickness",
+       "sized to sit in the estimated groove of the cups it fits: OD 0.005in under the groove diameter, radial section 6.94% of the cup bore, N5000-class thickness",
+       "modelled as a closed ring (no gap or lugs)"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "FK",
+        "other_part_number": "SRW16",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBSRW16",
+        "relation": "equivalent",
+        "note": "Kartek stock number for the FK SRW16 ring"
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "KTK9044SR",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       }
+      ],
+      "source": "kartek.com KTKWSSR"
+     }
+    }
+   }
+  }
+ ]
+}

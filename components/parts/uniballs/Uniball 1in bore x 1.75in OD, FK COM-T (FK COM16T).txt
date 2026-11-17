@@ -1,0 +1,22 @@
+Uniball 1in bore x 1.75in OD, FK COM-T
+
+Part number:  COM16T
+Vendor:       FK
+Description:  FK COM16T 1" bore commercial series PTFE lined steel spherical bearing
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.29
+
+Also available as:
+  Kartek FKBCOM16T  same part - Kartek stock number for the FK part
+  Aurora COM-16TKH  equivalent - listed by Kartek as a cross reference
+  King B1010        equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 1
+  od: 1.75
+  ball_width: 1
+  race_width: 0.797
+  ball_dia: 1.5
+  catalog_misalignment_deg: 10
+
+Volume check: ok

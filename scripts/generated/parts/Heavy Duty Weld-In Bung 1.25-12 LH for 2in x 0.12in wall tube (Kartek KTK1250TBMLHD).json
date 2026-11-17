@@ -1,0 +1,237 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Bung profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      1,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      21.463,
+      0.0
+     ],
+     [
+      22.225,
+      0.762
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.225,
+      0.762
+     ],
+     [
+      22.225,
+      75.438
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.225,
+      75.438
+     ],
+     [
+      21.463,
+      76.2
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      21.463,
+      76.2
+     ],
+     [
+      14.72932,
+      76.2
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.72932,
+      76.2
+     ],
+     [
+      14.72932,
+      57.15
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.72932,
+      57.15
+     ],
+     [
+      15.875,
+      57.15
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.875,
+      57.15
+     ],
+     [
+      15.875,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.875,
+      0.0
+     ],
+     [
+      21.463,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Bung",
+    "body_name": "Bung"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     28.575,
+     15.875,
+     0
+    ],
+    "from": [
+     0,
+     15.875,
+     0
+    ],
+    "designation": "M31.75x2.1167",
+    "hand": "left",
+    "length": 57.15,
+    "name": "Thread 1-1/4-12 UNF LH"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Bung"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK1250TBMLHD",
+     "description": "Heavy Duty Round Bungs Left Hand Thread For 1-1/4\" Heim Joint For 2\" Diameter 0.120\" Wall Tube",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "bung",
+      "units": "in",
+      "dims": {
+       "style": "heavy duty round",
+       "thread": "1-1/4-12 UNF LH",
+       "thread_dia": 1.25,
+       "tpi": 12,
+       "hand": "LH",
+       "length": 3.0,
+       "thread_depth": 2.25,
+       "bore_dia": 1.25,
+       "through_bore_dia": 1.1598,
+       "od": 1.75,
+       "tube_od": 2.0,
+       "tube_wall": 0.12,
+       "tube_id": 1.76,
+       "insertion_length": 3.0,
+       "thread_feature": "cosmetic, M31.75x2.1167 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "thread depth 2.25in: Kartek says only that it is not threaded all the way through; taken as 3/4 of the length",
+       "bore at thread major diameter, as the jam nuts; past the thread depth at the basic minor diameter (tap drill assumed); the thread is cosmetic only",
+       "insertion length: shoulderless, so all of it, taken as flush with the tube end",
+       "0.03in chamfers on the outside edges"
+      ],
+      "also_available_as": [],
+      "thread": "1-1/4-12 UNF LH",
+      "source": "https://www.kartek.com/parts/heavy-duty-round-bungs-left-hand-thread-for-1-14-heim-joint-for-2-diameter-0120-wall-tube.html"
+     }
+    }
+   }
+  }
+ ]
+}

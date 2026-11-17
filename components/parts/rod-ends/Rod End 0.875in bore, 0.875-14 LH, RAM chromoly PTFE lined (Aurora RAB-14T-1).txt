@@ -1,0 +1,33 @@
+Rod End 0.875in bore, 0.875-14 LH, RAM chromoly PTFE lined
+
+Part number:  RAB-14T-1
+Vendor:       Aurora
+Description:  Aurora RAB-14T-1 7/8" bore 7/8-14 LH male heavy duty alloy PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.39 (RAM-14T-1 row)
+
+Also available as:
+  Kartek AURRAB14T1  same part - Kartek stock number for the Aurora part
+  FK KMXL14          equivalent - listed by Kartek as a cross reference
+  FK JMXL14T         equivalent - listed by Kartek as a cross reference (not for misalignment spacers)
+  FK JMXL14T-770     equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  style: male
+  bore: 0.875
+  head_dia: 2
+  head_width: 0.765
+  length: 3.375
+  thread: 7/8-14 UNJF-3A LH
+  thread_dia: 0.875
+  thread_length: 2
+  hand: LH
+  ball_width: 0.875
+  ball_dia: 1.375
+  catalog_misalignment_deg: 7
+  thread_feature: cosmetic, M22.225x1.8143 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

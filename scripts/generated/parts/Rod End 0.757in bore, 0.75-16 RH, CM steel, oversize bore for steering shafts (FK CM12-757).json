@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.863314,
+      -7.5311
+     ],
+     [
+      22.225,
+      -7.5311
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.225,
+      -7.5311
+     ],
+     [
+      22.225,
+      7.5311
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.225,
+      7.5311
+     ],
+     [
+      14.863314,
+      7.5311
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     14.863314,
+     7.5311
+    ],
+    "end": [
+     14.863314,
+     -7.5311
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 19.05,
+    "height": 52.622879,
+    "base": [
+     20.402121,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     46.71356,
+     0.0,
+     9.525
+    ],
+    "designation": "M19.05x1.5875",
+    "hand": "right",
+    "length": 44.45,
+    "name": "Thread 3/4-16 UNF-3A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "CM12-757",
+     "description": "FK CM12-757 0.757\" bore 3/4-16 RH male economy 2-piece low carbon steel rod end, oversize bore for steering shafts",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.757,
+       "head_dia": 1.75,
+       "head_width": 0.593,
+       "length": 2.875,
+       "thread": "3/4-16 UNF-3A",
+       "thread_dia": 0.75,
+       "thread_length": 1.75,
+       "hand": "RH",
+       "ball_width": 0.875,
+       "ball_dia": 1.312,
+       "catalog_misalignment_deg": 24.0,
+       "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBCM12757",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "3/4-16 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.3 (CM12 row); bore from the Kartek listing"
+     }
+    }
+   }
+  }
+ ]
+}

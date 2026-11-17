@@ -1,0 +1,143 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ring profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      33.8455,
+      -1.1811
+     ],
+     [
+      38.989,
+      -1.1811
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      38.989,
+      -1.1811
+     ],
+     [
+      38.989,
+      1.1811
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      38.989,
+      1.1811
+     ],
+     [
+      33.8455,
+      1.1811
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      33.8455,
+      1.1811
+     ],
+     [
+      33.8455,
+      -1.1811
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ring",
+    "body_name": "Ring"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ring"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK9048SR",
+     "description": "Kartek snap ring (Kartek supplies an external-type ring) for Kartek 9048 series uniball cups",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "snap_ring",
+      "units": "in",
+      "dims": {
+       "od": 3.07,
+       "id": 2.665,
+       "thickness": 0.093,
+       "ring_type": "external"
+      },
+      "estimated": [
+       "od",
+       "id",
+       "thickness",
+       "sized to sit in the estimated groove of the cups it fits: OD 0.005in under the groove diameter, radial section 6.94% of the cup bore, N5000-class thickness",
+       "modelled as a closed ring (no gap or lugs)"
+      ],
+      "also_available_as": [],
+      "source": "kartek.com KTK9048SR"
+     }
+    }
+   }
+  }
+ ]
+}

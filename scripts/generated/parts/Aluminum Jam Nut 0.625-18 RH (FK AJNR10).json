@@ -1,0 +1,90 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Nut hex",
+    "plane": "XY",
+    "offset": -3.9624
+   }
+  },
+  {
+   "command": "sketch.polygon.circumscribed",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 9.525,
+    "sides": 6
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 7.9375
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 7.9248,
+    "operation": "new",
+    "name": "Nut",
+    "body_name": "Nut"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Nut"
+    ],
+    "material": "Aluminum"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "AJNR10",
+     "description": "FK AJNR10 5/8-18 RH aluminum jam nut",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "jam_nut",
+      "units": "in",
+      "dims": {
+       "hex": 0.75,
+       "width": 0.312,
+       "thread": "5/8-18 UNF-2B",
+       "thread_dia": 0.625,
+       "hand": "RH"
+      },
+      "estimated": [
+       "bore is at thread major diameter; thread not modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBAJNR10",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "5/8-18 UNF-2B",
+      "source": "FK 2017 Industrial Catalog p.41"
+     }
+    }
+   }
+  }
+ ]
+}

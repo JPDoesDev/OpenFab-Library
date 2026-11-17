@@ -1,0 +1,30 @@
+Rod End 14mm bore, M14x1.5 RH, JMX chromoly
+
+Part number:  JMX14MF
+Vendor:       FK
+Description:  FK JMX14MF 14mm bore M14 X 1.5 RH male chromoly rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.27 (JMX14MF row, millimetres converted to inches)
+
+Also available as:
+  Kartek FKBJMX14MF  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: male
+  bore: 0.5512
+  head_dia: 1.3681
+  head_width: 0.5315
+  length: 2.3622
+  thread: M14 x 1.5
+  thread_dia: 0.5512
+  thread_length: 1.4173
+  hand: RH
+  ball_width: 0.748
+  ball_dia: 1
+  catalog_misalignment_deg: 21
+  thread_feature: cosmetic, M14x1.5
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

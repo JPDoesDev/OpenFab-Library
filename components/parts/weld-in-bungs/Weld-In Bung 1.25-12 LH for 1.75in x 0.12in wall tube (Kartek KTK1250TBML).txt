@@ -1,0 +1,32 @@
+Weld-In Bung 1.25-12 LH for 1.75in x 0.12in wall tube
+
+Part number:  KTK1250TBML
+Vendor:       Kartek
+Description:  Standard Round Bungs Left Hand Thread For 1-1/4" Heim Joint For 1-3/4" Diameter 0.120" Wall Tube
+Material:     4130
+Source:       https://www.kartek.com/parts/standard-round-bungs-left-hand-thread-for-1-14-heim-joint-for-1-34-diameter-0120-wall-tube.html
+
+Dimensions (inches):
+  style: standard round
+  thread: 1-1/4-12 UNF LH
+  thread_dia: 1.25
+  tpi: 12
+  hand: LH
+  length: 3
+  thread_depth: 2.25
+  bore_dia: 1.25
+  through_bore_dia: 1.1598
+  od: 1.5
+  tube_od: 1.75
+  tube_wall: 0.12
+  tube_id: 1.51
+  insertion_length: 3
+  thread_feature: cosmetic, M31.75x2.1167 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  thread depth 2.25in: Kartek says only that it is not threaded all the way through; taken as 3/4 of the length
+  bore at thread major diameter, as the jam nuts; past the thread depth at the basic minor diameter (tap drill assumed); the thread is cosmetic only
+  insertion length: shoulderless, so all of it, taken as flush with the tube end
+  0.03in chamfers on the outside edges
+
+Volume check: ok

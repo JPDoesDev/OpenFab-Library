@@ -1,0 +1,30 @@
+Rod End 1.5in bore, 1.5-12 LH, JMX chromoly PTFE lined
+
+Part number:  JMXL24T
+Vendor:       FK
+Description:  FK JMXL24T 1-1/2" bore 1 1/2-12 LH male chromoly PTFE lined rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.11 (JMX24 row)
+
+Also available as:
+  Kartek FKBJMXL24T  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: male
+  bore: 1.5
+  head_dia: 3.5
+  head_width: 1.125
+  length: 5.375
+  thread: 1 1/2-12 UNF-3A LH
+  thread_dia: 1.5
+  thread_length: 3
+  hand: LH
+  ball_width: 1.375
+  ball_dia: 2.312
+  catalog_misalignment_deg: 8.75
+  thread_feature: cosmetic, M38.1x2.1167 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

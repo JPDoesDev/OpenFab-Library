@@ -1,0 +1,22 @@
+Jam Nut M10x1.5 RH
+
+Part number:  SJNR10M
+Vendor:       FK
+Description:  FK SJNR10M M10 x 1.5 RH steel jam nut
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBSJNR10M  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 0.5625
+  width: 0.225
+  thread: M10x1.5 6H
+  thread_dia: 0.3937
+  hand: RH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+
+Volume check: ok

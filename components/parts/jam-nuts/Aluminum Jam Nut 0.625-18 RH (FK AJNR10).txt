@@ -1,0 +1,22 @@
+Aluminum Jam Nut 0.625-18 RH
+
+Part number:  AJNR10
+Vendor:       FK
+Description:  FK AJNR10 5/8-18 RH aluminum jam nut
+Material:     aluminum
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBAJNR10  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 0.75
+  width: 0.312
+  thread: 5/8-18 UNF-2B
+  thread_dia: 0.625
+  hand: RH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+
+Volume check: ok

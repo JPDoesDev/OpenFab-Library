@@ -1,0 +1,34 @@
+Female Rod End 0.5in bore, 0.5-20 RH, CF steel
+
+Part number:  CF8
+Vendor:       FK
+Description:  FK CF8 1/2" bore 1/2-20 RH female economy 2-piece low carbon steel rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CF8 row)
+
+Also available as:
+  Kartek FKBCF8  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: female
+  bore: 0.5
+  head_dia: 1.312
+  head_width: 0.453
+  length: 2.125
+  thread: 1/2-20 UNF-2B
+  thread_dia: 0.5
+  thread_length: 1.062
+  hand: RH
+  ball_width: 0.625
+  ball_dia: 0.937
+  catalog_misalignment_deg: 20
+  body_dia: 0.875
+  flat: 0.75
+  thread_feature: cosmetic, M12.7x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+
+Volume check: not checked

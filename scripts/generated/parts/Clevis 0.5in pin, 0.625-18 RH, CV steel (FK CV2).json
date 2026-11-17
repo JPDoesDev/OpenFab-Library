@@ -1,0 +1,146 @@
+{
+ "commands": [
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 28.575,
+    "height": 20.955,
+    "base": [
+     0,
+     0,
+     -10.4775
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "name": "Head",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 34.925,
+    "width": 28.575,
+    "height": 20.955,
+    "corner": [
+     0,
+     -14.2875,
+     -10.4775
+    ],
+    "operation": "join",
+    "name": "Head sides"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 15.875,
+    "height": 52.07,
+    "base": [
+     33.655,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 45.4025,
+    "width": 33.655,
+    "height": 9.525,
+    "corner": [
+     -16.8275,
+     -16.8275,
+     -4.7625
+    ],
+    "operation": "cut",
+    "name": "Slot"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 12.7,
+    "height": 26.035,
+    "base": [
+     0.0,
+     0.0,
+     -13.0175
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "name": "Pin hole"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     60.325,
+     0.0,
+     7.9375
+    ],
+    "designation": "M15.875x1.4111",
+    "hand": "right",
+    "length": 50.8,
+    "name": "Thread 5/8-18 UNF-3A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "CV2",
+     "description": "FK CV2 1/2\" pin 5/8-18 RH clevis low carbon steel clevis",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "clevis",
+       "bore": 0.5,
+       "head_dia": 1.125,
+       "head_width": 0.825,
+       "length": 3.375,
+       "thread": "5/8-18 UNF-3A",
+       "thread_dia": 0.625,
+       "thread_length": 2.0,
+       "hand": "RH",
+       "slot": 0.375,
+       "thread_feature": "cosmetic, M15.875x1.4111 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "head is square-sided down to the start of the thread",
+       "slot depth (to one head width below the pin)",
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBCV2",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "5/8-18 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.39 (CV2 row)"
+     }
+    }
+   }
+  }
+ ]
+}

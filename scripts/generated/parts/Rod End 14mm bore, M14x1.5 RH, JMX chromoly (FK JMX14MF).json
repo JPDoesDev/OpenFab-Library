@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.757672,
+      -6.749999
+     ],
+     [
+      17.374997,
+      -6.749999
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      17.374997,
+      -6.749999
+     ],
+     [
+      17.374997,
+      6.749999
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      17.374997,
+      6.749999
+     ],
+     [
+      10.757672,
+      6.749999
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     10.757672,
+     6.749999
+    ],
+    "end": [
+     10.757672,
+     -6.749999
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 13.999997,
+    "height": 44.497759,
+    "base": [
+     15.502248,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     37.751127,
+     0.0,
+     6.999999
+    ],
+    "designation": "M14x1.5",
+    "hand": "right",
+    "length": 36.000004,
+    "name": "Thread M14 x 1.5"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "JMX14MF",
+     "description": "FK JMX14MF 14mm bore M14 X 1.5 RH male chromoly rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.551181,
+       "head_dia": 1.36811,
+       "head_width": 0.531496,
+       "length": 2.362205,
+       "thread": "M14 x 1.5",
+       "thread_dia": 0.551181,
+       "thread_length": 1.417323,
+       "hand": "RH",
+       "ball_width": 0.748031,
+       "ball_dia": 1.0,
+       "catalog_misalignment_deg": 21.0,
+       "thread_feature": "cosmetic, M14x1.5"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBJMX14MF",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "M14 x 1.5",
+      "source": "FK 2017 Industrial Catalog p.27 (JMX14MF row, millimetres converted to inches)"
+     }
+    }
+   }
+  }
+ ]
+}

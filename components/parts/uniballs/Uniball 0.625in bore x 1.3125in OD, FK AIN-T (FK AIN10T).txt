@@ -1,0 +1,21 @@
+Uniball 0.625in bore x 1.3125in OD, FK AIN-T
+
+Part number:  AIN10T
+Vendor:       FK
+Description:  FK AIN10T 5/8" bore heavy duty precision series PTFE lined alloy steel spherical bearing
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.37
+
+Also available as:
+  Kartek FKBAIN10T    same part - Kartek stock number for the FK part; F2 fit
+  Kartek FKBAIN10TF1  same part - Kartek stock number for the FK part; F1 fit
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.3125
+  ball_width: 0.75
+  race_width: 0.562
+  ball_dia: 1.125
+  catalog_misalignment_deg: 12
+
+Volume check: ok

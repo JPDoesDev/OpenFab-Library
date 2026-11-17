@@ -1,0 +1,33 @@
+Uniball Cup 1in bore x 1.25in OD x 0.75in tall, FK
+
+Part number:  CP8
+Vendor:       FK
+Description:  FK CP8 4130 uniball cup for 1/2" bore uniballs 3/4" tall 1-1/4" OD
+Material:     4130
+Source:       FK 2017 catalog p.37; kartek.com FKBCP8
+
+Also available as:
+  Kartek FKBCP8  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  bearing_od: 1
+  height: 0.75
+  od: 1.25
+  lip_id: 0.894
+  lip_thickness: 0.243
+  groove_dia: 1.066
+  groove_width: 0.046
+  seat_depth: 0.39
+  seat_depth_from: COM8T
+  bottom_z: -0.438
+  top_z: 0.312
+  snap_ring: SR8
+  style: weld in
+
+Estimated (not published by the vendor):
+  lip_id: the lip overlaps the uniball race by 5.3% of the bore each side
+  lip_thickness: what is left of the height once the uniball, the groove and a land of 7.06% of the bore above the groove are taken off (the groove sits near the open end, as the product photos show)
+  groove_dia: a standard internal retaining ring groove (ANSI B27.7 / Truarc N5000 class) for that housing bore
+  groove_width: the N5000-class groove width for that housing bore
+
+Volume check: ok

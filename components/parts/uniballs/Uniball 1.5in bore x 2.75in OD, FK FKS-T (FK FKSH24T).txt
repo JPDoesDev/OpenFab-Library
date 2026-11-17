@@ -1,0 +1,23 @@
+Uniball 1.5in bore x 2.75in OD, FK FKS-T
+
+Part number:  FKSH24T
+Vendor:       FK
+Description:  FK FKSH24T 1-1/2" bore heavy duty precision series PTFE lined alloy steel spherical bearing
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.31 (FKS24; fkrodends.com lists it as FKSH24)
+
+Also available as:
+  Kartek FKBFKSH24T      same part - Kartek stock number for the FK part; F2 fit
+  Kartek FKBFKSH24TF1    same part - Kartek stock number for the FK part; F1 fit
+  Aurora HCOM-24T        equivalent - listed by Kartek as a cross reference
+  Aurora HCOM-24TKH-300  equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 1.5
+  od: 2.75
+  ball_width: 1.375
+  race_width: 1.094
+  ball_dia: 2.312
+  catalog_misalignment_deg: 8.5
+
+Volume check: ok

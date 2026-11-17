@@ -1,0 +1,4 @@
+item,qty,vendor,part_number,description,also_available_as
+1,1,FK,COM8T-101,"FK COM8T-101 1/2"" bore commercial series PTFE lined steel spherical bearing with misalignment shoulders, 1"" across the ball",Kartek FKBCOM8T101 (same part); Kartek FKBCOM8T101F1 (same part); Aurora COM-8T (equivalent); Fox 001-00-004-A (equivalent); King B1012 (equivalent)
+2,1,FK,CP8,"FK CP8 4130 uniball cup for 1/2"" bore uniballs 3/4"" tall 1-1/4"" OD",Kartek FKBCP8 (same part)
+3,1,FK,SR8,FK SR8 internal snap ring for FK CP8 uniball cups,Kartek FKBSR8 (same part); Fox 038-00-015-A (equivalent); King CR2201 (equivalent)

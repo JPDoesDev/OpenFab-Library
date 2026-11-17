@@ -1,0 +1,26 @@
+External-Type Snap Ring 1.716in OD x 0.062in thick, Kartek
+
+Part number:  KTK9042SR
+Vendor:       Kartek
+Description:  Kartek snap ring (Kartek supplies an external-type ring) for Kartek 9042 series uniball cups
+Material:     steel
+Source:       kartek.com KTK9042SR
+
+Also available as:
+  FK SRW14         equivalent - listed by Kartek as a cross reference
+  Kartek FKBSRW14  equivalent - Kartek stock number for the FK SRW14 ring
+
+Dimensions (inches):
+  od: 1.716
+  id: 1.49
+  thickness: 0.062
+  ring_type: external
+
+Estimated (not published by the vendor):
+  od
+  id
+  thickness
+  sized to sit in the estimated groove of the cups it fits: OD 0.005in under the groove diameter, radial section 6.94% of the cup bore, N5000-class thickness
+  modelled as a closed ring (no gap or lugs)
+
+Volume check: ok

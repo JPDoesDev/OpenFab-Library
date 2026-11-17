@@ -1,0 +1,249 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Cup profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      31.2166,
+      -23.0124
+     ],
+     [
+      42.8625,
+      -23.0124
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      42.8625,
+      -23.0124
+     ],
+     [
+      42.8625,
+      21.4376
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      42.8625,
+      21.4376
+     ],
+     [
+      34.544,
+      21.4376
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      34.544,
+      21.4376
+     ],
+     [
+      34.544,
+      16.51
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      34.544,
+      16.51
+     ],
+     [
+      36.83,
+      16.51
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      36.83,
+      16.51
+     ],
+     [
+      36.83,
+      13.8938
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      36.83,
+      13.8938
+     ],
+     [
+      34.544,
+      13.8938
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      34.544,
+      13.8938
+     ],
+     [
+      34.544,
+      -13.8938
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      34.544,
+      -13.8938
+     ],
+     [
+      31.2166,
+      -13.8938
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      31.2166,
+      -13.8938
+     ],
+     [
+      31.2166,
+      -23.0124
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Cup",
+    "body_name": "Cup"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Cup"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK9046030",
+     "description": "Kartek 4130 uniball cup for 1-1/2\" bore uniballs 1-3/4\" tall 3-3/8\" OD, bore 0.030\" undersize as sold: hone to the uniball after welding",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "uniball_cup",
+      "units": "in",
+      "dims": {
+       "bearing_od": 2.75,
+       "height": 1.75,
+       "od": 3.375,
+       "lip_id": 2.458,
+       "lip_thickness": 0.359,
+       "groove_dia": 2.9,
+       "groove_width": 0.103,
+       "seat_depth": 1.094,
+       "seat_depth_from": "COMH24T",
+       "bottom_z": -0.906,
+       "top_z": 0.844,
+       "snap_ring": "KTK9046SR",
+       "bore_as_sold": 2.72,
+       "bore_undersize": 0.03,
+       "style": "weld in"
+      },
+      "estimated": [
+       "lip_id: the lip overlaps the uniball race by 5.3% of the bore each side",
+       "lip_thickness: what is left of the height once the uniball, the groove and a land of 7.06% of the bore above the groove are taken off (the groove sits near the open end, as the product photos show)",
+       "groove_dia: a standard internal retaining ring groove (ANSI B27.7 / Truarc N5000 class) for that housing bore",
+       "groove_width: the N5000-class groove width for that housing bore"
+      ],
+      "also_available_as": [],
+      "source": "kartek.com KTK9046030"
+     }
+    }
+   }
+  }
+ ]
+}

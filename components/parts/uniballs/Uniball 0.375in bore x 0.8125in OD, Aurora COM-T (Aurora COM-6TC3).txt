@@ -1,0 +1,24 @@
+Uniball 0.375in bore x 0.8125in OD, Aurora COM-T
+
+Part number:  COM-6TC3
+Vendor:       Aurora
+Description:  Aurora COM-6TC3 3/8" bore commercial series PTFE lined spherical bearing, low carbon steel race
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.44 (COM-6)
+
+Also available as:
+  Kartek AURCOM6TC3  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  bore: 0.375
+  od: 0.8125
+  ball_width: 0.406
+  race_width: 0.312
+  ball_dia: 0.656
+  catalog_misalignment_deg: 10
+
+Estimated (not published by the vendor):
+  the C3 suffix (a Fortin shifter part, per Kartek) is not in Aurora's catalog
+  dimensions are the COM-6 row
+
+Volume check: ok

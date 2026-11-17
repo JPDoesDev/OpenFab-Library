@@ -1,0 +1,24 @@
+Uniball 0.5in bore x 1in OD, FK FKS-T
+
+Part number:  FKS8T
+Vendor:       FK
+Description:  FK FKS8T 1/2" bore heavy duty precision series PTFE lined alloy steel spherical bearing
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.31
+
+Also available as:
+  Kartek FKBFKS8T    same part - Kartek stock number for the FK part; F2 fit
+  Kartek FKBFKS8TF1  same part - Kartek stock number for the FK part; F1 fit
+  Aurora COM-8T      equivalent - listed by Kartek as a cross reference
+  Fox 001-00-004-A   equivalent - listed by Kartek as a cross reference
+  King B1012         equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 0.5
+  od: 1
+  ball_width: 0.5
+  race_width: 0.39
+  ball_dia: 0.781
+  catalog_misalignment_deg: 9.5
+
+Volume check: ok

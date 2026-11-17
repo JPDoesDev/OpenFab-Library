@@ -1,0 +1,26 @@
+Rod End Ball 0.75in bore (for CM12)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of CM12 (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CM12 row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.75
+  head_dia: 1.75
+  head_width: 0.593
+  length: 2.875
+  thread: 3/4-16 UNF-3A
+  thread_dia: 0.75
+  thread_length: 1.75
+  hand: RH
+  ball_width: 0.875
+  ball_dia: 1.312
+  catalog_misalignment_deg: 24
+  thread_feature: cosmetic, M19.05x1.5875 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

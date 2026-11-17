@@ -1,0 +1,151 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.1125,
+      -11.1125
+     ],
+     [
+      13.470384,
+      -11.1125
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     13.470384,
+     -11.1125
+    ],
+    "end": [
+     13.470384,
+     11.1125
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      13.470384,
+      11.1125
+     ],
+     [
+      11.1125,
+      11.1125
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.1125,
+      11.1125
+     ],
+     [
+      11.1125,
+      -11.1125
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of RXAB-14T-1 (moves in the body; counted in the BOM with the body)",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.875,
+       "head_dia": 2.325,
+       "head_width": 0.765,
+       "length": 3.5,
+       "thread": "1-14 UNS-3A LH",
+       "thread_dia": 1.0,
+       "thread_length": 1.875,
+       "hand": "LH",
+       "ball_width": 0.875,
+       "ball_dia": 1.375,
+       "catalog_misalignment_deg": 6.0,
+       "thread_feature": "cosmetic, M25.4x1.8143 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [],
+      "thread": "1-14 UNS-3A LH",
+      "source": "Aurora Bearing catalog p.39 (RXAM-14T-1 row)"
+     }
+    }
+   }
+  }
+ ]
+}

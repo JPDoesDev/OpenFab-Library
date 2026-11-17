@@ -1,0 +1,260 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Cup profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      24.13,
+      -19.3421
+     ],
+     [
+      33.3375,
+      -19.3421
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      33.3375,
+      -19.3421
+     ],
+     [
+      33.3375,
+      18.7579
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      33.3375,
+      18.7579
+     ],
+     [
+      26.9875,
+      18.7579
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      26.9875,
+      18.7579
+     ],
+     [
+      26.9875,
+      14.9479
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      26.9875,
+      14.9479
+     ],
+     [
+      28.5115,
+      14.9479
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      28.5115,
+      14.9479
+     ],
+     [
+      28.5115,
+      12.7635
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      28.5115,
+      12.7635
+     ],
+     [
+      26.9875,
+      12.7635
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      26.9875,
+      12.7635
+     ],
+     [
+      26.9875,
+      -12.7635
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      26.9875,
+      -12.7635
+     ],
+     [
+      24.13,
+      -12.7635
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      24.13,
+      -12.7635
+     ],
+     [
+      24.13,
+      -19.3421
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Cup",
+    "body_name": "Cup"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Cup"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK9044HD",
+     "description": "Kartek 4130 uniball cup for 1\" bore uniballs 1-1/2\" tall 2-5/8\" OD",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "uniball_cup",
+      "units": "in",
+      "dims": {
+       "bearing_od": 2.125,
+       "height": 1.5,
+       "od": 2.625,
+       "lip_id": 1.9,
+       "lip_thickness": 0.259,
+       "groove_dia": 2.245,
+       "groove_width": 0.086,
+       "seat_depth": 1.005,
+       "seat_depth_from": "WSSX16T",
+       "bottom_z": -0.7615,
+       "top_z": 0.7385,
+       "snap_ring": "KTK9044SR",
+       "style": "weld in"
+      },
+      "estimated": [
+       "lip_id: the lip overlaps the uniball race by 5.3% of the bore each side",
+       "lip_thickness: what is left of the height once the uniball, the groove and a land of 7.06% of the bore above the groove are taken off (the groove sits near the open end, as the product photos show)",
+       "groove_dia: a standard internal retaining ring groove (ANSI B27.7 / Truarc N5000 class) for that housing bore",
+       "groove_width: the N5000-class groove width for that housing bore"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "FK",
+        "other_part_number": "CPW16",
+        "relation": "equivalent",
+        "note": "Kartek states the same dimensions as the FK cup"
+       },
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBCPW16",
+        "relation": "equivalent",
+        "note": "Kartek stock number for the FK CPW16 cup"
+       }
+      ],
+      "source": "kartek.com KTK9044HD; FK 2017 catalog p.37 (CPW16)"
+     }
+    }
+   }
+  }
+ ]
+}

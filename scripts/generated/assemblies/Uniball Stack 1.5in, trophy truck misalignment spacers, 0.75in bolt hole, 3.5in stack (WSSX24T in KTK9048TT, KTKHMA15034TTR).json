@@ -1,0 +1,248 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniball-cups/Uniball Cup 2.917in bore x 3.5in OD x 2in tall, Kartek (Kartek KTK9048TT).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Cup 2.917in bore x 3.5in OD x 2in tall, Kartek (Kartek KTK9048TT)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniballs/Uniball 1.5in bore x 2.917in OD, FK WSSX-T (FK WSSX24T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball 1.5in bore x 2.917in OD, FK WSSX-T (FK WSSX24T)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBWSSX24T (same part); Aurora HCOM-24ET-8 (equivalent); NHBB AKW24V-4010 (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/snap-rings/External-Type Snap Ring 3.07in OD x 0.093in thick, Kartek (Kartek KTK9048SR).sc",
+    "translate": [
+     0.0,
+     0,
+     20.2311
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "External-Type Snap Ring 3.07in OD x 0.093in thick, Kartek (Kartek KTK9048SR)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Uniball Ball 1.5in bore (for WSSX24T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Ball 1.5in bore (for WSSX24T)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "FK"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR).sc",
+    "translate": [
+     0.0,
+     0,
+     24.9174
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "Uniball Ball 1.5in bore (for WSSX24T):1",
+     "point": [
+      0.0,
+      0.0,
+      -24.9174
+     ],
+     "z": [
+      0,
+      0,
+      -1
+     ]
+    },
+    "b": {
+     "occurrence": "Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR):2",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Uniball Cup 2.917in bore x 3.5in OD x 2in tall, Kartek (Kartek KTK9048TT):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Uniball Cup 2.917in bore x 3.5in OD x 2in tall, Kartek (Kartek KTK9048TT):1",
+     "Uniball 1.5in bore x 2.917in OD, FK WSSX-T (FK WSSX24T):1",
+     "External-Type Snap Ring 3.07in OD x 0.093in thick, Kartek (Kartek KTK9048SR):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Uniball 1.5in bore x 2.917in OD, FK WSSX-T (FK WSSX24T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Uniball Ball 1.5in bore (for WSSX24T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Uniball Ball 1.5in bore (for WSSX24T):1",
+     "Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  },
+  {
+   "command": "joint.find_limits",
+   "params": {
+    "joint": "Pivot",
+    "index": 1,
+    "occurrences": [
+     "Uniball Ball 1.5in bore (for WSSX24T):1",
+     "Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR):1",
+     "Trophy Truck Misalignment Spacer 1.5in to 0.75in bolt, 3.5in stack (Kartek KTKHMA15034TTR):2"
+    ],
+    "against": [
+     "Uniball Cup 2.917in bore x 3.5in OD x 2in tall, Kartek (Kartek KTK9048TT):1",
+     "Uniball 1.5in bore x 2.917in OD, FK WSSX-T (FK WSSX24T):1",
+     "External-Type Snap Ring 3.07in OD x 0.093in thick, Kartek (Kartek KTK9048SR):1"
+    ],
+    "exclude_pairs": [
+     [
+      "Uniball 1.5in bore x 2.917in OD, FK WSSX-T (FK WSSX24T):1",
+      "Uniball Ball 1.5in bore (for WSSX24T):1"
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+Uniball 1in bore x 2.125in OD, Aurora AIB-T
+
+Part number:  AIB-16T-3
+Vendor:       Aurora
+Description:  Aurora AIB-16T-3 1" bore heavy duty precision series PTFE lined alloy steel spherical bearing
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.49 (AIB-16)
+
+Also available as:
+  Kartek AUR16TKH300  same part - Kartek stock number for the Aurora part
+  FK HIN16TA          equivalent - listed by Kartek as a cross reference
+  FK WSSX16T          equivalent - listed by Kartek as a cross reference
+  FK AIN16            equivalent - listed by Kartek as a cross reference
+  FK AIN16T           equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 1
+  od: 2.125
+  ball_width: 1.375
+  race_width: 1
+  ball_dia: 1.875
+  catalog_misalignment_deg: 15
+
+Estimated (not published by the vendor):
+  the -3 suffix is not in Aurora's catalog
+  dimensions are the AIB-16 row
+
+Volume check: ok

@@ -1,0 +1,242 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.387028,
+      -7.125005
+     ],
+     [
+      19.0,
+      -7.125005
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.0,
+      -7.125005
+     ],
+     [
+      19.0,
+      7.125005
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.0,
+      7.125005
+     ],
+     [
+      12.387028,
+      7.125005
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     12.387028,
+     7.125005
+    ],
+    "end": [
+     12.387028,
+     -7.125005
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 26.999997,
+    "height": 48.947997,
+    "base": [
+     15.052002,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 54.027997,
+    "width": 32.079997,
+    "height": 13.499998,
+    "corner": [
+     12.512002,
+     -16.039998,
+     11.000003
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat top"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 54.027997,
+    "width": 32.079997,
+    "height": 13.499998,
+    "corner": [
+     12.512002,
+     -16.039998,
+     -24.500002
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat bottom"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 15.999993,
+    "height": 34.27001,
+    "base": [
+     30.999989,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "name": "Tapped hole"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     47.499994,
+     0.0,
+     7.999997
+    ],
+    "designation": "M16x2.0",
+    "hand": "right",
+    "length": 33.00001,
+    "name": "Thread M16 x 2.0"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "JFX16MT",
+     "description": "FK JFX16MT 16mm bore M16 X 2.0 RH female chromoly PTFE lined rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 0.629921,
+       "head_dia": 1.496063,
+       "head_width": 0.561024,
+       "length": 2.519685,
+       "thread": "M16 x 2.0",
+       "thread_dia": 0.629921,
+       "thread_length": 1.299213,
+       "hand": "RH",
+       "ball_width": 0.826772,
+       "ball_dia": 1.125197,
+       "catalog_misalignment_deg": 23.0,
+       "body_dia": 1.062992,
+       "flat": 0.866142,
+       "thread_feature": "cosmetic, M16x2.0"
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBJFX16MT",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "M16 x 2.0",
+      "source": "FK 2017 Industrial Catalog p.28 (JFX16M row, millimetres converted to inches)"
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Race profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.526638,
+      -6.35
+     ],
+     [
+      15.08125,
+      -6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.08125,
+      -6.35
+     ],
+     [
+      15.08125,
+      6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.08125,
+      6.35
+     ],
+     [
+      10.526638,
+      6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     10.526638,
+     6.35
+    ],
+    "end": [
+     10.526638,
+     -6.35
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Race",
+    "body_name": "Race"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Race"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "FKS10T",
+     "description": "FK FKS10T 5/8\" bore heavy duty precision series PTFE lined alloy steel spherical bearing",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing",
+      "units": "in",
+      "dims": {
+       "bore": 0.625,
+       "od": 1.1875,
+       "ball_width": 0.625,
+       "race_width": 0.5,
+       "ball_dia": 0.968,
+       "catalog_misalignment_deg": 8.5
+      },
+      "estimated": [],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBFKS10TF1",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part; F1 fit"
+       },
+       {
+        "other_vendor": "Aurora",
+        "other_part_number": "COM-10T",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "Aurora",
+        "other_part_number": "COM-10TKH",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "Fox",
+        "other_part_number": "001-00-006-A",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       },
+       {
+        "other_vendor": "King",
+        "other_part_number": "B1058",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       }
+      ],
+      "source": "FK 2017 Industrial Catalog p.31"
+     }
+    }
+   }
+  }
+ ]
+}

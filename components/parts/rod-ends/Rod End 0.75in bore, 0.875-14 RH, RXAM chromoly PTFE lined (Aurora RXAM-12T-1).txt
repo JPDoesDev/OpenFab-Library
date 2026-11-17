@@ -1,0 +1,30 @@
+Rod End 0.75in bore, 0.875-14 RH, RXAM chromoly PTFE lined
+
+Part number:  RXAM-12T-1
+Vendor:       Aurora
+Description:  Aurora RXAM-12T-1 3/4" bore 7/8-14 RH male extra heavy duty alloy PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.39 (RXAM-12T-1 row)
+
+Also available as:
+  Kartek AURRXAM12T1  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  style: male
+  bore: 0.75
+  head_dia: 2
+  head_width: 0.687
+  length: 3.375
+  thread: 7/8-14 UNJF-3A
+  thread_dia: 0.875
+  thread_length: 1.875
+  hand: RH
+  ball_width: 0.875
+  ball_dia: 1.312
+  catalog_misalignment_deg: 12
+  thread_feature: cosmetic, M22.225x1.8143 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

@@ -1,0 +1,16 @@
+Uniball Ball 0.75in bore (for COM-12TKH)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of COM-12TKH (moves in the race; counted in the BOM with the race)
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.45 (COM-12KH)
+
+Dimensions (inches):
+  bore: 0.75
+  od: 1.4375
+  ball_width: 0.75
+  race_width: 0.593
+  ball_dia: 1.187
+  catalog_misalignment_deg: 9
+
+Volume check: ok

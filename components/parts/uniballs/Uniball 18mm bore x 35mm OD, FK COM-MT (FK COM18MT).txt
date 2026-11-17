@@ -1,0 +1,20 @@
+Uniball 18mm bore x 35mm OD, FK COM-MT
+
+Part number:  COM18MT
+Vendor:       FK
+Description:  FK COM18MT 18mm bore metric commercial series PTFE lined steel spherical bearing
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.30 (COM18M; millimetres converted to inches)
+
+Also available as:
+  Kartek FKBCOM18MT  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  bore: 0.7087
+  od: 1.378
+  ball_width: 0.9055
+  race_width: 0.6496
+  ball_dia: 1.25
+  catalog_misalignment_deg: 15
+
+Volume check: ok

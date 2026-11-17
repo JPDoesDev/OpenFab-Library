@@ -1,0 +1,20 @@
+Uniball 0.625in bore x 1.1875in OD, FK WSSX-T
+
+Part number:  WSSX10T
+Vendor:       FK
+Description:  FK WSSX10T 5/8" bore wide series PTFE lined stainless spherical bearing
+Material:     stainless
+Source:       FK 2017 Industrial Catalog p.33
+
+Also available as:
+  Kartek FKBWSSX10T  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.1875
+  ball_width: 0.75
+  race_width: 0.567
+  ball_dia: 1.062
+  catalog_misalignment_deg: 12
+
+Volume check: ok

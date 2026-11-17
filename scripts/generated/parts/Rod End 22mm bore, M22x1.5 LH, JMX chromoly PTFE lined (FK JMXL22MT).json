@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.365815,
+      -9.750006
+     ],
+     [
+      25.000001,
+      -9.750006
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      25.000001,
+      -9.750006
+     ],
+     [
+      25.000001,
+      9.750006
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      25.000001,
+      9.750006
+     ],
+     [
+      16.365815,
+      9.750006
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     16.365815,
+     9.750006
+    ],
+    "end": [
+     16.365815,
+     -9.750006
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 22.000007,
+    "height": 63.487636,
+    "base": [
+     22.51237,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     54.256188,
+     0.0,
+     11.000003
+    ],
+    "designation": "M22x1.5",
+    "hand": "left",
+    "length": 51.0,
+    "name": "Thread M22 x 1.5 LH"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "JMXL22MT",
+     "description": "FK JMXL22MT 22mm bore M22 X 1.5 LH male chromoly PTFE lined rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.866142,
+       "head_dia": 1.968504,
+       "head_width": 0.767717,
+       "length": 3.385827,
+       "thread": "M22 x 1.5 LH",
+       "thread_dia": 0.866142,
+       "thread_length": 2.007874,
+       "hand": "LH",
+       "ball_width": 1.102362,
+       "ball_dia": 1.5,
+       "catalog_misalignment_deg": 22.0,
+       "thread_feature": "cosmetic, M22x1.5"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBJMXL22MT",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "M22 x 1.5 LH",
+      "source": "FK 2017 Industrial Catalog p.27 (JMX22M row, millimetres converted to inches)"
+     }
+    }
+   }
+  }
+ ]
+}

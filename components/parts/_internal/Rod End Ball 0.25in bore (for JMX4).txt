@@ -1,0 +1,26 @@
+Rod End Ball 0.25in bore (for JMX4)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of JMX4 (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.11 (JMX4 row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.25
+  head_dia: 0.75
+  head_width: 0.281
+  length: 1.562
+  thread: 1/4-28 UNF-3A
+  thread_dia: 0.25
+  thread_length: 1
+  hand: RH
+  ball_width: 0.375
+  ball_dia: 0.5
+  catalog_misalignment_deg: 16
+  thread_feature: cosmetic, M6.35x0.9071 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

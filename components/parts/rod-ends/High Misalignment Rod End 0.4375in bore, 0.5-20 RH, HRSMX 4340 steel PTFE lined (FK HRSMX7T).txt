@@ -1,0 +1,33 @@
+High Misalignment Rod End 0.4375in bore, 0.5-20 RH, HRSMX 4340 steel PTFE lined
+
+Part number:  HRSMX7T
+Vendor:       FK
+Description:  FK HRSMX7T 7/16" bore 1/2-20 RH male high misalignment heavy shank 4340 steel PTFE lined rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.17 (HRSMX7T row)
+
+Also available as:
+  Kartek FKBHRSMX7T    same part - Kartek stock number for the FK part
+  Kartek FKBHRSMX7TF1  fit variant - Kartek stock number for the F1 fit (ball preload) of the FK part; same dimensions
+  Aurora HXAM-7T       equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  style: male
+  bore: 0.4375
+  head_dia: 1.337
+  head_width: 0.355
+  length: 2.438
+  thread: 1/2-20 UNF-3A
+  thread_dia: 0.5
+  thread_length: 1.468
+  hand: RH
+  ball_width: 0.875
+  ball_dia: 0.875
+  catalog_misalignment_deg: 21
+  shoulder_dia: 0.618
+  thread_feature: cosmetic, M12.7x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

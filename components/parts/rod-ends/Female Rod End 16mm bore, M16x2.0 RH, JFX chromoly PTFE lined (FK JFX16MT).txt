@@ -1,0 +1,34 @@
+Female Rod End 16mm bore, M16x2.0 RH, JFX chromoly PTFE lined
+
+Part number:  JFX16MT
+Vendor:       FK
+Description:  FK JFX16MT 16mm bore M16 X 2.0 RH female chromoly PTFE lined rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.28 (JFX16M row, millimetres converted to inches)
+
+Also available as:
+  Kartek FKBJFX16MT  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: female
+  bore: 0.6299
+  head_dia: 1.4961
+  head_width: 0.561
+  length: 2.5197
+  thread: M16 x 2.0
+  thread_dia: 0.6299
+  thread_length: 1.2992
+  hand: RH
+  ball_width: 0.8268
+  ball_dia: 1.1252
+  catalog_misalignment_deg: 23
+  body_dia: 1.063
+  flat: 0.8661
+  thread_feature: cosmetic, M16x2.0
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+
+Volume check: not checked

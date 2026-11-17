@@ -1,0 +1,31 @@
+Rod End 0.3125in bore, 0.3125-24 RH, KMX chromoly nylon race
+
+Part number:  KMX5
+Vendor:       FK
+Description:  FK KMX5 5/16" bore 5/16-24 RH male 3-piece chromoly nylon race rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.15 (KMX5 row)
+
+Also available as:
+  Kartek FKBKMX5  same part - Kartek stock number for the FK part
+  Aurora RAM-5T   equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  style: male
+  bore: 0.3125
+  head_dia: 0.875
+  head_width: 0.344
+  length: 1.875
+  thread: 5/16-24 UNF-3A
+  thread_dia: 0.3125
+  thread_length: 1.25
+  hand: RH
+  ball_width: 0.437
+  ball_dia: 0.625
+  catalog_misalignment_deg: 14
+  thread_feature: cosmetic, M7.9375x1.0583 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

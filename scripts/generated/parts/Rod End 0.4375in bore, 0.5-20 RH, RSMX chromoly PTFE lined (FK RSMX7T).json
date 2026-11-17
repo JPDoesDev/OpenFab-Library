@@ -1,0 +1,193 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      8.691617,
+      -5.5499
+     ],
+     [
+      16.6624,
+      -5.5499
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.6624,
+      -5.5499
+     ],
+     [
+      16.6624,
+      5.5499
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.6624,
+      5.5499
+     ],
+     [
+      8.691617,
+      5.5499
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     8.691617,
+     5.5499
+    ],
+    "end": [
+     8.691617,
+     -5.5499
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 12.7,
+    "height": 46.722243,
+    "base": [
+     15.202957,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     38.564079,
+     0.0,
+     6.35
+    ],
+    "designation": "M12.7x1.27",
+    "hand": "right",
+    "length": 38.1,
+    "name": "Thread 1/2-20 UNF-3A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "RSMX7T",
+     "description": "FK RSMX7T 7/16\" bore 1/2-20 RH male heavy shank chromoly PTFE lined rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.4375,
+       "head_dia": 1.312,
+       "head_width": 0.437,
+       "length": 2.438,
+       "thread": "1/2-20 UNF-3A",
+       "thread_dia": 0.5,
+       "thread_length": 1.5,
+       "hand": "RH",
+       "ball_width": 0.562,
+       "ball_dia": 0.812,
+       "catalog_misalignment_deg": 12.0,
+       "thread_feature": "cosmetic, M12.7x1.27 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBRSMX7T",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       },
+       {
+        "other_vendor": "Aurora",
+        "other_part_number": "RXAM-7T",
+        "relation": "equivalent",
+        "note": "listed by Kartek as a cross reference"
+       }
+      ],
+      "thread": "1/2-20 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.21 (RSMX7 row)"
+     }
+    }
+   }
+  }
+ ]
+}

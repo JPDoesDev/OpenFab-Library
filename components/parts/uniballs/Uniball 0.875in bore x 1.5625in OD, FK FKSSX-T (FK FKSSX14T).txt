@@ -1,0 +1,21 @@
+Uniball 0.875in bore x 1.5625in OD, FK FKSSX-T
+
+Part number:  FKSSX14T
+Vendor:       FK
+Description:  FK FKSSX14T 7/8" bore precision narrow series PTFE lined stainless spherical bearing
+Material:     stainless
+Source:       FK 2017 Industrial Catalog p.32
+
+Also available as:
+  Kartek FKBFKSSX14T    same part - Kartek stock number for the FK part; F2 fit
+  Kartek FKBFKSSX14TF1  same part - Kartek stock number for the FK part; F1 fit
+
+Dimensions (inches):
+  bore: 0.875
+  od: 1.5625
+  ball_width: 0.875
+  race_width: 0.703
+  ball_dia: 1.312
+  catalog_misalignment_deg: 9.5
+
+Volume check: ok

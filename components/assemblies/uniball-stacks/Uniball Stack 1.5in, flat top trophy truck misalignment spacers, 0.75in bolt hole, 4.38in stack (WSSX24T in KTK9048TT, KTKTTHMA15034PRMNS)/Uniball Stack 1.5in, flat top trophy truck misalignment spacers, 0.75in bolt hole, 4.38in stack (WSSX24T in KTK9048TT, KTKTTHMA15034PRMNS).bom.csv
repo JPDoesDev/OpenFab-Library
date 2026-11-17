@@ -1,0 +1,5 @@
+item,qty,vendor,part_number,description,also_available_as
+1,1,Kartek,KTK9048SR,Kartek snap ring (Kartek supplies an external-type ring) for Kartek 9048 series uniball cups,
+2,1,Kartek,KTK9048TT,"Kartek 4130 uniball cup for 1-1/2"" bore uniballs 2"" tall 3-1/2"" OD; Trophy Truck cup for the 2.917"" OD WSSX24T (same outside size as the KTK9046HD)",
+3,2,Kartek,KTKTTHMA15034PRMNS,"Trophy Truck 17-4 Stainless Steel Flat Top Misalignment Spacer 1-1/2"" Uniball 3/4"" Bolt 4-3/8"" Stack",
+4,1,FK,WSSX24T,"FK WSSX24T 1-1/2"" bore wide series PTFE lined stainless spherical bearing",Kartek FKBWSSX24T (same part); Aurora HCOM-24ET-8 (equivalent); NHBB AKW24V-4010 (equivalent)

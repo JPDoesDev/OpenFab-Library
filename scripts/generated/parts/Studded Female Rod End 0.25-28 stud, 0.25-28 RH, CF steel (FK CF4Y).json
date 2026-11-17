@@ -1,0 +1,253 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      5.499261,
+      -3.175
+     ],
+     [
+      9.525,
+      -3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      -3.175
+     ],
+     [
+      9.525,
+      3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      3.175
+     ],
+     [
+      5.499261,
+      3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     5.499261,
+     3.175
+    ],
+    "end": [
+     5.499261,
+     -3.175
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 11.8872,
+    "height": 25.881733,
+    "base": [
+     7.443067,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 30.961733,
+    "width": 16.9672,
+    "height": 5.9436,
+    "corner": [
+     4.903067,
+     -8.4836,
+     4.7625
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat top"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 30.961733,
+    "width": 16.9672,
+    "height": 5.9436,
+    "corner": [
+     4.903067,
+     -8.4836,
+     -10.7061
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat bottom"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 6.35,
+    "height": 18.7198,
+    "base": [
+     15.875,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "name": "Tapped hole"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     24.5999,
+     0.0,
+     3.175
+    ],
+    "designation": "M6.35x0.9071",
+    "hand": "right",
+    "length": 17.4498,
+    "name": "Thread 1/4-28 UNF-2B"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "CF4Y",
+     "description": "FK CF4Y 1/4\" size 1/4-28 RH female economy 2-piece low carbon steel rod end with 1/4-28 stud",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 0.25,
+       "head_dia": 0.75,
+       "head_width": 0.25,
+       "length": 1.312,
+       "thread": "1/4-28 UNF-2B",
+       "thread_dia": 0.25,
+       "thread_length": 0.687,
+       "hand": "RH",
+       "ball_width": 0.375,
+       "ball_dia": 0.5,
+       "catalog_misalignment_deg": 27.0,
+       "body_dia": 0.468,
+       "flat": 0.375,
+       "thread_feature": "cosmetic, M6.35x0.9071 (the Unified size in millimetres)",
+       "stud_length": 1.031,
+       "stud_hex_length": 0.562,
+       "stud_thread_length": 0.5,
+       "stud_thread": "1/4-28 UNF-2A",
+       "stud_thread_dia": 0.25,
+       "stud_hex": 0.4375,
+       "stud_hex_thickness": 0.1407,
+       "stud_neck_dia": 0.25
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body",
+       "stud hex thickness and neck (half each of the space between the ball face and the hex face)",
+       "stud neck diameter (the stud's thread diameter)",
+       "ball is solid on the side away from the stud"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBCF4Y",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "1/4-28 UNF-2B",
+      "source": "FK 2017 Industrial Catalog p.3 (CF4 row); stud: FK 2017 Industrial Catalog p.45"
+     }
+    }
+   }
+  }
+ ]
+}

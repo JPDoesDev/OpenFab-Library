@@ -1,0 +1,16 @@
+Uniball Ball 0.3125in bore (for WSSX5T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of WSSX5T (moves in the race; counted in the BOM with the race)
+Material:     stainless
+Source:       FK 2017 Industrial Catalog p.33
+
+Dimensions (inches):
+  bore: 0.3125
+  od: 0.6875
+  ball_width: 0.437
+  race_width: 0.317
+  ball_dia: 0.593
+  catalog_misalignment_deg: 14
+
+Volume check: ok

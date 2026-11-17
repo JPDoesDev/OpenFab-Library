@@ -1,0 +1,155 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      3.96875,
+      -5.5499
+     ],
+     [
+      5.674726,
+      -5.5499
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     5.674726,
+     -5.5499
+    ],
+    "end": [
+     5.674726,
+     5.5499
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      5.674726,
+      5.5499
+     ],
+     [
+      3.96875,
+      5.5499
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      3.96875,
+      5.5499
+     ],
+     [
+      3.96875,
+      -5.5499
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of CF5 (moves in the body; counted in the BOM with the body)",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 0.3125,
+       "head_dia": 0.875,
+       "head_width": 0.312,
+       "length": 1.375,
+       "thread": "5/16-24 UNF-2B",
+       "thread_dia": 0.3125,
+       "thread_length": 0.687,
+       "hand": "RH",
+       "ball_width": 0.437,
+       "ball_dia": 0.625,
+       "catalog_misalignment_deg": 22.0,
+       "body_dia": 0.5,
+       "flat": 0.437,
+       "thread_feature": "cosmetic, M7.9375x1.0583 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body"
+      ],
+      "also_available_as": [],
+      "thread": "5/16-24 UNF-2B",
+      "source": "FK 2017 Industrial Catalog p.3 (CF5 row)"
+     }
+    }
+   }
+  }
+ ]
+}

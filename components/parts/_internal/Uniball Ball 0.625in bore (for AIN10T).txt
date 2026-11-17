@@ -1,0 +1,16 @@
+Uniball Ball 0.625in bore (for AIN10T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of AIN10T (moves in the race; counted in the BOM with the race)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.37
+
+Dimensions (inches):
+  bore: 0.625
+  od: 1.3125
+  ball_width: 0.75
+  race_width: 0.562
+  ball_dia: 1.125
+  catalog_misalignment_deg: 12
+
+Volume check: ok

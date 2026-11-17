@@ -1,0 +1,32 @@
+Heavy Duty Weld-In Bung 0.875-14 RH for 1.75in x 0.12in wall tube
+
+Part number:  KTK875TBMHD
+Vendor:       Kartek
+Description:  Heavy Duty Round Bungs Right Hand Thread For 7/8" Heim Joint For 1-3/4" Diameter 0.120" Wall Tube
+Material:     4130
+Source:       https://www.kartek.com/parts/heavy-duty-round-bungs-right-hand-thread-for-78-heim-joint-for-1-34-diameter-0120-wall-tube.html
+
+Dimensions (inches):
+  style: heavy duty round
+  thread: 7/8-14 UNF
+  thread_dia: 0.875
+  tpi: 14
+  hand: RH
+  length: 2.5
+  thread_depth: 1.875
+  bore_dia: 0.875
+  through_bore_dia: 0.7977
+  od: 1.5
+  tube_od: 1.75
+  tube_wall: 0.12
+  tube_id: 1.51
+  insertion_length: 2.5
+  thread_feature: cosmetic, M22.225x1.8143 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  thread depth 1.875in: Kartek says only that it is not threaded all the way through; taken as 3/4 of the length
+  bore at thread major diameter, as the jam nuts; past the thread depth at the basic minor diameter (tap drill assumed); the thread is cosmetic only
+  insertion length: shoulderless, so all of it, taken as flush with the tube end
+  0.03in chamfers on the outside edges
+
+Volume check: ok

@@ -1,0 +1,92 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Nut hex",
+    "plane": "XY",
+    "offset": -4.7625
+   }
+  },
+  {
+   "command": "sketch.polygon.circumscribed",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 11.90625,
+    "sides": 6
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 7.999997
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 9.525,
+    "operation": "new",
+    "name": "Nut",
+    "body_name": "Nut"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Nut"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "SJNR16M",
+     "description": "FK SJNR16M M16 x 2.0 RH steel jam nut",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "jam_nut",
+      "units": "in",
+      "dims": {
+       "hex": 0.9375,
+       "width": 0.375,
+       "thread": "M16x2.0 6H",
+       "thread_dia": 0.629921,
+       "hand": "RH"
+      },
+      "estimated": [
+       "bore is at thread major diameter; thread not modelled",
+       "thread pitch: FK catalog says M16 x 2.0 but Kartek's listing title says 16mm x 1.5",
+       "FK catalog followed"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBSJNR16M",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "M16x2.0 6H",
+      "source": "FK 2017 Industrial Catalog p.41"
+     }
+    }
+   }
+  }
+ ]
+}

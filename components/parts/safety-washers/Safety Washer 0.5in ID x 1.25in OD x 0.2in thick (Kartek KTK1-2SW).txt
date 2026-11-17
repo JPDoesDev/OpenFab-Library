@@ -1,0 +1,18 @@
+Safety Washer 0.5in ID x 1.25in OD x 0.2in thick
+
+Part number:  KTK1/2SW
+Vendor:       Kartek
+Description:  Heim Joint Safety Washer Prevents 1/2 Inch Allen Or Twelve Point Bolt From Pulling Through The Heim
+Material:     steel
+Source:       https://www.kartek.com/parts/heim-joint-safety-washer-prevents-12-inch-allen-or-twelve-point-bolt-from-pulling-through-the-heim.html
+
+Dimensions (inches):
+  od: 1.25
+  id: 0.5
+  thickness: 0.2
+
+Estimated (not published by the vendor):
+  material not published (modelled as steel)
+  slight tapered profile not dimensioned (modelled flat)
+
+Volume check: ok

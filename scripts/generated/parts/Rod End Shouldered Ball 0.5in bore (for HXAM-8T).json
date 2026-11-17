@@ -1,0 +1,184 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      -11.8999
+     ],
+     [
+      9.271,
+      -11.8999
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.271,
+      -11.8999
+     ],
+     [
+      9.271,
+      -8.679779
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     9.271,
+     -8.679779
+    ],
+    "end": [
+     9.271,
+     8.679779
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.271,
+      8.679779
+     ],
+     [
+      9.271,
+      11.8999
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.271,
+      11.8999
+     ],
+     [
+      6.35,
+      11.8999
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      11.8999
+     ],
+     [
+      6.35,
+      -11.8999
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of HXAM-8T (moves in the body; counted in the BOM with the body)",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.5,
+       "head_dia": 1.525,
+       "head_width": 0.411,
+       "length": 2.625,
+       "thread": "5/8-18 UNJF-3A",
+       "thread_dia": 0.625,
+       "thread_length": 1.562,
+       "hand": "RH",
+       "ball_width": 0.937,
+       "ball_dia": 1.0,
+       "catalog_misalignment_deg": 19.0,
+       "shoulder_dia": 0.73,
+       "thread_feature": "cosmetic, M15.875x1.4111 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [],
+      "thread": "5/8-18 UNJF-3A",
+      "source": "Aurora Bearing catalog p.42 (HXAM-8T row)"
+     }
+    }
+   }
+  }
+ ]
+}

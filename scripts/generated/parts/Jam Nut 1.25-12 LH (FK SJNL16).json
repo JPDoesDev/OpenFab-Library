@@ -1,0 +1,91 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Nut hex",
+    "plane": "XY",
+    "offset": -6.985
+   }
+  },
+  {
+   "command": "sketch.polygon.circumscribed",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 20.6375,
+    "sides": 6
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 15.875
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 13.97,
+    "operation": "new",
+    "name": "Nut",
+    "body_name": "Nut"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Nut"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "SJNL16",
+     "description": "FK SJNL16 1 1/4-12 LH steel jam nut",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "jam_nut",
+      "units": "in",
+      "dims": {
+       "hex": 1.625,
+       "width": 0.55,
+       "thread": "1 1/4-12 UNF-2B LH",
+       "thread_dia": 1.25,
+       "hand": "LH"
+      },
+      "estimated": [
+       "bore is at thread major diameter; thread not modelled",
+       "hex size may vary with material availability (FK catalog note)"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBSJNL16",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "1 1/4-12 UNF-2B LH",
+      "source": "FK 2017 Industrial Catalog p.41"
+     }
+    }
+   }
+  }
+ ]
+}

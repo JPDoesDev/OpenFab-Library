@@ -1,0 +1,31 @@
+High Misalignment Rod End 0.625in bore, 0.75-16 LH, HXAM 4340 steel PTFE lined
+
+Part number:  HXAB-10T
+Vendor:       Aurora
+Description:  Aurora HXAB-10T 5/8" bore 3/4-16 LH male high misalignment 4340 steel PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.42 (HXAM-10T row)
+
+Also available as:
+  Kartek AURHXAB10T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  style: male
+  bore: 0.625
+  head_dia: 1.775
+  head_width: 0.577
+  length: 2.875
+  thread: 3/4-16 UNJF-3A LH
+  thread_dia: 0.75
+  thread_length: 1.687
+  hand: LH
+  ball_width: 1.2
+  ball_dia: 1.25
+  catalog_misalignment_deg: 19
+  shoulder_dia: 0.856
+  thread_feature: cosmetic, M19.05x1.5875 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

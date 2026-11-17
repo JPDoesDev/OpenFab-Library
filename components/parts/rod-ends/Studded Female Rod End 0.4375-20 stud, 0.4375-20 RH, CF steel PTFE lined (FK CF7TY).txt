@@ -1,0 +1,45 @@
+Studded Female Rod End 0.4375-20 stud, 0.4375-20 RH, CF steel PTFE lined
+
+Part number:  CF7TY
+Vendor:       FK
+Description:  FK CF7TY 7/16" size 7/16-20 RH female economy 2-piece low carbon steel PTFE lined rod end with 7/16-20 stud
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.3 (CF7 row); stud: FK 2017 Industrial Catalog p.45
+
+Also available as:
+  Kartek FKBCF7TY  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: female
+  bore: 0.4375
+  head_dia: 1.125
+  head_width: 0.406
+  length: 1.812
+  thread: 7/16-20 UNF-2B
+  thread_dia: 0.4375
+  thread_length: 0.937
+  hand: RH
+  ball_width: 0.562
+  ball_dia: 0.812
+  catalog_misalignment_deg: 21
+  body_dia: 0.75
+  flat: 0.625
+  thread_feature: cosmetic, M11.1125x1.27 (the Unified size in millimetres)
+  stud_length: 1.75
+  stud_hex_length: 1.062
+  stud_thread_length: 0.937
+  stud_thread: 7/16-20 UNF-2A
+  stud_thread_dia: 0.4375
+  stud_hex: 0.5625
+  stud_hex_thickness: 0.2035
+  stud_neck_dia: 0.4375
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+  stud hex thickness and neck (half each of the space between the ball face and the hex face)
+  stud neck diameter (the stud's thread diameter)
+  ball is solid on the side away from the stud
+
+Volume check: not checked

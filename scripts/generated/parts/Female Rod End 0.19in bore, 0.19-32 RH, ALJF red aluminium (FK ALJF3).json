@@ -1,0 +1,250 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      4.552007,
+      -3.175
+     ],
+     [
+      7.9375,
+      -3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.9375,
+      -3.175
+     ],
+     [
+      7.9375,
+      3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.9375,
+      3.175
+     ],
+     [
+      4.552007,
+      3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     4.552007,
+     3.175
+    ],
+    "end": [
+     4.552007,
+     -3.175
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 10.3124,
+    "height": 20.6629,
+    "base": [
+     6.3119,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 25.7429,
+    "width": 15.3924,
+    "height": 5.1562,
+    "corner": [
+     3.7719,
+     -7.6962,
+     3.9624
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat top"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 25.7429,
+    "width": 15.3924,
+    "height": 5.1562,
+    "corner": [
+     3.7719,
+     -7.6962,
+     -9.1186
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat bottom"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 4.826,
+    "height": 13.97,
+    "base": [
+     14.2748,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "name": "Tapped hole"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     20.6248,
+     0.0,
+     2.413
+    ],
+    "designation": "M4.826x0.7937",
+    "hand": "right",
+    "length": 12.7,
+    "name": "Thread 10-32 UNF-2B"
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "Aluminum 7075-T6 Red Anodized",
+    "density_g_cm3": 2.81,
+    "color": "#b3261e"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Aluminum 7075-T6 Red Anodized"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "ALJF3",
+     "description": "FK ALJF3 3/16\" bore 10-32 RH female 7075 aluminium red anodized rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 0.19,
+       "head_dia": 0.625,
+       "head_width": 0.25,
+       "length": 1.062,
+       "thread": "10-32 UNF-2B",
+       "thread_dia": 0.19,
+       "thread_length": 0.5,
+       "hand": "RH",
+       "ball_width": 0.312,
+       "ball_dia": 0.437,
+       "catalog_misalignment_deg": 13.0,
+       "body_dia": 0.406,
+       "flat": 0.312,
+       "thread_feature": "cosmetic, M4.826x0.7937 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBALJF3",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "10-32 UNF-2B",
+      "source": "FK 2017 Industrial Catalog p.19 (ALJF3 row)"
+     }
+    }
+   }
+  }
+ ]
+}

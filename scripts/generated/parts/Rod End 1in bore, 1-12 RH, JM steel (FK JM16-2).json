@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.021742,
+      -12.8905
+     ],
+     [
+      37.465,
+      -12.8905
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      37.465,
+      -12.8905
+     ],
+     [
+      37.465,
+      12.8905
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      37.465,
+      12.8905
+     ],
+     [
+      20.021742,
+      12.8905
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     20.021742,
+     12.8905
+    ],
+    "end": [
+     20.021742,
+     -12.8905
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 25.4,
+    "height": 79.630433,
+    "base": [
+     34.669567,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     74.484784,
+     0.0,
+     12.7
+    ],
+    "designation": "M25.4x2.1167",
+    "hand": "right",
+    "length": 63.5,
+    "name": "Thread 1-12 UNF-3A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "JM16-2",
+     "description": "FK JM16-2 1\" bore 1-12 RH male 3-piece low carbon steel rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 1.0,
+       "head_dia": 2.95,
+       "head_width": 1.015,
+       "length": 4.5,
+       "thread": "1-12 UNF-3A",
+       "thread_dia": 1.0,
+       "thread_length": 2.5,
+       "hand": "RH",
+       "ball_width": 1.375,
+       "ball_dia": 1.875,
+       "catalog_misalignment_deg": 17.0,
+       "thread_feature": "cosmetic, M25.4x2.1167 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBJM162",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "1-12 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.9 (JM16-2 row)"
+     }
+    }
+   }
+  }
+ ]
+}

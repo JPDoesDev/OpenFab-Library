@@ -1,0 +1,26 @@
+Rod End Ball 0.375in bore (for KMXL6)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of KMXL6 (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.15 (KMX6 row)
+
+Dimensions (inches):
+  style: male
+  bore: 0.375
+  head_dia: 1
+  head_width: 0.406
+  length: 1.938
+  thread: 3/8-24 UNF-3A LH
+  thread_dia: 0.375
+  thread_length: 1.25
+  hand: LH
+  ball_width: 0.5
+  ball_dia: 0.719
+  catalog_misalignment_deg: 12
+  thread_feature: cosmetic, M9.525x1.0583 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: ok

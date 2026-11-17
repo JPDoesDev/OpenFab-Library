@@ -1,0 +1,184 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      -16.256
+     ],
+     [
+      12.319,
+      -16.256
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.319,
+      -16.256
+     ],
+     [
+      12.319,
+      -12.376637
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     12.319,
+     -12.376637
+    ],
+    "end": [
+     12.319,
+     12.376637
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.319,
+      12.376637
+     ],
+     [
+      12.319,
+      16.256
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.319,
+      16.256
+     ],
+     [
+      9.525,
+      16.256
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      16.256
+     ],
+     [
+      9.525,
+      -16.256
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of HRSMX12T (moves in the body; counted in the BOM with the body)",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.75,
+       "head_dia": 2.025,
+       "head_width": 0.63,
+       "length": 3.375,
+       "thread": "7/8-14 UNF-3A",
+       "thread_dia": 0.875,
+       "thread_length": 2.0,
+       "hand": "RH",
+       "ball_width": 1.28,
+       "ball_dia": 1.375,
+       "catalog_misalignment_deg": 18.0,
+       "shoulder_dia": 0.97,
+       "thread_feature": "cosmetic, M22.225x1.8143 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [],
+      "thread": "7/8-14 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.17 (HRSMX12T row)"
+     }
+    }
+   }
+  }
+ ]
+}

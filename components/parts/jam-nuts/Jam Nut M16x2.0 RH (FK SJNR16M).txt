@@ -1,0 +1,24 @@
+Jam Nut M16x2.0 RH
+
+Part number:  SJNR16M
+Vendor:       FK
+Description:  FK SJNR16M M16 x 2.0 RH steel jam nut
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBSJNR16M  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 0.9375
+  width: 0.375
+  thread: M16x2.0 6H
+  thread_dia: 0.6299
+  hand: RH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+  thread pitch: FK catalog says M16 x 2.0 but Kartek's listing title says 16mm x 1.5
+  FK catalog followed
+
+Volume check: ok

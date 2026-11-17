@@ -1,0 +1,250 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/rod-ends/Rod End 0.875in bore, 0.875-14 RH, JMX chromoly PTFE lined (FK JMX14T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Rod End 0.875in bore, 0.875-14 RH, JMX chromoly PTFE lined (FK JMX14T)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBJMX14TF1 (fit variant); Kartek FKBJMX14T (same part)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/jam-nuts/Jam Nut 0.875-14 RH (FK SJNR14).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Jam Nut 0.875-14 RH (FK SJNR14)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBSJNR14 (same part)"
+    }
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "Rod End 0.875in bore, 0.875-14 RH, JMX chromoly PTFE lined (FK JMX14T):1",
+     "point": [
+      50.8,
+      0.0,
+      0.0
+     ],
+     "z": [
+      1,
+      0,
+      0
+     ]
+    },
+    "b": {
+     "occurrence": "Jam Nut 0.875-14 RH (FK SJNR14):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Rod End Ball 0.875in bore (for JMX14T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Rod End Ball 0.875in bore (for JMX14T)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "FK"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Straight Spacer 0.875in to 0.625in bolt, 1.624in stack (Kartek KTK7858SRT).sc",
+    "translate": [
+     0.0,
+     0,
+     11.1125
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Straight Spacer 0.875in to 0.625in bolt, 1.624in stack (Kartek KTK7858SRT)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Straight Spacer 0.875in to 0.625in bolt, 1.624in stack (Kartek KTK7858SRT).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 2",
+    "flip": true,
+    "a": {
+     "occurrence": "Rod End Ball 0.875in bore (for JMX14T):1",
+     "point": [
+      0.0,
+      0.0,
+      -11.1125
+     ],
+     "z": [
+      0,
+      0,
+      -1
+     ]
+    },
+    "b": {
+     "occurrence": "Straight Spacer 0.875in to 0.625in bolt, 1.624in stack (Kartek KTK7858SRT):2",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Rod End 0.875in bore, 0.875-14 RH, JMX chromoly PTFE lined (FK JMX14T):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Rod End 0.875in bore, 0.875-14 RH, JMX chromoly PTFE lined (FK JMX14T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Rod End Ball 0.875in bore (for JMX14T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Rod End Ball 0.875in bore (for JMX14T):1",
+     "Straight Spacer 0.875in to 0.625in bolt, 1.624in stack (Kartek KTK7858SRT):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  },
+  {
+   "command": "joint.find_limits",
+   "params": {
+    "joint": "Pivot",
+    "index": 1,
+    "occurrences": [
+     "Rod End Ball 0.875in bore (for JMX14T):1",
+     "Straight Spacer 0.875in to 0.625in bolt, 1.624in stack (Kartek KTK7858SRT):1",
+     "Straight Spacer 0.875in to 0.625in bolt, 1.624in stack (Kartek KTK7858SRT):2"
+    ],
+    "against": [
+     "Rod End 0.875in bore, 0.875-14 RH, JMX chromoly PTFE lined (FK JMX14T):1",
+     "Jam Nut 0.875-14 RH (FK SJNR14):1"
+    ],
+    "exclude_pairs": [
+     [
+      "Rod End 0.875in bore, 0.875-14 RH, JMX chromoly PTFE lined (FK JMX14T):1",
+      "Rod End Ball 0.875in bore (for JMX14T):1"
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+Rod End 0.4375in bore, 0.4375-20 RH, JMX chromoly PTFE lined
+
+Part number:  JMX7T
+Vendor:       FK
+Description:  FK JMX7T 7/16" bore 7/16-20 RH male chromoly PTFE lined rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.11 (JMX7 row)
+
+Also available as:
+  Kartek FKBJMX7T  same part - Kartek stock number for the FK part
+  Aurora RAM-7T    equivalent - listed by Kartek as a cross reference
+  Aurora PRM-7T    equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  style: male
+  bore: 0.4375
+  head_dia: 1.125
+  head_width: 0.437
+  length: 2.125
+  thread: 7/16-20 UNF-3A
+  thread_dia: 0.4375
+  thread_length: 1.375
+  hand: RH
+  ball_width: 0.562
+  ball_dia: 0.812
+  catalog_misalignment_deg: 14
+  thread_feature: cosmetic, M11.1125x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

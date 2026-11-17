@@ -1,0 +1,23 @@
+Jam Nut 0.875-14 RH
+
+Part number:  SJNR14
+Vendor:       FK
+Description:  FK SJNR14 7/8-14 RH steel jam nut
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBSJNR14  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 1.25
+  width: 0.5
+  thread: 7/8-14 UNF-2B
+  thread_dia: 0.875
+  hand: RH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+  hex size may vary with material availability (FK catalog note)
+
+Volume check: ok

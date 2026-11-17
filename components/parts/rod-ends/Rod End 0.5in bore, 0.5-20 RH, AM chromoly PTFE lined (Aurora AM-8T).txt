@@ -1,0 +1,30 @@
+Rod End 0.5in bore, 0.5-20 RH, AM chromoly PTFE lined
+
+Part number:  AM-8T
+Vendor:       Aurora
+Description:  Aurora AM-8T 1/2" bore 1/2-20 RH male high strength alloy PTFE lined rod end
+Material:     steel
+Source:       Aurora Bearing catalog p.34 (AM-8 row)
+
+Also available as:
+  Kartek AURAM8T  same part - Kartek stock number for the Aurora part
+
+Dimensions (inches):
+  style: male
+  bore: 0.5
+  head_dia: 1.312
+  head_width: 0.5
+  length: 2.438
+  thread: 1/2-20 UNF-3A
+  thread_dia: 0.5
+  thread_length: 1.5
+  hand: RH
+  ball_width: 0.625
+  ball_dia: 0.937
+  catalog_misalignment_deg: 12
+  thread_feature: cosmetic, M12.7x1.27 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

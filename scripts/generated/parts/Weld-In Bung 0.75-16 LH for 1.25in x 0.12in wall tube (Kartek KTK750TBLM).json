@@ -1,0 +1,237 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Bung profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      1,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.938,
+      0.0
+     ],
+     [
+      12.7,
+      0.762
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      0.762
+     ],
+     [
+      12.7,
+      50.038
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      50.038
+     ],
+     [
+      11.938,
+      50.8
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.938,
+      50.8
+     ],
+     [
+      8.66574,
+      50.8
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      8.66574,
+      50.8
+     ],
+     [
+      8.66574,
+      38.1
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      8.66574,
+      38.1
+     ],
+     [
+      9.525,
+      38.1
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      38.1
+     ],
+     [
+      9.525,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.525,
+      0.0
+     ],
+     [
+      11.938,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Bung",
+    "body_name": "Bung"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     19.05,
+     9.525,
+     0
+    ],
+    "from": [
+     0,
+     9.525,
+     0
+    ],
+    "designation": "M19.05x1.5875",
+    "hand": "left",
+    "length": 38.1,
+    "name": "Thread 3/4-16 UNF LH"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Bung"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK750TBLM",
+     "description": "Standard Round Bungs Left Hand Thread For 3/4\" Heim Joint For 1-1/4\" Diameter 0.120\" Wall Tube",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "bung",
+      "units": "in",
+      "dims": {
+       "style": "standard round",
+       "thread": "3/4-16 UNF LH",
+       "thread_dia": 0.75,
+       "tpi": 16,
+       "hand": "LH",
+       "length": 2.0,
+       "thread_depth": 1.5,
+       "bore_dia": 0.75,
+       "through_bore_dia": 0.6823,
+       "od": 1.0,
+       "tube_od": 1.25,
+       "tube_wall": 0.12,
+       "tube_id": 1.01,
+       "insertion_length": 2.0,
+       "thread_feature": "cosmetic, M19.05x1.5875 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "thread depth 1.5in: Kartek says only that it is not threaded all the way through; taken as 3/4 of the length",
+       "bore at thread major diameter, as the jam nuts; past the thread depth at the basic minor diameter (tap drill assumed); the thread is cosmetic only",
+       "insertion length: shoulderless, so all of it, taken as flush with the tube end",
+       "0.03in chamfers on the outside edges"
+      ],
+      "also_available_as": [],
+      "thread": "3/4-16 UNF LH",
+      "source": "https://www.kartek.com/parts/standard-round-bungs-left-hand-thread-for-34-heim-joint-for-1-14-diameter-0120-wall-tube.html"
+     }
+    }
+   }
+  }
+ ]
+}

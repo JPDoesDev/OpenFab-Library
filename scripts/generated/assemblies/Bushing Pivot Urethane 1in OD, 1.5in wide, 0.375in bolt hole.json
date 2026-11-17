@@ -5,7 +5,7 @@
    "params": {
     "path": "../../../components/parts/outer-sleeves/Outer Sleeve 1in OD x 0.81in ID x 1in long (AutoFab BA100-OUTER).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -28,7 +28,7 @@
    "params": {
     "path": "../../../components/parts/bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100).sc",
     "translate": [
-     0,
+     0.0,
      0,
      12.7
     ],
@@ -51,7 +51,7 @@
    "params": {
     "path": "../../../components/parts/bushings/Urethane Bushing 0.375in ID x 0.825in OD x 0.75in long (AutoFab B100).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],

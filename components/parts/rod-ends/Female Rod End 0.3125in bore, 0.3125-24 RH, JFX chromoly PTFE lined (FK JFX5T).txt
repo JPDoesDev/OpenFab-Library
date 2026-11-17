@@ -1,0 +1,34 @@
+Female Rod End 0.3125in bore, 0.3125-24 RH, JFX chromoly PTFE lined
+
+Part number:  JFX5T
+Vendor:       FK
+Description:  FK JFX5T 5/16" bore 5/16-24 RH female chromoly PTFE lined rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.12 (JFX5 row)
+
+Also available as:
+  Kartek FKBJFX5T  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: female
+  bore: 0.3125
+  head_dia: 0.875
+  head_width: 0.344
+  length: 1.375
+  thread: 5/16-24 UNF-2B
+  thread_dia: 0.3125
+  thread_length: 0.75
+  hand: RH
+  ball_width: 0.437
+  ball_dia: 0.625
+  catalog_misalignment_deg: 14
+  body_dia: 0.5
+  flat: 0.437
+  thread_feature: cosmetic, M7.9375x1.0583 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+
+Volume check: not checked

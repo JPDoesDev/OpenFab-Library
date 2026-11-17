@@ -1,0 +1,24 @@
+Uniball 0.5in bore x 1in OD, FK COM-T, 1.5in wide shoulder ball
+
+Part number:  COM8T-103
+Vendor:       FK
+Description:  FK COM8T-103 1/2" bore commercial series PTFE lined steel spherical bearing with misalignment shoulders, 1.5" across the ball
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.29 (COM8-103)
+
+Also available as:
+  Kartek FKBCOM8T103  same part - Kartek stock number for the FK part
+  Aurora COM-8T       equivalent - listed by Kartek as a cross reference; the ball has no shoulders
+  Fox 001-00-004-A    equivalent - listed by Kartek as a cross reference; the ball has no shoulders
+  King B1012          equivalent - listed by Kartek as a cross reference; the ball has no shoulders
+
+Dimensions (inches):
+  bore: 0.5
+  od: 1
+  ball_width: 1.5
+  race_width: 0.39
+  ball_dia: 0.781
+  catalog_misalignment_deg: 9.5
+  shoulder_dia: 0.6
+
+Volume check: ok

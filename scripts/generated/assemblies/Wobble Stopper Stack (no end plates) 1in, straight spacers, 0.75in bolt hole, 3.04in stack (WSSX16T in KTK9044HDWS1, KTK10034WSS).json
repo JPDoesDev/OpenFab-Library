@@ -1,0 +1,249 @@
+{
+ "commands": [
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniball-cups/Wobble Stopper Housing 2.125in bore x 2.75in OD x 2in wide, Kartek (Kartek KTK9044HDWS1).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Wobble Stopper Housing 2.125in bore x 2.75in OD x 2in wide, Kartek (Kartek KTK9044HDWS1)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/uniballs/Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "FK",
+     "also_available_as": "Kartek FKBWSSX16T (same part); Aurora AIB-16T-3 (equivalent); NHBB ADWL16V (equivalent); Kartek FKBWSSX16TF1 (same part); Total Chaos FK-REP (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/snap-rings/Internal Snap Ring 2.24in OD x 0.078in thick, Kartek (Kartek KTKWSSR).sc",
+    "translate": [
+     0.0,
+     0,
+     13.7541
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Internal Snap Ring 2.24in OD x 0.078in thick, Kartek (Kartek KTKWSSR)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek",
+     "also_available_as": "FK SRW16 (equivalent); Kartek FKBSRW16 (equivalent); Kartek KTK9044SR (equivalent)"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/_internal/Uniball Ball 1in bore (for WSSX16T).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Uniball Ball 1in bore (for WSSX16T)",
+    "bom_type": "reference",
+    "properties": {
+     "vendor": "FK"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Straight Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034WSS).sc",
+    "translate": [
+     0.0,
+     0,
+     17.4625
+    ],
+    "reuse": false
+   }
+  },
+  {
+   "command": "component.metadata.set",
+   "params": {
+    "component": "Straight Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034WSS)",
+    "bom_type": "purchased",
+    "properties": {
+     "vendor": "Kartek"
+    }
+   }
+  },
+  {
+   "command": "component.insert_design",
+   "params": {
+    "path": "../../../components/parts/spacers/Straight Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034WSS).sc",
+    "translate": [
+     0.0,
+     0,
+     0.0
+    ],
+    "reuse": true
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "rigid",
+    "name": "Seat 1",
+    "flip": true,
+    "a": {
+     "occurrence": "Uniball Ball 1in bore (for WSSX16T):1",
+     "point": [
+      0.0,
+      0.0,
+      -17.4625
+     ],
+     "z": [
+      0,
+      0,
+      -1
+     ]
+    },
+    "b": {
+     "occurrence": "Straight Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034WSS):2",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "occurrence.ground",
+   "params": {
+    "occurrence": "Wobble Stopper Housing 2.125in bore x 2.75in OD x 2in wide, Kartek (Kartek KTK9044HDWS1):1",
+    "grounded": true
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Wobble Stopper Housing 2.125in bore x 2.75in OD x 2in wide, Kartek (Kartek KTK9044HDWS1):1",
+     "Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T):1",
+     "Internal Snap Ring 2.24in OD x 0.078in thick, Kartek (Kartek KTKWSSR):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.create",
+   "params": {
+    "type": "ball",
+    "name": "Pivot",
+    "flip": true,
+    "a": {
+     "occurrence": "Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "occurrence": "Uniball Ball 1in bore (for WSSX16T):1",
+     "point": [
+      0,
+      0,
+      0
+     ],
+     "z": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "joint.rigid_group",
+   "params": {
+    "occurrences": [
+     "Uniball Ball 1in bore (for WSSX16T):1",
+     "Straight Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034WSS):1"
+    ]
+   }
+  },
+  {
+   "command": "joint.list",
+   "params": {}
+  },
+  {
+   "command": "joint.find_limits",
+   "params": {
+    "joint": "Pivot",
+    "index": 1,
+    "occurrences": [
+     "Uniball Ball 1in bore (for WSSX16T):1",
+     "Straight Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034WSS):1",
+     "Straight Spacer 1in to 0.75in bolt, 3.04in stack (Kartek KTK10034WSS):2"
+    ],
+    "against": [
+     "Wobble Stopper Housing 2.125in bore x 2.75in OD x 2in wide, Kartek (Kartek KTK9044HDWS1):1",
+     "Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T):1",
+     "Internal Snap Ring 2.24in OD x 0.078in thick, Kartek (Kartek KTKWSSR):1"
+    ],
+    "exclude_pairs": [
+     [
+      "Uniball 1in bore x 2.125in OD, FK WSSX-T (FK WSSX16T):1",
+      "Uniball Ball 1in bore (for WSSX16T):1"
+     ]
+    ]
+   }
+  }
+ ]
+}

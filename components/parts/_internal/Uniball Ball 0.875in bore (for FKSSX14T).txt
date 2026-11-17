@@ -1,0 +1,16 @@
+Uniball Ball 0.875in bore (for FKSSX14T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of FKSSX14T (moves in the race; counted in the BOM with the race)
+Material:     stainless
+Source:       FK 2017 Industrial Catalog p.32
+
+Dimensions (inches):
+  bore: 0.875
+  od: 1.5625
+  ball_width: 0.875
+  race_width: 0.703
+  ball_dia: 1.312
+  catalog_misalignment_deg: 9.5
+
+Volume check: ok

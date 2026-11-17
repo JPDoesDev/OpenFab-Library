@@ -1,0 +1,139 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Washer profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.9375,
+      -3.175
+     ],
+     [
+      17.4625,
+      -3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      17.4625,
+      -3.175
+     ],
+     [
+      17.4625,
+      3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      17.4625,
+      3.175
+     ],
+     [
+      7.9375,
+      3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.9375,
+      3.175
+     ],
+     [
+      7.9375,
+      -3.175
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Washer",
+    "body_name": "Washer"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Washer"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK5/8SW",
+     "description": "Heim Joint Safety Washer Prevents 5/8 Inch Allen Or Twelve Point Bolt From Pulling Through The Heim",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "safety_washer",
+      "units": "in",
+      "dims": {
+       "od": 1.375,
+       "id": 0.625,
+       "thickness": 0.25
+      },
+      "estimated": [
+       "material not published (modelled as steel)",
+       "slight tapered profile not dimensioned (modelled flat)"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/heim-joint-safety-washer-prevents-58-inch-allen-or-twelve-point-bolt-from-pulling-through-the-heim.html"
+     }
+    }
+   }
+  }
+ ]
+}

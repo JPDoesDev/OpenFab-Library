@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.510271,
+      -9.7155
+     ],
+     [
+      29.5275,
+      -9.7155
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      29.5275,
+      -9.7155
+     ],
+     [
+      29.5275,
+      9.7155
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      29.5275,
+      9.7155
+     ],
+     [
+      14.510271,
+      9.7155
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     14.510271,
+     9.7155
+    ],
+    "end": [
+     14.510271,
+     -9.7155
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 25.4,
+    "height": 61.52463,
+    "base": [
+     27.37537,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     58.137685,
+     0.0,
+     12.7
+    ],
+    "designation": "M25.4x1.8143",
+    "hand": "right",
+    "length": 47.625,
+    "name": "Thread 1-14 UNS-3A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "RXAM-14T-1",
+     "description": "Aurora RXAM-14T-1 7/8\" bore 1-14 RH male extra heavy duty alloy PTFE lined rod end",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.875,
+       "head_dia": 2.325,
+       "head_width": 0.765,
+       "length": 3.5,
+       "thread": "1-14 UNS-3A",
+       "thread_dia": 1.0,
+       "thread_length": 1.875,
+       "hand": "RH",
+       "ball_width": 0.875,
+       "ball_dia": 1.375,
+       "catalog_misalignment_deg": 6.0,
+       "thread_feature": "cosmetic, M25.4x1.8143 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AURRXAM14T1",
+        "relation": "same part",
+        "note": "Kartek stock number for the Aurora part"
+       }
+      ],
+      "thread": "1-14 UNS-3A",
+      "source": "Aurora Bearing catalog p.39 (RXAM-14T-1 row)"
+     }
+    }
+   }
+  }
+ ]
+}

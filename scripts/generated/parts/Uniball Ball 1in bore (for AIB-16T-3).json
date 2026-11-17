@@ -1,0 +1,144 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      -17.4625
+     ],
+     [
+      16.189387,
+      -17.4625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     16.189387,
+     -17.4625
+    ],
+    "end": [
+     16.189387,
+     17.4625
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.189387,
+      17.4625
+     ],
+     [
+      12.7,
+      17.4625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      17.4625
+     ],
+     [
+      12.7,
+      -17.4625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of AIB-16T-3 (moves in the race; counted in the BOM with the race)",
+     "organization": "Aurora",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "spherical_bearing_ball",
+      "units": "in",
+      "dims": {
+       "bore": 1.0,
+       "od": 2.125,
+       "ball_width": 1.375,
+       "race_width": 1.0,
+       "ball_dia": 1.875,
+       "catalog_misalignment_deg": 15.0
+      },
+      "estimated": [
+       "the -3 suffix is not in Aurora's catalog",
+       "dimensions are the AIB-16 row"
+      ],
+      "also_available_as": [],
+      "source": "Aurora Rod End & Spherical Bearing Catalog 319 p.49 (AIB-16)"
+     }
+    }
+   }
+  }
+ ]
+}

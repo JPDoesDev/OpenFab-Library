@@ -1,0 +1,30 @@
+Rod End Ball 0.25in bore (for JFX4T)
+
+Part number:  none (helper geometry, not something you buy)
+Description:  Ball of JFX4T (moves in the body; counted in the BOM with the body)
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.12 (JFX4 row)
+
+Dimensions (inches):
+  style: female
+  bore: 0.25
+  head_dia: 0.75
+  head_width: 0.281
+  length: 1.312
+  thread: 1/4-28 UNF-2B
+  thread_dia: 0.25
+  thread_length: 0.75
+  hand: RH
+  ball_width: 0.375
+  ball_dia: 0.5
+  catalog_misalignment_deg: 16
+  body_dia: 0.469
+  flat: 0.375
+  thread_feature: cosmetic, M6.35x0.9071 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  wrench flats run the whole length of the body
+  tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom
+  no neck between head and body
+
+Volume check: ok

@@ -1,0 +1,30 @@
+Rod End 16mm bore, M16x2.0 RH, JMX chromoly PTFE lined
+
+Part number:  JMX16MT
+Vendor:       FK
+Description:  FK JMX16MT 16mm bore M16 X 2.0 RH male chromoly PTFE lined rod end
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.27 (JMX16M row, millimetres converted to inches)
+
+Also available as:
+  Kartek FKBJMX16MT  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  style: male
+  bore: 0.6299
+  head_dia: 1.4961
+  head_width: 0.561
+  length: 2.5984
+  thread: M16 x 2.0
+  thread_dia: 0.6299
+  thread_length: 1.5748
+  hand: RH
+  ball_width: 0.8268
+  ball_dia: 1.1252
+  catalog_misalignment_deg: 23
+  thread_feature: cosmetic, M16x2.0
+
+Estimated (not published by the vendor):
+  shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled
+
+Volume check: not checked

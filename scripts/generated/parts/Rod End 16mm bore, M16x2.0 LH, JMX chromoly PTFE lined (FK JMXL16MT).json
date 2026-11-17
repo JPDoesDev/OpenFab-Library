@@ -1,0 +1,187 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.387028,
+      -7.125005
+     ],
+     [
+      19.0,
+      -7.125005
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.0,
+      -7.125005
+     ],
+     [
+      19.0,
+      7.125005
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.0,
+      7.125005
+     ],
+     [
+      12.387028,
+      7.125005
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     12.387028,
+     7.125005
+    ],
+    "end": [
+     12.387028,
+     -7.125005
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 15.999993,
+    "height": 48.894525,
+    "base": [
+     17.10547,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     41.552732,
+     0.0,
+     7.999997
+    ],
+    "designation": "M16x2.0",
+    "hand": "left",
+    "length": 39.999996,
+    "name": "Thread M16 x 2.0 LH"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "JMXL16MT",
+     "description": "FK JMXL16MT 16mm bore M16 X 2.0 LH male chromoly PTFE lined rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.629921,
+       "head_dia": 1.496063,
+       "head_width": 0.561024,
+       "length": 2.598425,
+       "thread": "M16 x 2.0 LH",
+       "thread_dia": 0.629921,
+       "thread_length": 1.574803,
+       "hand": "LH",
+       "ball_width": 0.826772,
+       "ball_dia": 1.125197,
+       "catalog_misalignment_deg": 23.0,
+       "thread_feature": "cosmetic, M16x2.0"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBJMXL16MT",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "M16 x 2.0 LH",
+      "source": "FK 2017 Industrial Catalog p.27 (JMX16M row, millimetres converted to inches)"
+     }
+    }
+   }
+  }
+ ]
+}

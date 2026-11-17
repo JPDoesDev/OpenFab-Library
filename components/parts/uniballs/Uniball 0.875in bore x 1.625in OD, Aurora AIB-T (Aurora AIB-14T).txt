@@ -1,0 +1,25 @@
+Uniball 0.875in bore x 1.625in OD, Aurora AIB-T
+
+Part number:  AIB-14T
+Vendor:       Aurora
+Description:  Aurora AIB-14T 7/8" bore heavy duty precision series PTFE lined alloy steel spherical bearing
+Material:     steel
+Source:       Aurora Rod End & Spherical Bearing Catalog 319 p.49 (AIB-14)
+
+Also available as:
+  Kartek AURAIB14T  same part - Kartek stock number for the Aurora part
+  FK AIN14-770      equivalent - listed by Kartek as a cross reference
+  FK AIN14T-770     equivalent - listed by Kartek as a cross reference
+  FK WSSX14T        equivalent - listed by Kartek as a cross reference
+  NHBB ABWT14       equivalent - listed by Kartek as a cross reference
+  RBC MS14102-14    equivalent - listed by Kartek as a cross reference
+
+Dimensions (inches):
+  bore: 0.875
+  od: 1.625
+  ball_width: 0.875
+  race_width: 0.75
+  ball_dia: 1.375
+  catalog_misalignment_deg: 6
+
+Volume check: ok

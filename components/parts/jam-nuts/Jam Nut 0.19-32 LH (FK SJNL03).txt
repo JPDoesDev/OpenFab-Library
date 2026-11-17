@@ -1,0 +1,22 @@
+Jam Nut 0.19-32 LH
+
+Part number:  SJNL03
+Vendor:       FK
+Description:  FK SJNL03 10-32 LH steel jam nut
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBSJNL03  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 0.375
+  width: 0.16
+  thread: 10-32 UNF-2B LH
+  thread_dia: 0.19
+  hand: LH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+
+Volume check: ok

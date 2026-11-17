@@ -1,0 +1,237 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Ball profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0.0,
+      -6.35
+     ],
+     [
+      6.56187,
+      -6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     6.56187,
+     -6.35
+    ],
+    "end": [
+     6.56187,
+     6.35
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.56187,
+      6.35
+     ],
+     [
+      0.0,
+      6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0.0,
+      6.35
+     ],
+     [
+      0.0,
+      -6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Ball",
+    "body_name": "Ball"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 9.525,
+    "height": 5.4102,
+    "base": [
+     0.0,
+     0.0,
+     6.096
+    ],
+    "axis": "Z",
+    "operation": "join",
+    "name": "Neck"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Hex profile",
+    "plane": "XY",
+    "offset": 11.5062
+   }
+  },
+  {
+   "command": "sketch.polygon.circumscribed",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 6.35,
+    "sides": 6
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 5.1562,
+    "operation": "join",
+    "name": "Hex"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 9.525,
+    "height": 23.2664,
+    "base": [
+     0.0,
+     0.0,
+     16.4084
+    ],
+    "axis": "Z",
+    "operation": "join",
+    "name": "Stud"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     0.0,
+     4.7625,
+     29.3624
+    ],
+    "designation": "M9.525x1.0583",
+    "hand": "right",
+    "length": 20.6248,
+    "name": "Thread 3/8-24 UNF-2A"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Ball"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "",
+     "description": "Ball of CM6Y (moves in the body; counted in the BOM with the body)",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end_ball",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.375,
+       "head_dia": 1.0,
+       "head_width": 0.359,
+       "length": 1.938,
+       "thread": "3/8-24 UNF-3A",
+       "thread_dia": 0.375,
+       "thread_length": 1.25,
+       "hand": "RH",
+       "ball_width": 0.5,
+       "ball_dia": 0.719,
+       "catalog_misalignment_deg": 22.0,
+       "thread_feature": "cosmetic, M9.525x1.0583 (the Unified size in millimetres)",
+       "stud_length": 1.562,
+       "stud_hex_length": 0.906,
+       "stud_thread_length": 0.812,
+       "stud_thread": "3/8-24 UNF-2A",
+       "stud_thread_dia": 0.375,
+       "stud_hex": 0.5,
+       "stud_hex_thickness": 0.203,
+       "stud_neck_dia": 0.375
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled",
+       "stud hex thickness and neck (half each of the space between the ball face and the hex face)",
+       "stud neck diameter (the stud's thread diameter)",
+       "ball is solid on the side away from the stud"
+      ],
+      "also_available_as": [],
+      "thread": "3/8-24 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.3 (CM6 row); stud: FK 2017 Industrial Catalog p.45"
+     }
+    }
+   }
+  }
+ ]
+}

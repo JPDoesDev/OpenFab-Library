@@ -1,0 +1,36 @@
+Step Weld-In Bung 0.625-18 LH for 1in x 0.095in wall tube
+
+Part number:  KTK625TBRL095
+Vendor:       Kartek
+Description:  Step Race Round Bungs Left Hand Thread For 5/8" Heim Joint For 1" Diameter 0.095" Wall Tube
+Material:     4130
+Source:       https://www.kartek.com/parts/step-race-round-bungs-left-hand-thread-for-58-heim-joint-for-1-diameter-0095-wall-tube.html
+
+Dimensions (inches):
+  style: step
+  thread: 5/8-18 UNF LH
+  thread_dia: 0.625
+  tpi: 18
+  hand: LH
+  length: 2
+  thread_depth: 1.5
+  bore_dia: 0.625
+  through_bore_dia: 0.5649
+  base_dia: 0.8125
+  head_dia: 1
+  head_length: 0.4375
+  shoulder_length: 1.5625
+  tube_od: 1
+  tube_wall: 0.095
+  tube_id: 0.81
+  insertion_length: 1.5625
+  thread_feature: cosmetic, M15.875x1.4111 (the Unified size in millimetres)
+
+Estimated (not published by the vendor):
+  thread depth 1.5in: Kartek says only that it is not threaded all the way through; taken as 3/4 of the length
+  bore at thread major diameter, as the jam nuts; past the thread depth at the basic minor diameter (tap drill assumed); the thread is cosmetic only
+  head diameter taken as the tube OD (Kartek gives only the base diameter)
+  45 degree weld chamfer from the head down to the base diameter, inside the head length
+  0.03in chamfers on the outside edges
+
+Volume check: ok

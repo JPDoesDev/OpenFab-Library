@@ -1,0 +1,22 @@
+Jam Nut M6x1.0 LH
+
+Part number:  SJNL6M
+Vendor:       FK
+Description:  FK SJNL6M M6 x 1.0 LH steel jam nut
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBSJNL6M  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 0.4375
+  width: 0.16
+  thread: M6x1.0 6H LH
+  thread_dia: 0.2362
+  hand: LH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+
+Volume check: ok

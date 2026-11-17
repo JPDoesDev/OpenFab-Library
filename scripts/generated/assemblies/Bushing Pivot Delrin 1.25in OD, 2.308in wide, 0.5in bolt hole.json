@@ -5,7 +5,7 @@
    "params": {
     "path": "../../../components/parts/outer-sleeves/Outer Sleeve 1.25in OD x 1.0625in ID x 1.61in long (Kartek KTKOSL125095).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -27,7 +27,7 @@
    "params": {
     "path": "../../../components/parts/bushings/Delrin Bushing 0.75in ID x 1.0625in OD x 0.775in long (Kartek KTK250).sc",
     "translate": [
-     0,
+     0.0,
      0,
      20.447
     ],
@@ -49,7 +49,7 @@
    "params": {
     "path": "../../../components/parts/bushings/Delrin Bushing 0.75in ID x 1.0625in OD x 0.775in long (Kartek KTK250).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],
@@ -95,7 +95,7 @@
    "params": {
     "path": "../../../components/parts/inner-sleeves/Inner Sleeve 0.75in OD x 0.5in ID x 2.308in long (Kartek KTKISL750120).sc",
     "translate": [
-     0,
+     0.0,
      0,
      0.0
     ],

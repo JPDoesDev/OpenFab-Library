@@ -1,0 +1,242 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      8.9308,
+      -5.1562
+     ],
+     [
+      14.2875,
+      -5.1562
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.2875,
+      -5.1562
+     ],
+     [
+      14.2875,
+      5.1562
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.2875,
+      5.1562
+     ],
+     [
+      8.9308,
+      5.1562
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     8.9308,
+     5.1562
+    ],
+    "end": [
+     8.9308,
+     -5.1562
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 19.05,
+    "height": 34.9504,
+    "base": [
+     11.0744,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 40.0304,
+    "width": 24.13,
+    "height": 9.525,
+    "corner": [
+     8.5344,
+     -12.065,
+     7.9375
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat top"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 40.0304,
+    "width": 24.13,
+    "height": 9.525,
+    "corner": [
+     8.5344,
+     -12.065,
+     -17.4625
+    ],
+    "operation": "cut",
+    "targets": [
+     "Body"
+    ],
+    "name": "Wrench flat bottom"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 11.1125,
+    "height": 25.0698,
+    "base": [
+     22.225,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "name": "Tapped hole"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     34.1249,
+     0.0,
+     5.55625
+    ],
+    "designation": "M11.1125x1.27",
+    "hand": "right",
+    "length": 23.7998,
+    "name": "Thread 7/16-20 UNF-2B"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "CF7",
+     "description": "FK CF7 7/16\" bore 7/16-20 RH female economy 2-piece low carbon steel rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "female",
+       "bore": 0.4375,
+       "head_dia": 1.125,
+       "head_width": 0.406,
+       "length": 1.812,
+       "thread": "7/16-20 UNF-2B",
+       "thread_dia": 0.4375,
+       "thread_length": 0.937,
+       "hand": "RH",
+       "ball_width": 0.562,
+       "ball_dia": 0.812,
+       "catalog_misalignment_deg": 21.0,
+       "body_dia": 0.75,
+       "flat": 0.625,
+       "thread_feature": "cosmetic, M11.1125x1.27 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "wrench flats run the whole length of the body",
+       "tapped hole is drawn at the thread's major diameter with a cosmetic thread and a flat bottom",
+       "no neck between head and body"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBCF7",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "7/16-20 UNF-2B",
+      "source": "FK 2017 Industrial Catalog p.3 (CF7 row)"
+     }
+    }
+   }
+  }
+ ]
+}

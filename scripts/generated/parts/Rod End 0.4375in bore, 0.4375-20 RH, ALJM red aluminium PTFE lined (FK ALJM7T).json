@@ -1,0 +1,195 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Body profile",
+    "plane": {
+     "origin": [
+      0,
+      0,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      8.691617,
+      -5.5499
+     ],
+     [
+      14.2875,
+      -5.5499
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.2875,
+      -5.5499
+     ],
+     [
+      14.2875,
+      5.5499
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.2875,
+      5.5499
+     ],
+     [
+      8.691617,
+      5.5499
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     0.0
+    ],
+    "start": [
+     8.691617,
+     5.5499
+    ],
+    "end": [
+     8.691617,
+     -5.5499
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "operation": "new",
+    "name": "Body",
+    "body_name": "Body"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 11.1125,
+    "height": 41.317467,
+    "base": [
+     12.657533,
+     0.0,
+     0.0
+    ],
+    "axis": "X",
+    "operation": "join",
+    "name": "Shank"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     33.316267,
+     0.0,
+     5.55625
+    ],
+    "designation": "M11.1125x1.27",
+    "hand": "right",
+    "length": 34.925,
+    "name": "Thread 7/16-20 UNF-3A"
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "Aluminum 7075-T6 Red Anodized",
+    "density_g_cm3": 2.81,
+    "color": "#b3261e"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Body"
+    ],
+    "material": "Aluminum 7075-T6 Red Anodized"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "ALJM7T",
+     "description": "FK ALJM7T 7/16\" bore 7/16-20 RH male 7075 aluminium red anodized PTFE lined rod end",
+     "organization": "FK",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "rod_end",
+      "units": "in",
+      "dims": {
+       "style": "male",
+       "bore": 0.4375,
+       "head_dia": 1.125,
+       "head_width": 0.437,
+       "length": 2.125,
+       "thread": "7/16-20 UNF-3A",
+       "thread_dia": 0.4375,
+       "thread_length": 1.375,
+       "hand": "RH",
+       "ball_width": 0.562,
+       "ball_dia": 0.812,
+       "catalog_misalignment_deg": 14.0,
+       "thread_feature": "cosmetic, M11.1125x1.27 (the Unified size in millimetres)"
+      },
+      "estimated": [
+       "shank is a plain cylinder at thread major diameter with a cosmetic thread; no neck or grease fitting modelled"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "FKBALJM7T",
+        "relation": "same part",
+        "note": "Kartek stock number for the FK part"
+       }
+      ],
+      "thread": "7/16-20 UNF-3A",
+      "source": "FK 2017 Industrial Catalog p.19 (ALJM7 row)"
+     }
+    }
+   }
+  }
+ ]
+}

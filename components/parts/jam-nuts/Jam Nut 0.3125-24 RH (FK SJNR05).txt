@@ -1,0 +1,22 @@
+Jam Nut 0.3125-24 RH
+
+Part number:  SJNR05
+Vendor:       FK
+Description:  FK SJNR05 5/16-24 RH steel jam nut
+Material:     steel
+Source:       FK 2017 Industrial Catalog p.41
+
+Also available as:
+  Kartek FKBSJNR05  same part - Kartek stock number for the FK part
+
+Dimensions (inches):
+  hex: 0.5
+  width: 0.187
+  thread: 5/16-24 UNF-2B
+  thread_dia: 0.3125
+  hand: RH
+
+Estimated (not published by the vendor):
+  bore is at thread major diameter; thread not modelled
+
+Volume check: ok
