@@ -1,0 +1,221 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     -13.446978
+    ],
+    "start": [
+     -13.49375,
+     0.0
+    ],
+    "end": [
+     13.49375,
+     0.0
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      13.49375,
+      0.0
+     ],
+     [
+      12.693529,
+      25.058381
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     24.653022
+    ],
+    "start": [
+     12.693529,
+     25.058381
+    ],
+    "end": [
+     1.5875,
+     37.253413
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      1.5875,
+      37.253413
+     ],
+     [
+      1.5875,
+      32.430152
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     24.653022
+    ],
+    "start": [
+     1.5875,
+     32.430152
+    ],
+    "end": [
+     -1.5875,
+     32.430152
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -1.5875,
+      32.430152
+     ],
+     [
+      -1.5875,
+      37.253413
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     24.653022
+    ],
+    "start": [
+     -1.5875,
+     37.253413
+    ],
+    "end": [
+     -12.693529,
+     25.058381
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -12.693529,
+      25.058381
+     ],
+     [
+      -13.49375,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 1.5875,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "SUS04114B",
+     "description": "Weld On Brake Line And Brake Hose Mounting Tabs Radius For Tubing With 5/8\" Hole",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "round top",
+       "thickness": 0.0625,
+       "width": 1.0625,
+       "center": 0.75,
+       "length": 1.25,
+       "top_radius": 0.5,
+       "hole": 0.625,
+       "tube_od": 1.5,
+       "notch_depth": 0.2206,
+       "measured_from": "the top of the tube notch",
+       "slot": 0.125,
+       "sold_as": "each"
+      },
+      "estimated": [
+       "tube notch across the whole base",
+       "release slot 0.125in wide from the hole out through the top, from the product photo"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/weld-on-brake-line-and-brake-hose-mounting-tabs-radius-for-tubing-with-58-hole.html"
+     }
+    }
+   }
+  }
+ ]
+}

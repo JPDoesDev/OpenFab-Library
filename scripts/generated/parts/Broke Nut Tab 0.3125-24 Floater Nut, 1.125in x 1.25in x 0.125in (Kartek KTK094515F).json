@@ -1,0 +1,538 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -15.8115,
+      0.0
+     ],
+     [
+      15.8115,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.8115,
+      0.0
+     ],
+     [
+      21.9075,
+      9.525
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      21.9075,
+      9.525
+     ],
+     [
+      21.9075,
+      22.225
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      21.9075,
+      22.225
+     ],
+     [
+      15.8115,
+      31.75
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.8115,
+      31.75
+     ],
+     [
+      -15.8115,
+      31.75
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -15.8115,
+      31.75
+     ],
+     [
+      -21.9075,
+      22.225
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -21.9075,
+      22.225
+     ],
+     [
+      -21.9075,
+      9.525
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -21.9075,
+      9.525
+     ],
+     [
+      -15.8115,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0.0,
+     17.4625
+    ],
+    "radius": 4.36626
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.175,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Plate"
+   }
+  },
+  {
+   "command": "sheet.manage_rules",
+   "params": {
+    "name": "Tab",
+    "thickness": "3.175 mm",
+    "k_factor": "0.5",
+    "bend_radius": "3.175 mm"
+   }
+  },
+  {
+   "command": "sheet.convert",
+   "params": {
+    "body": "Plate",
+    "face": [
+     0.0,
+     1.5875,
+     2.032
+    ]
+   }
+  },
+  {
+   "command": "sheet.fold",
+   "params": {
+    "points": [
+     [
+      14.2875,
+      1.5875,
+      0.0
+     ],
+     [
+      14.2875,
+      1.5875,
+      31.75
+     ]
+    ],
+    "angle": "30 deg"
+   }
+  },
+  {
+   "command": "sheet.fold",
+   "params": {
+    "points": [
+     [
+      -14.2875,
+      1.5875,
+      0.0
+     ],
+     [
+      -14.2875,
+      1.5875,
+      31.75
+     ]
+    ],
+    "angle": "30 deg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Nut cage outline",
+    "plane": {
+     "origin": [
+      0.0,
+      -1.5875,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -11.674333,
+      11.176321
+     ],
+     [
+      6.286179,
+      29.136833
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     8.980256,
+     26.442756
+    ],
+    "start": [
+     6.286179,
+     29.136833
+    ],
+    "end": [
+     11.674333,
+     23.748679
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.674333,
+      23.748679
+     ],
+     [
+      -6.286179,
+      5.788167
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     -8.980256,
+     8.482244
+    ],
+    "start": [
+     -6.286179,
+     5.788167
+    ],
+    "end": [
+     -11.674333,
+     11.176321
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 1.27,
+    "name": "Nut cage",
+    "operation": "new",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Nut outline",
+    "plane": {
+     "origin": [
+      0.0,
+      -1.5875,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -0.0,
+      8.446323
+     ],
+     [
+      9.016177,
+      17.4625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.016177,
+      17.4625
+     ],
+     [
+      0.0,
+      26.478677
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0.0,
+      26.478677
+     ],
+     [
+      -9.016177,
+      17.4625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -9.016177,
+      17.4625
+     ],
+     [
+      -0.0,
+      8.446323
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 8.7122,
+    "name": "Nut",
+    "operation": "join",
+    "targets": [
+     "Tab"
+    ]
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Tab",
+    "tools": [
+     "Plate"
+    ],
+    "operation": "join"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7.9375,
+    "height": 12.9032,
+    "base": [
+     0,
+     2.0955,
+     17.4625
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "Tab"
+    ],
+    "name": "Thread bore"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     3.96875,
+     -5.9436,
+     17.4625
+    ],
+    "from": [
+     3.96875,
+     -10.2997,
+     17.4625
+    ],
+    "designation": "M7.9375x1.0583",
+    "hand": "right",
+    "length": 8.7122,
+    "name": "Thread"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK094515F",
+     "description": "Broke Chromoly Mounting Tab 5/16-24 Fine Thread Floater Nut 1/8\" Thick Sold Individually",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "broke nut",
+       "thickness": 0.125,
+       "width": 1.125,
+       "length": 1.25,
+       "center": 0.6875,
+       "hole": 0.3438,
+       "wing": 0.3,
+       "fold_angle": 30,
+       "nut": "floater",
+       "nut_height": 0.343,
+       "thread": "5/16-24 UNF",
+       "sold_as": "each"
+      },
+      "estimated": [
+       "wings 0.3in each side, folded back 30 degrees on a 0.125in inside radius, from the product photos (Kartek's width is the flat centre)",
+       "floater nut modelled as its envelope: a cage with 0.3in wide rivet ends, 0.05in thick on 1in rivet centres and a 0.502in square nut 0.343in proud of the back face",
+       "bore at the thread's major diameter; the thread is cosmetic only"
+      ],
+      "also_available_as": [],
+      "thread": "5/16-24 UNF",
+      "source": "https://www.kartek.com/parts/broke-chromoly-mounting-tab-516-24-fine-thread-floater-nut-18-thick-sold-individually.html"
+     }
+    }
+   }
+  }
+ ]
+}

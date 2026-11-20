@@ -1,0 +1,27 @@
+Flat Body Panel Nut Tab 0.3125-24, 2in x 4in x 0.125in
+
+Part number:  KTK11054
+Vendor:       Kartek
+Description:  Flat Steel Body Panel Mounting Tab 3-1/2" Bottom To Center Of Hole 5/16-24 Thread Sold Individually
+Material:     steel
+Source:       https://www.kartek.com/parts/flat-steel-body-panel-mounting-tab-3-12-bottom-to-center-of-hole-516-24-thread-sold-individually.html
+
+Dimensions (inches):
+  style: nut rect
+  thickness: 0.125
+  width: 2
+  length: 4
+  center: 3.5
+  hole: 0.3438
+  chamfer: 0.45
+  nut: fixed
+  nut_height: 0.343
+  thread: 5/16-24 UNF
+  sold_as: each
+
+Estimated (not published by the vendor):
+  top corners chamfered 0.45in, from the product photo
+  anchor nut: 0.502in barrel 0.343in proud of the back face on a 0.05in flange with lugs 0.3in wide, from the product photos; Kartek gives the thread and the 1in rivet centres
+  bore at the thread's major diameter; the thread is cosmetic only
+
+Volume check: ok

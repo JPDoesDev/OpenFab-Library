@@ -1,0 +1,31 @@
+Quarter-Turn Fastener Tab #5 or #6, Dimpled, Flat Edge, 2in
+
+Part number:  DEE551812
+Vendor:       Kartek
+Description:  Dimpled Assembled Quarter Turn Panel Fastener Tab For #5 Or #6 Buttons With Flat Edge
+Material:     steel
+Source:       https://www.kartek.com/parts/dimpled-assembled-quarter-turn-panel-fastener-tab-for-5-or-6-buttons-with-flat-edge.html
+
+Dimensions (inches):
+  style: quarter turn
+  thickness: 0.09
+  width: 1.5
+  length: 2
+  center: 1.5625
+  hole: 0.45
+  chamfer: 0.3
+  button: #5
+  rivet_holes: 0.129
+  rivet_centres: 1
+  edge: flat
+  dimple_dia: 0.8
+  dimple_depth: 0.09
+  sold_as: each
+
+Estimated (not published by the vendor):
+  thickness 0.09in: not published by Kartek; taken as 0.090in sheet to suit the spring and button stack-up
+  dimple 0.8in across, pressed 0.09in back; rivet holes left plain
+  width 1.5in, hole 0.45in and corner shape from the product photos
+  rivet holes on the 1in centres of the matching S-spring
+
+Volume check: ok

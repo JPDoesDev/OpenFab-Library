@@ -1,0 +1,531 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -22.2885,
+      -7.62
+     ],
+     [
+      -4.572,
+      -7.62
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     -7.62
+    ],
+    "start": [
+     -4.572,
+     -7.62
+    ],
+    "end": [
+     4.572,
+     -7.62
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      4.572,
+      -7.62
+     ],
+     [
+      22.2885,
+      -7.62
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.2885,
+      -7.62
+     ],
+     [
+      22.2885,
+      26.67
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     17.4625,
+     26.67
+    ],
+    "start": [
+     22.2885,
+     26.67
+    ],
+    "end": [
+     15.0495,
+     30.849439
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.0495,
+      30.849439
+     ],
+     [
+      11.510109,
+      30.767252
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     25.4
+    ],
+    "start": [
+     11.510109,
+     30.767252
+    ],
+    "end": [
+     -11.510109,
+     30.767252
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -11.510109,
+      30.767252
+     ],
+     [
+      -15.0495,
+      30.849439
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     -17.4625,
+     26.67
+    ],
+    "start": [
+     -15.0495,
+     30.849439
+    ],
+    "end": [
+     -22.2885,
+     26.67
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -22.2885,
+      26.67
+     ],
+     [
+      -22.2885,
+      -7.62
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      3.81,
+      4.064
+     ],
+     [
+      16.4465,
+      4.064
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.4465,
+      4.064
+     ],
+     [
+      12.747625,
+      12.7
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.747625,
+      12.7
+     ],
+     [
+      3.81,
+      4.064
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -12.747625,
+      12.7
+     ],
+     [
+      -16.4465,
+      4.064
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -16.4465,
+      4.064
+     ],
+     [
+      -3.81,
+      4.064
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -3.81,
+      4.064
+     ],
+     [
+      -12.747625,
+      12.7
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0.0,
+     25.4
+    ],
+    "radius": 11.43
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -17.4625,
+     26.67
+    ],
+    "radius": 1.6383
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     17.4625,
+     26.67
+    ],
+    "radius": 1.6383
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 2.286,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Plate"
+   }
+  },
+  {
+   "command": "sheet.manage_rules",
+   "params": {
+    "name": "Tab",
+    "thickness": "2.286 mm",
+    "k_factor": "0.5",
+    "bend_radius": "2.286 mm"
+   }
+  },
+  {
+   "command": "sheet.convert",
+   "params": {
+    "body": "Plate",
+    "face": [
+     0.0,
+     1.143,
+     12.7
+    ]
+   }
+  },
+  {
+   "command": "sheet.fold",
+   "params": {
+    "points": [
+     [
+      -22.2885,
+      1.143,
+      0.0
+     ],
+     [
+      22.2885,
+      1.143,
+      0.0
+     ]
+    ],
+    "angle": "90 deg"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Dimple profile",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      25.4
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      1,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.43,
+      1.143
+     ],
+     [
+      11.43,
+      -1.143
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.43,
+      -1.143
+     ],
+     [
+      6.35,
+      -3.429
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      -3.429
+     ],
+     [
+      6.35,
+      -1.143
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      -1.143
+     ],
+     [
+      11.43,
+      1.143
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "name": "Dimple",
+    "operation": "new",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Tab",
+    "tools": [
+     "Plate"
+    ],
+    "operation": "join"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "MSPMS946",
+     "description": "Dimpled Lightweight Quarter Turn Panel Fastener Tab For #6 Buttons And Springs With Broke Edge",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "quarter turn light",
+       "thickness": 0.09,
+       "length": 1.5,
+       "center": 1.0,
+       "width": 1.755,
+       "hole": 0.5,
+       "button": "#6",
+       "rivet_holes": 0.129,
+       "rivet_centres": 1.375,
+       "flange": 0.3,
+       "edge": "broke: a flange folded back 90 degrees at the bottom",
+       "dimple_dia": 0.9,
+       "dimple_depth": 0.09,
+       "sold_as": "each"
+      },
+      "estimated": [
+       "thickness 0.09in: not published by Kartek; taken as 0.090in sheet to suit the spring and button stack-up",
+       "outline (lobes, lightening holes, 0.36in flange notch) and width from the product photos",
+       "rivet holes on the 1.375in centres of the matching S-spring",
+       "dimple 0.9in across, pressed 0.09in back; rivet holes left plain"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/dimpled-lightweight-quarter-turn-panel-fastener-tab-for-6-buttons-and-springs-with-broke-edge-33340.html"
+     }
+    }
+   }
+  }
+ ]
+}

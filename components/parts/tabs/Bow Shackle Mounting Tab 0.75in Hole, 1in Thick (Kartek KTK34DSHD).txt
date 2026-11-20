@@ -1,0 +1,22 @@
+Bow Shackle Mounting Tab 0.75in Hole, 1in Thick
+
+Part number:  KTK34DSHD
+Vendor:       Kartek
+Description:  Weld On Bow Shackle Or D Ring Mounting Tab With 3/4" Hole 1" Thick 3-1/8" Tall
+Material:     steel
+Source:       https://www.kartek.com/parts/weld-on-bow-shackle-or-d-ring-mounting-tab-with-34-hole-1-thick-3-18-tall.html
+
+Dimensions (inches):
+  style: round top
+  thickness: 1
+  width: 3
+  center: 1.625
+  length: 3.125
+  top_radius: 1.5
+  hole: 0.75
+  sold_as: each
+
+Estimated (not published by the vendor):
+  base 3in long with a full round top about the hole, from the product photo (a 1.5in radius gives Kartek's 3.125in height)
+
+Volume check: ok

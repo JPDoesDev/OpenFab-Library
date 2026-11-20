@@ -1,0 +1,28 @@
+Broke Nutsert Tab 0.3125-24, 1in x 1.3125in x 0.125in
+
+Part number:  KTK11651F
+Vendor:       Kartek
+Description:  Broke Chromoly Mounting Tab 5/16-24 Fine Thread Fixed Position Nut 1/8" Thick Sold Individually
+Material:     4130
+Source:       https://www.kartek.com/parts/broke-chromoly-mounting-tab-516-24-fine-thread-fixed-position-nut-18-thick-sold-individually.html
+
+Dimensions (inches):
+  style: broke nut
+  thickness: 0.125
+  width: 1
+  length: 1.3125
+  center: 0.6875
+  hole: 0.3125
+  wing: 0.3
+  fold_angle: 30
+  nut: nutsert
+  nut_height: 0.2
+  thread: 5/16-24 UNF
+  sold_as: each
+
+Estimated (not published by the vendor):
+  wings 0.3in each side, folded back 30 degrees on a 0.125in inside radius, from the product photos (Kartek's width is the flat centre)
+  nutsert modelled as a 0.562in boss 0.2in proud of the back face (Kartek gives only the thread)
+  bore at the thread's major diameter; the thread is cosmetic only
+
+Volume check: ok

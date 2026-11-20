@@ -1,0 +1,26 @@
+Body Panel Mounting Tab 0.375in Hole, 1.5in x 3in
+
+Part number:  FMTAB
+Vendor:       AutoFab
+Description:  AutoFab Steel Body Panel Mounting Tab 3/8" Hole 2-1/4 Inches From Bottom To Center Of Hole
+Material:     steel
+Source:       https://www.kartek.com/parts/autofab-steel-body-panel-mounting-tab-38-hole-2-14-inches-from-bottom-to-center-of-hole.html
+
+Also available as:
+  Kartek AFB100P  same part - Kartek stock number for the AutoFab part
+
+Dimensions (inches):
+  style: round top
+  thickness: 0.1875
+  width: 1.5
+  center: 2.25
+  length: 3
+  top_radius: 0.75
+  hole: 0.375
+  sold_as: each
+
+Estimated (not published by the vendor):
+  thickness 0.1875in: not published by Kartek; taken as 3/16in
+  full round top, from the product photo
+
+Volume check: ok

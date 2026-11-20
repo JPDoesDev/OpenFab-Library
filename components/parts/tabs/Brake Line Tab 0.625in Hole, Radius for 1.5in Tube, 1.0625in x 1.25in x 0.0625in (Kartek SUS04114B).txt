@@ -1,0 +1,27 @@
+Brake Line Tab 0.625in Hole, Radius for 1.5in Tube, 1.0625in x 1.25in x 0.0625in
+
+Part number:  SUS04114B
+Vendor:       Kartek
+Description:  Weld On Brake Line And Brake Hose Mounting Tabs Radius For Tubing With 5/8" Hole
+Material:     steel
+Source:       https://www.kartek.com/parts/weld-on-brake-line-and-brake-hose-mounting-tabs-radius-for-tubing-with-58-hole.html
+
+Dimensions (inches):
+  style: round top
+  thickness: 0.0625
+  width: 1.0625
+  center: 0.75
+  length: 1.25
+  top_radius: 0.5
+  hole: 0.625
+  tube_od: 1.5
+  notch_depth: 0.2206
+  measured_from: the top of the tube notch
+  slot: 0.125
+  sold_as: each
+
+Estimated (not published by the vendor):
+  tube notch across the whole base
+  release slot 0.125in wide from the hole out through the top, from the product photo
+
+Volume check: ok

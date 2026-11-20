@@ -1,0 +1,257 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -25.4,
+      -0.0
+     ],
+     [
+      25.4,
+      -0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      25.4,
+      -0.0
+     ],
+     [
+      25.4,
+      95.25
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     15.875,
+     95.25
+    ],
+    "start": [
+     25.4,
+     95.25
+    ],
+    "end": [
+     15.875,
+     104.775
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.875,
+      104.775
+     ],
+     [
+      3.175,
+      104.775
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      3.175,
+      104.775
+     ],
+     [
+      3.175,
+      101.6
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      3.175,
+      101.6
+     ],
+     [
+      -3.175,
+      101.6
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -3.175,
+      101.6
+     ],
+     [
+      -3.175,
+      104.775
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -3.175,
+      104.775
+     ],
+     [
+      -15.875,
+      104.775
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     -15.875,
+     95.25
+    ],
+    "start": [
+     -15.875,
+     104.775
+    ],
+    "end": [
+     -25.4,
+     95.25
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -25.4,
+      95.25
+     ],
+     [
+      -25.4,
+      -0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0.0,
+     88.9
+    ],
+    "radius": 5.55625
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.175,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK11054PO",
+     "description": "Flat Steel Body Panel Mounting Tab 3-1/2\" Bottom To Center Of Hole For Use With Our Clip On U-Nuts",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "rect",
+       "thickness": 0.125,
+       "width": 2.0,
+       "length": 4.125,
+       "center": 3.5,
+       "hole": 0.4375,
+       "corner_radius": 0.375,
+       "notch_width": 0.25,
+       "notch_depth": 0.125,
+       "sold_as": "each"
+      },
+      "estimated": [
+       "top corners rounded 0.375in, from the product photo",
+       "anti-spin notch 0.25in wide, its depth 0.125in worked out from the published total length less length to centre and top edge to centre"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/flat-steel-body-panel-mounting-tab-3-12-bottom-to-center-of-hole-for-use-with-our-clip-on-u-nuts.html"
+     }
+    }
+   }
+  }
+ ]
+}

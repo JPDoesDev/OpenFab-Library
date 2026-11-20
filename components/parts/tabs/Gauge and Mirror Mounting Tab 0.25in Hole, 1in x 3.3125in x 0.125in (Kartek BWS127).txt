@@ -1,0 +1,22 @@
+Gauge and Mirror Mounting Tab 0.25in Hole, 1in x 3.3125in x 0.125in
+
+Part number:  BWS127
+Vendor:       Kartek
+Description:  Steel Weld On Mounting Tabs For Autometer Or Rear View Mirrors 3" Long From Edge To Center 1/4" Hole
+Material:     steel
+Source:       https://www.kartek.com/parts/steel-weld-on-mounting-tabs-for-autometer-or-rear-view-mirrors-3-long-from-edge-to-center-14-hole.html
+
+Dimensions (inches):
+  style: round top
+  thickness: 0.125
+  width: 1
+  center: 3
+  length: 3.3125
+  top_radius: 0.3125
+  hole: 0.25
+  sold_as: each
+
+Estimated (not published by the vendor):
+  sides taper straight from the published base width to a round top about the hole, from the product photo
+
+Volume check: ok

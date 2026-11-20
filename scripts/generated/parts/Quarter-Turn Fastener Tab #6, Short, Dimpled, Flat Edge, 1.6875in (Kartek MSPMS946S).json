@@ -1,0 +1,329 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -22.225,
+      -0.0
+     ],
+     [
+      22.225,
+      -0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.225,
+      -0.0
+     ],
+     [
+      22.225,
+      36.5125
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     15.875,
+     36.5125
+    ],
+    "start": [
+     22.225,
+     36.5125
+    ],
+    "end": [
+     15.875,
+     42.8625
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.875,
+      42.8625
+     ],
+     [
+      -15.875,
+      42.8625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     -15.875,
+     36.5125
+    ],
+    "start": [
+     -15.875,
+     42.8625
+    ],
+    "end": [
+     -22.225,
+     36.5125
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -22.225,
+      36.5125
+     ],
+     [
+      -22.225,
+      -0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0.0,
+     28.575
+    ],
+    "radius": 11.43
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -17.4625,
+     28.575
+    ],
+    "radius": 1.6383
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     17.4625,
+     28.575
+    ],
+    "radius": 1.6383
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 2.286,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Plate"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Dimple profile",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      28.575
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      1,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.43,
+      1.143
+     ],
+     [
+      11.43,
+      -1.143
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      11.43,
+      -1.143
+     ],
+     [
+      6.35,
+      -3.429
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      -3.429
+     ],
+     [
+      6.35,
+      -1.143
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.35,
+      -1.143
+     ],
+     [
+      11.43,
+      1.143
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "axis": "y",
+    "name": "Dimple",
+    "operation": "new",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Tab",
+    "tools": [
+     "Plate"
+    ],
+    "operation": "join"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "MSPMS946S",
+     "description": "Short Dimpled Quarter Turn Panel Fastener Tab For #6 Buttons And Springs With Flat Edge",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "quarter turn",
+       "thickness": 0.09,
+       "width": 1.75,
+       "length": 1.6875,
+       "center": 1.125,
+       "corner_radius": 0.25,
+       "hole": 0.5,
+       "button": "#6",
+       "rivet_holes": 0.129,
+       "rivet_centres": 1.375,
+       "edge": "flat",
+       "dimple_dia": 0.9,
+       "dimple_depth": 0.09,
+       "sold_as": "each"
+      },
+      "estimated": [
+       "thickness 0.09in: not published by Kartek; taken as 0.090in sheet to suit the spring and button stack-up",
+       "dimple 0.9in across, pressed 0.09in back; rivet holes left plain",
+       "width 1.75in, hole 0.5in and corner shape from the product photos",
+       "rivet holes on the 1.375in centres of the matching S-spring"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/short-dimpled-quarter-turn-panel-fastener-tab-for-6-buttons-and-springs-with-flat-edge.html"
+     }
+    }
+   }
+  }
+ ]
+}

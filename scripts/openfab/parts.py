@@ -14,7 +14,8 @@ Origin conventions (all axes on world Z unless noted):
   sleeve, jam nut       its own centre
   weld-in bung          the face the jam nut seats on at x = 0, thread axis along +X (as a rod end shank), body towards +X
 
-Bolts, nuts, washers and mount tabs are left to the builder and are not modelled.
+Bolts, nuts and washers are left to the builder and are not modelled. Weld-on tabs are their
+own family, in tabs.py.
 """
 from __future__ import annotations
 

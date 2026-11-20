@@ -1,0 +1,352 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -14.224,
+      0.0
+     ],
+     [
+      14.224,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.224,
+      0.0
+     ],
+     [
+      20.32,
+      10.00125
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.32,
+      10.00125
+     ],
+     [
+      20.32,
+      23.33625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.32,
+      23.33625
+     ],
+     [
+      14.224,
+      33.3375
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.224,
+      33.3375
+     ],
+     [
+      -14.224,
+      33.3375
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -14.224,
+      33.3375
+     ],
+     [
+      -20.32,
+      23.33625
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -20.32,
+      23.33625
+     ],
+     [
+      -20.32,
+      10.00125
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -20.32,
+      10.00125
+     ],
+     [
+      -14.224,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0.0,
+     17.4625
+    ],
+    "radius": 3.96875
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.175,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Plate"
+   }
+  },
+  {
+   "command": "sheet.manage_rules",
+   "params": {
+    "name": "Tab",
+    "thickness": "3.175 mm",
+    "k_factor": "0.5",
+    "bend_radius": "3.175 mm"
+   }
+  },
+  {
+   "command": "sheet.convert",
+   "params": {
+    "body": "Plate",
+    "face": [
+     0.0,
+     1.5875,
+     2.032
+    ]
+   }
+  },
+  {
+   "command": "sheet.fold",
+   "params": {
+    "points": [
+     [
+      12.7,
+      1.5875,
+      0.0
+     ],
+     [
+      12.7,
+      1.5875,
+      33.3375
+     ]
+    ],
+    "angle": "30 deg"
+   }
+  },
+  {
+   "command": "sheet.fold",
+   "params": {
+    "points": [
+     [
+      -12.7,
+      1.5875,
+      0.0
+     ],
+     [
+      -12.7,
+      1.5875,
+      33.3375
+     ]
+    ],
+    "angle": "30 deg"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 14.2748,
+    "height": 5.08,
+    "base": [
+     0.0,
+     -1.5875,
+     17.4625
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "name": "Nutsert",
+    "operation": "new",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Tab",
+    "tools": [
+     "Plate"
+    ],
+    "operation": "join"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 7.9375,
+    "height": 9.271,
+    "base": [
+     0,
+     2.0955,
+     17.4625
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "Tab"
+    ],
+    "name": "Thread bore"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     3.96875,
+     -4.1275,
+     17.4625
+    ],
+    "from": [
+     3.96875,
+     -6.6675,
+     17.4625
+    ],
+    "designation": "M7.9375x1.4111",
+    "hand": "right",
+    "length": 5.08,
+    "name": "Thread"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK11651",
+     "description": "Broke Chromoly Mounting Tab 5/16-18 Coarse Thread Fixed Position Nut 1/8\" Thick Sold Individually",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "broke nut",
+       "thickness": 0.125,
+       "width": 1.0,
+       "length": 1.3125,
+       "center": 0.6875,
+       "hole": 0.3125,
+       "wing": 0.3,
+       "fold_angle": 30,
+       "nut": "nutsert",
+       "nut_height": 0.2,
+       "thread": "5/16-18 UNC",
+       "sold_as": "each"
+      },
+      "estimated": [
+       "wings 0.3in each side, folded back 30 degrees on a 0.125in inside radius, from the product photos (Kartek's width is the flat centre)",
+       "nutsert modelled as a 0.562in boss 0.2in proud of the back face (Kartek gives only the thread)",
+       "bore at the thread's major diameter; the thread is cosmetic only"
+      ],
+      "also_available_as": [],
+      "thread": "5/16-18 UNC",
+      "source": "https://www.kartek.com/parts/broke-chromoly-mounting-tab-516-18-coarse-thread-fixed-position-nut-18-thick-sold-individually.html"
+     }
+    }
+   }
+  }
+ ]
+}

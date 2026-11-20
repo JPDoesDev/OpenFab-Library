@@ -1,0 +1,256 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -22.225,
+      -6.35
+     ],
+     [
+      22.225,
+      -6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.225,
+      -6.35
+     ],
+     [
+      22.225,
+      31.75
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     15.875,
+     31.75
+    ],
+    "start": [
+     22.225,
+     31.75
+    ],
+    "end": [
+     15.875,
+     38.1
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      15.875,
+      38.1
+     ],
+     [
+      -15.875,
+      38.1
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     -15.875,
+     31.75
+    ],
+    "start": [
+     -15.875,
+     38.1
+    ],
+    "end": [
+     -22.225,
+     31.75
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -22.225,
+      31.75
+     ],
+     [
+      -22.225,
+      -6.35
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0.0,
+     25.4
+    ],
+    "radius": 6.35
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -17.4625,
+     25.4
+    ],
+    "radius": 1.6383
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     17.4625,
+     25.4
+    ],
+    "radius": 1.6383
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 2.286,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "sheet.manage_rules",
+   "params": {
+    "name": "Tab",
+    "thickness": "2.286 mm",
+    "k_factor": "0.5",
+    "bend_radius": "2.286 mm"
+   }
+  },
+  {
+   "command": "sheet.convert",
+   "params": {
+    "body": "Tab",
+    "face": [
+     0.0,
+     1.143,
+     12.7
+    ]
+   }
+  },
+  {
+   "command": "sheet.fold",
+   "params": {
+    "points": [
+     [
+      -22.225,
+      1.143,
+      0.0
+     ],
+     [
+      22.225,
+      1.143,
+      0.0
+     ]
+    ],
+    "angle": "90 deg"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK8210",
+     "description": "Non-Dimpled Short Quarter Turn Panel Fastener Tab For #6 Buttons And Springs With Broke Edge",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "quarter turn",
+       "thickness": 0.09,
+       "width": 1.75,
+       "length": 1.5,
+       "center": 1.0,
+       "corner_radius": 0.25,
+       "hole": 0.5,
+       "button": "#6",
+       "rivet_holes": 0.129,
+       "rivet_centres": 1.375,
+       "flange": 0.25,
+       "edge": "broke: a flange folded back 90 degrees at the bottom",
+       "sold_as": "each"
+      },
+      "estimated": [
+       "thickness 0.09in: not published by Kartek; taken as 0.090in sheet to suit the spring and button stack-up",
+       "flange 0.25in (flat) folded back 90 degrees on a 0.09in inside radius; Kartek's overall height is taken from the fold line",
+       "width 1.75in, hole 0.5in and corner shape from the product photos",
+       "rivet holes on the 1.375in centres of the matching S-spring"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/non-dimpled-short-quarter-turn-panel-fastener-tab-for-6-buttons-and-springs-with-broke-edge.html"
+     }
+    }
+   }
+  }
+ ]
+}

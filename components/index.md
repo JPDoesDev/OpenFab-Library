@@ -16,6 +16,7 @@ Part numbers are stored inside each `.sc` file, so a SolidCraft bill of material
 | [Safety Washers](parts/safety-washers/index.md) | 3 |
 | [Snap Rings](parts/snap-rings/index.md) | 15 |
 | [Spacers](parts/spacers/index.md) | 50 |
+| [Tabs](parts/tabs/index.md) | 31 |
 | [Uniball Cups](parts/uniball-cups/index.md) | 26 |
 | [Uniballs](parts/uniballs/index.md) | 78 |
 | [Weld In Bungs](parts/weld-in-bungs/index.md) | 38 |

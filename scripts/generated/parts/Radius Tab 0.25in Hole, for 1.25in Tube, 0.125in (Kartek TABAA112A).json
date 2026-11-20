@@ -1,0 +1,194 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -19.05,
+      0.0
+     ],
+     [
+      -14.810618,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     -5.715
+    ],
+    "start": [
+     -14.810618,
+     0.0
+    ],
+    "end": [
+     14.810618,
+     0.0
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.810618,
+      0.0
+     ],
+     [
+      19.05,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      0.0
+     ],
+     [
+      9.851271,
+      36.458072
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     33.9725
+    ],
+    "start": [
+     9.851271,
+     36.458072
+    ],
+    "end": [
+     -9.851271,
+     36.458072
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -9.851271,
+      36.458072
+     ],
+     [
+      -19.05,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0.0,
+     33.9725
+    ],
+    "radius": 3.175
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.175,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "TABAA112A",
+     "description": "Weld On Steel Radiused Mounting Tab For 1-1/4\" Tubing 1/4\" Hole 1/8\" Thick 15/16\" Top Edge To Center",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "round top",
+       "thickness": 0.125,
+       "width": 1.5,
+       "center": 0.9375,
+       "length": 1.3375,
+       "top_radius": 0.4,
+       "hole": 0.25,
+       "tube_od": 1.25,
+       "notch_depth": 0.4,
+       "measured_from": "the top of the tube notch",
+       "sold_as": "pair"
+      },
+      "estimated": [
+       "base width 1.5in, notch depth 0.4in and top radius 0.4in, from the product photo",
+       "Kartek's 15/16in top edge to centre taken as from the top of the tube notch to the hole (its table gives a 1in stand off)"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/weld-on-steel-radiused-mounting-tab-for-1-14-tubing-14-hole-18-thick-1516-top-edge-to-center.html"
+     }
+    }
+   }
+  }
+ ]
+}

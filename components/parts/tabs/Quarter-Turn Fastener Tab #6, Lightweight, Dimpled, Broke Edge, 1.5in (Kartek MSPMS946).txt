@@ -1,0 +1,31 @@
+Quarter-Turn Fastener Tab #6, Lightweight, Dimpled, Broke Edge, 1.5in
+
+Part number:  MSPMS946
+Vendor:       Kartek
+Description:  Dimpled Lightweight Quarter Turn Panel Fastener Tab For #6 Buttons And Springs With Broke Edge
+Material:     steel
+Source:       https://www.kartek.com/parts/dimpled-lightweight-quarter-turn-panel-fastener-tab-for-6-buttons-and-springs-with-broke-edge-33340.html
+
+Dimensions (inches):
+  style: quarter turn light
+  thickness: 0.09
+  length: 1.5
+  center: 1
+  width: 1.755
+  hole: 0.5
+  button: #6
+  rivet_holes: 0.129
+  rivet_centres: 1.375
+  flange: 0.3
+  edge: broke: a flange folded back 90 degrees at the bottom
+  dimple_dia: 0.9
+  dimple_depth: 0.09
+  sold_as: each
+
+Estimated (not published by the vendor):
+  thickness 0.09in: not published by Kartek; taken as 0.090in sheet to suit the spring and button stack-up
+  outline (lobes, lightening holes, 0.36in flange notch) and width from the product photos
+  rivet holes on the 1.375in centres of the matching S-spring
+  dimple 0.9in across, pressed 0.09in back; rivet holes left plain
+
+Volume check: ok

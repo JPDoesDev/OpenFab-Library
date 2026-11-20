@@ -1,0 +1,468 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -17.4625,
+      0.0
+     ],
+     [
+      17.4625,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      17.4625,
+      0.0
+     ],
+     [
+      8.972744,
+      23.833668
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     20.6375
+    ],
+    "start": [
+     8.972744,
+     23.833668
+    ],
+    "end": [
+     -8.972744,
+     23.833668
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -8.972744,
+      23.833668
+     ],
+     [
+      -17.4625,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0.0,
+     20.6375
+    ],
+    "radius": 3.57124
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 1.5875,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Plate"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 13.208,
+    "height": 1.27,
+    "base": [
+     0.0,
+     -0.79375,
+     20.6375
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "name": "Nut hub",
+    "operation": "new",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Nut lug 1 outline",
+    "plane": {
+     "origin": [
+      0.0,
+      -0.79375,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      1.796051,
+      18.841449
+     ],
+     [
+      -3.592102,
+      13.453295
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     -5.388154,
+     15.249346
+    ],
+    "start": [
+     -3.592102,
+     13.453295
+    ],
+    "end": [
+     -7.184205,
+     17.045398
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -7.184205,
+      17.045398
+     ],
+     [
+      -1.796051,
+      22.433551
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     20.6375
+    ],
+    "start": [
+     -1.796051,
+     22.433551
+    ],
+    "end": [
+     1.796051,
+     18.841449
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 1.27,
+    "name": "Nut lug 1",
+    "operation": "join",
+    "targets": [
+     "Tab"
+    ]
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Nut lug 2 outline",
+    "plane": {
+     "origin": [
+      0.0,
+      -0.79375,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      1.796051,
+      22.433551
+     ],
+     [
+      7.184205,
+      17.045398
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     5.388154,
+     15.249346
+    ],
+    "start": [
+     7.184205,
+     17.045398
+    ],
+    "end": [
+     3.592102,
+     13.453295
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      3.592102,
+      13.453295
+     ],
+     [
+      -1.796051,
+      18.841449
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     20.6375
+    ],
+    "start": [
+     -1.796051,
+     18.841449
+    ],
+    "end": [
+     1.796051,
+     22.433551
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 1.27,
+    "name": "Nut lug 2",
+    "operation": "join",
+    "targets": [
+     "Tab"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 11.176,
+    "height": 7.112,
+    "base": [
+     0.0,
+     -0.79375,
+     20.6375
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "name": "Nut barrel",
+    "operation": "join",
+    "targets": [
+     "Tab"
+    ]
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "Tab",
+    "tools": [
+     "Plate"
+    ],
+    "operation": "join"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": 6.35,
+    "height": 9.7155,
+    "base": [
+     0,
+     1.30175,
+     20.6375
+    ],
+    "axis": [
+     0,
+     -1,
+     0
+    ],
+    "operation": "cut",
+    "targets": [
+     "Tab"
+    ],
+    "name": "Thread bore"
+   }
+  },
+  {
+   "command": "solid.thread",
+   "params": {
+    "face": [
+     3.175,
+     -4.34975,
+     20.6375
+    ],
+    "from": [
+     3.175,
+     -7.90575,
+     20.6375
+    ],
+    "designation": "M6.35x0.9071",
+    "hand": "right",
+    "length": 7.112,
+    "name": "Thread"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK29061",
+     "description": "Small Flat Chromoly Mounting Tab 3/4\" Bottom To Center Of Hole 1/4-28 Thread Sold Individually",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "nut round top",
+       "thickness": 0.0625,
+       "width": 1.375,
+       "center": 0.8125,
+       "length": 1.1875,
+       "top_radius": 0.375,
+       "hole": 0.2812,
+       "nut": "fixed",
+       "nut_height": 0.28,
+       "thread": "1/4-28 UNF",
+       "sold_as": "each"
+      },
+      "estimated": [
+       "round top about the hole with straight sides out to the published base width, from the product photo",
+       "nut lugs angled down either side of the hole, on 0.6in centres, from the product photo",
+       "anchor nut: 0.44in barrel 0.28in proud of the back face on a 0.05in flange with lugs 0.2in wide, from the product photos; Kartek gives the thread and the 0.6in rivet centres",
+       "bore at the thread's major diameter; the thread is cosmetic only"
+      ],
+      "also_available_as": [],
+      "thread": "1/4-28 UNF",
+      "source": "https://www.kartek.com/parts/small-flat-chromoly-mounting-tab-34-bottom-to-center-of-hole-14-28-thread-sold-individually.html"
+     }
+    }
+   }
+  }
+ ]
+}

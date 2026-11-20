@@ -1,0 +1,242 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -57.15,
+      0.0
+     ],
+     [
+      -27.94,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -27.94,
+      0.0
+     ],
+     [
+      -17.78,
+      19.05
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -17.78,
+      19.05
+     ],
+     [
+      17.78,
+      19.05
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      17.78,
+      19.05
+     ],
+     [
+      27.94,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      27.94,
+      0.0
+     ],
+     [
+      57.15,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      57.15,
+      0.0
+     ],
+     [
+      57.15,
+      5.08
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      57.15,
+      5.08
+     ],
+     [
+      36.83,
+      31.75
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      36.83,
+      31.75
+     ],
+     [
+      -36.83,
+      31.75
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -36.83,
+      31.75
+     ],
+     [
+      -57.15,
+      5.08
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -57.15,
+      5.08
+     ],
+     [
+      -57.15,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 4.7625,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "KTK06351",
+     "description": "Weld On Ratchet Strap Tie Down Tow Hook Mounting Bracket 4-1/2\" Long 3/4\" Tall Underneath",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "arch",
+       "thickness": 0.1875,
+       "length_along_base": 4.5,
+       "opening_height": 0.75,
+       "height": 1.25,
+       "opening_bottom": 2.2,
+       "opening_top": 1.4,
+       "top_width": 2.9,
+       "sold_as": "each"
+      },
+      "estimated": [
+       "thickness 0.1875in: not published by Kartek; taken as 3/16in",
+       "height 1.25in, top 2.9in, opening 2.2in at the base narrowing to 1.4in, ends 0.2in high: scaled from Kartek's dimensioned photo"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/weld-on-ratchet-strap-tie-down-tow-hook-mounting-bracket-4-12-long-34-tall-underneath.html"
+     }
+    }
+   }
+  }
+ ]
+}

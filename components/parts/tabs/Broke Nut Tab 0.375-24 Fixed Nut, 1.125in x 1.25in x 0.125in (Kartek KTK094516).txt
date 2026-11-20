@@ -1,0 +1,28 @@
+Broke Nut Tab 0.375-24 Fixed Nut, 1.125in x 1.25in x 0.125in
+
+Part number:  KTK094516
+Vendor:       Kartek
+Description:  Broke Chromoly Mounting Tab 3/8-24 Fine Thread Fixed Position Nut 1/8" Thick Sold Individually
+Material:     4130
+Source:       https://www.kartek.com/parts/broke-chromoly-mounting-tab-38-24-fine-thread-fixed-position-nut-18-thick-sold-individually.html
+
+Dimensions (inches):
+  style: broke nut
+  thickness: 0.125
+  width: 1.125
+  length: 1.25
+  center: 0.6875
+  hole: 0.4062
+  wing: 0.3
+  fold_angle: 30
+  nut: fixed
+  nut_height: 0.405
+  thread: 3/8-24 UNF
+  sold_as: each
+
+Estimated (not published by the vendor):
+  wings 0.3in each side, folded back 30 degrees on a 0.125in inside radius, from the product photos (Kartek's width is the flat centre)
+  anchor nut: 0.565in barrel 0.405in proud of the back face on a 0.05in flange with lugs 0.3in wide, from the product photos; Kartek gives the thread and the 1in rivet centres
+  bore at the thread's major diameter; the thread is cosmetic only
+
+Volume check: ok

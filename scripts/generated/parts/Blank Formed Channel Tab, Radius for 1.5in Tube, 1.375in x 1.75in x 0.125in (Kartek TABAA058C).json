@@ -1,0 +1,317 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     -7.613383
+    ],
+    "start": [
+     -17.4625,
+     0.0
+    ],
+    "end": [
+     17.4625,
+     0.0
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      17.4625,
+      0.0
+     ],
+     [
+      17.4625,
+      38.424117
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     38.424117
+    ],
+    "start": [
+     17.4625,
+     38.424117
+    ],
+    "end": [
+     -17.4625,
+     38.424117
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -17.4625,
+      38.424117
+     ],
+     [
+      -17.4625,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.175,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Right flange outline",
+    "plane": {
+     "origin": [
+      14.2875,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -1.5875,
+      0.0
+     ],
+     [
+      -13.0175,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -13.0175,
+      0.0
+     ],
+     [
+      -1.5875,
+      33.02
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -1.5875,
+      33.02
+     ],
+     [
+      -1.5875,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.175,
+    "operation": "join",
+    "name": "Right flange"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Left flange outline",
+    "plane": {
+     "origin": [
+      -17.4625,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -1.5875,
+      0.0
+     ],
+     [
+      -13.0175,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -13.0175,
+      0.0
+     ],
+     [
+      -1.5875,
+      33.02
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -1.5875,
+      33.02
+     ],
+     [
+      -1.5875,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.175,
+    "operation": "join",
+    "name": "Left flange"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "TABAA058C",
+     "description": "Blank Formed Channel Tab Without Hole Radius For 1-1/2\" Tube 1/8\" Thick - Sold As Pair",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "channel",
+       "thickness": 0.125,
+       "width_outside": 1.375,
+       "tube_od": 1.5,
+       "notch_depth": 0.4503,
+       "length_from_notch_top": 1.75,
+       "flange_depth": 0.45,
+       "flange_height": 1.3,
+       "measured_from": "the bottom corners of the web",
+       "sold_as": "pair"
+      },
+      "estimated": [
+       "full round top, from the product photo",
+       "side flanges 0.45in deep at the base tapering to nothing 1.3in up, from the product photo; bends modelled as sharp corners"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/blank-formed-channel-tab-without-hole-radius-for-1-12-tube-18-thick-sold-as-pair.html"
+     }
+    }
+   }
+  }
+ ]
+}

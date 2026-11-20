@@ -1,0 +1,24 @@
+Ratchet Strap Tie Down Bracket, 4.5in Long, 1.5in Opening
+
+Part number:  KTK06351T
+Vendor:       Kartek
+Description:  Weld On Ratchet Strap Tie Down Tow Hook Mounting Bracket 4-1/2" Long 1-1/2" Tall Underneath
+Material:     steel
+Source:       https://www.kartek.com/parts/weld-on-ratchet-strap-tie-down-tow-hook-mounting-bracket-4-12-long-1-12-tall-underneath.html
+
+Dimensions (inches):
+  style: arch
+  thickness: 0.1875
+  length_along_base: 4.5
+  opening_height: 1.5
+  height: 2
+  opening_bottom: 2
+  opening_top: 1.1
+  top_width: 2.3
+  sold_as: each
+
+Estimated (not published by the vendor):
+  thickness 0.1875in: not published by Kartek; taken as 3/16in
+  height 2in, top 2.3in, opening 2in at the base narrowing to 1.1in, ends 0.2in high: scaled from Kartek's dimensioned photo
+
+Volume check: ok

@@ -1,0 +1,26 @@
+Radius Tab 0.25in Hole, for 1.25in Tube, 0.125in
+
+Part number:  TABAA112A
+Vendor:       Kartek
+Description:  Weld On Steel Radiused Mounting Tab For 1-1/4" Tubing 1/4" Hole 1/8" Thick 15/16" Top Edge To Center
+Material:     steel
+Source:       https://www.kartek.com/parts/weld-on-steel-radiused-mounting-tab-for-1-14-tubing-14-hole-18-thick-1516-top-edge-to-center.html
+
+Dimensions (inches):
+  style: round top
+  thickness: 0.125
+  width: 1.5
+  center: 0.9375
+  length: 1.3375
+  top_radius: 0.4
+  hole: 0.25
+  tube_od: 1.25
+  notch_depth: 0.4
+  measured_from: the top of the tube notch
+  sold_as: pair
+
+Estimated (not published by the vendor):
+  base width 1.5in, notch depth 0.4in and top radius 0.4in, from the product photo
+  Kartek's 15/16in top edge to centre taken as from the top of the tube notch to the hole (its table gives a 1in stand off)
+
+Volume check: ok

@@ -1,0 +1,28 @@
+Small Flat Nut Tab 0.25-28 Fixed Nut, 1.375in x 1.1875in x 0.0625in
+
+Part number:  KTK29061
+Vendor:       Kartek
+Description:  Small Flat Chromoly Mounting Tab 3/4" Bottom To Center Of Hole 1/4-28 Thread Sold Individually
+Material:     4130
+Source:       https://www.kartek.com/parts/small-flat-chromoly-mounting-tab-34-bottom-to-center-of-hole-14-28-thread-sold-individually.html
+
+Dimensions (inches):
+  style: nut round top
+  thickness: 0.0625
+  width: 1.375
+  center: 0.8125
+  length: 1.1875
+  top_radius: 0.375
+  hole: 0.2812
+  nut: fixed
+  nut_height: 0.28
+  thread: 1/4-28 UNF
+  sold_as: each
+
+Estimated (not published by the vendor):
+  round top about the hole with straight sides out to the published base width, from the product photo
+  nut lugs angled down either side of the hole, on 0.6in centres, from the product photo
+  anchor nut: 0.44in barrel 0.28in proud of the back face on a 0.05in flange with lugs 0.2in wide, from the product photos; Kartek gives the thread and the 0.6in rivet centres
+  bore at the thread's major diameter; the thread is cosmetic only
+
+Volume check: ok

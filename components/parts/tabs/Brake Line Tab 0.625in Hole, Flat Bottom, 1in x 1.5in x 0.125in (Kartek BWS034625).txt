@@ -1,0 +1,22 @@
+Brake Line Tab 0.625in Hole, Flat Bottom, 1in x 1.5in x 0.125in
+
+Part number:  BWS034625
+Vendor:       Kartek
+Description:  Weld On Brake Line And Brake Hose Mounting Flat Bottom Tabs With 5/8" Hole - Sold As A Pair
+Material:     steel
+Source:       https://www.kartek.com/parts/weld-on-brake-line-and-brake-hose-mounting-flat-bottom-tabs-with-58-hole-sold-as-a-pair.html
+
+Dimensions (inches):
+  style: round top
+  thickness: 0.125
+  width: 1
+  center: 1
+  length: 1.5
+  top_radius: 0.5
+  hole: 0.625
+  sold_as: pair
+
+Estimated (not published by the vendor):
+  full round top, from the product photo
+
+Volume check: ok

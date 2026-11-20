@@ -1,0 +1,164 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -19.05,
+      0.0
+     ],
+     [
+      19.05,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      0.0
+     ],
+     [
+      19.05,
+      57.15
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     57.15
+    ],
+    "start": [
+     19.05,
+     57.15
+    ],
+    "end": [
+     -19.05,
+     57.15
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -19.05,
+      57.15
+     ],
+     [
+      -19.05,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0.0,
+     57.15
+    ],
+    "radius": 4.7625
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 4.7625,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "FMTAB",
+     "description": "AutoFab Steel Body Panel Mounting Tab 3/8\" Hole 2-1/4 Inches From Bottom To Center Of Hole",
+     "organization": "AutoFab",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "round top",
+       "thickness": 0.1875,
+       "width": 1.5,
+       "center": 2.25,
+       "length": 3.0,
+       "top_radius": 0.75,
+       "hole": 0.375,
+       "sold_as": "each"
+      },
+      "estimated": [
+       "thickness 0.1875in: not published by Kartek; taken as 3/16in",
+       "full round top, from the product photo"
+      ],
+      "also_available_as": [
+       {
+        "other_vendor": "Kartek",
+        "other_part_number": "AFB100P",
+        "relation": "same part",
+        "note": "Kartek stock number for the AutoFab part"
+       }
+      ],
+      "source": "https://www.kartek.com/parts/autofab-steel-body-panel-mounting-tab-38-hole-2-14-inches-from-bottom-to-center-of-hole.html"
+     }
+    }
+   }
+  }
+ ]
+}

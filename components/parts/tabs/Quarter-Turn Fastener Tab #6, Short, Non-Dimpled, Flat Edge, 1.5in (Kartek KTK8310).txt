@@ -1,0 +1,28 @@
+Quarter-Turn Fastener Tab #6, Short, Non-Dimpled, Flat Edge, 1.5in
+
+Part number:  KTK8310
+Vendor:       Kartek
+Description:  Non-Dimpled Short Quarter Turn Panel Fastener Tab For #6 Buttons And Springs With Flat Edge
+Material:     steel
+Source:       https://www.kartek.com/parts/non-dimpled-short-quarter-turn-panel-fastener-tab-for-6-buttons-and-springs-with-flat-edge.html
+
+Dimensions (inches):
+  style: quarter turn
+  thickness: 0.09
+  width: 1.75
+  length: 1.5
+  center: 1
+  corner_radius: 0.25
+  hole: 0.5
+  button: #6
+  rivet_holes: 0.129
+  rivet_centres: 1.375
+  edge: flat
+  sold_as: each
+
+Estimated (not published by the vendor):
+  thickness 0.09in: not published by Kartek; taken as 0.090in sheet to suit the spring and button stack-up
+  width 1.75in, hole 0.5in and corner shape from the product photos
+  rivet holes on the 1.375in centres of the matching S-spring
+
+Volume check: ok

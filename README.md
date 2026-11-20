@@ -2,12 +2,15 @@
 
 Common off-road fabrication hardware as SolidCraft parts and ready-mated assemblies:
 spherical bearings (uniballs), rod ends (heims), misalignment spacers, weld-in cups,
-snap rings, jam nuts, weld-in threaded bungs, pivot bushings and sleeves. Every part carries its vendor part
+snap rings, jam nuts, weld-in threaded bungs, pivot bushings and sleeves, and weld-on tabs. Every part carries its vendor part
 number, so an assembly's bill of materials comes out ready to order from.
 
 Status: the FK and Aurora rod ends and uniballs that Kartek lists with published
 dimensions, in every size, with their jam nuts, cups, snap rings, spacers and weld-in bungs,
-plus the common sleeve-bushing pivots. Parts whose dimensions no vendor publishes are left out.
+plus the common sleeve-bushing pivots and the off-the-shelf weld-on tabs Kartek sells with
+published dimensions (nut tabs, panel tabs, brake line tabs, quarter-turn fastener tabs,
+shackle mounts and tie-down brackets). Parts whose dimensions no vendor publishes are left
+out, and so are vendors' own branded mounts made for one product.
 
 ## What the licence means for builders
 
@@ -42,7 +45,8 @@ Browse the components with pictures and part numbers:
   [safety washers](components/parts/safety-washers/index.md) ·
   [bushings](components/parts/bushings/index.md) ·
   [inner sleeves](components/parts/inner-sleeves/index.md) ·
-  [outer sleeves](components/parts/outer-sleeves/index.md)
+  [outer sleeves](components/parts/outer-sleeves/index.md) ·
+  [tabs](components/parts/tabs/index.md)
 - Assemblies: [uniball stacks](components/assemblies/uniball-stacks/index.md) ·
   [rod end links](components/assemblies/rod-end-links/index.md) ·
   [bushing pivots](components/assemblies/bushing-pivots/index.md)
@@ -58,7 +62,7 @@ together, because assemblies link to the part files by relative path.
       parts/
         uniballs/               index.md, then for each part: .sc  .step  .png  .txt
         rod-ends/  spacers/  uniball-cups/  snap-rings/  jam-nuts/
-        weld-in-bungs/  safety-washers/  bushings/  inner-sleeves/  outer-sleeves/
+        weld-in-bungs/  safety-washers/  bushings/  inner-sleeves/  outer-sleeves/  tabs/
         _internal/              bearing balls: helpers the assemblies need, not things you buy
       assemblies/
         uniball-stacks/         index.md, then one folder per assembly: .sc  .step  .png  .bom.csv
@@ -154,6 +158,13 @@ vendor does not publish a dimension it is estimated, and the part's `estimated` 
 - weld-in bungs: thread depth is taken as three quarters of the length (Kartek says only "not
   threaded all the way through"), and the head diameter, weld chamfer and square-bung taper are
   scaled from photos
+- weld-on tabs: Kartek publishes the width, length, hole position and thickness of most tabs;
+  the outline between those points (corner chamfers and radii, the broke-edge wings and their
+  30 degree fold, notch and flange sizes) is scaled from photos. Where no thickness is
+  published it is taken as 3/16in, except quarter-turn fastener tabs at 0.090in sheet. The
+  nuts on nut tabs are modelled as their envelope (barrel, flange or cage, rivet lugs) with
+  the published thread and rivet centres. Each tab stands on its weld edge at z = 0 with its
+  front (panel) face towards +Y; nuts, dimples and folds are on the back
 - wobble stopper stack: the slotted end plates are not modelled, so it swings like a plain uniball
 - AutoFab kit sleeves: inferred from the kit size and its bushings
 - cone, radius, hourglass, stepped and flat-top spacer heads follow the same six published
@@ -162,7 +173,7 @@ vendor does not publish a dimension it is estimated, and the part's `estimated` 
 Rod end shanks carry a cosmetic thread over the threaded length, with the right pitch and
 hand. SolidCraft has no Unified form for shaft threads, so it is stored as the same profile
 in millimetres (3/4-16 shows as M19.05x1.5875) and the feature is named with the real
-callout. Bung threads are cosmetic in the same way. Jam nut threads are not modelled. Urethane bushings overlap their sleeves by the
+callout. Bung and tab nut threads are cosmetic in the same way. Jam nut threads are not modelled. Urethane bushings overlap their sleeves by the
 press fit.
 
 ## Contact and contributing

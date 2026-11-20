@@ -19,6 +19,7 @@ from urllib.parse import quote
 
 from . import assemblies as A
 from . import parts as P
+from . import tabs as T
 from .sc import IN, Script, measure, run, snapshot, version
 
 ROOT = Path(__file__).resolve().parent.parent          # scripts/
@@ -31,6 +32,7 @@ FAMILIES = [  # (csv, generator); bearings first so cups can look up the race wi
     ("bushings", P.bushing), ("sleeves", P.sleeve),
     ("safety_washers", P.safety_washer),
     ("bungs", P.bung),
+    ("tabs", T.tab),
 ]
 VOLUME_TOL = 0.002
 

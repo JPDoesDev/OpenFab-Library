@@ -1,0 +1,156 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "name": "Outline",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -12.7,
+      0.0
+     ],
+     [
+      12.7,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.7,
+      0.0
+     ],
+     [
+      12.7,
+      25.4
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.0,
+     25.4
+    ],
+    "start": [
+     12.7,
+     25.4
+    ],
+    "end": [
+     -12.7,
+     25.4
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -12.7,
+      25.4
+     ],
+     [
+      -12.7,
+      0.0
+     ]
+    ],
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0.0,
+     25.4
+    ],
+    "radius": 7.9375
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 3.175,
+    "direction": "symmetric",
+    "operation": "new",
+    "name": "Plate",
+    "body_name": "Tab"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Tab"
+    ],
+    "material": "Steel"
+   }
+  },
+  {
+   "command": "document.metadata.set",
+   "params": {
+    "values": {
+     "part_number": "BWS034625",
+     "description": "Weld On Brake Line And Brake Hose Mounting Flat Bottom Tabs With 5/8\" Hole - Sold As A Pair",
+     "organization": "Kartek",
+     "project": "OpenFab Library",
+     "dev.jpdoes.openfab": {
+      "family": "tab",
+      "units": "in",
+      "dims": {
+       "style": "round top",
+       "thickness": 0.125,
+       "width": 1.0,
+       "center": 1.0,
+       "length": 1.5,
+       "top_radius": 0.5,
+       "hole": 0.625,
+       "sold_as": "pair"
+      },
+      "estimated": [
+       "full round top, from the product photo"
+      ],
+      "also_available_as": [],
+      "source": "https://www.kartek.com/parts/weld-on-brake-line-and-brake-hose-mounting-flat-bottom-tabs-with-58-hole-sold-as-a-pair.html"
+     }
+    }
+   }
+  }
+ ]
+}

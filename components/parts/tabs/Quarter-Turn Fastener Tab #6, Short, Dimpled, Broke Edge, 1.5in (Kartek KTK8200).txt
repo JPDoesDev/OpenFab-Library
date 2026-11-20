@@ -1,0 +1,33 @@
+Quarter-Turn Fastener Tab #6, Short, Dimpled, Broke Edge, 1.5in
+
+Part number:  KTK8200
+Vendor:       Kartek
+Description:  Short Dimpled Quarter Turn Panel Fastener Tab For #6 Buttons And Springs With Broke Edge
+Material:     steel
+Source:       https://www.kartek.com/parts/short-dimpled-quarter-turn-panel-fastener-tab-for-6-buttons-and-springs-with-broke-edge.html
+
+Dimensions (inches):
+  style: quarter turn
+  thickness: 0.09
+  width: 1.75
+  length: 1.5
+  center: 1
+  corner_radius: 0.25
+  hole: 0.5
+  button: #6
+  rivet_holes: 0.129
+  rivet_centres: 1.375
+  flange: 0.25
+  edge: broke: a flange folded back 90 degrees at the bottom
+  dimple_dia: 0.9
+  dimple_depth: 0.09
+  sold_as: each
+
+Estimated (not published by the vendor):
+  thickness 0.09in: not published by Kartek; taken as 0.090in sheet to suit the spring and button stack-up
+  flange 0.25in (flat) folded back 90 degrees on a 0.09in inside radius; Kartek's overall height is taken from the fold line
+  dimple 0.9in across, pressed 0.09in back; rivet holes left plain
+  width 1.75in, hole 0.5in and corner shape from the product photos
+  rivet holes on the 1.375in centres of the matching S-spring
+
+Volume check: ok

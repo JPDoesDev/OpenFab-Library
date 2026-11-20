@@ -1,0 +1,25 @@
+Flat Body Panel Tab for Clip-On U-Nuts, 2in x 4.125in x 0.125in
+
+Part number:  KTK11054PO
+Vendor:       Kartek
+Description:  Flat Steel Body Panel Mounting Tab 3-1/2" Bottom To Center Of Hole For Use With Our Clip On U-Nuts
+Material:     steel
+Source:       https://www.kartek.com/parts/flat-steel-body-panel-mounting-tab-3-12-bottom-to-center-of-hole-for-use-with-our-clip-on-u-nuts.html
+
+Dimensions (inches):
+  style: rect
+  thickness: 0.125
+  width: 2
+  length: 4.125
+  center: 3.5
+  hole: 0.4375
+  corner_radius: 0.375
+  notch_width: 0.25
+  notch_depth: 0.125
+  sold_as: each
+
+Estimated (not published by the vendor):
+  top corners rounded 0.375in, from the product photo
+  anti-spin notch 0.25in wide, its depth 0.125in worked out from the published total length less length to centre and top edge to centre
+
+Volume check: ok
